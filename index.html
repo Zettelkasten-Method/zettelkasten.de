@@ -12,7 +12,12 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-
+        <link rel="stylesheet" href="css/grid.min.css">
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" type="text/css">
+        <!--[if lt IE 8]>
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome-ie7.min.css" type="text/css">
+        <![endif]-->
+            
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
@@ -22,14 +27,13 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title">h1.title</h1>
-                <nav>
+                <h1 class="header__title">Zettelkasten</h1>
+                <!-- <nav>
                     <ul>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="#">Book</a></li>
+                        <li><a href="#">Tools</a></li>
                     </ul>
-                </nav>
+                </nav> -->
             </header>
         </div>
 
@@ -37,35 +41,66 @@
             <div class="main wrapper clearfix">
 
                 <article>
-                    <header>
-                        <h1>article header h1</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
-                    </header>
-                    <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                    </section>
-                    <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                    </section>
-                    <footer>
-                        <h3>article footer h3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
-                    </footer>
+                    <div class="grid-whole padded">
+                        <header>
+                            <h1>Public Announcement</h1>
+                        </header>
+                        
+                        <p>We&rsquo;re going to host the conversation about flexible information management for the modern knowledge worker and author on this site.  You&rsquo;re going to find here soon:</p>
+                    </div>
+
+                    <div class="grid-whole equalize">
+                        <section class="grid-third m-grid-whole s-grid-whole padded">
+                            <div class="content-box padded-inner announcement">
+                                <h2 class="announcement__header"><i class="icon-book icon--head"></i></h2>
+                                <p>We&rsquo;re writing a book about the method. It will be available on this site.</p>
+                            </div>
+                        </section>
+                    
+                        <section class="grid-third m-grid-whole s-grid-whole padded">
+                            <div class="content-box padded-inner announcement">
+                                <h2 class="announcement__header"><i class="icon-comments-alt icon--head"></i></h2>
+                                <p>A blog aggregator will collect <i class="zk">#Zettelkasten</i> information from participants around the web.</p>
+                            </div>
+                        </section>
+                    
+                        <section class="grid-third m-grid-whole s-grid-whole padded">
+                            <div class="content-box padded-inner announcement">
+                                <h2 class="announcement__header"><i class="icon-globe icon--head"></i></h2>
+                                <p>Whatever. Something else.</p>
+                            </div>
+                        </section>
+                    </div>
                 </article>
 
-                <aside>
-                    <h3>aside</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
-                </aside>
+                <div class="grid-whole padded">
+                    <form action="http://christiantietze.us5.list-manage.com/subscribe/post?u=9aad95d757e454078fe42ae23&amp;id=d06cc48a0f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <h2>Subscribe to our mailing list</h2>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        
+                        <label class="news__label" for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                        <input type="email" value="" name="EMAIL" class="news__input news__input--email required" id="mce-EMAIL">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="news__input news__input--button">                        
+                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                        
 
+                    </form>
+                </div>
+                
+                <div class="grid-whole padded">
+                    <p><a href="http://us5.campaign-archive1.com/home/?u=9aad95d757e454078fe42ae23&id=d06cc48a0f" title="View previous campaigns">Newsletter archive.</a></p>
+                </div>
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
         <div class="footer-container">
-            <footer class="wrapper">
-                <h3>footer</h3>
+            <footer id="footer" class="wrapper clearfix">
+                <div class="grid-whole padded">
+                    <p><small>This site is &copy; 2013 Christian Tietze. <a href="legal.html">Legal Notice.</a></small></p>
+                </div>
             </footer>
         </div>
 
@@ -73,6 +108,49 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
+        <script src="js/vendor/equalize.min.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+  
+          // smart resize - http://paulirish.com/2009/throttled-smartresize-jquery-event-handler/
+          (function($,sr){
+ 
+            // debouncing function from John Hann
+            // http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
+            var debounce = function (func, threshold, execAsap) {
+                var timeout;
+   
+                return function debounced () {
+                    var obj = this, args = arguments;
+                    function delayed () {
+                        if (!execAsap)
+                            func.apply(obj, args);
+                        timeout = null; 
+                    };
+   
+                    if (timeout)
+                        clearTimeout(timeout);
+                    else if (execAsap)
+                        func.apply(obj, args);
+   
+                    timeout = setTimeout(delayed, threshold || 100); 
+                };
+            }
+            // smartresize 
+            jQuery.fn[sr] = function(fn){  return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
+   
+          })(jQuery,'smartresize');
+
+          $(function() {
+            // use equalize to equalize the heights of content elements
+            $('.equalize').equalize({children:'.content-box'});
+
+            // re-equalize on resize
+            $(window).smartresize(function(){  
+              $('.equalize').equalize({reset:true, children:'.content-box'});
+            });
+
+          });
+        </script>
 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
