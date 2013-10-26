@@ -28,7 +28,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    background: #FFF3F0;
+    background: #FEEDE6;
 }
 
 ::-moz-selection {
@@ -77,17 +77,31 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 20px/32px Helvetica Neue, Helvetica, Arial, sans-serif;
+    font: 20px/32px 'PT Serif', serif;
 }
 
-h1 { font-family: Georgia, serif; }
+h1,
+label, input { font-family: 'PT Sans', sans-serif; }
 
 .header__title {
   color: white;
-  font-size: 233%;
+  font-size: 160%;
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background-color: #B5CB30;
+  text-align: center;
 }
 
-.header-container { border-bottom: 60px solid #144659;}
+.header-container { 
+  background-color: #B5CB30;
+  background-image: url('/img/header.png');
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+  border-bottom: 3em solid #144659;
+}
 
 .wrapper {
     width: 90%;
@@ -98,7 +112,6 @@ h1 { font-family: Georgia, serif; }
     ALL: Orange Theme
    =================== */
 
-.header-container,
 .footer-container,
 .main aside {
     background: #B5CB30;
@@ -168,6 +181,9 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+a {
+  color: #4961DD;
+}
 
 .announcement { 
   background: rgba(181, 203, 48, 0.7);
@@ -198,12 +214,18 @@ nav a:hover {
   box-shadow: 0 2px 1px rgba(0,0,0,0.2) inset;
 }
 .news__input--button {
+  position: relative;
   font-variant: small-caps;
   text-transform: lowercase;
   color: #fff;
   letter-spacing: 1px;
   background-color: rgba(163, 166, 88, 0.8);
   box-shadow: 0 2px 0 rgba(0,0,0,0.2);
+  outline: none; /* remove Webkit glow */
+}
+.news__input--button:active {
+  top: 2px;
+  box-shadow: none;
 }
 .asterisk { color: red; }
 .indicates-required { font-size: 80%; font-style: italic; }
@@ -255,23 +277,28 @@ nav a:hover {
 
 @media only screen and (min-width: 768px) {
 
-/* ============
-    WIDE: Menu
-   ============ */
+  .header-container { 
+    border-bottom-width: 4em;
+    overflow: hidden;
+  }
 
-    .header__title {
-        float: left;
-        font-size: 400%;
-    }
+  .header__title {
+    font-size: 400%;
+    width: 8em;
+    padding-left:  0.4em;
+    padding-right: 0.2em; /* right: 0.4em - letter-spacing */
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    nav {
-        float: right;
-        width: 38%;
-    }
-    
-    .icon--head { 
-      font-size: 400%; 
-    }
+  nav {
+    float: right;
+    width: 38%;
+  }
+  
+  .icon--head { 
+    font-size: 400%; 
+  }
 
 }
 

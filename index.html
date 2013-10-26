@@ -11,9 +11,13 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/grid.min.css">
         <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="css/main.css">
         <!--[if lt IE 8]>
         <link rel="stylesheet" href="css/font-awesome/css/font-awesome-ie7.min.css" type="text/css">
         <![endif]-->
@@ -27,52 +31,29 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="header__title">Zettelkasten</h1>
-                <!-- <nav>
-                    <ul>
-                        <li><a href="#">Book</a></li>
-                        <li><a href="#">Tools</a></li>
-                    </ul>
-                </nav> -->
+                <div class="grid-whole padded">
+                    <h1 class="header__title">Zettelkasten</h1>
+                    <!-- <nav>
+                        <ul>
+                            <li><a href="#">Book</a></li>
+                            <li><a href="#">Tools</a></li>
+                        </ul>
+                    </nav> -->
+                </div>
             </header>
         </div>
 
         <div class="main-container">
             <div class="main wrapper clearfix">
-
-                <article>
-                    <div class="grid-whole padded">
-                        <header>
-                            <h1>Public Announcement</h1>
-                        </header>
-                        
-                        <p>We&rsquo;re going to host the conversation about flexible information management for the modern knowledge worker and author on this site.  You&rsquo;re going to find here soon:</p>
-                    </div>
-
-                    <div class="grid-whole equalize">
-                        <section class="grid-third m-grid-whole s-grid-whole padded">
-                            <div class="content-box padded-inner announcement">
-                                <h2 class="announcement__header"><i class="icon-book icon--head"></i></h2>
-                                <p>We&rsquo;re writing a book about the method. It will be available on this site.</p>
-                            </div>
-                        </section>
+                
+                <div class="grid-whole padded">
+                    <header>
+                        <h1>Public Announcement</h1>
+                    </header>
                     
-                        <section class="grid-third m-grid-whole s-grid-whole padded">
-                            <div class="content-box padded-inner announcement">
-                                <h2 class="announcement__header"><i class="icon-comments-alt icon--head"></i></h2>
-                                <p>A blog aggregator will collect <i class="zk">#Zettelkasten</i> information from participants around the web.</p>
-                            </div>
-                        </section>
-                    
-                        <section class="grid-third m-grid-whole s-grid-whole padded">
-                            <div class="content-box padded-inner announcement">
-                                <h2 class="announcement__header"><i class="icon-globe icon--head"></i></h2>
-                                <p>Whatever. Something else.</p>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-
+                    <p>We&rsquo;re going to host the conversation about flexible information management for the modern knowledge worker and author on this site.  You&rsquo;re going to find here soon:</p>
+                </div>
+                
                 <div class="grid-whole padded">
                     <form action="http://christiantietze.us5.list-manage.com/subscribe/post?u=9aad95d757e454078fe42ae23&amp;id=d06cc48a0f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <h2>Subscribe to our mailing list</h2>
@@ -93,6 +74,30 @@
                 <div class="grid-whole padded">
                     <p><a href="http://us5.campaign-archive1.com/home/?u=9aad95d757e454078fe42ae23&id=d06cc48a0f" title="View previous campaigns">Newsletter archive.</a></p>
                 </div>
+                
+                <div class="grid-whole equalize">
+                    <section class="grid-third m-grid-whole s-grid-whole padded">
+                        <div class="content-box padded-inner announcement">
+                            <h2 class="announcement__header"><i class="icon-comments-alt icon--head"></i></h2>
+                            <p>A blog aggregator will collect <i class="zk">#Zettelkasten</i> information from participants around the web.</p>
+                        </div>
+                    </section>
+                
+                    <section class="grid-third m-grid-whole s-grid-whole padded">
+                        <div class="content-box padded-inner announcement">
+                            <h2 class="announcement__header"><i class="icon-book icon--head"></i></h2>
+                            <p>We&rsquo;re writing a book about the method. It will be available on this site.</p>
+                        </div>
+                    </section>
+                
+                    <section class="grid-third m-grid-whole s-grid-whole padded">
+                        <div class="content-box padded-inner announcement">
+                            <h2 class="announcement__header"><i class="icon-wrench icon--head"></i></h2>
+                            <p>We collect tools and guide you to a fully-functional implementation that suits your needs.</p>
+                        </div>
+                    </section>
+                </div>
+
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
