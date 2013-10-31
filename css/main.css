@@ -86,7 +86,7 @@ label, input { font-family: 'PT Sans', sans-serif; }
 .header__title {
   color: white;
   font-size: 160%;
-  font-weight: bold;
+  font-weight: 700;
   font-family: 'PT Sans Narrow', sans-serif;
   text-shadow: 0 2px 0 rgba(0,0,0,0.4);
   text-transform: uppercase;
@@ -261,6 +261,15 @@ a {
     nav li:last-child a {
         margin-right: 0;
     }
+    
+    .header__title {
+      font-size: 220%;
+      width: 8em;
+      padding-left:  0.4em;
+      padding-right: 0.2em; /* right: 0.4em - letter-spacing */
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 /* ========================
     INTERMEDIATE: IE Fixes
@@ -277,18 +286,13 @@ a {
 
 @media only screen and (min-width: 768px) {
 
-  .header-container { 
+  .header-container {
     border-bottom-width: 4em;
     overflow: hidden;
   }
 
   .header__title {
     font-size: 400%;
-    width: 8em;
-    padding-left:  0.4em;
-    padding-right: 0.2em; /* right: 0.4em - letter-spacing */
-    margin-left: auto;
-    margin-right: auto;
   }
 
   nav {
@@ -309,8 +313,12 @@ a {
    =============== */
 
     .wrapper {
-        width: 810px; /* 1140px - 10% for margins */
-        margin: 0 auto;
+      width: 810px; /* 1140px - 10% for margins */
+      margin: 0 auto;
+    }
+  
+    .header__title {
+      font-size: 466%;
     }
 }
 
