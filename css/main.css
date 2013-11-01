@@ -326,9 +326,8 @@ a {
       font-size: 466%;
     }
     
-    .news__buttons { display: block; }
     .news__input--label { width: 20%; }
-    .news__input--email { display: inline; width: 57%; }
+    .news__input--email { display: inline; width: 53%; }
 
     .icon--head { 
       font-size: 400%; 
