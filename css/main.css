@@ -80,7 +80,7 @@ body {
     font: 20px/32px 'PT Serif', serif;
 }
 
-h1,
+h1, .announcement,
 label, input { font-family: 'PT Sans', sans-serif; }
 
 .header__title {
@@ -191,9 +191,9 @@ a {
 }
 .announcement__header { text-align: center; }
 .icon--head { 
-  font-size: 400%; 
-  text-shadow: 0 1px #fff; 
-  color: #454;
+  font-size: 600%; 
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.4); 
+  color: #FAECE7; /* #FEEDE6 changed a bit */
 }
 
 /*
@@ -210,6 +210,7 @@ a {
   border-radius: 2em;
   border: 2px solid;
   border-color: #A3A658;
+  background: white;
   padding: 0.5em 1em;
   margin: 0.5em inherit;
 }
@@ -328,7 +329,10 @@ a {
     .news__buttons { display: block; }
     .news__input--label { width: 20%; }
     .news__input--email { display: inline; width: 57%; }
-    .news__input--button { }
+
+    .icon--head { 
+      font-size: 400%; 
+    }
 }
 
 /* ==========================================================================
