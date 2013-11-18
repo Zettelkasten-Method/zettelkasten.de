@@ -1,1 +1,7 @@
+# nanoc/project directories to ignore
+*.log
+.sass-cache
+.rvmrc
+output
+tmp
 deploy.sh

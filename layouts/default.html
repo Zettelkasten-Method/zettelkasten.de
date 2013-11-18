@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="<%= @item[:lang] || @site.config[:meta_data][:lang] %>" class="no-js ie ie6 lte7 lte8 lte9"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="<%= @item[:lang] || @site.config[:meta_data][:lang] %>" class="no-js ie ie7 lte7 lte8 lte9"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="<%= @item[:lang] || @site.config[:meta_data][:lang] %>" class="no-js ie ie8 lte8 lte9"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="<%= @item[:lang] || @site.config[:meta_data][:lang] %>" class="no-js ie ie9 lte9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="<%= @item[:lang] || @site.config[:meta_data][:lang] %>" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title><%= @item[:title] + " &bull; " if @item[:title] %><%= @site.config[:meta_data][:title] %></title>
+    <%= meta_tag :description %>
+    <%= meta_tag :copyright %>
+    <%= meta_tag :author %>
+    
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="publisher" href="https://plus.google.com/102196782706238603750">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/grid.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" type="text/css">
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/font-awesome/css/font-awesome-ie7.min.css" type="text/css"><![endif]-->
+
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link href="/favicon.ico" rel="shortcut icon">
+    <link type="text/plain" href="/humans.txt" />
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="header-container">
+        <header class="wrapper clearfix">
+            <div class="grid-whole padded">
+                <h1 class="header__title">Zettelkasten</h1>
+                <!-- <nav>
+                    <ul>
+                        <li><a href="#">Book</a></li>
+                        <li><a href="#">Tools</a></li>
+                    </ul>
+                </nav> -->
+            </div>
+        </header>
+    </div>
+
+    <div class="main-container">
+        <div class="main wrapper clearfix">
+
+        <%= yield %>
+
+        </div> <!-- #main -->
+    </div> <!-- #main-container -->
+
+    <div class="footer-container">
+        <footer id="footer" class="wrapper clearfix">
+            <div class="grid-whole padded">
+                <p><small>This site is &copy; 2013 Christian Tietze. <a href="legal.html">Contact &amp; Legal Notice.</a> <a href="https://plus.google.com/102196782706238603750" rel="publisher">Google+</a></small></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+    <script src="js/vendor/equalize.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        var _gaq=[['_setAccount','<%= (ENV['NANOC_ENV'] == 'deployment') ? @site.config[:meta_data][:ga_tracking_code] : '' %>'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+</body>
+</html>

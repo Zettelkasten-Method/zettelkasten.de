@@ -1,0 +1,136 @@
+#!/usr/bin/env ruby
+
+# A few helpful tips about the Rules file:
+#
+# * The string given to #compile and #route are matching patterns for
+#   identifiers--not for paths. Therefore, you can’t match on extension.
+#
+# * The order of rules is important: for each item, only the first matching
+#   rule is applied.
+#
+# * Item identifiers start and end with a slash (e.g. “/about/” for the file
+#   “content/about.html”). To select all children, grandchildren, … of an
+#   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
+#   because “*” matches zero or more characters.
+
+ENV['NANOC_ENV'] ||= 'development'
+
+BYPASS_FILES = %w(404.html crossdomain.xml humans.txt robots.txt googlebd82924855df6b5d.html) unless defined?(BYPASS_FILES)
+IMAGE_COMPRESS_OPTIONS = { :pngout => false } unless defined?(IMAGE_COMPRESS_OPTIONS)
+DEPLOYED = ENV['NANOC_ENV'] == 'deployment' # suppresses CacheBuster in development
+
+preprocess do
+  # authors may unpublish items by setting meta attribute publish: false
+  items.delete_if { |item| item[:publish] == false }
+end
+
+BYPASS_FILES.each do |file|
+  compile("/#{file.sub( /\..+/, '')}/") do
+    # don't filter bypass files
+  end
+end
+
+
+# static DS
+compile '/assets/*' do
+end
+
+compile '/css/*/' do
+  filter :erb          # Use erb to enable timestamps and author information and such.
+  filter :concat
+  filter :cache_buster
+  filter :minify
+end
+
+compile '/js/*/' do
+   filter :concat_js
+   filter :uglify_js
+end
+
+compile '/img/*/' do
+  #filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary? && DEPLOYED
+end
+
+compile %r{^/(sitemap|htaccess)/$} do
+  filter :erb
+end
+
+compile '/*' do
+  if item.binary?
+    # don’t filter binary items
+  else
+    case item[:extension]
+      when 'md', 'markdown', 'txt', 'text'
+        filter :erb
+        filter :kramdown
+        filter :typogruby
+      when 'haml'
+        filter :haml
+      else
+        filter :erb
+        filter :typogruby
+    end
+    
+    if item[:layout]
+      layout item[:layout]
+    else
+      layout 'plain'
+      # layout 'default' # use if basic `section > h1` setting doesn't suffice
+    end
+    
+    filter :cache_buster if DEPLOYED
+  end
+end
+
+
+############################################################################
+
+
+BYPASS_FILES.each do |file|
+  route("/#{file.sub(/\..+/, '')}/") do
+    "/#{file}" # route bypass files as is
+  end
+end
+
+# static data source
+#passthrough '/assets/*'
+route '/assets/*' do
+  # /static/foo.html/ → /foo.html
+  item.identifier[7..-2]
+end
+
+route %r{/_.+/$} do
+  nil # don't route partials
+end
+
+route '/htaccess/' do
+  '/.htaccess'
+end
+
+route 'sitemap' do
+  item.identifier.chop + '.xml'
+end
+
+route '/css/*/' do
+  fp = DEPLOYED ? fingerprint(item[:filename]) : ''
+  item.identifier.chop + fp + '.css'
+end
+
+route '/js/*/' do
+  fp = DEPLOYED ? fingerprint(item[:filename]) : ''
+  item.identifier.chop + fp + '.js'
+end
+
+route '*' do
+  if item.binary?
+    # Write item with identifier /foo/ to /foo.ext
+    item.identifier.chop + '.' + item[:extension]
+  else
+    # Write item with identifier /foo/ to /foo/index.html
+    item.identifier + 'index.html'
+  end
+end
+
+############################################################################
+
+layout '*', :erb
