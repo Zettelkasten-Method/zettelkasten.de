@@ -1,3 +1,7 @@
 <% render 'default' do %>
-  <%= yield %>
+<div class="grid-whole padded">
+    <h1><%= @item[:title] %></h1>
+    
+    <%= yield %>
+</div>
 <% end %>
