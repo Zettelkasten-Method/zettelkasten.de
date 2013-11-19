@@ -6,8 +6,12 @@ gem 'nanoc-cachebuster', '>= 0.3.1'
 gem 'nanoc-image-compressor', '>= 0.1.1'
 gem 'nanoc-javascript-concatenator', '~> 0.0.2'
 
+gem 'sass', '~> 3.2.12'
+gem 'compass', '~> 0.12.2'
+
 gem 'guard', '~>2.2.2'
 gem 'guard-nanoc', '~>1.0.1'
+gem 'growl', '~> 1.0.3'
 
 # Minify
 gem 'rainpress',  '~>1.0' # CSS Compressor

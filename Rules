@@ -13,6 +13,9 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+require 'compass'
+Compass.add_project_configuration 'compass_config.rb'
+
 ENV['NANOC_ENV'] ||= 'development'
 
 BYPASS_FILES = %w(404.html crossdomain.xml humans.txt robots.txt googlebd82924855df6b5d.html) unless defined?(BYPASS_FILES)
@@ -37,9 +40,11 @@ end
 
 compile '/css/*/' do
   filter :erb          # Use erb to enable timestamps and author information and such.
-  filter :concat
-  filter :cache_buster
-  filter :minify
+  filter :sass, Compass.sass_engine_options
+  #filter :sass, syntax: :scss
+  ##filter :concat
+  ##filter :cache_buster
+  ##filter :minify
 end
 
 compile '/js/*/' do

@@ -1,3 +1,5 @@
+notification :growl
+
 guard 'nanoc' do
   watch('nanoc.yaml')
   watch('Rules')

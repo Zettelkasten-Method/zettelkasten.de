@@ -1,3 +1,5 @@
+$color-background: #feede6;
+
 /*
 color-font: #222;
 color-selection: #b3d4fc;
@@ -28,7 +30,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    background: #FEEDE6;
+    background: $color-background;
 }
 
 ::-moz-selection {
@@ -104,8 +106,8 @@ label, input { font-family: 'PT Sans', sans-serif; }
 }
 
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
+  width: 90%;
+  margin: 0 5%;
 }
 
 /* ===================
@@ -153,21 +155,22 @@ nav a:hover {
    ============== */
 
 .main {
-    padding: 30px 0;
+  padding: 30px 0;
+  background: #FEEDE6;
 }
 
 .main article h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .main aside {
-    color: white;
-    padding: 0px 5% 10px;
+  color: white;
+  padding: 0px 5% 10px;
 }
 
 .footer-container footer {
-    color: white;
-    padding: 20px 0;
+  color: white;
+  padding: 20px 0;
 }
 
 /* ===============
@@ -175,7 +178,7 @@ nav a:hover {
    =============== */
 
 .ie7 .header__title {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 /* ==========================================================================
@@ -241,7 +244,6 @@ a {
 
 /** Book Announcement Page */
 .book_toc {
-  margin: 0 2em;
   font-family: 'PT Sans', sans-serif; 
 }
 .book_toc, .book_toc ul { 
