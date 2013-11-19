@@ -1,10 +1,13 @@
-$color-background: #feede6;
+$color-background-wide: #feede6;
+$color-background: lighten($color-background-wide, 4%);
+
+//$color-background: #feede6;
+//$color-background-wide: adjust_hue(darken(desaturate(#feede6, 60), 15), 0);
 
 /*
 color-font: #222;
 color-selection: #b3d4fc;
 
-background: #fff;
 contrast: #B5CB30;
 contrast-dark: #A3A658;
 
@@ -28,9 +31,9 @@ textarea {
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
-    background: $color-background;
+  font-size: 1em;
+  line-height: 1.4;
+  background: $color-background;
 }
 
 ::-moz-selection {
@@ -156,7 +159,7 @@ nav a:hover {
 
 .main {
   padding: 30px 0;
-  background: #FEEDE6;
+  background: $color-background;
 }
 
 .main article h1 {
@@ -196,7 +199,7 @@ a {
 .icon--head { 
   font-size: 600%; 
   text-shadow: 0 -1px 0 rgba(0,0,0,0.4); 
-  color: #FAECE7; /* #FEEDE6 changed a bit */
+  color: #FAECE7; /* $color-background changed a bit */
 }
 
 /*
@@ -330,21 +333,28 @@ a {
     Maximal Width
    =============== */
 
-    .wrapper {
-      width: 810px; /* 1140px - 10% for margins */
-      margin: 0 auto;
-    }
-  
-    .header__title {
-      font-size: 466%;
-    }
-    
-    .news__input--label { width: 20%; }
-    .news__input--email { display: inline; width: 53%; }
+  body { background: $color-background-wide; }
 
-    .icon--head { 
-      font-size: 400%; 
-    }
+  .wrapper {
+    width: 810px; /* 1140px - 10% for margins */
+    margin: 0 auto;
+  }
+  
+  .main {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .header__title {
+    font-size: 466%;
+  }
+  
+  .news__input--label { width: 20%; }
+  .news__input--email { display: inline; width: 53%; }
+
+  .icon--head { 
+    font-size: 400%; 
+  }
 }
 
 /* ==========================================================================

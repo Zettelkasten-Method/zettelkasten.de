@@ -43,7 +43,7 @@ compile '/css/*/' do
   filter :sass, Compass.sass_engine_options
   #filter :sass, syntax: :scss
   ##filter :concat
-  ##filter :cache_buster
+  filter :cache_buster
   ##filter :minify
 end
 
