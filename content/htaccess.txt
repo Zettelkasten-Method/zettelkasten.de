@@ -1,0 +1,7 @@
+#
+# http://www.w3.org/International/questions/qa-htaccess-charset
+#
+
+#AddDefaultCharset UTF-8
+AddCharset UTF-8 .html
+# IndexOptions +Charset=UTF-8
