@@ -239,7 +239,18 @@ a {
 .asterisk { color: red; }
 .indicates-required { font-size: 80%; font-style: italic; }
 
-
+/** Book Announcement Page */
+.book_toc {
+  margin: 0 2em;
+  font-family: 'PT Sans', sans-serif; 
+}
+.book_toc, .book_toc ul { 
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.book_toc > li > ul { 
+  font-size: 0.8em; 
+}
 
 
 

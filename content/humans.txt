@@ -3,7 +3,8 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Christian Tietze - Author - @ctietze, http://christiantietze.de
+    Sascha Fast - Co-Author - http://saschafast.de
 
 # THANKS
 
@@ -13,3 +14,4 @@
 
     HTML5, CSS3
     jQuery, Modernizr
+    Nanoc.ws
