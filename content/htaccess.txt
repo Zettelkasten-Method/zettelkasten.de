@@ -5,3 +5,5 @@
 #AddDefaultCharset UTF-8
 AddCharset UTF-8 .html
 # IndexOptions +Charset=UTF-8
+
+ErrorDocument 404 /404.html
