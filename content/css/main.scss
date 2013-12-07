@@ -191,15 +191,14 @@ a {
   color: #4961DD;
 }
 
-.announcement { 
+.announcement {
   background: rgba(181, 203, 48, 0.7);
-  border-radius: 2em;
 }
 .announcement__header { text-align: center; }
-.icon--head { 
-  font-size: 600%; 
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.4); 
-  color: #FAECE7; /* $color-background changed a bit */
+.icon--head {
+  font-size: 600%;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+  color: lighten(#FAECE7, 5%); /* $color-background changed a bit */
 }
 
 /*
@@ -213,11 +212,10 @@ a {
   text-align: right;
 }
 .news__input {
-  border-radius: 2em;
   border: 2px solid;
   border-color: #A3A658;
   background: white;
-  padding: 0.5em 1em;
+  padding: 0.3em 0.5em;
   margin: 0.5em inherit;
 }
 .news__input--email {
@@ -225,36 +223,40 @@ a {
   display: block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;   
+  box-sizing: border-box;
   width: 100%;
 }
 .news__input--button {
   position: relative;
   font-variant: small-caps;
   text-transform: lowercase;
-  color: #fff;
+  color: #333;
   letter-spacing: 1px;
-  background-color: rgba(163, 166, 88, 0.8);
+
+  $bg: rgba(163, 166, 88, 0.6);
+  background-color: $bg;
   box-shadow: 0 2px 0 rgba(0,0,0,0.2);
   outline: none; /* remove Webkit glow */
-}
-.news__input--button:active {
-  top: 2px;
-  box-shadow: none;
+
+  &:active {
+    top: 2px;
+    box-shadow: none;
+    background-color: saturate(lighten($bg, 5%), 5%);
+  }
 }
 .asterisk { color: red; }
 .indicates-required { font-size: 80%; font-style: italic; }
 
 /** Book Announcement Page */
 .book_toc {
-  font-family: 'PT Sans', sans-serif; 
+  font-family: 'PT Sans', sans-serif;
 }
-.book_toc, .book_toc ul { 
+.book_toc, .book_toc ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-.book_toc > li > ul { 
-  font-size: 0.8em; 
+.book_toc > li > ul {
+  font-size: 0.8em;
 }
 
 
