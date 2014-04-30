@@ -37,22 +37,23 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="header-container">
-        <header class="wrapper clearfix">
-            <div class="grid-whole padded">
-                <h1 class="header__title">Zettelkasten</h1>
-                <!-- <nav>
-                    <ul>
-                        <li><a href="#">Book</a></li>
-                        <li><a href="#">Tools</a></li>
-                    </ul>
-                </nav> -->
+    <header class="">
+        <div class="header-container clearfix">
+            <h1 class="header__title">Zettelkasten</h1>
+        </div>
+        <nav class="clearfix grid-whole">
+            <div class="wrapper">
+                <ul>
+                    <li><a href="/" class="grid-third s-grid-whole">Home</a></li>
+                    <li><a href="/book" class="grid-third s-grid-whole">Book</a></li>
+                    <li><a href="/tools" class="grid-third s-grid-whole">Tools</a></li>
+                </ul>
             </div>
-        </header>
-    </div>
+        </nav>
+    </header>
 
     <div class="main-container">
-        <div class="wrapper clearfix">
+        <div class="wrapper content-wrapper clearfix">
             <div class="main clearfix">
                 
                 <%= yield %>

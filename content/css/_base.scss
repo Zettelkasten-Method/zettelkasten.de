@@ -87,13 +87,11 @@ label, input { font-family: $font-sans; }
   background-image: url('/img/header.png');
   background-repeat: repeat-x;
   background-position: 0 50%;
-  border-bottom: 3em solid #144659;
 }
 
-.wrapper {
-  width: 90%;
-  margin: 0 5%;
-}
+.wrapper { /* don't add margin on mobile to all */ }
+.content-wrapper { width: 98%; margin: 0 1%; }
+
 
 /* ===================
     ALL: Orange Theme
@@ -108,31 +106,31 @@ label, input { font-family: $font-sans; }
     MOBILE: Menu
    ============== */
 
-nav ul {
-    margin: 0;
-    padding: 0;
-}
+nav { background: #144659; font-family: $font-sans; }
+
+nav ul { margin: 0; padding: 0; }
+nav ul li { list-style-type: none; }
 
 nav a {
     display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
+    margin: 10px 0;
+    padding: 0.5em 0;
 
     text-align: center;
     text-decoration: none;
     font-weight: bold;
 
-    color: white;
-    background: #A3A658;
-}
-
-nav a:hover,
-nav a:visited {
-    color: white;
+    color: #D3D3D3;
+/*    background: #A3A658;*/
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: white;
+    border-bottom-color: transparent;
+    background: rgba(255,255,255,0.2);
+}
+
+nav a:hover {
 }
 
 /* ==============
@@ -266,9 +264,9 @@ figure a, figure a:hover {
 .tool-specs__spec { display: inline; list-style-type: none;  color: $color-light; }
 .tool-specs__spec:after { content: ' \00B7';}
 .tool-specs__spec:last-child:after { content: ''; }
-.tool-review {}
 .tool-usage {}
 .tool-usage__submit { list-style-type: none; }
+.tool-author--single *, .tool-review * { display: inline; }
 
 
 
@@ -284,10 +282,10 @@ figure a, figure a:hover {
    ==================== */
 
     nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
+/*        float: left;*/
+/*        width: 27.1%;*/
+/*        margin: 0 1.7%;*/
+        padding: 0.5em 2%;
         margin-bottom: 0;
     }
 
@@ -322,21 +320,11 @@ figure a, figure a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-
-  .header-container {
-    border-bottom-width: 4em;
-    overflow: hidden;
-  }
-
   .header__title {
     font-size: 400%;
+    margin-top: .4em;
+    margin-bottom: .4em;
   }
-
-  nav {
-    float: right;
-    width: 38%;
-  }
-  
 }
 
 @media only screen and (min-width: 900px) {
@@ -347,7 +335,7 @@ figure a, figure a:hover {
 
   body { background: $color-background-wide; }
 
-  .wrapper {
+  .wrapper, .content-wrapper {
     width: 810px; /* 1140px - 10% for margins */
     margin: 0 auto;
   }
@@ -366,6 +354,11 @@ figure a, figure a:hover {
 
   .icon--head { 
     font-size: 400%; 
+  }
+  
+  nav a { 
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
   }
 }
 
