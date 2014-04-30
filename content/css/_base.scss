@@ -95,11 +95,13 @@ label, input { font-family: $font-sans; }
     background: #B5CB30;
 }
 
+#footer { font-family: $font-sans; }
+
 /* ==============
     MOBILE: Menu
    ============== */
 
-nav { background: #144659; font-family: $font-sans; }
+nav { background: $color-background-nav; font-family: $font-sans; }
 
 nav ul { margin: 0; padding: 0; }
 nav ul li { list-style-type: none; }
@@ -113,17 +115,23 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: #D3D3D3;
-/*    background: #A3A658;*/
+    $color: #D3D3D3;
+    color: $color;
+    
+    .nav__icon .iconic-property-fill {
+      fill: $color;
+    }
 }
 
 nav a:hover {
-    color: white;
+    $color: white;
+    color: $color;
     border-bottom-color: transparent;
     background: rgba(255,255,255,0.2);
-}
-
-nav a:hover {
+    
+    .nav__icon .iconic-property-fill {
+      fill: $color;
+    }
 }
 
 /* ==============
@@ -179,9 +187,10 @@ figure a, figure a:hover {
 }
 .announcement__header { text-align: center; }
 .icon--head {
-  font-size: 400%;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
-  color: lighten(#FAECE7, 5%); /* $color-background changed a bit */
+  max-width: 4em;
+  .iconic-property-fill {
+    fill: $color-background-nav;
+  }
 }
 
 /*
@@ -191,15 +200,14 @@ figure a, figure a:hover {
   font-variant: small-caps;
   text-transform: lowercase;
   font-weight: bold;
-  width: auto;
-  text-align: right;
+  display: block;
 }
 .news__input {
   border: 2px solid;
   border-color: #A3A658;
   background: white;
   padding: 0.3em 0.5em;
-  margin: 0.5em inherit;
+  margin: 0.5em 0;
 }
 .news__input--email {
   box-shadow: 0 2px 1px rgba(0,0,0,0.2) inset;
@@ -215,7 +223,9 @@ figure a, figure a:hover {
   text-transform: lowercase;
   color: #333;
   letter-spacing: 1px;
-
+  
+  width: 100%;
+    
   $bg: rgba(163, 166, 88, 0.6);
   background-color: $bg;
   box-shadow: 0 2px 0 rgba(0,0,0,0.2);
@@ -250,7 +260,7 @@ figure a, figure a:hover {
 .tool h3 { font-size: inherit; margin-bottom: 0;}
 .tool ul { padding-left: 0; }
 .tool-link { color: $color-text; border-bottom-color: transparent; }
-.tool-icon {}
+.tool-icon { max-width: 14em; }
 .tool-icon figure { margin: 0; }
 .tool-icon__image { width: 80%; }
 .tool-specs {}
@@ -307,10 +317,8 @@ figure a, figure a:hover {
     margin-right: auto;
   }
 
-/* ========================
-  INTERMEDIATE: IE Fixes
- ======================== */
-
+  .tool-icon { max-width: 20em; }
+  
   nav ul li {
       display: inline;
   }
@@ -341,7 +349,7 @@ figure a, figure a:hover {
     margin: 0 auto;
   }
   
-  .main {
+  .main, .footer-main {
     padding-left: 2em;
     padding-right: 2em;
   }
@@ -349,10 +357,7 @@ figure a, figure a:hover {
   .header__title {
     font-size: 466%;
   }
-  
-  .news__input--label { width: 20%; }
-  .news__input--email { display: inline; width: 53%; }
-  
+    
   nav a { 
     padding-top: 0.8em;
     padding-bottom: 0.8em;

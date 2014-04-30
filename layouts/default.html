@@ -45,15 +45,16 @@
             <div class="wrapper">
                 <ul>
                     <li><a href="/" class="grid-third s-grid-whole">Home</a></li>
-                    <li><a href="/book" class="grid-third s-grid-whole">Book</a></li>
-                    <li><a href="/tools" class="grid-third s-grid-whole">Tools</a></li>
+                    <li><a href="/book" class="grid-third s-grid-whole"><img class="iconic iconic-sm nav__icon" data-src="/img/book.svg">
+Book</a></li>
+                    <li><a href="/tools" class="grid-third s-grid-whole"><img class="iconic iconic-sm nav__icon" data-src="/img/wrench.svg"> Tools</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <div class="main-container">
-        <div class="wrapper content-wrapper clearfix">
+        <div class="wrapper content-wrapper">
             <div class="main clearfix">
                 
                 <%= yield %>
@@ -61,17 +62,19 @@
         </div>
     </div> <!-- #main-container -->
 
-    <div class="footer-container">
-        <footer id="footer" class="wrapper clearfix">
-            <div class="grid-whole padded">
+    <div class="footer-container clearfix">
+        <footer id="footer" class="wrapper content-wrapper clearfix">
+            <div class="footer-main grid-whole padded">
                 <p><small>This site is &copy; 2014 Christian Tietze. <a href="/legal/">Contact &amp; Legal Notice.</a> <a href="https://plus.google.com/102196782706238603750" rel="publisher">Google+</a></small></p>
             </div>
         </footer>
     </div>
 
+    <script src="/js/vendor/iconic.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
     <script src="/js/vendor/equalize.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.js"></script>
     <script src="/js/main.js"></script>
 
     <script>

@@ -28,13 +28,14 @@
 
 })(jQuery,'smartresize');
 
-$(function() {
-  // use equalize to equalize the heights of content elements
-  $('.equalize').equalize({children:'.content-box'});
-
+$(document).ready(function() {
+  imagesLoaded('.main', function () {
+    // use equalize to equalize the heights of content elements
+    $('.equalize').equalize({children:'.content-box'});    
+  });
+  
   // re-equalize on resize
   $(window).smartresize(function(){  
     $('.equalize').equalize({reset:true, children:'.content-box'});
   });
-
 });

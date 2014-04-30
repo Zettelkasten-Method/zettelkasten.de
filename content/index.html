@@ -3,7 +3,7 @@ title: Zettelkasten knowledge and info management
 layout: default
 ---
 
-<div class="grid-whole">
+<div class="clearfix">
     <h1>Subscribe to our mailing list</h1>
     <p>Announcements and special offers concerning the book and this website only.  No spam, ever.</p>
     <form action="http://christiantietze.us5.list-manage.com/subscribe/post?u=9aad95d757e454078fe42ae23&amp;id=d06cc48a0f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -12,12 +12,16 @@ layout: default
             <div class="response" id="mce-success-response" style="display:none"></div>
         </div>
 
-        <label class="news__label" for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
-        <input type="email" value="" name="EMAIL" class="news__input news__input--email required" id="mce-EMAIL">
-
-        <input type="submit" value="Subscribe to the List" name="subscribe" id="mc-embedded-subscribe" class="news__input news__input--button">
+        <label class="news__label grid-whole" for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+        <div class="grid-whole">
+          <div class="s-grid-whole grid-two-thirds m-padded-right l-padded-right">
+            <input type="email" value="" name="EMAIL" class="news__input news__input--email required" id="mce-EMAIL">
+          </div>
+          <div class="s-grid-whole grid-third m-padded-left l-padded-left">
+            <input type="submit" value="Subscribe to the List" name="subscribe" id="mc-embedded-subscribe" class="news__input news__input--button">
+          </div>
+        </div>
         <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-
     </form>
 </div>
 
@@ -30,23 +34,23 @@ layout: default
 </div>
 
 <div class="grid-whole equalize">
-    <section class="grid-third m-grid-whole s-grid-whole l-padded-right s-padded">
+    <section class="grid-third m-grid-whole s-grid-whole l-padded-right s-padded m-padded">
         <div class="content-box padded-inner announcement">
-            <h2 class="announcement__header"><i class="icon-comments-alt icon--head"></i></h2>
+            <h2 class="announcement__header"><img class="iconic iconic-fluid icon--head" data-src="/img/chat.svg"></h2>
             <p>A blog aggregator will collect <i class="zk">#Zettelkasten</i> information from participants around the web.</p>
         </div>
     </section>
 
-    <section class="grid-third m-grid-whole s-grid-whole l-padded-sides s-padded">
+    <section class="grid-third m-grid-whole s-grid-whole l-padded-sides s-padded m-padded">
         <div class="content-box padded-inner announcement">
-            <h2 class="announcement__header"><i class="icon-book icon--head"></i></h2>
+            <h2 class="announcement__header clearfix"><img class="iconic iconic-fluid icon--head" data-src="/img/book.svg"></h2>
             <p>We&rsquo;re writing <a href="/book">a book about the method</a>. It will be available on this site.</p>
         </div>
     </section>
 
-    <section class="grid-third m-grid-whole s-grid-whole l-padded-left s-padded">
+    <section class="grid-third m-grid-whole s-grid-whole l-padded-left s-padded m-padded">
         <div class="content-box padded-inner announcement">
-            <h2 class="announcement__header"><i class="icon-wrench icon--head"></i></h2>
+            <h2 class="announcement__header"><img class="iconic iconic-fluid icon--head" data-src="/img/wrench.svg"></h2>
             <p>We <a href="/tools">review tools</a> and guide you to a fully-functional implementation that suits your needs.</p>
         </div>
     </section>
