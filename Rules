@@ -32,6 +32,10 @@ BYPASS_FILES.each do |file|
   end
 end
 
+compile %r{/_.+/$} do
+  nil # don't compile partials
+end
+
 
 # static DS
 compile '/assets/*' do

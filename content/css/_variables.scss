@@ -1,0 +1,30 @@
+$color-text: #333;
+$color-light: #aaa;
+$color-link: #4961DD;
+$color-background-wide: #feede6;
+$color-background: lighten($color-background-wide, 4%);
+
+$font-serif: 'PT Serif', serif;
+$font-sans: 'PT Sans', sans-serif;
+$font-base: $font-serif;
+
+$base-size: 20px / 16px * 1em;
+$base-line-height: 1.6;
+$small-size: 0.8em; // 16px
+
+//$color-background: #feede6;
+//$color-background-wide: adjust_hue(darken(desaturate(#feede6, 60), 15), 0);
+
+/*
+color-font: #222;
+color-selection: #b3d4fc;
+
+contrast: #B5CB30;
+contrast-dark: #A3A658;
+
+144659
+B5CB30
+A3A658
+BFA89B
+D9CFCC -- FFF3F0
+*/
