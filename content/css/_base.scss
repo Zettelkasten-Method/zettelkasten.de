@@ -11,8 +11,6 @@ textarea {
 }
 
 body {
-  font-size: 1em;
-  line-height: 1.4;
   background: $color-background;
 }
 
@@ -91,11 +89,6 @@ label, input { font-family: $font-sans; }
 
 .wrapper { /* don't add margin on mobile to all */ }
 .content-wrapper { width: 98%; margin: 0 1%; }
-
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
 
 .footer-container,
 .main aside {
@@ -186,7 +179,7 @@ figure a, figure a:hover {
 }
 .announcement__header { text-align: center; }
 .icon--head {
-  font-size: 600%;
+  font-size: 400%;
   text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
   color: lighten(#FAECE7, 5%); /* $color-background changed a bit */
 }
@@ -252,7 +245,7 @@ figure a, figure a:hover {
 
 /** Tools Page */
 
-.tool { font-size: $small-size; font-family: $font-sans; }
+.tool { font-family: $font-sans; }
 .tool dd, .tool dt { margin-left: 0; }
 .tool h3 { font-size: inherit; margin-bottom: 0;}
 .tool ul { padding-left: 0; }
@@ -277,46 +270,54 @@ figure a, figure a:hover {
 
 @media only screen and (min-width: 480px) {
 
+  body {
+    font-size: $large-base-size;
+  }
+  
+  .tool {
+    font-size: $small-size; 
+  }
+  
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
 
-    nav a {
+  nav a {
 /*        float: left;*/
 /*        width: 27.1%;*/
 /*        margin: 0 1.7%;*/
-        padding: 0.5em 2%;
-        margin-bottom: 0;
-    }
+      padding: 0.5em 2%;
+      margin-bottom: 0;
+  }
 
-    nav li:first-child a {
-        margin-left: 0;
-    }
+  nav li:first-child a {
+      margin-left: 0;
+  }
 
-    nav li:last-child a {
-        margin-right: 0;
-    }
-    
-    .header__title {
-      font-size: 220%;
-      width: 8em;
-      padding-left:  0.4em;
-      padding-right: 0.2em; /* right: 0.4em - letter-spacing */
-      margin-left: auto;
-      margin-right: auto;
-    }
+  nav li:last-child a {
+      margin-right: 0;
+  }
+  
+  .header__title {
+    font-size: 220%;
+    width: 8em;
+    padding-left:  0.4em;
+    padding-right: 0.2em; /* right: 0.4em - letter-spacing */
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 /* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
+  INTERMEDIATE: IE Fixes
+ ======================== */
 
-    nav ul li {
-        display: inline;
-    }
+  nav ul li {
+      display: inline;
+  }
 
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
+  .oldie nav a {
+      margin: 0 0.7%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -351,10 +352,6 @@ figure a, figure a:hover {
   
   .news__input--label { width: 20%; }
   .news__input--email { display: inline; width: 53%; }
-
-  .icon--head { 
-    font-size: 400%; 
-  }
   
   nav a { 
     padding-top: 0.8em;
