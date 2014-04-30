@@ -258,7 +258,6 @@ figure a, figure a:hover {
 .tool { font-family: $font-sans; }
 .tool dd, .tool dt { margin-left: 0; }
 .tool h3 { font-size: inherit; margin-bottom: 0;}
-.tool ul { padding-left: 0; }
 .tool-link { color: $color-text; border-bottom-color: transparent; }
 .tool-icon { max-width: 14em; }
 .tool-icon figure { margin: 0; }
@@ -317,7 +316,7 @@ figure a, figure a:hover {
     margin-right: auto;
   }
 
-  .tool-icon { max-width: 20em; }
+  .tool-icon { max-width: 100%; }
   
   nav ul li {
       display: inline;
@@ -362,6 +361,8 @@ figure a, figure a:hover {
     padding-top: 0.8em;
     padding-bottom: 0.8em;
   }
+  
+  .tool ul { padding-left: 0; }
 }
 
 /* ==========================================================================
