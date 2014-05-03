@@ -257,7 +257,8 @@ figure a, figure a:hover {
 
 .tool { font-family: $font-sans; }
 .tool dd, .tool dt { margin-left: 0; }
-.tool h3 { font-size: inherit; margin-bottom: 0;}
+.tool h3 { font-size: inherit; margin-bottom: 0; }
+.tool ul { margin-top: 0; }
 .tool-link { color: $color-text; border-bottom-color: transparent; }
 .tool-icon { max-width: 14em; }
 .tool-icon figure { margin: 0; }
@@ -269,6 +270,7 @@ figure a, figure a:hover {
 .tool-usage {}
 .tool-usage__submit { list-style-type: none; }
 .tool-author--single *, .tool-review * { display: inline; }
+.tool-author--single h3, .tool-review h3 { margin-right: 0.5em; }
 
 
 
