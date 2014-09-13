@@ -1,0 +1,22 @@
+<%
+# Keep in sync with blog & _posts_page
+%>
+
+<article class="post">
+    <header>
+        <h1 class="title"><%= link_to(@post[:title], @post.path) %></h1>
+        <p class="time"><%= Post::time_tag_for(@post) %></p>
+        <%= tom_pixel_for(@post) %>
+        <%= teaser_for(@post) %>
+    </header>
+        
+    <%= excerpt_for(@post) %>
+        
+    <footer>
+        <ul class="post__meta">
+            <li><%= link_to("&infin; Permalink", @post.path) %></li>
+            <li>Tags: <%= Post::tags_for(@post) %></li>
+            <%= %Q{<li>&rarr; via: <a href="#{@item[:via]}">@item[:via]</a></li>} if @item[:via]%>
+        </ul>
+    </footer>
+</article>

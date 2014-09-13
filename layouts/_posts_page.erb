@@ -1,0 +1,16 @@
+<%
+# Keep in sync with _post & blog
+%>
+
+<section id="posts">
+<% paginated_posts(@config[:page_size], 'worklog')[@page - 1].each do |article| %>
+    <%= render '_post', :post => article %>
+<% end %>
+
+    <nav class="pagination">
+        <ul>
+            <li class="newer"><%=link_to_posts_page("Newer Posts", @page - 1, @config[:page_size], "worklog") || "" %></li>
+            <li class="older"><%=link_to_posts_page("Older Posts", @page + 1, @config[:page_size], "worklog") || "" %></li>
+        </ul>
+    </nav>
+</section>

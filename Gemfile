@@ -13,6 +13,9 @@ gem 'guard', '~>2.2.2'
 gem 'guard-nanoc', '~>1.0.1'
 gem 'growl', '~> 1.0.3'
 
+# Blogging
+gem 'activesupport'
+
 # Minify
 gem 'rainpress',  '~>1.0' # CSS Compressor
 gem 'jsmin',      '~>1.0'
@@ -27,7 +30,6 @@ gem 'multi_json', '~> 1.3' # needed by uglifier
 
 # needed for tasks
 gem 'rake'
-gem 'git'
 
 # needed to run nanoc autocompile
 gem 'rack'

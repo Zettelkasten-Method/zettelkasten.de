@@ -1,0 +1,7 @@
+<% render 'plain' do %>
+<section id="posts">
+<% posts_tagged_with(@item[:tag], "worklog").each do |post| %>
+    <%= render '_post', :post => post %>
+<% end %>
+</section>
+<% end %>

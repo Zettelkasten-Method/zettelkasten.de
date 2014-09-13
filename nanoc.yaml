@@ -1,7 +1,7 @@
 # A list of file extensions that nanoc will consider to be textual rather than
 # binary. If an item with an extension not in this list is found,  the file
 # will be considered as binary.
-text_extensions: [ 'coffee', 'css', 'erb', 'haml', 'handlebars', 'hb', 'htm', 'html', 'js', 'less', 'markdown', 'md', 'ms', 'mustache', 'php', 'rb', 'sass', 'scss', 'txt', 'xhtml', 'xml' ]
+text_extensions: [ 'coffee', 'css', 'erb', 'haml', 'handlebars', 'hb', 'htm', 'html', 'js', 'less', 'markdown', 'md', 'ms', 'mustache', 'php', 'rb', 'sass', 'scss', 'txt', 'xhtml', 'xml', 'atom' ]
 
 # The path to the directory where all generated files will be written to. This
 # can be an absolute path starting with a slash, but it can also be path
@@ -42,7 +42,7 @@ meta_data:
   description: "The Zettelkasten note-taking method has made book writing and writing scientific papers easy for hundrets of years already."
 
   # Copyright line used in the document header meta tag.
-  copyright: "CC:BY-NC-SA Christian Tietze <http://creativecommons.org/licenses/by-nc-sa/3.0>"
+  copyright: "CC:BY-NC-SA Christian Tietze, Sascha Fast <http://creativecommons.org/licenses/by-nc-sa/3.0>"
 
   # Tracking code for Google Analytics. Specifying this will include the
   # tracking code in your site's head section.

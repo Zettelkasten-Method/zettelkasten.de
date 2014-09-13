@@ -21,9 +21,104 @@ ENV['NANOC_ENV'] ||= 'development'
 BYPASS_FILES = %w(404.html crossdomain.xml humans.txt robots.txt googlebd82924855df6b5d.html) unless defined?(BYPASS_FILES)
 DEPLOYED = ENV['NANOC_ENV'] == 'deployment' # suppresses CacheBuster in development
 
+class Nanoc::Site
+  attr_accessor :tags
+end
+
+
+# from https://github.com/mgutz/nanoc3_blog/blob/master/Rules
 preprocess do
   # authors may unpublish items by setting meta attribute publish: false
   items.delete_if { |item| item[:publish] == false }
+  
+  # def paginate_worklog
+  #   rest = posts()
+  #   pages = []
+  #   page_size = @config[:page_size]
+  #
+  #   until rest.empty?
+  #     pages << rest.slice!(0..page_size-1)
+  #   end
+  #
+  #   pages.each_with_index do |subarticles, i|
+  #     first = i * page_size + 1
+  #     last  = (i + 1) * page_size
+  #     page = i + 1
+  #
+  #     @items << Nanoc::Item.new(
+  #       "<%= render '_posts_page', :page => #{page} %>",
+  #       {
+  #         :title => "Worklog",
+  #         :mtime => Time.parse(latest_post("worklog")[:created_at].to_s) # for the sitemap
+  #       },
+  #       "/posts/pages/#{page}/"
+  #     )
+  #   end
+  # end
+  
+  def tag_posts
+    tags = tags()
+    
+    tags.each do |tag|
+      @items << Nanoc::Item.new(
+        "",
+        {
+          :title => %Q{Posts tagged &ldquo;#{tag}&rdquo;},
+          :tag => tag,
+          :mtime => Time.now#parse(Date.now) # for the sitemap
+          # TODO ^-- this is wrong
+        },
+        "/posts/tags/#{tag}"
+      )
+    end
+    
+    @site.tags = tags
+  end
+  
+  def years_and_months(posts)
+    years = Set.new
+    months = Set.new
+    
+    posts.each do |post|
+      date = DateTime.parse(post[:created_at].to_s)
+      years << date.year
+      months << { year: date.year, month: date.month }
+    end
+    
+    return years, months
+  end
+
+  years, months = years_and_months(posts())
+
+  years.each do |year|
+    @items << Nanoc::Item.new(
+      "<%= render '_posts_per_time', :from => '#{year}-01-01', :to => '#{year}-12-31' %>",
+      {
+        :title => %Q{Posts from #{year}},
+        :mtime => Time.now # TODO last post
+      },
+      "/posts/#{year}"
+    )
+  end
+  
+  months.each do |month|
+    month_title = Date.new(month[:year], month[:month]).strftime('%b')
+    first_day = Date.new(month[:year], month[:month], 1).iso8601
+    last_day = Date.new(month[:year], month[:month], -1).iso8601
+    padded_month = "%02d" % month[:month]
+    
+    @items << Nanoc::Item.new(
+      "<%= render '_posts_per_time', :from => '#{first_day}', :to => '#{last_day}' %>",
+      {
+        :title => %Q{Posts from #{month_title} #{month[:year]}},
+        :mtime => Time.now # TODO last post
+      },
+      "/posts/#{month[:year]}/#{padded_month}"
+    )
+  end
+  
+  # paginate_worklog
+  tag_posts
 end
 
 BYPASS_FILES.each do |file|
@@ -59,6 +154,72 @@ end
 compile %r{^/(sitemap|htaccess)/$} do
   filter :erb
 end
+
+
+#
+# Blog
+#
+
+compile '/posts/tags/' do
+  filter :erb
+  filter :kramdown
+  filter :typogruby
+    
+  layout 'plain'
+  filter :cache_buster if DEPLOYED
+end
+
+compile '/posts/tags/*/' do
+  filter :erb
+  
+  layout 'tags'
+  filter :cache_buster if DEPLOYED
+end
+
+compile '/feed/' do
+  filter :erb
+  # no layout
+end
+
+compile '/feed/*/' do
+  filter :erb
+  # no layout
+end
+
+compile %r</posts/\d{4}(/\d{2})?/$> do
+  filter :erb
+  layout 'plain'
+  filter :cache_buster if DEPLOYED
+end
+
+compile '/posts/*/' do
+  unless item.binary? # don’t filter binary items
+    filter :erb
+    
+    if item[:lang] == 'mmd'
+      filter :mmd
+    else
+      filter :kramdown
+    end
+    
+    filter :typogruby
+    
+    layout 'blog'
+    
+    filter :add_ids_to_headers
+    filter :add_toc
+    if item[:toc]
+      #filter :redcarpet, :renderer => Redcarpet::Render::HTML_TOC, :renderer_options => { :with_toc_data => true }
+    end
+    
+    filter :cache_buster if DEPLOYED
+  end
+end
+
+
+#
+# Misc content
+#
 
 compile '/*' do
   if item.binary?
@@ -110,6 +271,10 @@ end
 
 route '/htaccess/' do
   '/.htaccess'
+end
+
+route '/feed/' do
+  '/feed.atom'
 end
 
 route 'sitemap' do

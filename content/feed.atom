@@ -1,0 +1,5 @@
+<%= atom_feed :limit => 20, 
+              :articles => sorted_posts("article"), 
+              :title => "Zettelkasten.de",
+              :author_name => @site.config[:meta_data][:author],
+              :author_uri => @site.config[:base_url] %>

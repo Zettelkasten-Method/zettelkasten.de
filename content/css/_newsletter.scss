@@ -1,0 +1,46 @@
+/*
+ * Newsletter Form
+ */
+.news__label {
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-weight: bold;
+  display: block;
+}
+.news__input {
+  border: 2px solid;
+  border-color: #A3A658;
+  background: white;
+  padding: 0.3em 0.5em;
+  margin: 0.5em 0;
+}
+.news__input--email {
+  box-shadow: 0 2px 1px rgba(0,0,0,0.2) inset;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+.news__input--button {
+  position: relative;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  color: #333;
+  letter-spacing: 1px;
+  
+  width: 100%;
+    
+  $bg: rgba(163, 166, 88, 0.6);
+  background-color: $bg;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.2);
+  outline: none; /* remove Webkit glow */
+
+  &:active {
+    top: 2px;
+    box-shadow: none;
+    background-color: saturate(lighten($bg, 5%), 5%);
+  }
+}
+.asterisk { color: red; }
+.indicates-required { font-size: 80%; font-style: italic; }

@@ -1,0 +1,37 @@
+<%
+# Keep in sync with _post & _posts_page
+%>
+
+<% render 'default' do %>
+<section id="posts">
+    <article class="post">
+        <header>
+            <h1 class="title"><%= @item[:title] %></h1>
+            <p class="time"><time datetime="<%= @item[:created_at] %>"><%= Post::date_for(@item) %></time></p>
+            <%= tom_pixel_for(@post) %>
+        </header>
+        
+        <% if item[:toc] %>
+        {{TOC}}
+        <% end %>
+        
+        <%= yield %>
+        
+        <footer>
+            <ul class="post__meta">
+                <li>Tags: <%= Post::tags_for(@item) %></li>
+                <%= %Q{<li>&rarr; via: <a href="#{@item[:via]}">@item[:via]</a></li>} if @item[:via]%>
+            </ul>
+            
+        </footer>
+
+        <p><span class="leave"><a href="/posts" class="calltoaction">Browse the blog archive</a></span></p>
+    </article>
+
+    <% if Post::comments_allowed_for(@item) && (ENV['NANOC_ENV'] && ENV['NANOC_ENV'] != 'development') %>
+    <aside id="comments">
+        <%= render('_comments') %>
+    </aside>
+    <% end %>
+</section>
+<% end %>

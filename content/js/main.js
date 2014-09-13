@@ -1,4 +1,3 @@
-
 // smart resize - http://paulirish.com/2009/throttled-smartresize-jquery-event-handler/
 (function($,sr){
 
@@ -27,15 +26,3 @@
   jQuery.fn[sr] = function(fn){  return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
 
 })(jQuery,'smartresize');
-
-$(document).ready(function() {
-  imagesLoaded('.main', function () {
-    // use equalize to equalize the heights of content elements
-    $('.equalize').equalize({children:'.content-box'});    
-  });
-  
-  // re-equalize on resize
-  $(window).smartresize(function(){  
-    $('.equalize').equalize({reset:true, children:'.content-box'});
-  });
-});
