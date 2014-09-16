@@ -66,7 +66,7 @@ preprocess do
           :title => %Q{Posts tagged &ldquo;#{tag}&rdquo;},
           :tag => tag,
           :mtime => Time.now#parse(Date.now) # for the sitemap
-          # TODO ^-- this is wrong
+          # TODO ^-- this is wrong, use last post
         },
         "/posts/tags/#{tag}"
       )
@@ -145,6 +145,14 @@ end
 compile '/js/*/' do
    filter :concat_js
    filter :uglify_js
+end
+
+compile '/img/blog/*/' do
+  filter :thumbnailize, :width => 1000
+end
+
+compile '/img/blog/*/', :rep => :thumbnail do
+  filter :thumbnailize, :width => 400
 end
 
 compile '/img/*/' do
@@ -289,6 +297,10 @@ end
 route '/js/*/' do
   fp = DEPLOYED ? fingerprint(item[:filename]) : ''
   item.identifier.chop + fp + '.js'
+end
+
+route '/img/blog/*/', :rep => :thumbnail do
+  item.identifier.chop + '-thumbnail.' + item[:extension]
 end
 
 route '*' do

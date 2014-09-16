@@ -46,6 +46,36 @@ module My
       def time_tag_for(item)
         %Q{<time datetime="#{item[:created_at]}">#{My::Blog::Post::date_for(item)}</time>}
       end
+      
+      def author_tag_for(item)
+        author = item[:author] || 'christian'
+        author_name = case author
+                      when 'sascha' then 'Sascha'
+                      else 'Christian'
+                      end
+        
+        %Q{by <a href="/authors/#{author}">#{author_name}</a>}
+      end
+      
+      def teaser_for(item)
+        return unless item[:image]
+      
+        filename = item[:image]
+        image_name = File::basename(filename, File::extname(filename))
+        thumbnail = image_name + '-thumbnail' + File::extname(filename)
+        path = '/img/blog/' + thumbnail
+        href = item.path
+      
+        %Q{<figure class="teaser"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="teaser__image"/></a></figure>}
+      end
+    
+      def tom_pixel_for(post)
+        return unless item[:vgwort]
+      
+        vgwort_src = item[:vgwort]
+      
+        %Q{<img src="#{vgwort_src}" width="1" height="1" alt="" class="vgwort" />}
+      end
     end
     
     def latest_post(kind = "article")
@@ -73,6 +103,10 @@ module My
       posts(kind).sort_by do |post|
         attribute_to_time(post[:created_at])
       end.reverse
+    end
+    
+    def sorted_posts_by(author, kind = "article")
+      sorted_posts(kind).select { |post| post[:author] == author }
     end
       
     def paginated_posts(items_per_page = 10, kind = "article")
@@ -135,19 +169,24 @@ module My
       relative_path_for file, @item
     end
     
+    def insert_teaser_image(title: "", caption: "")
+      insert_image(file: '/img/blog/' + @item[:image], 
+                   title: title,
+                   caption: caption)
+    end
+    
     def insert_image(file: nil, title: "", caption: "", link: nil, relative: nil)
       raise "file expected" unless file
       
-      file = relative_path_for file, @item
       href = link || unless relative.nil?
                        relative_path_for relative, @item
                      else
                        file
                      end
       
-      figcaption = %Q{<figcaption>#{caption}</figcaption>} if caption
+      figcaption = %Q{<figcaption class="post-figure__caption">#{caption}</figcaption>} if caption
       
-      %Q{<figure><a href="#{href}"><img alt="#{title}" src="#{file}" /></a>#{figcaption}</figure>}
+      %Q{<figure class="post-figure"><a href="#{href}"><img alt="#{title}" src="#{file}" class="post-figure__image"/></a>#{figcaption}</figure>}
     end
     
     def excerpt_for(item)
@@ -176,30 +215,6 @@ module My
     
     def use_excerpt?(item)
       return item[:preview] == nil || item[:preview] != 'fulltext'
-    end
-        
-    def teaser_for(item)
-      return unless item[:image] || item[:shared_image]
-      
-      path = ''
-      
-      if item[:shared_image]
-        path = '/img/' + item[:shared_image] 
-      else
-        path = relative_path_for(item[:image], item)
-      end
-      
-      href = item.path
-      
-      %Q{<figure class="teaser"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="teaser__image"/></a></figure>}
-    end
-    
-    def tom_pixel_for(post)
-      return unless item[:vgwort]
-      
-      vgwort_src = item[:vgwort]
-      
-      %Q{<img src="#{vgwort_src}" width="1" height="1" alt="" class="vgwort" />}
     end
     
     private
