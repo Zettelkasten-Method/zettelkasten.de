@@ -22,10 +22,7 @@
                 <li>Tags: <%= Post::tags_for(@item) %></li>
                 <%= %Q{<li>&rarr; via: <a href="#{@item[:via]}">@item[:via]</a></li>} if @item[:via]%>
             </ul>
-            
         </footer>
-
-        <p><span class="leave"><a href="/posts" class="calltoaction">Browse the blog archive</a></span></p>
     </article>
 
     <% if Post::comments_allowed_for(@item) && (ENV['NANOC_ENV'] && ENV['NANOC_ENV'] != 'development') %>

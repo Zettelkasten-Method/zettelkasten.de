@@ -12,5 +12,14 @@ layout: default
       <h1>Latest Posts</h1>
   </header>
 
-  <%= render '_post', :post => sorted_posts().first %>
+  <% sorted_posts()[0..5].each do |post| %>
+    <%= render '_post', :post => post %>
+  <% end %>
+  
+  <footer>
+    <ul>
+      <li><a href="/posts/2014">Posts from 2014</a></li>
+      <li><a href="/posts">Post Archive</a></li>
+    </ul>
+  </footer>
 </section>

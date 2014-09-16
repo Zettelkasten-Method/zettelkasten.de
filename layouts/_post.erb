@@ -4,13 +4,15 @@
 
 <article class="post">
     <header>
-        <h1 class="title"><%= link_to(@post[:title], @post.path) %></h1>
-        <p class="time"><%= Post::time_tag_for(@post) %></p>
-        <%= tom_pixel_for(@post) %>
-        <%= teaser_for(@post) %>
+        <h1 class="title post__title"><%= link_to(@post[:title], @post.path) %></h1>
+        <ul class="post__meta">
+            <li class="time"><%= Post::time_tag_for(@post) %></li>
+            <li class="author"><%= Post::author_tag_for(@post) %></li>
+        </ul>
+        <%= Post::teaser_for(@post) %>
     </header>
         
-    <%= excerpt_for(@post) %>
+    <%= Post::excerpt_for(@post) %>
         
     <footer>
         <ul class="post__meta">

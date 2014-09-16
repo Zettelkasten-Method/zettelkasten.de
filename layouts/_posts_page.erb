@@ -3,7 +3,7 @@
 %>
 
 <section id="posts">
-<% paginated_posts(@config[:page_size], 'worklog')[@page - 1].each do |article| %>
+<% paginated_posts(@config[:page_size])[@page - 1].each do |article| %>
     <%= render '_post', :post => article %>
 <% end %>
 

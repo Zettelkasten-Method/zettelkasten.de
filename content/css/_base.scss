@@ -251,6 +251,50 @@ figure a, figure a:hover {
 .tool-author--single h3, .tool-review h3 { margin-right: 0.5em; }
 
 
+.post__title { margin-bottom: 0; }
+.post__meta { margin-top: 0; }
+.post-figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+/*#posts article figure.teaser {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  @include above_breakpoint() {
+    max-width: 40%;
+    float: right;
+    margin-left: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+  };
+}
+*/
+.post-figure__image {
+  border-width: 0;
+  padding: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.post-figure__caption { font-size: $small-size; }
+.teaser__image { }
+.footnotes { 
+  border-top: 3px solid $color-separator;
+  margin-top: 3em;
+
+  font-size: $small-size; 
+  p { margin-bottom: 0; margin-top: 0; }
+}
+
+hr {
+  border-color: transparent;
+  border-top: 3px solid $color-separator;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+
 
 
 /* ==========================================================================
@@ -312,6 +356,12 @@ figure a, figure a:hover {
     font-size: 400%;
     margin-top: .4em;
     margin-bottom: .4em;
+  }
+  
+  .post-figure__image {
+    border: 1px solid #d4d4d4;
+    padding: 0.25em;
+    background: #fff;
   }
 }
 
