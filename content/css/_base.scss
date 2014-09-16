@@ -258,19 +258,13 @@ figure a, figure a:hover {
   margin-bottom: 2em;
   text-align: center;
 }
-/*#posts article figure.teaser {
+.post-teaser {
   margin: 0;
   padding: 0;
   width: 100%;
-  @include above_breakpoint() {
-    max-width: 40%;
-    float: right;
-    margin-left: 0.5em;
-    margin-top: 0;
-    margin-bottom: 0;
-  };
 }
-*/
+.summary { margin-top: 1em; }
+.post-teaser__image { max-width: 100%; }
 .post-figure__image {
   border-width: 0;
   padding: 0;
@@ -363,6 +357,15 @@ hr {
     padding: 0.25em;
     background: #fff;
   }
+  
+  .post-teaser {
+    max-width: 40%;
+    float: right;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+  
 }
 
 @media only screen and (min-width: 900px) {

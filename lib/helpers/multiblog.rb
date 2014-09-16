@@ -66,7 +66,7 @@ module My
         path = '/img/blog/' + thumbnail
         href = item.path
       
-        %Q{<figure class="teaser"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="teaser__image"/></a></figure>}
+        %Q{<figure class="post-teaser"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image"/></a></figure>}
       end
     
       def tom_pixel_for(post)

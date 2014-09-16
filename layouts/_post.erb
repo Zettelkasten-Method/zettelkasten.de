@@ -9,9 +9,9 @@
             <li class="time"><%= Post::time_tag_for(@post) %></li>
             <li class="author"><%= Post::author_tag_for(@post) %></li>
         </ul>
-        <%= Post::teaser_for(@post) %>
     </header>
-        
+
+    <%= Post::teaser_for(@post) %>
     <%= Post::excerpt_for(@post) %>
         
     <footer>

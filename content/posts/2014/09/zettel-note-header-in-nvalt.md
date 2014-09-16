@@ -2,7 +2,8 @@
 title: Zettel note header automation in nvALT
 created_at: 2014-09-13 10:37:00 +0200
 kind: article
-tags: [ nv, tool ]
+author: christian
+tags: [ nv, tool, mac ]
 vgwort: http://vg08.met.vgwort.de/na/eb5a7102855e4b4d875e88e998af70b5
 comments: on
 ---
