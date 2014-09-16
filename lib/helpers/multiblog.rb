@@ -199,8 +199,11 @@ module My
         # summary = paragraphs[0]
         html = Nokogiri::HTML::DocumentFragment.parse(item.compiled_content)
         summary = ""
-      
+        
         html.css('p').each do |p, index|
+          p.css("a").each do |a|
+            a.remove if a['href'].start_with?('#fn:')
+          end
           summary << p.inner_html + " "
           break if summary.length > 300 
         end
