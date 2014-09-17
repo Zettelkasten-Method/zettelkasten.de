@@ -57,6 +57,20 @@ module My
         %Q{by <a href="/authors/#{author}">#{author_name}</a>}
       end
       
+      def contact_tag_for(item)
+        author = item[:author] || 'christian'
+        gplus = case author
+                when 'sascha' then 'https://plus.google.com/107502518870533837270'
+                else 'https://plus.google.com/102954263645795828102/'
+                end
+        twitter = case author
+                  when 'sascha' then 'saschafast'
+                  else 'ctietze'
+                  end
+        
+        %Q{&bull; <a href="#{gplus}">Google+</a>, <a href="https://www.twitter.com/#{twitter}">Twitter</a>}
+      end
+      
       def teaser_for(item)
         return unless item[:image]
       

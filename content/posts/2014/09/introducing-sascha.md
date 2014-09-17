@@ -84,3 +84,6 @@ I am very happy for suggestions what to write. I don't have any shortcomings of 
 Twitter: [@SaschaFast](http://twitter.com/saschafast)  
 E-mail: Saschafast [at] gmail [dot] com  
 Homepage: <http://saschafast.de>
+
+-- Next week: Christian's journey to the Zettelkasten method.
+<!--ct: TODO insert link when ready-->
