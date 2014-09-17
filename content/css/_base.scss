@@ -182,6 +182,14 @@ figure a, figure a:hover {
   border-bottom-color: transparent;
 }
 
+.feed-icon {
+  margin-left: 0.3em;
+  * {
+    fill: $color-link;
+    stroke: $color-link;
+  }
+}
+
 .announcement {
   background: rgba(181, 203, 48, 0.7);
 }

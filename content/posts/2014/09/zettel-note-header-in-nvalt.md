@@ -6,6 +6,7 @@ author: christian
 tags: [ nv, tool, mac ]
 vgwort: http://vg08.met.vgwort.de/na/eb5a7102855e4b4d875e88e998af70b5
 comments: on
+publish: false
 ---
 
 The essential priniciple of a _Zettelkasten_ is its flexibility. From there I derived my maxims, like "you should avoid proprietary software", and "you should use plain text notes to ensure longevity". That's why I don't use a fancy application with lots of spectacular features but the simple [nvALT][nvz] instead. Here's how I automat note creation to speed up my workflow.
@@ -92,14 +93,14 @@ Alternatively, you can download the [Zettel Header Service][download] as an Auto
 
 If you use MultiMarkdown, you can tweak the script a bit. Locate where the header is set and replace
 
-        set theHeader to "" & theZettel & "
-    
+    set theHeader to "" & theZettel & "
+
     "
 
-With:
+With the following, preserving the blank line:
 
-        set theHeader to "Title:" & theZettel & "
-        
+    set theHeader to "Title:" & theZettel & "
+    
     "
 
 [min]: /posts/2014/03/baseline-zettelkasten-software-reviews/#the-bare-minimum-of-a-zettel-note
