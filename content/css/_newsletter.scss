@@ -1,4 +1,12 @@
 /*
+ * Newsletter box
+ */
+
+.newsletter { }
+.newsletter__title { font-size: $large-base-size / $base-size * 1em; }
+.newsletter__info { font-size: $small-size; }
+
+/*
  * Newsletter Form
  */
 .news__label {
