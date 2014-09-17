@@ -14,7 +14,7 @@
                 <li class="contact"><%= Post::contact_tag_for(@item) %></li>
             </ul>
 
-            <%= tom_pixel_for(@post) %>
+            <%= Post::tom_pixel_for(@item) %>
         </header>
         
         <% if item[:toc] %>

@@ -83,7 +83,7 @@ module My
         %Q{<figure class="post-teaser"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image"/></a></figure>}
       end
     
-      def tom_pixel_for(post)
+      def tom_pixel_for(item)
         return unless item[:vgwort]
       
         vgwort_src = item[:vgwort]
