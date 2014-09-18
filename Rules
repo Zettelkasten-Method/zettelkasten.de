@@ -303,6 +303,17 @@ route '/img/blog/*/', :rep => :thumbnail do
   item.identifier.chop + '-thumbnail.' + item[:extension]
 end
 
+route '/posts/*' do
+  if item[:kind] == 'article'
+    id = ""+item.identifier
+    id.slice!(item.parent.identifier)
+    
+    '/posts/' + id + 'index.html'
+  else 
+    item.identifier + 'index.html'
+  end
+end
+
 route '*' do
   if item.binary?
     # Write item with identifier /foo/ to /foo.ext

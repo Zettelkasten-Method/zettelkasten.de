@@ -2,7 +2,8 @@
 # http://www.w3.org/International/questions/qa-htaccess-charset
 #
 
+RewriteEngine On
+RewriteRule ^posts/2014/09/introducing-sascha/(.*)$ /posts/introducing-sascha/$1 [R=301,L]
 
 AddCharset UTF-8 .html
-
 ErrorDocument 404 /404.html
