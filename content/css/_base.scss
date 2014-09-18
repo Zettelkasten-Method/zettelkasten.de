@@ -90,10 +90,7 @@ label, input { font-family: $font-sans; }
 .wrapper { /* don't add margin on mobile to all */ }
 .content-wrapper { width: 98%; margin: 0 1%; }
 
-.footer-container,
-.main aside {
-    background: #B5CB30;
-}
+.footer-container { background: #B5CB30; }
 
 #footer { font-family: $font-sans; }
 
@@ -145,11 +142,6 @@ nav a:hover {
 
 .main article h1 {
   font-size: 2em;
-}
-
-.main aside {
-  color: white;
-  padding: 0px 5% 10px;
 }
 
 .footer-container footer {
