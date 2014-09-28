@@ -14,6 +14,15 @@
     
     <meta name="viewport" content="width=device-width">
 
+    <% if @item[:kind] == 'article' %>
+      <meta name="og:title" content="<%= @item[:title] %>">
+      <meta name="og:type" content="article">
+      <meta name="og:article:published_time" content="<%= @item[:created_at]%>">
+      <meta name="og:url" content="<%= @site.config[:base_url] + @item.path %>">
+      <meta name="og:image" content="<%= @site.config[:base_url] + teaser_image_path() %>">
+      <meta name="og:site_name" content="<%= @site.config[:meta_data][:title] %>">
+    <% end %>
+    
     <link rel="publisher" href="https://plus.google.com/102196782706238603750">
 
     <link rel="stylesheet" href="/css/normalize.min.css">

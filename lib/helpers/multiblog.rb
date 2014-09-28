@@ -183,8 +183,12 @@ module My
       relative_path_for file, @item
     end
     
+    def teaser_image_path
+      '/img/blog/' + @item[:image]
+    end
+    
     def insert_teaser_image(title: "", caption: "")
-      insert_image(file: '/img/blog/' + @item[:image], 
+      insert_image(file: teaser_image_path(), 
                    title: title,
                    caption: caption)
     end
