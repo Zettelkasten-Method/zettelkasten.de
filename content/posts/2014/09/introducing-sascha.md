@@ -85,5 +85,4 @@ Twitter: [@SaschaFast](http://twitter.com/saschafast)
 E-mail: Saschafast [at] gmail [dot] com  
 Homepage: <http://saschafast.de>
 
--- Next week: Christian's journey to the Zettelkasten method.
-<!--ct: TODO insert link when ready-->
+-- Next week: [Christian's journey](/posts/introducing-christian/) to the Zettelkasten method.
