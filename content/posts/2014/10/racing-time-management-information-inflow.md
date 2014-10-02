@@ -3,7 +3,7 @@ title: Racing – A Time-Saving Technique for Your Information Inflow
 created_at: 2014-10-02 09:52:29 +0200
 kind: article
 author: sascha
-tags: [ productivity, information-overload, information-diet ]
+tags: [ productivity, information-overload, informationdiet ]
 image: 201410020946_racing-dog.jpg
 vgwort: http://vg04.met.vgwort.de/na/bf49663401924f99b426db10cae653d8
 comments: on
