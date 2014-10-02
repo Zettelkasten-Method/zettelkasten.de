@@ -6,12 +6,8 @@
     Christian Tietze - Author - @ctietze, http://christiantietze.de
     Sascha Fast - Co-Author - http://saschafast.de
 
-# THANKS
-
-    <name>
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
-    Nanoc.ws
+    HTML5, CSS3, Modernizr
+    Nanoc.ws static site generator
