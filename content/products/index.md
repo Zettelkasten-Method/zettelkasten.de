@@ -6,7 +6,7 @@ We are constantly working on our toolchain and Christian creates software applic
 
 ## Word Counter (Mac software)
 
-![Wordcounter Panel](wordcounter-panel.png)
+![Wordcounter Panel](/products/wordcounter-panel.png)
 
 The Word Counter is our solution to becoming more productive writers. We invented it to track our daily output -- because writing a lot is the number 1 key ingredient to writing good.
 
