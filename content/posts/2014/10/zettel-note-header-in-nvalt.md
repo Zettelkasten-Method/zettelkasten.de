@@ -1,12 +1,12 @@
 ---
 title: Zettel note header automation in nvALT
-created_at: 2014-09-26 10:37:00 +0200
+created_at: 2014-10-09 21:41:00 +0200
 kind: article
 author: christian
 tags: [ nv, tool, mac ]
 vgwort: http://vg08.met.vgwort.de/na/eb5a7102855e4b4d875e88e998af70b5
+image: 201410092140_nv-script.png
 comments: on
-publish: false
 ---
 
 An essential priniciple of a _Zettelkasten_ is its flexibility. From there you can derive maxims like "you should avoid proprietary software", and "you should use plain text notes to ensure longevity". That's why I don't use a fancy application with lots of spectacular features but the simple [nvALT][nvz] instead. Here's how I automate note creation to speed up my workflow.
@@ -65,33 +65,11 @@ The script does the following:
 - rename the active note in nvALT to become `<<ID>> <<Title>>`
 - paste the ID and title into the note
 
-The gist of the script is about invoking keystrokes. It is this part:
-
-    tell application "nvALT" to activate
-    tell application "System Events"
-      --- Save the old clipboard
-      set currentClipboard to the clipboard
-      
-      --- Paste the header
-      set the clipboard to theHeader
-      keystroke "v" using command down
-      delay 0.3
-      
-      --- Rename the file (Cmd-R) and paste in the title
-      keystroke "r" using command down
-      set the clipboard to theZettel
-      keystroke "v" using command down
-      delay 0.3
-      
-      --- Move back to the editing pane and restore the clipboard
-      keystroke tab
-      delay 1
-      set the clipboard to currentClipboard
-    end tell
-
-You can copy the [full AppleScript Gist from GitHub][gist]. I embed it here for your convenience, too:
+The gist of the script is about invoking keystrokes. I added comments to the script so you can make sense of the keystroke invocation.
 
 <script src="https://gist.github.com/DivineDominion/fe1d4d39baf45477a496.js"></script>
+
+You can copy the [full AppleScript Gist from GitHub][gist].
 
 If you want to use a more elaborate header, add additional lines of text to the lines of `set theHeader to ...`. The blank line is in there to create enough whitespace to start typing. You may delete it if you don't find it useful.
 
@@ -102,11 +80,13 @@ For example, I like to use MultiMardown-style headers. So in my version, the val
 
 This adds two lines of text into the header and places the cursor right after the hash character (`#`) so I can begin adding tags right away. I put my list of keywords into the header instead of the bottom of the note, contrary to the bare-minimum example from above. When you pick MultiMarkdown, this makes sense. If you stick to "just text", I guess you better leave tags at the bottom so they are out of sight.
 
-You can see that the function `current_date()` concatenates year, month, day, hours, and minutes into a string like `201410011105` for "2014-10-01 11:05 a.m.". You could add the seconds, too, by adding `(twoDigitDisplay(it's seconds))` to `current_date()`. I found that it suffices to create _Zettel_ notes with accuracy to the minutes. I assign IDs with accuracy to the seconds to items outside my note archive, though.
+You can see that the function `current_date()` concatenates year, month, day, hours, and minutes into a string like `201410011105` for "2014-10-01 11:05 a.m.". You could add the seconds, too, by adding `(twoDigitDisplay(it's seconds))` to `current_date()`. I found that it suffices to create _Zettel_ notes with accuracy to the minutes. I assign IDs with accuracy to the seconds to items outside my note archive, though.[^two]
 
-The `twoDigitDisplay()` stuff was necessary to pad numbers with zeros, so "1" becomes "01" to ensure consistency among identifiers. I believe this can be shortened, but I wouldn't know how. Any AppleScript tips are welcome!
+Please share your customizations, and how you format your Zettel header!
+
+[^two]: The `twoDigitDisplay()` stuff was necessary to pad numbers with zeros, so "1" becomes "01" to ensure consistency among identifiers. I believe this can be shortened, but I wouldn't know how. Any AppleScript tips are welcome!
 
 [min]: /posts/2014/03/baseline-zettelkasten-software-reviews/#the-bare-minimum-of-a-zettel-note
 [nvz]: /posts/2014/04/nvalt-zettelkasten-implementation/
 [gist]: https://gist.github.com/DivineDominion/fe1d4d39baf45477a496
-[download]: 
+[download]: /downloads/2014-09-29_Insert-Zettel-Header-Workflow.zip
