@@ -103,6 +103,7 @@ nav { background: $color-background-nav; font-family: $font-sans; }
 nav ul { margin: 0; padding: 0; }
 nav ul li { list-style-type: none; }
 
+$color-nav: #D3D3D3;
 nav a {
     display: block;
     margin: 10px 0;
@@ -112,12 +113,14 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    $color: #D3D3D3;
-    color: $color;
-    
-    .nav__icon .iconic-property-fill {
-      fill: $color;
-    }
+    color: $color-nav;
+}
+.nav__icon .iconic-property-fill {
+  fill: $color-nav;
+}
+.nav__icon--products {
+  .iconic-property-fill { fill: darken($color-nav, 10%); }
+  .iconic-property-stroke { stroke: $color-nav; }
 }
 
 nav a:hover {
