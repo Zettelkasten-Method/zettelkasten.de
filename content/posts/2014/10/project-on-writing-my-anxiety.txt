@@ -1,0 +1,84 @@
+---
+title: A Life-Long Writing Project on Writing – and My Anxiety
+created_at: 2014-10-16 17:36:42 +0200
+kind: article
+author: sascha
+tags: [ writing, anxiety, publishing, belief ]
+image: 201410161818_scared-baby.jpg
+vgwort: http://vg01.met.vgwort.de/na/a4759c7874ba445bb1a0ed8a4882f5e4
+comments: on
+---
+
+The first "first draft" I ever finished was a short-ish ebook about writing. I tend to be very heavy on research with my projects. As I realized that my Zettelkasten archive already contains content worth several books, I started to research on how to write a book.
+
+## Heureka! I am productive!?
+
+The Zettelkasten Method means that you embrace a technique that is called _"Schreibend lesen"_ in German -- a phrase Luhmann coined in his later days. It means that you write while you are reading a text. Writing and capturing the ideas in your own words enhances your understanding and thinking on the topic, and perhaps in general.[^understanding]
+
+  [^understanding]: I believe that this is true. It is a big difference if you write something down. The precision of your thoughts will be greatly enhanced. If you want to understand something, write about it.
+
+During the time that I have read books and articles about writing, I put a book on writing together -- just on the fly. It took me no more than two weeks to write the first draft. I was thrilled and moved through the first editing process quite fast. I realized that I could write a short book on a topic in just a couple of weeks. 
+
+It showed me that the Zettelkasten Method is as powerful as my hypothesis predicted. Contrary to Christian, I researched on the Zettelkasten Method with the methods of history and philosophy. I never had a big technical background. 
+
+Did you know that Luhmann wrote approximately 70 Books and 450 Articles during his career, all on paper, only using a typewriter and hunt and peck typing? This is a freakish output, even if we would not take his lack of modern technology into consideration. 
+
+<iframe width="420" height="315" src="http://www.youtube-nocookie.com/embed/qRSCKSPMuDc?cc_load_policy=1&start=2247" frameborder="0" allowfullscreen></iframe>
+
+<!-- https://www.youtube.com/watch?v=qRSCKSPMuDc&t=37m26s  -->
+
+Now I was not only hoping, but rather knew that I was walking on a path similar to some of my biggest heroes in the world of science.
+
+## Hesitations
+
+<%= insert_teaser_image title: "scared baby", caption: %{Photo credit: <a href="https://www.flickr.com/photos/maddfamily/317422024/">Maddfamily</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">cc</a>} %>
+
+But soon, I started to hesitate. Why would anyone take a book on writing serious, written from someone who never wrote a book before?
+
+During that time I branded myself as a personal trainer and [biohacker][biohacker]. I was afraid to hurt my branding with this project.
+
+  [biohacker]: http://en.wikipedia.org/wiki/Biohacking
+
+I thought about publishing it under a pseudonym. Finally, I decided to delay this project to some time after I would have published other books.
+
+My hesitations killed a project in the cradle that I was thrilled about and put a damper on my excitement about that topic.
+
+## A new frosting on an old cake
+
+A couple days ago, I had a conversation with a 50 year old guy from the gym I work in addition to private clients. He told me about some of his private problems and how they affect him on a deep level. 
+
+I told him about how I deal with problems and that many problems don't even show up if you have found your mission in life. If you choose your dogma properly and realize it according to your peripheral beliefs and your true self, life is still hard, but simple.
+
+Did you remember what this entry of the blog is about? About a writing project on writing which somehow emerged when I used the technique of "schreibend lesen".
+
+At the same evening of this event, my old project on writing sneaked into my mind. I realized that I couldn't finish it because it had no connection to my dogmas. I never pictured me as a teacher. I am a learner who likes to exchange with other learners. This piece of writing was the sum of what I learned.
+
+I didn't write a manual to my method. I wrote a piece on writing from the perspective of a budding writer. I offer my perspective on methods on writing only.
+
+It doesn't seem to make such a difference, but as I changed my perspective on that writing piece, I was totally happy with publishing it.  
+
+This shift in perspective changed my view on this project dramatically. Rather than aiming for putting a perfect piece out, being afraid that I make a mistake, I publish it as it is: a snap shot in time which I can continue to work on. I will revise this book "[On Writing More](http://leanpub.com/on-writing-more)" as often as I learn something new on writing. It is simply the result of my practice, and it's an illustrative example of what you can achieve with the Zettelkasten Method. 
+
+So, I decided to quiet my hesitations about this project.
+
+I will extend and upgrade it on a regular basis as the corresponding part of my Zettelkasten note archive grows. Once someone purchased it, he'll have life long access to everything I learn about writing and how I think he can implement it into a process of research and life in general. 
+
+This is a kind of project I can present to the public while being honest with myself.
+
+## What did I learn?
+
+I experienced how stepping back can have a real effect on your actions. I now try to deeply embed every project into the core dogmas of my life.
+
+One of my core dogmas is, that I am a learner and not a teacher. I present what I learned and not a gospel truth.
+
+Most of the content of the e-book doesn't change for this new edition, but simply the way I present it will make a big difference to my actions. It contains the same lessons I learned and the same tips for other writers. But now I present them as they are: a piece of a budding writer's experience instead of a full blown manual.
+
+I think this is more humble and I feel comfortable with that.
+
+## What about you?
+
+- Did you experience some shifts in perspective on your work?
+- How did they change your actions?
+- Do you root your projects in your core dogmas?
+
+Let me know in the comments. I am curious about your experience.
