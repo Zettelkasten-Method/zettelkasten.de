@@ -1,0 +1,95 @@
+---
+title: Stop Relying on a Source and Have Faith in Your own Thoughts
+created_at: 2014-10-25 18:51:25 +0200
+kind: article
+author: christian
+tags: [ reading, knowledge ]
+image: 201410251901_puppy-sceptical.jpg
+vgwort: http://vg08.met.vgwort.de/na/fc599bcfa3c1407c953da67b161c663e
+comments: on
+---
+
+
+I've got a confession to make.
+
+Years ago, I was driven by fear: What if I don't fully understand what the author of a text is saying? I needed to have a backup plan; I had the strong desire to hold on to 100% of the information in a text. I put original articles into my Zettelkasten, and I pasted pages of books into notes without much commentary. The rationale was, to simply store the original text would be the best way to achieve 100% coverage of the author's intent. Makes sense, doesn't it?
+
+Sadly, this approach is all wrong. There can't be a 100% coverage as long as you're not the author herself.
+
+The desire to have all of the information of a text available made me collect files and papers and books: I had fallen for the [Collector's Fallacy][cf]. 
+
+Only later did I find out that this approach doesn't help at all. So I listened to other people's advice and began to take notes in my own voice, hoping it'd help. It did. Then, I learned why: because there's no way to simply pull out an author's intent. Through reading you have to make sense of things yourself, thereby _creating_ information.
+
+It's impossible to collect information by collecting original sources. Everything runs through our brain's filter and is subject to our interpretation.
+
+
+[cf]: http://christiantietze.de/posts/2014/01/collectors-fallacy
+
+## Your own Voice Counts
+
+<%= insert_teaser_image title: "skeptical puppy!", caption: %{Photo credit: <a href="https://www.flickr.com/photos/gareth1953/5499994653/">gareth1953</a> on flickr <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>} %>
+
+I had believed that texts contain information, and that it was my job to make the information accessible. Collecting books, storing quotes, and saving PDFs of articles seemed to be the best solution. Only I still had to read the texts again and again to re-claim the information I did already discover the first time.
+
+I stopped collecting because it didn't produce the results I wanted. Instead, I increasingly shifted my focus to writing notes in my own voice, to keep my interpretations of texts in a condensed form, and to have them available at all times instead of making the texts themselves easy to find. This produces far better results, because a note you wrote yourself is tailored to your own patterns of thought, making it easier to work with it in the future. Your own notes require less energy when you read and make sense of them than re-visiting the original source would.[^qual]
+
+In short, when you work with a Zettelkasten, you'll have to aim for collecting your own thoughts and ideas.
+
+Let's talk about how to get there.
+
+
+  [^qual]: Another confession for today: this wasn't true for the first notes I took systematically. These notes don't feature clarity and brevity. Instead, they are full of cloudy gibberish. They may be even worse than the original texts in respect to the time needed to make sense of them. I'm glad I fixed that with constant feedback of Sascha.
+
+## The Brain Filters Potential Information
+
+So I wanted to capture 100% of the information in a text. What do you think: where do information come from? To answer this question makes it easier to see that this seemingly innocent desire leads to nothing but pain.
+
+Information depends on our brain's filter. It's this filter which determines what gets handed to our conscious mind, thus becoming information. All the rest, the stuff not reaching our consciousness, consequently cannot become information.
+
+Here's an example:
+
+In the first case, I sit at my table and write in my apartment. The sound of cars on the street exists "out there", but I don't notice it because my brain filters out background noise. We can say the sound of cars on the street is not information to me at this very moment.
+
+In the second case, the sounds of the street becomes information: I change my situation to make it so. These sounds are important, for example, when I go out and want to cross the street. I need to be more alert to moving vehicles in order to avoid getting hit. Listening and evaluating the sound of moving cars is useful to survive. I have learned to be alert when crossing the street to a degree which automates a lot of the process.
+
+Between these two cases, the inherent quality of the sound didn't change. It's the brain which changed the filter. In the first case, the sound of cars is just unimportant noise. Accordingly, the brain doesn't create a single bit of information for my consciousness. Thanks, brain. My ability to process information is limited and I'd rather not be disturbed by moving cars in front of the house. Our conscious mind's throughput is limited.
+
+We can configure the brain's filter by directing our awareness and focus. We change our _frame of mind_ automatically when we stand up from our chairs, leave the house, and cross the street. In other words, we pay attention to useful things depending on the situation without having to think about it. But we also have the ability to change the focus consciously. I can suspend writing for a second and listen for the sound of cars moving on the street. Yup, it's still there. Then I move back to writing and dismiss the noise.
+
+
+## Texts by Themselves are Worthless -- it's Your job to Create Information from a Source
+
+So we've established that information is something the brain constructs from external stimuli, that is, the data from your senses. We hear something and it is either swiped under the rug or becomes information to our conscious mind. 
+
+From there it follows that **information is not a property of things in the world**. Instead, information is part of our interpretation.
+
+Let's say information is the content of our thoughts. Thoughts constitute the conscious mind's material. Consequently, there must be an unconscious part which deals with the rest. It's there, somehow, but not accessible to us.
+
+The content of our thoughts thus depends on the filter of our brain. Our sub-consciousness can process things in the background and hand surprise insights to us, but it doesn't _think_. Only our consciousness contains thoughts.
+
+I started this post by telling you that in the past I wanted to hold on to 100% of the information of a text. I thought this was a good idea.
+
+Now, putting into practice our model of the origin of information, we can say that I was misguided: I am unable to access the contents of a text directly, whatever that means. Information depends on my brain's filter and thus is always something I interpret.
+
+In short, there's no such thing as _information in a text_. There's only information you created based on what you read.
+
+All in all, simply keeping the original source itself around doesn't increase your knowledge because you don't obtain any information at all. That's what I discovered after collecting texts for a while.
+
+To put information into an archive, I found that I need to record my thoughts, and not the thought-inspiring texts.
+
+
+## Conclusions
+
+Not the text as a stimulus itself, but the thoughts it inspired are important and worth keeping. Original texts are worthless by themselves besides the point of becoming sources of potentially stimulating moments for their reader, which is: you.
+
+Reading is a constructivist activity: information has to be created from data available. This implies that a creator is required, adding his or her own touch to it. It's your job to make sense of a text, to create information, and to take note of it, because your own interpretation is all that counts. 
+
+Your own ideas will vanish if not cared for. Everything else can be re-obtained from the source if need be. So don't worry about achieving less than 100% coverage, because to work with a text in any meaningful way implies being picky and imaginative.
+
+I struggled with a real reading technique for years. So I'm curious:
+
+* How did the way you read change with the years?
+* What were your core insights?
+* And how did your notes evolve?
+
+Tell us in the comments!
