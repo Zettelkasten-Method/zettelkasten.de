@@ -26,7 +26,7 @@ deploy:
   default:
     kind: rsync
     options: [ '-aP', '-e ssh', '--delete-after' ]
-    dst: "edv38-christiantietze@zettelkasten.de:/home/pacs/edv38/users/christiantietze/doms/zettelkasten.de/subs/www"
+    dst: "edv38-christiantietze@zettelkasten.de:/home/pacs/edv38/users/christiantietze/doms/zettelkasten.de/htdocs"
 
 meta_data:
   # Default title, that is added to an item's own title
