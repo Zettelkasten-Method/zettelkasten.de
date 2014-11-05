@@ -44,4 +44,10 @@ unless defined? LOADED_DEFAULT_CONFIG
     value = @item[key] || @site.config[:meta_data][key]
     '<meta name="%s" content="%s">' % [key, value] if value
   end
+  
+  def extract_identifiers(route)
+    regex = /(?<parent>.*\/)(?<ident>[\w\d\.\-_]+\/)$/
+  
+    return route[regex, :ident], route[regex, :parent]
+  end
 end

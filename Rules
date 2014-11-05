@@ -25,7 +25,6 @@ class Nanoc::Site
   attr_accessor :tags
 end
 
-
 # from https://github.com/mgutz/nanoc3_blog/blob/master/Rules
 preprocess do
   # authors may unpublish items by setting meta attribute publish: false
@@ -304,7 +303,14 @@ route '/img/blog/*/', :rep => :thumbnail do
 end
 
 route '/posts/*' do
-  if item[:kind] == 'article'
+  if item.binary?
+    # Write item with identifier /foo/ to /foo.ext
+    the_route = ""+item.identifier
+    id, post_route = extract_identifiers(the_route)
+    post_id, parent_route = extract_identifiers(post_route)
+    
+    '/posts/' + post_id + id.chop + '.' + item[:extension]
+  elsif item[:kind] == 'article'
     id = ""+item.identifier
     id.slice!(item.parent.identifier)
     

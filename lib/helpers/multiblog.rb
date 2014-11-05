@@ -49,16 +49,22 @@ module My
       
       def author_tag_for(item)
         author = item[:author] || 'christian'
-        author_name = case author
-                      when 'sascha' then 'Sascha'
-                      else 'Christian'
-                      end
         
+        if author == "Marko Wenzel"
+          return %Q{by Marko Wenzel}
+        end
+        
+        author_name = author.capitalize
         %Q{by <a href="/authors/#{author}">#{author_name}</a>}
       end
       
       def contact_tag_for(item)
         author = item[:author] || 'christian'
+        
+        if author == "Marko Wenzel"
+          return ""
+        end
+        
         gplus = case author
                 when 'sascha' then 'https://plus.google.com/107502518870533837270'
                 else 'https://plus.google.com/102954263645795828102/'
@@ -191,6 +197,14 @@ module My
       insert_image(file: teaser_image_path(), 
                    title: title,
                    caption: caption)
+    end
+    
+    def insert_rel_image(file: nil, title: "", caption: "", link: nil, relative: nil)
+      insert_image(file: rel_url_for(file), 
+                   title: title, 
+                   caption: caption, 
+                   link: link, 
+                   relative: relative)
     end
     
     def insert_image(file: nil, title: "", caption: "", link: nil, relative: nil)
