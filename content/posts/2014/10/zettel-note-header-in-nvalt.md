@@ -1,5 +1,5 @@
 ---
-title: Zettel note header automation in nvALT
+title: Zettel Note Header Automation in NvALT
 created_at: 2014-10-09 21:41:00 +0200
 kind: article
 author: christian
