@@ -26,7 +26,7 @@ If you haven't tried idea indexes for yourself yet, I think you should give it a
 
 ## Idea Indexes in Journals
 
-<%=insert_rel_image file: "20141122142627_journal.jpg", title: "journal index", caption: "Idea index in a Moleskine journal, helping to bring order to your past" %>
+<%=insert_rel_image file: "20141122142627_journal.jpg", title: "journal index", caption: "Idea indexex in Moleskine journals help bringing order to your past" %>
 
 I love to write on paper, so I used to carry a [Moleskine blank soft cover][mol] [^aff] pocket journal with me all day. I started to create a habit of journalling a few months into military service back in November 2007. During the time spanning Nov. 2007--Jan. 2010, I filled 11 note books with ideas, to-do lists, ramblings, diary entries, drawings, and worries.
 
