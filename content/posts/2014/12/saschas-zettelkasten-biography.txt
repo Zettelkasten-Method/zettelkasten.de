@@ -1,0 +1,85 @@
+---
+title: The Biography of Sascha's Zettelkasten
+created_at: 2014-12-02 16:37:43 +0100
+kind: article
+author: sascha
+tags: [ personal, use-case ]
+image: 201412021638_happy-child.jpg
+vgwort: http://vg05.met.vgwort.de/na/3906353a4e23456fa5c53f146aef7a4a
+comments: on
+---
+
+
+A proper Zettelkasten should be like a second mind, almost a person on its own. I am not there, yet. My buddy, the Zettelkasten, surprises me a lot but he needs to be filled with a couple thousand more Zettels.
+
+That doesn't prevent me from giving you a small biography.
+
+## The Childhood of its Father (That's Me)
+
+I always was keen to some sort of systematic approach and always liked to put something into order. As a child I was obsessed with encyclopedic dictionaries -- most about the animal kingdom, but it was really the idea of a complete system of knowledge which got me hooked. I always started to collect something within a file folder. When I look back, the filing seems to be the durable element of all my childhood projects instead of the topics themselves.
+
+## Flirting With Knowledge
+
+20 years later.
+
+During my university studies I fell in love with the huge library and copied every piece of paper and made huge piles in my room. I tried to conserve the knowledge externally. But I realized that this couldn't be a solution if I ever wanted to put any use to that mess.
+
+When I remember my effort, I am surprised that it took so long to give up the habit of building piles. Perhaps this was due to my romantic perception of a really messy scholar's room. In Germany, we have a phrase that says "the genius reigns over the chaos". But then again, perhaps I just needed an excuse to be messy. :)
+
+## The Birth of the Zettelkasten
+
+<%= insert_teaser_image title: "happy child", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/75973413@N07/15357627759/">Volkan_83</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>
+} %>
+
+During my studies I searched for a better solution and found it in the form of Luhmann's work on knowledge management.
+
+Thus, ** I found the Zettelkasten was!** I was in love immediately, and it is an ongoing romance.
+
+I did some research and found that Luhmann actually wrote an article on his Zettelkasten. I took it as my gospel of truth. I inferred [a few laws and rules][luhmann] for my own Zettelkasten.
+
+  [luhmann]: http://scriptogr.am/kuehnm/post/2012-12-22-111621
+
+At this point I was still working with paper and index cards. I think it was because of my romantic idea of analogous knowledge work. But in essence I tried to mimic Luhmann's Zettelkasten. 
+
+At the same time I researched a historical perspective on the Zettelkasten. In philosophy, so many [big thinkers][bigthinkers] impressed me that I didn't want to believe that they don't organize themselves.
+
+  [bigthinkers]: http://en.wikipedia.org/wiki/Big_Thinkers_%28TV_series%29
+
+I used the knowledge of my historical studies and found that quite a lot of scholars tried to overcome the limitations of human cognition with some technical device. 
+
+## Entering Puberty aka Digitalization
+
+I was into the idea that my Zettelkasten should be analog as a real card index. But soon I realized that I shouldn't omit the advantages of the digital age. I looked for dedicated knowledge management software. There are even [apps][krajewski] that try to [mimic][luedecke] the Zettelkasten of Luhmann. I was prone to the idea of a local wiki and started to arrange me with [DokuWiki][dokuwiki].
+
+  [krajewski]: http://www.verzetteln.de/synapsen/
+  [luedecke]: http://zettelkasten.danielluedecke.de/
+  [dokuwiki]: https://www.dokuwiki.org/dokuwiki
+
+Meanwhile, I interviewed many professors all over university and was shocked: all of them trusted solely in the fact that they are working in a digital environment. They believed that a full-text through their saved articles was enough. All my questions about hypertext, neural networks, and having a second brain -- questions I assumed that a philosopher should be thrilled about -- seemed to bore or even irritate them.
+
+Retrospectively, I should have seen this as a chance to be a pioneer rather than being disappointed in my professors.
+
+## Exiting Puberty: Christians Plain Text Approach
+
+I was not so competent in dealing with technology. I still have some missing points in that area. But lucky as I am, I met Christian. He's a programmer, so technology is his home base. Our friendship really took off because of the Zettelkasten (and that he moved to my neighborhood). 
+
+Together, we helped each other strip much of the so-called "features" away which we had included in our Zettelkasten systems. 
+
+For example: I was so into the wiki because I was a heavy mouse user and liked the looks of a hypertext wiki. Pure `.txt` was a little too rough for my aesthetics. I learned from Christian just to live on pure text (with a little [Markdown](http://en.wikipedia.org/wiki/Markdown)) and more comfortable with a keyboard-heavy usage of my computer.
+
+## What Comes Next?
+
+My Zettelkasten started with a pile of paper, turned into a wiki, and became a system-wide note-taking method that has its heart in a folder called *archive*. I first turned digital, then lean and minimal. Most of the people call me nerdy when it comes to my Zettelkasten. In my perception it is just the consequence of a romantic wish to live a life as a scholar like the old days. 
+
+I am looking forward to what happens next since the principle of the Zettelkasten took over my whole system. For example, I don't limit assigning IDs to Zettels in my Archive. Every content related file (text, image, table) has its own ID. I heavily link between files. 
+
+I am excited because it seems that some sort of brain-like system is unfolding in front of my eyes. There are different parts that specialize on different tasks:
+
+1. I have an archive of Zettels that only contains my Zettels as notes.
+2. I have an archive of images. 
+3. I have an archive of all my journals. 
+
+But with my system-wide ID everything is and will get more connected. Now many of my texts just "become" themselves in front of my eyes just as a result of my [outline technique][outline]. I suppose that in the next few years I'll pull whole books out of my system just by taking notes and sticking to the conventions of designing a Zettel.
+
+  [outline]: http://zettelkasten.de/posts/write-book-without-even-trying-so-hard/
+  
