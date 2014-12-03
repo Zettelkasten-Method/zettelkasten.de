@@ -1,0 +1,131 @@
+---
+title: DEVONthink as a Zettelkasten Note Archive
+created_at: 2014-12-05 14:55:12 +0100
+kind: article
+author: Marko Wenzel
+tags: [ software, tool, review, mac ]
+image: 201411041615_devonthink.png
+comments: on
+publish: false
+---
+
+
+Today we host our good friend Marko as he tells us of the basic note-taking capabilities of DEVONthink and its appliance to the Zettelkasten method.
+
+The Zettelkasten method propagates heavy use of the note archive, stuffed with your own interpretations of things you have learned. The user we have in mind usually is a student of humanities, reading a lot and writing a lot. DEVONthink is capable of doing far more than managing notes, though. It can also in part replace a reference manager. Or you may benefit from its ability to deal with large amounts of files when it comes to seeking similarities in original sources. This can become really interesting for historians, for example.
+
+Now let's welcome Marko and see what DEVONthink can do for us Zettelkasten aficionados.
+
+---
+
+
+[DEVONthink](http://www.devontechnologies.com/products/devonthink/overview.html) is a knowledge management software by [DEVONtechnologies](http://www.devontechnologies.com) exclusively available on Mac. It is called a "knowledge management software" because it's not only meant for note-taking,[^1] but rather collecting all kinds of data in all kinds of forms, for example PDFs, word-documents, or websites. All files are stored in a single database.
+
+I use DEVONthink since 2011 and it filled some needs that nvALT and other apps could not: storing and linking PDFs with my text notes. At first I used Rich Text Files for my notes, but by now I use plain text files (or rather [MultiMarkdown][mmd]-files) exclusively.
+
+I won't go into the details of describing DEVONthink in general terms. This software is way too complex to describe it adequately in just a few sentences. Instead I will focus on [Christian's criteria for the _Zettelkasten_][criteria]. 
+
+If you are interested in DEVONthink's other functionalities, watch [this video](http://vimeo.com/50131167) in which the developers present DEVONthink in its full glory. I fact, I recommend watching this video before reading the rest of this article. It's only about 5 minutes long.
+
+[mmd]: http://fletcherpenney.net/multimarkdown/
+[criteria]: http://christiantietze.de/posts/2014/03/baseline-zettelkasten-software-reviews/#criteria-i-will-consider
+
+[^1]: There is [DEVONnote](http://www.devontechnologies.com/products/devonnote.html), a stripped-down version of DEVONthink, that seems to be focused on note-taking, but I have no experience with that.
+
+
+## DEVONthink as a _Zettelkasten_
+
+These are the four criteria Christian wants to consider for a _Zettelkasten_-App:
+
+> 1. **Note retrieval:** for example, how fast and easy is full-text search?
+> 2. **Note creation:** does it take many clicks or keystrokes to create a new Zettel note?
+> 3. **Note connections:** which mechanisms does the app support to create connections? I'm leaving this point pretty vague intentionally. I know of various ways different applications deal with this problem. Also, I'm going to cheat a bit: if full-text search works, manually linking notes will work, too: just put the target's identifier somewhere, copy it, search for the identifier, and open the resulting note.
+> 4. **Data export:** nobody wants to be locked into a data silo. How does the application manage to get everything out without losing information? How does it manage to get stuff in?
+
+### Note Retrieval
+
+<%= insert_rel_image file: "20141104153420_main-screen.jpg", title: "DEVONthink main screen", caption: "DEVONthink's main screen" %>
+
+In the top right corner of the DEVONthink window, there is a search field. Type in your keywords and it'll give you anything you need.
+
+DEVONthink has a very powerful search engine; it does not only use full text search, but gives you results based on:
+
+- words that have been used together, 
+- your organization of your notes, 
+- and tags & metadata.
+
+A simplified example:
+
+Let's say you review a lot of fantasy literature and you mention the name "Tolkien" rather often in your notes, DEVONthink will notice that. If you now search for the term "fantasy", it'll also give you your notes on Tolkien, even if you didn't use the word "fantasy" in any of your notes on Tolkien.
+
+"But what if I only want my results to show notes in which I used the ‘fantasy'?", I hear you say. Well, you can refine your search to include or exclude certain terms, you can only search in specific Groups (DEVONthink's name for folders) or for notes with a specific tag. And more. I'd be surprised if you couldn't refine your search in a way that exactly suits your needs.
+
+You can reach the search field with a single mouse-click or with a single keystroke (⌥+⌘+F). As soon as you type something that can be found, a list of your notes (and other searchable files) appears. It can't really get much quicker, but depending on your hardware and size of your database, it might take a few moments for DEVONthink to find your results. But I doubt that you will ever experience any delay if you store only txt-files in your database.
+
+### Note Creation
+
+You can customize the toolbar to have a button for creating RTF documents or plain text files. If you do that, it takes one mouse click to create a note in the current selected Group. Alternatively, it's possible to assign a custom shortcut via the OS X Keyboard Preferences. You then enter the name and press Enter. 
+
+In order to edit your note, you have to click into the content area of DEVONthink and I don't know of a keystroke that brings you there, so I guess there is one unnecessary mouse click that could have been avoided. It is, however, possible to open a new window in which you edit your note (⌘+O), so you can use it with your keyboard only.
+
+Every database has an Inbox that is separate from the rest of your archive. This is generally be used when importing files, so you don't have to sort your files at the spot and can collect data and _later_ decide what to do with it. It could also be used to create a note and keep it in your inbox until it is finished before archiving it.
+
+### Note Connections
+
+If you are willing to use RTF-files, DEVONthink also offers clickable links. Just right-click (or Ctrl-click) the file you want a link to, select "Copy Item Link" and paste it into your document (that's about 4 or 5 clicks in total).
+
+If you use plain text files instead, here's what you could do: Copy the link as described above and paste it into your note. Then highlight the link, right-click it, and click "Open URL". It will now open a new window of your linked file. 
+
+I use plain text files with MultiMarkdown syntax, saved as `.mmd`-files. There is a hidden preference to show `mmd`-files automatically in HTML Preview mode, so the links I set are instantly clickable. This gives DEVONthink a wiki-like feeling to it, but I need an additional mouse-click or keystroke to make my mmd-files editable, so this solution isn't for everyone.
+
+<%= insert_rel_image file: "20141104153426_mmd-link-highlighted.jpg", title: "DEVONthink Markdown note", caption: "A Markdown note in DEVONthink, rendered as HTML by default with a hidden preference" %>
+
+All in all this shows that DEVONthink is highly customizable. Often, there are more ways than one to do something.
+
+Since DEVONthink does support full-text search, Christian's cheat will work: you can use [note identifiers][ids] and put these IDs where you want to link from. The artificial intelligence of the search engine not only uses full text analysis, but also uses cross references in form of clickable DEVONthink links you create, so using Christian's cheat _might_ result in worse search results.
+
+[ids]: http://christiantietze.de/posts/2014/02/add-identity/
+
+
+### Data Export and Import
+
+Export functionality is right there in the menu: `File > Export... > Document/Files and Folders`. It exports every file you want. If you export files and folders it keeps your folder structure intact. You can even convert some files (RTF to plain text, for example). Couldn't be easier. But: You'll lose some of the DEVONthink-specific features like links. Tags will be preserved as file meta data, i.e. "Finder Tags" (X-Tagging-System).
+
+You can import any file you want. If the file type has [Quick Look][ql] support, it can be viewed within DEVONthink. DEVONthink sometimes even shows a file's content when it doesn't support Quick Look. It will be visible in your searches, you can link to and from any file in your database, and you can tag it just like other files .
+
+<%= insert_rel_image file: "20141104153437_sorter-groups-tags.jpg", title: "DEVONthink floating windows", caption: "The Sorter and the Groups & Tags helper window aid filing things away" %>
+
+There are numerous ways to import and get files into your database:
+
+- Drag it into the app window or icon in the Dock.
+- DEVONthink can automatically create an "Inbox" folder in the favorites sidebar of your Finder which acts as a proxy to DEVONthink's internal database inbox. Any file you copy there will be imported.
+- You can have a "Groups & Tags" window floating above any other window and copy files right where you want them.
+- There is an extra-app called "Sorter" which resides at the edge of your screen and can be used for importing files. 
+- You can go to `File > Import` and select your file. You get the idea.
+
+One thing that might be of interest, is the ability to _not_ import a file, but to index a folder. The files then stay where they are, but DEVONthink can work with them as if they were imported. The downside is that this index is not live-updating, so you have to refresh your indexed items manually (but with a single keystroke: ⌥+⌘+S).  This way, you can get DEVONthink's intelligent search capabilities for your existing notes on your Mac, should you not want to use the app itself for managing your notes. 
+
+[ql]: http://en.wikipedia.org/wiki/Quick_Look
+
+## Is DEVONthink the right tool for a _Zettelkasten_ note archive?
+
+The answer is both yes and no.
+
+In the very least, DEVONthink is more than capable of organizing your _Zettelkasten_ notes, but it cannot use its full potential if you only feed it with plain text files. You need to store your PDFs, webpages and papers in there. If you don't use its Tags and Groups, the search engine will be driving with brakes on.
+
+Other apps, like nvALT, might suit your needs better, are less expensive, and might have a better performance[^2] if you want to work with your own text files only.
+
+DEVONthink is designed to be more than just a note archive. If you find its capabilities useful, you should go 100% in and give everything to the application: all your reference PDFs, maybe e-mail.
+
+When should you use DEVONthink? If you want to organize your notes in folders (Groups in the language of DEVONthink) and if you want your other files, like PDFs and word documents, to seamlessly work with your notes. But that's not really a _Zettelkasten_ note archive anymore.
+
+  [^2]: To be clear: DEVONthink will work on older machines, the system requirement is OS X Lion 10.7.5. On my old Macbook (2009, I think) it took about 10 seconds to open my Database. On my new Macbook Air it opens almost instantaneously. An SSD makes a huge difference.
+
+---
+
+We know DEVONthink is very popular among Mac-using knowledge workers. So:
+
+* How do you use DEVONthink? 
+* What _would_ you like to use it for?
+
+Tell Marko and the rest of us in the comments!
