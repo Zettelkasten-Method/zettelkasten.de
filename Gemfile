@@ -11,7 +11,6 @@ gem 'compass', '~> 0.12.2'
 
 gem 'guard', '~>2.2.2'
 gem 'guard-nanoc', '~>1.0.1'
-gem 'growl', '~> 1.0.3'
 
 # Blogging
 gem 'activesupport'

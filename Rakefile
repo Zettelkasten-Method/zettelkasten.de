@@ -6,8 +6,8 @@ require 'nanoc3/tasks'
 
 SITE = "output"
 
-def notify(msg, sticky=false)
-  system %Q{growlnotify -n "Nanoc" #{sticky ? "-s" : ""} -t "Nanoc" -m "#{msg}"}
+def notify(msg)
+  system %Q{terminal-notifier -group 'Nanoc' -title "Nanoc" -message "#{msg}"}
 end
 
 desc "remove files in output directory"
