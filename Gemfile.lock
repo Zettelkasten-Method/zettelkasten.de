@@ -86,6 +86,7 @@ GEM
     sass (3.2.19)
     slop (3.6.0)
     systemu (2.6.4)
+    terminal-notifier (1.6.2)
     thor (0.19.1)
     thread_safe (0.3.4)
     timers (4.0.1)
@@ -127,6 +128,7 @@ DEPENDENCIES
   rake
   sass (~> 3.2.12)
   systemu
+  terminal-notifier (= 1.6.2)
   typogruby
   uglifier
   w3c_validators

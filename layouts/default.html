@@ -19,7 +19,7 @@
       <meta name="og:type" content="article">
       <meta name="og:article:published_time" content="<%= @item[:created_at]%>">
       <meta name="og:url" content="<%= @site.config[:base_url] + @item.path %>">
-      <meta name="og:image" content="<%= @site.config[:base_url] + teaser_image_path() %>">
+      <%= Post::teaser_open_graph_for(@item, @site) %>
       <meta name="og:site_name" content="<%= @site.config[:meta_data][:title] %>">
     <% end %>
     

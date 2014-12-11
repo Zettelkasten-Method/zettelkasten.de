@@ -88,6 +88,13 @@ module My
       
         %Q{<figure class="post-teaser"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image"/></a></figure>}
       end
+      
+      def teaser_open_graph_for(item, site)
+        teaser = Post::teaser_for(item)
+        return unless teaser
+        
+        %Q{<meta name="og:image" content="#{site.config[:base_url] + teaser}">}
+      end
     
       def tom_pixel_for(item)
         return unless item[:vgwort]
