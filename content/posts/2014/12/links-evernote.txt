@@ -1,0 +1,25 @@
+---
+title: Getting Up to Speed with Reading about Evernote
+created_at: 2014-12-11 13:50:27 +0100
+kind: article
+author: christian
+tags: [ evernote ]
+comments: on
+---
+
+
+Recently, I found some Evernote related posts which seem to be the Universe's hint that I should please finally install Evernote and try to make a Zettelkasten from it.
+
+I will, pinky promise. Just not in 2014 anymore.
+
+* Sutanto aka Sayz Lim uses Evernote to [store book highlights][1] from Kindle and iBooks app. Evernote seems to be well-suited as a cross-platform + web bucket to store quotes.
+* Thomas Honeyman wrote about how to organize your knowledge in Evernote [using tags and categories][2] in a certain way. Since neither I nor Sascha have used Evernote seriously yet, I wouldn't know how different Thomas' apporach is from the common sense.
+* On a side note, Brett Kelly's [Evernote Essentials][ee] seems to be on sale.[^aff] Maybe I should pick it up now to save some money when I look into using Evernote.
+
+Evernote seems to have changed a lot in recent years. I'm eager to look into it, especially as I doubt its ecosystem will be a good fit due to Evernote being a data silo. We'll see!
+
+[1]: http://sayzlim.net/highlight/
+[2]: https://medium.com/@thomashoneyman/using-evernote-the-right-way-ef61f530d1ad
+[ee]: http://members.nerdgap.com/order-evernote-essentials/?orid=42222&opid=2
+
+[^aff]: Affiliate link. I get a kickback for every purchase from this link by the vendor.
