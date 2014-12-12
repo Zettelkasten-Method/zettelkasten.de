@@ -77,23 +77,30 @@ module My
         %Q{&bull; <a href="#{gplus}">Google+</a>, <a href="https://www.twitter.com/#{twitter}">Twitter</a>}
       end
       
-      def teaser_for(item)
+      def teaser_path_for(item)
         return unless item[:image]
       
         filename = item[:image]
         image_name = File::basename(filename, File::extname(filename))
         thumbnail = image_name + '-thumbnail' + File::extname(filename)
-        path = '/img/blog/' + thumbnail
+        
+        '/img/blog/' + thumbnail
+      end
+      
+      def teaser_for(item)
+        path = teaser_path_for(item)
+        return unless path
+        
         href = item.path
       
         %Q{<figure class="post-teaser"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image"/></a></figure>}
       end
       
       def teaser_open_graph_for(item, site)
-        teaser = Post::teaser_for(item)
-        return unless teaser
+        path = Post::teaser_path_for(item)
+        return unless path
         
-        %Q{<meta name="og:image" content="#{site.config[:base_url] + teaser}">}
+        %Q{<meta name="og:image" content="#{site.config[:base_url] + path}">}
       end
     
       def tom_pixel_for(item)
