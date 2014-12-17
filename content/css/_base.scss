@@ -218,6 +218,11 @@ figure a, figure a:hover {
   li { display: inline-block; }
 }
 
+.post--link {
+  .post__title { font-size: $base-size; }
+  .post__title::before { content: '→ ' };
+}
+
 .tags {
   display: inline;
   padding-left: 0;

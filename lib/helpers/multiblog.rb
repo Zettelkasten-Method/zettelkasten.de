@@ -110,6 +110,20 @@ module My
       
         %Q{<img src="#{vgwort_src}" width="1" height="1" alt="" class="vgwort" />}
       end
+      
+      def post_title_link_for(item)
+        if is_link_post?(item)
+          return link_to(item[:title], item[:url])
+        end
+        
+        return link_to(item[:title], item.path)
+      end
+      
+      def post_class_for(item)
+        [].tap { |classes|
+          classes << "post--link" if is_link_post?(item)
+        }.join(' ')
+      end
     end
     
     def latest_post(kind = "article")
@@ -236,37 +250,38 @@ module My
     end
     
     def excerpt_for(item)
-      excerpt = ""
-
-      if use_excerpt?(item)
-        # html = Nokogiri::HTML(item.compiled_content)
-        # paragraphs = html.xpath('//p/text()').to_a
-        # 
-        # summary = paragraphs[0]
-        html = Nokogiri::HTML::DocumentFragment.parse(item.compiled_content)
-        summary = ""
-        
-        html.css('p').each do |p, index|
-          p.css("a").each do |a|
-            a.remove if a['href'].start_with?('#fn:')
-          end
-          summary << p.inner_html + " "
-          break if summary.length > 300 
+      if !use_excerpt?(item)
+        return item.compiled_content
+      end
+    
+      # html = Nokogiri::HTML(item.compiled_content)
+      # paragraphs = html.xpath('//p/text()').to_a
+      # 
+      # summary = paragraphs[0]
+      html = Nokogiri::HTML::DocumentFragment.parse(item.compiled_content)
+      summary = ""
+      
+      html.css('p').each do |p, index|
+        p.css("a").each do |a|
+          a.remove if a['href'].start_with?('#fn:')
         end
-        
-        excerpt = %Q{<p class="summary">#{summary}</p><p class="readmore"><a class="readmore__link" href="#{item.path}">Continue reading...</a></p>}
-      else
-        excerpt = item.compiled_content
+        summary << p.inner_html + " "
+        break if summary.length > 300 
       end
       
-      excerpt
-    end
-    
-    def use_excerpt?(item)
-      return item[:preview] == nil || item[:preview] != 'fulltext'
+      %Q{<p class="summary">#{summary}</p><p class="readmore"><a class="readmore__link" href="#{item.path}">Continue reading...</a></p>}
     end
     
     private
+      def use_excerpt?(item)
+        preview_excerpt = (item[:preview] == nil || item[:preview] != 'fulltext')
+        return !is_link_post?(item) && preview_excerpt
+      end
+    
+      def is_link_post?(item)
+        is_link_post = (item[:url] != nil)
+      end
+    
       def relative_path_for(filename, item)
         File.join(item.path, filename)
       end
