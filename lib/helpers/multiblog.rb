@@ -11,7 +11,7 @@ module My
       end
       
       def link_to(tag_name)
-        %Q{<a href="/posts/tags/#{tag_name}">#{tag_name}</a>}
+        %Q{<a href="/posts/tags/#{tag_name}/">#{tag_name}</a>}
       end
     end
     
@@ -55,7 +55,7 @@ module My
         end
         
         author_name = author.capitalize
-        %Q{by <a href="/authors/#{author}">#{author_name}</a>}
+        %Q{by <a href="/authors/#{author}/">#{author_name}</a>}
       end
       
       def contact_tag_for(item)
@@ -164,7 +164,7 @@ module My
     def link_to_posts_page(text, page, items_per_page, kind = "article")
       return if page < 1 || paginated_posts(items_per_page)[page - 1].nil?
       
-      %Q{<a href="/posts/pages/#{page}">#{text}</a>}
+      %Q{<a href="/posts/pages/#{page}/">#{text}</a>}
     end
       
     def posts_tagged_with(tags, kind = "article")

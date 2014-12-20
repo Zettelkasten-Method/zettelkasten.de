@@ -6,6 +6,9 @@ author: christian
 tags: [ devonthink ]
 url: http://www.christopher-mayo.com/?p=2237
 comments: on
+via:
+    url: "http://www.macdrifter.com/2014/12/devonthink-use-cases-in-academics-link.html"
+    name: Macdrifter
 ---
 
 Just now, a few days after publishing Marko's article on [DEVONthink as a Zettelkasten archive](/posts/2014/12/devonthink-zettelkasten-review/), did I stumble upon Christopher Mayo's [excellent collection of DEVONthink resources.][dt]

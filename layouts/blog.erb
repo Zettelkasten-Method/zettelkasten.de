@@ -26,7 +26,7 @@
         <footer>
             <ul class="post__meta">
                 <li>Tags: <%= Post::tags_for(@item) %></li>
-                <%= %Q{<li>&rarr; via: <a href="#{@item[:via]}">@item[:via]</a></li>} if @item[:via]%>
+                <%= %Q{<li>&bull; via <a href="#{@item[:via][:url]}">#{@item[:via][:name]}</a></li>} if @item[:via]%>
             </ul>
         </footer>
     </article>
