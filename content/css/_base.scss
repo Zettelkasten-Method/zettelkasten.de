@@ -208,6 +208,12 @@ figure a, figure a:hover {
 /**
  * Blog
  */
+
+blockquote { 
+  font-style: italic;
+  i, em { font-style: normal; }
+}
+
 .post__meta {
   display: inline-block;
   padding-left: 0;

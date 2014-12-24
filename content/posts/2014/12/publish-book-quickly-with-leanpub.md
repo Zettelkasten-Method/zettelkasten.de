@@ -48,7 +48,7 @@ I decided to create the book using the flexible publishing platform [Leanpub][] 
 I totally buy into the analogy of books and software:
 
 > A book, like large software, is never finished -- only released.  
-> --Ash Maurya[^maurya2013lean]
+> --[Ash Maurya][runlean][^maurya2013lean]
 
 Thinking about it this way, and taking into account that digital goods are pretty common in 2014, it makes sense to find prospects early and develop the product with their constant feedback.
 
