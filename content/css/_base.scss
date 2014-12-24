@@ -267,8 +267,11 @@ figure a, figure a:hover {
 .tool-author--single *, .tool-review * { display: inline; }
 .tool-author--single h3, .tool-review h3 { margin-right: 0.5em; }
 
-
-.post__title { margin-bottom: 0; }
+.post { margin-bottom: 3em; }
+.post__title { 
+  margin-bottom: 0; 
+  line-height: 1.2em; 
+}
 .post__meta { margin-top: 0; }
 .post-figure {
   margin-top: 2em;
