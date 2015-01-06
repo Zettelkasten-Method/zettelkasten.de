@@ -1,0 +1,123 @@
+---
+title: How to Write a Note That You Will Actually Understand
+created_at: 2015-01-06 17:04:48 +0100
+kind: article
+author: sascha
+tags: [ archive, collect ]
+image: 201501061708_clueless.jpg
+vgwort: http://vg03.met.vgwort.de/na/c987064b1ff644cb9f86d12b00a03eb9
+comments: on
+---
+
+<!-- Benefit -->
+
+If you not only take notes but also edit them before you put them into you archive (hopefully a Zettelkasten), you will save energy and time, and preserve sanity. It will also enhance the clarity of your writing in general.
+
+<!-- Hook -->
+
+If you use the Zettelkasten Method you will be faced with your ghosts of the past. If I ask my Zettelkasten about a term like *evolution*, it throws Zettels from 2010 at me. 
+
+Sometimes I have the feeling that I was the biggest messy douchebag on earth and had no meaningful thought at all if I try to read my older stuff. But when I decrypt my writings from the past, I feel relieved because there is some pretty useful stuff for me. A few seconds later, I have the strong urge to punch my face. I didn't take notes correctly. I put no effort in the intelligibility of the text.
+
+I had the illusion that these were notes I took for *me*. When I wanted to make use of some of my notes, I realized: I didn't take notes. I filled my Zettelkasten with riddles, I educated my thinking companion to be some mysterious mystery-monger. Actually, filling the Zettelkasten means to educate your Zettelkasten. And I educated it to be a mad hobo on crack. There might be a very smart thought in a note, but it is hidden behind gibble gabble on drugs.
+
+I decided to restrict myself to a writing structure after similar incidents. Actually, I took some bad hits because I didn't want to accept that the feeling of clarity towards at that moment doesn't mean that the words I write in that moment are as clear as my thoughts.
+
+<%= insert_teaser_image title: "clueless kid", caption: %{Photo credit: "<a href="https://www.flickr.com/photos/bethanyjbrady/2384931677">Clueless</a>" by lady_lbrty, <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>} %>
+
+This is the challenge a Zettelkasten puts up: You have to be able to understand what you have written up to a life time.
+
+<!-- The solution -->
+
+A lot was written about how to write good books and articles but I didn't find anything on how to take notes. Why? Because notes usually are not meant to last forever. This is a unique trait of the Zettelkasten. 
+
+So how do you write notes which you can understand the rest of your life? My solution is twofold:
+
+1. Write very simple texts, preferably with a formal structure that you made explicit.
+2. Give the Zettel a form that exposes the most important things first.
+
+## Write simple and with explicit form
+
+### 1. Simplicity
+
+I used to write what came to mind. I didn't think twice about style. It's just a note, after all, right? Wrong. As I said above, you are educating your Zettelkasten. Which way do you want it to speak with you? Just with headless gibble gabble that only makes sense in the moment? 
+
+Write short sentences. They are understandable. They may not be pretty. You will thank yourself later, though.
+
+Don't write long sentences which are packed with subordinate clauses and with a buttload of extra flashy and forceful adjectives, just because you think that you'd enjoy a more pleasing style. It won't work.
+
+Use paragraphs.
+
+They make everything so much easier to read.
+
+In short: Write simple and in chunks.
+
+### 2. Explicit Form
+
+I have different types of Zettels. Sometimes a Zettel describes an entity. For example a hormone. Every Zettel about hormones has the same form:
+
+1. Header
+2. One sentence to describe its basic character
+3. When it is up-regulated
+4. When it is down-regulated
+5. The effects of its change in concentration
+
+Every hormone has its own Zettel. I pulled this form from Meadows [Thinking in Systems][]. I used the stock-flow distinction of her:
+
+"**Stocks** are the elements that you can see, feel, count, or measure at any given time. A system stock is just what it sounds like: a store, a quantity, an accumulation of material or information [...]." (Meadows, p 17/18, my emphasis)
+
+"**Flow**: Material or information that enters or leaves a stock over a period of time." (Meadows, p 187) "Stock s change over time **through the actions of a flow**." (Meadows, p 18, my emphasis)
+
+This is how I structured the Zettel:
+
+1. Header
+2. General Overview
+3. The regulation of the inflow
+4. The regulation of the outflow
+5. The effect of the stock
+
+Now I end up with structured lists of the main points of the hormone. 
+
+Another type of Zettel is an overview of a debate and its argument. The Zettel is structured like this:
+
+1. Header
+2. The claim with two subitems
+    - The arguments
+    - The counter arguments
+    
+This one is a bit tricky because you can zoom in and out as you wish depending on how much detail of the debate you want to capture, but you can always outsource a part to a new Zettel an leave a link to it as breadcrumb.
+
+If I have a Zettel about a single argument it goes like this:
+
+1. Header
+2. A general description of the argument in one or two sentences
+3. A list of Premise
+4. The conclusion
+
+## First things first
+
+Don't just expect that you can understand yourself in a couple of years. At least I had some difficulty to do so. Make it easy for your future self.
+
+### 1. A Clear Title About the Content
+
+Make the title directly about the content. Be as clear as possible. If the title doesn't tell you what is in the Zettel, it is useless. It should inform you and not just grab your attention.
+
+- **A bad example:** Being and cognition
+- **A better example:** No being without cognition
+- **BETTER:** Cognition is the process of constructing being
+
+**Note:** A longer title is fine. It is a title for a note and not for your next bestseller. 
+
+### 2. The First Sentences are a Description of the Content
+
+The first sentence of a Zettel should be a short description to give you an idea what this Zettel is all about. You should give your future self an abstract. It will thank you because it can decide early if the note is important.
+
+## Lesson of the Day
+
+Plan for eternity. I learned that I should never ever trust the feeling that I would understand my notes later. Now I always play safe. 
+
+How do you compose your notes? Let us know in the comments.
+
+---
+
+*Christian's Comment:* I know this problem myself. My notes from 2009 are mostly about understanding Immanuel Kant's _Critique of Pure Reason_. Can't say I did a great job understanding the book when I take a look at my notes from back then. Every time a relevant note pops up in a search, I have to rephrase the content, put a short introduction at the top, re-consider the title and tags, and finally connect it to way more recent notes. Why didn't I connect the notes before? Because bad notes don't pop up when you'd expect. They either lack key phrases and aren't contained in the search results, or they are a mess to work with and so you skip them. Creating (informal) templates for notes works great!
