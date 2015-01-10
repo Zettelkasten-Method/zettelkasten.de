@@ -62,7 +62,7 @@ I have different types of Zettels. Sometimes a Zettel describes an entity. For e
 4. When it is down-regulated
 5. The effects of its change in concentration
 
-Every hormone has its own Zettel. I pulled this form from Meadows [Thinking in Systems][]. I used the stock-flow distinction of her:
+Every hormone has its own Zettel. I pulled this form from Meadows [Thinking in Systems][sys].[^aff] I used the stock-flow distinction of her:
 
 "**Stocks** are the elements that you can see, feel, count, or measure at any given time. A system stock is just what it sounds like: a store, a quantity, an accumulation of material or information [...]." (Meadows, p 17/18, my emphasis)
 
@@ -93,6 +93,10 @@ If I have a Zettel about a single argument it goes like this:
 2. A general description of the argument in one or two sentences
 3. A list of Premise
 4. The conclusion
+
+[sys]: http://www.amazon.com/gp/product/1603580557/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1603580557&linkCode=as2&tag=safast03b6-20&linkId=SYSD2746LM63JLKJ
+
+[^aff]: Affiliate link; we get a small kickback from the vendor if you buy from this link but it won't cost you anything.
 
 ## First things first
 
