@@ -1,0 +1,30 @@
+---
+title: 4 Months In
+created_at: 2015-01-21 10:27:33 +0200
+kind: article
+author: christian
+tags: [ announcement ]
+comments: on
+---
+
+The blog is live for four months now. For us, a lot has changed in the meantime. Personally, but also professionally. We have new projects in the making, and we've created and prepared new stuff to share on this platform.
+
+We quietly modified our site navigation: instead of "book", it now reads "products". That's because our scope has widened. As of yet, there's not a lot to see below that heading. You can expect this to change before spring.
+
+Since Sascha and I joined forces, we are getting more and more productive. Sascha is [writing on his book about writing](/posts/project-on-writing-my-anxiety/). I am looking forward to [getting started with Evernote](/posts/links-evernote/) and writing a proper review, maybe even a manual about it. He keeps [another blog and writing project](http://me-improved.de) running, I post to [my personal homepage](http://christiantietze.de) occasionally. Overall, we read, learn, and write a lot.
+
+The Zettelkasten book is becoming huge, so we plan to release shorter introductory e-books first instead of plowing away until the behemoth of a book is finished. To take load off of "the big one", we plan to release more focused companion e-books. The Zettelkasten book should tell you a lot of new things and paint the big picture clearly, but it needn't tell you everything for every possible use case.
+
+It's a common observation when you write with the help of a Zettelkasten that you could go on and on and on, going into more detail, adding yet another example or explanation or argument. This makes creating a structure for your text all the more important.
+
+Think of your notes like a fishing net which you hang onto a nail in the wall. The beginning of your text is the part next to the nail. But everything else is still connected, and looking down, it can get quite convoluted. It doesn't matter at which part of the webbing you hang the net, for the whole stays the same, and everything is connected with the rest just like before. The only difference is that you changed the beginning, that is, the main topic.
+
+So when you decide to begin your writing project, you have to explain everything connected to it, from a vantage point dependent on the topic you chose.
+
+That's a good sign, I think, for it means you've both got expertise and your knowledge is highly interconnected.
+
+We're curious where the journey of our book(s) will lead. There's always more to learn and more interesting things to try and share.
+
+Your comments are crucial to help us learn, so thanks for staying with us and thank you for participating in the project! We hope you enjoy the posts so far.
+
+**Tell us what you struggle most with at the moment** in the comments, and don't hesitate to post wishes and critique!
