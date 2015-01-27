@@ -1,0 +1,103 @@
+---
+title: How to Program Yourself for Productivity and Stop Searching for the Ideal Software
+created_at: 2015-01-27 18:03:45 +0100
+kind: article
+author: christian
+tags: [ software, archive, habits ]
+image: "201501271801_computerdog.jpg"
+vgwort: http://vg08.met.vgwort.de/na/57cb1d6ce2354857a64d7d44e03711b3
+comments: on
+---
+
+In search for the perfect software application to manage a Zettelkasten note archive, surprisingly, I have become the tool I was looking for. 
+
+Here's what you have to do once you settle for the important things and let go of false feature needs.
+
+## My Backstory: Looking for the Perfect Visualizer, Ending Up With Plain Text
+
+When I dream about the perfect Zettelkasten software, everything revolves around reference awareness: 
+
+* the app should know that there are direct links between Zettel notes, 
+* that Zettels are grouped by tags, 
+* and that Zettels may have citations in common.
+
+My dream app is highly visual. Say I would like to see what I have written about a certain text in a book. I want to see all notes for the text, clustered by topic. Topics are derived from tags. The Zettel notes know whether they belong to a certain source or not. There's a very cool visualization of the connections so I'm able to _see_ the web of knowledge and to spatially explore it. -- At least I imagine being able to view the web itself, being able to look at it and to grasp its very structure, will make me much more effective.
+
+Here's a mock-up of what it could look like if I queried the app for a book (Jason Fried's _Rework_, in this example) and take a look at topic clusters. First level, there are topics I assigned notes about the book to. Second level,  there are other notes with the same topic, that is, with the same tag assigned, but not associated with the book:[^pt]
+
+<%= insert_rel_image file: "201501150912_tagged-notes.png", title: "Mind-Map of Notes", caption: "What a visualization of connected notes of the Book 'Rework' could look like" %>
+
+  [^pt]: Currently, my setup allows me to take a look at either all notes for the book by searching for the book identifier `37signals2010rw`. It allows me to combine the search with a search for tags, too. For example, a search for `37signals2010rw #customer` will produce all book-related notes tagged "customer". That works pretty well so far. There's no way to see a list of related tags, though.
+
+I settled for something else entirely, though. Of course I searched for suitable applications to fulfill my dreams. But nothing really cut it. So I took the most simplistic approach imaginable: plain text files.
+
+Today, after working with text files exclusively for a few years, I know by experience what I [need to look for in a Zettelkasten note taking app.][criteria] Through accidental asceticism, I discovered what really matters. I did well without all the fancy features. I don't need them to be productive. Waiting for the perfect app would only be procrastination.
+
+One of my key criteria for a Zettelkasten is totally independent of software. It is _longevity of the notes._ You can achieve this with potentially any application, or even with a paper-based Zettelkasten. Plain text files are supposed to survive the next change in computing paradigms. Plain text files in a Dropbox folder are _just there,_ no matter your operating system. That's the power of open standards.
+
+Another very important criterion is to make entering notes and finding old ones as fast as possible. I don't want to wait for the application to perform simple tasks. I need to get ideas out of my head quickly. I found the operating system's built-in file explorer wasn't fast enough, so I settled for a different plain text file browser: I use [nvALT for Mac][nv].
+
+In place of the perfect dedicated Zettelkasten app, I use a great plain text file browser. Then I looked for a good reference manager. And a bookmarking service. And a way to organize PDFs.
+
+I separated the concerns and found one great app for every task instead of settling on a single, mediocre app for everything. The missing link between the parts now is I.
+
+[criteria]: http://christiantietze.de/posts/2014/03/baseline-zettelkasten-software-reviews/#criteria-i-will-consider
+[nv]: http://brettterpstra.com/projects/nvalt/
+
+## You and Your Conventions Become the Missing Link
+
+<%= insert_teaser_image title: "Dog and Computer", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/konszvi/4218539270">"On the internet nobody know you're a dog"</a> by Anat Reisner via <a href="https://www.flickr.com/photos/konszvi/">Zvi Kons</a> on flickr, <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA</a>} %>
+
+Picking an application for each task with no built-in data exchange between all of them requires connections to make them work together. The relation between the elements of your system has to be you.
+
+Instead of looking for the perfect all-in-one app, I have created conventions and programmed myself to act in a certain way.
+
+As long as you're new to a method like the Zettelkasten method, you want to be guided. _The Perfect App&trade;_ would do this for you. Not having a guide like this makes it harder to install the workflow into your life. But 'harder' doesn't mean 'impossible'.
+
+You don't have to wait for the mysterious perfect app to become productive. You can become productive right now.
+
+In the end, that's what this project is about: to share experience in workflows of knowledge organization so you can create your own principles instead of following a software application's rules. All of us are learners, and so we're all contributors to each other's success.
+
+## The Conventions I Taught Myself
+
+Since the term 'convention' is rather broad, I want to give you a few examples of the stuff I taught myself and now can perform on auto-pilot. They are best practices in my case. Your's may differ.
+
+So here are my conventions:
+
+* Add a title to the file name describing the note's contents briefly to make looking at the list of files in the folder useful.
+* Create an arbitrary identifier for every Zettel note. Put it into the file name so even the dumbest folder search can find it. Example: `201501150926 Something about something.txt`
+* Use a "de-referencing glyph" to create links. I put `§` in front of an identifier to denote "this is a reference to the Zettel with identifier _X_". When I see a `§`, I know it's supposed to be a Zettel link. I can also explicitly search for links to a note only, excluding the note itself, by using the `§` in the search term. So `§201501150926` would link to the example note in the file `201501150926 Something about something.txt`
+* Use [Markdown][] to mark up notes. Plain text always looks the same. There's no emboldening, there are no headings. Knowing how to interpret the human-readable markup language Markdown helps to bring the function of styling to the notes.
+* Put new Zettel notes into outlines so [books write themselves][outl]. This also remedies the lack of visualization. I look at a nested outline of related notes instead of a web.
+* When you add a new Zettel, research for similar keywords or phrases in the archive. Create connections between Zettel notes directly, or come up with another note to describe the connections you found.
+
+[markdown]: http://en.wikipedia.org/wiki/Markdown
+[outl]: /posts/write-book-without-even-trying-so-hard/
+
+
+## My Toolchain
+
+Apart from my operating system's built-in file browser, I use:
+
+* [nvALT][nv] for note archival
+* [BibDesk][] for reference management
+* [TextMate 2][tm] for writing projects and outlines
+
+Replace TextMate with [any other text editor](http://alternativeto.net/software/textmate/), BibDesk with [JabRef][], for example, and you're fully functional on any platform. If you'd like to experience the power of browsing text files with nvALT but don't own a Mac, don't worry: there exists [a port of nvALT](http://alternativeto.net/software/nvalt/) for your operating system, too.[^nvos]
+
+[tm]: http://macromates.com/download
+[bibdesk]: http://bibdesk.sourceforge.net/
+[jabref]: http://jabref.sourceforge.net/
+
+[^nvos]: There's [Notation](http://getnotation.com) (my recommendation) and [ResophNotes](http://resoph.com/ResophNotes/Welcome.html) for Windows, [NVim](http://cwoac.github.io/nvim/about.html) or [nvPY](https://github.com/cpbotha/nvpy) for cross-platform use.
+
+## Conclusion
+
+Even though you hold on to the ideal of a perfect knowledge management app, don't wait for it to appear to start being productive. All you really need is a means to write. Any will do. You don't even need a computer to implement a Zettelkasten system yourself -- all of this works on paper, too! Keeping that in mind, it doesn't matter what feature your app of choice has or hasn't. It's you who can be trained to make proper use of it.
+
+* What ideals do you hold in mind right now?
+* Which ideals could you dump without losing the essential features of your dream setup? How little may suffice until the app of your dreams arrives?
+
+---
+
+*Sascha's Comment:* To me, this thought was like an epiphany that I had during the heavy research for viable applications. The Zettelkasten is nothing that is written on index cards or files on your computer. It is the result of consequent application of some basic principles. I was very prone to a visual solution because I am a highly visual learner. In the end, the tool doesn't really matter as long as you apply the method correctly. Luhmann wrote more than 70 books and published nearly 400 scholarly articles on various subjects with an index card-based Zettelkasten and hunt and peck typing. Letting go of my ideas of a perfect application resulted in a huge jump to my productivity.
