@@ -1,0 +1,24 @@
+---
+title: ConnectedText Review (and Other Multi-Purpose Info-Managers for Windows)
+created_at: 2015-02-02 13:19:50 +0100
+kind: article
+author: christian
+tags: [ tool, archive ]
+preview: fulltext
+comments: on
+---
+
+Paul J. Miller wrote [an extensive review of ConnectedText][ctr] you might want to have a look at if you're running Windows and are still looking for a note-taking application which does more than store notes.
+
+We've added Paul's review to our ConnectedText ["tools" entry](/tools/) where you find other resources to get you started.
+
+[ConnectedText][ct] is hard for me to describe because it can do so many things, provided you set up some templates to get you there. I leave it as a research task to you, the reader, to find out what the app may do for you.
+
+More interestingly, Paul mentioned the other Windows apps he tried in the past. See his [MyInfo review][myinfor] (seems to have a great search) and his [Ultra Recall review][urr] (the Calendar view sounds nice for an all-purpose info manager). If ConnectedText isn't your thing, maybe one of these is. Keep in mind that all three do more than store notes in an archive. You can manage most of your life with them if you want to, it seems.
+
+Neither Sascha nor I have hands-on experience with any of the three apps. Share what you think with us in the comments!
+
+[ct]: http://www.connectedtext.com/
+[ctr]: https://pauljmiller.wordpress.com/2015/01/25/long-term-usage-review-of-connectedtext/
+[myinfor]: https://pauljmiller.wordpress.com/2013/11/16/review-of-myinfo/
+[urr]: https://pauljmiller.wordpress.com/2014/02/22/review-of-ultra-recall/
