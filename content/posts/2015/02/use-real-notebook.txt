@@ -1,0 +1,49 @@
+---
+title: Use a Real Notebook
+created_at: 2015-02-13 17:22:32 +0100
+kind: article
+author: sascha
+tags: [ notebook, note-taking, aesthetics, art, happiness ]
+image: 201502131731_notebook.jpg
+vgwort: http://vg05.met.vgwort.de/na/e8bfd091cc204ee7baee451ba100e25e
+comments: on
+---
+
+Considering the tech-heavy approach to knowledge work most people advocate nowadays, the imperative to use a real notebook may sound a little bit strange.
+
+But I am dead serious.
+
+The search for [the perfect software application][perfect] is one of the distractions which prevent you from stepping back and seeing the whole of your system. You are part of it, and each of your characteristic idiosyncrasies too.
+
+  [perfect]: http://zettelkasten.de/posts/how-to-program-yourself-productivity/
+
+One bottleneck in my knowledge work was that I didn't feel inspired to take notes. Sure, I took notes all the time, but I didn't feel any urge to work with my notes.
+
+I adopted the ubiquitous capturing device idea from the  GTD-Method, but this habit of keeping pen and paper with me all the time slipped away. I also [piled up notes][coll] and had to force myself to make Zettels out of them. They were short notes and thus by their nature very sketchy. Many times, I was trying to create Zettel notes from a *mess* of pieces of paper, scattered all over the place. I still have have many notes that still didn't make it to my archive. 
+
+  [coll]: http://christiantietze.de/posts/2014/01/collectors-fallacy/
+
+
+<%= insert_teaser_image title: "Sascha's notebook", caption: %{My notebook} %>
+
+I denied an important piece of the puzzle: aesthetics. I always marveled at the [notebooks of Darwin and da Vinci.][notebooks] But for my self, I just had bleak, small tear-off pads that got torn up in my pocket. 
+
+  [notebooks]: http://darwin-online.org.uk/EditorialIntroductions/vanWyhe_notebooks.html
+  
+Christian has a nice collection of old notebooks himself. When I saw them all together I adored them. I felt the same inspiration to when I looked at the notebooks of Darwin and da Vinci.
+
+I realized that it wasn't my affection for traditional scholarship. I just liked notebooks.
+
+So I bought one and started to scribble and sketch. It paid off.
+
+I begun to write real notes instead of sketchy riddles that I had a hard time to dissolve into a Zettel. I started to think with a pen in the hand, forming whole new ideas and started to get more and more comprehensive. I like the idea that I won't throw away my notebook like I have thrown away my slips of paper in the past. I keep them and like the idea.
+
+## What Can You Learn from My Story?
+
+Inspiration is a key element in your productivity. Yes, it is very important to be efficient and all that stuff. But remind yourself that you are a human being and not only involved in your Zettelkasten. You are the most important part of it, so take care of yourself!
+
+Happy wife, happy life. I believe in that saying as I believe in the following: happy you, happy Zettelkasten. This could be a saying you can apply to your own version of productivity. 
+
+I learned this during the course of my research on being an artist. I have a notebook that is DIN A5. It is to big to put into my pocket. But it feels right and I love it. Even this blogpost is sketched in that book. 
+
+Productivity is not always only about efficiency. Sometimes it is about your own feelings.
