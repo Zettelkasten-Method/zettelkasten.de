@@ -3,7 +3,7 @@ title: Use Idea Indexes for Journals and Fiction
 created_at: 2014-11-22 15:43:25 +0100
 kind: article
 author: christian
-tags: [ reading, category, keywords, collect ]
+tags: [ reading, category, keywords, collect, notebook ]
 image: 201411221649_idea-index.jpg
 vgwort: http://vg08.met.vgwort.de/na/0b302e48d403423b99c4bc47be4a3856
 comments: on
