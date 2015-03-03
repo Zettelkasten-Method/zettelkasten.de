@@ -1,0 +1,56 @@
+---
+title: My Collector's Fallacy Confession
+created_at: 2015-03-03 15:59:44 +0100
+kind: article
+author: christian
+tags: [ collect, process, productivity ]
+vgwort: http://vg08.met.vgwort.de/na/d103d4269780452ea4221e3bc10e124f
+comments: on
+---
+
+Last week, I found out how large my backlog of unassimilated information really is. (Spoiler: it is huge.)
+
+Sascha and I share a small apartment and recently re-arranged some furniture. Both of us had to empty our bookshelves so we could move the furniture around. Only a week later did I finish actually reordering the books and using my bookshelf again.
+
+Since I don't want to amass stuff and clutter my life, I have selected about 30 books I want to give away or sell. I keep novels which I'd like to read one more time, and I keep non-fiction which I'd love to lend to friends because they're so awesome.
+
+<%= insert_rel_image file: "201503031556_unprocessed.jpg", title: "Unprocessed books", caption: "Collection of books still not processed." %>
+
+
+And then I saw the pile of those read books which are disposable, but which are full of paper notes. [I use paper notes][readnotes] while reading to capture ideas. Later, I take some time to write proper Zettel notes on my computer.
+
+So there's a bunch of books filled with unfinished work.
+
+And that's not the end of it. Sometimes, I didn't finish processing notes for books I picked up at the library. If I had to return the book, I stuffed the paper notes into an envelope and kept them around in this form.
+
+<%= insert_rel_image file: "201503031557_envelope.jpg", title: "Notes", caption: "Some of the envelopes I found. There are more." %>
+
+A small envelope with maybe two dozen paper notes doesn't look intimidating. But it amounts to a lot of work.
+
+Sometimes, I have finished reading a book two or three years ago and still didn't get around processing the notes. The longer I defer processing, the less important it seems. _I survived without the Zettel notes until this day, so why not put it off a few more weeks?_
+
+Does this sound familiar?
+
+I'm not immune to [Collector's Fallacy][colfal]. It happens to me all the time. I have tons of unprocessed "read later" items in Instapaper, (2034, to be precise) some more than four years old.
+
+Ironically, among the oldest is ["How to Read Books You Disagree With" by Scott Young](http://www.scotthyoung.com/blog/2008/12/18/how-to-read-books-you-disagree-with/), ending thus:
+
+> With so much to choose from, and so little time to actually read, it pays to think a little about what you pick off the shelf.
+
+Thanks, Universe, for reminding be to be more conscious in picking up work.
+
+Reading is easy. Collecting notes is easy, too. Both can be finished quickly. Processing, on the other hand, does take time.
+
+**For every hour of reading, it can take up to double the time to take proper notes.** Sometimes you have to research for more details even if you thought you had a clear picture of what the text says.
+
+So pick your fights wisely, and take the aftermath of fighting into account, too. I have to go and take notes, now.
+
+
+[colfal]: http://christiantietze.de/posts/2014/01/collectors-fallacy
+[readnotes]: http://christiantietze.de/posts/2013/09/create-zettel-from-reading-notes/
+
+--- 
+
+**Sascha's Comment:** The last paragraph contains one of the most important lessons I learned during the work with a Zettelkasten. It is one of the most crucial parts of your workflow that you invest in the process of converting notes into Zettels.
+
+Here, the most time and energy are lost. So you need to tweak this step to your needs to be really fast. But you have to dedicate some time for this step deliberately.
