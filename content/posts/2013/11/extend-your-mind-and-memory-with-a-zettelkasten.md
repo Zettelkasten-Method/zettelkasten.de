@@ -6,6 +6,8 @@ author: christian
 tags: [ memory, archive, collect ]
 image: 201311081719_braingate.jpg
 vgwort: http://vg08.met.vgwort.de/na/b56913c09c314f5da7eff4084e919987
+import:
+    from: http://christiantietze.de/posts/2013/11/extend-your-mind-and-memory-with-a-zettelkasten/
 ---
 
 A _Zettelkasten_ is a device to extend your mind and memory so you can work with texts efficiently and never forget things again.

@@ -8,6 +8,8 @@ tags: [ nv, image ]
 image: 201406181908_nv-images.png
 vgwort: http://vg08.met.vgwort.de/na/7bcbe20751e14d33abb3682e9b6c9f88
 comments: on
+import:
+    from: http://christiantietze.de/posts/2014/06/images-in-nvalt-notes/
 ---
 
 nvALT sports features which are not so well-known. You can make it work with an image repository to easily include images in your _Zettel_ notes. I don't make heavy use of the preview at all, but when I do, it's mostly because I want to take a look at images. For this purpose, I decided to stick to a simple folder structure and customize the preview template to work with it.

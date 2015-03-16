@@ -6,6 +6,8 @@ author: christian
 tags: [ writing, software ]
 url: http://stet.editorially.com/articles/goodbye/
 comments: on
+import:
+    from: http://christiantietze.de/posts/2014/02/editorially-shutting-down/
 ---
 
 [Editorially will shut down on May 30.][ann]

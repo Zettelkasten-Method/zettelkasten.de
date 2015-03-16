@@ -9,6 +9,8 @@ image: "201404041723_nv.png"
 vgwort: http://vg08.met.vgwort.de/na/37717592bac84c1fa7340fe191b058d3
 comments: on
 toc: on
+import:
+    from: http://christiantietze.de/posts/2014/04/nvalt-zettelkasten-implementation/
 ---
 
 I want to start this series of reviews with a software I'm fairly familiar with.  While most things apply to the [Notational Velocity][nv] base application, I will talk about [nvALT][] exclusively in this review.  nvALT is a fork by [Brett Terpstra](http://brettterpstra.com/) and [David Halter](http://elasticthreads.tumblr.com/) of the original Notational Velocity, which was created by Zachary Schneirov, and a few [modifications by yours truly](/posts/2010/10/markdown-hud-nv/).  It's Open Source, free, and very popular.

@@ -7,6 +7,8 @@ tags: [ habit, knowledge-cycle, gtd, learning, research, writing, note-taking, a
 image: 201407171527_assembly.jpg
 vgwort: http://vg08.met.vgwort.de/na/894cfafdd1814547829354a3d96bdad3
 comments: on
+import:
+    from: http://christiantietze.de/posts/2014/07/knowledge-cycle-efficiently-organize-writing-projects/
 ---
 
 It's important to manage working time. Managing to-do lists is just one part of the equation to getting things done when it comes to immersive creative work where we need to make progress for a long time to complete the project. To ensure we make steady progress, we need to stay on track and handle interruptions and breaks well. A short _Knowledge Cycle_ will help to get a full slice of work done multiple times a day, from research to writing. This will help staying afloat and not drown in tasks.

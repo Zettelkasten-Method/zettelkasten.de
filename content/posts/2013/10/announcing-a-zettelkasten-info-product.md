@@ -5,6 +5,9 @@ kind: article
 author: christian
 tags: [ announcement, book ]
 vgwort: ident
+preview: fulltext
+import:
+    from: http://christiantietze.de/posts/2013/10/announcing-a-zettelkasten-info-product/
 ---
 
 Recently, I took a look at my _Zettelkasten_ to see which _Zettel_ notes would make a good next post in the series.  I re-discovered plenty of material, no doubt.  Still, it occurred to me that there's a lot of important things which don't fit well in short blog posts and which neither do well when split into a series of posts.

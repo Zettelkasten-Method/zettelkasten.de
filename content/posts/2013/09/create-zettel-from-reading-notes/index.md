@@ -6,6 +6,8 @@ author: christian
 tags: [ reading, collect, process, zettel ]
 vgwort: http://vg02.met.vgwort.de/na/87159bbc8b6e4d2986649fca879da891
 image: "201309030945_reading-notes.jpg"
+import:
+    from: http://christiantietze.de/posts/2013/09/create-zettel-from-reading-notes/
 ---
 
 As I said in my last post, my reading workflow consists of GTD-like phases: **collect, process and write.**

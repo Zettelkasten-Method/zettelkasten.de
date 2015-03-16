@@ -6,6 +6,8 @@ author: christian
 tags: [ announcement ]
 image: 201405031026_suckle.jpg
 comments: on
+import:
+    from: http://christiantietze.de/posts/2014/05/zettelkasten-toolbox-contribution/
 ---
 
 Today, I'm thrilled to announce the next step in the Zettelkasten platform. I offer two exciting ways to contribute to the overall project: a central tools collection, and river of news.

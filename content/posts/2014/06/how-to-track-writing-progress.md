@@ -7,6 +7,8 @@ tags: [ writing, productivity, quantified-self ]
 image: 201406251740_spreadsheet.png
 vgwort: http://vg08.met.vgwort.de/na/0f26f85e91f148bf8bd00b69481f5b0d
 comments: on
+import:
+    from: http://christiantietze.de/posts/2014/06/how-to-track-writing-progress
 ---
 
 There's an interesting 8min talk by [Brian Crain on optimizing productivity][crain]. Brian found tracking his progress useful:

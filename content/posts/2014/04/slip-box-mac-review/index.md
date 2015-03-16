@@ -8,6 +8,8 @@ image: 201404240921_slipbox.png
 vgwort: http://vg08.met.vgwort.de/na/aee9adfa0a334a94a5537b688428cf2e
 comments: on
 toc: on
+import:
+    from: http://christiantietze.de/posts/2014/04/slip-box-mac-review/
 ---
 
 [_SlipBox_][slipbox] is a Mac-only application with iPad/iPhone companion apps to manage a note archive. When I found out about the app, I was curious about its ability to traverse a organically growing, tree-like ontology of keywords.  That's the app's killer feature.  _SlipBox_ didn't disappoint, but I come to the conclusion that it is best suited for project-based note databases.

@@ -8,6 +8,8 @@ image: "201403291237_gear.jpg"
 vgwort: http://vg08.met.vgwort.de/na/a490d108a158425eba51059bf4471994
 comments: on
 toc: on
+import:
+    from: http://christiantietze.de/posts/2014/03/baseline-zettelkasten-software-reviews/
 ---
 
 I'm going to take a close look at applications to find out which are suitable to implement the _Zettelkasten_ note archive.  I already talked about [reference managers][refman].  While reference managers can be switched pretty easily, migrating a database of notes is far from being a trivial task, depending on the software you used in the past.  Therefore, we have to chose how to implement the note archive with great care.  Here you'll find my criteria.

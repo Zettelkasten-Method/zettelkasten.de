@@ -6,6 +6,8 @@ tags: [ learning, collect, process, reading, archive ]
 image: 201403091054_reading.jpg
 vgwort: http://vg08.met.vgwort.de/na/a485d13b90094fad8d0581d65732f3ac
 comments: on
+import:
+    from: http://christiantietze.de/posts/2014/03/reading-putting-it-all-together/
 ---
 
 I am moving next month, and so I though about getting rid of stuff in my life.  There are lots of books I've read, but from which I never processed all the notes.  

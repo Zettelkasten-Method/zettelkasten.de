@@ -7,6 +7,8 @@ tags: [ personal ]
 image: 201404111029_workplace.jpg
 vgwort: http://vg08.met.vgwort.de/na/3d76f0b5b8084f078dedfc195dc2a453
 comments: on
+import:
+    from: http://christiantietze.de/posts/2014/04/lessons-learned-from-losing-all-routine/
 ---
 
 We finally finished moving into our new apartment.  During the ten days it took to arrange the new place, I noticed how strong I'm bound to my routines, and what it means to lose all of them at once for a period of time.
