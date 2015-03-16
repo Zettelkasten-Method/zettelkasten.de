@@ -46,7 +46,7 @@ unless defined? LOADED_DEFAULT_CONFIG
   end
   
   def extract_identifiers(route)
-    regex = /(?<parent>.*\/)(?<ident>[\w\d\.\-_]+\/)$/
+    regex = /(?<parent>.*\/)(?<ident>[@\w\d\.\-_\s]+\/)$/
   
     return route[regex, :ident], route[regex, :parent]
   end

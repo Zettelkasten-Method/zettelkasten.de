@@ -307,7 +307,7 @@ end
 route '/posts/*' do
   if item.binary?
     # Write item with identifier /foo/ to /foo.ext
-    the_route = ""+item.identifier
+    the_route = "" + item.identifier
     id, post_route = extract_identifiers(the_route)
     post_id, parent_route = extract_identifiers(post_route)
     
