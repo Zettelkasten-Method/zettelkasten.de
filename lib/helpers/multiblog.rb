@@ -15,9 +15,50 @@ module My
       end
     end
     
+    module Comments
+      class << self
+        include My::Blog::Comments
+      end
+      
+      def title_for(item)
+        item[:title].gsub(/'/, '')
+      end
+      
+      def identifier_for(item)
+        if Post::is_imported?(item)
+          source = Post::imported_from(item)
+          host = "http://christiantietze.de"
+          path = source[host.length..-1]
+          return path
+        end
+        
+        item.path
+      end
+      
+      def shortname_for(item)
+        if Post::is_imported?(item)
+          return "christiantietze"
+        end
+        
+        "zettelkastende"
+      end
+    end
+    
     module Post
       class << self
         include My::Blog::Post
+      end
+      
+      def is_imported?(item)
+        item[:import]
+      end
+      
+      def imported_from(item)
+        item[:import][:from]
+      end
+      
+      def imported_to(item)
+        item.path
       end
       
       def date_for(item)
