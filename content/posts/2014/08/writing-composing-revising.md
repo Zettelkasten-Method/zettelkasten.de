@@ -20,7 +20,7 @@ I think we should aim for a clean distinction of "adding new words to a text" an
 I can't say anything about writing fiction, so I'll stick to non-fiction and assume you're a knowledge worker.
 
 [writid]: /posts/2014/07/identity-schedule-serious-writing/
-[cccomments]: http://christiantietze.de/posts/2014/07/identity-schedule-serious-writing/#comment-1467255665
+[cccomments]: /posts/identity-schedule-serious-writing/#comment-1467255665
 
 ## Writing on a Computer Affects the Way You Work
 

@@ -31,7 +31,7 @@ If you haven't used GitHub in your lifetime before, it may look a bit too much l
 
 The folks at Leanpub offer to create books from manuscript files in a [Dropbox][] folder shared with you if GitHub is not your thing. I preferred the more tech-savvy GitHub approach because I knew I wanted to share my progress with you from the start, and because I'd love to have other people contribute to the matter.
 
-[learn]: http://christiantietze.de/posts/2014/02/learn-faster-by-writing-zettel-notes/
+[learn]: /posts/learn-faster-by-writing-zettel-notes/
 [zettellink]: https://github.com/DivineDominion/mac-appdev-book/blob/7abaca2ebadecfe6e2a56912759f2033ef9642e7/manuscript/201411190902%20use%20of%20tests.txt#L45
 [manuscript]: https://github.com/DivineDominion/mac-appdev-book
 [example]: https://github.com/DivineDominion/mac-appdev-code
@@ -100,7 +100,7 @@ Next to my book manuscript, the [example project][example] is on GitHub, too. Th
 Once I spread the word about this book some more, I hope interested developers will jump on and help make the book and its code better. We'll see. I am going to repeat the process soon in early 2015. The application I'm working on right now, the [Word Counter for Mac](http://wordcounterapp.com), is facing a big change behind the scenes, and I couldn't find any literature on the topic. I'm going to change this.
 
 [book]: https://leanpub.com/develop-mac-apps-clean-architecture-swift
-[id]: http://christiantietze.de/posts/2014/02/add-identity/
+[id]: /posts/add-identity/
 
 [fork]: https://guides.github.com/activities/forking/
 [prq]: https://guides.github.com/activities/forking/#making-a-pull-request

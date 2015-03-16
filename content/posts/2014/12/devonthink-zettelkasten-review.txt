@@ -26,7 +26,7 @@ I won't go into the details of describing DEVONthink in general terms. This soft
 If you are interested in DEVONthink's other functionalities, watch [this video](http://vimeo.com/50131167) in which the developers present DEVONthink in its full glory. I fact, I recommend watching this video before reading the rest of this article. It's only about 5 minutes long.
 
 [mmd]: http://fletcherpenney.net/multimarkdown/
-[criteria]: http://christiantietze.de/posts/2014/03/baseline-zettelkasten-software-reviews/#criteria-i-will-consider
+[criteria]: /posts/baseline-zettelkasten-software-reviews/#criteria-i-will-consider
 
 [^1]: There is [DEVONnote](http://www.devontechnologies.com/products/devonnote.html), a stripped-down version of DEVONthink, that seems to be focused on note-taking, but I have no experience with that.
 
@@ -82,7 +82,7 @@ All in all this shows that DEVONthink is highly customizable. Often, there are m
 
 Since DEVONthink does support full-text search, Christian's cheat will work: you can use [note identifiers][ids] and put these IDs where you want to link from. The artificial intelligence of the search engine not only uses full text analysis, but also uses cross references in form of clickable DEVONthink links you create, so using Christian's cheat _might_ result in worse search results.
 
-[ids]: http://christiantietze.de/posts/2014/02/add-identity/
+[ids]: /posts/add-identity/
 
 
 ### Data Export and Import

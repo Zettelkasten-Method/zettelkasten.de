@@ -40,7 +40,7 @@ In place of the perfect dedicated Zettelkasten app, I use a great plain text fil
 
 I separated the concerns and found one great app for every task instead of settling on a single, mediocre app for everything. The missing link between the parts now is I.
 
-[criteria]: http://christiantietze.de/posts/2014/03/baseline-zettelkasten-software-reviews/#criteria-i-will-consider
+[criteria]: /posts/baseline-zettelkasten-software-reviews/#criteria-i-will-consider
 [nv]: http://brettterpstra.com/projects/nvalt/
 
 ## You and Your Conventions Become the Missing Link

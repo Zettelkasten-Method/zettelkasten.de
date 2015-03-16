@@ -19,7 +19,7 @@ Having said that, I think idea indexes have their place. I used them heavily in 
 If you haven't tried idea indexes for yourself yet, I think you should give it a spin and [share your results.][share] Have a look at what I've found in my own library. 
 
 [share]: https://www.flickr.com/groups/idea-indexes/
-[colfal]: http://christiantietze.de/posts/2014/01/collectors-fallacy
+[colfal]: /posts/collectors-fallacy/
 [cal]: http://calnewport.com/blog/2014/10/23/deep-habits-create-an-idea-index/
 
 

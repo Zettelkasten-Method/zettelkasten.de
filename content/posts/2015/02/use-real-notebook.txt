@@ -20,7 +20,7 @@ One bottleneck in my knowledge work was that I didn't feel inspired to take note
 
 I adopted the ubiquitous capturing device idea from the  GTD-Method, but this habit of keeping pen and paper with me all the time slipped away. I also [piled up notes][coll] and had to force myself to make Zettels out of them. They were short notes and thus by their nature very sketchy. Many times, I was trying to create Zettel notes from a *mess* of pieces of paper, scattered all over the place. I still have have many notes that still didn't make it to my archive. 
 
-  [coll]: http://christiantietze.de/posts/2014/01/collectors-fallacy/
+  [coll]: /posts/2014/01/collectors-fallacy/
 
 
 <%= insert_teaser_image title: "Sascha's notebook", caption: %{My notebook} %>

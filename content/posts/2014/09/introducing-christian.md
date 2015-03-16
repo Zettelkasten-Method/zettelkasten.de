@@ -22,7 +22,7 @@ I believe that thought-out systems stabilize your life. They limit your options 
 
 Each and every one of us has developed a personal approach to learning and managing tasks. Maybe you don't think about either of these because you don't perceive any friction in your work. Reflecting on your processes will help you become more efficient. Or you may not like how you do it, but you are able to do something at least. In this case, getting rid of the friction will make your life better.
 
-Either way, we benefit from thinking about what we do, and how we do it: If knowledge work or writing is part of your identity, changes to these aspects of your life will ultimately result in [a transformation of yourself](http://christiantietze.de/posts/2014/07/identity-schedule-serious-writing/). That's powerful, and that's exactly what Sascha and I have experienced.
+Either way, we benefit from thinking about what we do, and how we do it: If knowledge work or writing is part of your identity, changes to these aspects of your life will ultimately result in [a transformation of yourself](/posts/identity-schedule-serious-writing/). That's powerful, and that's exactly what Sascha and I have experienced.
 
 <!--ct: archive originals-->
 Maybe you know the following situation: You read an article in a magazine, find something that relates to your interests in life, and the best you come up is to highlight interesting paragraphs, cut out the article, and file the pages in a folder.

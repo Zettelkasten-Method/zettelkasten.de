@@ -45,8 +45,8 @@ Reading is easy. Collecting notes is easy, too. Both can be finished quickly. Pr
 So pick your fights wisely, and take the aftermath of fighting into account, too. I have to go and take notes, now.
 
 
-[colfal]: http://christiantietze.de/posts/2014/01/collectors-fallacy
-[readnotes]: http://christiantietze.de/posts/2013/09/create-zettel-from-reading-notes/
+[colfal]: /posts/collectors-fallacy/
+[readnotes]: /posts/create-zettel-from-reading-notes/
 
 --- 
 

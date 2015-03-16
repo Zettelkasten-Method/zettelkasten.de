@@ -23,7 +23,7 @@ There are two methods to work with a Zettelkasten:
 
 **Indirectional work** means that you just feed your Zettelkasten. It is hungry and demands for notes a.k.a. Zettels. The more you feed it, the more complex it becomes, and [the more it will actually talk to you][luhmann]. For additional information read: [Create a Zettelkasten for your Notes to Improve Thinking and Writing][ctluhmann]
 
- [ctluhmann]: http://christiantietze.de/posts/2013/06/zettelkasten-improves-thinking-writing
+ [ctluhmann]: /posts/zettelkasten-improves-thinking-writing/
 
   [luhmann]: http://scriptogr.am/kuehnm/post/2012-12-22-111621
 

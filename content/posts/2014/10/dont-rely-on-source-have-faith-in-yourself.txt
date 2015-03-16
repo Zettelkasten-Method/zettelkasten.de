@@ -22,7 +22,7 @@ Only later did I find out that this approach doesn't help at all. So I listened 
 It's impossible to collect information by collecting original sources. Everything runs through our brain's filter and is subject to our interpretation.
 
 
-[cf]: http://christiantietze.de/posts/2014/01/collectors-fallacy
+[cf]: /posts/collectors-fallacy/
 
 ## Your own Voice Counts
 
