@@ -25,13 +25,6 @@ module My
       end
       
       def identifier_for(item)
-        if Post::is_imported?(item)
-          source = Post::imported_from(item)
-          host = "http://christiantietze.de"
-          path = source[host.length..-1]
-          return path
-        end
-        
         item.path
       end
       
