@@ -7,7 +7,7 @@ tags: [ announcement ]
 preview: fulltext
 ---
 
-Have a look at the [post archive](/posts/): I moved 28 Zettelkasten-related posts from [my personal domain](http://christiantietze.de/) to this blog, starting 2013!
+Have a look at the [post archive](/posts/): I moved 28 Zettelkasten-related posts from [my personal domain](http://christiantietze.de/) to this blog, dating back to as far as 2013!
 
 The comments have moved as well, of course, so you can still participate in the discussion. I even enabled comments on older posts which previously had not, like [the very first post.](/posts/zettelkasten-improves-thinking-writing/)
 
