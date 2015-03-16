@@ -1,0 +1,16 @@
+---
+title: Old Posts Moved to This Blog
+created_at: 2015-03-16 12:35:53 +0100
+kind: article
+author: christian
+tags: [ announcement ]
+preview: fulltext
+---
+
+Have a look at the [post archive](/posts/): I moved 28 Zettelkasten-related posts from [my personal domain](http://christiantietze.de/) to this blog, starting 2013!
+
+The comments have moved as well, of course, so you can still participate in the discussion. I even enabled comments on older posts which previously had not, like [the very first post.](/posts/zettelkasten-improves-thinking-writing/)
+
+With this move, the [list of tags](/posts/tags/) has grown tremendously overnight. And I hope the tags became more useful to you, since now there's much more content available.
+
+I hope you enjoy rediscovering the stuff I wrote years ago. Now it should be easier for all of us (including me) to find out where to look for Zettelkasten-related posts. It's here.
