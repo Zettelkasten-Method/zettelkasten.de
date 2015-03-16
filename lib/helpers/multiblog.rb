@@ -43,6 +43,10 @@ module My
         erb.result(binding)
       end
       
+      def origin_of(item)
+        %Q{originally appeared on <a href="http://christiantietze.de/">christiantietze.de</a>}
+      end
+      
       def time_tag_for(item)
         %Q{<time datetime="#{item[:created_at]}">#{My::Blog::Post::date_for(item)}</time>}
       end
@@ -55,7 +59,7 @@ module My
         end
         
         author_name = author.capitalize
-        %Q{by <a href="/authors/#{author}/">#{author_name}</a>}
+        %Q{by <a href="/authors/#{author}/" rel="author">#{author_name}</a>}
       end
       
       def contact_tag_for(item)

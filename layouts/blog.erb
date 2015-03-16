@@ -27,6 +27,7 @@
             <ul class="post__meta">
                 <li>Tags: <%= Post::tags_for(@item) %></li>
                 <%= %Q{<li>&bull; via <a href="#{@item[:via][:url]}">#{@item[:via][:name]}</a></li>} if @item[:via]%>
+                <%= %Q{<li>&bull; #{Post::origin_of(@item)}</li>} if @item[:import]%>
             </ul>
         </footer>
     </article>
