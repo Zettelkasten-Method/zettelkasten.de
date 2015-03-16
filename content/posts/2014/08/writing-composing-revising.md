@@ -6,7 +6,6 @@ author: christian
 tags: [ writing, productivity, wordcounter ]
 image: 201408271327_brahma.jpg
 vgwort: http://vg02.met.vgwort.de/na/d9b78dc616144be4ad9167b73afba5be
-comments: on
 import:
     from: "http://christiantietze.de/posts/2014/08/writing-composing-revising/"
 ---

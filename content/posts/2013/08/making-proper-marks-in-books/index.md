@@ -6,7 +6,6 @@ author: christian
 tags: [ reading, collect ]
 image: "201308102253_marks.jpg"
 vgwort: http://vg02.met.vgwort.de/na/416d0ec1ad734a1aa4c334e1eb9bc12b
-comments: on
 lang: mmd
 import:
     from: "http://christiantietze.de/posts/2013/08/making-proper-marks-in-books/"

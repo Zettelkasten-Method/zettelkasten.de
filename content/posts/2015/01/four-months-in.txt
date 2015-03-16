@@ -4,7 +4,6 @@ created_at: 2015-01-21 10:27:33 +0200
 kind: article
 author: christian
 tags: [ announcement ]
-comments: on
 ---
 
 The blog is live for four months now. For us, a lot has changed in the meantime. Personally, but also professionally. We have new projects in the making, and we've created and prepared new stuff to share on this platform.

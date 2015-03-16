@@ -6,7 +6,6 @@ author: christian
 tags: [ challenge, knowledge-cycle ]
 image: 201407311932_hedgehog.jpg
 vgwort: http://vg08.met.vgwort.de/na/98e532a4ab8245d1894a632b97def2e6
-comments: on
 import:
     from: "http://christiantietze.de/posts/2014/07/challenge-apply-knowledge-cycle/"
 ---

@@ -6,7 +6,6 @@ author: christian
 tags: [ research, writing ]
 image: 201311261802_keyboard.jpg
 vgwort: http://vg08.met.vgwort.de/na/13ce37169918499184c7d54654d3d0a9
-comments: on
 import:
     from: "http://christiantietze.de/posts/2013/11/ease-into-writing/"
 ---

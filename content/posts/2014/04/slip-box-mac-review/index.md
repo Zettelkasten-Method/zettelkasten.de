@@ -6,7 +6,6 @@ author: christian
 tags: [ software, mac ]
 image: 201404240921_slipbox.png
 vgwort: http://vg08.met.vgwort.de/na/aee9adfa0a334a94a5537b688428cf2e
-comments: on
 toc: on
 import:
     from: "http://christiantietze.de/posts/2014/04/slip-box-mac-review/"

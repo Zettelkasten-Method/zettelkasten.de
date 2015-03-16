@@ -6,7 +6,6 @@ author: christian
 tags: [ nv, tool, mac ]
 vgwort: http://vg08.met.vgwort.de/na/eb5a7102855e4b4d875e88e998af70b5
 image: 201410092140_nv-script.png
-comments: on
 ---
 
 An essential priniciple of a _Zettelkasten_ is its flexibility. From there you can derive maxims like "you should avoid proprietary software", and "you should use plain text notes to ensure longevity". That's why I don't use a fancy application with lots of spectacular features but the simple [nvALT][nvz] instead. Here's how I automate note creation to speed up my workflow.

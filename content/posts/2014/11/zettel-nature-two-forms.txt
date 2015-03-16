@@ -6,7 +6,6 @@ author: sascha
 tags: [ archive, zettel ]
 image: 201411151930_neuron.jpg
 vgwort: http://vg02.met.vgwort.de/na/c40932bd9d2944fd85087bdc04ff3106
-comments: on
 ---
 
 

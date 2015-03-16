@@ -5,7 +5,6 @@ kind: article
 author: christian
 tags: [ devonthink ]
 url: http://www.christopher-mayo.com/?p=2237
-comments: on
 via:
     url: "http://www.macdrifter.com/2014/12/devonthink-use-cases-in-academics-link.html"
     name: Macdrifter

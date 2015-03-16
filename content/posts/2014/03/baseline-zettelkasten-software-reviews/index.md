@@ -6,7 +6,6 @@ kind: article
 tags: [ software, review ]
 image: "201403291237_gear.jpg"
 vgwort: http://vg08.met.vgwort.de/na/a490d108a158425eba51059bf4471994
-comments: on
 toc: on
 import:
     from: "http://christiantietze.de/posts/2014/03/baseline-zettelkasten-software-reviews/"

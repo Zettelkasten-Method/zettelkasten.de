@@ -6,7 +6,6 @@ author: sascha
 tags: [ notebook, note-taking, aesthetics, art, happiness ]
 image: 201502131731_notebook.jpg
 vgwort: http://vg05.met.vgwort.de/na/e8bfd091cc204ee7baee451ba100e25e
-comments: on
 ---
 
 Considering the tech-heavy approach to knowledge work most people advocate nowadays, the imperative to use a real notebook may sound a little bit strange.

@@ -8,7 +8,6 @@ url: http://www.zengobi.com/products/curio/
 via: 
     name: Outliner Software Forum
     url: http://www.outlinersoftware.com/topics/viewt/5663
-comments: on
 ---
 
 [Curio](http://www.zengobi.com/products/curio/) is a popular all-purpose digital notebook application for Mac. Currently, it's 30% off, so it's **for sale for $34.99 instead of $69.99 until Dec 28th**.

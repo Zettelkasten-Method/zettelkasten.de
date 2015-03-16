@@ -5,7 +5,6 @@ kind: article
 author: christian
 tags: [ announcement ]
 image: 201405031026_suckle.jpg
-comments: on
 import:
     from: "http://christiantietze.de/posts/2014/05/zettelkasten-toolbox-contribution/"
 ---

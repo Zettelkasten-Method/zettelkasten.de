@@ -5,7 +5,6 @@ kind: article
 author: christian
 tags: [ collect, process, productivity ]
 vgwort: http://vg08.met.vgwort.de/na/d103d4269780452ea4221e3bc10e124f
-comments: on
 ---
 
 Last week, I found out how large my backlog of unassimilated information really is. (Spoiler: it is huge.)

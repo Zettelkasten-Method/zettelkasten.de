@@ -6,7 +6,6 @@ author: sascha
 tags: [ announcement ]
 image: 201409160926_whale.jpg
 vgwort: http://vg05.met.vgwort.de/na/a3dc5819bf2b4b6097dee7c5b7f53d94
-comments: on
 ---
 
 Call me Ishmael.[^mobydick] 

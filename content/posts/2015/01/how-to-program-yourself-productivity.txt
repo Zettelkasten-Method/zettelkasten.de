@@ -6,7 +6,6 @@ author: christian
 tags: [ software, archive, habits ]
 image: "201501271801_computerdog.jpg"
 vgwort: http://vg08.met.vgwort.de/na/57cb1d6ce2354857a64d7d44e03711b3
-comments: on
 ---
 
 In search for the perfect software application to manage a Zettelkasten note archive, surprisingly, I have become the tool I was looking for. 

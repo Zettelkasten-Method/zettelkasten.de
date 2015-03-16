@@ -5,7 +5,6 @@ kind: article
 author: christian
 tags: [ tool, archive ]
 preview: fulltext
-comments: on
 ---
 
 Paul J. Miller wrote [an extensive review of ConnectedText][ctr] you might want to have a look at if you're running Windows and are still looking for a note-taking application which does more than store notes.

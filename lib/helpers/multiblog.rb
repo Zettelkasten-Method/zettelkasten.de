@@ -244,9 +244,8 @@ module My
     end
     
     def comments_allowed_for(item)
-      return false if item[:comments].nil?
+      return true if item[:comments].nil?
       return false if item[:comments] == "off"
-      return false unless item[:comments]
       return true
     end
     

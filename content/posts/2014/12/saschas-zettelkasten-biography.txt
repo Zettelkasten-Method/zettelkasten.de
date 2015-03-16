@@ -6,7 +6,6 @@ author: sascha
 tags: [ personal, use-case ]
 image: 201412021638_happy-child.jpg
 vgwort: http://vg05.met.vgwort.de/na/3906353a4e23456fa5c53f146aef7a4a
-comments: on
 ---
 
 

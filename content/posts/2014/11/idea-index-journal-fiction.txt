@@ -6,7 +6,6 @@ author: christian
 tags: [ reading, category, keywords, collect, notebook ]
 image: 201411221649_idea-index.jpg
 vgwort: http://vg08.met.vgwort.de/na/0b302e48d403423b99c4bc47be4a3856
-comments: on
 ---
 
 It's nice to have an idea index in your book's front pages. Revisiting a text you read years ago and finding an index in the front is a great feeling. [Cal Newport recently blogged about idea indexes.][cal] I think they are very useful for fiction and personal journals.

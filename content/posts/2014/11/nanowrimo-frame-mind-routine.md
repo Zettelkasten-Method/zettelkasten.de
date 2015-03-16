@@ -6,7 +6,6 @@ author: christian
 tags: [ writing, nanowrimo, routine ]
 image: 201411051022_hamster-wheel.jpg
 vgwort: http://vg08.met.vgwort.de/na/674c550c77a74c3a9b60f3e9d26dfc6b
-comments: on
 ---
 
 

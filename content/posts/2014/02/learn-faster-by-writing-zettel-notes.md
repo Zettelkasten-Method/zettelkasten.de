@@ -5,7 +5,6 @@ kind: article
 tags: [ process, learning ] 
 image: 201402212124_rabbitreading.jpg
 vgwort: http://vg08.met.vgwort.de/na/6988f20f8ae64e889faec0d4cc2182df
-comments: on
 import:
     from: "http://christiantietze.de/posts/2014/02/learn-faster-by-writing-zettel-notes/"
 ---

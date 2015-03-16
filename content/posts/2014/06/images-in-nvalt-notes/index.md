@@ -7,7 +7,6 @@ kind: article
 tags: [ nv, image ]
 image: 201406181908_nv-images.png
 vgwort: http://vg08.met.vgwort.de/na/7bcbe20751e14d33abb3682e9b6c9f88
-comments: on
 import:
     from: "http://christiantietze.de/posts/2014/06/images-in-nvalt-notes/"
 ---

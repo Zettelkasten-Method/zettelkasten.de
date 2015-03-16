@@ -5,7 +5,6 @@ kind: article
 author: christian
 tags: [ challenge, gtd ]
 vgwort: http://vg08.met.vgwort.de/na/950e7206a36c4028bc783e5b32e2adb2
-comments: on
 import:
     from: "http://christiantietze.de/posts/2014/09/preparing-project-justice-hedgehogs/"
 ---

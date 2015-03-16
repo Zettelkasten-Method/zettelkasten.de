@@ -6,7 +6,6 @@ author: sascha
 tags: [ writing, anxiety, publishing, belief ]
 image: 201410161818_scared-baby.jpg
 vgwort: http://vg01.met.vgwort.de/na/a4759c7874ba445bb1a0ed8a4882f5e4
-comments: on
 ---
 
 The first "first draft" I ever finished was a short-ish ebook about writing. I tend to be very heavy on research with my projects. As I realized that my Zettelkasten archive already contains content worth several books, I started to research on how to write a book.
