@@ -9,7 +9,7 @@ vgwort: http://vg08.met.vgwort.de/na/55373ef9fa9e410295badb08ea064eea
 comments: on
 lang: mmd
 import:
-    from: http://christiantietze.de/posts/2014/01/collectors-fallacy/
+    from: "http://christiantietze.de/posts/2014/01/collectors-fallacy/"
 ---
 
 There's a tendency [in all of us](/posts/collectors-fallacy-confession/) to gather useful stuff and feel good about it.  To collect is a reward in itself.  As knowledge workers, we're inclined to look for the next groundbreaking thought, for intellectual stimulation:  we pile up promising books and articles, and we store half the internet as bookmarks, just so we get the feeling of being on the cutting edge.

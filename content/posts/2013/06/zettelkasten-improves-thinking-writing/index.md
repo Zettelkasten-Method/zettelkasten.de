@@ -7,7 +7,7 @@ tags: [ writing, productivity, zettel ]
 vgwort: http://vg02.met.vgwort.de/na/5ecb7a3567854388b277be5d1e30893f
 lang: mmd
 import:
-    from: http://christiantietze.de/posts/2013/06/zettelkasten-improves-thinking-writing/
+    from: "http://christiantietze.de/posts/2013/06/zettelkasten-improves-thinking-writing/"
 ---
 
 Who is this for?

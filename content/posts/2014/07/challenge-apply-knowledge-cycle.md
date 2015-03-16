@@ -8,7 +8,7 @@ image: 201407311932_hedgehog.jpg
 vgwort: http://vg08.met.vgwort.de/na/98e532a4ab8245d1894a632b97def2e6
 comments: on
 import:
-    from: http://christiantietze.de/posts/2014/07/challenge-apply-knowledge-cycle/
+    from: "http://christiantietze.de/posts/2014/07/challenge-apply-knowledge-cycle/"
 ---
 
 I plan to write a long term paper at University later this year. It's going to be about the book [_Justice for Hedgehogs_][just][^aff] by Ronald Dworkin, and I'll be able to mostly work with this single source exclusively. Consequently, there won't be much additional research. How does the _Knowledge Cycle_ apply if you read a book and don't do research? I invite you to take the "Summer Knowledge Challenge" and find out with me.

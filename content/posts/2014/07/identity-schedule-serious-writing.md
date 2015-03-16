@@ -8,7 +8,7 @@ image: 201407031831_woodwork.jpg
 vgwort: http://vg08.met.vgwort.de/na/cbdc792f76ce48fd94cc0bc3afcb5d21
 comments: on
 import:
-    from: http://christiantietze.de/posts/2014/07/identity-schedule-serious-writing
+    from: "http://christiantietze.de/posts/2014/07/identity-schedule-serious-writing"
 ---
 
 

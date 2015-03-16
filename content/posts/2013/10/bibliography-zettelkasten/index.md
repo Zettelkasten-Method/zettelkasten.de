@@ -7,7 +7,7 @@ tags: [ reading, reference-management ]
 image: 201310071817_bibdesk.png
 vgwort: http://vg02.met.vgwort.de/na/f4202a462ce54077ae77953e77004a63
 import:
-    from: http://christiantietze.de/posts/2013/10/bibliography-zettelkasten/
+    from: "http://christiantietze.de/posts/2013/10/bibliography-zettelkasten/"
 ---
 
 Today, we'll talk about tools for a change.  Managing a reference file is part of the **collection** phase of maintaining a _Zettelkasten._  It's of special importance if you're writing a research paper or a book because without proper citation management things are going to be a mess for you, soon.  I'll show you how I do it and tell you about possible alternatives briefly.

@@ -8,7 +8,7 @@ image: 201405241937_leaf_structure.jpg
 vgwort: http://vg08.met.vgwort.de/na/63c76a9da31d4060a7c1e183626b04f6
 comments: on
 import:
-    from: http://christiantietze.de/posts/2014/05/how-i-use-outlines-to-write-any-text/
+    from: "http://christiantietze.de/posts/2014/05/how-i-use-outlines-to-write-any-text/"
 ---
 
 <%= insert_rel_image file: "201405242034_starting.png", title: "screenshot of my outline in TextMate", caption: "The start of this very post as an outline"%>

@@ -8,7 +8,7 @@ image: 201402062223_abacus.jpg
 vgwort: b40621f1099c47fd9f5fc5bd20c354e1
 comments: on
 import:
-    from: http://christiantietze.de/posts/2014/02/count-your-words
+    from: "http://christiantietze.de/posts/2014/02/count-your-words"
 ---
 
 <!-- VG Wort Zählmarke von Sascha -->
