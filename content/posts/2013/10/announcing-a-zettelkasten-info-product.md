@@ -6,7 +6,9 @@ author: christian
 tags: [ announcement, book ]
 vgwort: ident
 preview: fulltext
+comments: on
 import:
+    without_comments: true
     from: "http://christiantietze.de/posts/2013/10/announcing-a-zettelkasten-info-product/"
 ---
 

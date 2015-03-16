@@ -5,8 +5,10 @@ kind: article
 author: christian
 tags: [ reading, reference-management ]
 image: 201310071817_bibdesk.png
+comments: on
 vgwort: http://vg02.met.vgwort.de/na/f4202a462ce54077ae77953e77004a63
 import:
+    without_comments: true
     from: "http://christiantietze.de/posts/2013/10/bibliography-zettelkasten/"
 ---
 

@@ -29,7 +29,7 @@ module My
       end
       
       def shortname_for(item)
-        if Post::is_imported?(item)
+        if Post::is_imported?(item) && Post::had_comments?(item)
           return "christiantietze"
         end
         
@@ -44,6 +44,14 @@ module My
       
       def is_imported?(item)
         item[:import]
+      end
+      
+      def had_comments?(item)
+        !had_no_comments?(item)
+      end
+      
+      def had_no_comments?(item)
+        item[:import][:without_comments]
       end
       
       def imported_from(item)
