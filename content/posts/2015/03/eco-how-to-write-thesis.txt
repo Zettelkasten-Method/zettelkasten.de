@@ -1,0 +1,25 @@
+---
+title: Eco's 'How to Write a Thesis' Available in English
+created_at: 2015-03-17 10:50:56 +0100
+kind: article
+author: christian
+tags: [ archive, workflow, note-taking, reading ]
+image: 201503171056_eco-thesis.jpg
+preview: fulltext
+---
+
+Finally, after being in print for 38 years in other languages, [_How to Write a Thesis_ by Umberto Eco][eco] is now available in English![^aff]
+
+I have mentioned the German translation of Eco's book in the past already (in "[Collector's Fallacy](/posts/collectors-fallacy/)" and "[Making Proper Marks in Books](/posts/making-proper-marks-in-books/)"). From his book did I learn that not all Zettel are created equal. If you worked solely with index cards in the 70s, all this mattered a lot.
+
+Remember that it's possible to have a Zettelkasten without a computer. If you work on paper, you'll be slow as heck. But you'll still be more productive than all the other folks not thinking twice about proper knowledge management. Eco's workflow details will help tremendously if you don't know how to work with the tools available.
+
+Nowadays, we have reference manager software, note-taking software, PDF annotation software, and whatnot. We tend to think [in terms of our tools](https://vimeo.com/34017777). But this veils our understanding of the ideas we work with, the texts we read. If we managed everything with index cards (but in different boxes), it'd be easier to look behind the _How_ and see the _What_ instead. Paper is almost never feature-bloated. Software makes it harder, because you can always get stuck at the surface level, switching apps all the time and looking for the next great feature.
+
+If you care for non-fiction scholarly writing, if you're a student, or if you're just trying to figure out what kinds of Zettel notes there are and where they come from -- [pick up the book!][eco] It's an educational read, but keep in mind most of the tips are outdated since personal computers exist.
+
+(via Manfred of [Taking Note](http://takingnotenow.blogspot.de/2015/01/umberto-eco-on-how-to-write-thesis.html); cover image &copy; 2015 The MIT Press)
+
+[eco]: http://www.amazon.com/gp/product/0262527138/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0262527138&linkCode=as2&tag=ctzettelkasten-20&linkId=D3OKZLHH4N7G44QK
+
+[^aff]: Affiliate link. You buy from this link, and we get a small kickback from amazon. No additional cost for you.
