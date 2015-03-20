@@ -42,6 +42,15 @@ module My
         include My::Blog::Post
       end
       
+      def is_fulltext?(item)
+        item[:preview] && item[:preview] == "fulltext"
+      end
+      
+      def comment_link_for(item)
+        href = item.path + '#comments'
+        link_to("Comments", href)
+      end
+      
       def is_imported?(item)
         item[:import]
       end
@@ -320,7 +329,7 @@ module My
     
     private
       def use_excerpt?(item)
-        preview_excerpt = (item[:preview] == nil || item[:preview] != 'fulltext')
+        preview_excerpt = !Post::is_fulltext?(item)
         return !is_link_post?(item) && preview_excerpt
       end
     
