@@ -3,7 +3,7 @@ title: You Only Find What You Have Identified
 created_at: 2014-02-27 22:29:12 +0100
 kind: article
 author: christian
-tags: [ archive, writing, process ]
+tags: [ archive, writing, process, identifier ]
 image: 201402272240_find.jpg
 vgwort: http://vg08.met.vgwort.de/na/960a44ad284a4fbbbe68b6159d1c8ad6
 import:

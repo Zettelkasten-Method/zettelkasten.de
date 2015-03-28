@@ -1,0 +1,113 @@
+---
+title: You Don't Need a Wiki -- Being Content with Your Software
+created_at: 2015-03-28 13:44:03 +0100
+kind: article
+author: christian
+tags: [ archive, wiki, identifier ]
+image: 201503281339_fishing-net.jpg
+vgwort: http://vg08.met.vgwort.de/na/3df0b3ecea5943ea884b74c477cb78aa
+comments: on
+---
+
+Manfred has left [a comment on his blog][conn] about my criteria to review apps a while ago. This made me reflect on the importance of note connections and their role in being a successful learner, whatever that means.
+
+Manfred believes I don't value direct connections or links between notes enough. He got me wrong on this. 
+
+More importantly, Manfred favors `[[WikiLink]]` note connections because they are so darn fast to create _if you know the title of the note you want to link to_. That's a situation I don't ever find myself in. Instead, I have to fish for the correct title of a note with a search anyway. Even though I copy the [note identifiers][ident] instead of the title, the search stays the same. I only have a vague hunch what to look for in advance. So I argue this is a feature you don't really need to be productive. In the end, it's just another arbitrary feature that sounds nice to have but won't make much of a difference in practice.
+
+I expect very little from Zettelkasten note archive software. I'm happy if an app enables me to work at all. Most of the features [I thought I'd need][perf] were of little importance to do the actual work.
+
+So in [my baseline article][review], I phrased the third criterion of suitable Zettelkasten software thus:
+
+> **Note connections:** which mechanisms does the app support to create connections? I'm leaving this point pretty vague intentionally. I know of various ways different applications deal with this problem. Also, I'm going to cheat a bit: if full-text search works, manually linking notes will work, too: just put the target's identifier somewhere, copy it, search for the identifier, and open the resulting note.
+
+
+Of course no one really wants to use the full-text search to de-reference links. We want to click on them. To rely on full-text search to jump between notes isn't what I'd call my dream setup. But if everything else breaks, this won't.
+
+Manfred says that a Wiki-like feeling is just as bad a replacement for a real Wiki as a love-like feeling is for love. That's right, it's not the real thing. I think we all agree that we can use some love. But do we actually need a Wiki? (Spoiler: I think we don't.)
+
+[conn]: http://takingnotenow.blogspot.de/2014/12/note-connections.html
+[review]: /posts/baseline-zettelkasten-software-reviews/#criteria-i-will-consider
+[ident]: /posts/add-identity/
+[perf]: /posts/how-to-program-yourself-productivity/
+
+## You don't Need a Wiki to Create a Heavily Interconnected Zettelkasten
+
+<%= insert_teaser_image title: "fishing net", caption: %{Weaving a web of personal knowledge is possible with every kind of connection &ndash; Photo Credit: <a href="https://www.flickr.com/photos/sammcox/6668006863/">"An old fishing net"</a>, by <a href="https://www.flickr.com/photos/sammcox/">Sam Cox</a> from flickr. License: <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC-BY-ND 2.0</a>} %>
+
+A Wiki is just a certain kind of hypertext database. The parts are meant to be heavily interconnected.
+
+`[[WikiLinks]]` work this way: any term surrounded by double square brackets becomes a link to a note with that very title. If a note by that name exists, you're taken to the note once you click the link. If it doesn't, you are taken to a note creation form. (Like for everything else, there's [a video showing Wiki link creation](https://www.youtube.com/watch?v=rZzgxkN9D1Y) if you don't know this.)
+
+To get a database of heavily connected notes you don't need this kind of link markup, though. _Any_ link will do.
+
+You could say that Sascha and I both use our non-Wiki-software in a Wiki-like manner. We connect notes a lot. We just don't use the conventional Wiki way to create links.
+
+At first, I thought I couldn't work without clickable links in my Zettelkasten archive software. Then I just started to pretend my Open Source software of choice does what I want to get started content-wise. After all, I had planned to add the feature later to the app myself.
+
+In the end, I never bothered to add the link feature, though. After getting used to not having what I wanted for some time, I found out how well the whole thing worked nonetheless.
+
+To emulate what a link does, taking me to another note, that is, I copy the [note identifier][ident] and search for it. This takes me to the target note. <!--ct: TODO add link to nvALT workflow video once it's done-->
+
+Please pay attention to the fact that I rely on the search of my software _to jump to link targets_. I don't use the full-text search to jump between notes _by their content._ If I were to rely on the contents, I wouldn't create connections manually and miss the whole point of a Zettelkasten. Similar access mechanism, different outcome.
+
+I think this is where Manfred got my priorities wrong. I use the search to emulate clicking on a link. But I still place links. (And so should you!)
+
+Note connections are the very core feature of a working Zettelkasten. Without links, you don't get to experience the value of "fortuitous connections".
+
+I wrote about the criteria the way I did to include lo-fi solutions. I don't want anybody to think that fancy software is a necessity.
+
+Quite the contrary: in fact, I think [looking for the perfect software][perf] can be downright dangerous because you easily get sidetracked.
+
+The bottleneck of every Zettelkasten implementation will be the creation of new Zettel notes. You have to write them, file them, and connect them to existing pieces. To connect them, you have to (1) think about possible candidates to link to, and (2) find Zettel which may link to the note you just created. All of this takes time and is quite an effort.
+
+Once you found where you want to link to, actually writing down the link target is not the number one waste of time. It doesn't matter _how_ you create connections. Finding out appropriate link targets is much more difficult and time-consuming than placing a reference to them.
+
+Either way: you're going to spend quite some time evaluating link candidates. You may even come up with new connections between existing Zettel notes once you look them from a fresh perspective -- this is great, but it will take up even more time.
+
+It doesn't matter how you store your notes, you still have to skim them to evaluate their use for the Zettel you are just about to create. Writing a good Zettel and finding connections is the bottleneck, not the way you place links. You end up with a web of notes without Wiki-style links, and I think that's the real point.
+
+
+## Wiki-style Links Have an Advantage That Doesn't Matter: Quick Note Creation
+
+Granted, to create a `[[WikiLink]]` sounds quicker in theory. But they don't help you speed up once your archive grows. `[[WikiLinks]]` are based on the title of the note you want to link to, so you have to know its title _before_ you create the connection. If you don't know the exact title beforehand, and if your app doesn't support auto-completion of link targets, then you have to interrupt writing and search for the title anyway. Bye-bye speed advantage.
+
+`[[WikiLinks]]` are also great for creating new notes; just add a link with a non-existing target, click on it, write the note. Done. This works better with a taxonomy of things, though, like Wikipedia.
+
+In practice, I seldom find myself in a situation where I can create a Zettel with most of its content from the top of my head to explain a related concept.  Most of the time, I rely on external information. Most of my Zettel notes are based on texts I read. Your workflow may differ, though. Sascha's did for quite some time.
+
+The Zettelkasten workflow utilizes a bottom-up approach: you find cool stuff and add it to your archive. Doing it the way a Wiki encourages doesn't fit most Zettelkasten use cases. So even this minuscule advantage of `[[WikiLink]]` note creation doesn't apply. It's a feature not needed.
+
+
+## Conclusion
+
+In the end, `[[WikiLinks]]`, too, are just links. They don't have an inherent advantage over any other link. It's you who has to place them to create connections to make a difference.
+
+If your app doesn't support your favorite linking style, remember that creating your own convention for linking will still work in conjunction with a full-text search and any writing software. You're not locked-in to using a dedicated Wiki software for the rest of your life. That alone is a huge bonus for me.
+
+Sascha and I can use any plain text editor, any full-text search, and any file synchronization mechanism. We can even get read access our archives from other computers via Dropbox's web interface.
+
+Ask yourself: What do _you_ really need? You may find that most features just aren't so important. Maybe even longevity of the archive doesn't matter. Pick your software accordingly:
+
+- **What is your goal?** Examples include: "I just want to finish my PhD thesis", and "I consider myself a scholar and want to learn for life". If you don't want to use your note archive forever, who cares about vendor lock-in, right?
+- **What is your topic?** This influences the kind of notes you take. If you can't think of a limit to your field of research or interest, then think about the notes you have created in the past. Are there many? Or do you tend to write longer notes? What about a journal with reflections?
+- **Where do you lose momentum?** Maybe finding old notes to create connections is hard. Maybe creating new notes is cumbersome, so you don't really enjoy taking note at all. The bottleneck of a Zettelkasten will become the creation of notes. Don't make it harder as it has to be.
+
+Considering the field of software development I venture in, I need to enter seemingly unrelated info fast. There's tons of interesting material on the web. Most connections between notes about programming are _indirect_ via tags. In my notes about topics from humanities and philosophy, _direct_ links between notes are way more common. nvALT's excellent note creating feature helps me stay on top of the game in both cases.
+
+I attribute this difference to the topics and the nature of the information. I also attribute it to my personal style of taking note. I like to hoard facts and models and ideas. I'm not even half as good as Sascha at actually analyzing and combining different ideas.
+
+Manfred is right: note connections should not be underrated. Link creation should be as easy as possible to encourage you to actually place links. Connections are the cornerstone to your success. There's no disagreement here.
+
+But I believe Manfred values the importance of `[[WikiLinks]]` too high: Neither Sascha nor I can agree that the `[[WikiLinks]]` feature will make so much of a difference in your practice. Our experience has shown they are not a must-have feature at all.
+
+Depending on your aims, your milage may vary. That's why it's important to figure out for yourself what you really need to pick the best-suited tool. 
+
+-----
+
+**Sascha's Comment:** I think that Christian has made a very important point. Even though some features seem to be super cool, they often turn out to be useless or sometimes even distracting or obstructive. 
+
+I, myself, started with several note taking applications including two wikis.[^wikis] Over the time I rejected more and more features. Thankfully, I met Christian. He introduced me to his plain text approach. Over time, our approach refined mostly by *throwing out* features. 
+
+  [^wikis]: Zimwiki and Dokuwiki
+
