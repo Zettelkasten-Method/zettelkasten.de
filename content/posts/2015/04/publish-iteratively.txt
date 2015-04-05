@@ -1,0 +1,40 @@
+---
+title: Publish Iteratively
+created_at: 2015-04-02 10:28:12 +0200
+kind: article
+author: christian
+tags: [ publish, writing ]
+url: http://aworkinglibrary.com/writing/deploy/
+---
+
+
+> What if you could publish _iteratively_, bit by bit, at each step gathering feedback from your readers and refining the text. Would our writing be better? Iteration in public is a principle of nearly all good product design; you release a version, then see how people use it, then revise and release again. [...] The faster the release cycle, the more opportunities for revision—and, often, the better the product itself.  
+> ---["Deploy" by Mandy Brown][art]
+
+This resonates well with me. I tackle a lot of real-life problems in the way of your typical programmer. I try to find problems, invent solutions, test and revise. I think this would work great in science writing, too. (Read [the article][art] and the other parts of the series. In fact, go and take a look at the whole website.)
+
+I find programming highly enjoyable because of the iterative nature of the process. It feels nice to write software I'd love to use myself. And it's even nicer to have a second application behind the scenes which tests the code I write continuously. I end up with multiple iterations daily: not just product release iterations but development iterations.
+
+An approach called _Test-Driven Design_ appeals to me: write the tests first, then write code for the application which makes the test pass. This way you don't add stuff you don't need or which isn't tested (and thus cannot break without you knowing).
+
+_Test-Driven Writing_ is a label I invented myself. Write iteratively, but specify the outcome first in a separate document. There's no document describing the technique. It's just a few Zettel notes. There's still lots of research and experimentation needed to make this a real thing.
+
+Apart from micro-iterations, publishing early and publishing often seems to be a good idea still. It doesn't even need any special technique. Just publish it before it's finished, and revise.
+
+> A book, like large software, is never finished -- only released.  
+> ---Ash Maurya[^maurya2013lean]
+
+Now I've got two books on programming out already. One is about 80% done, one is only 20%. I [talked about the first one][lp] already. The second one took me a while, but I decided not to put off the release by fear of delivering sub-par results. I rather tell people that they can help me make the book better but shouldn't expect a complete and revised edition. Then I improve the text and add details.
+
+To defer publishing until sometime later is almost always a bad idea: you will build up anxiety. Steven Pressfield's book [_Do the Work_](http://www.amazon.com/gp/product/B00NK0MJBK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NK0MJBK&linkCode=as2&tag=ctzettelkasten-20&linkId=367IJRUWN33H2JI5)[^aff] was a great motivational tool for me to get past the fear of publishing.
+
+[Leanpub][] is a great platform to write texts and get back e-book files to share with the world. It encourages you to write something, publish it in an early release version, then write some more. Anxiety is optional.
+
+
+[^maurya2013lean]: Ash Maurya (2012):  [_Running lean. Iterate from plan A to a plan that works_](http://www.amazon.com/gp/product/1449305172/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449305172&linkCode=as2&tag=ctzettelkasten-20&linkId=FNVLU7PG3ULGTUTV), Beijing: O'Reilly, p. 19.
+
+[art]: http://aworkinglibrary.com/writing/deploy/
+[lp]: /posts/publish-book-quickly-with-leanpub/
+[leanpub]: http://leanpub.com/
+
+[^aff]: Win-win affiliate links: we get a small kickback from amazon if you buy from this link but it won't cost you anything.
