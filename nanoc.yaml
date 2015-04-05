@@ -39,7 +39,7 @@ meta_data:
   author_email: christian.tietze@gmail.com
 
   # Default description to use when an item does not specify its own
-  description: "The Zettelkasten note-taking method has made book writing and writing scientific papers easy for hundrets of years already."
+  description: "The Zettelkasten note-taking method has made book writing and writing scientific papers easy for hundreds of years already."
 
   # Copyright line used in the document header meta tag.
   copyright: "CC:BY-NC-SA Christian Tietze, Sascha Fast <http://creativecommons.org/licenses/by-nc-sa/3.0>"
