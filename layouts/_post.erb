@@ -19,7 +19,7 @@
             <li><%= link_to("&infin; Permalink", @post.path) %></li>
             <li>&bull; <%= Post::comment_link_for(@post) %> </li>
             <li>&bull; Tags: <%= Post::tags_for(@post) %></li>
-            <%= %Q{<li>&bull; via <a href="#{@post[:via][:url]}">#{@post[:via][:name]}</a></li>} if @post[:via]%>
+            <%= %Q{<li>&bull; via <a href="#{@post[:via][:url]}">#{@post[:via][:name]}</a></li>} if @post[:via] %>
             <%= %Q{<li>&bull; #{Post::origin_of(@post)}</li>} if @post[:import]%>
         </ul>
     </footer>

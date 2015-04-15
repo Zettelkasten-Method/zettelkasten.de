@@ -34,9 +34,9 @@ During my studies I searched for a better solution and found it in the form of L
 
 Thus, ** I found the Zettelkasten was!** I was in love immediately, and it is an ongoing romance.
 
-I did some research and found that Luhmann actually wrote an article on his Zettelkasten. I took it as my gospel of truth. I inferred [a few laws and rules][luhmann] for my own Zettelkasten.
+I did some research and found that Luhmann actually wrote an article on his Zettelkasten. I took it as my gospel of truth. I inferred [a few laws and rules][luhmann-comm] for my own Zettelkasten.
 
-  [luhmann]: http://scriptogr.am/kuehnm/post/2012-12-22-111621
+  [luhmann-comm]: http://scriptogr.am/kuehnm/post/title-communicating-with
 
 At this point I was still working with paper and index cards. I think it was because of my romantic idea of analogous knowledge work. But in essence I tried to mimic Luhmann's Zettelkasten. 
 
