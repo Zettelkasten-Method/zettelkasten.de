@@ -1,0 +1,62 @@
+---
+title: "Announcing: the First Draft of the Zettelkasten Method Book in German"
+created_at: 2015-04-16 15:46:18 +0200
+kind: article
+author: sascha
+tags: [ announcement, book ]
+image: zkbook-cover-en.jpg
+---
+
+Hi folks,
+
+I am happy to announce that I finished the first draft of the Zettelkasten Method Book in German. It turned out to be shorter than I thought. At this moment, I have no clue what the word count is, but did turn out not to be the behemoth I expected it to be.
+
+Here is the preliminary table of contents (translated):
+
+- Introduction -- Why use a Zettelkasten?
+    1. Benefit from a Secondary Memory
+    2. Improves Thinking and Reasoning
+    3. Structures Your Workflow
+    4. Trains Your Writing Ability
+    5. Improves Your Reading Technique
+    6. Relieve Your Mind
+    7. Gives Your Notes a Long Term Purpose
+- User Manual -- Quick n'dirty
+- Building Blocks
+    - Archive
+        0. The Archive. Kernel of your Zettelkasten
+        1. The Header
+        2. The Unique ID
+        3. The Tags
+        4. The Content
+        5. The Links
+        6. The Reference
+    - Inbox
+    - Reference Management
+- Step by Step Manual -- The Installation of Your Zettelkasten
+- The Two Step Process
+    - Collect
+        1. Reading
+        2. Prepare the Texts
+        3. Making Notes
+        4. Typical Mistakes while Collecting
+    - Process
+        1. Write a Zettel
+        2. Tags and References
+        3. Link the Zettel
+- The Workflow
+    - Two Phases of Your Zettelkasten
+    - Short or Long Cycle?
+- Writing with Your Zettelkasten
+
+It is a very rough first draft and Christian will have to proof-read it in the upcoming weeks. I need to edit it at least two more times. Then we'll decide if we can publish it already. The first edition of the Zettelkasten Method will be published in German. 
+
+Afterwards, we will translate it to English.
+
+- Do you have any questions?
+- Do you see missing pieces?
+
+----
+
+**Christian's Comment:** I'm so glad Sascha took the initiative here. The English manuscript is still unfinished and I'm way too busy with other creative work to finish it in between. Still, there's a lot of stuff prepared in English already. Instead of a literal translation, I expect to do a re-write of Sascha's manuscript in English instead. I think this will work out well since he's good at creating solid structures, so I don't have to. I'm excited to see the first publication on this website. Our baby grows up!
+
