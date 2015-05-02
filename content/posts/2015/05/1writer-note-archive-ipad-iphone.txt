@@ -1,0 +1,98 @@
+---
+title: 1Writer — Access Your Zettelkasten On Your iPad and iPhone
+created_at: 2015-05-02 19:50:29 +0200
+kind: article
+author: christian
+tags: [ app, ipad, iphone, archive ]
+image: 201505022142_1writer.png
+vgwort: http://vg08.met.vgwort.de/na/de22da166bf746fc9bae49085c0e06ae
+---
+
+My MacBook isn't going to recover, so I switched to an iPad for mobile writing and development. I found the one and ultimate application to access my Zettelkasten note archive on the go, while also being able to write long-form blog posts or proof-read texts from Sascha.
+
+Today I want to give a shout out to an app called [1Writer][writer].
+
+This isn't going to be a thorough review. It's more like an open letter of gratitude to the developer. And it's a recommendation to you if you own a decent enough iOS device to use it as a mobile interface to your Zettelkasten. Even my iPhone&nbsp;5 can cope with the 3500+ notes.
+
+If you simply want to trust in my word, **go ahead and [get 1Writer for only $2.99][writer] right now.** It's a steal. Really. I feel bad for not having paid more. I'm sure you'll discover its greatness quickly.[^aff]
+
+If you're not so certain, yet, read on and be astonished by 1Writer's beauty, simplicity, and cleverness. Please excuse me being so aloof today. I'm just _that_ happy.
+
+[writer]: https://itunes.apple.com/us/app/1writer-note-taking-writing/id680469088?mt=8&uo=6&at=11lxCd&ct=zk-post-1writer
+
+[^aff]: Affiliate links. We get a small kickback from Apple for every purchase through this link. No additional cost to you. It's a real win-win.
+
+## 1Writer's Basics: Writing, Markdown, Custom Actions
+
+<%= insert_rel_image file: "2015-05-02-1-write.png", title: "Writing mode", caption: "Writing in 1Writer looks good" %>
+
+This application supports writing in plain text using [Markdown][]. Unlike all the other apps, it shows you how the text will look _as you write_.
+
+This is one feature I wished other Markdown-aware note-taking apps had. It didn't really feel lacking, because [I'm used to it,][minimal] but I never understood why nobody included so-called Markdown syntax highlighting in their app. Every other text editor on a Mac or PC can do this since forever. Why not those dedicated to writing in this format?
+
+<%= insert_rel_image file: "2015-05-02-3-preview.png", title: "Markdown preview", caption: "Markdown preview" %>
+
+Of course, there's the Markdown preview as well. I don't use it much, but there you go, it looks good, too.
+
+Notice that 1Writer supports inserting images. It uploads them to Dropbox and inserts a reference to the resulting public address.
+
+I won't use this for my Zettelkasten notes, but I can imagine this comes in handy when you're composing an article or blog post draft to get a fully working preview.
+
+Writing and editing Markdown is a joy with this. In the screenshot, you may have noticed the additional row of keys. Thes can be customized (just tap and hold) to do a bunch of things. You can even write your own custom actions in JavaScript, interacting with the text editor, the user interface, the built-in web browser, and whatnot. Have a look at [the docs](http://1writerapp.com/docs/js) if you're interested.
+
+That's how 1Writer became my editing app of choice when I'm not at home.
+
+Sascha and I exchange drafts for proof-reading before we publish our stuff. We insert HTML comments into the drafts `<!-- like this -->` to leave comments and annotations.
+
+On my Mac, I have macros for that, since typing this every time is quite annoying. With 1Writer, I can assign custom macros to special keys. I end up with similar functionality and can edit drafts on the go. That's pretty cool. Manually typing the HTML comments was a pain on the iPhone, so I didn't proof-read when I wasn't at my desk. Now I can do this stuff during my commute.
+
+You can find my [1Writer "Insert Comment" action online.][action] It surrounds selected text in HTML comments. If no text is selected, it simply inserts an empty comment and puts the cursor in the middle.
+
+So all in all, 1Writer is a beautiful writing app with Markdown highlighting and customizable JavaScript actions which makes it useful even for proof-reading texts. Writing using the choice of fonts and colors is lovely.
+
+That's your average use. But now to the really interesting part.
+
+[markdown]: http://daringfireball.net/projects/markdown/syntax
+[minimal]: 
+[action]: http://1writerapp.com/action/2e783
+
+## Using 1Writer to Access Your Zettelkasten Note Archive
+
+You can use this app to connect to Dropbox. That's a common expectation nowadays and not worth the mention. Unlike other Dropbox-enabled writing apps, though, 1Writer lets you choose which folders from your Dropbox you want to have quick access to. Instead of starting at the Dropbox root folder, you can quickly jump to project folders.
+
+
+<%= insert_rel_image file: "2015-05-02-2-folders.png", title: "Folder quick access", caption: "My list of quick access folders: local, iCloud, and mostly Dropbox. (Note there's a tag browser at the top I don't feature in this post.)" %>
+
+I mounted my note archive, the proof-reading folder Sascha and I share, and a few project folders into 1Writer to quickly access the stuff I use a lot. That's convenient: I don't have to drill-down to the respective folder. Given my habit of deep nesting, opening up a specific folder was ennerving. I liked to write drafts on my iPhone, but I always loathed filing the results. 1Writer makes changing projects quick and painless. The developer really put some thought into it.
+
+By the way, I strongly advise against adding the Dropbox root folder to 1Writer at all because the app will download and index every text file beneath it.
+
+<%= insert_rel_image file: "2015-05-02-4-tags.png", title: "Exploring tags", caption: "Exploring tags: here, I have first picked 'zeit' and then 'kausalität'." %>
+
+
+Now that I mentioned indexing: 1Writer will create a separate index of all your notes with a certain [`#hash tag`][tag]. Since my recent Zettel notes all adhere to this convention (I still have to add the hash glyph to tags in lots of notes from before 2012), 1Writer makes my Zettelkasten explore-able and more conveniently so than on my Mac.
+
+Say you start tapping on a tag called `#first`. 1Writer displays all filtered results in the file browser. If you then tap another tag, say `#second`, the filter becomes more narrow: 1Writer looks for notes containing _both_ tags. That's the only reasonable way to explore a huge network of notes with tags, I'd say. I even wanted to [add this feature to nvALT back in 2010][search] already. Imagine my delight when I discovered this.
+
+Browsing Zettel notes is working well. Tag exploration is fun. Downloading a ton of notes (I have 3500+ in my note archive at the moment) takes some time, but it happens in the background. You can still use the app while it fetches and indexes your notes. Search is instant afterwards. Even my iPhone doesn't lag noticeably.
+
+Try that with apps like notesy or Elements or the so-called nvNotes. All of them search painfully slow, some sync painfully slow, and others even became totally non-responsive during writing and thus rendered themselves worthless.
+
+1Writer downloads your stuff reliably. You can search and browse results quickly. (I have to mention that scrolling 3500+ notes is rather smooth on my iPhone, too. The competition cannot animate scrolling so many notes at all.) It just works. Weird that this is worth a mention. 1Writer gives me the feeling of working with a useful tool, not with toys which break if you apply too much pressure. I suddenly find the iOS platform has grown up.
+
+As I said, this was no thorough review. I wanted to show you what I like most about 1Writer, and here we are.
+
+Here's a picture to show you this just works on the iPhone, too.
+
+<%= insert_rel_image file: "2015-05-02-5-iphone.png", title: "1Writer on the iPhone", caption: "1Writer on the iPhone: less room, all the features" %>
+
+
+## Conclusion
+
+I love writing on my iPad with 1Writer. I really, really do. It's that good.
+
+It'd be nice to have a recent files list in the top bar to jump back between one file and another. I had to navigate back to this very draft whenever I took a screenshot which changed the currently opened document. Still, this is the best writing experience sans laptop I ever had.
+
+If you own an iOS device, **do yourself a favor and [get 1Writer for only a few bucks][writer] right now.**
+
+I really want the developer to charge more. Until he does, take advantage of the ridiculous low price and check out this awesome piece of software craftmanship.

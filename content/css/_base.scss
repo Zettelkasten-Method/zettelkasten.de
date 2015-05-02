@@ -297,7 +297,10 @@ blockquote {
   max-width: 100%;
   box-sizing: border-box;
 }
-.post-figure__caption { font-size: $small-size; }
+.post-figure__caption { 
+  font-size: $small-size;
+  margin-top: 1em;
+}
 .teaser__image { }
 .footnotes { 
   border-top: 3px solid $color-separator;
