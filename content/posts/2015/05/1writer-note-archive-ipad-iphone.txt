@@ -53,7 +53,7 @@ So all in all, 1Writer is a beautiful writing app with Markdown highlighting and
 That's your average use. But now to the really interesting part.
 
 [markdown]: http://daringfireball.net/projects/markdown/syntax
-[minimal]: 
+[minimal]: /posts/you-dont-need-wiki/
 [action]: http://1writerapp.com/action/2e783
 
 ## Using 1Writer to Access Your Zettelkasten Note Archive
@@ -70,7 +70,7 @@ By the way, I strongly advise against adding the Dropbox root folder to 1Writer 
 <%= insert_rel_image file: "2015-05-02-4-tags.png", title: "Exploring tags", caption: "Exploring tags: here, I have first picked 'zeit' and then 'kausalität'." %>
 
 
-Now that I mentioned indexing: 1Writer will create a separate index of all your notes with a certain [`#hash tag`][tag]. Since my recent Zettel notes all adhere to this convention (I still have to add the hash glyph to tags in lots of notes from before 2012), 1Writer makes my Zettelkasten explore-able and more conveniently so than on my Mac.
+Now that I mentioned indexing: 1Writer will create a separate index of all your notes with a certain [`#hashtag`][tag]. Since my recent Zettel notes all adhere to this convention (I still have to add the hash glyph to tags in lots of notes from before 2012), 1Writer makes my Zettelkasten explore-able and more conveniently so than on my Mac.
 
 Say you start tapping on a tag called `#first`. 1Writer displays all filtered results in the file browser. If you then tap another tag, say `#second`, the filter becomes more narrow: 1Writer looks for notes containing _both_ tags. That's the only reasonable way to explore a huge network of notes with tags, I'd say. I even wanted to [add this feature to nvALT back in 2010][search] already. Imagine my delight when I discovered this.
 
@@ -86,6 +86,8 @@ Here's a picture to show you this just works on the iPhone, too.
 
 <%= insert_rel_image file: "2015-05-02-5-iphone.png", title: "1Writer on the iPhone", caption: "1Writer on the iPhone: less room, all the features" %>
 
+[search]: http://christiantietze.de/posts/2010/11/mass-edit-notes/
+[tag]: http://en.wikipedia.org/wiki/Hashtag
 
 ## Conclusion
 
