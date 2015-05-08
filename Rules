@@ -167,6 +167,16 @@ end
 # Blog
 #
 
+compile '/feed/' do
+  filter :erb
+  # no layout
+end
+
+compile '/feed/*/' do
+  filter :erb
+  # no layout
+end
+
 compile '/posts/tags/' do
   filter :erb
   filter :kramdown
@@ -183,18 +193,17 @@ compile '/posts/tags/*/' do
   filter :cache_buster if DEPLOYED
 end
 
-compile '/feed/' do
-  filter :erb
-  # no layout
-end
-
-compile '/feed/*/' do
-  filter :erb
-  # no layout
-end
-
 compile %r</posts/\d{4}(/\d{2})?/$> do
   filter :erb
+  layout 'plain'
+  filter :cache_buster if DEPLOYED
+end
+
+compile '/posts/overview/' do
+  filter :erb
+  filter :kramdown
+  filter :typogruby
+  
   layout 'plain'
   filter :cache_buster if DEPLOYED
 end
