@@ -1,0 +1,20 @@
+---
+title: RSS Feed Reading and Filing -- Automatization on Mac and iOS
+created_at: 2015-05-11 09:52:01 +0200
+kind: article
+author: christian
+tags: [ rss, reading, tool ]
+image: 201505110953_rocketing-rss.png
+url: http://rocketink.net/2013/12/rss-filing.html
+preview: fulltext
+---
+
+Among the items I wanted to process for a while was [Patrick Welker's "How I Handle my RSS Queue on the Mac and iOS"](http://rocketink.net/2013/12/rss-filing.html). He automatted away a lot of the steps you'd usually need to perform when you skim through your list of RSS subscription items and want to file away some of the posts you find interesting.
+
+His setup is rather elaborate and the things he links to are pretty useful to read on their own.
+
+With the latest iOS 8, it became a lot easier to do tasks like this without putting a universal script execution app as a middleman between your feed reader and the filing mechanism. With the new "app extensions", you can send information from your feed reader directly to a note-taking application. No copy and paste needed, no additional script needed.
+
+I have used this during commute extensively since I bought my iPad two weeks ago:  if I think a post is worth keeping, I bookmark it at the excellent [Pinboard web service](http://pinboard.in), send the address and title to the [Drafts 4](https://itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8&uo=6&at=11lxCd&ct=) app extension, where I sketch the Zettel note, and then save it to my Zettel inbox. This inbox is processed about once a week. -- But I'll talk about this in more detail soon.
+
+**Do you happen to own an Android device and can fill the rest of us in how _you_ process RSS subscriptions on your phone?**
