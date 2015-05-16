@@ -1,0 +1,72 @@
+---
+title: Why Categories for Your Note Archive are a Bad Idea
+created_at: 2015-05-16 09:17:31 +0200
+kind: article
+author: christian
+tags: [ category, keywords, archive ]
+image: 201505160917_constructionsite.jpg
+vgwort: http://vg08.met.vgwort.de/na/77a7fbd9835b46eca87dc5203bef48c3
+---
+
+A friend of mine recently asked for help with getting started. It was very hard for him to overcome initial uncertainty: how do you know you're sufficiently prepared to start filling your note archive? Which categories should you prepare before you begin?
+
+My answer surprised him and was dead simple: don't. Don't prepare. Don't invent categories. Just let it come.
+
+
+When you start out, taking the first dozen notes is an adventure. No path is paved, everything is possible. Also, things take a lot of time and effort in the beginning.
+
+With experimentation, this will change, and you'll be faster. You'll have settled on conventions and rules for yourself by the time you reach note #100. But until your very own note-taking conventions have developed, you're confronted with making a conscious choice on every step.
+
+To reduce the initially overwhelming complexity by a magnitude, a quite popular move is to flesh out categories before taking notes. With categories in place, filing notes and retrieving them will be easier -- or so goes the reasoning.
+
+Let me present you a few arguments against this rationale.
+
+## Why Say "No" to Categories
+
+<%= insert_teaser_image title: "construction site", caption: %{Photo credit: <a href="https://www.flickr.com/photos/dalec/4840828941/">"The steel"</a> by <a href="https://www.flickr.com/photos/dalec/">Dale C</a> on flickr. Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC-NC-ND.</a>} %>
+
+A system of categories adheres to [common sense][commonsense]. Supposedly, there's a hierarchy of topics "out there" which you can represent with categories. I don't believe in a natural order of things, but we can agree upon this: throughout human history, shared taxonomies have proven useful. Some taxonomies are limited to your particular workplace or your craft, like where incoming mail should be filed, some are shared among a language community. They help retrieve information in a commonly understood way.
+
+Categorizing stuff is helpful to coordinate efforts, and it's a must to make any coordinated division of labor possible. It starts when we distinguish between the most basic material, like choosing plates of wood or metal for a construction.
+
+Categories are usually divided into sub-categories. Keep the top level of the hierarchy simple and branch off at lower levels. If you can't find the place for something, starting at the top should help to find the best suited bucket.
+
+It seems only rational to start with a common hierarchy of categories when you create your knowledge system. You may already have a mental taxonomy of your field of interest, or you may want to replicate something like the [Dewey Decimal Classification](http://en.wikipedia.org/wiki/Dewey_Decimal_Classification) to be prepared for _everything_.
+
+Creating categories is a top-down process. You start with the structure and then file the material away. Notes will have to fit the structure. If they don't, there'll have to be a compromise.
+
+## Organic Growth & Brain--Zettelkasten-Fit
+
+Having a Zettelkasten is all about being effective. The brain--Zettelkasten-fit is important. The better your knowledge management system suits the way you think, the easier it'll be to work with the things you put inside. 
+
+Our brain doesn't work with categories, at least not initially. It may invent categories to become more efficient, but we don't start our lives on pre-existing categories.
+
+The proverbial [empty slate][slate] is a good metaphor in this case. When you learn something new, you collect information and make sense of it afterward. If you know something related, your brain will make use of existing information to speed up the process. This can be called [assimilation][]: new stuff is learned in a way to make use of existing stuff. Existing neural pathways are used. This is the case when you learn the first words of a new language: you translate and remember. Then there's the mode of [accommodation][], where we start to change the way we think to better understand the object of our interest. That's when you can let go of your first language to understand the new one. (All of this was very coarse now and hand-wavingly simplified.)
+
+When knowledge increases, the web of things we know grows organically.
+
+Man-made structures, on the other hand, are not growing. They are built.
+
+A set of shared categories is something like that: it's built once and used forever.
+
+Rigid structures like this aren't likely to change. They have to be broken up or replaced. Our brain, on the other hand, never stops to assimilate new information and expand. It doesn't have to be switched out. Neural pathways strengthen with use and weaken upon neglect. They won't ever be cut off as a prerequisite to learn something new. They aren't going to be broken up.
+
+So if you model your knowledge management system to fit the way your brain works, you better not start with inventing a hierarchy of categories, top-down. Instead, you're better of starting to collect notes and see what happens. Let things grow in your Zettelkasten as you let your brain do its work or organic growth.
+
+Topic clusters emerge by themselves, especially surrounding keywords or tags. The resulting archive fits the way you think because it grew according to your interests. Also, things are labeled in a way especially meaningful to *you*, not anybody else. This is all about _personal information management_, so personalization is a must, and increasing idiosyncrasy will likely make things better.
+
+If you're stuck setting up your knowledge management system, stop setting up anything at all. Just add information to it. Store text in files of your liking and put them in a folder if you're uncertain which software to use. Starting is always better than not doing a thing. You can't analyze your way into the perfect system without getting your hands dirty. Only experience reveals where the bottlenecks are, and whether you are really going to use (or miss) the oh-so-awesome feature _X_ of the super expensive app _Y_.
+
+The only order I opt in to is creation date. My Zettel IDs are prepended to the file names, and since an ID is a date-time-stamp, all notes in the single archive folder are sorted by date. I did this because one thing of the [Noguchi Filing System][nfs] made sense to me: humans remember the time of an event well, so you should order material by its date. I wanted a quick and low-tech way to answer queries like "What did I do in Spring 2011?" -- Preceding dates achieve just that. That's it. But I could do without it easily.
+
+All of this is very liberating: you don't have to come up with a sufficiently detailed set of categories in advance. When you ditch categories completely, you can't even do anything wrong during set-up, because you don't set-up anything at all!
+
+Everything starts with a word. Create a note. Save it. Continue to add more stuff. Then see what happens over the course of months.
+
+It's easy to correct course if the supporting structure is flexible. Trust your creativity in finding supportive rules with time. 
+
+[accommodation]: http://www.learningandteaching.info/learning/assimacc.htm
+[assimilation]: http://www.learningandteaching.info/learning/assimacc.htm
+[slate]: http://en.wikipedia.org/wiki/Tabula_rasa
+[nfs]: http://markforster.squarespace.com/blog/2008/6/9/noguchi-filing-system.html
+[commonsense]: http://takingnotenow.blogspot.com/2009/10/darnton-on-commonplace-books.html
