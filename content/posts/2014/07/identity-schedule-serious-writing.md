@@ -20,7 +20,7 @@ If you write, you will know that writing doesn't come easy. This is true for the
 There are techniques to become better at it, though. 'Being good at it' isn't the same thing as 'having an easy time doing it', mind you:  writing is hard, and for the vast majority of us it always will be. But you'll get better at sitting down and write instead of putting it off. This seems to be as good as it gets: you become a writer by writing a lot, regularly, be it easy or hard.
 
 [crain]: http://quantifiedself.com/2014/06/brian-crain-optimizing-productivity/
-[kingwr]: http://www.amazon.com/gp/product/1439156816/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1439156816&linkCode=as2&tag=chritietwork-20&linkId=UQRKSBE6RSL2Q5N4
+[kingwr]: http://www.amazon.com/gp/product/1439156816/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1439156816&linkCode=as2&tag=ctzettelkasten-20&linkId=UQRKSBE6RSL2Q5N4
 
 [^aff]: Affiliate link. You buy from this link, and I get a small kickback from amazon. No additional cost for you.
 
@@ -125,8 +125,8 @@ Please share!
 
 [wcount]: /posts/2014/02/count-your-words
 [commit]: /posts/2014/06/how-to-track-writing-progress
-[wrilo]: http://www.amazon.com/gp/product/1591477433/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1591477433&linkCode=as2&tag=chritietwork-20&linkId=2AGMZYIWAUSE36BM
-[dowork]: http://www.amazon.com/gp/product/1936719010/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1936719010&linkCode=as2&tag=chritietwork-20&linkId=FATNCWD65IGDRLZL
+[wrilo]: http://www.amazon.com/gp/product/1591477433/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1591477433&linkCode=as2&tag=ctzettelkasten-20&linkId=2AGMZYIWAUSE36BM
+[dowork]: http://www.amazon.com/gp/product/1936719010/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1936719010&linkCode=as2&tag=ctzettelkasten-20&linkId=FATNCWD65IGDRLZL
 
 [^silstilk]: Paul J. Silvia (2007):  _[How to Write a Lot. A Practical Guide to Productive Academic Writing][wrilo]_, Washington, DC: American Psychological Association, pp. 39--44.
 

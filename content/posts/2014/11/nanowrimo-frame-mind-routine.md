@@ -15,7 +15,7 @@ For aspiring writers, this month-long challenge has its difficulties: if you lac
 
 There's nothing wrong with being excited. Motivational excitement will deplete over time, though, leaving you with nothing but a commitment. You can't replace true motivation by reason. Reason needs emotional back-up to move you.[^roth] And so people tend to fail to reach the goal of NaNoWriMo without realizing why. There's another way out, though. (Spoiler: it's clear daily outcomes and a routine.)
 
-  [^roth]: I don't have any English literature handy at the moment. For the time being, I got this information about the way the brain works from Gerhard Roth (2011):  _[Persönlichkeit, Entscheidung und Verhalten. Warum es so schwierig ist, sich und andere zu ändern](http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=gerhard%20roth%20pers%C3%83%C2%B6nlichkeit%20Entscheidung%202011&linkCode=ur2&rh=i%3Aaps%2Ck%3Agerhard%20roth%20pers%C3%83%C2%B6nlichkeit%20Entscheidung%202011&tag=chritietwork-20&url=search-alias%3Daps&linkId=HJGDB2S2ED4D7MWO)_, Stuttgart: Klett-Cotta.
+  [^roth]: I don't have any English literature handy at the moment. For the time being, I got this information about the way the brain works from Gerhard Roth (2011):  _[Persönlichkeit, Entscheidung und Verhalten. Warum es so schwierig ist, sich und andere zu ändern](http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=gerhard%20roth%20pers%C3%83%C2%B6nlichkeit%20Entscheidung%202011&linkCode=ur2&rh=i%3Aaps%2Ck%3Agerhard%20roth%20pers%C3%83%C2%B6nlichkeit%20Entscheidung%202011&tag=ctzettelkasten-20&url=search-alias%3Daps&linkId=HJGDB2S2ED4D7MWO)_, Stuttgart: Klett-Cotta.
 
 To fail the challenge due to a lack of excitement is too cheap an excuse. You shouldn't be too hasty to rationalize as most people do: You don't give because you didn't seem to have wanted to reach the goal bad enough in the first place. Such after-the-fact rationalizations are common, but they don't lead anywhere. Focus on the fact that excitement is a very limited resource (as is discipline and will-power, by the way). Then embrace the opportunity to find a different motivator.
 
@@ -59,7 +59,7 @@ Recap the frame of mind:
 
 [fw]: http://en.wikipedia.org/wiki/Free_writing
 
-[1q84]: http://www.amazon.com/gp/product/0307476464/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307476464&linkCode=as2&tag=chritietwork-20&linkId=6MJO37M3NIP373X2
+[1q84]: http://www.amazon.com/gp/product/0307476464/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307476464&linkCode=as2&tag=ctzettelkasten-20&linkId=6MJO37M3NIP373X2
 
 [^boice1990prwr]: R. Boice (1990):  _Professors as writers. A self-help guide to productive writing_, Stillwater, OK: New Forums Press.
 
@@ -121,7 +121,7 @@ Sascha and I don't attend this year. What about your NaNoWriMo experience so far
 
   [taylor]: http://menwithpens.ca/good-draft/
 
-  [wrilo]: http://www.amazon.com/gp/product/1591477433/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1591477433&linkCode=as2&tag=chritietwork-20&linkId=2AGMZYIWAUSE36BM
+  [wrilo]: http://www.amazon.com/gp/product/1591477433/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1591477433&linkCode=as2&tag=ctzettelkasten-20&linkId=2AGMZYIWAUSE36BM
   
   [^aff]: Affiliate link; I get a small kickback from the vendor if you buy from my link but it won't cost you anything.
   

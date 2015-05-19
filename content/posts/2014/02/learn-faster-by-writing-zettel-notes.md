@@ -58,7 +58,7 @@ In this stage, you'll already have learned something, albeit not in detail:  you
 
 Prepared with the gist and structure of the text, you're going to get the content out next.
 
-[advd]: http://www.amazon.com/gp/product/0671212095/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0671212095&linkCode=as2&tag=chritietwork-20&linkId=I6MFPSELKXGQK6QA
+[advd]: http://www.amazon.com/gp/product/0671212095/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0671212095&linkCode=as2&tag=ctzettelkasten-20&linkId=I6MFPSELKXGQK6QA
 [summfs]: http://www.farnamstreetblog.com/how-to-read-a-book/
 [ar]: http://www.farnamstreetblog.com/2013/06/the-art-of-reading-analytical-reading/
 

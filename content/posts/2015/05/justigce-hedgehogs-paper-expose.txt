@@ -1,0 +1,74 @@
+---
+title: Publicizing my Challenge Contribution – Plan of the Term Paper
+created_at: 2015-05-19 13:55:59 +0200
+kind: article
+author: christian
+tags: [ challenge, evernote ]
+image: 201407311932_hedgehog.jpg
+vgwort: http://vg08.met.vgwort.de/na/4624c139a1a54a80bade137be3ac987d
+---
+
+I had a great idea this weekend: for the ongoing challenge I started [last summer][chall], I'll take notes in a public Evernote notebook. Of course I will feed my real Zettelkasten note archive with everything I find, but additionally, I'll put a translated note into Evernote. This way, I'll end up with a project-focused Zettelkasten, as opposed to my all-encompassing private knowledge management archive, so we can discuss details of the workflow with that sample archive in the future.
+
+Today's first step is to show you the plan I handed in for the paper I'm going to write at University. It's still about [_Justice for Hedgehogs_][just] by Ronald Dworkin. I'm going to focus on what he calls associative obligations and a case I got from a newspaper, where young (and homosexual) Nasser was to be force-married to a girl. He was almost abducted by his parents. Now he's going to court.
+
+I'm excited what you think of publicizing notes. Tell me what you think and what you'd like to have revealed in the comments!
+
+Here goes what's called "exposé" at my University, but which doesn't seem to be a common term on the inter-webs. 
+
+[chall]: /posts/challenge-apply-knowledge-cycle/
+[just]: http://www.amazon.com/gp/product/0674072251/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0674072251&linkCode=as2&tag=ctzettelkasten-20&linkId=MP7E2UA3B7CBG3FV
+
+
+## Presentation of the Idea
+
+There's a custom called "forced marriage" in some countries which are not ours. Still, the custom survives in western countries through cultural communities which hold on to the values from their respective traditions. Post-Millennial children are confronted both with claims of their family's tradition and their western upbringing. Western civilization centers around the worth and dignity of the individual, and all the consequences this has to being responsible for oneself.
+
+If you were such a "post-millennial", and if your parents were from Lebanon, holding on to tradition and custom from their home country, what should you do if they would like to arrange a marriage? What if the arrangement turns to forced marriage if you refuse? Would you sue your parents like 18-year old Nasser did?
+
+Dworkin talks about obligations extensively in *Justice for Hedgehogs*. His account of associative obligations is quite lacking when it comes to the details. You cannot answer real-world questions straight away relying on his account of the topic alone: There's an inherently discursive component to his theory which makes it impossible to answer specific questions without applying the method to your own life and values first.
+
+In other words, the book doesn't answer questions on your behalf. You have to do the work yourself. 
+
+So what factors do we have to take into account in order to make a decision?
+
+## Research Question and Plan
+
+Questions I ask myself when thinking about all this are the following:
+
+* Is it allowed to break with your family in accordance with Dworkin's theory? Should you sue your parents under some circumstances?
+* What justifies taking your parents' claims into account living your own life?
+* Can Dworkin escape the relativist problem? Would Nasser's parents have to follow the logic and truth of his decisions although they're not used to western values?
+
+I found an answer to one question in feminist care ethics and I think you can use Dworkin's framework for reasoning about moral problems to integrate its conclusion: it's okay to break with your parents under some circumstances.
+
+This presupposes that your parents, in virtue of being the people who raised you, are justified in having claims in the first place. I'll reconstruct Dworkin's reasoning, and it might be useful to point out parallels to care ethics wherever appropriate in this reconstruction already.
+
+I doubt that there's a universal answer to the argument of cultural relativism: Dworkin's theory cannot be decoupled from his upbringing and his own believes. You have to agree to some axioms to make sense of it. And it could be just the case that Nasser's parents wouldn't be able to apply it, taking their possibly different axioms of life into account.
+
+## Temporary Outline
+
+1. Introduction: Should we be allowed to disagree and break with our families?
+	* The case of 18-year old Nasser, suing his parents for trying to abduct him and force-marry to someone
+2. Useful Concepts in *Justice for Hedgehogs* and Care Ethics
+	* Role and weight of tradition in Dworkin's theory; moral is no subject to a community
+	* Dworkin's concept of dignity, responsibility to ourselves and others
+	* Dworkin's concept of associative obligations
+	* Looking at care ethics: why it's okay to pay no respect to your parents' claims if your family is non-supportive
+3. Justifying Nasser's Actions
+	* Pay attention to your own life and your "performance" first as long as you do no harm to others
+	* Pondering parents' demands: what justifies them? What doesn't? 
+	* Dworkin doesn't get specific enough in his theory. Re-interpreting care ethic's justification of breaking with your family in Dworkin's terms. (They are compatible, but the foundation differs.)
+4. So is Nasser universally justified in his actions?
+	* Dworkin tells us that his theory doesn't depend on a particular community. But you can say we're never independent from our upbringing intellectually ("Standortgebundenheit"). So is Dworkin a child of western philosophy only and does his theory not have power over eastern culture?
+	* Why Nasser might not care about this at all: he was raised under European influence and his parent's values don't apply because he says so.
+
+
+
+## References
+
+* Nasser's case: <http://www.rbb-online.de/politik/beitrag/2015/02/deutsch-libanese-wehrt-sich-gegen-zwangsheirat.html>
+* Dworkin, Ronald: _Justice for Hedgehogs_. Cambridge, Mass.: Belknap, 2011.
+* Stoecker, Ralf, ed.: _Handbuch Angewandte Ethik_. Stuttgart: Metzler, 2011. (Chapters on family, friendship, love)
+* Manning, Rita C.: _Speaking from the heart. a feminist perspective on ethics_, Lanham, Md: Rowman & Littlefield, 1992.
+* Mannheim, Karl: _Wissenssoziologie_, Stuttgart 1931. (a proponent of "Standortgebundenheit" and relativism, and that only folks who live in different cultures a lot can transcend their boundaries -- or jews)

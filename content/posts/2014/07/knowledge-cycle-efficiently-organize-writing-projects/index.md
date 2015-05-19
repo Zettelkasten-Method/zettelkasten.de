@@ -127,7 +127,7 @@ If you don't need to do research because, say, you have to write about one large
 Keep in mind that our memories aren't reliable, so don't try to work with it alone. You'll need to keep a log and take a look at it whenever you want to change the process to make an _informed_ and directed change instead of blindly guessing what could work next. Reflecting on the process will inevitably give your mind a bit of rest. This might trigger ideas which lead you to research differently and get new insights. So take the logging and journalling seriously.
 
 [summfs]: http://www.farnamstreetblog.com/how-to-read-a-book/
-[readbook]: http://www.amazon.com/gp/product/0671212095/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0671212095&linkCode=as2&tag=chritietwork-20&linkId=I6MFPSELKXGQK6QA
+[readbook]: http://www.amazon.com/gp/product/0671212095/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0671212095&linkCode=as2&tag=ctzettelkasten-20&linkId=I6MFPSELKXGQK6QA
 
 [^aff]: Affiliate link. You buy from this link, and I get a small kickback from amazon. No additional cost for you.
 

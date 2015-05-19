@@ -75,7 +75,7 @@ The accompanying reading notes on paper find their way into the trash. 29 readin
 
 [nvalt]: /posts/2014/04/nvalt-zettelkasten-implementation/
 [id]: /posts/2014/02/add-identity/
-[just]: http://www.amazon.com/gp/product/0674072251/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0674072251&linkCode=as2&tag=chritietwork-20&linkId=MP7E2UA3B7CBG3FV
+[just]: http://www.amazon.com/gp/product/0674072251/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0674072251&linkCode=as2&tag=ctzettelkasten-20&linkId=MP7E2UA3B7CBG3FV
 
 ## Takeaway: How I Work
 
@@ -94,7 +94,7 @@ I put the draft of this post into the project folder, too. This time, I will not
 * [See the other posts from the 2014 Summer Knowledge Challenge.](/posts/2014/summer-knowledge-challenge/)
 
 
-[pencil]: http://www.amazon.com/gp/product/B000KT9EEY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000KT9EEY&linkCode=as2&tag=chritietwork-20&linkId=7RZ3KAQKPS6WO6PP
+[pencil]: http://www.amazon.com/gp/product/B000KT9EEY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000KT9EEY&linkCode=as2&tag=ctzettelkasten-20&linkId=7RZ3KAQKPS6WO6PP
 [chall]: /posts/2014/07/summer-knowledge-challenge/
 
 [^aff]: Affiliate links; I get a small kickback from the vendor if you buy from my link but it won't cost you anything.
