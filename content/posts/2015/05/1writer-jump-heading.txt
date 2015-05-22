@@ -1,0 +1,21 @@
+---
+title: Jump to Headings in 1Writer
+created_at: 2015-05-22 17:40:20 +0200
+kind: article
+author: christian
+tags: [ app, ipad, iphone ]
+image: 201505022142_1writer.png
+preview: fulltext
+---
+
+[Recently](/posts/1writer-note-archive-ipad-iphone/), I wrote about the awesome iPhone and iPad writing app [1Writer][writer]. I use it to browse my Zettelkasten when I'm not at home. 
+
+I also mentioned a few things I missed: recent file access and either a full-text search or quickly jumping to a heading in longer documents.
+
+Turns out recent files can be accessed via the "+" Button at the bottom. Not very obvious a place to put this, but hey.
+
+Also, jumping to headings is possible. Not from within the app by default, but through a custom action. In the [1Writer action directory](http://1writerapp.com/actiondir), you'll find ["Jump to Section"](http://1writerapp.com/action/072ca) by [@Pgruneich](http://twitter.com/pgruneich). It shows a list of headings from which you can select, then it takes you there. That's it.
+
+Works great and makes the app even more useful. Go 1Writer!
+
+[writer]: https://itunes.apple.com/us/app/1writer-note-taking-writing/id680469088?mt=8&uo=6&at=11lxCd&ct=zk-post-1writer
