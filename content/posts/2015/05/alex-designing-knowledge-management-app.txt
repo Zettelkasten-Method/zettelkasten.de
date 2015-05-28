@@ -1,0 +1,56 @@
+---
+title: Alex is Designing His Own Personal Knowledge Management App
+created_at: 2015-05-28 14:26:44 +0200
+kind: article
+author: christian
+tags: [ software, writing, knowledge ]
+image: 201505281425_acuriousmix.com-flow.jpg
+---
+
+
+A blog post called "[Designing a Personal Knowledgebase][alex]" caught my attention today. In it, Alex tells us how he's struggling. In his worflow, he extracts information and stores it in his note archive, but he can't seem to make much use of it.
+
+A few problems he discusses:
+
+* **Missing links.** Without connections, no serendipity, no surprise, no interesting new thought.
+* Need for **ubiquitous access**, ideally from the web. Leaving your Zettelkasten note archive at home may feel weird once you got accustomed to use it for a while.
+* You need to **create Zettel notes from PDF highlights** at some point. For Alex, automation would be great. Having a working routine in place too is a good option, and it stops you from being blocked by [waiting for the next best app][conv]. Work through these highlights one by one and write notes manually.
+* **Create outlines** or "topic pages". Notes have to be put to use. Start early and do it often to maximize (academic) output.
+
+Alex' Zettel notes, or "extracts," as he calls them, look reasonably atomic. Indeed, he is thinking of them as movable parts of a larger whole.
+
+That's the beauty of a Zettelkasten: you write article after article and book after book, one Zettel at a time, without knowing it. Your Zettel notes are fragments of a text yet to be finished.
+
+It's worth noting that Alex includes an identifier of an entry in his reference manager's database to connect a Zettel to a piece of reference material. This can work great. Only put reference details into the note itself when you really need to. You don't have to be too anal about keeping your notes portable just for the sake of it. I was happy more than once that my notes contain sufficient reference data to recommend a book or article to a friend without having to look up the details, but that might not be worth the effort in your case.
+
+Look at the [diagram of Alex' workflow](/img/blog/201505281425_acuriousmix.com-flow.jpg). He's struggling with creating Zettel notes, only he doesn't know it, yet. (Image used with permission.)
+
+Although nobody seems to adhere to the following distinction, I argue that Alex is looking for a personal information management (PIM) application, not a personal knowledge management (PKM) solution. Now he's [designing](http://www.acuriousmix.com/2014/09/05/trying-to-scratch-a-collective-itch-a-personal-knowledgbase-part-2/) a hybrid of both.
+
+I think you should decide what you want: do you want to archive information, that is PDFs, videos, web site snapshots? Or do you want to archive knowledge, that is ... well, whatever you happen to have learned, put in your own words? It makes a great deal of difference. As long as you insist on mixing both things, no software may cut it in the end. 
+
+Don't get me wrong: I store a PDF now and then myself. It belongs in my [reference manager](/posts/bibliography-zettelkasten/) as attachment to the reference item.
+
+Recall what I said about [building blocks of a Zettelkasten](/posts/zettelkasten-building-blocks/):
+
+> [T]ranslate stuff from the outside world into something your system can understand. A book, physically, cannot be part of your Zettelkasten. Your personal library isn’t part of it. A representation of a book will fit in nicely, though. Since you own the representation, you can work with it more freely, too.
+
+If you work with system-innate representations of "stuff" from the outside world, you are free.
+
+I still think that you don't need a specialized personal knowledge management application. You need a few tools which work fine, then you have to design processes to accommodate your needs. That's all workflow is about.
+
+I think Alex can achieve the things he wants to with the tools he already has. I personally favor dropping managing items of information themselves. Thus a good application has to deal with notes, not with various kinds of attachments.
+
+I wonder what's keeping Alex from linking notes manually [with identifiers][ident], or using [DEVONthink][dt]'s [WikiLink][dtlink] feature. Maybe he's reading this and eager to respond? 
+
+In the meantime, take a look at the 67 comments at [his website][alex] and [the 117 comments on Hacker News][hn]. I'm sifting through them at this very moment to find some inspiration.
+
+What do you think of Alex' case and the problem he describes? Any ideas?
+
+
+[alex]: http://www.acuriousmix.com/2014/09/03/designing-a-personal-knowledgebase/
+[hn]: https://news.ycombinator.com/item?id=8270759
+[conv]: /posts/you-dont-need-wiki/
+[dt]: /posts/tags/devonthink/
+[ident]: /posts/add-identity/
+[dtlink]: http://takingnotenow.blogspot.de/2014/12/note-connections.html?showComment=1419643227390#c468705254393459520
