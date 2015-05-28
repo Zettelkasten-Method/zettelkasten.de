@@ -1,5 +1,5 @@
 ---
-title: Alex is Designing His Own Personal Knowledge Management App
+title: Alex Chamessian is Designing His Own Personal Knowledge Management App
 created_at: 2015-05-28 14:26:44 +0200
 kind: article
 author: christian
