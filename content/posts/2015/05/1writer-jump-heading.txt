@@ -3,7 +3,7 @@ title: Jump to Headings in 1Writer
 created_at: 2015-05-22 17:40:20 +0200
 kind: article
 author: christian
-tags: [ app, ipad, iphone ]
+tags: [ software, ipad, iphone ]
 image: 201505022142_1writer.png
 preview: fulltext
 ---
