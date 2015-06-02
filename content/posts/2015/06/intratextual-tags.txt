@@ -1,0 +1,75 @@
+---
+title: On Using Intratextual Tags
+created_at: 2015-06-02 14:00:00 +0200
+kind: article
+author: sascha
+tags: [ keywords, archive ]
+image: 201506021359_pen-text.jpg
+vgwort: http://vg01.met.vgwort.de/na/3d23ea5212604d5189afbe03110dc42c
+---
+
+
+Some of you guys asked for more practical articles about the Zettelkasten Method. So here we go. I use two different tags: some are in the header and some are right in the text body. 
+
+Here is an example:
+
+> 201504300954 Meditation vs Neurologie  
+> tags = §§L §Meditation §Introspektion §Materialismus §Neurologie §Psychologie
+> 
+> Wenn wir uns fragen, welche Mittel geeignet sind, den menschlichen Geist zu verstehen, stechen zwei Dinge besonders hervor:
+> 
+> 1. Meditation und Introspektion. Denken über das Denken.
+> 2. Neurologie. Denken über Gehirn.
+> 
+> In der Wissenschaft ist die Hegemonie der Naturwissenschaft mittlerweile sehr deutlich. Wenn wir uns eine Wissenschaft der Meditation und Introspektion vorstellen, wirkt das Bild eines meditierenden Mönches, der Vorlesungen über den Geist hält, fehlplaziert. Wenigstens weisen wir ihm nicht die gleiche Kompetenz zu Aussagen über den menschlichen Geist zu tätigen, wie einem Neurologen. 
+> 
+> Obwohl der Buddhismus als eine Theorie des menschlichen Geistes verstanden werden kann (§201504281712), weisen wir ihm keine wissenschaftliche Relevanz zu.
+> 
+> Sowohl Introspektion als auch Neurologie kommen in der Psychologie zusammen, besonders dann, wenn die psychologische Forschung auch angewendet werden muss. In Deutschland versteht sich die Psychologie als Naturwissenschaft und **im Zuge dieses Selbstverständnis mussten Psychologen wie §Freud aus dem klassischen Kanon verschwinden.** Er ist wichtig für die Geschichte der Psychologie, aber er gilt nicht mehr als wissenschaftlich. 
+> 
+> Doch an wen wenden wir uns, wenn wir unseren Geist in eine gewünschte Form bringen wollen? Wen sollten wir um Rat fragen, wenn wir uns von Angst, Unsicherheit, Wut und anderen störenden Momenten befreien wollen?
+> 
+> Es ist der meditierende Mönch und der Psychologe, der über das Gehirn hinausdenkt und den menschlichen Geist betrachtet.
+
+It is a Zettel about the problematic implications of a materialistic view on the human mind. But I also mention that Freud's theories are not longer part of the educational canon. (I emboldened the part in the note.) 
+
+Most of the tags are in the header and I believe that nearly every tag should be in the header. They are a kind of connection you'll rely on heavily  when you have several thousand Zettel notes.
+
+Apart from this general advice, if you look at the Zettel vigilantly, you see the tag *§Freud* in the note's body.
+
+Normally, I use tags for three purposes:
+
+1. For making unintended connections possible. If you want to find a Zettel about the same topic, you should find one with at least one common tag.
+2. For a quick overview of the Zettel. Sometimes I peak through my archive and the tags give me a rough idea what is in the Zettel.
+3. To build categories. Tags create categories, too, but are more flexible. One Zettel can be in more than one category and should be.  Sometimes, I have the intent to form a category. In a later search I want to get all Zettel together even though they don't necessarily have a content-related connection. This happens for example when I search for philosophers. If I have a Zettel with a reference to a philosopher, I always tag it with his or her last name, even if one Zettel is about morality and another about economy. Later, I can search for the philosophers name with a *§* and have everything with this philosopher in place.
+
+Occasionally, I mention someone or something in a Zettel that is not really a core aspect of the content. The Zettel above is not about Freud but I mentioned him. I am pretty sure that nowhere else did I mentioned the fact that he is not in the German educational canon of psychology.
+
+<%= insert_teaser_image title: "pen writing", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/42931449@N07/5418402840/">Metallic ballpen tips</a>, by <a href="https://www.flickr.com/photos/42931449@N07/">photosteve101</a>. License: <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a> } %>
+
+I am sure that some of you want to ask why I don't create a separate Zettel about that.
+
+The answer is simple. I have a threshold. I don't fill my archive with anything I find, because then I invest time in low-revenue actions. 
+
+An example of such a low-revenue action is just collecting quotes. Christian made a good point in his article [Use your own voice][useownvoice]. When you come back to a Zettel that only contains a big quote, you'll have to interpret the damn thing anyway. Take this step right away when you like the quote. Collecting quotes is just a perfect example of a low-revenue action. So, I decided that I only create Zettel notes from quotes if I add an interpretation. 
+
+  [useownvoice]: http://zettelkasten.de/posts/dont-rely-on-source-have-faith-in-yourself/
+
+I see the Zettelkasten as a means and not as an end to itself. It is a culprit to get caught up with the mere number of Zettels or connections. I use the Zettelkasten Method to improve my thinking and my writing. I don't see any benefit in collecting quotes. I have to write around them anyway and just collecting reminds me of another article of Christian [Collectors Fallacy][collectorfal].  
+
+  [collectorfal]: http://zettelkasten.de/posts/collectors-fallacy/
+
+So, what is the point with intratextual tags? 
+
+I see two uses for them: 
+
+**First**, one is saving time on a low-revenue task. The Zettel I could separate from above is just the statement that Freud is not in the educational canon of the German psychology. It is below my threshold of creating a Zettel. Still, I see value in the fact and assume some interesting possibilities may emerge from this statement. That's why I use the tag to mark I mentioned Freud. If I create a Zettel that expands on this fact, I will search for *§Freud* and will rediscover this Zettel. I will remove the tag and replace it with the ID to the new Zettel.
+
+The **second reason** is the situation of a very large Zettel. It shouldn't happen. A Zettel should be more atomic, but sometimes I can't avoid it grow. I have a few Zettel about hormones and their  respective functions. It would be confusing if I separated the functions from the description and add a list of links to each function instead.
+
+Some hormones have very diverse functions. Sometimes it is hard for me to keep an overview. So I use intratextual tags for the different functions of the hormone. Growth hormone is a good example. It has anabolic (tissue building) and catabolic (tissue breaking-down) functions. If I search for a specific function, the intratextual tag helps me to get to the correct position right away. 
+
+So here we are:
+
+- What do think about intratextual tags? Useful or inconsistent?
+- Do you have a different solutions for the problems I mentioned? 
