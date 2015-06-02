@@ -6,6 +6,7 @@ author: sascha
 tags: [ keywords, archive ]
 image: 201506021359_pen-text.jpg
 vgwort: http://vg01.met.vgwort.de/na/3d23ea5212604d5189afbe03110dc42c
+excerpt: "Some of you guys asked for more practical articles about the Zettelkasten Method. So here we go. I use two different tags: some are in the header and some are right in the text body. Here is an example Zettel about the problematic implications of a materialistic view on the human mind."
 ---
 
 
@@ -45,7 +46,7 @@ Normally, I use tags for three purposes:
 
 Occasionally, I mention someone or something in a Zettel that is not really a core aspect of the content. The Zettel above is not about Freud but I mentioned him. I am pretty sure that nowhere else did I mentioned the fact that he is not in the German educational canon of psychology.
 
-<%= insert_teaser_image title: "pen writing", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/42931449@N07/5418402840/">Metallic ballpen tips</a>, by <a href="https://www.flickr.com/photos/42931449@N07/">photosteve101</a>. License: <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a> } %>
+<%= insert_teaser_image title: "pen writing", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/42931449@N07/5418402840/">Metallic ballpen tips</a>, by <a href="http://www.planetofsuccess.com/blog/">photosteve101</a>. License: <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a> } %>
 
 I am sure that some of you want to ask why I don't create a separate Zettel about that.
 

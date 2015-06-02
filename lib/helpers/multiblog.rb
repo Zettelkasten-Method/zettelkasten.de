@@ -308,6 +308,8 @@ module My
       if !use_excerpt?(item)
         return item.compiled_content
       end
+      
+      return item[:excerpt] unless item[:excerpt].nil?
     
       # html = Nokogiri::HTML(item.compiled_content)
       # paragraphs = html.xpath('//p/text()').to_a
