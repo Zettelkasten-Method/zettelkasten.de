@@ -1,0 +1,90 @@
+---
+title: How a Daily Review Routine Improved My Life and Work
+created_at: 2015-06-15 17:21:30 +0200
+kind: article
+author: christian
+tags: [ routine, review, productivity ]
+image: 201506151726_bike-no-handlebar.jpg
+vgwort: http://vg08.met.vgwort.de/na/7e394e2ebdbe4ea29fcbf612f94ec527
+---
+
+I have picked up a habit which improves my well-being and helps me focus on the important parts in my life.
+
+It's a daily review habit.
+
+I have tried to install this habit a few years ago already but failed miserably. A huge factor for my success in sticking to this habit is that I have a working morning ritual installed already. With the existing routine as a foundation, I simply had to attach this small habit and things were good.
+
+## What does My Daily Review Routine Look Like? 
+
+You probably will have heard the term "weekly review" already. It's a cornerstone of David Allen's famous personal productivity system [_Getting Things Done_][gtd]. Once a week, you take a look at all your active projects and areas of responsibility. You clean up stuff which isn't relevant anymore and you create manageable next actions for projects which seem to be stuck due to inactivity, for example.
+
+A daily review habit is quite similar, only more focused on preparing the day to get stuff done.
+
+I strive on single-tasking. I'd say I'm a very focused person since I can pick a task and work on it for days. Sascha would argue that I don't really focus on one task and increase my energy there, but simply block out everything else. Anyway, I can lose sight of all other things in life in the meantime. I need a reminder to put my attention to other worldly things. My addiction to crafting sometimes hinders me from taking care of work I have to do, as opposed to the work I love to do.
+
+With as little as 5--10 minutes each day, I have changed the situation tremendously. Now I pick things I want to do to move towards the goal of my obligations. And this, in turn, has improved my wellbeing: I don't worry about the things out there which I have lost track of anymore. In other words, there was stuff on my mind which I neglected and which haunted me from the back of my head. Often I knew what I had to do but managed to quiet this voice to just get the proverbial "five more minutes" of uninterrupted productivity.
+
+<%= insert_teaser_image title: "bike with no handle bars", caption: %{Well, you need to steer to really move forward. This one was obvious, wasn't it? Picture credit: <a href="https://www.flickr.com/photos/71022595@N00/2630934436/">Ariel Schlesinger</a>. License: <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC-BY-ND 2.0</a>} %>
+
+This could be just me: maybe I like to shut myself off from the world. I sometimes want to immerse in my craft until I starve or fall asleep. This can be either highly useful or extremely dangerous. I recognize that my tendency to search solitude and not worry about worldly things can cause harm to those close to me and to myself.
+
+So better not increase the urge to escape the world and get rid of pressing tasks instead!
+
+My [daily review][dr] consists of a few simple steps:
+
+- I take a look at the calendar to get a feeling for my free time that day.
+- I empty my task management inbox -- not the e-mail inbox, but my inbox for things to do.
+- I take a look at my personal goal mind map; this way, I don't lose track of obligations.
+- I pick a few tasks in my task management application to match my goals, the time available, and the focus of that day. This is known as "most-important tasks" or "big rocks" to some. To me, this is just a filling-up for my Kanban-inspired "work in progress" swim-lane.
+
+Afterwards, I am prepared to start the day and focus on the stuff I have to do first.
+
+When the actions I picked in the last step are completed, I pick new ones. If I finish writing a post for this blog, for example, I pick another action related to my web projects to fill the gap in my "work in progress" list.
+
+To come up with a goal mind map took some time and preparation. Maybe half an hour, maybe more. I had to consider what I was doing before, where I was heading and where my energy went. Then I stated a few goals, not all of them measurable or time-boxed, but all of them attainable. This exercise helped me clear my list of active projects. There were a lot of "shoulda" and "wanna" projects, but there was no real focus. Without focus, it wasn't clear what's really left to do. Now it is, more or less, since my active projects and the tasks available are in accordance with my goals.
+
+## It Helps to Have an Energizing Morning Ritual
+
+About three to four years ago, I woke up when my alarm rang, did some small things, ate breakfast, went to the gym at 10 a.m., and then tried to do some course work for university in the afternoon.
+
+Nowadays, I have a morning ritual which helps me wake up, clear my mind, leave anxieties behind, and prepare the work day productively.
+
+- I wake up at about 6:30 in the morning.
+- After brushing my teeth and splashing my face with water, I stretch for a few minutes. This really wakes me up.
+- Then I sit down to meditate for at least 10 minutes. This calms me down.
+- At least three times per week, I write [morning pages][mp] to practice listening for whatever concerns me, what goes on in my head. For me, this is even more revealing and useful to deal with problems than meditation, but it alone doesn't leave me grounded. This is pretty time-consuming and tunes me out of the hardcore getting-stuff-done now mindset I am in sometimes right after meditation. If you're in doubt or think you don't need this new-age self-discovery stuff, try this technique for three or four weeks and see for yourself.
+- Finally, I do the daily review routine from above to prepare my actions.
+
+I care for body, mind, and soul. Then I get moving.
+
+Overall, this routine takes about an hour max. I started small and added components over the years. Stretching is great. Meditation after stretching is nice, too. I used to do a 15-minute body weight workout to complete the routine, and I sometimes still do, but I found it didn't add much benefit to my focus and overall well-being. 
+
+
+[dr]: http://simplicitybliss.com/blog/staying-on-top-daily-morning-review-routine-with-omnifocus
+[gtd]: http://www.amazon.com/gp/product/0143126563/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0143126563&linkCode=as2&tag=ctzettelkasten-20&linkId=LO37RM42HMPCTAHY
+[mp]: http://juliacameronlive.com/basic-tools/morning-pages/
+
+[^aff]: Affiliate link. You buy from this link, and we get a small kickback from amazon. No additional cost for you.
+
+## Conclusion
+
+An invigorating morning routine is priceless. It helps deal with a lot of problems early in the day. 
+
+Of course, if you don't do breaks and move your body regularly during the work day, you won't benefit that long from stretching in the morning. Same for clearing your head. You still have to deal with the pressing problems the meditation or morning pages put on your plate. They won't go away just like that.
+
+With the recent addition of the five minute daily review, I gained confidence in my management of tasks, projects, and time. Without a working morning ritual, though, I probably wouldn't have been able to keep it up for long. I failed in the past because I didn't always find the time to do it, found it was too time-consuming, or didn't add any benefit. It's different now, and I'm glad I stumbled upon it.
+
+Trust and confidence are key ingredients to success and a mind like water, as David Allen calls it.
+
+----
+
+**Sascha's Comment:**  I totally agree with Christian on the importance of an morning ritual. [Ben Greenfield][bengren] stated that he doesn't know one successful person that doesn't have a morning ritual. 
+
+  [bengren]: www.bengreenfieldfitness.com/
+  
+I will write on my morning ritual on my own to give you a contrast because I am a totally different person than Christian, so my morning routine took quite a different path.
+
+As you may have noticed, I try to refer to the Zettelkasten *Method* rather than the Zettelkasten as a single entity. You need to embed the necessary actions of the Zettelkasten Method to get the Zettelkasten really working for you. That's why I call it "method" instead of "tool". 
+
+A morning ritual is one of the tools.
+
