@@ -20,7 +20,7 @@ It took quite a while to come up with a handy solution to have an overview of my
 
 I don't feel comfortable sharing all of them with you just yet. Some goals are very personal, and we don't know each other very long, so let's not rush things here. _But_ here's a selection of some of my goals so you get a picture and maybe have less of a hard time finding out what to take into account:
 
-<%= insert_rel_image file: "201506160900_goals.png", title: "my goals mind map", caption: %{Some of my areas of responsibility in life. Work is by far the largest. And Tina is my girlfriend, in case you wondered.} %>
+<%= insert_rel_image file: "201506160900_goals.png", title: "my goals mind map", caption: %{Some of my areas of responsibility in life. My original Mind-Map is at the top (collapsed), a translated selection at the bottom. The work branch is by far the largest. And Tina is my girlfriend, in case you wondered.} %>
 
 This helps me prioritize picking the most important tasks of the day, my [W.I.P.](http://leankit.com/blog/2014/03/limiting-work-in-progress/), or "work in progress".
 
