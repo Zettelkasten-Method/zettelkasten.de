@@ -3,6 +3,8 @@
 require "rubygems"
 require "bundler/setup"
 require 'nanoc3/tasks'
+require 'rake/pathmap'
+require "fileutils"
 
 SITE = "output"
 
@@ -17,17 +19,53 @@ task :clean do
 end
 
 desc "generate website in output directory"
-task :generate => :clean do
+task :generate do
   ENV['NANOC_ENV'] = 'deployment'
   puts "Generating website..."
   system "nanoc co"
   notify("Generating site finished")
 end
 
-task :deploy => :generate do
+task :deploy => [:generate, :thumbnailize] do
   puts "Deploying website to server..."
   system "nanoc deploy"
   notify("Deploying site finished")
+end
+
+def to_thumb(file, output, width)
+  system(
+    'convert',
+    '-resize',
+    width.to_s,
+    file,
+    output
+  )
+end
+
+desc "Create thumbnails of blog post images"
+task :thumbnailize do
+  
+  puts "Creating missing thumbnails ..."
+  
+  dest = File.join(__dir__, "output", "img", "blog")
+  
+  FileUtils.mkpath(dest)
+  
+  Dir[File.join(__dir__, "blog_img", "*")].each do |path|
+    file = File.basename(path)
+
+    out_large = File.join(dest, file)
+    out_thumb = File.join(dest, file).pathmap "%X-thumbnail%x"
+    
+    unless File.exists?(out_large) || File.exists?(out_thumb)
+      puts "... #{file}"
+    
+      to_thumb(path, out_large, 1200) 
+      to_thumb(path, out_thumb, 500)
+    end
+  end
+  
+  puts "... done."
 end
 
 desc "Generate the whole site."
