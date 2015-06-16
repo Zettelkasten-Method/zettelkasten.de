@@ -1,0 +1,35 @@
+---
+title: Tasks and Goals of my Daily Review
+created_at: 2015-06-16 09:13:09 +0200
+kind: article
+author: christian
+tags: [ review, routine, productivity, goal, kanban, motivation ]
+---
+
+I forgot to share my repeating maintenance tasks with you!
+
+[Yesterday](/posts/daily-routine/), I wrote about my morning routine. It helps me clear my mind and to surface my anxieties. I feel a lot better afterwards -- less clouded, less sub-consciously driven.
+
+Part of that routine is a daily review. It's a daily recurring project:
+
+<%= insert_rel_image file: "201505130929_daily-review.png", title: "daily review tasks", caption: %{These are my daily maintenance tasks.} %>
+
+I adopted this habit from [Sven Fechner at SimplicityBliss.com][dr]. He customized the project further: on some weekdays, _Daily Review A_ would show up, while on others he gets _Daily Review B_. I don't need that much customization now so I stick to a single project, recurring from Monday through Saturday. (Sunday's off.)
+
+It took quite a while to come up with a handy solution to have an overview of my short- to mid-term goals. I simply drew a Mind-Map, digitally, to have it with me at all times and truly look at the goals every day, first thing in the morning.
+
+I don't feel comfortable sharing all of them with you just yet. Some goals are very personal, and we don't know each other very long, so let's not rush things here. _But_ here's a selection of some of my goals so you get a picture and maybe have less of a hard time finding out what to take into account:
+
+<%= insert_rel_image file: "201506160900_goals.png", title: "my goals mind map", caption: %{Some of my areas of responsibility in life. Work is by far the largest. And Tina is my girlfriend, in case you wondered.} %>
+
+This helps me prioritize picking the most important tasks of the day, my [W.I.P.](http://leankit.com/blog/2014/03/limiting-work-in-progress/), or "work in progress".
+
+_W.I.P._ is a set of actions I can easily complete in the course of a day. When a task is finished, another one can fill its slot. _W.I.P._ is limited to 3--5 items usually, so you have to be picky first, but then you'll find it's easier to focus on the pre-selection of tasks later.
+
+By the way, [_Personal Kanban_](http://amzn.to/1BfaJg7) is a very inspirational book for personal productivity. Kanban is a great tool to get organized as a team and as a self-motivated, creative person, and this particular book makes the principles easy to comprehend. I'll probably do a post on Kanban in the future.
+
+So goals help me motivate myself and focus on certain things in life while not forgetting about the worldly things.
+
+I'd love to see what Sven Fechner actually looks at, or how you'd implement this process. I'm sure this is not the last thing I'll have to say about this. I refine the process with further iterations. Inspiration is very welcome, so be invited to share your solutions!
+
+[dr]: http://simplicitybliss.com/blog/staying-on-top-daily-morning-review-routine-with-omnifocus

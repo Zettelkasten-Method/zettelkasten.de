@@ -16,7 +16,7 @@ I have tried to install this habit a few years ago already but failed miserably.
 
 ## What does My Daily Review Routine Look Like? 
 
-You probably will have heard the term "weekly review" already. It's a cornerstone of David Allen's famous personal productivity system [_Getting Things Done_][gtd]. Once a week, you take a look at all your active projects and areas of responsibility. You clean up stuff which isn't relevant anymore and you create manageable next actions for projects which seem to be stuck due to inactivity, for example.
+You probably will have heard the term "weekly review" already. It's a cornerstone of David Allen's famous personal productivity system [_Getting Things Done_][gtd].[^aff] Once a week, you take a look at all your active projects and areas of responsibility. You clean up stuff which isn't relevant anymore and you create manageable next actions for projects which seem to be stuck due to inactivity, for example.
 
 A daily review habit is quite similar, only more focused on preparing the day to get stuff done.
 
