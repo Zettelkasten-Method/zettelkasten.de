@@ -1,0 +1,14 @@
+---
+title: Take Reading Notes – A Reminder
+created_at: 2015-06-18 16:45:40 +0200
+kind: article
+author: christian
+tags: [ reading, collect ]
+preview: fulltext
+---
+
+<%= insert_rel_image file: "201506181645_notes-reading.png", title: "make reading notes index card", caption: %{Photo credit: <a href="https://www.flickr.com/photos/sachac/16051018450/in/faves-21686383@N00/">Sacha Chua</a>. License: <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a> }, relative: "" %>
+
+Here's a reminder why [making marks in books](/posts/making-proper-marks-in-books/) alone isn't such a good idea: they are hard to interpret. Margins are too narrow for notes. So write reading notes on index cards or in notebooks.
+
+You might want to take a look at _[Reading -- Putting it all together](/posts/reading-putting-it-all-together/)_ to find out why highlights alone don't suffice for information retention.

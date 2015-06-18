@@ -26,7 +26,7 @@ task :generate do
   notify("Generating site finished")
 end
 
-task :deploy => [:generate, :thumbnailize] do
+task :deploy => [:generate, :thumb] do
   puts "Deploying website to server..."
   system "nanoc deploy"
   notify("Deploying site finished")
@@ -43,7 +43,7 @@ def to_thumb(file, output, width)
 end
 
 desc "Create thumbnails of blog post images"
-task :thumbnailize do
+task :thumb do
   
   puts "Creating missing thumbnails ..."
   
