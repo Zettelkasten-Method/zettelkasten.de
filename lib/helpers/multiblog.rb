@@ -276,16 +276,18 @@ module My
     end
     
     def insert_teaser_image(title: "", caption: "", link: nil)
-      insert_rel_image(file: teaser_image_path(), 
+      insert_image(file: teaser_image_path(), 
                    title: title,
                    caption: caption,
                    link: link)
     end
     
     def insert_rel_image(file: nil, title: "", caption: "", link: nil, relative: nil)
+      insert_image(file: rel_url_for(file), title: title, caption: caption, link: link, relative: relative)
+    end
+    
+    def insert_image(file: nil, title: "", caption: "", link: nil, relative: nil)
       raise "file expected" unless file
-      
-      file = rel_url_for(file)
       
       href = link || unless relative.nil?
                        relative_path_for relative, @item
