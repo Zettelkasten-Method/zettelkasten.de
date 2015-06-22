@@ -1,0 +1,14 @@
+---
+title: "App SummerFest 2015: 25% Off of Mac Apps and Scrivener"
+created_at: 2015-06-22 09:24:41 +0200
+kind: article
+author: christian
+tags: [ software ]
+url: http://www.devontechnologies.com/promotions/summerfest-2015.html
+---
+
+We've covered [DEVONthink](/posts/tags/devonthink/) (Mac) already, and some of you may also be familiar with the very popular app for Mac and Windows, [Scrivener](http://www.literatureandlatte.com/scrivener.php). These, among other writing and knowledge management apps, are currently at a 25% discount.
+
+Scrivener is really worth a closer look if you want to try out a new approach to writing which is very compatible with the Zettelkasten Method: working in fragments.
+
+Check out the [sales page](http://www.devontechnologies.com/promotions/summerfest-2015.html) for a complete list.
