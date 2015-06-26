@@ -1,0 +1,84 @@
+---
+title: My Morning Routine and Some Thoughts on a Holistic Approach
+created_at: 2015-06-25 17:47:40 +0200
+kind: article
+author: sascha
+tags: [ routine, productivity, writers-block ]
+image: 201506261630_yoga-cliche.jpg
+vgwort: http://vg04.met.vgwort.de/na/ae29a90dcb7e40fca9aba2e3b0a3cc4f
+---
+
+Christian told you how a morning routine can [improve your productivity][ctmor] already. Now, it is my turn to show you my morning routine. I begin with its development but will end with the connection to productivity and the Zettelkasten Method. So, hang on!
+
+  [ctmor]: /posts/daily-routine/
+
+First, my morning routine expanded over weeks and then collapsed markedly to a pretty short compilation of actions I identified as having the most bang for the buck.
+
+A month or two ago my morning routine looked like this:
+
+1. Brushing teeth
+2. Drinking [lime juice with some himalayan salt][lime]
+3. Meditation for 10--20 minutes
+4. [Sun Salutation][sunsalutation]
+5. Three pages of free writing (stream of consciousness)
+
+  [lime]: http://www.strengthsensei.com/start-the-day-right-lime-salt-water/
+
+  [sunsalutation]: https://www.youtube.com/watch?v=ohuXTBsuj1Y
+  
+Now, I only do this:
+
+1. Brushing teeth
+2. Drinking lime juice with some himalayan salt
+3. Meditation for 10-20 minutes
+4. Sun Salutation 
+
+It seems like a rather small difference but the three pages of writing is another 20 minutes that I now consider not only as wasted but even as counter productive.
+
+The three pages of free writing put my mind in a clumsy state. I learned from my meditation practice that I have more than one state of concentration. I need a different state of mind for my morning work than in the afternoon.
+
+Both of these times, I work heavily with my Zettelkasten. However, in the morning, I schedule most of my creative tasks. I do what I call re-writing research. That means that I produce Zettel as I learn something new. To me, that puts a high demand of flexibility and fluidity on my mind. I can't just concentrate on learning, and I am not able to just write non-stop to create a [shitty first draft][shitty]. But I don't multitask and I don't switch gears. It is rather a fluid but spontaneous flow of actions.
+
+  [shitty]: https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf
+
+<%= insert_teaser_image title: "yoga posture", caption: %{Photo credit: <a href="https://www.flickr.com/photos/130855607@N05/16161480194/">Take Back Your Health Conference 2015 Los Angeles</a>. License: <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>} %>
+  
+At that time of day, I build new models in my mind. The building blocks of those models are fixed in Zettel notes. 
+
+In the afternoon, in contrast, I switch to another state of mind: from fluid to mechanical. I do all of the online consulting and organizational tasks. 
+
+Besides my non-knowledge-related work, I still work with my Zettelkasten. I form notes from my inbox and put in every idea I obtain (through thinking or reading) in my archive. But these are more isolated actions.
+
+Why did I ditch the morning pages?
+
+They put me in a mechanical state of mind. I have an idea why this is so. Perhaps, it's putting me into that state because sometimes I don't really know what to write and force myself to get yet another topic to finish the three pages. Perhaps there are other reasons. The bottom line is: At the end of the routine, I am in a mechanical state of mind.
+
+After I adopted the habit of writing morning pages, the quality of my morning work suffered. I never had writer's block. I don't need to train myself to make writing a habit. I already made reflection and reasoning corner stones of my life. Thus, I don't need any ritual to automates that.[^automat]
+
+  [^automat]: I believe that there are some severe downsides of such ritualization. It lowers your consciousness by decreasing the demand for mindfulness and being present in your everyday life. I try to be present in the moment, *every moment* of my life. It is an issue of our modern culture that we have separate times for training, meditation, family, and so on. As the result of our culture, we have multiple detached lives. The growing importance of the difference of role and identity in psychology and pedagogy is an indicator for that. I prefer a wholesome life with [movement instead of exercise][movement] and constant mindfulness instead of a weekly yoga class.
+
+  [movement]: http://breakingmuscle.com/mobility-recovery/this-year-exercise-less
+
+I ditched the morning pages, and my creative work in the morning improved. I had more time and felt more flexible because of my shorter morning routine. 
+
+I already hinted at the connection to the Zettelkasten Method and my productivity. 
+
+You should schedule the tasks which are most important and put the most creative demand in your morning hours. Here, you are fresh and your mind is unpolluted. Your morning routine should have the same effect as your warm-up routine has before a workout. It should free you up and prepare you in the right manner.
+
+If you do swimming you should loosen up your shoulder girth. But if you do bench pressing you need some rigidity and stiffness in your shoulder. To much of a mobilization could harm your bench press.
+
+The same thing holds true for your morning routine. It should leave you in the right mood. Rigidity is not right for my morning work. I don't argue in favor or against free writing in the morning. I just want you to reflect on the actions you do in the morning and analyze *every* aspect of it. 
+
+There are different possibilities how you can work with your Zettelkasten. I mentioned two:
+
+1. **The fluid mode**, which is predominantly used for developing new thoughts and ideas.
+2. **The rigid mode**, which is predominantly used for just creating Zettel notes for later use.
+
+The latter is not very interesting. It is just about putting Zettel notes into your archive. But the former is developed by deliberate and daily practice. It gives me the opportunity to develop more complex ideas because I can use my Zettelkasten as a thinking abacus. 
+
+- What is your morning routine?
+- How does it blend into your knowledge work?
+
+---
+
+**Christian's comment:** After Sascha pointed this out to me a few weeks ago, I changed to deliberately choosing whether I write my Morning Pages or not. Sometimes, "evening pages" work just as fine. I can think more clearly when I write, so journalling is a big part of my daily life. Put differently, I'm tend to be very low-conscious during the day. When I want to code like hell, I skip the Morning Pages; when I want to take notes for my term paper project, I usually do this exercise in the morning, to chime in for writing. 
