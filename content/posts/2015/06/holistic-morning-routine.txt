@@ -74,10 +74,12 @@ There are different possibilities how you can work with your Zettelkasten. I men
 1. **The fluid mode**, which is predominantly used for developing new thoughts and ideas.
 2. **The rigid mode**, which is predominantly used for just creating Zettel notes for later use.
 
-The latter is not very interesting. It is just about putting Zettel notes into your archive. But the former is developed by deliberate and daily practice. It gives me the opportunity to develop more complex ideas because I can use my Zettelkasten as a thinking abacus. 
+The latter is not very interesting.[^int] It is just about putting Zettel notes into your archive. But the former is developed by deliberate and daily practice. It gives me the opportunity to develop more complex ideas because I can use my Zettelkasten as a thinking abacus. 
 
 - What is your morning routine?
 - How does it blend into your knowledge work?
+
+ [^int]: I don't mean uninteresting as in not being important. But the rigid mode is the least creative approach for using the Zettelkasten -- to me at least.
 
 ---
 
