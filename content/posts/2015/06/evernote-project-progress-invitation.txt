@@ -1,0 +1,70 @@
+---
+title: "Challenge Report: Writing a Term Paper with Evernote as Zettel Archive"
+created_at: 2015-06-30 12:42:03 +0200
+kind: article
+author: christian
+tags: [ evernote, writing, outline, challenge ]
+image: 201407311932_hedgehog.jpg
+vgwort: http://vg08.met.vgwort.de/na/1bced14c398c46e3882ffb034e74960b
+---
+
+I've made a lot of progress using Evernote for my term paper. As [announced][ann], I want to share the progress with you so you can see how things develop.
+
+Turns out, Evernote doesn't offer publicizing of notebooks any more. Bummer. So I want to do two things today:  share the details of the progress and invite you to the notebook privately.
+
+## Invitation 
+
+If you want to have a look at all the Zettel notes in the project archive, drop me an e-mail or get in touch on Twitter. Either way, I need your e-mail address. You find my contact info [on the about page](/legal/). 
+
+For the rest of you, here's the gist.
+
+I have saved 45+ notes in Evernote, all from my iPad. Writing in Evernote directly wasn't much fun. I prefer writing in [Drafts 4][drafts][^aff] and sending the text to Evernote once I'm finished. As a bonus, my custom Drafts action adds a [Zettel identifier][ident] to the note title in Evernote.
+
+[ann]: /posts/justigce-hedgehogs-paper-expose/
+[drafts]: https://geo.itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8&uo=6&at=11lxCd "Drafts 4 - Quickly Capture Notes, Share Anywhere! - Agile Tortoise"
+[ident]: /posts/add-identity/
+
+[^aff]: Affiliate link. You buy from this link, and I get a small kickback from amazon. No additional cost for you.
+
+## Outlines
+
+I started to sketch the paper a while ago. The [initial outline][init] didn't tell much, but it contained some of my assumptions already.
+
+When I wrote a Zettel, I added it to [the _draft outline_ file.][outline] (At least I can share single notes with you publicly.) It's a list of note references and comments. 
+
+Notice that some Zettel references appear twice. That means the note kind of fits in two places. Either the note is not sufficiently atomic and does two things, or parts of it should be re-used as a recap. Hopefully, most of the duplication will turn out to become a reminder of things I will have said "above."
+
+[init]: https://www.evernote.com/shard/s4/sh/5c506274-090e-4271-90e3-c3963bad44b4/91009fd5418c9a53b813da19e4cb65ee
+[outline]: https://www.evernote.com/shard/s4/sh/413d8138-ed87-4cb5-9b2e-4365612655ef/9dd42d31327b571c05e1055afb608c80
+
+## Draft-Zero
+
+<%= insert_rel_image file: "201506301256_evernote-draft.png", title: "Evernote screenshot", caption: %{Evernote for Mac showing the assembled draft.} %>
+
+I found the notes sufficed and most open loops were closed. So I assembled the first draft from the outline according to our fabulous [method][write] of preparing [fragments first][frag]:
+
+* Duplicate the outline (if you want to preserve it)
+* For every Zettel reference in the outline: 
+    1. Delete or hide in comments the reference itself
+    2. Copy the full text from the referenced Zettel at that location in the outline
+* Do the same for Zettel references from within the pasted Zettel if it is meant as an explanation, or hide the reference otherwise. It doesn't make sense to expand all references immediately this way. Sometimes, a reference indicates further information, but doesn't add value to the current project.
+
+I ended up with [a 6500-words document][draft] (Markdown) with a few duplications. ([PDF alternative](https://www.evernote.com/shard/s4/sh/c9273d03-c2ec-4569-904e-638c179885ca/ad7568b436e7dbd24f3b8f4034060c24))
+
+During the process, I create about 5 tasks for further research when I noticed some glue was missing to make sense of the piece as a whole.
+
+This draft isn't meant for reading. It's even worse than the _shitty first draft_ we all need to embrace. This is Frankenstein's monster turned into text.
+
+[write]: /posts/how-i-use-outlines-to-write-any-text/
+[frag]: /posts/ease-into-writing/
+[draft]: https://www.evernote.com/l/AAR8IjEyR_ND6L6qnFrnGNRERZhmZgxa2ZY
+
+## Next Steps
+
+I will have to pick up a book from the library to double-check a citation: always cite what you found yourself or verified, never copy another author's citations blindly.
+
+Meanwhile, I can re-write this first step into a coherent text. There're useless details I have to get rid of. And I need to create transitions between the topics. The atomicity of Zettel notes is great for knowledge management. Two or more Zettel notes don't blend in without some extra effort, though.
+
+I'm astounded that I have written so much already. Even with all duplications and noise removed, I expect more than 4500 words to remain. That's a complete paper already.
+
+Got any questions on the process? Ask in the comments!
