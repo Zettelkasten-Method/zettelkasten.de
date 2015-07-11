@@ -1,0 +1,22 @@
+---
+title: Second draft of the Zettelkasten Method Book ready!
+created_at: 2015-07-11 08:07:21 +0200
+kind: article
+author: sascha
+tags: [ announcement, book ]
+image: zkbook-cover-en.jpg
+preview: fulltext
+---
+
+
+Hi folks,
+
+I am very happy to announce that the second draft of the German Zettelkasten Method book is ready to get revised by Christian. I included extensive advice on productivity as a last chapter.
+
+Now it is Christian's turn to revise. Then, after a last checkup, I will be able to publish the German Version! At that point, it will be the third publication of mine. So I hope that there will be very few reasons to delay the release. 
+
+If you missed the [first post][firstpost], have a look,  you can find a table of contents there.
+
+  [firstpost]: /posts/german-zettelkasten-book-draft/
+ 
+-- Sascha
