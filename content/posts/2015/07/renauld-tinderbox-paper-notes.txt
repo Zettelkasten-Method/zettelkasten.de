@@ -1,0 +1,21 @@
+---
+title: Dominique Renauld on Fond Memories of Working on Paper
+created_at: 2015-07-16 14:20:40 +0200
+kind: article
+author: christian
+tags: [ paper, archive, note-taking ]
+url: http://www.dominiquerenauld.net/journal-1/25/6/2015/paper-or-electronic-
+---
+
+Dominique Renauld [remembers][dr] when he was a student and worked exclusively with paper notes. He was fond of [Roland Barthes](http://takingnotenow.blogspot.de/2008/07/roland-barthes-on-his-almost-obsessive.html)[^bar] and grew even fonder of [Arno Schmidt](https://weareilluminated.wordpress.com/2014/01/10/the-beauty-of-thinking/) -- both avid Zettelkasten users.
+
+Nowadays, Dominique uses [Tinderbox](http://www.eastgate.com/Tinderbox/) for anything. Check out the slides and video of [his post][dr] to see what working with Tinderbox can look like.
+
+We can learn to be playful with our items of knowledge. We only have to think about what we would do if the knowledge was organized on paper. Tinderbox is a great application to work visually, although I haven't tested it seriously, yet. If your app doesn't support any visualization, simply start to draw diagrams. With a playful attitude, you could re-phrase existing notes, read and think about them, then write down your thoughts again.
+
+It doesn't suffice to feed new stuff your Zettelkasten. You have to attend to its needs, too. The result will be stronger cross-connections.
+
+
+[dr]: http://www.dominiquerenauld.net/journal-1/25/6/2015/paper-or-electronic-
+
+[^bar]: When Barthes lost his mother, he took notes about the process of his grief. The collected fragments were published as a book. I always rejoice when an author uses "Zettelkasten" colloquially, which isn't too uncommon in German; and then I wonder why no one at university takes this method seriously. (The [German source](http://www.zintzen.org/2011/08/01/wespennest-160-roland-barthes-tagebuch-der-trauer-hanser/) says: "Tatsächlich könnte man das Buch viel eher als einen geordneten Zettelkasten oder eine pedantisch geführte Materialsammlung bezeichnen. Tag für Tag wurde dieses Archiv der Trauer um neue Notizen erweitert, deren Kürze und Komposition oftmals an die von Barthes geliebten japanischen Haikus erinnert.")
