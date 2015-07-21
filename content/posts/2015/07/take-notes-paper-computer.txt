@@ -1,0 +1,26 @@
+---
+title: Take Notes on Paper (but Write at Your Computer)
+created_at: 2015-07-21 07:42:57 +0200
+kind: article
+author: christian
+tags: [ note-taking, memory, writing ]
+url: http://www.pri.org/stories/2015-07-12/close-your-laptop-handwriting-could-make-you-smarter
+---
+
+<%= insert_rel_image file: "201507210737_sketch.jpg", title: "sketchnote", caption: %{Notes I took during class at university. There are even more playful ones, but this was a pretty good scan.} %>
+
+I a recent [radio interview][not], psychology graduate student Pam Mueller told the audience that taking notes of meetings or during class on your computer is a bad idea. You forget the things faster.
+
+Plus you can't sketch anything quickly when you're using a computer. 
+
+Over the years at university, I adopted notes which were highly visual in style, not unlike [Sketchnotes][sn] which I heard of many years later.
+
+As we're telling students in our coaching at my part-time job at university, it's always better for your brain to add another layer of information: space, color, image, sound, smell, story. I think that's why hand-written notes work better: you claim the space on paper in a unique manner. Even if you don't add many visuals.
+
+Using a computer or tablet or phone to type words requires you to be in a different mindset than writing with pen in hand. That's why Sascha and I advise everyone to [take reading notes on paper first](/posts/reading-putting-it-all-together/). The gap between paper-based reading notes and the book or article you're reading is smaller, even if you read on a digital device. Typing will always be more challenging, and switching back and forth will ruin your focus.
+
+So take notes on paper, but [write on your computer][vw], since you'll be about twice as fast to finish a first draft and produce more during the process.
+
+[vw]: http://www.sciencedirect.com/science/article/pii/S0378216602001212
+[not]: http://www.pri.org/stories/2015-07-12/close-your-laptop-handwriting-could-make-you-smarter
+[sn]: http://rohdesign.com/sketchnotes/
