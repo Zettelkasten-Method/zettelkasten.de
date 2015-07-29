@@ -16,6 +16,14 @@ There's a lot of other software on the web you could experiment with, so don't f
 
 If you want to know more about us and how we roll, take a look at [the "personal" tag](/posts/tags/personal/).
 
+## Getting Started
+
+* [How many Zettelkästen should I have?](/posts/how-many-zettelkasten/) The answer is, most likely, only one for the duration of your life. But there are exceptions to this rule.
+* [Don't use categories.](/posts/no-categories/) Use tags instead.
+* You have to [interpret your sources](/posts/dont-rely-on-source-have-faith-in-yourself/) and then rely on your own thoughts henceforth to get the maximum benefit. Collecting information does not increase your knowledge.
+* [Use outlines](/posts/how-i-use-outlines-to-write-any-text/) to start with the first draft of your writing project.
+* Then [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents in. 
+
 ## Knowledge Management
 
 * [The Collector's Fallacy](/posts/collectors-fallacy/): you have to work with new material to really learn it. It doesn't suffice to bookmark websites or just read and annotate books. (Christian still has [skeletons in the closet](/posts/collectors-fallacy-confession/).)
@@ -29,6 +37,7 @@ If you want to know more about us and how we roll, take a look at [the "personal
     * [Use a real notebook](/posts/use-real-notebook/) to capture thoughts.
     * Write notes for your note archive [in a way you understand later.](/posts/how-to-write-notes-you-can-understand/)
     * Every Zettel has two forms: [inner and outer form](/posts/zettel-nature-two-forms/).
+    * [Don't use categories.](/posts/no-categories/) Use tags instead.
 * Concerning picking software:
     * [You don't need a wiki](/posts/you-dont-need-wiki/) because every app which supports links in some way can be used.
   

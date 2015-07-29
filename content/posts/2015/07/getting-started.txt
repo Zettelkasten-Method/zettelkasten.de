@@ -1,0 +1,14 @@
+---
+title: Getting Started Series
+created_at: 2015-07-29 12:11:59 +0200
+kind: article
+author: christian
+tags: [ getting-started, announcement ]
+preview: fulltext
+---
+
+With today's post on [how many Zettelkästen you should have](/posts/how-many-zettelkasten/), I have started to collect posts specifically made to get started with the method.
+
+The [post overview](/posts/overview/) now contains a dedicated section on that.
+
+Please tell us [in the comments](/posts/getting-started/#comments) what you always wanted to know, where you struggle, or what you think a beginner should know.

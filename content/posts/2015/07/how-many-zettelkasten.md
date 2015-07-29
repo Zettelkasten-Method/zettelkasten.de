@@ -3,7 +3,7 @@ title: Should You Have One Zettelkasten or Many?
 created_at: 2015-07-29 11:37:22 +0200
 kind: article
 author: christian
-tags: [ archive, reference-management, writing ]
+tags: [ archive, reference-management, writing, getting-started ]
 image: 201405031026_suckle.jpg
 vgwort: http://vg08.met.vgwort.de/na/e82b0cb2264e49cd987be145952dfcf5
 ---
