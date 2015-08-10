@@ -1,0 +1,27 @@
+---
+title: Keeping a Study Log and Extracting Zettel Notes From It
+created_at: 2015-08-10 10:05:28 +0200
+kind: article
+author: christian
+tags: [ note-taking, archive ]
+image: 201508101005_dansheffler-notebk.jpg
+---
+
+<%= insert_teaser_image title: "notebook of Dan Sheffler", caption: %{That's what Dan's notebook looks like. This is the stuff he <em>doesn't</em> need to keep around. I wonder what the really important documents look like. (Image from <a href="http://dansheffler.com/blog/2014-07-26-notebook-annotation/">"Notebook Annotation"</a> used with permission; Copyright Dan Sheffler.)} %>
+
+Dan Sheffler, who you might know for his valuable comments on this site already, has an interesting workflow: first, he captures ideas in a study log while reading; then, he picks the gems and writes Zettel notes later.
+
+This [difference of "engagement notes" and "memory notes"][2], as he calls it, fits the Zettelkasten method well.
+
+"Memory notes" are Zettel notes: they are the essence of captured information.
+
+"Engagement notes" are a replacement for what I'm doing when I [scribble paper notes on the go][read]. Paper notes are temporary. I toss them away. 
+
+Using a notebook as a study log [like Dan does][1] works well when you are working at a desk. These notebooks may become something to keep around and show to your grandchildren. 
+
+Just look at the beautiful image of his notebook now.
+
+[1]: http://dansheffler.com/blog/2014-07-26-notebook-annotation/
+[2]: http://dansheffler.com/blog/2014-07-21-two-goals-of-note-taking/
+
+[read]: /posts/2013/09/create-zettel-from-reading-notes/
