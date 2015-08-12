@@ -21,6 +21,8 @@ Using a notebook as a study log [like Dan does][1] works well when you are worki
 
 Just look at the beautiful image of his notebook now.
 
+**Update 2015-08-12**: Dan uses "engagement notes" as a theoretical term; PDF annotations are engagement notes just as notes on paper or in notebooks. It just [turns out](http://zettelkasten.de/posts/getting-started/#comment-2185484422) he likes using a notebook best.
+
 [1]: http://dansheffler.com/blog/2014-07-26-notebook-annotation/
 [2]: http://dansheffler.com/blog/2014-07-21-two-goals-of-note-taking/
 

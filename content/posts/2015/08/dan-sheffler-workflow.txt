@@ -1,0 +1,32 @@
+---
+title: "From Reading to Zettel Notes: Dan Sheffler's Workflow for a Doctoral Thesis in Philosophy"
+created_at: 2015-08-12 17:16:31 +0200
+kind: article
+author: christian
+tags: [ reading, archive, collect, process ]
+url: http://dansheffler.com/blog/2015-08-11-going-from-reading-to-notes/
+---
+
+Welcome to the bright side of blogging: being part of a discourse!
+
+Dan took some time to write about his workflow, [how to get from reading to Zettel notes.][wf] (I posted about [his setup](/posts/dan-sheffler-notes/) earlier this week.)
+
+I think the main takeaways of his post are the following and remind us of the foundational principles of bullet-proof knowledge management:
+
+* Separate capturing notes from feeding your long-term archive.
+* Take notes immediately: when you have a thought, capture it, no matter how. Do it in your own words.
+* While processing your notes, [focus on the principle of atomicity](/posts/2013/09/create-zettel-from-reading-notes/). Capture a single idea per note.
+* Connect notes heavily.
+
+Dan's screenshots of Zettel notes in [Sublime Text](http://www.sublimetext.com) about his doctoral thesis in philosophy convey how you can tackle complex problems in the long term.
+
+About a third of his example seems to be made up of annotated connections to other notes. As you can see in the "mini map" of his note in the upper right, his Zettel is quite long. That's just fine.
+
+Most of our recommendations sound like you should avoid anything longer than a paragraph. But brevity is quite ambiguous a term. I can imagine Dan is keeping it brief but the material is so vast he's just adding more and more valuable references and connections to the note.
+
+Writing a doctoral thesis often requires you go _deep_, and going deep will inevitably result in more details and more references to back up your argument and interpretation. Don't chop off half of it only because you don't like scrolling.
+
+Make sure to check out [the comment thread][comms] where Dan's post originated.
+
+[comms]: http://zettelkasten.de/posts/getting-started/#comment-2163290095
+[wf]: http://dansheffler.com/blog/2015-08-11-going-from-reading-to-notes/
