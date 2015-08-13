@@ -15,7 +15,7 @@ I think the main takeaways of his post are the following and remind us of the fo
 
 * Separate capturing notes from feeding your long-term archive.
 * Take notes immediately: when you have a thought, capture it, no matter how. Do it in your own words.
-* While processing your notes, [focus on the principle of atomicity](/posts/2013/09/create-zettel-from-reading-notes/). Capture a single idea per note.
+* While processing your notes, [focus on the principle of atomicity](/posts/create-zettel-from-reading-notes/). Capture a single idea per note.
 * Connect notes heavily.
 
 Dan's screenshots of Zettel notes in [Sublime Text](http://www.sublimetext.com) about his doctoral thesis in philosophy convey how you can tackle complex problems in the long term.
