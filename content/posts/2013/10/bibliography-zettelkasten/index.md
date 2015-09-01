@@ -30,18 +30,23 @@ I always include a full citation in a _Zettel._  This redundant storage gives me
 * I could re-create a bibliography from most of the references stored in my notes did I ever lose my precious digital library.
 * Since I only add references to notes from my bibliography manager, I've still got a fully working bibliography or digital library at my fingertips.
 
-The references are copied over from my bibliography manager of choice, [BibDesk][].  I made this process as easy as I could.  TextExpander and the like will help you safe tons of time.  Whenever I'm about to create lots of notes for a book, I add two shortcuts:
+The references are copied over from my bibliography manager of choice, [BibDesk][].  I made this process as easy as I could.  [TextExpander][tx] and the like will help you safe tons of time.  Whenever I'm about to create lots of notes for a book, I add two shortcuts:
 
 1.  A shortcut to the full citation which I put at the end of a note.  For example `,,evans` expands to:
     
         [#evans2006ddd]: Eric Evans (2006):  _Domain-Driven Design. Tackling complexity in the heart of software_, Upper Saddle River, NJ: Addison-Wesley.
 2.  Another shortcut is needed for inline citations.  For example, `°evans` expands to `[{^}][#evans2006ddd]`, where `{^}` denotes the cursor position.
 
-If you're doing lots of research, do yourself a favor and get at least a trial version of [Typinator][tn] or [TextExpander][tx] or [KeyboardMaestro][km] and see for yourself how much faster you can be.
+If you're doing lots of research, do yourself a favor and get at least a trial version of [TextExpander][tx]<img height="0" width="0" src="http://smile.7eer.net/i/176775/161942/2936" style="position:absolute;visibility:hidden;" border="0" />[^aff], [Typinator][tn], or [KeyboardMaestro][km] and see for yourself how much faster you can be. 
+
+**Update 2015-09-01**: TextExpander 5 will now suggest new snippets and remind you of existing ones which you tend not to use. 
 
 [tn]: http://www.ergonis.com/products/typinator/
-[tx]: http://smilesoftware.com/TextExpander/
+[tx]: http://smile.7eer.net/c/176775/161942/2936
 [km]: http://www.keyboardmaestro.com
+
+[^aff]: Affiliate link; we get a small kickback to suppor this site from the vendor if you buy from our link but it won't cost you anything.
+
 
 ## Benefits of MultiMarkdown citations
 
