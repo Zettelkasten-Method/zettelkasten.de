@@ -1,0 +1,90 @@
+---
+title: Switching from Zkn³ to a Plain Text Approach
+created_at: 2015-09-01 16:06:18 +0200
+kind: article
+author: erik
+tags: [ software, windows, mac, linux, cross-platform ]
+image: 201509041249_zkn3.jpg
+excerpt: Erik Pfeiffer joins us today to write about his experience with the well-known <a href="http://zettelkasten.danielluedecke.de/en/">Zettelkasten application by Daniel Lüdecke</a>. Read the full article to get to know the good and the bad from Erik's point of view and why he switched to a plain text approach later.
+---
+
+*This is a guest-post by Erik Pfeiffer. Thank you Erik for taking the time to write this review! To do Daniel's software justice, you should really check it out for yourself and see if the "desk" feature where you compose texts from Zettel notes is helpful for you; Erik didn't use it, yet, so he may be missing out one of the main selling points, if something like that even exists in freeware. From here on, it's all Erik's voice.*
+
+
+## How and Why I Came to the Zettelkasten Method
+
+Hello. My name is Erik and I am a knowledge collector and writer. To this day I am still not happy with my whole process and eager to improve it. I have used the [Zettelkasten software by Daniel Lüdecke][zkn] so far. 
+
+Before I started my Zettelkasten in April 2015, I created MS Word files to summarize information when reading texts from different fields. Sometimes I created folders and brought them in logical order (categories). The bigger a file got, the better: it increased the probability that I would continue to write in this particular file without swapping to another file or even to another folder. So the information in it could always be recycled and I kept it up to date.
+
+
+
+But apart from my "active" Word files I also have a lot of "inactive" word files (and even worse, inactive folders) which contain information in it which I never revise and substitute when they go out of date.
+
+The problem with the big files was that sometimes I was too lazy to bring the information into a logical order with headings and sub-headings. I have one file about evolution and nutrition which has more than 800 pages, kept in a logical order. I always continued to tend to this file so it helped me to prepare myself to think in categories and logical orders.
+
+Nevertheless, using such approaches you get [the problems with categories][nocats]. You put an information in one category and if it fits into another one you have to write the same another time in the other category, or you link to it which is technically worse in Word. Or you forget about your other categories. This makes your system prone to redundancies and errors.
+As a consequence, I started with the Zettelkasten since Sascha mentioned his several times in his other blog and I became very interested.
+
+[nocats]: /posts/no-categories/
+[zkn]: http://zettelkasten.danielluedecke.de/en/
+
+## The Zettelkasten or Zkn³ by Daniel Lüdecke
+
+After analyzing available software I chose [the one from Daniel Lüdecke][zkn] because it is free and it doesn't require plain text. (I think it is easier to start with rich text if you don't have a manual for a plain text approach.) Daniel Lüdecke created this software by transferring the paper-based approach by Niklas Luhmann into a digital solution.
+
+Maybe I would have started with [nvALT][nvalt] which was recommended in the comments on this blog already, but I don't have a Mac. So I began to create Zettels in Lüdecke's app and was very enthusiastic. I used it as an inbox and a Zettelkasten simultaneously. The user interface is very good to overview. 
+
+[nvalt]: /posts/nvalt-zettelkasten-implementation/
+
+But 4 months later I am here with over 1200 Zettel and I am captured in this software. The links are software-specific because it uses meta-data which is not easily exported. I don't know how to do it automated. And I also don't know how I can transform all the tags into a plain text-based system.
+
+I want to change the software because searching became very slow. 
+
+Maybe I will swap to the plain text system and use the old software as an inbox to buffer information. As an advantage I can already add tags to the new information and can look for the information "just in time" (instead of cleaning my inbox to a certain date). And I also could leave my old Zettels in the old software and copy parts of them in my new system.
+
+Today I know what I did wrong. Sometimes I have too long Zettels or just copied text. So I can filter old Zettel notes through my new and improved approach to put them, cleaned up, into the new archive software, but only at the time when I work on that specific topic. Maybe I will revise all the information about that topic process it into my new system _en bloc_. I will figure that out later.
+
+Now I can say this: the more complex a Zettelkasten software is, the more difficult it will be to swap to another software.
+
+It is said that some applications like Adobe Photoshop are so difficult and complicated that once a person got used to it she will probably never switch to another application even if there is a better alternative available because she has already invested so much time in learning.
+
+<%= insert_teaser_image title: "screenshot of Zkn³", caption: %{Searching for "mtor" in my Zettelkasten took 15 seconds (using the German user interface)} %>
+
+Ok, I already mentioned the biggest problem with the Zettelkasten-software from Daniel Lüdecke: it became too slow, even though I have a Samsung SSD.
+
+Some other points of critique I put down in the following list:
+
+[citavi]: https://www.citavi.com
+
+* **Scientific citation**: To this day I have not integrated my [citavi][] database into my Zettelkasten. It cannot intuitively be integrated. There is the possibility to create a database for references in the software itself but I did not want to have parallel databases. As a consequence I chose a very suboptimal solution. I just wrote something like "Miller 2014" to reference to my citavi or I just copied the Pubmed Link.
+* **Opening of windows**: Creating a new Zettel opens a new window which is not so great, because if you have a search open and a separate file where you export your Zettels into, you have 4 windows open in total and you lose overview. It slows down the process.
+* **Search engine**: The search does not work very well. I did not find out how I can search for a Zettel which contains particular words in a text AND with a particular tag. For Instance, take a Zettel that goes like this: "Gluten antigens and subfractions are capable of crossing into human breast milk." With the tags "childhood" and "grain". I know that I have that Zettel, so I want to look for "gluten" AND "childhood", but the latter only among the tags. It is not possible. In a plain text approach you can just search for "gluten AND childhood", or you can search: "gluten AND §childhood" (`§` is my glyph to denote tags), which is not possible in Zkn³ because the tags are stored separately in the meta-data.
+* **Speed**: Furthermore, the search gets very slow when your Zettelkasten has more than 1000 or 2000 Zettel notes. Some searches in my Zettelkasten (1240 Zettel) take 20 seconds (when I have a lot of AND-conditions in my search). I also have one Zettel which is very long because it contains a story of my life -- just activating this Zettel leaves the software frozen for 4 seconds.
+* **Linking**: It is not possible to link Zettels hierarchically. The links are always treated equal from one to another Zettel and vice versa. In the software you can just link two Zettels or you can create a link in the text in a Zettel. But in the list with the links there is no differentiation. It is neither possible to rate a link. Sometimes I wanted to feature a link because these Zettels contain information that is very helpful. This is not possible.
+* **Recommended links**: I liked the recommendations of Zettels to link to. The software calculates the probability and relevance. The more tags are in common the more obvious the recommendations for a link is featured.
+* **Tag list and tag synonyms**: It is very positive that you can create a list of tags in the settings of the software. And you can define synonyms. If you create a Zettel and it contains a tag of that list, it is automatically compared with that list of synonyms and substituted by the correct term if you use a "wrong" tag. So you can avoid having to tag synonyms to increase matching. If you come up with a new tag, you can go to that list and write down all possible synonyms and by doing so you define the correct tag for a specific topic. 
+* **Recommended tags**: You also get recommendations to use some tags. If you just use a synonym of a tag, the software recognizes it and recommends you to use the right tag for this Zettel. This can be helpful if you forgot about a tag and become afraid of switching to a new tag accidentally, leaving the old one in oblivion. There is even a function to replace tags and words with other terms (if you come up with a better, more precise and accurate one), instead of doing it manually.
+* **Small bugs**: The software has a few small bugs and inconveniences but it is okay since it's freeware created by a sole developer in his spare time.
+* **_Folgezettel_**[^fol]: I never used this function and I think it is an unnecessary feature.
+* **Tag groups**: It would be very comfortable if one could group tags in the tag list on the right side of the main window. For example, tags have very different levels. Like "tutorial, method, protocol, argumentation, intervention/therapy" are on a different level than "weightlifting, dating, nutrition" and these are on a different level like "carbohydrates, brown adipose tissue, planch, melatonin" (which are more specific tags). It would be nice if one could cluster tags manually in the tag list. Moreover it is not possible to use intratextual tags because tags are in the meta-data. This is another reason why a plain text approach might be better.
+* **History of zettels**: The history leaves out some Zettel. But in general it is a very useful tool.
+* **Desk**: There is a function to put Zettel on a desk to create texts. I never tried this but it seems to be very easy and practicable.[^desk]
+* **Documentation and keyboard abbreviations**: Online, there is a helpful and extensive documentation of the software. However, it would be very helpful if there were a list of keyboard-abbreviations (like Ctrl+F) documented in the software (or on the buttons). Some functions are not accessible via the keyboard and have to be done by clicking which is time-consuming.
+* **File format**: When you open the `.zkn3` file, you don't have access to the data as a plain text. One time, during storing my Zettel, the computer broke down and it damaged the file. I couldn't repair it because I couldn't access it via the editor. I think it is difficult to export to another Zettelkasten software.
+
+I think I didn't cover all features but today I am _d'accord_ to the opinion that the plain text method might be the better approach and more features are unnecessary and distracting.
+
+Yet I am glad that this software exists because it offered me an easy and intuitive way to get accustomed to the Zettelkasten Method. But facing the software flaws and having understood more about the method I will now switch to a plain text approach. 
+
+Thanks for reading.
+
+---
+
+*Thank you, for writing up your experience, Erik! We haven't used Zkn³ a lot ourselves and are in dire need of a more in-depth review. Have you tried Daniel's application, yet? If not, [check it out][zkn]. Tell us about your experience in the comments!*
+
+[^fol]: _Note by Christian:_ We call them "note sequences" on this blog. Luhmann's filing system puts notes into an alphanumeric order. These sequences of notes are said to inspire longer texts: since the order is fixed in the filing system, it's obvious where to go on. Just take the next Zettel in the sequence to continue reading. Works great for writing, too. [Sascha and I use outlines instead.][outline]
+
+[^desk]: _Note by Christian_: A friend of mine loved the Desk. Browsing through your notes, putting Zettel onto the Desk for later review and then writing worked very well for him. You should check out Zkn³ and see for yourself.
+
+[outline]: http://zettelkasten.de/posts/tags/outline/
