@@ -107,6 +107,8 @@ module My
         
         if author == "Marko Wenzel"
           return %Q{by Marko Wenzel}
+        elsif author == "Erik Pfeiffer"
+          return "by Erik Pfeiffer"
         end
         
         author_name = author.capitalize

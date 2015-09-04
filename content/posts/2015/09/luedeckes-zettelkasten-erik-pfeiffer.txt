@@ -2,7 +2,7 @@
 title: Switching from Zkn³ to a Plain Text Approach
 created_at: 2015-09-01 16:06:18 +0200
 kind: article
-author: erik
+author: Erik Pfeiffer
 tags: [ software, windows, mac, linux, cross-platform ]
 image: 201509041249_zkn3.jpg
 excerpt: Erik Pfeiffer joins us today to write about his experience with the well-known <a href="http://zettelkasten.danielluedecke.de/en/">Zettelkasten application by Daniel Lüdecke</a>. Read the full article to get to know the good and the bad from Erik's point of view and why he switched to a plain text approach later.
