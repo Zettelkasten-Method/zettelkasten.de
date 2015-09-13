@@ -1,0 +1,102 @@
+---
+title: 4 Use Cases to Determine What a Zettel Should Be
+created_at: 2015-09-13 09:30:58 +0200
+author: sascha
+kind: article
+tags: [ archive, zettel, writing, keywords, getting-started ]
+image: 201509130934_sharpen-blade.jpg
+vgwort: http://vg01.met.vgwort.de/na/80a666af11ba42d1b4bbd375b58c9312
+comments: on
+---
+
+
+Let's go really basic:
+
+What is a Zettel?
+
+A Zettel is a note that is part of the archive of your Zettelkasten. You create it to contain knowledge for later use. The answer to "How do I compose a Zettel?" is simple:
+
+> You form a Zettel in a manner that allows you the most efficient use even if another person would have to use it.
+
+You will have the following use cases:
+
+1. You browse your archive with a very broad idea of what you need.
+2. You browse your archive with a specific idea of what you need.
+3. You want to use that Zettel as a text on its own.
+4. You want to use that Zettel as a part of a text.
+
+Let's go through these different use cases:
+
+## Just searching for something
+
+It happens a lot. You read about something or write about something and you just want to know what is in your archive on this topic in general. 
+
+That means that you will profit from Zettel notes which give you the chance to have a good idea of their contents by just looking at them for a few seconds.
+
+The first trait for this demand is a good title.
+
+The best titles are just straight forward. If it is about a definition, then name it "definition XY". Is it not about a thing but about two things make sure that you write "thing a and thing b". 
+
+Another possibility is to write the conclusion of the Zettel in the title. 
+
+The second trait is a small abstract if the Zettel contains more than 2 paragraphs. You don't have to highlight it as a paragraph. Just make sure that you write a line or two as a short overview about the content of this Zettel.
+
+These two traits are all what you need to get an idea what is inside a Zettel very fast. 
+
+**Take home message:** Have a super easy to digest title and a abstract right at first in the content of your Zettel.
+
+## Searching for something specific
+
+<%= insert_teaser_image title: "man sharpening a blade", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/adavey/5075599607/">Craftsman</a> by Alan. License: <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>} %>
+
+This is a little bit more tricky.
+
+First of all: It is tremendously useful if you have a good title and a small abstract already. This helps a lot with memorizing a specific note. 
+
+To get to it you should be able to narrow down your search significantly, fast. This is something you'll be able to do with a habit of assigning keywords very generously. 
+
+I write as many keywords as I can come up with.
+
+In my experience with my Zettelkasten, it is much more time consuming not to find a specific note you're looking for than to have a Zettel or two too much in your results. 
+
+It helps a lot if you have preformed structures in your archive: I write overview notes for a specific topic and link to existing notes to always have a next step prepared.
+
+**Example 1:** I have multiple Zettels about the concept of *metabolic flexibility*. To give me a quick overview I wrote a Zettel with the following subsections:
+
+1. Concepts (Flexibility; inflexibility; function of)
+2. Mechanisms (the inner structure of the concept)
+3. Practical applications 
+
+**Example 2:** I make a list of arguments for that topic if I have collected some.
+
+**Example 3:** Sometimes, I write a lot on a particular person's biography. I make a list of Zettels and put it in a chronological order with headings serving to distinguish mile stones of his life.
+
+If I decide to write about anything, I have the structure of that particular topic prepared already.
+
+**Take home message:** Write as many keywords as you can come up with and form substructures through links and overview notes.
+
+## A Zettel as a text
+
+Sometimes, I expand a single Zettel to the size of a blogpost.
+
+It is easier for me to expand a Zettel if it has a preformed structure with an abstract, a part forming the evidence of the conclusion, and a part discussion. 
+
+In fact, the best Zettel notes for this purpose are the ones which are written to be real texts and not just scribbles. I use notes in general as building blocks for texts anyhow, so it almost never makes  sense to just scribble something down for me.
+
+**Take home message:** Write short, cohesive texts and not scribbles.
+
+## A Zettel as part of a text
+
+For this use case, the former one is a prerequisite. You should be able to pull short texts for your writing project out of your note archive and not scribbles of ideas. So, you should write as you write a part in a book.
+
+I write Zettel and book manuscripts in [Markdown][]. To append the full bibliography to a Zettel is a big time saver. Originally, I did this to have redundancy in my system to increase its robustness in case of any technical issues. But now, I enjoy just having to copy the notes into a manuscript without touching my reference manager. 
+
+**Take home message:** Write everything in the Zettel to be able to just do a "copypasta" later.
+
+[markdown]: https://en.wikipedia.org/wiki/Markdown
+
+# Final words
+
+Do you see any other use cases?
+
+How to compose a Zettel is really dependent on what you use it for. I highly recommend to consider every use case because you never know. 
