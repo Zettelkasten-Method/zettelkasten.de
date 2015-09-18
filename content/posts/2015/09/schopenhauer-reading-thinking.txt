@@ -1,0 +1,28 @@
+---
+title: "Listen to Schopenhauer: Reading Is Only Part of Becoming a Thinker"
+created_at: 2015-09-18 09:49:51 +0200
+kind: article
+author: christian
+tags: [ reading, knowledge-cycle, collect, process ]
+url: https://www.farnamstreetblog.com/2015/08/schopenhauer-on-reading/
+preview: fulltext
+---
+
+Found [this nice piece on Farnam Street][fs] on Schopenhauer and writing.
+
+In it, Shane cites Schopenhauer thusly:
+
+> When we read, another person thinks for us: we merely repeat his mental process. It is the same as the pupil, in learning to write, following with his pen the lines that have been pencilled by the teacher. Accordingly, in reading, the work of thinking is, for the greater part, done for us.
+
+That's not much of an invitation: if you read, you don't think for yourself.
+
+Fittingly, Shane rephrases Schopenhauer's point in this way:
+
+> We need to digest, synthesize, and organize the thoughts of others if we are to understand. This is the grunt work of thinking. It's how we acquire wisdom.
+
+Reading alone doesn't cut it. Reflecting is important. 
+
+Now guess what the Zettelkasten Method helps you do. Part of the [knowledge cycle][kc] is to take the inspiration from a text and transform it into knowledge, which is acquired through a process of constructing. Don't stick to the exact words of the author and try to memorize them. Write something on your own.
+
+[fs]: https://www.farnamstreetblog.com/2015/08/schopenhauer-on-reading/
+[kc]: /posts/knowledge-cycle-efficiently-organize-writing-projects/
