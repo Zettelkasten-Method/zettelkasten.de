@@ -1,0 +1,22 @@
+---
+title: Tinderbox Principles
+created_at: 2015-09-19 15:34:27 +0200
+kind: article
+author: christian
+tags: [ tinderbox ]
+url: http://micahjoel.info/2015/07/tinderbox-principles/
+preview: fulltext
+---
+
+These are very sound principles, a selection of the ones [by Micah Joel](http://micahjoel.info/2015/07/tinderbox-principles/):
+
+* Don't throw anything away.
+* Focus on making it easy to store things.
+* Let emergence happen.
+* Be part of the community.
+
+The first three principles build on top of one another: keep stuff and make it easy to store it. Then you can reap the benefits: connections you did not anticipate. These principles are exactly what the Zettelkasten Method is about. 
+
+And the last one is why we've built this site: to provide a place to talk about and discover workflows. To help each other. 
+
+I've never used Tinderbox myself. You know we think that less is enough. But the folks using Tinderbox seem to be quite open-minded and well-organized, judging from their blogs.
