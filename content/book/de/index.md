@@ -13,6 +13,12 @@ Hier findest du die aktuellste Version der Anleitungen aus dem Buch, um einen Ze
 * **[Anleitung für Mac][mac]**: mit [nvALT][], [BibDesk][] und [TextExpander][].
 * **[Anleitung für Windows][pc]**: mit [ResophNotes][], [JabRef][] und [PhraseExpress][].
 
+Die Downloads aus dem Buch:
+
+* [TextExpander Bausteine](/book/de/einrichten-zettelkasten-mac/Zettelkasten.textexpander)
+* [PhraseExpress Bausteine](/book/de/einrichten-zettelkasten-windows/Zettelkastenheader.pxp)
+
+
 ## Sonderangebot für Leser: TextExpander mit 20% Rabatt
 
 Weil wir TextExpander für Mac so gut finden, haben wir mit den Entwicklern einen Rabatt für unsere Leser ausgehandelt.<img height="0" width="0" src="http://smile.7eer.net/i/176775/227880/2936" style="position:absolute;visibility:hidden;" border="0" />
