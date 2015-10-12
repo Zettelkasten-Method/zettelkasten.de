@@ -20,6 +20,7 @@ If you want to know more about us and how we roll, take a look at [the "personal
 
 * [How many Zettelkästen should I have?](/posts/how-many-zettelkasten/) The answer is, most likely, only one for the duration of your life. But there are exceptions to this rule.
 * [Don't use categories.](/posts/no-categories/) Use tags instead.
+* [Set links between notes.](/posts/search-alone-is-not-enough) Search alone is not enough.
 * You have to [interpret your sources](/posts/dont-rely-on-source-have-faith-in-yourself/) and then rely on your own thoughts henceforth to get the maximum benefit. Collecting information does not increase your knowledge.
 * [Use outlines](/posts/how-i-use-outlines-to-write-any-text/) to start with the first draft of your writing project.
 * Then [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents in. 
@@ -38,6 +39,7 @@ If you want to know more about us and how we roll, take a look at [the "personal
     * Write notes for your note archive [in a way you understand later.](/posts/how-to-write-notes-you-can-understand/)
     * Every Zettel has two forms: [inner and outer form](/posts/zettel-nature-two-forms/).
     * [Don't use categories.](/posts/no-categories/) Use tags instead.
+    * [Set links between notes.](/posts/search-alone-is-not-enough) Search alone is not enough.
 * Concerning picking software:
     * [You don't need a wiki](/posts/you-dont-need-wiki/) because every app which supports links in some way can be used.
   
