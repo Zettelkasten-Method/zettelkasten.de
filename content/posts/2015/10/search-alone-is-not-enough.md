@@ -62,6 +62,8 @@ The resulting web of connections is more than just a sequence of searches.
 
 ## While to link notes relies on memory, this kind of reliance actually produces results
 
+<%= insert_teaser_image title: "watchmaker", caption: %{Photo credit: <a href="https://www.flickr.com/photos/richardb23/16880266095/">Portrait of a watchmaker</a> by Richard on flickr. License: <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>} %>
+
 <!--ct: (201411221750 Mehrwert von Links im Zettelkasten) -->
 
 <!--ct: 201411221802 Wie ich Zettel miteinander verknüpfe-->
