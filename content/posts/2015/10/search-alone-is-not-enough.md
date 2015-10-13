@@ -62,7 +62,7 @@ The resulting web of connections is more than just a sequence of searches.
 
 ## While to link notes relies on memory, this kind of reliance actually produces results
 
-<%= insert_teaser_image title: "watchmaker", caption: %{Photo credit: <a href="https://www.flickr.com/photos/richardb23/16880266095/">Portrait of a watchmaker</a> by Richard on flickr. License: <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>} %>
+<%= insert_teaser_image title: "watchmaker", caption: %{Photo credit: <a href="https://commons.wikimedia.org/wiki/File%3AMinidoka_Relocation_Center%2C_Minidoka%2C_Washington._Watch_repair_shop._Sokichi_Hoshide%2C_head_watch-maker._-_NARA_-_536542.jpg">Francis Stewart, War Relocation Authority photographer</a> (NARA record: 8464475) (U.S. National Archives and Records Administration) [Public domain], via Wikimedia Commons} %>
 
 <!--ct: (201411221750 Mehrwert von Links im Zettelkasten) -->
 
