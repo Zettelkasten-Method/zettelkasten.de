@@ -1,0 +1,236 @@
+#### Einrichtung des Zettelkastens auf Mac
+
+**Kommentar von Sascha:** Die Anleitung für den Mac wurde von Christian erstellt. Vielen Dank an dieser Stelle. Ab jetzt übernimmt er:
+
+Für einen Mac funktioniert folgende Kombination wunderbar:
+
+* [Dropbox][dropbox] zum Synchronisieren und sichern von Dateien
+* Literaturverwaltung mit [BibDesk][bibdesk]
+* Zettel-Archiv mit [nvALT][nvalt]
+* Einfügen von Vorlagen mit [TextExpander][textexpander]
+
+[dropbox]: http://dropbox.com
+[bibdesk]: http://bibdesk.sourceforge.net
+[nvalt]: http://brettterpstra.com/projects/nvalt/
+[textexpander]: http://smile.7eer.net/c/176775/227880/2936
+
+<!--TODO-txt TextExpander affiliate Link einfügen-->
+
+##### Dropbox zum Sichern und Mitnehmen deines Archives
+
+Wenn du Dropbox nicht kennst, hast du die letzten Jahre wirklich etwas verpasst. Dropbox überwacht einen Ordner auf deiner Festplatte und sichert Änderungen online. Wenn man sich mit einem Dropboxkonto auf zwei Computern anmeldet, kann man so mit einer minimalen Verzögerung über das Internet Dateien hin und her kopieren.
+
+Die wahre Stärke entfaltet Dropbox, wenn man Ordner mit anderen Nutzern teilt. So kann man Projektordner mit Co-Autoren anlegen und gemeinsam an Büchern schreiben. Oder man tauscht Urlaubsfotos mit Freunden oder dem Partner.
+
+Dropbox speichert alles kostenlos online, "in der Cloud". Das heißt aber nicht, dass Dropbox ein verlässliches Backup deiner Daten ist.
+
+Wir empfehlen dir zwar, deinen Zettelkasten und deine Projekte zur Sicherheit und zur Erhöhung der Verfügbarkeit in deine Dropbox zu verschieben und von dort aus zu bearbeiten. Jedoch garantiert Dropbox nicht, dass die Daten gesichert sind. Es gibt zwar faktisch keine Ausfälle, sodass du beim Versagen der Festplatte deinen Zettelkasten und deine Projekte immer noch verfügbar haben wirst. Aber wenn mal was in der Dropbox fehlen sollte, bietet das Unternehmen keinen Service an, um alte Backups von ihnen zu durchwühlen. 
+
+Die Dropbox soll nicht der Sicherung deiner Daten dienen. Dafür hast du hoffentlich ein Backup auf einer externen Festplatte, zum Beispiel *Time Machine*. 
+
+[Lade das Program][dropbox] und folge der Installationsanleitung. Einmal installiert gibt es nichts weiter zu tun. Du wirst nun einen neuen Ordner in deinem Nutzerverzeichnis haben, der "Dropbox" heißt, und um dessen Synchronisation mit anderen Geräten und der Weboberfläche sich das Programm von selbst kümmert.
+
+[dropbox]: http://dropbox.com
+
+##### BibDesk als Literaturverwaltungsprogramm
+
+BibDesk ist das Literaturverwaltungsprogramm unserer Wahl für den Mac.
+
+![BibDesk von Christian in all seiner Pracht](images/201508270950_bibdesk-list.png)
+
+[Lade BibDesk herunter][bibdesk], verschieb es in deinen Programmordner und dann starte das Programm.
+
+Eine Publikationsliste in BibDesk ist eine einfache Tabelle mit allen möglichen Informationen zu den Einträgen. Die Anzeige der Tabelle kannst du einstellen, indem du die Spaltentitel durch *drag & drop* verschiebts. Außerdem kannst du wählen, welche Informationen angezeigt werden, indem du das kleine Icon rechts anklickst.
+
+![Spalten in BibDesk auswählen](images/201508270944_bibdesk-columns.png)
+
+Wahrscheinlich reichen folgende Spalten für den Anfang:
+
+* Erster Autor
+* Titel
+* Datum
+* Cite Key
+
+Füge mal eine neue Publikation zur Übung hinzu, um das Programm auszuprobieren: dafür ist in der Toolbar der "Neu" Knopf vorgesehen. Das Tastenkürzel `⌘N` tut dasselbe. Damit erstellst du einen leeren Publikationseintrag in die Datenbank.
+
+![Eingabemaske für Publikationen](images/201508270952_bibdesk-entry.png)
+![Feld hinzufügen](images/201508270954_bibdesk-addfield.png)
+
+Je nachdem, welche Publikationsart du auswählst ("book" ist im Bild selektiert, aber es gibt auch noch ein Dutzend andere), verändert sich die Eingabemaske. Wähle also zuerst die Publikationsart passend aus und trage dann die bibliographischen Daten ein.
+
+<!--TODO-txt wo schaut man nach, wenn man nicht weiß, wie man z.B. Websites zitieren soll?-->
+
+Wenn trotzdem mal eine Angabe fehlt, kannst du neue Felder in die Eingabemaske einfügen, indem du im "Publikation"-Menü "Feld hinzufügen" auswählst.
+
+Du kannst Anhänge zu Publikationen hinzufügen. Dateien und Webadressen kannst du in die rechte Spalte ziehen oder über das Kontextmenü (mit Rechtsklick zu erreichen) auswählen.
+
+Über die Programmeinstellungen (im Menü *BibDesk > Einstellungen ...*) kannst du das Programm vielfältig anpassen. Wir fokussieren uns hier auf zwei Dinge, um nicht zu verwirren:
+
+1. Wie man eine Export-Vorlage für die Markdown-Konvention einrichtet, und
+2. wie man einstellt, dass diese Vorlage beim Kopieren standardmäßig verwendet wird.
+
+Wähle in den Proggrammeinstellungen den Punkt "Vorlagen" aus. Da sind allerlei _templates_ voreingestellt. Eine Vorlage für Markdown richten wir umgehend ein.
+
+Eine stets aktuelle Version der Markdown-Export-Vorlage, die wir verwenden, [steht im Internet bereit][mdtemp]. Der Inhalt sieht kryptisch aus, aber keine Sorge: wie das Vorlagenformat funktioniert, ist nicht wichtig, damit sie funktioniert. Speichere die Datei  irgendwo ab, wo sie nicht auffällt. Dafür wäre ein Ordner in deiner Dropbox namens "Vorlagen" geeignet. Ich gehe davon aus, dass du sie `markdown.txt` genannt hast. 
+
+![Die neue Markdown-Vorlage in der Liste](images/201508271005_bibdesk-mdtemplate.png) ![Die neue Vorlage ist im Kontextmenü verfügbar](images/201508271006_bibdesk-copy.png)
+
+Ziehe per `drag & drop` diese `markdown.txt` in die Liste. Das Ergebnis sollte aussehen wie auf dem obigen Bild.
+
+Jetzt kannst du die Vorlage verwenden, aber nur sehr umständlich über das Kontextmenü. Du kannst diese Vorlage aber als Standard auswählen, der benutzt wird, wenn du einfach _Bearbeiten > Kopieren_ auswählst oder das bekannte Kürzel `⌘C` drückt. Das ist deutlich komfortabler.
+
+![Einrichten der Standardvorlage](images/201508271008_bibdesk-copytemp.png)
+
+Wähle dafür in den Programmeinstellungen den Punkt "Zitat" aus. Dort interessieren uns die obersten Punkte. Als Format wähle "Vorlage" aus, und als Vorlage "markdown". Damit ist die Funktion des Kopierbefehls angepasst.
+
+Mit der voreingestellten Markdown-Vorlage kommen Publikationen über die Kopierfuktionen in folgendem Format heraus:
+
+    [#yalom1994nietzsche]: Irvin D. Yalom (1994):  _Und Nietzsche weinte_, Hamburg: Kabel.
+    [#wils1991vagrel]: Jean-Pierre Wils (1991):  _Die vagabundierende Religion_, Sociologia Internationalis 1, 1991, Vol. 29, S. 141--147.
+    [#wingerd2007cim]: Laura Wingerd and Christopher Seiwald (2007):  _Code in Motion_, in: Beautiful Code, Beijing: O'Reilly.
+
+Das erste Beispiel ist ein Buch ("book"), das zweite ein Journalartikel ("article") und das dritte ein Beitrag in einem Sammelband ("incollection").
+
+Das könnte man jetzt schon in die Zettel einfügen und verwenden. Dafür brauchst du jetzt natürlich das Programm, mit welchem du dein Archiv bedienst. Richten wir also als nächstes nvALT als Programm ein, um das Archiv des Zettelkastens zu bedienen.
+<!--TODO Link auf die Markdown-Zitationsanleitung im Anhang-->    
+
+[mdtemp]: https://gist.github.com/DivineDominion/6870769
+
+##### nvALT als Editor für dein Zettel-Archiv
+
+![Wie nvALT aussieht, wenn man unsere Einstellungen verwendet](images/201508271129_nv-view.png)
+
+[Lade nvALT herunter][nvalt], kopiere die Datei in deinen Programmordner und starte das Programm. Du wirst ein paar Beispielnotizen sehen, die das Programm mit sich bringt.
+
+![Minimalistische Auswahl sichtbarer Informationen pro Zettel](images/201508271031_nv-columns.png)
+
+Wähle zuerst eine menschenwürdige Darstellung, bei der die Liste der Notizen ohne all die unnötigen Informationen links am Bildschirmrand steht:
+
+* Verändere die Position der Liste über _Darstellung > Zu horizontaler Darstellung wechseln_.
+* Blende alle Notizinformationen bis auf den Titel aus (siehe obiges Bild).
+
+Die Darstellung ist noch immer nicht besonders sexy. Vor allem bei modernen Widescreen-Monitoren ist die kleine Schrift und die flexible Textbreite anstrengend für die Augen.
+
+Die folgenden Abbildungen zeigen dir unsere allgemeinen Empfehlungen für das Programm. Wir gehen einige Punkte auch der Reihe nach durch.
+
+![Allgemeine Einstellungen](images/20150827103312_nv-settings-1.png)
+![Notizenablage einrichten](images/20150827103338_nv-settings-2.png)
+
+Stelle nun die Ablage der Notizen um. Normalerweise speichert nvALT alle Notizen in einer großen Notizdatei, deren Ort schwer zugänglich ist.
+
+Wir empfehlen den *plain text* Ansatz unter Zuhilfenahme von der Markdown-Konvention für Textauszeichnung, weil man damit ein Dateiformat wählt, dass extrem lange haltbar ist und mit allerlei Programmen funktioniert. Für den unbedarften Nutzer sind Textdateien erstmal fremd, aber das sind neue Wohnungen nach einem Umzug auch. Darum plane ein paar Tage ein, um dich an die spartanische Ansicht zu gewöhnen. Danach wird es dir sicherlich gut gefallen.
+
+Um _plain text_ Dateien zu verwenden, musst du in den Programmeinstellungen unter dem Reiter "Notizen" einen Ort auswählen. Auf dem Bild siehst du meinen Archivordner. Der liegt in meiner Dropbox, damit die Zettel auch auf Smartphone, Tablet, und per Internetoberfläche verfügbar sind. Erstelle dir so einen Ordner in deiner Dropbox für deinen Zettelkasten. Du solltest dein Wissen stets verfügbar haben.
+
+Wähle als Nächstes "Einfache Textdateien TXT" als Speichermodus aus. Damit wird die erwähnte Notizdatenbank-Datei aufgelöst und alles in einzelnen, unformattierten Textdateien gespeichert. Die sind leicht mit der Dropbox synchronisierbar und lassen sich zur Not auch auf einen Windows-PC laden und betrachten.
+
+In der Liste der Dateiendungen kannst du mit einem Doppelklick die Dateiendung auswählen, die standardmäßig benutzt wird. Diese wird dann fett angezeigt. "txt" ist hier gut genug.
+
+![Die Bearbeitungseinstellungen kannst du einfach so übernehmen](images/20150827103346_nv-settings-3.png)
+![Schrift und Farbe ](images/20150827103355_nv-settings-4.png)
+
+Als Tipp für entspanntes Arbeiten am Computer empfehlen wir, dass du eine große Schriftart einstellst und die Textlaufweite auf eine schmalere Spalte in der Mitte beschränkst. Das findest du unter "Schrift und Farbe".
+
+Als Schriftart empfiehlt sich eine mit fester Laufweite, damit man Listen anständig visuell mit Leerzeichen einrücken kann. Daran muss man sich natürlich erst einmal gewöhnen.
+
+Menlo ist eine sehr beliebte Schrift. Nimm eine Schriftgröße ab 20pt und stell die Farben so ein, dass die Schrift nicht reinschwarz ist, sondern etwas blasser. Das ist angenehmer für die Augen.
+
+Spiel mit der Breite des Textbereichs ein bisschen herum. Bei großer Schrift sind 800 Pixel ganz angenehm. Kleiner Tipp aus der Welt des Buchdrucks und der Typographie: eine Zeile sollte zwischen 50 und 80 Zeichen fassen. Dann kann man den Inhalt einer Zeile gut überblicken. Zu  lange Zeilen verliert man aus den Augen beim Lesen, und zu kurze Zeilen nerven, weil man ständig hin und her springt. 50--80 Zeichen haben sich über Jahrhunderte als Maßstab etabliert.
+
+Neue Zettel erstellst du, indem du in der Suchleiste oben im Programm etwas eingibst und Enter drückst. Wenn du die Suchleiste leerst und Enter drückst erstellst du eine neue Notiz namens "Untitled", in welcher du arbeiten kannst, bis du einen Titel gewählt hast.
+
+Die Suchleiste heißt so, weil man mit ihr blitzschnell das Archiv durchsuchen kann. Sie fungiert nur aus praktischen Gründen als Schnelleinstieg in die Erstellung neuer Zettel.
+
+Du kommst von jedem Punkt des Programms aus in die Suchleiste, indem du das Kürzel `⌘L` drückst. ("L" steht für *location bar* und funktioniert übrigens auch in den meisten Web-Browsern.) Mit der Tastenkombination `⌘L`, Löschen, Enter erstellst du in drei schnellen Handgriffen eine neue Notiz, die zum Zettel werden könnte, oder auch nur als Zwischenablage für einen Gedanken dient.
+
+Damit ist der Zettelkasten bereit, befüllt zu werden. Es ist aber umständlich, die ID jedes Mal per Hand einzugeben. Darum wählen wir ein Werkzeug wie TextExpander, um das ganze zu beschleunigen.
+
+##### TextExpander zum Zeitsparen
+
+Zuerst das Einfache: wie besprochen wirst du immer wieder mal IDs brauchen, um Verknüpfungen zwischen Notizen herzustellen. Die ID `201508271153` steht dabei für den 27. Aug 2015, 11:53 Uhr. Die Vorteile einer Datum-basierten ID hat Sascha bereits besprochen.<!--TODO-mrk füge Link-->
+
+Mit TextExpander kannst du das aktuelle Datum und die Zeit mit einem Kürzel belegen, passend formattiert als ID selbstverständlich. Als Kürzel bieten sich Zeichenfolgen als Präfix an, die man sonst nicht eingibt, gefolgt von etwas, das sprechend oder merk-würdig genug ist. In meinem Fall lautet das Kürzel "`,,id`", weil ich zwei Kommata schnell tippen kann und leicht an die Taste gelange.[^saschatextexpanderkürzel] Wenn ich diese vier Zeichen tippe, wird es automatisch durch eine ID auf Basis der aktuellen Zeitpunkt ersetzt.
+
+  [^saschatextexpanderkürzel]: **Kommentar von Sascha:** Ich verwende lediglich ein kleines "q" als Präfix, weil es in der deutschen Sprache niemals vorkommt, dass ein "q" ohne ein "u" steht. Wir haben lange darüber gestritten, welche Option besser ist, sind aber zu keiner Einigung gekommen. Mein Kürzel für die ID ist "qid". Ein Tastenanschlag weniger.
+
+TextExpander kann noch viel mehr. Es lohnt sich für dich, wenn du dich mit diesem Programm ausführlicher beschäftigst. Bleiben wir aber erst bei den Grundlagen: 
+
+![TextExpander Beispiele](images/201508271130_texp-samples.png)
+
+[Lade TextExpander herunter][textexpander], kopiere die Datei in deinen "Programme"-Ordner und starte es.
+
+<!--ct: TODO Verweis auf die Coupon-Seite im Buch-->
+
+Damit das Programm funktioniert, braucht es Zugriffsrechte auf die "Bedienungshilfe"-Funktion des Mac. Das bedeutet, dass TextExpander sehen darf, was du tippst, um das Getippte durch etwas anderes zu ersetzen zu können. Beim ersten Start wirst du auf die entsprechenden Systemeinstellungen verwiesen.
+
+Nachdem du die Haken gesetzt hast, starte das Programm erneut.
+
+Du wirst mit obigem Bildschirm begrüßt, der dir Beispielkürzel zeigt, die zum Teil mit Daten aus deinem Adressbuch befüllt werden. Statt einem doppelten Komma als Präfix taugt offenbar auch das Semikolon, oder zwei Punkte, oder beliebiges anderes Zeichen, dass man so sonst nicht verwendet.
+
+Verfahre mit den vorgegebenen Kürzeln, wie du willst. Ich habe meine zum Teil gelöscht und durch andere ersetzt.
+
+Wir werden eine neue Gruppe an Kürzeln für die Zettelkastenarbeit einrichten. Lade dafür die von uns vorgefertigten Kürzel herunter
+
+.<!--TODO-txt Downloadlink einfügen-->
+
+![Zettelkasten-taugliche Kürzel](images/201508271205_texp-zk.png)
+
+Diese `.textexpander`-Datei kannst du einfach öffnen. Wenn das nicht klappen sollte, kannst du sie mit *drag & drop* in die Liste des Fensters ziehen. Dann erhältst du eine neue Gruppe namens "Zettelkasten" mit den entsprechenden Kürzeln:
+
+- `,,id` fügt eine ID mit Präzision auf die Minute ein, die für Zettel leicht ausreicht.
+- `,,iid` fügt eine ID mit Präzision auf die Sekunde ein, die eben zwei Stellen länger ist, aber manchmal hilft, wenn man zum Beispiel Stellen im Fließtext mit einer Sprungmarke versehen will oder viele Dateien in kurzer Zeit einzigartig benennen möchte.<!--ct: TODO Link auf Blogpost oder Hinweis im Buch-->
+- `,,dd` fügt das Datum nach ISO-Norm ein, also gemäß dem Format "2015-08-27".
+- `,,dt` fügt das Datum und die Zeit ein, also zum Beispiel "2015-08-27 12:10".
+- `qhead` fragt nach einem Titel und Tags und fügt in nvALT einen Header mit entsprechenden Daten ein. Benennt außerdem die Datei um.
+
+Damit kann man schon leichter arbeiten.
+
+Es lohnt sich auch, in TextExpander zum Beispiel bibliographische Angaben mit einem Kürzel zu hinterlegen, wenn man gerade viel an einem Buch arbeitet und die Zeit sparen will, immer wieder in BibDesk die Publikation heraus zu kopieren.
+
+Auch Grußformeln für E-Mails kann man dort hinterlegen. Oder ganze E-Mail Textbausteine für Standardanfragen im Job. Ich fand das anfangs albern, bin aber begeistert, wie viel schneller das geht und vor allem wie wenig fehlerbehaftet ich so schreiben kann.
+
+Es lohnt sich, alles, was du regelmäßig tippen musst, als Kürzel in TextExpander zu hinterlegen. Der Aufwand des Anlegens eines Kurzels zahlt sich mehr aus, als du jetzt wahrscheinlich glaubst.
+
+TextExpander wird mit der Zeit auch neue Textbausteine vorschlagen. Das Programm nennt mir zum Beispiel, dass es sich lohnen könnte, "zum Beispiel" durch ein Kürzel zu ersetzen. Stell dir diese Funktion so vor wie die Auto-Korrektur von Microsoft Word, nur weniger nervig.
+
+Das Erstellen von neuen Zetteln in nvALT würde hiermit aber noch immer einige Arbeitsschritte benötigen:
+
+* Eine neue Datei anlegen,
+* Inhalt schreiben,
+* Datei umbenennen und die ID mit einem Titel einfügen,
+* denselben Titel im Notizinhalt duplizieren.
+
+Das lässt sich weiter automatisieren.
+
+#### Erstellen von Zetteln automatisieren
+
+Das Erstellen von Zetteln in nvALT besteht für mich daraus, einen neuen leeren Zettel anzulegen, den Inhalt zu verfassen, und dann die Metadaten und einen Titel festzulegen.
+
+Das bedeutet im Einzelnen:
+
+* In die Suchleiste von nvALT mit `⌘L` wechseln (anklicken dauert zu lang),
+* alles löschen, was in der Suchleiste stand,
+* eine neue Notiz ohne Namen anlegen, indem ich in der leeren Suchleiste Enter drücke,
+* den Inhalt verfassen,
+* die Notiz umbenennen mit `⌘R` (Doppelklick in die Leiste dauert auch zu lang; "R" steht für "rename") und dort eine ID und den Titel eingeben,
+* mit Tab wieder zurück in das Zettelfenster springen (hier ist das Ziel eines Klicks größer, also ein Klick weniger fehleranfällig oder langsam, aber die Hand zu heben dauert trotzdem zu lang), um den Titel und die ID auch dort einzufügen.
+
+All diese Schritte müsste ich für jeden einzelnen neuen Zettel vollführen. Das schlaucht auf Dauer: nicht, weil es anstrengend ist, sondern gerade weil so viele stumpfsinnige Schritte involviert sind.
+
+Das Setzen der ID mit dem Kürzel `,,id` spart schon viel Zeit beim Ablesen der Uhr. Mit TextExpander kann man das aber noch weiter vereinfachen.
+
+Mit dem `qhead`-Kürzel, das in unserem Download <!--TODO: setze Link auf Buchwebsite --> enthalten ist, kannst du dir die ganzen Tastenkombinationen sparen.
+
+Wenn du TextExpander wie oben geschildert eingerichtet hast, bist du schon bereit, davon zu profitieren.
+
+**Stelle zuerst sicher, dass du in nvALT unter _Ansicht > Spalten_ Tags oder Etiketten abgewählt hast, weil sonst die Tastenkombos nicht funktionieren.**
+
+Um die Funktion in nvALT zu testen,
+
+* erstelle eine neue Notiz (⌘L, löschen, Enter) und schreib irgendeinen Inhalt,
+* tippe das Kürzel `qhead` an beliebiger Stelle im Text,
+* wähle im auftauchenden Fenster von TextExpander einen Titel (die Tags darfst du leer lassen) und bestätige mit der Enter-Taste oder klicke auf "OK".
+
+Dann sollte insgesamt innerhalb einer Sekunde das Umbenennen und das Einfügen einer Kopfzeile oben im Zettel abgeschlossen sein.
+
+Damit sparst du im Laufe der Monate viel Zeit. Außerdem musst du nicht zwischen nervigen und kreativen Aufgaben wechseln und bist damit insgesamt produktiver. 

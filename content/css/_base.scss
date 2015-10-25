@@ -170,6 +170,7 @@ a {
   text-decoration: none;
   border-bottom: 1px solid transparent;
 }
+a.image-link { border-bottom: 0; }
 a:hover {
   color: $color-link;
   border-bottom-color: $color-link;
@@ -317,8 +318,16 @@ hr {
   margin-bottom: 2em;
 }
 
+.textexpander-ad {
+  margin: 0 auto;
+}
+.textexpander__image {
+  max-width: 60%;
+}
 
-
+.book_cover { 
+  max-width: 60%;
+}
 
 /* ==========================================================================
    Media Queries
@@ -395,6 +404,18 @@ hr {
     margin-bottom: 0;
   }
   
+  .textexpander__image {
+    max-width: 8em;
+  }
+  
+  .book_cover {
+    float: left;
+    max-width: 30%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+  }
+  
+  h2 { clear: both; }
 }
 
 @media only screen and (min-width: 900px) {
