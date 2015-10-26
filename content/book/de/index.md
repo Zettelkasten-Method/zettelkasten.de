@@ -2,6 +2,10 @@
 title: Die Zettelkastenmethode, das Buch
 ---
 
+[Looking for an English version?](/book/)
+
+---
+
 <a href="http://www.amazon.de/gp/product/1517734312/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=1517734312&linkCode=as2&tag=saschafastde-21">
     <img src="/img/zettelkasten-book-de.jpg" alt="Zettelkastenmethode Cover" class="book_cover" />
 </a>
