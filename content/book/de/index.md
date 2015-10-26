@@ -1,5 +1,5 @@
 ---
-title: Die Zettelkasten Methode, das Buch
+title: Die Zettelkastenmethode, das Buch
 ---
 
 <a href="http://www.amazon.de/gp/product/1517734312/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=1517734312&linkCode=as2&tag=saschafastde-21">
@@ -36,7 +36,7 @@ Die Downloads aus dem Buch:
 Weil wir TextExpander für Mac so gut finden, haben wir mit den Entwicklern einen Rabatt für unsere Leser ausgehandelt.<img height="0" width="0" src="http://smile.7eer.net/i/176775/227880/2936" style="position:absolute;visibility:hidden;" border="0" />
 
 <div content="textexpander-ad">    
-    <a href="http://smile.7eer.net/c/176775/227880/2936" class="image-link"><img src="textexpander.png" class="textexpander__image"></a>
+    <a href="http://smile.7eer.net/c/176775/227880/2936" class="image-link"><img src="/img/textexpander.png" class="textexpander__image"></a>
     <br />
     <p><a href="http://smile.7eer.net/c/176775/227880/2936">TextExpander mit <b>20% Rabatt</b> kaufen</a></p>
 </div>
