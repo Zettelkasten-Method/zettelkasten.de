@@ -1,0 +1,28 @@
+---
+title: Zettelkasten Method – German Edition Now Available in Stores Worldwide
+created_at: 2015-10-29 12:54:01 +0100
+kind: article
+author: christian
+tags: [ announcement, book ]
+image: 201510291412_zettelkasten-book-de.jpg
+preview: fulltext
+---
+
+Who would've thought Sascha finishes the German edition before I get the English manuscript done?[^me] Now there it is, available on amazon.
+
+ [^me]: _Sascha's Comment:_ Me.
+
+I've added a little announcement at the top of the page already. Here's the text, in case you missed it:
+
+> Staying on top is key to manage knowledge and information. It's important to be quick and have a flexible process you can trust to achieve this.
+> 
+> The Zettelkasten Method is that flexible technique to deal with knowledge in an individual way. You can realize the principles with a few keystrokes without having to learn complex or expensive software.
+> 
+> The Zettelkasten Method is second to none in its power and simplicity. Your Zettelkasten will become the almost invisible helper throughout your day and life.
+
+[Buy on amazon.de (German)](http://www.amazon.de/gp/product/1517734312/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=1517734312&linkCode=as2&tag=saschafastde-21)  
+[Buy on amazon.com (International)](http://amzn.to/1LwqsJ0)
+
+So that's the reason we've been so quiet lately. Sascha was busy writing the book, while I was proof-reading and [doing other stuff](http://christiantietze.de/posts/2015/10/word-counter-130/). There's a lot of cool stuff prepared for the blog already, but we just didn't come about finishing it as of late.
+
+For those of you who can't read German, peek through our [article overview](/posts/overview/) to get started with the Zettelkasten method today.
