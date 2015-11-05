@@ -3,7 +3,7 @@ title: Extend Your Mind and Memory With a Zettelkasten
 created_at: 2013-11-08 17:20:35 +0100
 kind: article
 author: christian
-tags: [ memory, archive, collect ]
+tags: [ memory, archive, collect, connect ]
 image: 201311081719_braingate.jpg
 vgwort: http://vg08.met.vgwort.de/na/b56913c09c314f5da7eff4084e919987
 import:

@@ -3,7 +3,7 @@ title: Create a Zettelkasten for your Notes to Improve Thinking and Writing
 created_at: 2013-06-20 19:38:00 +0200
 author: christian
 kind: article
-tags: [ writing, productivity, zettel ]
+tags: [ writing, productivity, zettel, connect ]
 vgwort: http://vg02.met.vgwort.de/na/5ecb7a3567854388b277be5d1e30893f
 lang: mmd
 import:
@@ -89,7 +89,7 @@ Boiled down, the basic needs of a communication system according to Luhmann [pp 
 
 *   **Irritation:**  basically, without surprise or disappointment there's no information.  Both partners have to be surprised in some way to say communication takes place.
     
-    Stated simply, "surprise" means you stumble upon notes which you hadn't expected.  Your system of notes, on the other hand, receives a new note from you which wasn't there before.
+    Stated simply, "surprise" means you stumble upon notes which you hadn't expected.  Your system of notes, on the other hand, receives a new note from you which wasn't there before. (It's properly called "serendipity".)
     
 *   **Information:** the informativeness of the communication depends first on your expectations and second that both partners use some comparative measure to see if their expectations are met.
 
@@ -103,7 +103,7 @@ Boiled down, the basic needs of a communication system according to Luhmann [pp 
     
     On paper, you could write "see", "cf." or draw an arrow before you reference a note by number, arbitrary index, its title or whatever.  You'd still have to pick up the referenced note by hand if you're interested in its content.  Still, the concept is identical to implementations of hyperlinks in a document on your computer or in its file system, where there are file aliases, [hard links][hal] and [symbolic links][syl].
 
-These criteria -- surprise, information and inner complexity[^terms] -- are the criteria any communication has to meet.  And your system of notes, your _Zettelkasten_ can meet them just as well as a human being.
+These criteria -- <del>surprise</del> serendipity, information and inner complexity[^terms] -- are the criteria any communication has to meet.  And your system of notes, your _Zettelkasten_ can meet them just as well as a human being.
 
 So how do you ensure you establish a communication system with your _Zettelkasten_?
 
@@ -132,7 +132,10 @@ In a nutshell, you'll have to store lots of interconnected notes and forget what
     1. **Hypertext.**  Link to notes by ID to create a hypertextual system of notes.  This is direct connection.
     2. **Keywords.**  You need to find something specific in your 10,000 notes?  Attach keywords or tags to notes to add a second retrieval mechanism.  An index of keywords forms an indirect connection between various notes via generalization to a keyword:  they don't know each other, but they're similar in some respect.  Utilizing full-text search, you won't need to keep track of keywords and notes in an index, though.
 
+
 When you get used to heavily linking notes, your workflow will change.  And so will your system of notes evolve into a _Zettelkasten._
+
+**Update 2015-11-04:** See my post on [weak and strong ties](/posts/2015/10/kinds-of-ties/) for further discussion of connections.
 
 ## Conclusion and Implementation
 

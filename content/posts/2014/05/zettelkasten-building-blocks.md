@@ -3,7 +3,7 @@ title: Building Blocks of a Zettelkasten
 created_at: 2014-05-16 16:16:11 +0200
 kind: article
 author: christian
-tags: [ archive, reference-management, writing ]
+tags: [ archive, reference-management, writing, connect ]
 image: 201405161618_ZK_flow.jpg
 vgwort: http://vg08.met.vgwort.de/na/9f5c9ba1ae6947ba808cef52f7e7d194
 import:
