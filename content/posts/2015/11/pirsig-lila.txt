@@ -1,0 +1,28 @@
+---
+title: Zettelkasten Method in Robert Pirsig's Lila
+created_at: 2015-11-16 11:04:09 +0100
+kind: article
+author: christian
+tags: [ inspiration, paper ]
+url: http://members.optusnet.com.au/charles57/Creative/Idea_Recording/lila.htm
+---
+
+Ever wanted to get a feeling for a paper-based Zettelkasten? Here's a quote or two of [Robert Pirsig's novel _Lila_](http://amzn.to/1PK6RHW), discovered thanks to [Eurobubba](/posts/luedeckes-follow-up/#comment-2346262822):
+
+> Because he didn't pre-judge the fittingness of new ideas or try to put them in order but just let them flow in, these ideas sometimes came in so fat he couldn't write them down quickly enough. The subject matter, a whole metaphysics, was so enormous the flow had turned into an avalanche.
+
+Also: 
+
+> Before long he noticed certain categories emerging. The earlier slips began to merge about a common topic and later slips about a different topic. 
+
+I like how Pirsig calls new notes not yet put into place "unassimilated", too:
+
+> The first was UNASSIMILATED. This contained new ideas that interrupted what he was doing. They came in on the spur of the moment while he was organizing the other slips or sailing or working on the boat or doing something else that didn't want to be disturbed. Normally your mind says to these ideas, "Go away, I'm busy," but that attitude is deadly to Quality. The UNASSIMILATED pile helped solve the problem. He just stuck the slips there on hold until he had the time and desire to get to them.
+
+Haven't read the whole novel, yet, but it's already on its way.
+
+The novel's main character does not use IDs, neither does he keep the notes into a particular order. It's a playful approach where re-ordering is part of the thought process. Scholars from a few hundred years ago have worked in a similar way: re-order until satisfied, then hand off to publisher for printing.
+
+But we won't repear these mistaked ourselved, will we? Links are essential to form a web of notes. And keeping notes around for a lifetime will only make your future projects better.
+
+[Doug Toft claims](http://dougtoft.net/2015/04/25/organizing-11000-ideas-how-robert-pirsig-did-it/) it's Pirsig's own method, by the way.

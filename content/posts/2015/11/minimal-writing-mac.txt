@@ -1,0 +1,21 @@
+---
+title: Minimal Writing on the Mac ebook
+created_at: 2015-11-05 21:33:08 +0100
+kind: article
+author: christian
+tags: [ ebook, announcement, writing, mac ]
+image: 201511052111_minimal-writing-mac.jpg
+preview: fulltext
+---
+
+After Sascha's great release of the Zettelkasten book, here's a short e-book from yours truly. It's a pragmatic guide to get to know the really essential tools for any writer. It's called _Minimal Writing on the Mac_.
+
+You can buy the book on various locations:
+
+* [iBooks Store](https://itunes.apple.com/us/book/minimal-writing-on-the-mac/id1054667648?ls=1&mt=11)
+* [Kindle Store](http://amzn.to/1kx2ofV)
+* PDF, ePub, and kindle files [directly from me](https://sites.fastspring.com/christiantietze/instant/minimalmacwriting)
+
+Also take a look at the [Productive Writer's Bundle](http://writersbundle.com) where I participate with the [Word Counter for Mac](http://wordcounterapp.com) this November.
+
+Since I'm trying to make a living of my work, it'd be awesome if you shared this with friends and on social media to support me and my writing.

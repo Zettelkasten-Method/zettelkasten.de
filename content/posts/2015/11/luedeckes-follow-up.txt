@@ -1,0 +1,19 @@
+---
+title: Daniel's Follow-Up About Folgezettel
+created_at: 2015-11-05 20:04:30 +0100
+kind: article
+author: christian
+tags: [ archive ]
+url: https://strengejacke.wordpress.com/2015/11/01/you-underestimate-the-power-of-the-dark-folgezettel/
+preview: fulltext
+---
+
+In response to [Sascha's post about _Folgezettel_][folge], Daniel published a [reaction][dan] which was intended to clarify some misunderstandings. Turns out that even after that post and [52 comments][comm], it's not quite clear where all of us seem to disagree.
+
+Sascha is pointing out that both _Folgezettel_ and hyperlinks adhere to the principle of connectivity, and that a Folgezettel can be realized with links, and is not even something differerent on its own. That's where Daniel disagrees. But he goes even further and claims that _Folgezettel_ is more fundamental than links are.
+
+If you have something to say, write a blog post and tell us about it so we can link to it in this discussion.
+
+[folge]: /posts/luhmann-folgezettel-truth/
+[dan]: https://strengejacke.wordpress.com/2015/11/01/you-underestimate-the-power-of-the-dark-folgezettel/
+[comm]: http://zettelkasten.de/posts/luhmann-folgezettel-truth/#comments
