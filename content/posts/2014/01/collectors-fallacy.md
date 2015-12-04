@@ -70,7 +70,7 @@ Shorter cycles of research, reading, and knowledge assimilation are better than 
 
 The habit of keeping the cycle of research, reading, and knowledge assimilation short is a powerful way to circumvent our innate addiction to gather piles of stuff.
 
-**Update 2014-07-17:** <ins title="added 2014-07-17 17:07:00 +0200">More recently, I wrote about this topic and included a more elaborate schedule to form a counter-habit. It's called <a href="/posts/2014/07/knowledge-cycle-efficiently-organize-writing-projects">the Knowledge Cycle</a>.</ins>
+**Update 2014-07-17:** <ins title="added 2014-07-17 17:07:00 +0200">More recently, I wrote about this topic and included a more elaborate schedule to form a counter-habit. It's called <a href="/posts/knowledge-cycle-efficiently-organize-writing-projects/">the Knowledge Cycle</a>.</ins>
 
 To form a habit, you have to set yourself actionable limits and keep score.
 
@@ -85,7 +85,7 @@ Repeat the cycle and keep track of your perceived productivity until you establi
 Want to stop collecting with no end and start to get productive?  Try the routine and tell me how it works for you.  What time cap did you end up with?
 
 [mk]: http://takingnotenow.blogspot.com/2013/11/devonthink-reconsidered.html
-[extend]: /posts/2013/11/extend-your-mind-and-memory-with-a-zettelkasten/
+[extend]: /extend-your-mind-and-memory-with-a-zettelkasten/
 
 [#eco2007abschlussarbeit]: Umberto Eco (2007):  _Wie man eine wissenschaftliche Abschlußarbeit schreibt_, Heidelberg: Müller.
 
