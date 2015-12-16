@@ -107,6 +107,8 @@ module My
         
         if author == "Marko Wenzel"
           return %Q{by Marko Wenzel}
+        elsif author == "Peter Buyze"
+          return %Q{by DutchPete}
         elsif author == "Erik Pfeiffer"
           return "by Erik Pfeiffer"
         end
@@ -118,8 +120,10 @@ module My
       def contact_tag_for(item)
         author = item[:author] || 'christian'
         
-        if author == "Marko Wenzel"
-          return ""
+        # Guest bloggers
+        case author
+        when "Marko Wenzel", "Erik Pfeiffer" then return ""
+        when "Peter Buyze" then return %Q{&bull; <a href="https://plus.google.com/+PeterBuyze">Google+</a>}
         end
         
         gplus = case author
@@ -128,7 +132,8 @@ module My
                 end
         twitter = case author
                   when 'sascha' then 'saschafast'
-                  else 'ctietze'
+                  when 'ctietze' then 'ctietze'
+                  else ''
                   end
         
         %Q{&bull; <a href="#{gplus}">Google+</a>, <a href="https://www.twitter.com/#{twitter}">Twitter</a>}
