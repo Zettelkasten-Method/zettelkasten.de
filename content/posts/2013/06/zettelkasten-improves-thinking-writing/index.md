@@ -135,7 +135,7 @@ In a nutshell, you'll have to store lots of interconnected notes and forget what
 
 When you get used to heavily linking notes, your workflow will change.  And so will your system of notes evolve into a _Zettelkasten._
 
-**Update 2015-11-04:** See my post on [weak and strong ties](/posts/2015/10/kinds-of-ties/) for further discussion of connections.
+**Update 2015-11-04:** See my post on [weak and strong ties](/posts/kinds-of-ties/) for further discussion of connections.
 
 ## Conclusion and Implementation
 
