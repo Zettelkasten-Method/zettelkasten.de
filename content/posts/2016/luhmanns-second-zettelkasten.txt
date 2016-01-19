@@ -1,0 +1,115 @@
+---
+title: Why Luhmann Had to Start a Second Zettelkasten
+created_at: 2016-01-19 10:11:02 +0100
+kind: article
+author: sascha
+tags: [ luhmann, archive, project ]
+image: 201601191012_tree.jpeg
+vgwort: http://vg06.met.vgwort.de/na/bd66ccddb661407f9f3e921ce2099928
+---
+
+If you are familiar with the latest research on Luhmann’s original Zettelkasten you already know that his first Zettelkasten is not lost. 
+
+That's right: he had *two* archives over the years. Somehow, a rumor did arise that he lost his first Zettelkasten. It was said that he had to start a new one because of that. 
+
+Now we have evidence that he never lost his Zettelkasten in the first place. That means that we are in charge to understand why he started a second one nevertheless. Couldn't he just continue his work and trust that the Zettelkasten adapts to the new input? After all, that is what he said about his method: It adapts to imposed demands.
+
+To solve this riddle, we have to dive into his own systems theory. He stated that his Zettelkasten is a system on its own, so we will start from here. 
+
+## What constitutes a system?
+
+The following are foundational concepts of systems theory which help understand how a system is constituted:
+
+1. **The system--environment border.** Following Luhmann, a system is constituted by the difference of itself and its environment. *Example:* Society is not the people and their relationships. Society is the dissociation of itself from everything else. People *are* not society hence they are not part of it.  
+2. **Autopoiesis.** A system is able to reproduce and maintain itself. A cell is a system because it reproduces itself with its own operations (because of another reasons, too). It needs material, sure. But the self-reproduction relies on its own operations only.
+3. **Closed-ness of Operation.** An operation can only connect with operations of the same system. You cannot extend your thoughts outside your mind. Your eyes’s neurons cannot make contact with their environment. 
+
+That entails that Luhmann had to close the system--environment border of the Zettelkasten in order to make it a system. The Zettelkasten had to be autopoietic, it reproduces only with its own elements. It can only connect to its own operations. 
+
+Communication can only occur when the two communicating systems are closed and cannot connect directly. If the Zettelkasten hadn't been closed, Luhmann wouldn’t have been able to *communicate* with it. Communication is always indirect in this perspective. You can't download thoughts from another consciousness but trust the ability of language to couple your with another. Because of that there is the possibility of surprise.
+
+## His theory is a super theory
+
+> As I began to work at the 1969 founded faculty of sociology of the University of Bielefeld, I was confronted with the request to name research projects I work on. My project was: a theory of society; Duration: 30 years; Costs: none.[^1]
+
+Even in the beginning of the 60s, he was all about his monstrous super theory. What is a super theory? A super theory is a theory that is self-referential.[^luhmann1984] That means that a super theory about society includes assertions about super theories about society. 
+
+ [^luhmann1984]: Niklas Luhmann (1984):  Soziale Systeme, Frankfurt/M: Suhrkamp, pp. 15-91.
+
+This is a big chunk of work. Hard to keep an overview.
+
+With his *technique* (not principle!) of [Folgezettel][nofolgezettel] he had the opportunity to grow a super theory in an organic way: it grows where it needs to grow in reaction to the environment. 
+
+But he already started his first Zettelkasten prior to that project. It grew in another direction for a long time. He needed a solution. So he had to generate a Zettelkasten that is directed to his needs.
+
+  [nofolgezettel]: http://zettelkasten.de/posts/luhmann-folgezettel-truth/
+
+## Luhmann had to start a new system
+
+His super theory of society needed to be closed to be a system. I imagine the new Zettelkasten to be like a new bonsai grown with artificial [vegetative reproduction](https://en.wikipedia.org/wiki/Vegetative_reproduction) from the old one. If you want to have two plants you need to cut them apart. 
+
+A fresh start is what he needed and his first Zettel defines the new course:
+
+> Einleitung. Es muß versucht werden, die Methoden und Begriffe so klar als irgend möglich zu explizieren, damit ihre Unzulänglichkeit und Unvollkommenheit deutlich wird. 
+
+> Introduction. It has to be tried to explicate the methods and concepts as thorough as possible to expose their inadequacies and defectivenesses.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4veq2i3teVk" frameborder="0" allowfullscreen></iframe>
+
+<!--ct: nocookies Variante auswählen, weil unsere Besucher uns wichtig sind--><!--sf: Viel Spaß dabei -->
+
+A new bonsai, a very beautiful and mighty one, will grow from this little stem. It will lean on his mother sometimes (it refers to the old Zettelkasten to some extent) but will be an entity on its own. 
+
+My hypothesis: One of the best ways to describe Luhmann’s Zettelkasten is that it’s a organically grown system that can be read as a theory of theories. Why else would you need an introduction?
+
+Luhmann stated that he had big problems during the writing process of his books. It was hard to put the chapters in order. He theoretically would have had to include all the other chapters in every single chapter to complete the reasoning. The books are highly self-referential. That is because they are little offsprings of the Zettelkasten and follow the same rules of hypertext. The books are groomed and cultivated to please the reader (be understandable) but they still inherit the basic predispositions of his Zettelkasten.
+
+If you follow the metaphor then his Zettelkasten is a wild and mighty bonsai strain which serves as the base for more cultivated offsprings.
+
+## Luhmann’s Zettelkasten does not show *the* Zettelkasten Method
+
+This was an important insight for me and the first evidence of research  confirms my statement. He applied several principles for his specific needs:
+
+1. Craft a tool to generate his super theory of society.
+2. Deal with his notes and their physical limitations.
+3. Generate a productive work flow.
+
+With these prerequisites, we have important criteria to distinguish a Zettelkasten from any other note taking system:
+
+**A Zettelkasten is a *system* of notes that fit the criteria of being a system. Being alive vs. being a machine is a good metaphor to understand the difference. A Zettelkasten is alive, a conventional note taking system is a machine.**
+
+I refer to the Zettelkasten *Method* as a set of principles applied to reading, note taking, and writing, and the interaction of these principles. 
+
+Luhmann used the method. He realized the principles through a specific set of techniques. From this perspective, you can understand what the function of the Folgezettel is. It is a means to allow organic growth. You can clearly see the similarities between Folgezettel and categories. But Folgezettel are not predefined while categores are, and therefore they are highly adaptable.
+
+Folgezettel are not needed to close the system or let the system set its own border against the environment. 
+
+Luhmanns intent was to create an organic growing system -- [not to implement Folgezettel][nofolgezettel].
+
+## Dan Sheffler’s Zettelkasten
+
+First, I was deeply skeptical about Dan Sheffler’s <!--ct: TODO an mich: link auf Dans Seite-->setup. His naming scheme results in some kind of categories [as Christian discussed][cats]. Since categories impose more inflexibility compared to tags I thought that his approach was too restricted to let the magic of a Zettelkasten unfold to its fullest.
+
+Now I have to radically revise my opinion.
+
+As I understand the purpose of Dan's Zettelkasten, he uses it to support his philosophical studies. There is a main difference to my approach. I have several different projects and my Zettelkasten doesn’t have a single purpose. I include every topic in my archive ranging from philosophy, sociology, or history to practical tips for publication, exercise lists, and plants suitable for an oxygen-rich flat.
+
+A Zettelkasten like Dan Sheffler’s or Luhmann’s wouldn’t fit my purposes. I used Folgezettel and experienced the technique to be an unnecessary restriction in my workflow. But if you have a very specific need the concept of Folgezettel can be highly beneficial. It streamlines the content which results in a higher ease of use of the Zettelkasten. 
+
+Dan did a great job with his naming strategy to harness this opportunity to create benefit. I take my hat off to Dan.
+
+[cats]: /posts/no-categories/
+
+## Is my Zettelkasten still a Zettelkasten?
+
+I recall that Luhmann stated that an ecosystem is not a system in Luhmann's sense. I am wondering if I need to model my Zettelkasten more as an [ecological system](https://en.wikipedia.org/wiki/Ecosystem) and not as an [autopoietic system](https://en.wikipedia.org/wiki/Autopoiesis). I have sub-entities that look very similar to a Folgezettel-based Zettelkasten within my archive. But a Zettel doesn’t have to be connected. It can stand alone in my archive forever. That would disqualify my approach to be called a "Zettelkasten" because a Zettelkasten is a closed autopoeitic system and not an ecosystem.
+
+It would be a fun irony of fate if my pursuit to create a Zettelkasten and develop a toolbox for everyone to create his own Zettelkasten would have led me to a non-Zettelkasten Zettelkasten.
+
+I am excited to solve this next riddle of my Zettelkasten. Of course, I will keep you updated with my thoughts on the difference of an ecosystem vs. a autopoietic system.
+
+[^1]:	My translation of Niklas Luhmann (1997):  Die Gesellschaft der Gesellschaft, Frankfurt/M: Suhrkamp. S.11: "Bei meiner Aufnahme in die 1969 gegründete Fakultät für Soziologie der Universität Bielefeld fand ich mich konfrontiert mit der Aufforderung, Forschungsprojekte zu benennen, an denen ich arbeite. Mein Projekt lautete: Theorie der Gesellschaft; Laufzeit: 30 Jahre; Kosten: keine."
+
+---
+
+**Christian's Comment**:  When Sascha had the epiphany he wasn't feeding a project-/theory-specific Zettelkasten like Luhmann did, the ensuing talks were very informative. Now we all of a sudden had a new framework to understand what we were up to, what collectors in general _may_ be up to, and what some Lumann and Folgezettel enthusiasts probably didn't understand in our explications! 
