@@ -19,9 +19,9 @@ Compass.add_project_configuration 'compass_config.rb'
 ENV['NANOC_ENV'] ||= 'development'
 
 BYPASS_FILES = %w(404.html crossdomain.xml humans.txt robots.txt googlebd82924855df6b5d.html) unless defined?(BYPASS_FILES)
-DEPLOYED = ENV['NANOC_ENV'] == 'deployment' # suppresses CacheBuster in development
+is_deploying = false
 
-class Nanoc::Int::RuleContext
+class Nanoc::RuleDSL::RuleContext
   # Null CacheBuster replacement
   def fingerprint(something)
     ''
@@ -131,7 +131,7 @@ compile '/js/*/' do
 end
 
 compile '/img/*/' do
-  #filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary? && DEPLOYED
+  #filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary? && is_deploying
 end
 
 compile %r{^/(sitemap|htaccess)/$} do
@@ -159,20 +159,20 @@ compile '/posts/tags/' do
   filter :typogruby
     
   layout 'plain'
-  filter :cache_buster if DEPLOYED
+  #filter :cache_buster if is_deploying
 end
 
 compile '/posts/tags/*/' do
   filter :erb
   
   layout 'tags'
-  filter :cache_buster if DEPLOYED
+  #filter :cache_buster if is_deploying
 end
 
 compile %r</posts/\d{4}(/\d{2})?/$> do
   filter :erb
   layout 'plain'
-  filter :cache_buster if DEPLOYED
+  #filter :cache_buster if is_deploying
 end
 
 compile '/posts/overview/' do
@@ -181,7 +181,7 @@ compile '/posts/overview/' do
   filter :typogruby
   
   layout 'plain'
-  filter :cache_buster if DEPLOYED
+  #filter :cache_buster if is_deploying
 end
 
 compile '/posts/*/' do
@@ -206,7 +206,7 @@ compile '/posts/*/' do
       #filter :redcarpet, :renderer => Redcarpet::Render::HTML_TOC, :renderer_options => { :with_toc_data => true }
     end
     
-    filter :cache_buster if DEPLOYED
+    #filter :cache_buster if is_deploying
   end
 end
 
@@ -238,7 +238,7 @@ compile '/*' do
       # layout 'default' # use if basic `section > h1` setting doesn't suffice
     end
     
-    filter :cache_buster if DEPLOYED
+    #filter :cache_buster if is_deploying
   end
 end
 
@@ -276,12 +276,12 @@ route 'sitemap' do
 end
 
 route '/css/*/' do
-  fp = DEPLOYED ? fingerprint(item[:filename]) : ''
+  fp = is_deploying ? fingerprint(item[:filename]) : ''
   item.identifier.chop + fp + '.css'
 end
 
 route '/js/*/' do
-  fp = DEPLOYED ? fingerprint(item[:filename]) : ''
+  fp = is_deploying ? fingerprint(item[:filename]) : ''
   item.identifier.chop + fp + '.js'
 end
 
