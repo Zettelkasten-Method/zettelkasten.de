@@ -4,7 +4,7 @@
     var disqus_shortname = '<%= Comments::shortname_for(@item) %>';
     var disqus_identifier = '<%= Comments::identifier_for(@item) %>';
     var disqus_title = '<%= Comments::title_for(@item) %>';
-    var disqus_url = '<%= [@site.config[:base_url], @item.path].join() %>';
+    var disqus_url = '<%= [@config[:base_url], @item.path].join() %>';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

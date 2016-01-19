@@ -15,8 +15,8 @@ unless defined? LOADED_DEFAULT_CONFIG
   include Nanoc::Helpers::Rendering
 
   # cache busting
-  require 'nanoc/cachebuster'
-  include Nanoc::Helpers::CacheBusting
+  #require 'nanoc/cachebuster'
+  #include Nanoc::Helpers::CacheBusting
   
   # image compression
   require 'nanoc/filters/image_compressor'
@@ -37,11 +37,11 @@ unless defined? LOADED_DEFAULT_CONFIG
   #   <meta name="keywords" value="...">
   #
   # Here, '...' is either the value of @item[:keywords] or that of
-  # @site.config[:keywords].
+  # @config[:keywords].
   #
   # via https://github.com/avdgaag/nanoc-template
   def meta_tag(key)
-    value = @item[key] || @site.config[:meta_data][key]
+    value = @item[key] || @config[:meta_data][key]
     '<meta name="%s" content="%s">' % [key, value] if value
   end
   

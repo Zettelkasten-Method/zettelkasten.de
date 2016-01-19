@@ -53,7 +53,7 @@ In the same vein, links structure the mess. Instead of an otherwise unsorted pil
 
 As [Dan Sheffler put it][dan] in the comments of an older post: 
 
-> When one creates a new note and looks for which notes to connect it too [sic!], the preexisting connections between old notes lead you to more notes than you would get by memory or search alone.
+> When one creates a new note and looks for which notes to connect it too \[sic!\], the preexisting connections between old notes lead you to more notes than you would get by memory or search alone.
 
 The resulting web of connections is more than just a sequence of searches.
 

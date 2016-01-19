@@ -21,45 +21,31 @@ ENV['NANOC_ENV'] ||= 'development'
 BYPASS_FILES = %w(404.html crossdomain.xml humans.txt robots.txt googlebd82924855df6b5d.html) unless defined?(BYPASS_FILES)
 DEPLOYED = ENV['NANOC_ENV'] == 'deployment' # suppresses CacheBuster in development
 
+class Nanoc::Int::RuleContext
+  # Null CacheBuster replacement
+  def fingerprint(something)
+    ''
+  end
+end
+
 class Nanoc::Site
   attr_accessor :tags
 end
 
 # from https://github.com/mgutz/nanoc3_blog/blob/master/Rules
 preprocess do
+  config[:env] = ENV['NANOC_ENV'] ||= 'development'
+  config[:is_deploying] = config[:env] == 'deployment'
+  is_deploying = config[:is_deploying]
+  
   # authors may unpublish items by setting meta attribute publish: false
   items.delete_if { |item| item[:publish] == false }
-  
-  # def paginate_worklog
-  #   rest = posts()
-  #   pages = []
-  #   page_size = @config[:page_size]
-  #
-  #   until rest.empty?
-  #     pages << rest.slice!(0..page_size-1)
-  #   end
-  #
-  #   pages.each_with_index do |subarticles, i|
-  #     first = i * page_size + 1
-  #     last  = (i + 1) * page_size
-  #     page = i + 1
-  #
-  #     @items << Nanoc::Item.new(
-  #       "<%= render '_posts_page', :page => #{page} %>",
-  #       {
-  #         :title => "Worklog",
-  #         :mtime => Time.parse(latest_post("worklog")[:created_at].to_s) # for the sitemap
-  #       },
-  #       "/posts/pages/#{page}/"
-  #     )
-  #   end
-  # end
   
   def tag_posts
     tags = tags()
     
     tags.each do |tag|
-      @items << Nanoc::Item.new(
+      @items.create(
         "",
         {
           :title => %Q{Posts tagged &ldquo;#{tag}&rdquo;},
@@ -70,8 +56,6 @@ preprocess do
         "/posts/tags/#{tag}"
       )
     end
-    
-    @site.tags = tags
   end
   
   def years_and_months(posts)
@@ -90,7 +74,7 @@ preprocess do
   years, months = years_and_months(posts())
 
   years.each do |year|
-    @items << Nanoc::Item.new(
+    @items.create(
       "<%= render '_posts_per_time', :from => '#{year}-01-01', :to => '#{year}-12-31' %>",
       {
         :title => %Q{Posts from #{year}},
@@ -106,7 +90,7 @@ preprocess do
     last_day = Date.new(month[:year], month[:month], -1).iso8601
     padded_month = "%02d" % month[:month]
     
-    @items << Nanoc::Item.new(
+    @items.create(
       "<%= render '_posts_per_time', :from => '#{first_day}', :to => '#{last_day}' %>",
       {
         :title => %Q{Posts from #{month_title} #{month[:year]}},
@@ -138,7 +122,7 @@ end
 compile '/css/*/' do
   filter :erb          # Use erb to enable timestamps and author information and such.
   filter :sass, Compass.sass_engine_options
-  filter :cache_buster
+  #filter :cache_buster
 end
 
 compile '/js/*/' do
@@ -303,19 +287,15 @@ end
 
 route '/posts/*' do
   if item.binary?
-    # Write item with identifier /foo/ to /foo.ext
-    the_route = "" + item.identifier
-    id, post_route = extract_identifiers(the_route)
-    post_id, parent_route = extract_identifiers(post_route)
-    
-    '/posts/' + post_id + id.chop + '.' + item[:extension]
+    id = item.identifier.components.last
+    post_id = item.identifier.components[-2]
+
+    '/posts/' + post_id + "/" + id + '.' + item[:extension]
   elsif item[:kind] == 'article'
-    id = ""+item.identifier
-    id.slice!(item.parent.identifier)
-    
-    '/posts/' + id + 'index.html'
+    id = item.identifier.components.last
+    '/posts/' + id + '/index.html'
   else 
-    item.identifier + 'index.html'
+    item.identifier + '/index.html'
   end
 end
 

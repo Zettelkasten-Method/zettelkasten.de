@@ -8,7 +8,7 @@ url: http://aworkinglibrary.com/writing/deploy/
 ---
 
 
-> What if you could publish _iteratively_, bit by bit, at each step gathering feedback from your readers and refining the text. Would our writing be better? Iteration in public is a principle of nearly all good product design; you release a version, then see how people use it, then revise and release again. [...] The faster the release cycle, the more opportunities for revision—and, often, the better the product itself.  
+> What if you could publish _iteratively_, bit by bit, at each step gathering feedback from your readers and refining the text. Would our writing be better? Iteration in public is a principle of nearly all good product design; you release a version, then see how people use it, then revise and release again. \[...\] The faster the release cycle, the more opportunities for revision—and, often, the better the product itself.  
 > ---["Deploy" by Mandy Brown][art]
 
 This resonates well with me. I tackle a lot of real-life problems in the way of your typical programmer. I try to find problems, invent solutions, test and revise. I think this would work great in science writing, too. (Read [the article][art] and the other parts of the series. In fact, go and take a look at the whole website.)

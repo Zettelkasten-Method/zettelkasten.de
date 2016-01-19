@@ -30,8 +30,6 @@ Die Dropbox soll nicht der Sicherung deiner Daten dienen. Dafür hast du hoffent
 
 [Lade das Program][dropbox] und folge der Installationsanleitung. Einmal installiert gibt es nichts weiter zu tun. Du wirst nun einen neuen Ordner in deinem Nutzerverzeichnis haben, der "Dropbox" heißt, und um dessen Synchronisation mit anderen Geräten und der Weboberfläche sich das Programm von selbst kümmert.
 
-[dropbox]: http://dropbox.com
-
 ##### BibDesk als Literaturverwaltungsprogramm
 
 BibDesk ist das Literaturverwaltungsprogramm unserer Wahl für den Mac.

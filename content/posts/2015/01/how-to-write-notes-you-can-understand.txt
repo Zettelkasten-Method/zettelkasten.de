@@ -63,7 +63,7 @@ I have different types of Zettels. Sometimes a Zettel describes an entity. For e
 
 Every hormone has its own Zettel. I pulled this form from Meadows [Thinking in Systems][sys].[^aff] I used the stock-flow distinction of her:
 
-"**Stocks** are the elements that you can see, feel, count, or measure at any given time. A system stock is just what it sounds like: a store, a quantity, an accumulation of material or information [...]." (Meadows, p 17/18, my emphasis)
+"**Stocks** are the elements that you can see, feel, count, or measure at any given time. A system stock is just what it sounds like: a store, a quantity, an accumulation of material or information \[...\]." (Meadows, p 17/18, my emphasis)
 
 "**Flow**: Material or information that enters or leaves a stock over a period of time." (Meadows, p 187) "Stock s change over time **through the actions of a flow**." (Meadows, p 18, my emphasis)
 

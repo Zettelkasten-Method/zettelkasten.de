@@ -130,7 +130,7 @@ We've seen the usage of MultiMarkdown already when I showcased my own note.  I u
 
 On the other hand, [one could say][word] that as long as Microsoft exists, there'll be a Microsoft Word.  If Microsoft as a company outlives us, then we're going to be able to rely on `.doc` files for our entire lifetime.  Vendor lock-in is only a problem when the company stops to support the application -- but that seems unlikely in the case of Word:
 
-> So yes, [plain text] should last forever. But I think Word -- like jpeg for photos -- is going to be around for a very long time too. And it's worth remembering that for writers these are intermediate formats -- in the end you wind up as digital media, whether it's Kindle, mobi, epub or whatever, all of them capable of being reverse engineered. The chances of being lost are, it seems to me, are extraordinarily remote.
+> So yes, \[plain text\] should last forever. But I think Word -- like jpeg for photos -- is going to be around for a very long time too. And it's worth remembering that for writers these are intermediate formats -- in the end you wind up as digital media, whether it's Kindle, mobi, epub or whatever, all of them capable of being reverse engineered. The chances of being lost are, it seems to me, are extraordinarily remote.
 > ([David Hewson][word])
 
 When you use a plain text markup language like Markdown (or the MultiMarkdown flavor), you have a common standard to transform your text notes into something else, like PDFs for example.

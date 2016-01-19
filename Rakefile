@@ -2,7 +2,6 @@
 
 require "rubygems"
 require "bundler/setup"
-require 'nanoc3/tasks'
 require 'rake/pathmap'
 require "fileutils"
 

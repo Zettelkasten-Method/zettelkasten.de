@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="<%= @item[:lang] || @site.config[:meta_data][:lang] %>" class="no-js ie ie6 lte7 lte8 lte9"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="<%= @item[:lang] || @site.config[:meta_data][:lang] %>" class="no-js ie ie7 lte7 lte8 lte9"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="<%= @item[:lang] || @site.config[:meta_data][:lang] %>" class="no-js ie ie8 lte8 lte9"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="<%= @item[:lang] || @site.config[:meta_data][:lang] %>" class="no-js ie ie9 lte9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="<%= @item[:lang] || @site.config[:meta_data][:lang] %>" class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7 ]> <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js ie ie6 lte7 lte8 lte9"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js ie ie7 lte7 lte8 lte9"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js ie ie8 lte8 lte9"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js ie ie9 lte9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title><%= @item[:title] + " &bull; " if @item[:title] %><%= @site.config[:meta_data][:title] %></title>
+    <title><%= @item[:title] + " &bull; " if @item[:title] %><%= @config[:meta_data][:title] %></title>
     <%= meta_tag :description %>
     <%= meta_tag :copyright %>
     <%= meta_tag :author %>
@@ -21,9 +21,9 @@
       <meta name="og:title" content="<%= @item[:title] %>">
       <meta name="og:type" content="article">
       <meta name="og:article:published_time" content="<%= @item[:created_at]%>">
-      <meta name="og:url" content="<%= @site.config[:base_url] + @item.path %>">
-      <%= Post::teaser_open_graph_for(@item, @site) %>
-      <meta name="og:site_name" content="<%= @site.config[:meta_data][:title] %>">
+      <meta name="og:url" content="<%= @config[:base_url] + @item.path %>">
+      <%= Post::teaser_open_graph_for(@item, @config) %>
+      <meta name="og:site_name" content="<%= @config[:meta_data][:title] %>">
     <% end %>
     
     <link rel="publisher" href="https://plus.google.com/102196782706238603750">
@@ -85,7 +85,7 @@
     <script src="/js/main.js"></script>
 
     <script>
-        var _gaq=[['_setAccount','<%= (ENV['NANOC_ENV'] == 'deployment') ? @site.config[:meta_data][:ga_tracking_code] : '' %>'],['_trackPageview']];
+        var _gaq=[['_setAccount','<%= (ENV['NANOC_ENV'] == 'deployment') ? @config[:meta_data][:ga_tracking_code] : '' %>'],['_trackPageview']];
         (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
         g.src='//www.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g,s)}(document,'script'));

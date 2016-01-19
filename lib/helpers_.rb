@@ -1,2 +1,2 @@
-include Nanoc3::Helpers::XMLSitemap
+include Nanoc::Helpers::XMLSitemap
 include My::Blog

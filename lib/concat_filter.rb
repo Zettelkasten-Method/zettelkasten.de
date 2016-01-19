@@ -21,7 +21,7 @@
 #
 # Files are looked up relative to the current file, or in the
 # top-level vendor directory.
-class ConcatFilter < Nanoc3::Filter
+class ConcatFilter < Nanoc::Filter
   identifier :concat
 
   def run(content, args = {})

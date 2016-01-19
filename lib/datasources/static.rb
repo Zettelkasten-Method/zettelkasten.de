@@ -20,7 +20,7 @@ module Nanoc::DataSources
         mtime      = File.mtime(filename)
         checksum   = checksum_for(filename)
 
-        Nanoc3::Item.new(
+        Nanoc::Item.new(
           filename,
           attributes,
           identifier,

@@ -158,11 +158,11 @@ module My
         %Q{<figure class="post-teaser"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image"/></a></figure>}
       end
       
-      def teaser_open_graph_for(item, site)
+      def teaser_open_graph_for(item, config)
         path = Post::teaser_path_for(item)
         return unless path
         
-        %Q{<meta name="og:image" content="#{site.config[:base_url] + path}">}
+        %Q{<meta name="og:image" content="#{config[:base_url] + path}">}
       end
     
       def tom_pixel_for(item)
@@ -193,7 +193,7 @@ module My
     end
     
     def posts(kind = "article")
-      @site.items.select { |item| item[:kind] == kind }
+      @items.select { |item| item[:kind] == kind }
     end
     
     def tags(kind = "article")
