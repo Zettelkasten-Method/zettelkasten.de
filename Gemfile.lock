@@ -71,7 +71,7 @@ GEM
     nanoc-javascript-concatenator (0.0.2)
       nanoc (>= 3.3.0)
     nenv (0.2.0)
-    nokogiri (1.6.7.1)
+    nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     notiffany (0.0.8)
       nenv (~> 0.1)

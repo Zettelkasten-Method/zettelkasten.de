@@ -1,0 +1,126 @@
+---
+title: First Draft from Outline – a Compiler Script
+created_at: 2016-01-25 09:42:23 +0100
+kind: article
+author: christian
+tags: [ assemble, writing, script, tool ]
+vgwort: http://vg01.met.vgwort.de/na/c67bda12b3164b88a002a5a6070ade42
+---
+
+Last week I completed a script to help automate the process of compiling a first draft from an outline and Zettel notes. You can find it [on GitHub][render] or install it as a gem from the terminal: `gem install zettel_outline`. Learn more about the format it supports and how you can adopt it to your Zettelkasten note archive.
+
+The current version 0.1.0 supports Sascha's and my note archives. Our notes adhere to a similar convention. If yours don't, you'll have to tweak the script until it works -- contributions are highly welcome! I cannot cover every edge case of every note archive convention myself, so you will have to dirty your own hands for now to adapt it to your needs.
+
+[render]: https://github.com/DivineDominion/zettel-outline-rendering
+
+## Why Outlines?
+
+Outlines are useful to [write anything][out]. Back in 2013 (!) I wrote about [how to "ease into writing"][method] using an outline with Zettel note references. Then I showed how to re-create this method with a project Zettelkasten [using Evernote][ever]. Not too long ago, Sascha explained [how one of his manuscripts came about][case] using the method of organically growing outlines. 
+
+The outlines are converted to the first draft of the final text by hand in a step we call "assembling": you paste in a Zettel note wherever a Zettel reference is. Referencing is easy thanks to [Zettel note IDs](ident). You see, outlines and Zettel notes can like each other very much. 
+
+[out]: /posts/how-i-use-outlines-to-write-any-text/
+[method]: /posts/ease-into-writing/
+[case]: /posts/write-book-without-even-trying-so-hard/
+[ever]: /posts/2015/06/evernote-project-progress-invitation/#outlines
+
+## How an Outlines Becomes a Draft
+
+My draft outline in Evernote contains a section like this (see the full outline [here](https://www.evernote.com/shard/s4/sh/413d8138-ed87-4cb5-9b2e-4365612655ef/9dd42d31327b571c05e1055afb608c80)):
+
+> Introduction: Should we be allowed to disagree and break with our families?
+> 
+> * The case of 18-year old Nasser, sueing his parents for trying to abduct him and force-marry to someone he didn't care about
+>     * §201505251140 Nasser's Case 
+>     * §201505202128 Concept Forced Marriage
+> * While it's necessary to look at his parent's claims to fully understand the situation, it isn't necessary to understand their point in order to judge Nasser's actions. 
+>     * Not the truth of Nasser's convictions or that of his parents are important. Their coherent set of convictions matters monstly.
+>     * §201506251030 How to live: Responsibility for our lives VS Accuracy of moral convictions
+>     * How can we resolve the issue that both parties may be equally convinced in and equally morally responsible for their actions? 
+>     * -- We will turn to authenticity, and owning one's live, and that Nasser's parents violate the principle of non-harmful interfering.
+>     * §201503192013 Swim-lane metaphor for morals and ethics
+>     * §201503230933 Concept authenticity
+> * We have to understand his point of view and his system of values first and foremost. It doesn't make sense to try and force an external template onto a complex interpretive system. (We'll see why that is so.) 
+>     * §201506120831 Interpretations have truth-value
+> * What does it mean to marry someone, anyway?
+>     * §200910011300 Concept Institution
+>     * §200912061046 Concept social role
+>     * §201506211426 What is marriage?
+
+
+It's a nested list. Some items are comments or headings, some are Zettel references. Since Sascha and I usually work in plain text, it looks a bit different when not rendered for the web:
+
+    * What does it mean to marry someone, anyway?
+        * §200910011300 Concept Institution
+        * §200912061046 Concept social role
+        * §201506211426 What is marriage?
+
+The pattern is simple: items start with an asterisk or a dash; sub-items are be indented by 4 spaces or a tabular character. That's what lists look like in [Markdown](https://daringfireball.net/projects/markdown/).
+
+When I invoke the script from the terminal like this:
+
+    $ zettel_outline -f outline.txt -a ~/Archive/ -o draft.txt
+
+... I end up with a new file called `draft.txt` that contains the contents of each references Zettel note:
+
+    <!-- §200910011300 Concept Institution -->
+    
+    When two people recognize recurring actions as types of actions, 
+    and when this typification is reciprocal, that is, 
+    both share this assessment. Institutions are like agreements, 
+    only implicit. You perform actions and someone else forms justified
+    expectations about your behavior in certain situations. 
+    That's habitualization; and if your concrete actions vary 
+    while being of a common type, we've got typification.
+    [#berger-luckmann1980sozkon][]
+
+    > Institutionalization occurs whenever there is a reciprocal
+    > typification of habitualized actions by types of actors. 
+    > Put differently, any such typification is an 
+    > institution.[53][#berger1966con]
+    
+    ...
+
+    <!-- §200912061046 Concept social role -->
+    
+    ...
+    
+    <!-- §201506211426 What is marriage? -->
+    
+    ...
+
+I have done this for the Evernote-hosted project manually. Compare the above to the [6500 words result](https://www.evernote.com/shard/s4/sh/7c223132-47f3-43e8-beaa-9c5ae718d444/459866660c5ad996). I would have very much preferred a script back then.
+
+## How the Script Works
+
+You have to have [Ruby](https://www.ruby-lang.org/en/documentation/installation/) installed. Macs come with Ruby already.
+
+Ruby packages are called "gems". My script is delivered as a gem, too, and you can install it thus from the terminal:
+
+    $ gem install zettel_outline
+
+Now the `zettel_outline` command is available from the terminal. It requires three parameters:
+
+1. `-f`, an outline file like I have presented above,
+2. `-a`, the path to your Zettel note archive, and
+3. `-o`, the file it should write the output to.
+
+In order for the archive-browsing option to work, all your notes have to be in a single folder in plain text format. Also it is assumed that your notes adhere to the naming convention of ID + title, like:
+
+    200910011300 Concept Institution.txt
+    200912061046 Concept social role.txt
+    201503192013 Swim-lane metaphor for morals and ethics.txt
+    201503230933 Concept authenticity.txt
+    201506120831 Interpretations have truth-value.txt
+    201506211426 What is marriage.txt
+
+## Adopting Your Own Naming Scheme
+
+If your notes end with the ID instead of start with it, you'll have to tweak [the note `Finder`](https://github.com/DivineDominion/zettel-outline-rendering/blob/master/lib/zettel_outline/archive.rb) which is responsible for finding files in your archive folder. There you could also implement searching in sub-folders if needed.
+
+If your notes don't have a numerical ID, then you'll have to tweak the [`ZettelInfo`](https://github.com/DivineDominion/zettel-outline-rendering/blob/master/lib/zettel_outline/zettel_info.rb) that determines which portion of a line of text from the outline file becomes what. Currently, the portion identified as ID is the search term in the above mentioned `Finder`. If you're Dan Sheffler, then you might want to make the whole line of text the ID and use the existing mechanism to search for a similarly-named note.
+
+Over time, I imagine the script could recognize different styles so users can choose how they want the outline to be parsed. The current version is a very humble start probably nobody but Sascha and me can make use of at the moment :)
+
+[ident]: /posts/add-identity/
+
