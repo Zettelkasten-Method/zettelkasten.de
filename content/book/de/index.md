@@ -29,12 +29,12 @@ Als wir das Prinzip hinter seinem Zettelkasten in die moderne Welt der digitalen
 
 ## Anleitungen zum Einrichten eines Zettelkastens
 
-Die Anleitungen werden hier in den nächsten Tagen hochgeladen.
+Die Anleitungen werden hier demnächst hochgeladen.
 
 Die Downloads aus dem Buch:
 
-* [TextExpander Bausteine](/book/de/einrichten-zettelkasten-mac/Zettelkasten.textexpander)
-* [PhraseExpress Bausteine](/book/de/einrichten-zettelkasten-windows/Zettelkastenheader.pxp)
+* [TextExpander Bausteine](/book/de/einrichten-zettelkasten-mac/Zettelkasten.textexpander.zip)
+* [PhraseExpress Bausteine](/book/de/einrichten-zettelkasten-windows/Zettelkastenheader.pxp.zip)
 
 
 ## Sonderangebot für Leser: TextExpander mit 20% Rabatt
