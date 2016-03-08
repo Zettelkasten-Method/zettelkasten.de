@@ -20,10 +20,13 @@ If you want to know more about us and how we roll, take a look at [the "personal
 
 * [How many Zettelkästen should I have?](/posts/how-many-zettelkasten/) The answer is, most likely, only one for the duration of your life. But there are exceptions to this rule.
 * [Don't use categories.](/posts/no-categories/) Use tags instead.
+* "What should my first note be?" -- [it doesn't matter.](/posts/your-first-note/) Just get started.
 * [Set links between notes.](/posts/search-alone-is-not-enough) Search alone is not enough.
 * You have to [interpret your sources](/posts/dont-rely-on-source-have-faith-in-yourself/) and then rely on your own thoughts henceforth to get the maximum benefit. Collecting information does not increase your knowledge.
 * [Use outlines](/posts/how-i-use-outlines-to-write-any-text/) to start with the first draft of your writing project.
 * Then [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents in. 
+
+<!--ct: keep in sync with content/posts/2015/07/getting-started.txt -->
 
 ## Knowledge Management
 

@@ -1,0 +1,117 @@
+---
+title: Your First Note – Don't Overthink It
+created_at: 2016-02-27 19:59:22 +0100
+kind: article
+author: christian
+tags: [ getting-started, archive, collect ]
+image: 201603080745_kid-pens.jpg
+vgwort: http://vg01.met.vgwort.de/na/190ae27335a741cd80d33c20ba0edcc4
+---
+
+The Zettelkasten note archive is the storage of your knowledge. The Zettelkasten Method is an ideation tool, though. Using your Zettelkasten should help remember stuff and spark new ideas which will be stored as Zettel notes again. This process is fruitful and potentially never-ending. All that sounds nice, but naturally you have to start somewhere. How do you start working with your Zettelkasten? What's the best first note?
+
+Starting your Zettelkasten note archive can be confusing at first. Getting it right first seems so important to some folks that they get stuck completely -- paralysis by analysis.
+
+There's no need for engineering or up-front design. Most notes don't have much weight on their own, not even the very first one as I want to show.
+
+## Ditch prospective planning
+
+<%= insert_teaser_image title: "kid drawing or writing", caption: %{Photo credit: <a href="https://www.flickr.com/photos/84299143@N00/5355077611/">My daughter drawing again</a> by Charles Stanford. License: <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>} %>
+
+We repeatedly advise everybody to just start with anything and [ditch planning of categories][nocats], for example, to let order emerge instead. Planning categories is hard, and it's a waste of time. Topic clusters will form on their own. 
+
+Without a predefined set of categories, you may feel you're left with even less of an idea how to start. Feeling lost can kill initial momentum easily, so let's discuss what you can do to fill the void at the beginning.
+
+"Relax and start writing notes," we say.
+
+And yet there's danger to hit a road block. You may want to figure out the content that best facilitates growth of meaningful clusters. Maybe think about the 5 most important topics in your life first, then write amazing notes about them and let the Zettelkasten grow. This kind of planning in advance is unnecessary.[^fn]
+
+[nocats]: /posts/no-categories/
+
+[^fn]: Planning a writing project in terms of building an outline, on the other hand, can work wonders. That's not the kind of planning we'd like you to erase from your knowledge working life.
+
+## Does the first note matter after all?
+
+Yes and no: the first note can have a special role, but it doesn't have to. This depends on the design of your Zettelkasten.
+
+We identified two kinds of Zettelkasten designs:
+
+1. Single topic Zettelkasten: you want to write your PhD and need a way to organize the material. Also called "project Zettelkasten" on this blog sometimes.
+2. Knowledge companion Zettelkasten (I just made this name up): you want to have a partner in your personal research -- someone who helps you get new ideas and remember things.
+
+So when you're just starting out, ask yourself: **Is your Zettelkasten designed for a single writing project or topic, or do you want to map all you know with this tool?** That's all you need in terms of up-front design decisions. 
+
+There's a famous topic Zettelkasten we talked about on this blog before: Niklas Luhmann's. Let's see what he did first and then examine the alternative.
+
+### Luhmann's Zettelkasten
+
+> Introduction. It has to be tried to explicate the methods and concepts as thorough as possible to expose their inadequacies and defectivenesses.  
+> (Luhmann's first Zettel. [Translation by Sascha.][luh])
+
+Take Luhmann's first Zettel of his second Zettelkasten. It was explicitly written as an introduction -- but an intro to what? Did he write an intro to a bunch of index cards?
+
+Sascha [points out][luh] that Luhmann's whole Zettelkasten was designed to produce a grand theory of society. One large hypertext, so to speak. So the Zettelkasten note archive with its note sequences (Folgezettel) is one big text. The confusing details of a Zettelkasten make a reading of the note archive totally incomprehensible. Fortunately, Luhmann used his notes to write books with a proper structure.
+
+Creating a theory requires to define the methods and get core concepts right. It seems as if Luhmann wrote his first Zettel as a guide to both his theory and the work with his Zettelkasten; it says we have to make our concepts clear and sound.
+
+[luh]: /posts/luhmanns-second-zettelkasten/
+
+### Single Topic
+
+People following Luhmann's practice may wonder if their first note should be an introduction, too, when they look at that note. Should you be giving yourself methodological guidance or an overview content-wise?
+
+Luhmann produced many texts from his Zettelkasten despite that single intro note. In that respect, his design was special. I cannot imagine him publishing everything in one stroke, as a 10-volume text or so. Also, being part of University requires professors to publish texts from time to time. Getting feedback from peers is important, too. Maybe he just liked to write and linearize his notes into books, too. He certainly enjoyed teaching.[^and] So there are lots of possible reasons why Luhmann published multiple texts. 
+
+[^and]: So I heard by André Kieserling, Luhmann's _primus_.
+
+Taking a step back, let's have a closer look at a topic Zettelkasten's general design.
+
+Let's say your project is your chemistry dissertation. You aim to take something between 3 and 5 years to get it done.
+
+If you want to support your dissertation writing with a tool, the Zettelkasten Method will help you write your text one note at a time, and to get hold of one experiment at a time. The first draft of your dissertation *is* your Zettelkasten notes. You just have to bring the notes into some order, to linearize them, and then polish the draft until it's readable.
+
+In that light it makes sense to **design the archive and its connections to be closed for irrelevant input**: that means not adding recipes for your favorite cake to the note archive, for example. A project-based Zettelkasten is not just a store of information about your project, it is the project. There's no room for unrelated information. All of that is just noise. So keep it focused and relevant. 
+
+Also, embed everything you add into the existing web -- through hyperlinks, tags, or [note sequences (Folgezettel)][folgez]. If a note is not embedded, it doesn't exist in the web that is your text. Full-text search on your computer remedies the problem orphaned notes pose; still hyperlinks show in which respect a note has relevance for the rest of the web.
+
+[folgez]: /posts/luhmann-folgezettel-truth/
+
+You should keep your Zettelkasten focused and its notes relevant. You should connect the notes to create connections of relevance. Now does this entail you have to write your first note as an introduction? Not at all. 
+
+Think about the usual advice of books on writing. Usually, they tell you to write the introduction to your text last; to defer it until you know a lot about what you're going to write. Then it will come easy. 
+
+The same can hold true for the fragmented text that is your Zettelkasten note archive: it may not make sense to start with an introduction when you have to do research first. **There's no need to press for an introductory first note.**
+
+If your research warrants starting with a general topic or a methodological decision, then this makes a great first note to spin off the endeavor of your project. Assuming this is on your mind anyway, feel free to start with that.
+
+The point is that things which are on your mind should find their way into your note archive soon -- whatever that is. If you're immersed into researching a detail at the moment, then go with the flow and start with that. As I said above: clusters will emerge; the web will grow. Everything will have its place in the end.
+
+In other words: the creation order of notes will not matter in the end. You can always add introductory notes later with a flexible system.
+
+### Life-long knowledge companion
+ 
+It makes no sense to press for a good first note with a topic based Zettelkasten even though it may end up being published as a book with an introductory chapter. How could it make sense to have an introductory note if you want to manage everything you know?
+
+As opposed to a topic-focused Zettelkasten, you have to keep the archive _open_ for arbitrary input and let clusters emerge over time. Restricting yourself early on through design decisions like creating strict categories will only hamper your progress.
+
+Let's say you still want to work on your chemistry dissertation but this time collect other knowledgeable things in your Zettelkasten as well because you like the method.
+
+After some time, it may turn out you collected a book worth of delicious recipes in one cluster while the other notes grew into your chemistry dissertation that's due next year, your autobiography, and a collection of how-to notes for greenwood whittling. You figure that the recipes could become a book project on its own already. Adding a note about how cook books are organized makes perfect sense at this point to systematically further your knowledge about this new project. You could say this meta-note is very important for planning to write the cook book. But should you have _started_ with that note? Hardly so -- before you collected the recipes you didn't even anticipate you'd end up writing a cook book in the first place!
+
+A Zettelkasten like this is an ecosystem that facilitates growth of living sub-systems. All these writing projects live in the same space and may even enhance each other. Cross-connections may come up and your methodological notes about cook books may turn useful later when you write a book about learning in general. (I was thinking about [Tim Ferriss's "4-hour Chef"][chef] here, which is a book on cooking as it is a book on learning. He could have published 2 books but apparently didn't.)
+
+[chef]: http://amzn.to/1U0QRou
+
+An ecosystem like Sascha's and my Zettelkasten benefits from overview notes as gentle intros to a topic, holding "dead matter" together as the foundation for new things. This is a kind of planning after the fact: instead of planning which notes to take, we plan which writing projects to create from the notes. And that in turn may inspire further research turning into notes. This is like Sascha's bonsai sapling that descents from the main stem that is the whole of our archives.
+
+## Don't stress about your first note
+
+So do your first notes matter after all? 
+
+In both cases we've seen the order of notes didn't matter: a project Zettelkasten is flexible enough to include a proper introduction later; and the ecosystem of your personal knowledge doesn't have a start or end at all. So the first notes won't have a special role only in virtue of being there first.
+
+Feed your Zettelkasten properly, then order will emerge eventually. Be clear about your intentions and then start writing notes. Don't ruin the fun and try not to waste momentum -- this detail doesn't matter.
+
+Some day you will have an idea what a good overview or introduction sounds like. Then take the same action you always do: take note of it.
+
+The Zettelkasten Method works well when you have no clue and gain traction through practice. Don't worry about designing categories up front, use flexible tags instead; and don't over-think your first notes. Just get moving and revise if needed.
