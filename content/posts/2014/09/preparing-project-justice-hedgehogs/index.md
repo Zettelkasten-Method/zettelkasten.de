@@ -40,7 +40,7 @@ Afterwards, I create clusters of related notes and assign a working title to eac
 
 In the next step, I will organize my questions and afterwards begin to create _Zettel_ notes from the clusters. Last year, I've already [depicted how I create _Zettel_ from reading notes][notes]. So this time, instead of going into further detail just yet, I'll follow up with the project management stuff and focus on research questions and the like.
 
-[notes]: /posts/2013/09/create-zettel-from-reading-notes/
+[notes]: /posts/create-zettel-from-reading-notes/
 
 ## Preparing to Dive Deep: Project Management
 
@@ -73,8 +73,8 @@ So in this case I end up with the active project "2014-09-26 phil Justice Hedgeh
 
 The accompanying reading notes on paper find their way into the trash. 29 reading notes left to go.
 
-[nvalt]: /posts/2014/04/nvalt-zettelkasten-implementation/
-[id]: /posts/2014/02/add-identity/
+[nvalt]: /posts/nvalt-zettelkasten-implementation/
+[id]: /posts/add-identity/
 [just]: http://www.amazon.com/gp/product/0674072251/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0674072251&linkCode=as2&tag=ctzettelkasten-20&linkId=MP7E2UA3B7CBG3FV
 
 ## Takeaway: How I Work
@@ -95,6 +95,6 @@ I put the draft of this post into the project folder, too. This time, I will not
 
 
 [pencil]: http://www.amazon.com/gp/product/B000KT9EEY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000KT9EEY&linkCode=as2&tag=ctzettelkasten-20&linkId=7RZ3KAQKPS6WO6PP
-[chall]: /posts/2014/07/summer-knowledge-challenge/
+[chall]: /posts/summer-knowledge-challenge/
 
 [^aff]: Affiliate links; I get a small kickback from the vendor if you buy from my link but it won't cost you anything.

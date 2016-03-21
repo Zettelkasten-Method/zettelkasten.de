@@ -83,8 +83,8 @@ Together, it should be easy to make a habit of tracking the time you spend with 
 Tell the others in the comments below about your blog/journal and post a link there so we can participate in each other's journey!
 
 
-[colfal]: /posts/2014/01/collectors-fallacy
-[kcyc]: /posts/2014/07/knowledge-cycle-efficiently-organize-writing-projects/
+[colfal]: /posts/collectors-fallacy
+[kcyc]: /posts/knowledge-cycle-efficiently-organize-writing-projects/
 [just]: http://www.amazon.com/gp/product/0674072251/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0674072251&linkCode=as2&tag=ctzettelkasten-20&linkId=MP7E2UA3B7CBG3FV
 
 [^aff]: Affiliate links; I get a small kickback from the vendor if you buy from my link but it won't cost you anything.

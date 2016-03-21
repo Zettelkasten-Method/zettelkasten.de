@@ -76,7 +76,7 @@ You've got 25 days left in November. It should be totally manageable to direct y
 
 This habit is based on sitting down to write, distraction free. No phone, no internet, no spouse. Tell everyone involved about this commitment, and that it'll last 25 more days only. They'll respect this.
 
-[You don't _find_ time to write. You schedule your writing.](/posts//identity-schedule-serious-writing/)
+[You don't _find_ time to write. You schedule your writing.](/posts/identity-schedule-serious-writing/)
 
 Just don't try to make a 25-day binge-writing session from it. These don't work, they only exhaust you. Incorporating a routine is both putting an upper and a lower limit to your productivity. In any case, it will raise your productivity to a non-zero level. That's the point of it all.
 

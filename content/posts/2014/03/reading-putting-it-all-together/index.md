@@ -13,7 +13,7 @@ I am moving next month, and so I though about getting rid of stuff in my life.  
 
 I know for sure that at I finished least one book in the collection about two years ago!  You see, I was, and still am, vulnerable to the [Collector's Fallacy][colfal].  While I try to get through the pile of books, I reviewed my reading process.  This is a summary where I put together some of the topics I already wrote about 
 
-[colfal]: /posts/2014/01/collectors-fallacy
+[colfal]: /posts/collectors-fallacy
 
 ## Recap: Learning Efficiently with a _Zettelkasten_
 
@@ -27,7 +27,7 @@ The first component of learning, getting coverage, is about reading techniques. 
 When we think about how to read in the context of learning, we should ask how to create useful notes most efficiently.  Creating notes efficiently is the desired replacement for committing information to memory.  Both are ways to expand your knowledge;  to take lasting notes is just a smarter way to do so.  Reading is an apt means to learn, though it lasts only briefly.  Taking notes is another means, but one with  permanent results.
 
 [hypertext]: http://en.wikipedia.org/wiki/Hypertext
-[learn]: /posts/2014/02/learn-faster-by-writing-zettel-notes
+[learn]: /posts/learn-faster-by-writing-zettel-notes
 
 ## Get Information Out of a Text
 
@@ -51,7 +51,7 @@ If you'd like to differentiate between the various functions a paragraph in a te
 
 [^1]: Keith Oatley and Maja Djikic (2008):  _Writing as Thinking_, Review of General Psychology 1, 2008, Vol. 12, pp. 9--27.
 
-[readmark]: /posts/2013/08/making-proper-marks-in-books
+[readmark]: /posts/making-proper-marks-in-books
 [sy]: http://calnewport.com/blog/2012/10/26/mastering-linear-algebra-in-10-days-astounding-experiments-in-ultra-learning/
 
 ### Processing Stage
@@ -95,5 +95,5 @@ Looking back, I didn't write a lot about the last part, the tools.  I have promi
 
 If you want me to review a particular application, leave a comment or drop me a line: I'm [@ctietze on Twitter](http://twitter.com/ctietze).
 
-[extmind]: /posts/2013/11/extend-your-mind-and-memory-with-a-zettelkasten/
-[identifiers]: /posts/2014/02/add-identity
+[extmind]: /posts/extend-your-mind-and-memory-with-a-zettelkasten/
+[identifiers]: /posts/add-identity

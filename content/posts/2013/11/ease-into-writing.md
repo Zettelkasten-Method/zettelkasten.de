@@ -71,6 +71,6 @@ Therefore you should take notes as often as possible.  The more you put in, the 
 
 I wonder how you handled writing and researching in the past.  Please [leave a comment](#comments) and tell me more about your experience!
 
-[extend]: /posts/2013/11/extend-your-mind-and-memory-with-a-zettelkasten/
-[shape]: /posts/2013/12/useful-daily-writing-practice/
+[extend]: /posts/extend-your-mind-and-memory-with-a-zettelkasten/
+[shape]: /posts/useful-daily-writing-practice/
 

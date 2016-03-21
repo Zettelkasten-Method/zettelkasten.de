@@ -91,8 +91,8 @@ This is the best feedback you'll get:  to answer the daunting question "Did I re
 
 In this step of taking notes, I prefer to write down short summaries on paper at first, one piece per mark in the text.  Afterwards, I move to my computer and gather related key passages in digital notes.  You can see an example in my [post on creating Zettel from reading notes][reading] where I introduced the phases of collecting, processing, and writing.  Guess in which phase we're in now -- collecting.
 
-[colfal]: /posts/2014/01/collectors-fallacy
-[reading]: /posts/2013/09/create-zettel-from-reading-notes
+[colfal]: /posts/collectors-fallacy
+[reading]: /posts/create-zettel-from-reading-notes
 
 ### 3\. Insight
 
@@ -125,4 +125,4 @@ I recommend you [go and read Scott's article][sy] to see how he applied the proc
 
 All in all, to take lasting notes changes the way you'll work with information.  You will obtain lasting knowledge, opposed to shoveling information into your short-term memory.  So don't just write down stuff anywhere, write down everything in a smart way instead.  The note archive of your _Zettelkasten_ is destined for this task.
 
-[extend]: /posts/2013/11/extend-your-mind-and-memory-with-a-zettelkasten
+[extend]: /posts/extend-your-mind-and-memory-with-a-zettelkasten

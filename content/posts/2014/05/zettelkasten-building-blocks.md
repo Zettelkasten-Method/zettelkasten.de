@@ -96,11 +96,11 @@ I'm open to debating the system's architecture, so tell me what you think of it.
 * What would change if you thought about your knowledge work in a systemic way?
 * Would you work differently, for example? Would it help if the boundaries were clear and the concerns of the tools cleanly separated?
 
-[draft]: /posts/2013/11/ease-into-writing
+[draft]: /posts/ease-into-writing
 [toc]: http://www.zettelkasten.de/book/
 [commsys]: http://en.wikipedia.org/wiki/Social_system
-[zkcomm]: /posts/2013/06/zettelkasten-improves-thinking-writing
-[ident]: /posts/2014/02/add-identity/
-[colfal]: /posts/2014/01/collectors-fallacy
+[zkcomm]: /posts/zettelkasten-improves-thinking-writing
+[ident]: /posts/add-identity/
+[colfal]: /posts/collectors-fallacy
 
 [^sys]: Usually, people at University would punch me in the face for stating the relationship in this way. When you talk about social systems, there's no "You" and "I", because actors and people don't fit in the model. There is only pieces of "communication" which operate with the abstract currency of "meaning" and relate to one another, forming strands. But we're not doing sociology here, so let's not worry about this.

@@ -41,7 +41,7 @@ Just like photocopying is self-rewarding and addictive, I argue that we fall int
 
 What can we do about the addictive behavior of collecting?
 
-[colrss]: /posts/2014/02/reading-web-rss-note-taking
+[colrss]: /posts/reading-web-rss-note-taking
 [ecow]: http://en.wikipedia.org/wiki/Umberto_Eco
 
 ### Research, Read, Assimilate;  rinse and repeat

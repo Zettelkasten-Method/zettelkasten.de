@@ -26,4 +26,4 @@ Just look at the beautiful image of his notebook now.
 [1]: http://dansheffler.com/blog/2014-07-26-notebook-annotation/
 [2]: http://dansheffler.com/blog/2014-07-21-two-goals-of-note-taking/
 
-[read]: /posts/2013/09/create-zettel-from-reading-notes/
+[read]: /posts/create-zettel-from-reading-notes/

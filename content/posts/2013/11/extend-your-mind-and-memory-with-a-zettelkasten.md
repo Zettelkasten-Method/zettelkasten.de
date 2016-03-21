@@ -46,7 +46,7 @@ If you look something up in your _Zettelkasten,_ you need to get unexpected resu
 
 When I began to plan the book on the _Zettelkasten_ method I even found another way to be surprised by the web of my notes:  I was amazed just how many notes I had on the topic.  When I queried my archive for keywords like 'zettelkasten' and 'writing', I found old gems from which I drew connections to more recent notes and findings.  Moments like these make me realize how big the potential of this tool really is when you research on a topic for a long time.
 
-[zkintro]: /posts/2013/06/zettelkasten-improves-thinking-writing/
+[zkintro]: /posts/zettelkasten-improves-thinking-writing/
 
 ### We All Have Our Personal Needs
 
@@ -56,8 +56,8 @@ The topics of _Zettelkasten_ notes can be as broad as you like.  Mine certainly 
 
 Your topics will be different.  When you commit to [take notes while you read a book][read] and carefully weave these into your existing web of knowledge, you will be able to think more creatively.  Also, this will make you write texts which are well [backed-up by citations.][cite]
 
-[read]: /posts/2013/09/create-zettel-from-reading-notes/
-[cite]: /posts/2013/10/bibliography-zettelkasten/
+[read]: /posts/create-zettel-from-reading-notes/
+[cite]: /posts/bibliography-zettelkasten/
 
 <!-- ct: TODO later post about WRITING The permanent storage is opening up opportunities to combine and connect thoughts:  a Zettelkasten ultimately [writes your articles and books for you][write] over time.
 

@@ -15,7 +15,7 @@ I'm going to take a close look at applications to find out which are suitable to
 
 In the comments, you can [contribute to this list.](#contribute-what-s-your-suggestion)
 
-[refman]: /posts/2013/10/bibliography-zettelkasten/
+[refman]: /posts/bibliography-zettelkasten/
 
 ## Criteria I Will Consider
 
@@ -26,7 +26,7 @@ To find out, recall the essentials you have to adhere to when you want to create
 1. **Use hyper-textual notes:**  Notes should both link to one another directly to create a web and use keywords to form clusters with indirect relationships.
 2. **Write a lot:**  Feed your _Zettelkasten_ and make it grow.  With time you will be surprised by the wealth and interconnectedness of information.  There's an estimate threshold which people assume to be at around 1000 notes.  After that, your information retrieval will change.
 
-[ext]: /posts/2013/11/extend-your-mind-and-memory-with-a-zettelkasten/
+[ext]: /posts/extend-your-mind-and-memory-with-a-zettelkasten/
 
 There should be no obstacles when it comes to writing notes.  The software has to make it effortless to add new notes and to connect them.  To get knowledge out of the _Zettelkasten_, it has to be fast at retrieving notes, too.  When these tasks were slow, you probably wouldn't use the note archive enough.
 
@@ -140,7 +140,7 @@ I discovered MultiMarkdown because it is built into [Scrivener][].  It supports 
 [plaintext]: http://www.christopher-mayo.com/?p=14
 [word]: http://davidhewson.com/2013/12/28/does-markdown-mean-your-work-will-live-forever/
 [scrivener]: http://literatureandlatte.com/scrivener.php
-[nvprev]: /posts/2010/10/multi-markup-notational-velocity/
+[nvprev]: /posts/multi-markup-notational-velocity/
 
 ### Going plain text with Pandoc
 
@@ -226,6 +226,6 @@ So here's your call to action.  Participate in the comments below:
 * Which criteria for testing would you like me to add?
 * Which software would you like to add to the list?
 
-[id]: /posts/2014/02/add-identity/
+[id]: /posts/add-identity/
 [yaml]: http://en.wikipedia.org/wiki/YAML
 [contact]: /about/

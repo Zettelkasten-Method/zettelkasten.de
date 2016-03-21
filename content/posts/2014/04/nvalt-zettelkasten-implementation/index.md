@@ -108,8 +108,8 @@ Linking notes can't possibly get more raw than this.  Of course, to create the c
 
 I really wish for a go-back function or a [breadcrumb navigation][bc] to make browsing and creating links easier.  This is something I will add some day when I have the time. Promise.  Then, I'll fix the link suggestion box, too.
 
-[ex]: /posts/2014/03/baseline-zettelkasten-software-reviews/
-[bc]: /posts/2010/11/mass-edit-notes/
+[ex]: /posts/baseline-zettelkasten-software-reviews/
+[bc]: /posts/mass-edit-notes/
 [qq]: http://www.kungfugrippe.com/post/453204090/q-trick
 
 ### Data Import/Export
@@ -183,7 +183,7 @@ From there, you can save the preview as HTML or generate a formatted print PDF. 
 **Update 2014-07-11:** The Markdown preview can include images. To [select images from a sub-folder of your note archive][nvimg], follow my recent instructions on how to set up nvALT and its preview template.
 
 
-[nvimg]: /posts/2014/06/images-in-nvalt-notes/
+[nvimg]: /posts/images-in-nvalt-notes/
 [mmdsc]: http://brettterpstra.com/share/nvalt2.2b94.html#markdownauto-completionsyntaxtricks
 
 ### Tagging

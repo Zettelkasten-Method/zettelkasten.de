@@ -123,8 +123,8 @@ Food for thought:
 
 Please share!
 
-[wcount]: /posts/2014/02/count-your-words
-[commit]: /posts/2014/06/how-to-track-writing-progress
+[wcount]: /posts/count-your-words
+[commit]: /posts/how-to-track-writing-progress
 [wrilo]: http://www.amazon.com/gp/product/1591477433/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1591477433&linkCode=as2&tag=ctzettelkasten-20&linkId=2AGMZYIWAUSE36BM
 [dowork]: http://www.amazon.com/gp/product/1936719010/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1936719010&linkCode=as2&tag=ctzettelkasten-20&linkId=FATNCWD65IGDRLZL
 

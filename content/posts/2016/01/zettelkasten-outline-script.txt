@@ -22,7 +22,7 @@ The outlines are converted to the first draft of the final text by hand in a ste
 [out]: /posts/how-i-use-outlines-to-write-any-text/
 [method]: /posts/ease-into-writing/
 [case]: /posts/write-book-without-even-trying-so-hard/
-[ever]: /posts/2015/06/evernote-project-progress-invitation/#outlines
+[ever]: /posts/evernote-project-progress-invitation/#outlines
 
 ## How an Outlines Becomes a Draft
 

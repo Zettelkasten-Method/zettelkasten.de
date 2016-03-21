@@ -49,11 +49,11 @@ I am confident in switching tasks and taking breaks, and I think this is a key a
 
 This ability enables us to redesign how we work. I already said that _Knowledge Cycles_ should be short, and that you, consequently, better have many of them. Let's talk about how this works.
 
-[learn]: /posts/2014/02/learn-faster-by-writing-zettel-notes/
-[reading]: /posts/2014/03/reading-putting-it-all-together/
-[announc]: /posts/2014/07/identity-schedule-serious-writing/
+[learn]: /posts/learn-faster-by-writing-zettel-notes/
+[reading]: /posts/reading-putting-it-all-together/
+[announc]: /posts/identity-schedule-serious-writing/
 [pomodoro]: http://pomodorotechnique.com/
-[colfal]: /posts/2014/01/collectors-fallacy
+[colfal]: /posts/collectors-fallacy
 
 ## To Make a Habit of Learning
 

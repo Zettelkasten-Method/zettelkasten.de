@@ -53,7 +53,7 @@ You can assign a keyboard shortcut to this Service from your System Preferences 
 
 If you're interested in customizing the script or if you want to understand how it works, read on.
 
-[ident]: /posts/2014/02/add-identity/
+[ident]: /posts/add-identity/
 
 ## What's in the Script?
 
@@ -85,7 +85,7 @@ Please share your customizations, and how you format your Zettel header!
 
 [^two]: The `twoDigitDisplay()` stuff was necessary to pad numbers with zeros, so "1" becomes "01" to ensure consistency among identifiers. I believe this can be shortened, but I wouldn't know how. Any AppleScript tips are welcome!
 
-[min]: /posts/2014/03/baseline-zettelkasten-software-reviews/#the-bare-minimum-of-a-zettel-note
-[nvz]: /posts/2014/04/nvalt-zettelkasten-implementation/
+[min]: /posts/baseline-zettelkasten-software-reviews/#the-bare-minimum-of-a-zettel-note
+[nvz]: /posts/nvalt-zettelkasten-implementation/
 [gist]: https://gist.github.com/DivineDominion/fe1d4d39baf45477a496
 [download]: /downloads/2014-09-29_Insert-Zettel-Header-Workflow.zip

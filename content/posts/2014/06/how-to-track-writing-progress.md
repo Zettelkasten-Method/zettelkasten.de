@@ -62,7 +62,7 @@ My take-away from these coachings is this:  **don't take the numbers personally.
 * Did you encounter the ressentiment that writing a lot doesn't equal writing good texts, too? How do you respond?
 
 [crain]: http://quantifiedself.com/2014/06/brian-crain-optimizing-productivity/
-[count]: /posts/2014/02/count-your-words
+[count]: /posts/count-your-words
 [book]: http://www.zettelkasten.de/book/
 [zkbookspr]: https://docs.google.com/spreadsheets/d/1uQCx72ztrp4h7hRBgtihGDToQQzyqnR74MX-0oYn9XY/pubhtml
 [whph]: http://www.dextronet.com/blog/the-now-habit-summary/

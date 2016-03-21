@@ -28,7 +28,7 @@ Also, every Zettel has its own file in my archive.  This isn't a necessary crite
 
 Think outside of the box for a moment:  when note identity and file system representation are decoupled like this, how could we use information identity elsewhere?
 
-[extend]: /posts/2013/11/extend-your-mind-and-memory-with-a-zettelkasten/
+[extend]: /posts/extend-your-mind-and-memory-with-a-zettelkasten/
 
 ## Hyperlinks in a Book Manuscript
 

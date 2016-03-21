@@ -15,7 +15,7 @@ As I said in my last post, my reading workflow consists of GTD-like phases: **co
 
 While [I wrote about collecting before][collect], this post is about the three phases of processing notes.  In the last section you'll find a few example _Zettels_ I wrote.
 
-  [collect]: /posts/2013/08/making-proper-marks-in-books/
+  [collect]: /posts/making-proper-marks-in-books/
 
 ## Why I need to process notes at all
 
@@ -82,7 +82,7 @@ Second, I find out if a cluster's main point has too many prerequisites to stand
 
 The underlying principle I'd call the **principle of atomicity:**  put things which belong together in a _Zettel_, but try to separate concerns from one another.[^conc]  For example, I might collect a list of assumptions in one _Zettel_ which serves as an overview. like [hard determinism](http://en.wikipedia.org/wiki/Hard_determinism).  A related argument and its conclusion will be kept in another _Zettel_.  [Moral responsibility under hard determinism](http://en.wikipedia.org/wiki/Moral_responsibility#Hard_determinism) is a good example.  I can re-use the arguments without buying into the assumptions because the arguments are of sufficiently general form.  Atomicity fosters re-use which in turn multiplies the amount of connections in the network of _Zettels._
 
-  [zk]: /posts/2013/06/zettelkasten-improves-thinking-writing/
+  [zk]: /posts/zettelkasten-improves-thinking-writing/
 
   [^conc]:  If you're a programmer, [separation of concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) should ring a familiar bell.  I deal with notes in a fashion similar to complex code.  Instead of writing classes, I create new note files.  Accordingly, patterns emerge:  there are argumentative notes;  there are notes with term definitions;  there are sparks and ideas.  Each _Zettel_ pattern fulfils a different purpose.
 

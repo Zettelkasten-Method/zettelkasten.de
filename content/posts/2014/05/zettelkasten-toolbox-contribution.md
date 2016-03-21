@@ -53,6 +53,6 @@ Photo Credit: <a href="http://www.flickr.com/photos/10976418@N04/1235777767/">Am
 </small>
 
 [tools]: http://www.zettelkasten.de/tools/
-[baseline]: /posts/2014/03/baseline-zettelkasten-software-reviews/
+[baseline]: /posts/baseline-zettelkasten-software-reviews/
 [aggregator]: http://en.wikipedia.org/wiki/News_aggregator
 [zktag]: /posts/tags/zettelkasten/

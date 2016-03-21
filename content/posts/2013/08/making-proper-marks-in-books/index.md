@@ -62,7 +62,7 @@ _Please [tell me more](http://twitter.com/ctietze) about your own reading habits
 
 [und]: http://takingnotenow.blogspot.com/2013/08/underlining-in-library-books.html
 
-[imp]: /posts/2013/06/zettelkasten-improves-thinking-writing/#impthink
+[imp]: /posts/zettelkasten-improves-thinking-writing/#impthink
 
 [^eco]:  I couldn't find an English translation of Eco's _Come si fa una tesi di laurea_.  The [German translation](http://www.amazon.de/gp/product/3825215121/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=3825215121&linkCode=as2&tag=divined-21) (affiliate link) is very popular, though.  I cite this one.
 

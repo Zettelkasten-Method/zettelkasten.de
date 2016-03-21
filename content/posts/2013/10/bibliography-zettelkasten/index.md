@@ -63,7 +63,7 @@ When I put Markdown preview in nvALT [exactly three years ago][mmdnv], I deliber
 It's easy to go from `.mmd` to `.tex` and clean things up afterwards.  LaTeX utilizes the BibTeX format to read bibliography information and generate manageable citations and a well-formed bibliography.  
 
 [mmd]: http://fletcherpenney.net/multimarkdown/
-[mmdnv]: /posts/2010/10/markdown-hud-nv/
+[mmdnv]: http://christiantietze.de/posts/2010/10/markdown-hud-nv/
 [mmdcit]: http://fletcher.github.io/peg-multimarkdown/#citations
 
 ## BibDesk bibliography manager

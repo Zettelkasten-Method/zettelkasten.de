@@ -21,7 +21,7 @@ Meanwhile, the internet confronts us with so much information that we have to fi
 *   I read web pages or [RSS feed subscriptions][rss][^whatrss] on my mobile device.  But how do I take lasting notes?
     <!--ct: 2: mobile workflow-->
 
-[colfal]: /posts/2014/01/collectors-fallacy
+[colfal]: /posts/collectors-fallacy
 [rss]: http://inessential.com/2014/01/29/describing_rss
 
 [^whatrss]:  If you haven't heard of RSS before, check out Brent Simmons'  [explanation of RSS in plain english.][rss]  If you're not familiar with the technology, you should give it a try.  Seriously.  Go and subscribe to some feeds in the free [NetNewsWire][nnw], for example, to get a feeling for it.
@@ -54,8 +54,8 @@ That's was the process.  Now come the parts to apply the process to:
 *   The **Inbox** is the place to hold the items we either _want to_ or _need to_ pay attention to.  A lot of stuff will never reach our inbox;  we can shut off the noise outside.  Of course, there's inboxes other people have access to, like e-mail or postal inboxes, but we deliberately invite web pages into our lives ourselves.  In this case, we have full control over what comes in and what is kept out.  Web pages we want to keeps will make up the reading list.
 *   Since we don't deal with **actionable** tasks here, let's see what's left:  **Reference** items may be web pages you want to archive for later, a recommended app you want to look into later, or recipes for your dinner party next week.  Some things that found their way onto the reading lists turn out to be useless.  Toss them.  Putting items on the reading list is a tiny commitment only:  we commit to pay attention to them later, but we don't need to hold on to them if they don't withstand a critical look.
 
-[notebk]: /posts/2013/09/create-zettel-from-reading-notes
-[extend]: /posts/2013/11/extend-your-mind-and-memory-with-a-zettelkasten
+[notebk]: /posts/create-zettel-from-reading-notes
+[extend]: /posts/extend-your-mind-and-memory-with-a-zettelkasten
 
 ### RSS subscriptions are no part of your inbox
 

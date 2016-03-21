@@ -39,7 +39,7 @@ Recall [the review criteria][baseline]:
 
 I started with importing all my old notes to see what _SlipBox_ does with a large database. To better reflect how I discovered this application's features, I will write about the review criteria in a different order this time.
 
-[baseline]: /posts/2014/03/baseline-zettelkasten-software-reviews/
+[baseline]: /posts/baseline-zettelkasten-software-reviews/
 
 ### Data Import/Export
 
@@ -103,8 +103,8 @@ The _Zettelkasten_ method I describe, on the other hand, is ultimately attemptin
 I can see that having multiple slip boxes provides a clean and sometimes desired boundary, but to really learn something new over the course of the years, you'll have to allow your various endeavors to affect one another.
 
 
-[identity]: /posts/2014/02/add-identity/
-[ext]: /posts/2013/11/extend-your-mind-and-memory-with-a-zettelkasten/
+[identity]: /posts/add-identity/
+[ext]: /posts/extend-your-mind-and-memory-with-a-zettelkasten/
 
 ### Note Connections
 
@@ -147,7 +147,7 @@ In my review version v0.9.7, merging [duplicates the keywords](http://tabi-softw
 
 I think the split function is really useful.  When I read a book and [create _Zettel_ from its paper notes][takenote], I often end up with long note drafts which I have to rearrange and then cut into pieces.  To split the note and preserve both common keywords and the source information can be a huge time-saver for the mechanic and repetitive task of copying & pasting metadata.
 
-[takenote]: /posts/2013/09/create-zettel-from-reading-notes
+[takenote]: /posts/create-zettel-from-reading-notes
 
 ### iOS App
 
@@ -194,7 +194,7 @@ The whole "Source" field is treated as one item, it seems.  When you type into t
 
 
 [bibdesk]: http://bibdesk.sourceforge.net/
-[refman]: /posts/2013/10/bibliography-zettelkasten/
+[refman]: /posts/bibliography-zettelkasten/
 
 ### Skim Plug-In
 
@@ -228,4 +228,4 @@ Tell me in the comments:
 * How could you benefit from having both an all-encompassing _Zettelkasten_ note archive and a project-specific, short-term database?
 * What criteria do you want me to cover in future reviews?
 
-[nvrev]: /posts/2014/04/nvalt-zettelkasten-implementation/
+[nvrev]: /posts/nvalt-zettelkasten-implementation/

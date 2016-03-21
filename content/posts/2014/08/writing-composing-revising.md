@@ -98,10 +98,10 @@ That said, I like to keep up a certain level of quality in my notes. It's quicke
 
 Since your notes may be [part of the outline of a future text][zkdraft], putting in at least some effort to clean up now may save you time later. If you re-use your notes quite a lot, having clean notes at hand instead of mere thought fragments without any order pays off easily. 
 
-[ease]: /posts/2013/11/ease-into-writing
-[zkdraft]: /posts/2014/05/how-i-use-outlines-to-write-any-text/
-[zkmemory]: /posts/2013/11/extend-your-mind-and-memory-with-a-zettelkasten/
-[writethink]: /posts/2013/06/zettelkasten-improves-thinking-writing
+[ease]: /posts/ease-into-writing
+[zkdraft]: /posts/how-i-use-outlines-to-write-any-text/
+[zkmemory]: /posts/extend-your-mind-and-memory-with-a-zettelkasten/
+[writethink]: /posts/zettelkasten-improves-thinking-writing
 [pareto]: http://en.wikipedia.org/wiki/Pareto_principle
 [wordcounter]: http://www.wordcounterapp.com
 

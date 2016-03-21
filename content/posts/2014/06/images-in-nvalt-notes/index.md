@@ -86,7 +86,7 @@ It doesn't become an image repository simply because I need some place to put im
 
 
 [brett]: http://brettterpstra.com/2012/09/27/quick-tip-images-in-nvalt/
-[id]: /posts/2014/02/add-identity/
+[id]: /posts/add-identity/
 [gist]: https://gist.github.com/DivineDominion/ab1abe8d2b93d4b73d69
 
 [^lib]: If that folder doesn't exist yet, you have to go to `~/Library/Application Support/` instead and create a folder called "nvALT" yourself. The exact capitalization is important. You can find the templates you have to copy there inside the application bundle: `/Applications/nvALT.app/Contents/Resources/template.html`. To get there, right-click the nvALT application icon in your Applications folder and chose "Show Package Contents" to have a look at the resources bundled with the executable application. Then copy the file from "Contents/Resources/".
