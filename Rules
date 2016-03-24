@@ -53,7 +53,7 @@ preprocess do
           :mtime => Time.now#parse(Date.now) # for the sitemap
           # TODO ^-- this is wrong, use last post
         },
-        "/posts/tags/#{tag}"
+        "/posts/tags/#{tag}/"
       )
     end
   end
@@ -157,7 +157,7 @@ compile '/posts/tags/' do
   filter :erb
   filter :kramdown
   filter :typogruby
-    
+  
   layout 'plain'
   #filter :cache_buster if is_deploying
 end
