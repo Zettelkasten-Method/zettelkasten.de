@@ -1,0 +1,70 @@
+---
+title: When Should You Start a New Note?
+created_at: 2016-04-27 10:34:43 +0200
+kind: article
+author: christian
+tags: [ note-taking, process, archive ]
+image: 201604271033_new-note-infographic.jpg
+vgwort: http://vg01.met.vgwort.de/na/51d2fe403ffc43b892a2ee0142eb323f
+---
+
+Say you start with a fresh Zettelkasten or you learn more about an existing topic. You write your note and expand the text -- and then you ask yourself this: should I create a new Zettel? Should I split this up? Can I attach this detail there?
+
+<%= insert_teaser_image title: "decision graph" %>
+
+Finding an answer is pretty easy as the scenarios are limited:
+
+- **You don't have any notes yet**: start with anything you feel fits into a note right now. You'll learn when to split notes with time when you work with your notes more.
+- **You already have notes**: search the archive for similar notes or topics. Depending on the outcome:
+    - **You have notes but not related to the topic**: create a new Zettel as if your Zettelkasten was empty. Your search revealed it won't affect the existing notes anyway.
+    - **You have notes related to the topic**: skim or read them to determine how your new information fits. Make sure to create links afterwards in any case:
+        - **The existing notes don't fit the new idea**: create a new note, but adhere to existing keywords.
+        - **A few notes roughly match**: maybe your new thing doesn't warrant its own Zettel now; then create a new note to compile the existing knowledge, comment the compilation and make sure to add the new detail, and create links in *both* directions.
+        - **1 note is about the exact same topic**: if it contains everything, well, then you're done; if you found out something new, a new reference, citation, or other detail: incorporate the new stuff into the existing note.
+
+Creating new notes is fairly easy, no matter if you have to provide links to existing stuff or not. Expanding an existing note can be more tricky. Longer is definitely not better if the length obstructs getting the most out of the note later.
+
+## How do I expand a note?
+
+There are 3 ways to modify an existing note: adding items to a collection, adding references to back up a point, or writing a text to incorporate new knowledge.
+
+Expanding lists is obvious. Sascha has Zettel notes with lists of conclusions drawn from research papers. These compilations can hardly get too big since you use them to back up a single point.
+
+Collections of definitions can be expanded similarly. 
+
+Then there are the more prosaic notes. Those that are themselves little texts.
+
+Does adding a new citation add value? That's easy to do. Do you have to rephrase the existing content under a new light? Although this takes a bit more effort and you should check if you break the context of backlinks, rephrasing can be a straightforward task.
+
+When you have to add paragraphs or subsections to the existing body of text, the note's text grows and it may become harder to work with the Zettel. Zettel notes with prose can get unwieldy. That's mostly the case when you violate the Principle of Atomicity: that's when it's time to split it in two.
+
+## When is a note too big?
+
+The best answer I can come up with is pragmatic: when getting information out of a note takes too long, it's not a well-written note. Rephrase it or split it into more manageable atoms.
+
+As I said above, a lists of evidences, like a list of findings from various studies, scales easily. You use them to look up information, not to read them as a whole. You use the to compile suitable references for your writing. These lists themselves are less of a text fragment and more of an aid to write. Apart from extracting sub-lists from large collections, there's no need to split these container notes.
+
+Those Zettel notes that essentially are text fragments can warrant a split in two more often.
+
+Recall the [Principle of Atomicity](/posts/create-zettel-from-reading-notes/):  one note equals one piece of knowledge. That's important to create connections. Notes that are to the point make obvious why they should be linked to.
+
+The pragmatism lies in the definition of "one" or "single" piece of knowledge. Only you can ultimately determine what one piece is. If it feels like two things, make two notes from it and see where this is leading.
+
+It may surprise you that in my work, extraction often results in 3 notes, not 2: I extract both details into new notes and repurpose the old one to connect them with more context.[^habtm] If a note about banana bread grows too big after tons of research, I may create 1 note about the bake-ability of bananas and 1 about what makes a bread a bread. The banana bread note then links to both and supplies banana bread-specific information.
+
+In the end, you need to stay aware of the process: you feed your Zettelkasten *daimon* and train it to recognize some things as elemental and others as compilatory. There's no universal guideline. You'll inevitably change your mind over time. It's okay to re-work existing notes if you find they don't satisfy your requirements anymore. Just keep exploring and become more proficient.
+
+[^habtm]: This is like a [has-and-belongs-to-many](http://guides.rubyonrails.org/association_basics.html#the-has-and-belongs-to-many-association) association table in relational modeling; when rows in table *A* can have unlimited connections to rows in table *B* and vice versa, you cannot model this as unlimited table columns in either table (they cannot grow indefinitely). Instead, you create an *AB* connection table that has two columns, one for each reference to _A_'s or _B_'s table. For example a _blog post_ has many _tags_, and each _tag_ can belong to many _blog posts_. To resolve the association, you create a "tagged posts" table which includes information about this post having the tag "archive" and this post having the tag "note-taking". That's two rows in the table, one for each pairing. Generalized, to connect two entities, I think about creating a third one that manages the associations and describes the relationship further. Then each entity doesn't have to worry about the connections itself. One thing less to worry in the notes you write.
+
+---
+
+**Sascha's Comment**: I imagine this as a process of organic growth. You don't get a problem if you change the note itself. Problems arise because of the connectivity of notes. 
+
+1. You can change the Zettel to such an extend that the reference from other Zettels doesn't make sense any more.
+2. You split a Zettel but the old links reference to content on the new Zettel.
+
+The second case is pretty easy to solve. If you split a Zettel lay a trail down for future browsing. One Zettel should contain the original ID and should link to the one who was extracted from it.
+
+The first case is rather tricky. If you didn't comment the link properly you won't understand why you linked the two notes. You have to be very conscientious if you place links and never forget to be explicit with your link description.
+
+However, be cool with errors. Shit happens and it is better not to overthink in the expense of your speed and productivity.
