@@ -91,7 +91,7 @@ I put the draft of this post into the project folder, too. This time, I will not
 
 * How are you doing so far in this challenge? What's your first step when you tackle a book?
 * If you still want to join, put an announcement and a link to your blog or website into the comments so I can add you to the list of participants.
-* [See the other posts from the 2014 Summer Knowledge Challenge.](/posts/2014/summer-knowledge-challenge/)
+* [See the other posts from the 2014 Summer Knowledge Challenge.](http://christiantietze.de/posts/2014/summer-knowledge-challenge/)
 
 
 [pencil]: http://www.amazon.com/gp/product/B000KT9EEY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000KT9EEY&linkCode=as2&tag=ctzettelkasten-20&linkId=7RZ3KAQKPS6WO6PP

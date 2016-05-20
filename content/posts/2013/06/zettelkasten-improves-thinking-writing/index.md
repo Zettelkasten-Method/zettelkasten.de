@@ -153,7 +153,7 @@ Next, I'll show you how to implement a _Zettelkasten_ on your computer.  Stay tu
 
 [Not Cited][#rime1998soshae] <!-- ct: fix for footnote conversion -->
 
-[#luhmann1992zettel]: Niklas Luhmann (1992):  "Kommunikation mit Zettelkästen. Ein Erfahrungsbericht", in: _Universität als Milieu_, edited by André Kieserling, Bielefeld: Haux. -- Take a look at the full-text translation titled [_Communication with Slip Boxes. An Empirical Account_][csb] by Manfred Kuehn.
+[#luhmann1992zettel]: Niklas Luhmann (1992):  "Kommunikation mit Zettelkästen. Ein Erfahrungsbericht", in: _Universität als Milieu_, edited by André Kieserling, Bielefeld: Haux. -- Take a look at the full-text translation titled [_Communication with Slip Boxes. An Empirical Account_ (Archive.org)](https://web.archive.org/web/20150825031821/http://scriptogr.am/kuehnm) by Manfred Kuehn. ([original link][csb])
   
 [#rime1998soshae]: Bernard Rimé, Catrin Finkenauer, Olivier Luminet, Emmanuelle Zech, and Pierre Philippot (1998):  _Social Sharing of Emotion: New Evidence and New Questions_, European Review of Social Psychology 9, 1998, Vol. , S. 145--189.
 

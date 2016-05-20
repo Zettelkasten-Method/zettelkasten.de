@@ -33,7 +33,7 @@ When we think about how to read in the context of learning, we should ask how to
 
 I've suggested that reading to expand knowledge can be split in stages:  [collecting and processing][crzettel].  Let's have a look at both of them.
 
-[crzettel]: content/posts/2013/09/create-zettel-from-reading-notes
+[crzettel]: /posts/create-zettel-from-reading-notes/
 
 ### Collection Stage
 

@@ -1,0 +1,19 @@
+---
+title: Fixed Links
+created_at: 2016-05-20 16:21:44 +0200
+kind: article
+author: christian
+tags: [ announcement ]
+preview: fulltext
+---
+
+I fixed a few broken links on this site, both outgoing and between blog posts. To that end I re-read a few of the older pieces on this site.
+
+Check out these goldies:
+
+* [Create a Zettelkasten for your Notes to Improve Thinking and Writing](/posts/zettelkasten-improves-thinking-writing/)
+* [The Collector's Fallacy](/posts/collectors-fallacy/)
+* [Building Blocks of a Zettelkasten](/posts/zettelkasten-building-blocks/)
+* [The 2 Forms of a Zettel Note](content/posts/zettel-nature-two-forms/)
+
+Sascha's next post is in our extensive review loop already, by the way, so stay tuned.
