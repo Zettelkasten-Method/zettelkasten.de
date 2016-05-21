@@ -14,6 +14,6 @@ Check out these goldies:
 * [Create a Zettelkasten for your Notes to Improve Thinking and Writing](/posts/zettelkasten-improves-thinking-writing/)
 * [The Collector's Fallacy](/posts/collectors-fallacy/)
 * [Building Blocks of a Zettelkasten](/posts/zettelkasten-building-blocks/)
-* [The 2 Forms of a Zettel Note](content/posts/zettel-nature-two-forms/)
+* [The 2 Forms of a Zettel Note](/posts/zettel-nature-two-forms/)
 
 Sascha's next post is in our extensive review loop already, by the way, so stay tuned.
