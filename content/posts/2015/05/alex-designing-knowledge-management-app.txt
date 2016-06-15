@@ -33,7 +33,7 @@ Don't get me wrong: I store a PDF now and then myself. It belongs in my [referen
 
 Recall what I said about [building blocks of a Zettelkasten](/posts/zettelkasten-building-blocks/):
 
-> [T]ranslate stuff from the outside world into something your system can understand. A book, physically, cannot be part of your Zettelkasten. Your personal library isn’t part of it. A representation of a book will fit in nicely, though. Since you own the representation, you can work with it more freely, too.
+> \[T\]ranslate stuff from the outside world into something your system can understand. A book, physically, cannot be part of your Zettelkasten. Your personal library isn’t part of it. A representation of a book will fit in nicely, though. Since you own the representation, you can work with it more freely, too.
 
 If you work with system-innate representations of "stuff" from the outside world, you are free.
 
