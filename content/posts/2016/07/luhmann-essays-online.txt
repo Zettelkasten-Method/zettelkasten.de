@@ -1,0 +1,14 @@
+---
+title: Luhmann's Essays on Writing and Using a Zettelkasten are Back Online
+created_at: 2016-07-06 09:41:32 +0200
+kind: article
+author: christian
+tags: [ luhmann ]
+url: http://luhmann.surge.sh
+---
+
+After the _scriptogr.am_ shutdown a while ago, [Manfred Kuehn](http://takingnotenow.blogspot.com/)'s translations of Luhmann's essays on note-taking and reading were gone.
+
+Today I found out that "[Communicating with Slip Boxes](http://luhmann.surge.sh/communicating-with-slip-boxes)" (which is about a Zettelkasten) and "[Learning how to Read](http://luhmann.surge.sh/learning-how-to-read)" can be found online again at <http://luhmann.surge.sh>.
+
+I love that the source files are available, too, for anyone to see and edit, [at GitHub](https://github.com/xHN35RQ/luhmann.surge.sh).

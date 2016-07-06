@@ -3,7 +3,7 @@ title: Create a Zettelkasten for your Notes to Improve Thinking and Writing
 created_at: 2013-06-20 19:38:00 +0200
 author: christian
 kind: article
-tags: [ writing, productivity, zettel, connect ]
+tags: [ writing, productivity, zettel, connect, luhmann ]
 vgwort: http://vg02.met.vgwort.de/na/5ecb7a3567854388b277be5d1e30893f
 lang: mmd
 import:
@@ -42,7 +42,7 @@ Let's start with the _thought_ before we get to the _note_.
   [vn]: http://en.wikipedia.org/wiki/Index_card
   [as]: http://en.wikipedia.org/wiki/Arno_Schmidt
   [zt]: http://www.zinzin.com/observations/2013/who-was-arno-schmidt-and-what-is-zettels-traum-some-evidentiary-fragments/
-  [csb]: http://scriptogr.am/kuehnm/post/2012-12-22-111621
+  [csb]: http://luhmann.surge.sh/communicating-with-slip-boxes
   
 ## Improve Thinking by Writing: Why You Should Take Notes [impthink]
 
@@ -153,7 +153,7 @@ Next, I'll show you how to implement a _Zettelkasten_ on your computer.  Stay tu
 
 [Not Cited][#rime1998soshae] <!-- ct: fix for footnote conversion -->
 
-[#luhmann1992zettel]: Niklas Luhmann (1992):  "Kommunikation mit Zettelkästen. Ein Erfahrungsbericht", in: _Universität als Milieu_, edited by André Kieserling, Bielefeld: Haux. -- Take a look at the full-text translation titled [_Communication with Slip Boxes. An Empirical Account_ (Archive.org)](https://web.archive.org/web/20150825031821/http://scriptogr.am/kuehnm) by Manfred Kuehn. ([original link][csb])
+[#luhmann1992zettel]: Niklas Luhmann (1992):  "Kommunikation mit Zettelkästen. Ein Erfahrungsbericht", in: _Universität als Milieu_, edited by André Kieserling, Bielefeld: Haux. -- Take a look at the full-text translation titled [_Communication with Slip Boxes. An Empirical Account_][csb] by Manfred Kuehn. ([original link (Archive.org)](https://web.archive.org/web/20150825031821/http://scriptogr.am/kuehnm))
   
 [#rime1998soshae]: Bernard Rimé, Catrin Finkenauer, Olivier Luminet, Emmanuelle Zech, and Pierre Philippot (1998):  _Social Sharing of Emotion: New Evidence and New Questions_, European Review of Social Psychology 9, 1998, Vol. , S. 145--189.
 

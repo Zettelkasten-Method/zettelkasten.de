@@ -3,7 +3,7 @@ title: No, Luhmann was not about Folgezettel
 created_at: 2015-10-31 17:58:13 +0100
 kind: article
 author: sascha
-tags: [ archive, hyperlink, folgezettel, category, principle ]
+tags: [ archive, hyperlink, folgezettel, category, principle, luhmann ]
 image: 201510311813_ducklings.jpg
 vgwort: http://vg09.met.vgwort.de/na/760607bf91524ba088f9a0724333446f
 ---

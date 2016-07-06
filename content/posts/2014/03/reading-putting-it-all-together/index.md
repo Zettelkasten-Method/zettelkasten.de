@@ -2,7 +2,7 @@
 title: "Reading Habits: Putting It All Together"
 created_at: 2014-03-09 10:55:18 +0100
 kind: article
-tags: [ learning, collect, process, reading, archive ]
+tags: [ learning, collect, process, reading, archive, luhmann ]
 image: 201403091054_reading.jpg
 vgwort: http://vg08.met.vgwort.de/na/a485d13b90094fad8d0581d65732f3ac
 import:
@@ -80,7 +80,7 @@ Integrating notes will become the bottleneck of your workflow sooner or later, t
 * With a digital archive and full-text search, retrieving notes is blazingly fast, no matter how many notes you have; 
 * Only creating connections takes more time the bigger your archive becomes.  Obviously, that's because there is an increasing amount of link target candidates.  That's a good sign, a sign of [externalized cerebral growth][extmind]!
 
-[^2]: Niklas Luhmann (2000):  _Lesen Lernen_, Frankfurt am Main: Zweitausendeins, p. 156.
+[^2]: Niklas Luhmann (2000):  _Lesen Lernen_, Frankfurt am Main: Zweitausendeins, p. 156. -- English translation online: "[Learning how to Read](http://luhmann.surge.sh/learning-how-to-read)"
 
 
 ## How All That Fits Together

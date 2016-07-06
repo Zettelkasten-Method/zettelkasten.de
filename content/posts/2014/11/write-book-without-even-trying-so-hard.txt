@@ -25,7 +25,7 @@ There are two methods to work with a Zettelkasten:
 
  [ctluhmann]: /posts/zettelkasten-improves-thinking-writing/
 
-  [luhmann]: http://scriptogr.am/kuehnm/post/2012-12-22-111621
+  [luhmann]: http://luhmann.surge.sh/communicating-with-slip-boxes
 
 **Directional Work** means that you are working on a text, a book or an article, and feeding your Zettelkasten with notes directly and intentionally related to this book. 
 
