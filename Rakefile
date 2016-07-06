@@ -2,7 +2,6 @@
 
 require "rubygems"
 require "bundler/setup"
-require 'rake/pathmap'
 require "fileutils"
 
 SITE = "output"
