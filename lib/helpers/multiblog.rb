@@ -186,6 +186,11 @@ module My
           classes << "post--link" if is_link_post?(item)
         }.join(' ')
       end
+      
+      def year_month(item)
+        date = DateTime.parse(item[:created_at].to_s)
+        return { year: date.year, month: date.month }
+      end
     end
     
     def latest_post(kind = "article")
@@ -208,7 +213,64 @@ module My
       
       return tags.to_a.sort
     end
+
+    def partitioned_sorted_posts_by_year(kind = "article")
+      posts = sorted_posts()
+      years_data, months_data = years_and_months(posts)
       
+      months = months_data.map { |m| Month.new(m) }
+      ym_posts = posts.group_by { |p| Post::year_month(p) }
+      years = {}
+      ym_posts.each do |date, posts|
+        # before: {{year, month} => [posts]}
+        # after: {year => {month => [posts]}}
+        (years[date[:year]] ||= {})[date[:month]] = posts
+      end
+      years
+    end
+    
+    class Month
+      attr_reader :year, :month
+      
+      def initialize(args)
+        @year = args[:year]
+        @month = args[:month]
+      end
+      
+      def title
+        Date.new(@year, @month).strftime('%b')
+      end
+      
+      def first_day
+        Date.new(@year, @month, 1).iso8601
+      end
+      
+      def last_day
+        Date.new(@year, @month, -1).iso8601
+      end
+      
+      def padded
+        "%02d" % @month
+      end
+      
+      def post_url
+        "/posts/#{year}/#{padded}/"
+      end
+    end
+    
+    def years_and_months(posts)
+      years = Set.new
+      months = Set.new
+    
+      posts.each do |post|
+        date = DateTime.parse(post[:created_at].to_s)
+        years << date.year
+        months << { year: date.year, month: date.month }
+      end
+    
+      return years, months
+    end
+    
     def sorted_posts(kind = "article")
       posts(kind).sort_by do |post|
         attribute_to_time(post[:created_at])

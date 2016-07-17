@@ -58,20 +58,7 @@ preprocess do
     end
   end
   
-  def years_and_months(posts)
-    years = Set.new
-    months = Set.new
-    
-    posts.each do |post|
-      date = DateTime.parse(post[:created_at].to_s)
-      years << date.year
-      months << { year: date.year, month: date.month }
-    end
-    
-    return years, months
-  end
-
-  years, months = years_and_months(posts())
+  years, months = Post::years_and_months(posts())
 
   years.each do |year|
     @items.create(
@@ -84,19 +71,14 @@ preprocess do
     )
   end
   
-  months.each do |month|
-    month_title = Date.new(month[:year], month[:month]).strftime('%b')
-    first_day = Date.new(month[:year], month[:month], 1).iso8601
-    last_day = Date.new(month[:year], month[:month], -1).iso8601
-    padded_month = "%02d" % month[:month]
-    
+  months.map { |m| Month.new(m) }.each do |month|    
     @items.create(
-      "<%= render '_posts_per_time', :from => '#{first_day}', :to => '#{last_day}' %>",
+      "<%= render '_posts_per_time', :from => '#{month.first_day}', :to => '#{month.last_day}' %>",
       {
-        :title => %Q{Posts from #{month_title} #{month[:year]}},
+        :title => %Q{Posts from #{month.title} #{month.year}},
         :mtime => Time.now # TODO last post
       },
-      "/posts/#{month[:year]}/#{padded_month}"
+      month.post_url
     )
   end
   

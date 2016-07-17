@@ -69,7 +69,8 @@ h1, .announcement,
 label, input { font-family: $font-sans; }
 
 .header__title {
-  color: white;
+  $color: white;
+  color: $color;
   font-size: 160%;
   font-weight: 700;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -78,7 +79,14 @@ label, input { font-family: $font-sans; }
   letter-spacing: 0.2em;
   background-color: #B5CB30;
   text-align: center;
+
+  a.header__link, a.header__link:visited, a.header__link:hover {
+    text-decoration: none;
+    border-bottom-color: transparent;
+    color: $color;
+  }
 }
+
 
 .header-container { 
   background-color: #B5CB30;
@@ -241,6 +249,16 @@ blockquote {
     padding-right: 0;
   }
 }
+
+/** Blog archive */
+
+.posts__browse { font-size: $large-base-size; font-family: $font-sans; }
+.allposts__post {} 
+.minimalpost{} 
+.post--minimal {}
+.minimalpost__title {}
+.minimalpost__time { }
+.minimalpost__author { display: none; }
 
 /** Book Announcement Page */
 .book_toc {

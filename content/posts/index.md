@@ -2,22 +2,26 @@
 title: Post Archive
 ---
 
-* Take a look at our [article overview](/posts/overview/) for a guided introduction.
-* Browse posts by topic through our [list of tags](/posts/tags).
-* Explore what happened chronologically:
-    * [Posts from 2016](/posts/2016/)
-    * [Posts from 2015](/posts/2015/)
-    * [Posts from 2014](/posts/2014/)
-    * [Posts from 2013](/posts/2013/)
-* Browse our posts by author: there's [Christian's posts](/authors/christian), and there are [Sascha's posts](/authors/sascha).
+Take a look at our [article overview](/posts/overview/) for a guided introduction.
 
-To stay on top of development, sign up to our mailing list:
+* Chronological: [2016](/posts/2016/), [2015](/posts/2015/), [2014](/posts/2014/), [2013](/posts/2013/).
+* Authors: [Christian's posts](/authors/christian); [Sascha's posts](/authors/sascha).
+* [List of tags](/posts/tags).
 
 <%= render '_newsletter_signup' %>
 
 
-# The 10 Most Recent Posts
+# All Posts
 
-<% sorted_posts()[0..10].each do |post| %>
-  <%= render '_post', :post => post %>
+<% partitioned_sorted_posts_by_year().each do |year, months| %>
+<h2><%= year %></h2>
+
+<ul class="allposts">
+<% months.each do |month, posts| %>
+<% posts.each do |post| %>
+<%= render '_post-archive', :post => post, :month => month %>
+<% end %>
+<% end %> 
+</ul>
+
 <% end %>
