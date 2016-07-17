@@ -257,7 +257,7 @@ blockquote {
 .minimalpost{} 
 .post--minimal {}
 .minimalpost__title {}
-.minimalpost__time { }
+.minimalpost__time { font-size: $small-size; font-family: $font-sans; }
 .minimalpost__author { display: none; }
 
 /** Book Announcement Page */
