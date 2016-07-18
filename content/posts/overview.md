@@ -56,6 +56,7 @@ If you want to know more about us and how we roll, take a look at [the "personal
     * [Counting your words](/posts/count-your-words/) is motivating and helps you stick to the habit of writing daily.
     * Christian also wrote a Mac app for this: the [Word Counter](http://wordcounterapp.com/).
 * Getting started with writing projects
+    * Buffer files in your Zettelkasten are great to [store writing ideas](/posts/manage-writing-ideas/).
     * [Use outlines](/posts/how-i-use-outlines-to-write-any-text/) to start with the first draft, and then
     * [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents. This works [without you trying so hard.](/posts/write-book-without-even-trying-so-hard/)
 * [Divide composing from editing your texts](/posts/writing-composing-revising/) to reach a state of flow and get faster at finishing your projects.
