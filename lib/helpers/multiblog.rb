@@ -218,7 +218,6 @@ module My
       posts = sorted_posts()
       years_data, months_data = years_and_months(posts)
       
-      months = months_data.map { |m| Month.new(m) }
       ym_posts = posts.group_by { |p| Post::year_month(p) }
       years = {}
       ym_posts.each do |date, posts|
