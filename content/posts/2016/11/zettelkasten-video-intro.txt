@@ -1,0 +1,20 @@
+---
+title: "Zettelkasten Live: the Intro Video"
+created_at: 2016-11-24 16:27:37 +0100
+kind: article
+author: christian
+tags: [ video ]
+url: https://www.youtube.com/watch?v=bevIFTngU2g
+---
+
+_Hello dear friends of knowledge work and knowledge management!_ -- Today we're thrilled to tell you that our video experiments did bear fruit. We hereby announce the Zettelkasten Live channel.
+
+**[Watch out 10min intro on YouTube.](https://www.youtube.com/watch?v=bevIFTngU2g)**
+
+We'll announce the next recording time a few days ahead so you can tune in for the true live experience. If you want to suggest a topic, then leave a comment here or below the video.
+
+Our videos will be heavy on **live demonstrations**, so if you want to _see_ how we create and integrate new Zettel into our archive, this is the time to find out! 
+
+The videos will not be webinars or lectures. We're going to chat about topics and see where the conversation is leading and demonstrate the workflow. But as Sascha announced in the intro, we're working on a video project to make up on the lack of an English _Zettelkasten Method_ book.
+
+If you want to schedule a live participation with us, suggest a time and topic [via e-mail](http://zettelkasten.de/legal/) and we'll see if that fits out schedule. We're based in Germany (UTC+01), so we may not always be live in your time-zone.

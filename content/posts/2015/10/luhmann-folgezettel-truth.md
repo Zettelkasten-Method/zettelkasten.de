@@ -135,3 +135,7 @@ I highly appreciate what Daniel Lüdeckes has done for me with his app. I learne
 On the other side, I stick to principles and not to techniques. I always try to apply the principles of the Zettelkasten Method with the least number of techniques possible. That seems to be an elegant solution.
 
 My knowledge work has improved a lot since I have found the Zettelkasten Method and did improve a lot further since I turned minimalist and used a plain text approach. During the time Christian and I heavily discussed our Zettelkästen, we came to a simple solution: Less is more, most of the time. When it’s not, there is a simpler solution you don’t know yet hidden somewhere.
+
+---
+
+**Update Nov. 2015:** There's [a follow-up](http://zettelkasten.de/posts/luedeckes-follow-up/) by Zkn³ developer Daniel Luedecke.
