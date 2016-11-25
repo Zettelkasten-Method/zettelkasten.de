@@ -3,7 +3,7 @@ title: How I use Outlines to Write Any Text
 created_at: 2014-05-24 17:11:02 +0200
 kind: article
 author: christian
-tags: [ outline, writing ]
+tags: [ outline, writing, hub ]
 image: 201405241937_leaf_structure.jpg
 vgwort: http://vg08.met.vgwort.de/na/63c76a9da31d4060a7c1e183626b04f6
 import:

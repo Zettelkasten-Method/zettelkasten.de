@@ -2,7 +2,7 @@
 title: "Reading Habits: Putting It All Together"
 created_at: 2014-03-09 10:55:18 +0100
 kind: article
-tags: [ learning, collect, process, reading, archive, luhmann ]
+tags: [ learning, collect, process, reading, archive, luhmann, hub ]
 image: 201403091054_reading.jpg
 vgwort: http://vg08.met.vgwort.de/na/a485d13b90094fad8d0581d65732f3ac
 import:
