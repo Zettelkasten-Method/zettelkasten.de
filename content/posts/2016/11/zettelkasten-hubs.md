@@ -4,9 +4,11 @@ created_at: 2016-11-25 16:19:38 +0100
 kind: article
 author: sascha
 tags: [ luhmann, archive, connect, hub ]
-image: 20161125162100_vortrag-schmidt.jpg
+preview: fulltext
 vgwort: http://vg08.met.vgwort.de/na/66c53d23f9234b1182f247bd7465061b
 ---
+
+<iframe src="https://player.vimeo.com/video/173128404?byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Johannes Schmidt gave an awesome [lecture](https://vimeo.com/173128404) but most of you don’t understand German. So I thought I'd give you a quick flash of my notes of some points that I found most important. Keep in mind that this is not a comprehensive overview. Some points are left out or presented with the intention to be more relevant but as a result can be biased. 
 
