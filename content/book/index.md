@@ -4,8 +4,6 @@ title: The Book
 
 The German book is published: [check out its project page.](/book/de/) (German)
 
-**Translator from German to English wanted: Sascha offers a life long profit share for the translator of my books. [Contact Sascha](/legal/) for further details.**
-
 You can take a look at our work-in-progress table of contents to get a first impression of what we cover.
 
 ## Table of Contents
