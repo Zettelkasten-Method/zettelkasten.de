@@ -1,0 +1,24 @@
+---
+title: "Next Zettelkasten Live Episode on Thursday"
+created_at: 2016-12-06 17:24:28 +0100
+kind: article
+author: christian
+tags: [ live ]
+url: http://www.youtube.com/c/ZettelkastenDe/live
+---
+
+We'll be on air this Thursday, 3:00 p.m. UTC. Go to our [live stream page on YouTube](http://www.youtube.com/c/ZettelkastenDe/live) to see the countdown and localized times.
+
+You're all welcome to chat with us there on Thursday or leave questions here in advance if you can't make it.
+
+I set up a public Google Calendar you can look at subscribe to, if you want, although it updates super slow:
+
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=300&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=nk04ivhdnau8cjh6g2g3nlq2io1a9uj8%40import.calendar.google.com&amp;color=%23865A5A&amp;ctz=Europe%2FBerlin" style="border-width:0" width="600" height="300" frameborder="0" scrolling="no"></iframe>
+
+Useful resources to subscribe to announcements:
+
+* Our [YouTube Live page](http://www.youtube.com/c/ZettelkastenDe/live)
+* [iCal Google Calendar file link](https://calendar.google.com/calendar/ical/nk04ivhdnau8cjh6g2g3nlq2io1a9uj8%40import.calendar.google.com/public/basic.ics)
+* The actual calendar source for you to copy and subscribe to in your native calendar apps is this:
+    
+    <pre>webcal://p51-calendars.icloud.com/published/2/fyweJlILTalGxbLZeBcRh1X2t3-fc-dSYwHUUcIbID1elsw8ZBr8reGn8xjVObeIroIVZ5YVQh2KoKMyxTOSYz3shq1_mn6hYLzC2dNgzGw</pre>
