@@ -1,0 +1,12 @@
+---
+title: This Week's Episode Will be Delayed Until Next Week
+created_at: 2016-12-09 14:22:29 +0100
+kind: article
+author: christian
+tags: [ live ]
+preview: fulltext
+---
+
+Sorry, folks, but this week's episode recording didn't take place. On Wednesday night I was struck hard by spontaneous and annoying bowel-emptying and I still couldn't think straight when the scheduled recording would have taken place. I'm feeling a lot better already and we'll try again next Thursday, Dec. 15th, same time: 16:00&nbsp;UTC+01.
+
+As always, just shoot your questions and demo requests at us!
