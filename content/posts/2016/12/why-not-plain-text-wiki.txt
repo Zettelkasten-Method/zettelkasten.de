@@ -1,0 +1,61 @@
+---
+title: "Reader Question: Why Not Use a Plain-Text Wiki?"
+created_at: 2016-12-13 19:42:53 +0100
+kind: article
+author: christian
+tags: [ wiki, connect, zettel, process, identifier, antifragile ]
+vgwort: http://vg01.met.vgwort.de/na/015a1f8a00a54349a00ded6afcc1298a
+---
+
+Sujith Abraham [asks on YouTube](https://www.youtube.com/watch?v=jgZOMN5KfTE&google_comment_id=z12hi54w3la3gjvqj04cjna4alafi55hzuo0k&google_view_type=#gpluscomments):
+
+> Why did you choose nvALT, where you have to create manual links so that you can search and find which other notes '*backlinks*' to other notes, instead of a wiki (like DokuWiki, Tiddlywiki) where this would be provided automatically along with the benefit of plain-text writing/storage.
+
+## Christian's Response 
+
+DokuWiki requires a local web server (you can put it online, too, if you want access from anywhere), but this technological problem is not a real issue. There are native apps that use the `WikiWord` or `[[wiki link]]` convention to connect notes. So the question really is: if there is wiki software that read and write plain text notes to a folder on your hard drive, why not use that?
+
+Historically, I went with the somewhat weird `[anchor text][§note ID]`-convention to place the emphasis on utilizing existing Markdown implementation instead of introducing my own sub-format. As it is, this stuff isn't clickable in any editor because a the link definition isn't resolved anywhere. It's easy to add a link definition, even manually, like this:
+
+    This is a paragraph with [a link][§201612111626].
+    
+    ...
+    [§201612111626]: path/to/201612111628_first_title.txt
+    [§201612111628]: path/to/201612111628_some_other_title.txt
+    ...
+
+The bottom part, where the Markdown links are defined, is missing in my notes. You could write a script that created a link definition for each Zettel note from the archive folder. It's a simple translation of note ID to file path, and the note ID is part of the very path already.
+
+If you append that, Markdown preview Just Works.™ You don't even need to extend the Markdown interpreter.
+
+If you argue that the `[[wiki link]]` convention is wide-spread and mixing it with Markdown will not cause much harm, fair enough, you can have a Markdown-aware wiki software and get the best of both worlds. 
+
+If you argue that I need a script to create link definitions for my convention anyway, so I could just as well write an export script that translates double-square-bracket links to regular Markdown links, that's alright, too.
+
+But then you'd be missing part of the point: all your links will depend on the full title of the note. Titles may change over time as you extend, break up, or combine notes. Note ID's don't change. So you will have to use IDs as page titles to get the same combo of flexibility (contents may change) and rigidity (link targets are stable). Readability will not be harmed much because in most a wiki implementations you can add anchor text like so: 
+
+    [[201612111343 | this is the clickable anchor text]]
+    
+..., but then you lose part of the value of plain text: being able to work with mere directory listings, that is being able to look at the file names in the archive and see what's in there. Instead your files will be called `201612111343.txt` and similar, which is not useful on its own.
+
+nvALT has wiki links but cheats a bit. Wiki links are shortcuts to the search function. Clicking `[[link target]]` in nvALT will match all notes containing "link target", not just a note that's exactly called thus. That's why ID-only wiki links in nvALT work well: you can append the note's title in the file name and a wiki link will still produce the same result. That's more useful for our purpose than the strict implementations of regular wiki software. On the flip-side, this means the wiki links you write in nvALT won't work when you import your archive into regular wiki software.
+
+I stick to my existing convention for the sake of consistence (and because I'm very stubborn and resistant to change); when I find out what's next, I'll migrate everything to the new convention. Sascha found the nvALT-style wiki links to provide tremendous value and enhanced his workflow already by using them.
+
+## Sascha's Response
+
+The question could have been even more harsh because I even rejected the wikilink for a long time. 
+
+On of the most important conditions for my decisions is robustness against change of software. Therefore, I do not use anything that could not be replicated with reasonable effort in plain text. 
+
+This heuristic saved me from the problem Christian mentioned. The ID and the title should be two separate things. A wiki does not provide that flexibility. Therefore it is not robust but fragile to changes in the method. With a wiki I would not have the possibility to change the title after editing or changing the content that is associated with the ID all together. Sometimes, I have to edit the title and the content heavily because I have another theory another concept or what not for solving the problem. 
+
+This is similar to the principle of "one thing well". With the right atomicity you can change parts without damaging the whole. This is a condition for any antifragility which basically means that the method will improve with changes, difficulties and other volatilities. 
+
+I simply wikilink to the ID which brakes up the connection between structure and content. This is mandatory for knowledge work because most of the knowledge work is the action of differentiating the structure and content of knowledge (or information). Therefore, the software dependend solutions follows the method which follows the inner logic of knowledge work. 
+
+From experience: I am faster and safer this way.
+
+---
+
+Read more about [robustness, fragility, and antifragility with the Zettelkasten Method.](/posts/zettelkasten-antifragile/)
