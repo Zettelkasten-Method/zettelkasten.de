@@ -168,7 +168,8 @@ end
 
 compile '/posts/*/' do
   if item.binary?
-    filter :thumbnailize, :width => 1500
+    # don't need this since the post images are stored outside anyway
+    #   filter :thumbnailize, :width => 1500
   else # don’t filter binary items
     filter :erb
     
