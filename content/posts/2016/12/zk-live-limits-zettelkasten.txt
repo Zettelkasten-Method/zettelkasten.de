@@ -1,0 +1,22 @@
+---
+title: "Zettelkasten Live Ep. 2: Limits of our Zettelkasten Archives"
+created_at: 2016-12-15 17:01:03 +0100
+kind: article
+author: christian
+tags: [ archive, luhmann, live, folgezettel, paper ]
+---
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/n7ACkCncNT4" frameborder="0" allowfullscreen></iframe>
+
+In this episode, we respond to [Peter's question](http://disq.us/p/1eepei9): What do we _not_ put into our archives?
+
+Here are a few links for stuff we discussed in the video.
+
+* Christian's [inspiration for note meta-categories](http://dougist.com/2009/08/file-system-infobase-manager/) back in the day made him include diary entries. Now they're _out._
+* [The first post about the method itself.](/posts/2013/06/zettelkasten-improves-thinking-writing/)
+* Sascha showed a branching model of note identifiers in his demo; read more about [Zettel note identifiers](/posts/add-identity/).
+* Luhmann's article about [communication with a Zettelkasten](/posts/luhmann-essays-online/) and Luhmann's own Zettelkasten inspired Sascha to start his archive with the first note being about the Zettelkasten itself.
+* [Sascha's argument versus Folgezettel](/posts/luhmann-folgezettel-truth/) (note sequences) as a foundational principle of the Zettelkasten Method.
+* Confer Sascha's post about Johannes Schmidt's [analysis of Luhmann's Zettelkasten](/posts/zettelkasten-hubs/) and its heavy use of hubs.
+
+Shoot questions at us here, below the video, or e-mail for the next episode. We'll be on air again in January. Watch this space for an announcement.
