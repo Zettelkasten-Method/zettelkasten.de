@@ -214,9 +214,8 @@ module My
       return tags.to_a.sort
     end
 
-    def partitioned_sorted_posts_by_year(kind = "article")
-      posts = sorted_posts()
-      years_data, months_data = years_and_months(posts)
+    def partitioned_by_year(posts)
+      years_data, months_data = posts
       
       ym_posts = posts.group_by { |p| Post::year_month(p) }
       years = {}
@@ -226,6 +225,10 @@ module My
         (years[date[:year]] ||= {})[date[:month]] = posts
       end
       years
+    end
+    
+    def partitioned_sorted_posts_by_year(kind = "article")
+      partitioned_by_year(sorted_posts(kind))
     end
     
     class Month
