@@ -1,4 +1,4 @@
-<%= atom_feed :limit => 20, 
+<%= atom_feed :limit => 40, 
               :articles => sorted_posts("article"), 
               :title => "Zettelkasten.de",
               :author_name => @config[:meta_data][:author],

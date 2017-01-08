@@ -1,0 +1,5 @@
+<%= atom_feed :limit => 50, 
+              :articles => sorted_posts_by("sascha"), 
+              :title => "Zettelkasten Posts by Sascha",
+              :author_name => "Sascha Fast",
+              :author_uri => "http://zettelkasten.de/authors/sascha/" %>

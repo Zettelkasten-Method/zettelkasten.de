@@ -125,7 +125,7 @@ end
 # Blog
 #
 
-compile '/feed/' do
+compile '/*/feed/' do
   filter :erb
   # no layout
 end
@@ -250,8 +250,8 @@ route '/htaccess/' do
   '/.htaccess'
 end
 
-route '/feed/' do
-  '/feed.atom'
+route '/*/feed/' do
+  item.identifier.chop + '.atom'
 end
 
 route 'sitemap' do
