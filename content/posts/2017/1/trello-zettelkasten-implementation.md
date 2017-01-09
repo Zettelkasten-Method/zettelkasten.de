@@ -227,7 +227,7 @@ You can search and find card links from any card using the comment form. I wish 
 
 <%= insert_rel_image file: "card-link-get.gif", title: "Search and find any card link", caption: %{Search and find any card link} %>
 
-Here is an example of using card links to build a table of contents for a topic within your Zettel note archive. And since each card link auto-formats to display the card title, I can update a card title and see the change reflected in the table of contents. Click on the image to view the actual Trello card.
+Here is an example of using card links to build a table of contents for a topic within a Zettel note archive. Since each card link auto-formats to display the card title, I can update a card title and see the change reflected in the table of contents. Click on the image to view the actual Trello card.
 
 <%= insert_rel_image file: "table-contents.png", title: "A table of contents for a topic", caption: %{A table of contents for a topic}, link: "https://trello.com/c/LxIMsZlz" %>
 
@@ -326,7 +326,7 @@ Trello offers a flexible set of tools to build a knowledge base. It is especiall
 
 * I like that Trello is a web application. I can access it from anywhere. I do not have to worry about backing up my data, and all my notes stay in sync no matter the device. Also, since Trello is on the web, I can link in and out of my note archives from locations around the web.
 
-* I like that I can use email to add new cards. I have used (abused?) this feature to archive information into Trello from various places around the web. This (and IFTTT integration) might be one of the killer features of Trello since it allows for ubiquitous capture of your thoughts.
+* I like that I can use email to add new cards. I have used (abused?) this feature to archive information into Trello from various places around the web. This might be one of the killer features of Trello since it allows for ubiquitous capture of your thoughts.
 
 * The workflow of navigating, selecting, opening and editing is well designed. I find the keyboard shortcuts mostly intuitive, and only find myself using the mouse or touchpad once in a while. It is easy to get into a flow with Trello.
 
