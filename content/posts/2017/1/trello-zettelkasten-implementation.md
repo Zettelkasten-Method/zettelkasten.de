@@ -1,6 +1,6 @@
 ---
 title: Using Trello as a Zettel note archive
-created_at: 2016-12-17 10:15:07 +0100
+created_at: 2017-01-10 10:15:07 +0100
 kind: article
 author: Nick
 tags: [ software, archive, review, tool ]
