@@ -1,6 +1,6 @@
 ---
 title: Using Trello as a Zettel note archive
-created_at: 2017-01-10 10:15:07 +0100
+created_at: 2017-01-09 10:15:07 +0100
 kind: article
 author: Nick
 tags: [ software, archive, review, tool ]
@@ -16,7 +16,7 @@ toc: on
 
 The Trello application is provided by Trello, Inc. through a [freemium pricing model](https://trello.com/pricing) and has been in development [since 2011](https://trello.com/about). They have over [10 million users](http://blog.trello.com/wahooo-free-gold-for-our-10-million-users), and promise data security and reliability. See the Trello [Privacy](http://help.trello.com/article/712-privacy) and [Security](https://trello.com/security) policies for further details.
 
-I have used Trello for several projects in the past, and one day the similarities between an index card and a Trello card made me wonder if the Zettelkasten method would fit with Trello. So I decided to build a Zettel note archive to satisfy my curiosity. I will share what I learned with you.
+I have used Trello for several projects in the past, and over time the similarities between an index card and a Trello card made me wonder if the Zettelkasten method would fit with Trello. So I decided to build a Zettel note archive to satisfy my curiosity. I will share what I learned with you.
 
 A note of attribution: I borrowed liberally from the [Trello Documentation](http://help.trello.com/) and the [Trello Blog](http://blog.trello.com/) as I wrote this article.
 
@@ -48,7 +48,7 @@ Clicking on a card opens the card and shows the back. Here you can edit card con
 
 I created an [example Trello Zettel note archive](https://trello.com/b/DLr3FVxr) for you to explore. All the screen-shots in this article were taken from this board, and some of the screen-shots link back to parts of this board.
 
-I also created a Trello version of the article you are currently reading: [Using Trello as a Zettel note archive](https://trello.com/b/Mgo52VBw).
+I also created a Trello version of the article you are currently reading: [Using Trello as a Zettel note archive](https://trello.com/b/Mgo52VBw). Please note the Trello board represents an older version of this article and so differs slightly from the page you are reading now.
 
 ## Testing Trello with the Four Criteria
 
@@ -143,11 +143,15 @@ You can add attachments from:
 
 Each card has a comments section to add additional information. Use it to track changes to the card over time. Or to make notes about the contents of the card. Or to have an argument with other members about the content of the card! See [Commenting on cards](http://help.trello.com/article/765-commenting-on-cards) for more.
 
-#### Creating Cards By Email
+#### Creating Cards by Email
 
 Each board has a unique email address. Create new cards by sending an email to this address. Each card also has a unique email address, and you can add comments to that card in the same way. This feature is very useful for ubiquitous capture... just send a quick email to capture your thoughts.
 
 When creating a new card by email, the subject of the email becomes the card’s title, the body of the email becomes the card’s description, and attachments in the email will be added to the card. You can also add labels and members by email. For more details see [Creating cards by email](http://help.trello.com/article/809-creating-cards-by-email).
+
+#### Creating Cards via IFTTT
+
+Trello integrates with [IFTTT](https://ifttt.com/) so you can create cards using IFTTT applets. A new card will be created whenever an applet is triggered. For example, you can create an applet linking iOS reminders to Trello. Now you can [use Siri to add a new card](https://ifttt.com/applets/302806p) to your Zettel note archive. You could take a photo of a written note, and [send that photo to Trello](https://ifttt.com/applets/299925p) to archive your note for later transcription. Or you can use the [SMS service](https://ifttt.com/sms) to create a new card every time you send an SMS message to IFTTT. Explore the available [IFTTT applets and services](https://ifttt.com/about) to get more ideas.
 
 #### Copying Cards, Lists and Boards
 
@@ -223,6 +227,14 @@ You can search and find card links from any card using the comment form. I wish 
 
 <%= insert_rel_image file: "card-link-get.gif", title: "Search and find any card link", caption: %{Search and find any card link} %>
 
+Here is an example of using card links to build a table of contents for a topic within your Zettel note archive. And since each card link auto-formats to display the card title, I can update a card title and see the change reflected in the table of contents. Click on the image to view the actual Trello card.
+
+<%= insert_rel_image file: "table-contents.png", title: "A table of contents for a topic", caption: %{A table of contents for a topic}, link: "https://trello.com/c/LxIMsZlz" %>
+
+I made the table of contents by creating a Markdown list of card links. Here is what the Markdown looks like:
+
+<%= insert_rel_image file: "table-contents-create.png", title: "Creating a table of contents", caption: %{Creating a table of contents} %>
+
 #### Comment Links
 
 You can also link to individual card comments. Each comment has a unique date-stamped link.
@@ -235,7 +247,7 @@ This is one of the weak areas for Trello. Data import and export requires techni
 
 #### Importing
 
-Trello does not currently have a generic import feature. [Creating cards by email](#creating-cards-by-email) might be considered a form of importing, but you would need to send an email for each note.
+Trello does not currently have a generic import feature. [Creating cards by email](#creating-cards-by-email) and [creating cards via IFTTT](#creating-cards-via-ifttt) might both be considered types of importing, but neither allow you to mass-import since you are limited to creating a card at a time.
 
 You can import multiple cards from a spreadsheet using external services and the Trello API:
 
@@ -314,7 +326,7 @@ Trello offers a flexible set of tools to build a knowledge base. It is especiall
 
 * I like that Trello is a web application. I can access it from anywhere. I do not have to worry about backing up my data, and all my notes stay in sync no matter the device. Also, since Trello is on the web, I can link in and out of my note archives from locations around the web.
 
-* I like that I can use email to add new cards. I have used (abused?) this feature to archive information into Trello from various places around the web.
+* I like that I can use email to add new cards. I have used (abused?) this feature to archive information into Trello from various places around the web. This (and IFTTT integration) might be one of the killer features of Trello since it allows for ubiquitous capture of your thoughts.
 
 * The workflow of navigating, selecting, opening and editing is well designed. I find the keyboard shortcuts mostly intuitive, and only find myself using the mouse or touchpad once in a while. It is easy to get into a flow with Trello.
 
@@ -324,7 +336,7 @@ Trello offers a flexible set of tools to build a knowledge base. It is especiall
 
 * Being able to attach images and documents to a card to enhance a note is more useful than I anticipated.
 
-* Trello has several integrations with other services, allowing me to build self-managing knowledge systems. I can pull data from around the internet and automatically add it to a board. I can give apps and bots access to my board to automatically take action on my cards (with my approval). I can use data from Trello to integrate into other systems, for example publishing cards as blog posts or mini-websites.
+* Trello has several integrations with other services (such as IFTTT), allowing me to build self-managing knowledge systems. I can pull data from around the internet and automatically add it to a board. I can give apps and bots access to my board to automatically take action on my cards (with my approval). I can use data from Trello to integrate into other systems, for example publishing cards as blog posts or mini-websites.
 
 ### What I Don’t Like
 
