@@ -1,5 +1,5 @@
 ---
-title: Using Trello as a Zettel note archive
+title: Using Trello as a Zettel Note Archive
 created_at: 2017-01-09 10:15:07 +0100
 kind: article
 author: Nick
@@ -14,7 +14,7 @@ toc: on
 
 [Trello](https://trello.com/tour) is web-based knowledge management tool. It is commonly used for project management. However, it offers all the necessary elements to build a Zettel note archive. Your notes are kept in-sync between all your devices in real-time. And you can add multiple people to a Trello workspace to create collaborative note archives.
 
-The Trello application is provided by Trello, Inc. through a [freemium pricing model](https://trello.com/pricing) and has been in development [since 2011](https://trello.com/about). They have over [10 million users](http://blog.trello.com/wahooo-free-gold-for-our-10-million-users), and promise data security and reliability. See the Trello [Privacy](http://help.trello.com/article/712-privacy) and [Security](https://trello.com/security) policies for further details.
+The Trello application is provided by Trello, Inc. through a [freemium pricing model](https://trello.com/pricing) and has been in development [since 2011](https://trello.com/about). They have over [19 million users](http://blog.trello.com/trello-atlassian), and promise data security and reliability. See the Trello [Privacy](http://help.trello.com/article/712-privacy) and [Security](https://trello.com/security) policies for further details.
 
 I have used Trello for several projects in the past, and over time the similarities between an index card and a Trello card made me wonder if the Zettelkasten method would fit with Trello. So I decided to build a Zettel note archive to satisfy my curiosity. I will share what I learned with you.
 
@@ -243,7 +243,7 @@ You can also link to individual card comments. Each comment has a unique date-st
 
 ### Data Import/Export
 
-This is one of the weak areas for Trello. Data import and export requires technical solutions which might be challenging for most people.
+This is one of the weak areas for Trello. Data import and export requires technical solutions which might be challenging for some people.
 
 #### Importing
 
@@ -262,7 +262,9 @@ There are several options for exporting data from Trello, see [Exporting data fr
 
 * Print cards and boards to create a PDF. See [Printing in Trello](http://help.trello.com/article/812-printing-in-trello).
 
-* Export cards and boards to JSON. You can [convert JSON to CSV or Excel spreadsheets](http://help.trello.com/article/828-getting-custom-data-from-trello-into-a-spreadsheet).
+* Use the ["Export to Trello" Chrome extension](https://chrome.google.com/webstore/detail/nhdelomnagopgaealggpgojkhcafhnin) to export your data to an Excel spreadsheet.
+
+* Export cards and boards to JSON. You can [convert JSON to CSV or Excel spreadsheets](http://help.trello.com/article/828-getting-custom-data-from-trello-into-a-spreadsheet) or import it directly into other applications that understand the JSON format.
 
 * Access the [Trello API](https://developers.trello.com/) and use [a script](https://github.com/search?utf8=%E2%9C%93&q=trello+markdown) to convert the resulting JSON into Markdown files.
 
