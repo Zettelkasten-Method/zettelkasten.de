@@ -1,0 +1,26 @@
+---
+title: "Zettelkasten Live Ep. 3: Collaboration Using the Method, plus Zettel Extraction Demos"
+created_at: 2017-01-12 16:47:29 +0100
+kind: article
+author: christian
+tags: [ live, collaboration, process ]
+url: https://www.youtube.com/watch?v=mRXXeVsI5C0
+---
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/mRXXeVsI5C0" frameborder="0" allowfullscreen></iframe>
+
+In [today's episode](https://www.youtube.com/watch?v=mRXXeVsI5C0) we had a lot of interaction with you, dear readers and listeners and watchers. Thanks for being great! Here are some show highlights:
+
+* Peter K. asked: How do you use your Zettelkasten setup for collaborative work? (That's roughly the first 30 minutes.)
+* At [37:45](https://www.youtube.com/watch?v=mRXXeVsI5C0&t=37m45s), you see a demo of creating and maintaining structures, based on Tanya's question: "Can you go over what goes into a single zettel? And also how do you make the Zettels 'talk' to each other? How do you manage not to get lost in all the Zettels?"
+* At [1:01:00](https://www.youtube.com/watch?v=mRXXeVsI5C0&t=1h01m00s), you'll see an epic demo of how to write a long Zettel, then splitting it into multiple notes.
+* **[Mr. Andersen](https://www.youtube.com/watch?v=XooISvoZ_rs)** asked if we have daily Zettelkasten routines. I don't have any knowledge work routine at the moment, but Sascha reveals his twice-weekly routine ([55:00](https://www.youtube.com/watch?v=mRXXeVsI5C0&t=55m00s)).
+
+We mentioned a few posts along the way:
+
+* [How to use the outline method](http://zettelkasten.de/posts/how-i-use-outlines-to-write-any-text/)
+* ... and our [outline-related posts in general](http://zettelkasten.de/posts/tags/outline/)
+* [Why Wikis are not necessary](http://zettelkasten.de/posts/you-dont-need-wiki/)
+
+If you watch [the video](https://www.youtube.com/watch?v=mRXXeVsI5C0) and find note-worthy topics, drop us a comment on YouTube or in the comment section of this post with the times. (On YouTube, you can type `30:00` to denote "30 mins into the video" and it'll be clickable by default!)
+

@@ -1,0 +1,12 @@
+---
+title: "Next Zettelkasten Live Episode Today"
+created_at: 2017-01-12 09:27:28 +0100
+kind: article
+author: christian
+tags: [ live ]
+url: http://www.youtube.com/c/ZettelkastenDe/live
+---
+
+We'll be on air today -- Thursday, January 12th, 3:00 p.m. UTC. Go to our [live stream page on YouTube](http://www.youtube.com/c/ZettelkastenDe/live) to see the countdown and localized times.
+
+I have to get this "Live" page up here, soon, so all of you can see the calendar with ease.
