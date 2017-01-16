@@ -130,7 +130,7 @@ compile '/*/feed/' do
   # no layout
 end
 
-compile '/feed/*/' do
+compile '/feed/' do
   filter :erb
   # no layout
 end
@@ -248,6 +248,10 @@ end
 
 route '/htaccess/' do
   '/.htaccess'
+end
+
+route '/feed/' do
+  item.identifier.chop + '.atom'
 end
 
 route '/*/feed/' do
