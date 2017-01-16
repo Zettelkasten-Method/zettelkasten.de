@@ -4,8 +4,6 @@ title: Die Zettelkastenmethode, das Buch
 
 [Looking for an English version?](/book/)
 
-**Translator from German to English wanted: Sascha offers a life long profit share for the translator of my books. [Contact Sascha](/legal/) for further details.**
-
 ---
 
 <a href="http://www.amazon.de/gp/product/1517734312/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=1517734312&linkCode=as2&tag=saschafastde-21">
