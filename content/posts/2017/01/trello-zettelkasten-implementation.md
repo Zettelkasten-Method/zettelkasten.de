@@ -8,11 +8,21 @@ image: 201612062100_trello-zettelkasten.png
 toc: on
 ---
 
+If you paid attention to the comments feed of the past couple of months, you will know Nick already. He's tinkering with interesting plain text stuff -- I won't spoil anything right now; I hope Nick will some day show us the power of `plumber`, instead.
+
+Then just like that he tried out Trello as a Zettelkasten note archive and wrote this amazingly detailed review, including animated GIFs and a sample Trello board to demonstrate what the Trello software can do. This is probably the most detailed post on the entire blog, with more than 50 links and 15 images!
+
+So here you are, kudos to Nick. If you look for a web-based solution, Trello might still turn out to not be your cup of tea, but Nick points out where Trello could come in handy (and where other solutions might be too much for your needs).
+
+Thanks a ton for this contribution, Nick! 👏
+
+---
+
 ## What is Trello?
 
 <%= insert_rel_image file: "trello-zettelkasten.png", title: "Zettel note archive in Trello", caption: %{Zettel note archive in Trello} %>
 
-[Trello](https://trello.com/tour) is web-based knowledge management tool. It is commonly used for project management. However, it offers all the necessary elements to build a Zettel note archive. Your notes are kept in-sync between all your devices in real-time. And you can add multiple people to a Trello workspace to create collaborative note archives.
+[Trello](https://trello.com/tour) is a web-based knowledge management tool. It is commonly used for project management. However, it offers all the necessary elements to build a Zettel note archive. Your notes are kept in-sync between all your devices in real-time. And you can add multiple people to a Trello workspace to create collaborative note archives.
 
 The Trello application is provided by Trello, Inc. through a [freemium pricing model](https://trello.com/pricing) and has been in development [since 2011](https://trello.com/about). They have over [19 million users](http://blog.trello.com/trello-atlassian), and promise data security and reliability. See the Trello [Privacy](http://help.trello.com/article/712-privacy) and [Security](https://trello.com/security) policies for further details.
 
