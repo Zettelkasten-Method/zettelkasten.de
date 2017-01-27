@@ -83,7 +83,7 @@ Add cards via the “Add a card…” input at the bottom of lists. You can also
 * Press `n` to add a new card after the currently selected card. This key shortcut only works if there is a card currently selected. I wish it worked all the time.
 * Press `shift-enter` while submitting a card to open it immediately after creating it.
 
-<%= insert_rel_image file: "add-card.png", title: "Adding a card", caption: %{Click here to add a card or press 'n'} %>
+<%= insert_rel_image file: "add-card.png", title: "Adding a card", caption: %{Click here to add a card. Or press 'n'} %>
 
 #### Navigating Cards
 
