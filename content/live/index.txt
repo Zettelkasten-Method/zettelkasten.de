@@ -2,12 +2,15 @@
 title: Zettelkasten Live
 ---
 
-Once in a while, we record a 30--60 minute video live on our [YouTube Live page](http://www.youtube.com/c/ZettelkastenDe/live) and talk about implementing the Zettelkasten method, knowledge management in general, and show how we use tools in our daily work.
+Once or twice a month on Thursday evenings, German time (UTC+1), we record a live video on our [YouTube page](http://www.youtube.com/c/ZettelkastenDe/live) and talk about implementing the Zettelkasten method, knowledge management in general, and how we use tools in our daily work for 30--60 minutes.
 
+The benefit of "live": you can join us and participate in the comments!
+
+We're open for guests on our show, too. If you want to join us, [get in touch](/legal/)!
 
 ## Upcoming Episodes
 
-We schedule episodes when we find it's time to talk again irregularly once or twice a month. The following calendar widget should show upcoming _Zettelkasten Live!_ dates at least a week in advance.
+We're not on a regular schedule, yet. The following calendar widget should show upcoming _Zettelkasten Live!_ dates at least a week in advance:
 
 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=300&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=nk04ivhdnau8cjh6g2g3nlq2io1a9uj8%40import.calendar.google.com&amp;color=%23865A5A&amp;ctz=Europe%2FBerlin" style="border-width:0" width="600" height="300" frameborder="0" scrolling="no"></iframe>
 
