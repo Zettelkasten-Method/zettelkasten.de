@@ -124,11 +124,12 @@ nav a {
 
     color: $color-nav;
 }
+.nav__icon { padding-right: 0.3em; }
 .nav__icon .iconic-property-fill {
   fill: $color-nav;
 }
 .nav__icon--products {
-  .iconic-property-fill { fill: darken($color-nav, 10%); }
+  .iconic-property-fill { fill: darken($color-nav, 15%); }
   .iconic-property-stroke { stroke: $color-nav; }
 }
 
