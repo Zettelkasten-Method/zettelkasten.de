@@ -2,6 +2,7 @@
 title: Baseline for Zettelkasten Software Reviews
 created_at: 2014-03-29 11:12:19 +0100
 updated_at: 2014-12-09 18:42:00 +0100
+author: christian
 kind: article
 tags: [ software, review ]
 image: "201403291237_gear.jpg"
