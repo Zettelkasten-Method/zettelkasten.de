@@ -106,13 +106,13 @@ module My
         author = item[:author] || 'christian'
         
         if author == "Marko Wenzel"
-          return %Q{by Marko Wenzel}
+          return %Q{by <a href="https://twitter.com/mrkwnzl/">Marko Wenzel</a>}
         elsif author == "Peter Buyze"
           return %Q{by DutchPete}
         elsif author == "Erik Pfeiffer"
           return "by Erik Pfeiffer"
         elsif author == "Nick"
-          return "by Nick"
+          return %Q{by <a href="https://github.com/xHN35RQ">Nick</a>}
         end
         
         author_name = author.capitalize
