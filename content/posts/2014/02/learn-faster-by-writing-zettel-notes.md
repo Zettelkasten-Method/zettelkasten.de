@@ -2,6 +2,7 @@
 title: Learn Faster by Writing Zettel Notes
 created_at: 2014-02-21 18:04:57 +0100
 kind: article
+author: christian
 tags: [ process, learning, connect ] 
 image: 201402212124_rabbitreading.jpg
 vgwort: http://vg08.met.vgwort.de/na/6988f20f8ae64e889faec0d4cc2182df
