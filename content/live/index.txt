@@ -1,0 +1,28 @@
+---
+title: Zettelkasten Live
+---
+
+Once in a while, we record a 30--60 minute video live on our [YouTube Live page](http://www.youtube.com/c/ZettelkastenDe/live) and talk about implementing the Zettelkasten method, knowledge management in general, and show how we use tools in our daily work.
+
+
+## Upcoming Episodes
+
+We schedule episodes when we find it's time to talk again irregularly once or twice a month. The following calendar widget should show upcoming _Zettelkasten Live!_ dates at least a week in advance.
+
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=300&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=nk04ivhdnau8cjh6g2g3nlq2io1a9uj8%40import.calendar.google.com&amp;color=%23865A5A&amp;ctz=Europe%2FBerlin" style="border-width:0" width="600" height="300" frameborder="0" scrolling="no"></iframe>
+
+Useful resources to subscribe to announcements:
+
+* Our [YouTube Live page](http://www.youtube.com/c/ZettelkastenDe/live) where you can watch live
+* The [Zettelkasten Live YouTube Playlist](https://www.youtube.com/playlist?list=PLHwtkAtdkx1JdB9zH-NDFtRpS_AyIzAYh) to subscribe to
+* [iCal Google Calendar file link](https://calendar.google.com/calendar/ical/nk04ivhdnau8cjh6g2g3nlq2io1a9uj8%40import.calendar.google.com/public/basic.ics)
+* The actual calendar source for you to copy and subscribe to in your native calendar apps is this:
+    <pre>webcal://p51-calendars.icloud.com/published/2/fyweJlILTalGxbLZeBcRh1X2t3-fc-dSYwHUUcIbID1elsw8ZBr8reGn8xjVObeIroIVZ5YVQh2KoKMyxTOSYz3shq1_mn6hYLzC2dNgzGw</pre>
+
+## List of Episodes
+
+Also see the [list of Zettelkasten Live blog posts](/posts/tags/live/) to find announcements and show notes.
+
+1. Ep. 1: [Introduction](/posts/zettelkasten-video-intro/)
+2. Ep. 2: [Limits of our Zettelkasten Archives](/posts/zk-live-limits-zettelkasten/)
+3. Ep. 3: [Collaboration Using the Method, plus Zettel Extraction Demos](/posts/zk-live-episode-3-collaboration/)
