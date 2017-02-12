@@ -1,7 +1,7 @@
 ---
 title: Baseline for Zettelkasten Software Reviews
 created_at: 2014-03-29 11:12:19 +0100
-updated_at: 2014-12-09 18:42:00 +0100
+updated_at: 2017-02-12 11:22:00 +0100
 author: christian
 kind: article
 tags: [ software, review ]
@@ -199,6 +199,7 @@ This is a running list of applications I want to look at.  I'm going to update t
 
 The current list of application candidates, in alphabetical order:
 
+* Bear (Mac)
 * Clibu (Web-based, platform independent)
 * ConnectedText (Windows)
 * [DEVONthink](http://zettelkasten.de/posts/devonthink-zettelkasten-review/) (Mac)
@@ -212,6 +213,7 @@ The current list of application candidates, in alphabetical order:
 * ResophNotes (Windows)
 * [SlipBox](/posts/slip-box-mac-review/) (Mac)
 * Tinderbox (Mac)
+* [Trello](/posts/trello-zettelkasten-implementation/) (web)
 * WikidPad (platform independent)
 * VoodooPad (Mac)
 * vim as NVim (platform independent)
