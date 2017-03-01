@@ -112,7 +112,7 @@ module My
         elsif author == "Erik Pfeiffer"
           return "by Erik Pfeiffer"
         elsif author == "Nick"
-          return %Q{by <a href="https://github.com/xHN35RQ">Nick</a>}
+          return "by Nick"
         end
         
         author_name = author.capitalize
@@ -124,8 +124,7 @@ module My
         
         # Guest bloggers
         case author
-        when "Marko Wenzel", "Erik Pfeiffer" then return ""
-        when "Nick" then return %Q{&bull; <a href="https://github.com/xHN35RQ">Github</a>}
+        when "Marko Wenzel", "Erik Pfeiffer", "Nick" then return ""
         when "Peter Buyze" then return %Q{&bull; <a href="https://plus.google.com/+PeterBuyze">Google+</a>}
         end
         
