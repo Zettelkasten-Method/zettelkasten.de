@@ -18,7 +18,7 @@ Meanwhile, the German book is already published, as you can see from the cover i
 
 The Word Counter is our solution to becoming more productive writers. We invented it to track our daily output -- because writing a lot is the number 1 key ingredient to writing good.
 
-* **[Buy now for a time-limited 50% discount](https://sites.fastspring.com/christiantietze/instant/wordcounter?source=zk)**
+* [Buy from Christian's Store](https://sites.fastspring.com/christiantietze/instant/wordcounter?source=zk)
 * Requires Mac OS 10.9 (Mavericks) or above.
 * [Visit the Word Counter homepage](http://wordcounterapp.com?source=zk)
 
