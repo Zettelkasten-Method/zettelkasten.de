@@ -1,0 +1,15 @@
+---
+title: "Zettelkasten Live Ep. 5: Automation is Dangerous"
+created_at: 2017-03-11 10:40:29 +0100
+kind: article
+author: christian
+url: https://www.youtube.com/watch?v=6W3fqizIGZU
+tags: [ live, tool, software ]
+---
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/6W3fqizIGZU" frameborder="0" allowfullscreen></iframe>
+
+In [this week's episode](https://www.youtube.com/watch?v=6W3fqizIGZU) we talked about the dangers of automatization. In short, the computer may help you find stuff, but if you rely on its power 100%, you will end up with a homogenous mush of notes. That's when we also mentioned Nassim Taleb's notion of the "barbell method" to antifragilize your life .
+
+Thanks to our long term question asker Mr. Andersen, Sascha demoed branching of notes from two directions: top-down and bottom-up. You can find that in the last 15 minutes or so. (More precise annotations are always welcome in the comments!)
+
