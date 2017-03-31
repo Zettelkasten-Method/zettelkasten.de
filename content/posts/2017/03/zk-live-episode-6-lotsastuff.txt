@@ -1,0 +1,26 @@
+---
+title: "Zettelkasten Live Ep. 6: Automation, Dumbing-Down, Business, and 2 Idiots on the Balcony"
+created_at: 2017-03-11 10:40:29 +0100
+kind: article
+author: christian
+url: https://www.youtube.com/watch?v=6W3fqizIGZU
+tags: [ live, tool, software ]
+---
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/vfaSGJISkNc" frameborder="0" allowfullscreen></iframe>
+
+In [this week's episode](https://www.youtube.com/watch?v=vfaSGJISkNc) ... lots of things have happened. There was no clear outline this time, but we further talked about the dangers of automatization and how clever apps can dumb _you_ down.
+
+Also:
+
+* Our &ldquo;&ldquo;business&rdquo;&rdquo; plans: get rid of money and do this here for fun & create a community around all this knowledge work stuff.
+* Ulysses (the popular writing app for Mac) was ripped off 😱 Danger lies everywhere for businesses and users alike. Pick your tools wisely -- and as a dev, create software that doesn't suffer from replicas.
+
+Also, check out this book: 
+
+Matthew B. Crawford (2010):  [Shop Class as Soulcraft. An inquiry into the value of work](https://www.amazon.com/Shop-Class-Soulcraft-Inquiry-Value/dp/0143117467/ref=as_li_ss_tl?ie=UTF8&qid=1490960267&sr=8-1&keywords=crawford+shop+class&linkCode=ll1&tag=ctzettelkasten-20&linkId=3bb5018b046ca8edbbd3b7b99e3653b0), Penguin Books. (Affiliate link)
+
+-- it's not going very deep, and the [bad](http://www.goodreads.com/review/show/77147700?book_show_action=false) [rep](http://www.goodreads.com/review/show/76504770?book_show_action=false) it gets on GoodReads has a point, but the inspiration for the work we do was huge! The book pointed out a lot of concepts that I can use in my Zettelkasten work and to make the upcoming Archive app great. Crawford's models and historical interpretations are very fruitful to understand the work we all do and what's going on in out professional lives.
+
+
+
