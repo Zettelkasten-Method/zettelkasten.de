@@ -1,6 +1,6 @@
 ---
 title: "Zettelkasten Live Ep. 6: Automation, Dumbing-Down, Business, and 2 Idiots on the Balcony"
-created_at: 2017-03-11 10:40:29 +0100
+created_at: 2017-03-30 10:40:29 +0100
 kind: article
 author: christian
 url: https://www.youtube.com/watch?v=6W3fqizIGZU
