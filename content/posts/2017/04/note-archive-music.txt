@@ -1,0 +1,16 @@
+---
+title: Note Archive for Music?
+created_at: 2017-04-13 16:35:52 +0200
+kind: article
+author: christian
+tags: [ audio, note-taking, organization ]
+preview: fulltext
+---
+
+Reader Kekeli reached out via e-mail a while ago and told us about an interesting problem: how do you organize, annotate, and file audio files?
+
+This must be a problem similar to organizing video footage. In other words, it must be a problem that's been solved at least once over the years for DJs.
+
+I'd treat audio files like PDFs: it's source material that needs to be managed, but apart from maybe simple tagging in the reference/audio management app, I'd write most stuff as regular Zettel notes in my Zettelkasten note archive and reference the source material from there.
+
+**If you happen to know a good way to file and annotate non-textual data like audio tracks, please share with us in the comments!**
