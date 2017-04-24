@@ -13,25 +13,6 @@ title: "The Archive: Zettelkasten Mac App Beta"
 Christian has been working on a Mac app that we've dubbed _The Archive_. It's a Zettel note archive app to help you implement the Zettelkasten Method and produce more stuff.
   
 Now we're looking for feedback and beta testers in May.
-  
-## What’s in for you
-
-* Be the first to know anything about the app's progress and launch.
-* Get a beta testing invitation.
-* Help our amazing team of developers (that's just Christian) make awesome software!
-* Be part of app development and suggest improvements.
-* Get exclusive early-bird discounts before launch!
-
-## FAQ
-
-### I'm a subscriber of the regular Newsletter already. Do I still have to subscribe?
-
-Yes! We won't spam our readers with project news. If you want to be part of the development progress, sign up below, no matter what you did in the past.
-
-### Will you be spamming me like all the other douchebags?
-
-Nope. We will only keep this list alive during the development of the app. That's why we keep separate lists, too: because we don't want to lure you into anything.
-
 
 <hr>
 
@@ -62,3 +43,24 @@ Nope. We will only keep this list alive during the development of the app. That'
     </form>
   </div>
 </section>
+
+<hr>
+  
+## What’s in for you
+
+* Be the first to know anything about the app's progress and launch.
+* Get a beta testing invitation.
+* Help our amazing team of developers (that's just Christian) make awesome software!
+* Be part of app development and suggest improvements.
+* Get exclusive early-bird discounts before launch!
+
+## FAQ
+
+### I'm a subscriber of the regular Newsletter already. Do I still have to subscribe?
+
+Yes! We won't spam our readers with project news. If you want to be part of the development progress, sign up below, no matter what you did in the past.
+
+### Will you be spamming me like all the other douchebags do on their mailing lists?
+
+Nope. We will only keep this list alive during the development of the app. That's why we keep separate lists, too: because we don't want to lure you into anything.
+
