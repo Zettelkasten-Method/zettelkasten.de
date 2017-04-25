@@ -12,7 +12,7 @@ layout: default
       <h1>Latest Posts</h1>
   </header>
 
-  <% sorted_posts()[0..5].each do |post| %>
+  <% sorted_posts()[0..7].each do |post| %>
     <%= render '_post', :post => post %>
   <% end %>
   

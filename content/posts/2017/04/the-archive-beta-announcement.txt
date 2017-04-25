@@ -1,0 +1,24 @@
+---
+title: "The Archive (Mac app) Beta Invitation"
+created_at: 2017-04-25 16:12:46 +0200
+kind: article
+author: christian
+tags: [ archiveapp, software ]
+preview: fulltext
+---
+
+<%= insert_image file: "/img/blog/20170425161923_archive-app-preview.png", title: "app screenshot", caption: %{Early development preview} %>
+
+Folks, the time has come to reveal THE ARCHIVE -- our very own app to for knowledge work.
+
+It's not just another note-taking app; you can get note-taking solutions anywhere. It's an app for productive knowledge work, built with a **software-agnostic approach** in mind.
+
+The app empowers you to write, and it gives you a powerful interface for manipulating your notes to facilitate _connections_. Meanwhile, its plain text paradigm, powered by Markdown, allows you to access your data with a plethora of other apps. You get all the upsides of method-specific features and cut the downsides of being boxed in.
+
+You know we value plain text because that's the only way to store data reliably. Text files are the future. And _The Archive_ will make your work future-proof.
+
+If you have a Mac and want to help us test the heck out of the app, sign up for the beta mailing list where we'll post updates during development and recruit testers from:
+
+<http://zettelkasten.de/beta/>
+
+By the way, many asked for an English translation of Sascha's Book on the Zettelkasten Method. There will be a better solution: a comprehensive online course. It will walk you through the basic and advanced techniques of knowledge work. In addition, we will explain everything through extensive use case discussions and showcasing different apps.
