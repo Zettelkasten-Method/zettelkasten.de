@@ -31,4 +31,5 @@ Also see the [list of Zettelkasten Live blog posts](/posts/tags/live/) to find a
 3. Ep. 3: [Collaboration Using the Method, plus Zettel Extraction Demos](/posts/zk-live-episode-3-collaboration/)
 4. Ep. 4: [Structure, Structure, Structure. Bringing Order to Your Archive](/posts/zk-live-episode-4-structure/)
 5. Ep. 5: [Automation is Dangerous](/posts/zk-live-episode-5-automation/)
-5. Ep. 6: [Automation, Dumbing-Down, Business, & 2 Idiots on the Balcony](/posts/zk-live-episode-6-lotsastuff/)
+6. Ep. 6: [Automation, Dumbing-Down, Business, & 2 Idiots on the Balcony](/posts/zk-live-episode-6-lotsastuff/)
+7. Ep. 7: [Visualizing Branching Off in Your Archive](/posts/zk-live-episode-7-visualization-ties/) where Sascha does a lot of live drawing.
