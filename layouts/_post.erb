@@ -11,9 +11,13 @@
         </ul>
     </header>
 
-    <%= Post::teaser_for(@post) %>
-    <%= Post::excerpt_for(@post) %>
-        
+    <% if @fulltext.nil? || @fulltext == false %>
+        <%= Post::teaser_for(@post) %>
+        <%= Post::excerpt_for(@post) %>
+    <% else %>
+        <%= @post.compiled_content %>
+    <% end %>
+    
     <footer>
         <ul class="post__meta">
             <li><%= link_to("&infin; Permalink", @post.path) %></li>
