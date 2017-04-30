@@ -9,7 +9,7 @@ preview: fulltext
 
 <%= insert_image file: "/img/blog/20170425161923_archive-app-preview.png", title: "app screenshot", caption: %{Early development preview} %>
 
-Folks, the time has come to reveal THE ARCHIVE -- our very own app to for knowledge work.
+Folks, the time has come to reveal THE ARCHIVE -- our very own app for knowledge work.
 
 It's not just another note-taking app; you can get note-taking solutions anywhere. It's an app for productive knowledge work, built with a **software-agnostic approach** in mind.
 
