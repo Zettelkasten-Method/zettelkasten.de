@@ -1,0 +1,15 @@
+---
+title: Writing Links
+created_at: 2017-04-30 13:55:11 +0200
+kind: article
+author: christian
+tags: [ writing ]
+---
+
+Been sifting through my blog subscriptions today for a while an found a few articles I ended up liking:
+
+* ["How I self-published a book, sold 180,000 copies & 2X’d revenue"](http://growthlab.com/how-to-self-publish-a-book-and-double-revenue/) -- I don't like the character of "imitate this formula and double/triple/... your income";[^xkcd] the numbers in the post title are easily revealed to be click baits. _But_ the article is huge, and it has some real-world numbers about self-publishing with a team of professional editors, designers, etc. Worth the read, but don't you get lost in dreaming!
+* There is a "[Storybundle](https://storybundle.com/writing)" with text and audio books on writing -- with a bias towards authors of fiction, but also including general advice. I wouldn't be sharing this normally since I have neither experience writing fiction, nor have I bought the bundle. _But_ a game developer I respect blogged [about the usefulness of one of the products](http://rampantgames.com/blog/?p=11284) from that bundle. That social proof was enough to convince me.
+* Last but not least, there's an instructional example project showing [how to write a PhD dissertation with Markdown and LaTeX](https://github.com/keithbuhler/dissertation-story) to which reader Dan Sheffler also [contributed](https://github.com/dansheffler/dissertation-story).
+
+[^xkcd]: Recently, there was a to-the-point [XKCD comic about Survivorship Bias.](https://m.xkcd.com/1827/) So much for success formulae.
