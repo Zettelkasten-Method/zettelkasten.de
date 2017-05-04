@@ -1,0 +1,15 @@
+---
+title: No Beta Invitation Video Today ☹️
+created_at: 2017-05-04 16:21:38 +0200
+kind: article
+author: christian
+tags: [ announcement ]
+---
+
+I screwed up with my schedule and put a "Beta Invitation" video entry in our Zettelkasten Live calendar. Sorry, folks, that'll not take place today! Instead, we'll upload a not-live video in the upcoming days.
+
+Until then, you are, as always, very welcome to join the beta list:
+
+**<http://zettelkasten.de/beta/>**
+
+More information about the app will follow when we put the rest up. Sorry again for the confusion!
