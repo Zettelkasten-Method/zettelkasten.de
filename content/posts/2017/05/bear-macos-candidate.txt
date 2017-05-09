@@ -1,0 +1,24 @@
+---
+title: "Is Bear for macOS a Zettelkasten Archive Fit?"
+created_at: 2017-05-09 10:29:51 +0200
+kind: article
+author: christian
+tags: [ mac, software ]
+---
+
+I spent a few minutes importing a copy of my archive into [Bear, a note-taking app for macOS](http://www.bear-writer.com). Bear seems to be popular at least because of its clean look. This is by no means a review, just a first glance at the app. 
+
+Importing 3941 files took 37:50 seconds and produced 2448 notes (I have no clue why 1500 files went missing or which ones that were). Search is pretty fast afterwards. So the speed of finding and entering notes is not a show-stopper, quite the contrary. 
+
+<%= insert_rel_image file: "20170509104436_bear-macos.png", title: "screensot after the import", caption: %{After the import, this is what a search for "moral" brought up.} %>
+
+Bear highlights tags very prominently and adheres to the hashtag convention. Some stuff in my life as a programmer starts with a hash (`#`) but doesn't denote a tag, though. So the sidebar (also called "outline view") is full of different kinds of stuff in my case. MultiMarkdown citations use identifiers with a leading hash, too, so there's a lot of noise waiting to be cleared up.
+
+I didn't find out where the notes are stored, yet. They get unique identifiers like `33AFB2A1-730B-421D-950B-B689F0FD6148-44496-0000199CCDA23203` so you can link to them. That only seems to work if you don't hamper with the archive, though: Deleting and re-creating the same note will produce a different ID. Each file is unique. Not each thought. So links are not as stable. I guess it'll do for a short-term project, but it's unlikely it'll serve you good for your whole life.
+
+There also is [a Bear subreddit](https://www.reddit.com/r/bearapp/search?q=files&restrict_sr=on) where you can find out more about the app and other user's approaches.
+
+Since I'm too busy with programming at the moment, I won't go any deeper here. There's plenty of features to discover and discuss (like image attachments!), so don't take this shallow look for the whole experience.
+
+**You're welcome to complete this exploration!** Contributions are very welcome if you want to give it a spin yourself and write a thorough review. Find the review guidelines under [our tools section.](/tools/#participate-contribute) Looking forward to what you folks find.
+
