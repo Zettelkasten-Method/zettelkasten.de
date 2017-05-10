@@ -1,0 +1,41 @@
+---
+title: Review Tips
+---
+
+Not sure what to look out for? Here's an ever growing list of things that can go wrong and which you might want to try on your Mac.
+
+# Quality Assurance: Actions to Test During Beta
+
+* Rename note (⌘R) should work from anywhere as long as a note is selected/displayed/edited
+
+## Creating notes
+
+* Create a new note from the omnibar by hitting Enter
+* Create a note by clicking on a link to something that does not exist
+* Create a note using the QuickEntry helper
+
+Wait for a few seconds (the file system or Finder performs an update); the note should still be selected and editable.
+
+## Omnibar
+
+* Tab should jump to note editor when note is selected
+* Enter should create a new note if the exact title is not used
+* Enter should start editing a note that has the exact same title
+* Up and down arrows should change the selection in the results list
+* Deletion (⌘-Backspace) should delete the currently selected note, no matter if the Omnibar contents match or not
+
+In general, the Omnibar should behave as if you really were using the search results list with your keyboard. It should feel natural to click into the Omnibar and then navigate from there.
+
+## Data Integrity
+
+In short, you should not lose data. Ever.
+
+* The deletion shortcut (⌘+Backspace) is the same as "delete to beginning of line"; when editing text, the shortcut should note delete the currently edited note.
+* When you make changes, changes should be saved. Always, including when you:
+    * click (or ⌘L) inside the Omnibar
+    * change the active filter via mouse
+    * change the active filter via shortcut
+    * invoke a shortcut listed in the main menu
+    * switch applications
+    * close The Archive
+    * change folder contents from Finder or another text editor

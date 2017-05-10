@@ -1,0 +1,11 @@
+---
+title: The Archive (macOS)
+---
+
+Not much to see here, yet. 
+
+* [Release notes](/the-archive/release-notes/) and update infos
+* [Roadmap of features](/the-archive/roadmap/)
+* [Ideas for testing](/the-archive/review-tips/) if you don't know what to look out for during beta
+
+Send requests via <a href="mailto:&#x68;&#x69;&#x40;&#x63;&#x68;&#x72;&#x69;&#x73;&#x74;&#x69;&#x61;&#x6E;&#x74;&#x69;&#x65;&#x74;&#x7A;&#x65;&#x2E;&#x64;&#x65;">e-mail</a>.

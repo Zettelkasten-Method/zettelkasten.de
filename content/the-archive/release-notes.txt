@@ -1,0 +1,43 @@
+---
+title: The Archive Release Notes
+published: false
+---
+
+[Back to the Project Page](/the-archive/)
+
+## v0.1.2 (2017-05-10)
+
+* **Fixed:** Double-hash hashtags (`##example`) are now clickable. Sascha uses them for broader categories in his archive.
+* **Fixed:** Creating an empty note now selects and edits the new note automatically.
+* **Fixed:** Clicking a link triggers a search (and puts the cursor into the Omnibar). If there is a partial matching note (a note that starts with the link anchor text), that note will be selected and editing starts. This way you can use wiki links to IDs like `[[201705101030]]` and jump to the note right away.
+* **Fixed:** Creating a new note aborted editing after a couple of seconds because the Finder/file system updates the file in the background again. These background refreshers should not affect your active editing session anymore.
+* **Fixed:** Changing a note, then focusing the Omnibar deselected the note and displayed "Nothing Selected" instead of the note's text.
+* **Fixed:** Quick entry helper updates with colors and font changes.
+* **New:** You can change the font size of the search results list on the left. BIGGER TEXT FOR EVERYBODY!
+
+## v0.1.1 (2017-05-09)
+
+* **Fixed:** entering an existing note title in the Omnibar, then hitting enter, previously resulted in an attempt to create the same note twice.
+* **Fixed:** The Omnibar now shows the title of the selected note as you change the selection.
+* **Fixed:** The note editor now scrolls. For real.
+* **New:** Typing in the Omnibar selects a note from the results that starts with the exact title. Since IDs are at the beginning, this is pretty much useless for regular Zettel notes unless I make the archive "Zettel-aware", that is treat notes with IDs differently.
+* **New:** Hitting Enter in an empty Omnibar creates an empty note and displays it.
+* **New:** "X"-button to clear the selection added to the Omnibar.
+* **New:** ⌘C (copy) from the search results list is now possible.
+* **New:** The search results's background color now changes with the editor color.
+* **New:** You can specify the minimum inner distance between the editor text field's border and the text, also known as inset or padding.
+* **Changed:** Searching inside a note using ⌘F does not display a separate window anymore but the more modern "search bar" at the top.
+
+**Known issue:** replacing content from the search bar is not undoable.
+
+## v0.1.0 (2017-04-28)
+
+I won't list everything I did to get this first useful version up and running (and kinda polished, compared to my first TableFlip build) because "a running app with functionality" is pretty self-explanatory already. We have text file editing, a quick entry helper, editor style preferences, and filter management, basically.
+
+Instead, here are some fun facts:
+
+* Thanks to all the open source libraries I use (including self-made ones), the overhead affecting the file size is huge: this version takes up 38&nbsp;MB of disk space. 😱 Is this really the future? Then again, any Electron-based app (like Slack, VisualStudio Code, Atom, and numerous others) will need at least 110&nbsp;MB because there's a full Chrome browser included.
+* I started my first experiment in code on 19th November, 2016. (And I didn't do anything for most of March thanks to my post-op.)
+* It took 697 source code repository commits (= micro milestones I checked in) to get this far.
+* With 921 unit test cases, this is the project with the most automated test I ever wrote on my own. (Projects where I did work in a team had significantly less tests, by the way.)
+* I extracted and published 2 new open source libraries in the process and updated another one that I published back when I released TableFlip for beta.

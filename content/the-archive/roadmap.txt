@@ -1,0 +1,56 @@
+---
+title: The Archive Roadmap
+published: false
+---
+
+## During the Beta 
+
+This is planned so far, but we'll adjust the roadmap when you report something that we've missed:
+ 
+- Note header support
+- Basic Markdown highlighting
+- Autocompletion of bracket pairs and Markdown emphasis
+- Faster search
+- Useful "First Launch" experience with demo data
+- Zettel ID awareness (making editing and working with them more useful)
+
+### Known issues
+
+Please be aware of the following quirks and problems:
+
+- Does the "Rename" shortcut ⌘R work when your are editing a note? Does not work on Sascha's Mac, it seems.
+- Deleting a note with Cmd+Backspace while you're inside the Omnibar will not be undoable when you type something.
+- Replacing search terms from the system standard search bar (⌘F) is not undoable.
+
+## Planned Features of "Version 1"
+
+The planned release date for version 1.0 is early August, 2017. This list is probably going to change until then.
+
+We decided to be radically transparent what you can expect. You don't only invest in current utility of the app. You invest in future improvements, too. Transparency is part of our business ethics.
+
+This initial version is all about getting productive and having a great user experience.
+
+So far, the following big features are planned to be added to version 1:
+
+- Note quick entry from anywhere (done)
+- Saved searches, aka "Filters" (mostly done)
+- Typewriter mode
+- Internationalization
+- Customizable Markdown editor templates
+- Show backlinks of notes
+- Tag index
+- Manage images
+- Scriptability
+
+That's what you'll get with a license for version 1. There will be an upgraded version 2 coming afterwards, where we've planned to expand the app beyond the current scope of power and functionality. If you already own a license for version 1, you'll get an chunky discount for your past support. 
+
+## Vision of Version 2
+
+For version 2, we envision an application that does way more than make note-taking and working with notes simpler. The whole Zettelkasten Method is about organization _as a means to produce more._ Being able to quickly write and connect notes is nice, but what about writing?
+
+- Outliner interface to [assemble](/posts/tags/assemble/) writing projects from your notes
+- Connection visualizer
+- Table support
+- Reference management hooks and citation awareness
+- Mathematical formula editor
+
