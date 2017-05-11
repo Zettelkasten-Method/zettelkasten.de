@@ -2,6 +2,8 @@
 title: Review Tips
 ---
 
+[Back to the Project Page](/the-archive/)
+
 Not sure what to look out for? Here's an ever growing list of things that can go wrong and which you might want to try on your Mac.
 
 # Quality Assurance: Actions to Test During Beta
@@ -10,7 +12,7 @@ Not sure what to look out for? Here's an ever growing list of things that can go
 
 ## Creating notes
 
-* Create a new note from the omnibar by hitting Enter
+* Create a new note from the Omnibar by hitting Enter
 * Create a note by clicking on a link to something that does not exist
 * Create a note using the QuickEntry helper
 
@@ -30,7 +32,7 @@ In general, the Omnibar should behave as if you really were using the search res
 
 In short, you should not lose data. Ever.
 
-* The deletion shortcut (⌘+Backspace) is the same as "delete to beginning of line"; when editing text, the shortcut should note delete the currently edited note.
+* The deletion shortcut (⌘+Backspace) is the same as "delete to beginning of line" in text editors; when you edit text, the shortcut should not delete the currently edited note.
 * When you make changes, changes should be saved. Always, including when you:
     * click (or ⌘L) inside the Omnibar
     * change the active filter via mouse
@@ -39,3 +41,8 @@ In short, you should not lose data. Ever.
     * switch applications
     * close The Archive
     * change folder contents from Finder or another text editor
+* Changes should be undoable. All of them.
+    * Undoing deleting a note, especially.
+    * Undoing creating a note by accident should bring you back to where you were. (If that does not happen, what situation did you have been in?)
+    * Typing should be undoable, as should any other changes to the note.
+    * Search-and-Replace should be undoable. (**Known issue**! Be aware)
