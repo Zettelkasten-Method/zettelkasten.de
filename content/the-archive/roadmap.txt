@@ -9,24 +9,27 @@ published: false
 
 This is planned so far, but we'll adjust the roadmap when you report something that we've missed:
  
+- Faster search
+- Zettel ID awareness (making editing and working with them more useful)
 - Note header support
 - Basic Markdown highlighting
+- Faster note navigation, like a history
 - Autocompletion of bracket pairs and Markdown emphasis
-- Faster search
 - Useful "First Launch" experience with demo data
-- Zettel ID awareness (making editing and working with them more useful)
 
 ### Known issues
 
 Please be aware of the following quirks and problems:
 
+- Performance is awful in large archives.
+- Renaming notes to the same title of a similar note will report an error and not show the old name.
 - Does the "Rename" shortcut ⌘R work when your are editing a note? Does not work on Sascha's Mac, it seems.
 - Deleting a note with Cmd+Backspace while you're inside the Omnibar will not be undoable when you type something.
 - Replacing search terms from the system standard search bar (⌘F) is not undoable.
 
 ## Planned Features of "Version 1"
 
-The planned release date for version 1.0 is early August, 2017. This list is probably going to change until then.
+This list is probably going to change.
 
 We decided to be radically transparent what you can expect. You don't only invest in current utility of the app. You invest in future improvements, too. Transparency is part of our business ethics.
 
