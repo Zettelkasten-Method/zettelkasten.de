@@ -5,6 +5,25 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.1.6 (2017-05-16)
+
+* **Fixed:** Clicking a hashtag does not deselect the currently visible note.
+* **Fixed:** Don't select a random note after start.
+* **Fixed:** Keep note selected in the results list when the search results change.
+
+## v0.1.5 (2017-05-15)
+
+* **Fixed:** Archive is faster when reacting to links. -- Is performance a "fix"? Well, higher reliability is! Medium-sized archives (Sascha's and mine with 4800 and 3800 notes resp.) didn't always follow clicked `[[Wiki Link]]`s. If you had looked at the event log, you'd see that a lot of stuff would go on, sometimes leading to showing the note with the link again instead of the link target. But no more!
+* **Fixed:** The Omnibar. Like, in total. There were so many different edge cases over the last couple days that I cannot recall what was wrong initially. Especially in large archives with the current _SuperSlowSearch_™ it became unusable. Look out for this:
+    * When you click a `[[WikiLink]]`, the Omnibar should display the link text. If the target note is not among the filtered search results, reset the search to display it in the results list. Keep the search as it was otherwise.
+    * When you click a `#hashtag`, the Omnibar should display the tag as search term, ultimately resetting the search. (But not the active filter!)
+    * When you type, the Omnibar should show the characters you've typed, no matter how slow the search. Your will is its command.
+    * When you type and a note among the search results begins with your search term, the Omnibar should auto-complete your input and display the note in anticipatory obedience.
+    * When you delete parts of the search, auto-completion should not be active. Only when you type. Also, the display should reset to "nothing".
+* **Changed:** Perceived performance when searching is better. When you type faster than the _SuperSlowSearch_™ can sift through your notes, you won't be interrupted, the app won't freeze, and it won't show outdated auto-completion suggestions. On the flip side, if you want to see intermediate search results in huge archives, you have to wait at the end. This is an interesting psychological effect: Since the typing up until the end is now undelayed, the single and final delay feels like an eternity. Before, you got used to the slow response time. It was annoying, too, but different.
+* **Changed:** Printing is disabled for now because the system's default is pretty useless. Will come back with a revenge later during the beta.
+* **Changed:** Changing a note but then undoing the change no longer touches and overwrites the file to reduce disk load. (And to keep the event log smaller. 😁)
+
 ## v0.1.4 (2017-05-12)
 
 * **Fixed:** Hiding the sidebar does not shrink but grow the note text editor as expected.

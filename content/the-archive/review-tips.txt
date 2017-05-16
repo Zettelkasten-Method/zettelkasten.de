@@ -28,6 +28,17 @@ Wait for a few seconds (the file system or Finder performs an update); the note 
 
 In general, the Omnibar should behave as if you really were using the search results list with your keyboard. It should feel natural to click into the Omnibar and then navigate from there.
 
+### Search
+
+* Selecting a note displays the note title in the Omnibar.
+* Selecting a note, clearing the search, then selecting the same note displays the note title again.
+* Clearing (ESC or "x" button) removes the text from the Omnibar. And displays all notes (in the current filter).
+* Clicking a `#hashtag` displays the tag name in the Omnibar.
+* Clicking a `#hashtag` resets the current search and shows all notes.
+* Clicking a `[[Wiki Link]]` displays the link text in the Omnibar.
+* Clicking a `[[Wiki Link]]` displays a note with, if found, with the link text as title.
+* Clicking a `[[Wiki Link]]` resets the search if the target note is not part of the current search results.
+
 ## Data Integrity
 
 In short, you should not lose data. Ever.
