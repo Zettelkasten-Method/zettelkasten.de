@@ -5,6 +5,17 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.1.7 (2017-05-19)
+
+* **Fixed:** Deletion bug where the wrong note was attempted to be removed.
+* **Fixed:** Renaming bug that performed the change on disk but displayed an error nevertheless.
+* **Fixed:** Hitting enter in the Omnibar did not always began editing the note.
+* **Changed:** Hashtags in brackets or quotes are now clickable.
+* **New:** "Capture Image" in the edit menu lets you create snapshots to quickly include drawings into your notes.
+* **New:** Configure the path where snapshots are stored relative to your archive. Defaults to `./media/`.
+
+This release introduces yet another open source library I created, now 3 in total.
+
 ## v0.1.6 (2017-05-16)
 
 * **Fixed:** Clicking a hashtag does not deselect the currently visible note.
