@@ -5,6 +5,13 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.1.8 (2017-05-20)
+
+* **Fixed:** After launch, not all notes where displayed for everybody. Should now be fixed. It's hard to reproduce, so please send reports with log files if it still happens!
+* **Fixed:** Deleting notes in large archives did not always remove the note from the search results list. Now it does.
+* **Fixed:** Deleting notes that were created in the Quick Entry helper as soon as possible triggered an error, too. Had the same latency-dependent reason as the fix above this one. Time sucks.
+
+
 ## v0.1.7 (2017-05-19)
 
 * **Fixed:** Deletion bug where the wrong note was attempted to be removed.
