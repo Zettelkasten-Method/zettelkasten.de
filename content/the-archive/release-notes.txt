@@ -5,6 +5,27 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.2.2 (2017-06-06)
+
+* **Fixed:** Clicking a `[[WikiLink]]` to a matching note selects and shows the contents of the best match so you don't have to click inside the search result list.
+* **Fixed:** Filter shortcuts were gone from the main menu. Now they're back again.
+* **Fixed:** A ton of issues with the Omnibar. Again. It should be more reliable now. I will not say it's 100% working, because this little bugger showed me quite often how to crush my coding confidence, but it's _close!_
+* **Changed:** Selecting a filter now replaces the search completely instead of appending pieces to it.
+* **New:** You can now configure which file extensions The Archive should use for note files.
+
+
+## v0.2.1 (2017-05-27)
+
+This release has many small fixes and a lot of bigger changes. The list sums up some of them, but the behavior and "feel" of interacting with the app should have improved. Whatever you notice, please email me with your opinion on the changes and where you experience most friction.
+
+* **Fixed:** The Omnibar behaves better. There were so many weird edge cases whenever I fixed one thing that I lost track of what has changed. But the problems are gone and the behavior should be just fine.
+* **Fixed:** Hitting enter in the Omnibar didn't start editing the note when the note wasn't selected.
+* **Fixed:** Selecting an archive directory that is not readable/writable presents an alert instead of silently failing.
+* **Changed:** The search is now a whole magnitude faster. In turn, the auto-completion got more reliable better.
+* **Changed:** Filters work differently now. They immediately affect your search and don't create a subset of your notes in a hidden fashion.
+* **Changed:** Clicking a `[[Wiki Link]]` no longer creates non-existing notes. These links are now just search shortcuts.
+* **New:** Background auto-saving of note changes every 5 seconds.
+
 ## v0.1.8 (2017-05-20)
 
 * **Fixed:** After launch, not all notes where displayed for everybody. Should now be fixed. It's hard to reproduce, so please send reports with log files if it still happens!
