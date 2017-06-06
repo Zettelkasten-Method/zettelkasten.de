@@ -83,6 +83,7 @@ Integrating notes will become the bottleneck of your workflow sooner or later, t
 
 [^2]: Niklas Luhmann (2000):  _Lesen Lernen_, Frankfurt am Main: Zweitausendeins, p. 156. -- English translation online: "[Learning how to Read](http://luhmann.surge.sh/learning-how-to-read)"
 
+**Update 2017-06-06:** Sascha made [a video about the processing of notes](/posts/book-processing-video/).
 
 ## How All That Fits Together
 

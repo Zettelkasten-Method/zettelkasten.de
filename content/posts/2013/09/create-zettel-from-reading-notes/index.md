@@ -114,3 +114,6 @@ Next time, I'll show you more about my software setup and why my note titles are
   [creat]: http://lifehacker.com/5906749/creativity-is-just-connecting-things
 
   [#benson2011pk]: Jim Benson and Tonianne DeMaria Barry (2011):  _[Personal Kanban: mapping work, navigating life](x-bdsk://benson2011pk)_, Seattle, WA: Modus Cooperandi Press.
+
+
+**Update 2017-06-06:** Sascha made [a video about note processing in his archive](/posts/book-processing-video/).
