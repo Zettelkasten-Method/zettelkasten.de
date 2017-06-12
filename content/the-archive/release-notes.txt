@@ -5,6 +5,25 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.2.5 (2017-06-12)
+
+* **Fixed:** Notes are now sorted in a natural-language way, so "10" comes between "9" and "11", not between "1" and before "2".
+* **Fixed:** Starting the app shows all notes. (At least I couldn't reproduce the problem anymore.)
+* **Fixed:** Flickering in the editor window when searching for notes.
+* **Fixed:** Clicking a `[[WikiLink]]` will always select the matching note. Previously, a bug sometimes cleared the selection in the results list.
+* **Fixed:** Tabbing from Omnibar to the editor works again.
+* **Fixed:** Moving the result selection with the down-arrow key from the Omnibar now doesn't jiggle the scroll position at the bottom anymore.
+* **Changed:** Improved type-for-filtering reaction speed for large archives.
+* **Changed:** Improved scrolling and keyboard-based selection change speed in results view.
+* **Changed:** Improved performance of command-tabbing back into the app. It took about a second previously.
+* **Changed:** Double-click in the results list starts editing, _even when the note was selected already._
+* **New:** Added contextual menu (right-click menu) to the results list for deleting and renaming notes.
+
+## v0.2.3 & v0.2.4 (2017-06-07)
+
+* **Fixed:** Window can resize vertically again.
+* **Fixed:** Flickering and sometimes lost selection in the results list when clicking a `[[WikiLink]]`, problems introduced in v0.2.2.
+
 ## v0.2.2 (2017-06-06)
 
 * **Fixed:** Clicking a `[[WikiLink]]` to a matching note selects and shows the contents of the best match so you don't have to click inside the search result list.
