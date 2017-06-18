@@ -5,6 +5,18 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.2.6 (2017-06-18)
+
+* **Fixed:** Filter menu shortcuts work now even before you peek at the menu.
+* **Fixed:** The clear button now hides itself again.
+* **Fixed:** Tabbing out of editing a note's title now puts the focus into the text editor instead of the Omnibar.
+* **Fixed:** On macOS Sierra, the search result backgrounds now don't have the see-through effect anymore.
+* **Fixed:** Fast typing sometimes made the whole Omnibar contents be selected so that the next keystroke would overwrite everything. This was because the search results wrongly triggered a selection event. Doesn't happen anymore.
+* **Changed:** Disable text substitutions in the editor pane.
+* **Changed:** Omnibar title suggestions don't remember the last suggestion anymore. So if you search for "2017" first, get a suggestion, then start anew with "20", the old "2017..." suggestion is now discarded.
+* **New:** "Reveal in Finder" (⌘⇧R) added below "Notes" menu.
+* **New:** "Open with External Editor" (⌘⇧E) added below "Notes" menu.
+
 ## v0.2.5 (2017-06-12)
 
 * **Fixed:** Notes are now sorted in a natural-language way, so "10" comes between "9" and "11", not between "1" and before "2".
