@@ -5,6 +5,20 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.2.7 (2017-06-23)
+
+* **Fixed:** Fix revealing same note in finder twice not doing anything.
+* **Fixed:** Fix editing same note in default editor twice not doing anything.
+* **Fixed:** Undo note deletion selects the restored note properly, showing the title in the Omnibar.
+* **Fixed:** The "Don't show this message again" setting for the deletion alert is preserved. You can re-enable this at the bottom of the "General" preferences.
+* **Fixed:** Font preview box displays the top of the font now and grows taller.
+* **Fixed:** Changing archives closes the main window.
+* **Changed:** Hitting ESC or ⌘. in the text editor resets the search.
+* **Changed:** Saving note changes preserves the creation date.
+* **Changed:** After deleting a note, the Omnibar is cleared.
+* **Changed:** Improved startup times (a.k.a. initial indexing of all notes is faster).
+* **Changed:** When you click a hashtag, the Omnibar is focused now.
+
 ## v0.2.6 (2017-06-18)
 
 * **Fixed:** Filter menu shortcuts work now even before you peek at the menu.

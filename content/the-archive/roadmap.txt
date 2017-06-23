@@ -9,7 +9,6 @@ published: false
 
 This is planned so far, but we'll adjust the roadmap when you report something that we've missed:
  
-- Faster search
 - Zettel ID awareness (making editing and working with them more useful)
 - Note header support
 - Basic Markdown highlighting
@@ -21,11 +20,11 @@ This is planned so far, but we'll adjust the roadmap when you report something t
 
 Please be aware of the following quirks and problems:
 
-- Performance is awful in large archives.
+- Performance is <del>awful</del> <ins>bearable</ins> in large archives.
 - Renaming notes to the same title of a similar note will report an error and not show the old name.
-- Does the "Rename" shortcut ⌘R work when your are editing a note? Does not work on Sascha's Mac, it seems.
 - Deleting a note with Cmd+Backspace while you're inside the Omnibar will not be undoable when you type something.
 - Replacing search terms from the system standard search bar (⌘F) is not undoable.
+- The iSight/camera snapping does not work when you have "Camera Guard Pro" installed.
 
 ## Planned Features of "Version 1"
 
@@ -38,7 +37,7 @@ This initial version is all about getting productive and having a great user exp
 So far, the following big features are planned to be added to version 1:
 
 - Note quick entry from anywhere (done)
-- Saved searches, aka "Filters" (mostly done)
+- Saved searches, aka "Filters" (done)
 - Typewriter mode
 - Internationalization
 - Customizable Markdown editor templates
