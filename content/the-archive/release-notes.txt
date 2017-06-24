@@ -5,6 +5,11 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.2.8 (2017-06-24)
+
+* **Fixed:** Changing the file you are editing from another app does not lose your current changes in The Archive. (Dropbox sync used to reset the file sometimes to the previously saved version. Also, editing a file and clicking a `[[Wiki Link]]` sometimes did lose the changes when showing the target note.)
+* **Changed:** Reorganized the "Editing" prefereces.
+
 ## v0.2.7 (2017-06-23)
 
 * **Fixed:** Fix revealing same note in finder twice not doing anything.
