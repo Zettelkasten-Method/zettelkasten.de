@@ -5,6 +5,18 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.2.10 (2017-06-28)
+
+* **Fixed:** Replace ":" and "/" in file names with "-". Dropping files into the Omnibar and hitting enter now doesn't crash anymore.
+* **Fixed:** Display glitches for long notes when hiding the sidebars.
+* **Fixed:** Insertion point in the text editor is nudged up to look more conventional.* **Changed:** Performance when handling huge archives is improved. Search results still do not appear instantly, but it's better.
+* **Fixed:** Sidebar width or it being hidden is preserved across program launches.
+* **Changed:** Renamed "Close Archive" to "Switch Archives".
+* **Changed:** Deleting a note does select the Omnibar with the note's title, but it does not empty the Omnibar anymore.
+* **New:** Added "Copy Title" to the search result contextual menu.
+* **New:** Display an error report with a list of files that cannot be read after launch instead of showing a serious error alert for each file.
+* **New:** Without a selection, hitting the up-arrow inside the Omnibar selects the last item in the search result list.
+
 ## v0.2.8 (2017-06-24)
 
 * **Fixed:** Changing the file you are editing from another app does not lose your current changes in The Archive. (Dropbox sync used to reset the file sometimes to the previously saved version. Also, editing a file and clicking a `[[Wiki Link]]` sometimes did lose the changes when showing the target note.)
