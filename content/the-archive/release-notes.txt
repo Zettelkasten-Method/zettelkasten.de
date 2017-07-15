@@ -5,6 +5,12 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.3.0 (2017-07-15)
+
+* **Fixed** Crash on launch for macOS El Capitan.
+* **New:** Typewriter scrolling!
+* **New:** Autocompletion and selection wrapping with brackets, underscores, and asterisks! Select a text, hit `*`, and it'll be surrounded by default!
+
 ## v0.2.10 (2017-06-28)
 
 * **Fixed:** Replace ":" and "/" in file names with "-". Dropping files into the Omnibar and hitting enter now doesn't crash anymore.
