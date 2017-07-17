@@ -5,11 +5,22 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.3.1 (2017-07-17)
+
+* **Fixed:** Switching the displayed note did scroll far to the bottom of the note. Now it starts at the beginning again.
+* **Fixed:** Show filter sidebar slide-out thingies again.
+* **Fixed:** After renaming a note, delayed file saving changes resulted in periodic replacement of the editor content with outdated text. Extremely annoying when you were still typing!
+* **Fixed:** The insertion point or selection is preserved when the note updates in the background, for example due to a file change with an external editor.
+* **Changed:** Activating a filter via shortcuts or sidebar or menu item closes the current note and puts focus inside the Omnibar so you can navigate more quickly.
+* **New:** Plain-text quotation marks (`"` and `'`) behave like brackets: you can wrap the selected text with them, and they always come in pairs.
+
 ## v0.3.0 (2017-07-15)
 
 * **Fixed** Crash on launch for macOS El Capitan.
 * **New:** Typewriter scrolling!
 * **New:** Autocompletion and selection wrapping with brackets, underscores, and asterisks! Select a text, hit `*`, and it'll be surrounded by default!
+
+For this release, I created an open source library for the Typewriter stuff, so this project produced 5 libraries so far.
 
 ## v0.2.10 (2017-06-28)
 
@@ -80,6 +91,8 @@ published: false
 * **Fixed:** A ton of issues with the Omnibar. Again. It should be more reliable now. I will not say it's 100% working, because this little bugger showed me quite often how to crush my coding confidence, but it's _close!_
 * **Changed:** Selecting a filter now replaces the search completely instead of appending pieces to it.
 * **New:** You can now configure which file extensions The Archive should use for note files.
+
+And another open source library, resulting in 4 libraries from this project!
 
 
 ## v0.2.1 (2017-05-27)
