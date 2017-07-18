@@ -5,6 +5,16 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.3.2 (2017-07-18)
+
+* **Fixed:** Hashtags now support umlauts, chinese characters, and whatever else is considered a letter according to Unicode.
+* **Fixed:** When you click out of the text editor and then back again, you can now undo changes from before clicking away.
+* **Fixed:** Renaming a note to include a `/` resulted in an error.
+* **Fixed:** An error when using a note title with illegal file name characters in the Quick Entry Helper.
+* **Changed:** Reverted replacing colons in filenames. It's enough to take care of `/` to make macOS's file system happy.
+* **New:** Remember the insertion point in the text when you tab out of the note and then back again. Makes shortcut-heavy workflows in the same note easier, like ⌘L + ⌘C (copy note title) + Tab + ⌘V (paste title into text).
+* **New:** For dark and very bright backgrounds, use a tasty blue-ish caret color.
+
 ## v0.3.1 (2017-07-17)
 
 * **Fixed:** Switching the displayed note did scroll far to the bottom of the note. Now it starts at the beginning again.
