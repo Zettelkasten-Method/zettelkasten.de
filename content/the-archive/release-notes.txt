@@ -5,6 +5,16 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.3.5 (2017-08-08)
+
+* **Fixed:** Markdown list items starting with a `-` were not indented properly.
+* **Fixed:** With Typewriter Mode and Markdown highlighting enabled, you couldn't scroll up without the app snapping back to the insertion point in the text.
+* **Fixed:** Pre-installer filter icon picker shows icons at their proper size.
+* **Fixed:** Right-click contextual menu works again in the search results list.
+* **Fixed:** Keyboard shortcuts (cut, copy, paste) and text expansion apps should now work in the Quick Entry panel.
+* **Changed:** The Quick Entry panel's optional title text field is styled like the content text field.
+* **Changed:** You can now edit text of error reports before composing the email to redact the contents.
+
 ## v0.3.4 (2017-08-06)
 
 * **Changed:** Improved Markdown syntax highlighting. Lists now indent more beautifully. I love lists. And I love how they behave now. I bet you'll love it, too.
