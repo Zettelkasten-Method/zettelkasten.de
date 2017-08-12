@@ -5,6 +5,17 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.3.6
+
+* **Fixed:** Captured images from your webcam now produce a valid path with percent encoding.
+* **Changed:** The Quick Entry window now has a sensible minimum size.
+* **Changed:** The text editing caret is now twice as fat!
+* **Changed:** Typing brackets (and Markdown syntax stuff) right in front of existing text now does not insert the closing brackets anymore.
+* **New:** Bold (⌘B) and italics (⌘I) shortcuts. You can set your preferred Markdown emphasis character in the "Editing" preferences.
+* **New:** You can set which external editor is used when you hit "Open with External Editor" (⇧⌘E).
+* **New:** Links to images in the media subfolder are now clickable.
+* **New:** Your preferences for spell checking, quote substitution, and things like that are now saved between launches.
+
 ## v0.3.5 (2017-08-08)
 
 * **Fixed:** Markdown list items starting with a `-` were not indented properly.
