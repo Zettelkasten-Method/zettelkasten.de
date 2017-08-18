@@ -9,11 +9,11 @@ published: false
 
 This is planned so far, but we'll adjust the roadmap when you report something that we've missed:
  
+- Basic Markdown highlighting (done)
+- Autocompletion of bracket pairs and Markdown emphasis (done)
 - Zettel ID awareness (making editing and working with them more useful)
 - Note header support
-- Basic Markdown highlighting
 - Faster note navigation, like a history
-- Autocompletion of bracket pairs and Markdown emphasis
 - Useful "First Launch" experience with demo data
 
 ### Known issues
@@ -38,9 +38,9 @@ So far, the following big features are planned to be added to version 1:
 
 - Note quick entry from anywhere (done)
 - Saved searches, aka "Filters" (done)
-- Typewriter mode
+- Typewriter mode (done)
+- Customizable Markdown editor templates (done)
 - Internationalization
-- Customizable Markdown editor templates
 - Show backlinks of notes
 - Tag index
 - Manage images

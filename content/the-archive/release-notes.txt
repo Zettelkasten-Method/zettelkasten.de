@@ -5,7 +5,22 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
-## v0.3.6
+## v0.3.7
+
+Focus on list and block editing:
+
+* **Fixed:** If you had disabled Markdown highlighting, it would ignore the setting at next launch.
+* **Fixed:** Deleting the opening parens of an auto-completed parens pair does not remove the first character after the parens anymore.
+* **Changed:** Emboldening and italicizing selected text with the menu shortcuts now selects the resulting emphasized text instead of putting the caret at the end.
+* **Changed:** Solarized theme's caret colors. (You have to delete existing files to have them copied over on launch.)
+* **New:** "Select Line" in the Edit menu.
+* **New:** "Find" shortcut (<kbd>Cmd-F</kbd>) works with focus in the Omnibar and the results list to search inside a note.
+* **New:** Make any text into a list with the new "Switch List Type" (<kbd>Cmd-T</kbd>) format option! _Note: Suggestions for a better term than "switch" are very welcome. I cannot recall which English verb expresses going in circles between the options here the best. For 2, it'd be "toggle", but for 3...?_
+* **New:** You can indent and outdent lines of text by selecting text and hitting <kbd>tab</kbd> (or use <kbd>Cmd-]</kbd> and <kbd>Cmd-[</kbd>, popular for English keyboard layouts; or <kbd>Alt-Tab</kbd> and <kbd>Shift-Alt-Tab</kbd> for the rest of us).
+* **New:** When you hit Enter/Return in an indented line, the new line will be indented as well.
+* **New:** You can now comment the selected text with <kbd>Cmd-/</kbd> or from the "Format" menu.
+
+## v0.3.6 (2017-08-12)
 
 * **Fixed:** Captured images from your webcam now produce a valid path with percent encoding.
 * **Changed:** The Quick Entry window now has a sensible minimum size.
