@@ -1,0 +1,16 @@
+---
+title: Come and Visit the New Forum
+created_at: 2017-08-18 19:54:29 +0200
+kind: article
+author: christian
+tags: [ announcement, forum ]
+preview: fulltext
+---
+
+Folks, the time has come to open the private forum to the public!
+
+We were using it during the beta of _The Archive_ until today and it seems to work. I'm still experimenting with the design, but it's a start. There still is a hidden sub-forum for us to work on _The Archive_ behind the curtains, but now we've added more useful categories and opened up registration.
+
+Not much more to add, I guess! You probably know how discussion forum software works, so please remember to be as polite as you always are on these grounds, and feel free to ask questions and tell us about what you do!
+
+**<http://forum.zettelkasten.de/>**
