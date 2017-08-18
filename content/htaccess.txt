@@ -7,6 +7,7 @@ ErrorDocument 404 /404.html
 
 RewriteEngine On
 RewriteRule ^posts/2014/09/introducing-sascha/(.*)$ /posts/introducing-sascha/$1 [R=301,L]
+RewriteRule ^products/(.*)$ /tools/ [R=301,L]
 
 <% unless ENV['NANOC_ENV'] == 'development' %>
 RewriteCond %{HTTPS} off
