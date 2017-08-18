@@ -2,15 +2,20 @@
 title: Post Archive
 ---
 
-<%= render '_newsletter_signup' %>
+**Getting started:** look at the [curated article overview](/posts/overview/)!
 
------
+Also have a look at [Zettelkasten Live](/live/), our ongoing video blog.
 
-* Getting started: look at the [curated article overview](/posts/overview/)!
+For reference:
+
 * Posts with short excerpts by year: [2017](/posts/2016/), [2016](/posts/2016/), [2015](/posts/2015/), [2014](/posts/2014/), [2013](/posts/2013/).
 * **Posts [by our amazing community contributors](/authors/guests/)** -- thanks, folks!
 * Post by [Christian](/authors/christian/) and [Sascha](/authors/sascha/).
 * [List of tags](/posts/tags/).
+
+-----
+
+<%= render '_newsletter_signup' %>
 
 -----
 
