@@ -2,8 +2,14 @@
 # http://www.w3.org/International/questions/qa-htaccess-charset
 #
 
+AddCharset UTF-8 .html
+ErrorDocument 404 /404.html
+
 RewriteEngine On
 RewriteRule ^posts/2014/09/introducing-sascha/(.*)$ /posts/introducing-sascha/$1 [R=301,L]
 
-AddCharset UTF-8 .html
-ErrorDocument 404 /404.html
+<% unless ENV['NANOC_ENV'] == 'development' %>
+RewriteCond %{HTTPS} off
+# Don't put www. here. If it is already there it will be included.
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+<% end %>
