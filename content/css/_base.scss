@@ -126,7 +126,12 @@ nav a {
 }
 .nav__icon { padding-right: 0.3em; }
 .nav__icon .iconic-property-fill {
+  stroke: $color-nav;
   fill: $color-nav;
+}
+.nav__icon .iconic-property-accent,
+.nav__icon .iconic-property-stroke {
+  stroke: $color-nav;
 }
 .nav__icon--products {
   .iconic-property-fill { fill: darken($color-nav, 15%); }
