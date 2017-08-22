@@ -1,15 +1,26 @@
-<div id="disqus_thread"></div>
+<hr/>
 
-<script type="text/javascript">
-    var disqus_shortname = '<%= Comments::shortname_for(@item) %>';
-    var disqus_identifier = '<%= Comments::identifier_for(@item) %>';
-    var disqus_title = '<%= Comments::title_for(@item) %>';
-    var disqus_url = '<%= [@config[:base_url], @item.path].join() %>';
+<p>Comments are powered by <a href="https://forum.zettelkasten.de/">our forums.</a> Sign up there to join the discussion.</p>
 
+<div id="vanilla-comments"></div>
+    <script type="text/javascript">
+    /*** Required Settings: Edit BEFORE pasting into your web page ***/
+    var vanilla_forum_url = 'https://forum.zettelkasten.de/'; // The full http url & path to your vanilla forum
+    var vanilla_identifier = '<%= Comments::identifier_for(@item) %>'; // Your unique identifier for the content being commented on
+    var vanilla_title = '<%= Comments::title_for(@item) %>';
+    
+    /*** Optional Settings: Ignore if you like ***/
+    // var vanilla_discussion_id = ''; // Attach this page of comments to a specific Vanilla DiscussionID.
+    var vanilla_category_id = 'blog'; // Create this discussion in a specific Vanilla CategoryID.
+
+    /*** DON'T EDIT BELOW THIS LINE ***/
     (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    var vanilla = document.createElement('script');
+    vanilla.type = 'text/javascript';
+    var timestamp = new Date().getTime();
+    vanilla.src = vanilla_forum_url + '/js/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(vanilla);
     })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </script>
+    <noscript>Please enable JavaScript to view the <a
+    href="http://vanillaforums.com/?ref_noscript">comments powered by Vanilla.</a></noscript>
