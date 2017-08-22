@@ -1,6 +1,6 @@
 ---
 title: Create Zettel from Reading Notes
-created_at: 2013-09-03 09:46 +0200
+created_at: 2013-09-03 09:46:00 +0200
 kind: article
 author: christian
 tags: [ reading, collect, process, zettel ]
