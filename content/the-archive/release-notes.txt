@@ -5,7 +5,19 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
-## v0.3.7
+## v0.3.8 (2017-08-23)
+
+* **Fixed:** Undoing surrounding text with Markdown emphasis markup produced the wrong "original" text when it was itself a bracket or syntax element.
+* **Fixed:** List items on multiple lines are now indented correctly for non-monospaced fonts.
+* **Fixed:** Changing the main window to fullscreen mode and back again sometimes made the centered text column too small.
+* **Fixed:** Searching inside the note (⌘F) previously broke the behavior of tabbing from the Omnibar to the editor.
+* **Fixed:** First launch (or launch after deleting themes) does not show a white text editor anymore.
+* **Fixed:** A cause of erratic scrolling when the displayed note text changed, maybe even on auto-save events.
+* **Changed:** Picking a new filter icon now sports a regular and easy-to-notice button instead of the clever triangle.
+* **New:** When navigating search results, <kbd>Cmd</kbd> and <kbd>Alt</kbd> plus the arrow keys lets you quickly jump to the beginning or end of the list.
+* **New:** Search terms are highlighted within the note and the text scrolls down to make them visible.
+
+## v0.3.7 (2017-08-18)
 
 Focus on list and block editing:
 
