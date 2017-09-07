@@ -5,6 +5,13 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.3.9 (2017-09-07)
+
+* **Fixed:** Full-screen mode toggling did not adjust the lowest possible caret position in typewriter mode.
+* **Fixed:** Reading files with broken encoding falls back to _something_ instead of skipping the note.
+* **Changed:** Improved performance of the Markdown highlighting when changing notes rapidly.
+* **Changed:** Support `§` in hashtags.
+
 ## v0.3.8 (2017-08-23)
 
 * **Fixed:** Undoing surrounding text with Markdown emphasis markup produced the wrong "original" text when it was itself a bracket or syntax element.
