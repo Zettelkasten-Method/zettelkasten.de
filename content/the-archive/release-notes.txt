@@ -5,6 +5,15 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.3.10 (2017-09-15)
+
+I replaced the way notes are stored internally. Previously, your files on disk were the dominant source of information; now it's the content in main memory. This has a ton of consequences, like sped-up response times when creating and editing notes -- because while changes are still stored to disk, the changes appear in memory first, and they do appear fast.
+
+Should fix, among other things:
+
+- file conflicts when renaming
+- note creation errors when hitting "Enter" twice too quickly
+
 ## v0.3.9 (2017-09-07)
 
 * **Fixed:** Full-screen mode toggling did not adjust the lowest possible caret position in typewriter mode.
