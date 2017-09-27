@@ -5,6 +5,18 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.0 (2017-09-27)
+
+The motto of the 0.4 version branch is _reliability_. We're approaching a first stable public release, folks.
+
+* **Fixed:** Delete note, undo, redo, then undo again -- this used to report an error because the re-creation was attempted twice.
+* **Fixed:** Remembering and scrolling to the old caret position got in the way when you did not tab but clicked into the editor. When you click, your caret now lands below the mouse cursor again.
+* **New:** Search results are treated as your temporary contents "on the desk", being exempt from (most) file system changes:
+
+    * Creating a new note with ⌘N while a search is active displays the new note even though it doesn't match the search criteria.
+    * Removing the search term contents from a note does not remove it from the search results immediately anymore.
+
+
 ## v0.3.11 (2017-09-20)
 
 * **Fixed:** When searching in a note and then typing, the cursor sometimes used to jump back to the first occurrence of the search term while you typed.
