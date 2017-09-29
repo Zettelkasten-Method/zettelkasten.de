@@ -1,0 +1,12 @@
+---
+title: Maybe Sublime Text Works Well for a Zettelkasten
+created_at: 2017-09-29 17:12:04 +0200
+kind: article
+author: christian
+tags: [ sublimetext ]
+url: http://chris.moo-art.de/2017/09/sublime-text-the-better-nvalt-for-zettelkasten-workers/
+---
+
+Forum user Chris wrote a blog post with a dozen assorted things, including cool features that [make Sublime Text a good fit for the Zettelkasten Method](http://chris.moo-art.de/2017/09/sublime-text-the-better-nvalt-for-zettelkasten-workers/). I did not know you _cannot print_ from Sublime, that sure came as a surprise.
+
+A full-blown review would be great to have one day, it seems, especially since fellow reader Dan Sheffler used to maintain [a Notational Velocity-style plugin](https://github.com/dansheffler/Notational-Sublime). Maybe Sublime 3 can really become quite a good fit for cross-platform usage.
