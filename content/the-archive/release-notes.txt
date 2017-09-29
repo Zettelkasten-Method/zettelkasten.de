@@ -5,6 +5,10 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.1 (2017-09-29)
+
+* **Fixed:** Removing a note from the file system that's part of the search results now displays a cached version of the note before it was deleted. You can edit it and never know somebody removed the file from your archive directory. This is another measure to ensure reliable search results consistency.
+
 ## v0.4.0 (2017-09-27)
 
 The motto of the 0.4 version branch is _reliability_. We're approaching a first stable public release, folks.
