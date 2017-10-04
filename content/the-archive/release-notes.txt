@@ -5,6 +5,19 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.2 (2017-10-04)
+
+* **Fixed:** Hard-to-explain issue of outdated search results. Say you searched for the ID `201709300742` through clicking on a link. Then you got 2 results, one with the link, one of the note itself. Then you renamed the note's title, keeping the ID, and clicked the same link again -- poof, note was gone. That's because clicking a link cleared the "old known notes" cache; but since the search term was the same, it did not perform the search request.
+* **Fixed:** Once you edited a note in your current workspace (= your search results), switching back to the note later will put the text editing caret where you left it off instead to the first search term match.
+* **Fixed:** Typing in the Omnibar did not live-update the search highlight inside the note, if any, until you switched to the editor view.
+* **Fixed:** The error reporting dialog now includes the correct build number.
+* **Fixed:** After launch, the notes are in the expected sort order from last time instead of resetting to "Title Ascending".
+* **Changed:** Renamed "Filters" to "Saved Searches" for now. Real filters will be different, more like in v0.1, where you could activate a filter and search inside the confines of its context.
+* **Changed:** Adding emphasis using <kbd>⌘I</kbd> or <kbd>⌘B</kbd> now puts the caret in between the marks when you don't have anything selected.
+* **Changed:** Removed `$` to denote math markup because the Markdown extension was matching text too eagerly.
+* **Changed:** Invoking a search using a saved search now auto-selects a matching note by the same rules a manual search would, so you can write index notes for your saved searches.
+* **New:** Naive-ish continuation of list environments when you hit the newline. Will also continue inside code blocks, which is not ideal, but we'll get there.
+
 ## v0.4.1 (2017-09-29)
 
 * **Fixed:** Removing a note from the file system that's part of the search results now displays a cached version of the note before it was deleted. You can edit it and never know somebody removed the file from your archive directory. This is another measure to ensure reliable search results consistency.
