@@ -5,6 +5,17 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.3 (2017-10-14)
+
+* **Fixed:** Typing a quotation mark either before or (new!) right after a word does not insert a second one after the caret. Same for `*` and `_`.
+* **Fixed:** Hitting Tab in the Quick Entry text field now switches focus to the title instead of indenting the line. 
+* **Fixed:** ⌥+Tab shortcuts and all formatting shortcuts now work in the Quick Entry text field.
+* **Fixed:** "Toggle List" formatting did not recognize ordered list items with parens, like `1)`.
+* **Changed:** When using "Select Line" (<kbd>⇧⌘L</kbd>) in a list once, it selects textual list contents excluding the list item; use the shortcut again to select the whole line.
+* **New:** Brand new Saved Search editor so you can edit your saved searches from the menu bar and hide the sidebar if you want.
+* **New:** You can disable search highlighting in the note editor with a new setting. Disabling will not highlight search term occurrences visually and will not scroll down until the first match is visible.
+* **New:** Continuation of blockquote markers now works just like list markers: hit Enter in a blockquote environment and the new line will start with a `>`, too.
+
 ## v0.4.2 (2017-10-04)
 
 * **Fixed:** Hard-to-explain issue of outdated search results. Say you searched for the ID `201709300742` through clicking on a link. Then you got 2 results, one with the link, one of the note itself. Then you renamed the note's title, keeping the ID, and clicked the same link again -- poof, note was gone. That's because clicking a link cleared the "old known notes" cache; but since the search term was the same, it did not perform the search request.
