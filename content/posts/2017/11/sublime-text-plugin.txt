@@ -1,0 +1,20 @@
+---
+title: Sublime Text 3 Zettelkasten Plugin
+created_at: 2017-11-02 14:26:04 +0100
+kind: article
+author: christian
+tags: [ sublimetext ]
+url: https://github.com/renerocksai/sublime_zk
+---
+
+Rene from the forums did publish a [Sublime Text 3 Zettelkasten plugin](https://github.com/renerocksai/sublime_zk) for better note-taking with Sublime. (See the [discussion](https://forum.zettelkasten.de/discussion/77/renes-sublimetext-for-zettelkasten-package-talk-and-more) there.)
+
+The plugin features:
+
+- Clickable Wiki-style links like `[[this one]]`, creating notes that do not yet exists
+- Auto-completion of note titles when you begin typing `[[`
+- Shortcuts to create new notes including a generated ID
+- The ID format is the trusted and true data-based `YYYYMMDDHHMM`, for example: `201710282111`
+- Highlighting of note links, `#tags`, and footnote references `[^like this one]`
+
+Huge shout-out to Rene 🙌
