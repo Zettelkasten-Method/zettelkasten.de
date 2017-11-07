@@ -5,6 +5,14 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.15 (2017-12-05)
+
+* **Fixed:** Highlights headings and code blocks at the end of the document, even without trailing new lines.
+* **Changed:** Double-clicking the font preview in the editor settings opens the font picker.
+* **Changed:** Double-clicking an icon in the Saved Searches editor opens the icon picker popover.
+* **New:** Picking a non-monospace font will show a notice in the settings.
+* **New:** Added "Allows theme to override font" setting, which is enabled by default; disabling it will make multi-font themes uniform, retaining all color and the font replacement's style settings (bold, italic).
+
 ## v0.4.14 (2017-12-03)
 
 * **Changed:** Experimental Markdown highlighter fix. Could also be more broken. Looks good to me so far, though.
