@@ -5,6 +5,14 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.4 (2017-11-10)
+
+* **Fixed:** Auto-continuation of ordered lists wrapped to "1" after "10", but now correctly continues with "11".
+* **Fixed:** "Copy title" from the contextual menu did not copy the title of the note you clicked on, but the currently visible note.
+* **Fixed:** Many shortcuts and menu items related to the results list were disabled.
+
+The mega-update I planned to release today will take some more time, sorry!
+
 ## v0.4.3 (2017-10-14)
 
 * **Fixed:** Typing a quotation mark either before or (new!) right after a word does not insert a second one after the caret. Same for `*` and `_`.
