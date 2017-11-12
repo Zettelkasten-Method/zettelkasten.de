@@ -3,7 +3,7 @@ title: First Draft from Outline – a Compiler Script
 created_at: 2016-01-25 09:42:23 +0100
 kind: article
 author: christian
-tags: [ assemble, writing, script, tool ]
+tags: [ assemble, writing, outline, script, tool ]
 vgwort: http://vg01.met.vgwort.de/na/c67bda12b3164b88a002a5a6070ade42
 ---
 
