@@ -5,6 +5,20 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.5 (2017-11-18)
+
+I bit the bullet and wrote a lightweight Markdown syntax highlighter completely from scratch. That's not to brag, but it's important to know that a lot might look differently now:
+
+* **Fixed:** When switching active notes where one started with a link and the other didn't falsely styled the other one as a link, i.e. blue with underline.
+* **Changed:** The syntax highlighter is different, so some files may produce different output than before.
+* **New:** The Theme files have changed completely.
+
+Also:
+
+* **Fixed:** Typing 2 asterisks or underscores after a word now does not produce 3 anymore (the 2nd one was treated as an auto-completable new pair).
+* **Changed:** Typing 2+ asterisks or underscores results in auto-completing the same amount of characters after the caret. Previously, typing `**` was interpreted as closing an emphasis; now it is treated as opening another bracketed asterisk pair. This is weird to put into words, but you'll see as soon as you type 2 asterisks. Try it!
+* **Changed**: Allow even more special characters like `:` in hashtags.
+
 ## v0.4.4 (2017-11-10)
 
 * **Fixed:** Auto-continuation of ordered lists wrapped to "1" after "10", but now correctly continues with "11".
