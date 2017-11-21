@@ -5,6 +5,11 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.6 (2017-11-21)
+
+* **New:** "Disable Markdown" made its return to the Debug menu.
+* **Fixed:** Reference-style link matching is not greedy anymore, that is not everything between a first and second link in the same paragraph will become blue.
+
 ## v0.4.5 (2017-11-18)
 
 I bit the bullet and wrote a lightweight Markdown syntax highlighter completely from scratch. That's not to brag, but it's important to know that a lot might look differently now:
