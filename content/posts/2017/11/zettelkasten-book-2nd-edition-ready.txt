@@ -1,0 +1,16 @@
+---
+title: The Next Edition of the Zettelkasten Method Book
+created_at: 2017-11-22 13:57:58 +0100
+kind: article
+author: sascha
+tags: [ announcement, book ]
+preview: fulltext
+---
+
+Hi folks,
+
+I just want to announce that the first rough draft of the second edition of the book is ready. I wrote it completely from scratch and added a lot of learned lessons by myself and through the communication with other knowledge workers. 
+
+It is still in German but fear not: Its content will be the basis for an online course which takes you step by step through all the content. And ... it will be in English! (And polished, too, so you don't have to suffer from my pathetic English.) 
+
+Big advancements are coming you way.
