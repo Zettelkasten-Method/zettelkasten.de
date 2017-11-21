@@ -1,0 +1,14 @@
+---
+title: Reference Manager JabRef 4 Released
+created_at: 2017-11-21 08:20:55 +0100
+kind: article
+author: christian
+tags: [ jabref, reference-management ]
+url: http://blog.jabref.org/2017/10/04/JabRef4-0/
+---
+
+I just noticed that the developers of JabRef [released version 4](http://blog.jabref.org/2017/10/04/JabRef4-0/) in October.
+
+[JabRef](http://www.jabref.org/) is still our go-to recommendation when it comes to cross-platform reference management. The BibTeX support is great, and with BibTeX + MultiMarkdown you have an open source publishing toolchain at your fingertips. (On macOS, BibDesk is still our favorite, but JabRef is a close second even there.) Note that JabRef requires Java 1.8+ to run.
+
+The [integration](http://help.jabref.org/en/EntryEditor#related-articles-tab) with [paper recommendation service "Mr.DLib"](http://mr-dlib.org/) sounds interesting. I have no clue if this is any good in practice; since I don't do any research at all at the moment, I cannot evaluate that feature. You're welcome to share your experience with the rest of us in the forum comments!
