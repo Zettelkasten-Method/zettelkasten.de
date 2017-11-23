@@ -5,6 +5,15 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.7 (2017-11-23)
+
+* **Fixed:** Changing the archive directory does not reset the sort order to "Title Ascending" anymore.
+* **Fixed:** Changing the sort order with an active search now properly re-sorts the currently visible results.
+* **Changed:** Atx-style headings are recognized without empty lines around them.
+* **Changed:** Blockquotes do not require an empty space character after the `>` anymore.
+* **New:** Sorting by modification date -- find the settings in the _View ▶ Sort By_ menu!
+* **New:** Added "Reload Results" (<kbd>⌃R</kbd>) to the _Search_ menu for now to perform the same search again to update results.
+
 ## v0.4.6 (2017-11-21)
 
 * **New:** "Disable Markdown" made its return to the Debug menu.
