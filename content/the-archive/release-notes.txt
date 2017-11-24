@@ -5,6 +5,10 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.8 (2017-11-24)
+
+* **Fixed:** Text layout problem, resulting in crashes and overlapping characters.
+
 ## v0.4.7 (2017-11-23)
 
 * **Fixed:** Changing the archive directory does not reset the sort order to "Title Ascending" anymore.
