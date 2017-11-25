@@ -5,6 +5,17 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.9 (2017-11-25)
+
+* **Fixed:** Showing properly sized icon in the "Loading" window.
+* **Fixed:** The "Loading" window now hides when you tab into another app and does not obstruct other applications.
+* **Fixed:** Crash when working with blockquotes.
+* **Fixed:** A few new layout glitches.
+* **Fixed:** Fix Markdown issues with mixed newline characters, noticeable around headings, for example: Treat newline characters from Windows (carriage return) as lines terminators properly.
+* **Fixed:** When sorting by modification date, selecting a note with the mouse did not work (because the re-sorting interfered); now it does!
+* **Changed:** Improve performance of the Markdown highlighting slightly.
+* **Changed:** Dragging around in the results list changes the active note; this is an unintended but welcome side effect of mentioned fix for selecting notes before re-sorting the result list.
+
 ## v0.4.8 (2017-11-24)
 
 * **Fixed:** Text layout problem, resulting in crashes and overlapping characters.
