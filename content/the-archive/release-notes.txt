@@ -5,6 +5,12 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.10 (2017-11-29)
+
+* **Fixed:** Crash when browsing through long notes rapidly with search term highlighting enabled. As a side effect, highlighting performance should now be a bit better, too.
+* **Fixed:** Carriage-returns instead of proper newlines now do not interfere with highlighting anymore.
+
+
 ## v0.4.9 (2017-11-25)
 
 * **Fixed:** Showing properly sized icon in the "Loading" window.
