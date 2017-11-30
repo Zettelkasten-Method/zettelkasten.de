@@ -5,11 +5,15 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.11 (2017-11-30)
+
+* **Fixed:** The font color of search term highlights did not disappear when you began editing a note, but now they do.
+* **Fixed:** Carriage-returns instead of proper newlines now do not interfere with highlighting anymore. (Unlike advertised, this did not ship with v0.4.10.)
+* **Changed:** Scroll results to top when typing in the Omnibar. (I did wonder why there are so little results after a search for old stuff more than once because I did not realize I could scroll up to reveal more. I have no clue where this assumption came from, but here it is, and it feels better now that it works accordingly.)
+
 ## v0.4.10 (2017-11-29)
 
 * **Fixed:** Crash when browsing through long notes rapidly with search term highlighting enabled. As a side effect, highlighting performance should now be a bit better, too.
-* **Fixed:** Carriage-returns instead of proper newlines now do not interfere with highlighting anymore.
-
 
 ## v0.4.9 (2017-11-25)
 
