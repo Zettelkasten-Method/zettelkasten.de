@@ -5,6 +5,13 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.12 (2017-12-01)
+
+* **Fixed:** Crash when changing font/font sizes a lot, then switch notes or type.
+* **Fixed:** Unpredictable surprise crash when switching notes or type.
+
+All of these weird crashes are not a good sign for the new Markdown highlighter, I have to admit.
+
 ## v0.4.11 (2017-11-30)
 
 * **Fixed:** The font color of search term highlights did not disappear when you began editing a note, but now they do.
