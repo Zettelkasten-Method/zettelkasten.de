@@ -5,6 +5,16 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.14 (2017-12-03)
+
+* **Changed:** Experimental Markdown highlighter fix. Could also be more broken. Looks good to me so far, though.
+
+## v0.4.13 (2017-12-02)
+
+* **Fixed:** Files in subfolders are ignored and are not added to the index anymore.
+* **New:** The find bar of the editor is closed when you switch notes.
+* **New:** You can invoke "Find and Replace" for the editor from within the Omnibar and the results list. From anywhere, actually.
+
 ## v0.4.12 (2017-12-01)
 
 * **Fixed:** Crash when changing font/font sizes a lot, then switch notes or type.
