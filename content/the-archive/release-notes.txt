@@ -5,6 +5,28 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.16 (2017-12-13)
+
+Please delete existing themes to have _The Archive_ save new versions on launch.
+
+### Overall app
+
+* **Fixed:** Removed vertical resizing indicator (mouse cursor) at the bottom edge of the `Omnibar`.
+* **Fixed:** Typewriter mode didn't "lock" on to the correct position for a while, which now seems to not cause problems anymore.
+* **Fixed:** The currently selected match of highlighted search terms in the text editor did not look much different from all the others, making it hard to see where your selection is.
+* **Fixed:** Clicking a `[[WikiLink]]` did not allow selecting the note from which you came right away. When the search produces only the link source itself, you weren't able to do anything with the search results.
+* **Changed:** Switching fonts from a monospace to a flexible width font now shows an alert. If you switch from one flexible width font to another, you won't be nagged, though. (So you can adjust font sizes without problems, for example.)
+* **New:** Safe-guarding dialog that asks before you quit in case you accidentally hit <kbd>⌘Q</kbd>, for example when you tab between applications. 
+
+
+### Markdown Highlighting
+
+* **Fixed:** Emphasis flanking and flanked by parens and punctuation marks works correctly.
+* **Fixed:** Emphasis of single characters.
+* **Changed:** Markdown emphasis is now less strict: text will stay bold and italicized with a space character before the closing asterisks, so that emphasis remains visible while you type inside.
+* **New:** Highlight MultiMarkdown-style footnote syntax, like `[^this-here]` for a reference footnote, and `[^The footnote text directly]` for Pandoc/MMD4 inline footnotes. Comes with a new theme rule, surprisingly called `footnote`.
+* **New:** Themes now support an optional `unfocusedBackgroundColor` for `editor` ▶ `selection` (and `editor` ▶ `highlight`, but there it has no effect, yet) in order to customize the color of highlighted text when the window is not in the foreground or the text editor does not have focus. Previously, macOS used its default gray. 
+
 ## v0.4.15 (2017-12-05)
 
 * **Fixed:** Highlights headings and code blocks at the end of the document, even without trailing new lines.
