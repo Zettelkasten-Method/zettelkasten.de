@@ -5,6 +5,12 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.17 (2017-12-19)
+
+* **Fixed:** Insertion point is not drawn too far to the top anymore when you insert line breaks at the end of a note.
+* **Changed:** Log files do now rotate daily (I don't know if there's a pun intended by the folks who came up with the terms). This means the app will keep 5 daily log files and clean up the rest. No more ever-growing multi-megabyte logs anymore, hooray!
+* **New:** _Help ▶ Send Log Files_, in case you need to send your log files for debugging.
+
 ## v0.4.16 (2017-12-13)
 
 Please delete existing themes to have _The Archive_ save new versions on launch.
