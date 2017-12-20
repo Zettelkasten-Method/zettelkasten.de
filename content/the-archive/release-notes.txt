@@ -5,6 +5,14 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.18 (2017-12-20)
+
+* **Fixed:** Another case where the blinking cursor was drawn too far to the top.
+* **Fixed:** Do not ask for quitting confirmation when installing an update.
+* **Fixed:** ESC inside the Omnibar properly deselects the note in the results list.
+* **Fixed:** Reporting errors via email with ampersands `&` in error file names did truncate the message.
+* **New:** Show warning when the selected theme file is broken.
+
 ## v0.4.17 (2017-12-19)
 
 * **Fixed:** Insertion point is not drawn too far to the top anymore when you insert line breaks at the end of a note.
