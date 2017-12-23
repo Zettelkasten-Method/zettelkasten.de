@@ -5,6 +5,12 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.20 (2017-12-23)
+
+* **Fixed:** Indent/outdent selection works more reliably with mixed indentation characters (tabs and spaced).
+* **New:** Configurable soft tabs (2 or 4 characters wide). 
+* **New:** Bold/italics shortcuts behave more clever: when the selected text is already emphasized, they try to de-emphasize the text. It you have no text selected, the shortcuts behave as if you type the `*` or `_` yourself, making them overwritable. Also, hitting the shortcut a second time inside the emphasis _closes_ it instead of opening a new emphasis pair.
+
 ## v0.4.18 (2017-12-20)
 
 * **Fixed:** Another case where the blinking cursor was drawn too far to the top.
