@@ -5,7 +5,14 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
-## v0.4.20 (2017-12-23)
+## v0.4.20
+
+* **Fixed:** Crash when indenting a line with a single character in it using <kbd>⌘]</kbd>.
+* **Changed:** Dragging in the result list expands note selection instead of changing it.
+* **New:** Multiple note selections in the results list (as usual, use command-click to pick some, or shift-click to select a range).
+* **New:** Copy Link/Copy Links in result list's contextual menu.
+
+## v0.4.19 (2017-12-23)
 
 * **Fixed:** Indent/outdent selection works more reliably with mixed indentation characters (tabs and spaced).
 * **New:** Configurable soft tabs (2 or 4 characters wide). 
