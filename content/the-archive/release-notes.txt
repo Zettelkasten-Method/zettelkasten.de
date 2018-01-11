@@ -5,6 +5,15 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.22 (2018-01-11)
+
+* **Fixed:** Matching URLs was improved to exclude closing parens and other non-usual characters at the end of a web link.
+* **Fixed:** You can now use backticks (\`) and quotation marks (`"` and `'`) to compose accented characters in keyboard layouts that support this, e.g. _U.S. International - PC_ or various European language ones. To get the auto-completion of character pairs in spite of the macOS accentuation mode, simply type space to type the character itself and trigger auto-pairing.
+* **Changed:** Blockquote highlighter is more relaxed now to highlight empty lines with a `>` in a row, too.
+* **Changed:** Clicking the same `[[WikiLink]]` will now refresh the search results (removing notes that no linker match the link contents) and take you to the best match again. In other words, clicking the same link more than once behave the same now, whereas it used to ignore consecutive clicks.
+* **Changed:** Typing keys that are used to compose accented characters (usually drawn as the accent with a yellow background, waiting for completion) now does not trigger auto-pairing unless you abort the composition (with ESC or space, for example).
+* **Changed:** Line width computation is now based on EN-width instead of EM-width (making it narrower for proportional width fonts). This is supposed to improve compatibility with [iA Writer Duospace Font](https://github.com/iaolo/iA-Fonts).
+
 ## v0.4.21 (2018-01-09)
 
 * **Fixed:** Formatting shortcuts are functional again.
