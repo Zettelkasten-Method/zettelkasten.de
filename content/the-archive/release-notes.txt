@@ -5,6 +5,15 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.23 (2018-01-14)
+
+* **Fixed:** Searching for a single Emoji and then selecting a note displayed the note title in monospace inside the Omnibar.
+* **Fixed:** "Rename" from the contextual menu works again.
+* **Fixed:** Composable accent characters now do not replace selected text but surround it with their pairs, so that you can mark text as code or wrap in single quotation marks even though you use these keys to write `à` or `é` and similar.
+* **Fixed:** Editing file extensions did not update the list of extensions to select the default extension from when you just clicked on the drop-down.
+* **Changed:** Search for non-ASCII letters/characters should be resilient against encoding problems.
+* **Changed:** Identical searches are not ignored anymore, so you can use a Saved Search shortcut multiple times in a row, e.g. to reload the results.
+
 ## v0.4.22 (2018-01-11)
 
 * **Fixed:** Matching URLs was improved to exclude closing parens and other non-usual characters at the end of a web link.
