@@ -5,12 +5,17 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.25 (2018-01-19)
+
+* **Fix:** Issue when holding down the arrow keys for a while to move around in the results list. The note you select next wouldn't display.
+* **Fix:** Text drawing issue when pushing the last line of text down by adding empty lines above it. (`rdar://36650289`)
+
 ## v0.4.24 (2018-01-17)
 
 * **Fix:** Lost focus after renaming a note; this prevented <kbd>⌘R</kbd> to work repeatedly.
 * **Fix:** Tabbing around works more reliably, especially tabbing out of the note renaming text field back into the editor.
 * **Fix:** Editing note A and clicking on note B did discard the click due to note A being saved. Now the desired selected note change works.
-* **Fix:** Bug by Apple where deleting in the 2nd line of text drew the insertion point too far up.
+* **Fix:** Bug by Apple where deleting in the 2nd line of text drew the insertion point too far up. (`rdar://36581248`)
 * **Changed:** Removed "Save..." from "Note" menu.
 * **New:** Deleting a note from the list select an adjacent note automatically, preferring the one below, as long as the deletion was triggered for the currently selected note. It does not change selection when you right-click someplace else in the list.
 
