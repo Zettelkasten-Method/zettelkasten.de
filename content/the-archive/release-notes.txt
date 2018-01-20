@@ -5,6 +5,15 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.4.26 (2018-01-20)
+
+* **Fix:** The reset-button for external editors does not appear when the external editor was already reset to "System Default".
+* **Fix:** Clicking `[[WikiLinks]]` did not select the best match for you in the list. _Again_.
+* **Fix:** Clicking `#hashtags` resulted in lost focus, impeding keyboard control; now the Omnibar has focus so you can continue to keyboard-control the app.
+* **Changed:** Remove print-related, non-functional menu items.
+* **Changed:** Undo renaming note is now deactivated. This caused trouble in the past when the file system couldn't catch up undoing/redoing very quickly. Also, when do you rename a note and want to undo the change instead of correcting a mistake in practice?
+* **New:** Custom icons for the preferences tabs.
+
 ## v0.4.25 (2018-01-19)
 
 * **Fix:** Issue when holding down the arrow keys for a while to move around in the results list. The note you select next wouldn't display.
