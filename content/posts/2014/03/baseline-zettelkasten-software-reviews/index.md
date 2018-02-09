@@ -202,21 +202,22 @@ The current list of application candidates, in alphabetical order:
 * Bear (Mac)
 * Clibu (Web-based, platform independent)
 * ConnectedText (Windows)
-* [DEVONthink](http://zettelkasten.de/posts/devonthink-zettelkasten-review/) (Mac)
+* [DEVONthink](http://zettelkasten.de/posts/devonthink-zettelkasten-review/) (Mac) by Marko
 * Evernote (platform independent)
 * Emacs org mode + Deft (platform independent)
 * MacJournal
-* [Notational Velocity and nvALT](/posts/nvalt-zettelkasten-implementation/) (Mac)
-* [One Note](/posts/one-note-review/) (PC, Mac, even mobile)
+* [Notational Velocity and nvALT](/posts/nvalt-zettelkasten-implementation/) (Mac) by Christian
+* [One Note](/posts/one-note-review/) (PC, Mac, even mobile) by DutchPete
 * PiggyDB (Java, platform independent)
 * P.S. Notes (Linux, Ubuntu)
 * ResophNotes (Windows)
-* [SlipBox](/posts/slip-box-mac-review/) (Mac)
+* SublimeText (platform independent)
+* SlipBox (Mac)
 * Tinderbox (Mac)
-* [Trello](/posts/trello-zettelkasten-implementation/) (web)
+* [Trello](/posts/trello-zettelkasten-implementation/) (web) by Nick
 * WikidPad (platform independent)
 * VoodooPad (Mac)
-* vim as NVim (platform independent)
+* vim with NVim (platform independent)
 * Zkn&sup3; (platform independent)
 * and a paper-based Zettelkasten
 
