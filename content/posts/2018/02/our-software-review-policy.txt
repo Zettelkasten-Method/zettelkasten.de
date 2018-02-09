@@ -1,0 +1,20 @@
+---
+title: Our Software Neutrality Self-Policing
+created_at: 2018-02-05 17:26:24 +0100
+kind: article
+author: christian
+tags: [ review ]
+publish: false
+---
+
+Sascha and I decided to make a clean cut: we won't evaluate note taking apps anymore.
+
+We're not just producing information products like books anymore. I am programming _The Archive_, which is a note archive application by our own design, and we think it's the best that's happened to humanity since sliced bread. This naturally makes us biased when evaluating other apps. Does an app meet our objective standards? Well, maybe, but how could anyone be able to tell our verdict is trustworthy? There's an obvious conflict of interest, and we want to do our best to be honest and true, and to keep this platform interesting.
+
+From now on, we won't write anything judgemental about Zettelkasten archive apps. (This excludes things like malware warnings, of course.) This is the best way to evade the dilemma of (1) wanting to write about interesting software and (2) our conflict of interest, now that we are selling our own software. Better to shut up than to appear deceitful.
+
+This personal policy of ours does by no means exclude you, dear reader, from publishing your reviews on this blog or have us link to it. Sascha and I will refrain from joining forum discussions and writing blog posts concerning the competition, that's all.
+
+This website shall be a platform of interesting discussion about knowledge work, and about writing in particular. We do not want to make any dollar we earn diminish your trust in us and this platform. That's why we aren't available for software reviews anymore, sorry! This also affects past reviews by me which I have now removed -- except the one of nvALT, which is free open source software, so there's no conflicting party.
+
+Interested in reviewing an app for this blog? Check out our [baseline for Zettelkasten reviews](/posts/baseline-zettelkasten-software-reviews/) if you want an inspiration, and look at our [tools page](/tools/) for links to interesting apps and reviews around the net.
