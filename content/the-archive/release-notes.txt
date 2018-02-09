@@ -5,6 +5,23 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.5.0 (2018-02-09)
+
+**Heads up!** When you update, your old filters will be gone. Please take note of your settings before updating and refer to the forum for info about the migration.
+
+* **Fix:** When the Saved Searches editor is open but in the background, "Edit Saved Searches" now brings it back to front properly.
+* **Fix:** Closing the find bar gives focus back to the note editor.
+* **Changed:** Revamped the launch window a bit.
+* **New:** Added "Create Demo Archive" to the launch window (access it by using "Switch Archives..." from the app menu).
+* **New:** Added "Create Demo Notes..." to add the demo notes into your current archive if you happen to need an interactive guide.
+* **New:** Added "Explain Interface" help menu item to, well, explain the user interface for less tech-savvy newcomers.
+* **New:** You can assign custom shortcuts to saved searches.
+* **New:** You can drag to reorder saved searches in the dedicated editor window.
+
+If you want to propose changes to the demo notes, check out the forums and our public GitHub repository: <https://github.com/Zettelkasten-Method/The-Archive-Demo-Notes>
+
+Finally, after 3 months of relative silence, _The Archive_ spawned new open source libraries! I published the UI explanation overlays as [`AppGuideOverlay`](https://github.com/CleanCocoa/AppGuideOverlay) And to animate the cutouts, I created [`LoopingAnimation`](https://github.com/CleanCocoa/LoopingAnimation). This produces a total of 8 published libraries for this app so far, which makes me really happy.
+
 ## v0.4.26 (2018-01-20)
 
 * **Fix:** The reset-button for external editors does not appear when the external editor was already reset to "System Default".
@@ -231,7 +248,7 @@ The motto of the 0.4 version branch is _reliability_. We're approaching a first 
 * **Fixed:** When searching in a note and then typing, the cursor sometimes used to jump back to the first occurrence of the search term while you typed.
 * **New:** Remember text selection/cursor position in notes.
 
-For this release, I created an open source library to store the text selection in file metadata. All in all, I thus published 6 libraries so far during development.
+For this release, I created an open source library to store the text selection in file metadata, called [`SwiftXAttrs`](https://github.com/CleanCocoa/SwiftXattrs). All in all, I thus published 6 libraries so far during development.
 
 ## v0.3.10 (2017-09-15)
 
@@ -333,7 +350,7 @@ That's about all I've been working on, shockingly.
 * **New:** Typewriter scrolling!
 * **New:** Autocompletion and selection wrapping with brackets, underscores, and asterisks! Select a text, hit `*`, and it'll be surrounded by default!
 
-For this release, I created an open source library for the Typewriter stuff, so this project produced 5 libraries so far.
+For this release, I created an open source library for the Typewriter stuff, aptly called [`Typewriter-Modes`](https://github.com/CleanCocoa/Typewriter-Modes), so this project produced 5 libraries so far.
 
 ## v0.2.10 (2017-06-28)
 
@@ -405,8 +422,7 @@ For this release, I created an open source library for the Typewriter stuff, so 
 * **Changed:** Selecting a filter now replaces the search completely instead of appending pieces to it.
 * **New:** You can now configure which file extensions The Archive should use for note files.
 
-And another open source library, resulting in 4 libraries from this project!
-
+And another open source library, resulting in 4 libraries from this project! The new one is called [`Omnibar`](https://github.com/CleanCocoa/Omnibar). Guess what it's for :)
 
 ## v0.2.1 (2017-05-27)
 
@@ -436,7 +452,7 @@ This release has many small fixes and a lot of bigger changes. The list sums up 
 * **New:** "Capture Image" in the edit menu lets you create snapshots to quickly include drawings into your notes.
 * **New:** Configure the path where snapshots are stored relative to your archive. Defaults to `./media/`.
 
-This release introduces yet another open source library I created, now 3 in total.
+This release introduces yet another open source library I created, now 3 in total. This one's called [`WebcamSnap`](https://github.com/CleanCocoa/WebcamSnap).
 
 ## v0.1.6 (2017-05-16)
 
@@ -512,4 +528,4 @@ Instead, here are some fun facts:
 * I started my first experiment in code on 19th November, 2016. (And I didn't do anything for most of March thanks to my post-op.)
 * It took 697 source code repository commits (= micro milestones I checked in) to get this far.
 * With 921 unit test cases, this is the project with the most automated test I ever wrote on my own. (Projects where I did work in a team had significantly less tests, by the way.)
-* I extracted and published 2 new open source libraries in the process and updated another one that I published back when I released TableFlip for beta.
+* I extracted and published 2 new open source libraries in the process, [`FatSidebar`](https://github.com/CleanCocoa/FatSidebar) and [`BetaExpiration`](https://github.com/CleanCocoa/BetaExpiration), and updated another one that I published back when I released TableFlip for beta, called [`ErrorHandling`](https://github.com/CleanCocoa/ErrorHandling).
