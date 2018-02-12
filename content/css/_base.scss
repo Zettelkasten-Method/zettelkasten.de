@@ -377,7 +377,7 @@ hr {
 /*        float: left;*/
 /*        width: 27.1%;*/
 /*        margin: 0 1.7%;*/
-      padding: 0.5em 2%;
+      padding: 0.5em /*2%*/ 0; // Centered anyway
       margin-bottom: 0;
   }
 
