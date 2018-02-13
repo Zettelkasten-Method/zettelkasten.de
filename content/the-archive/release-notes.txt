@@ -5,6 +5,12 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.5.1 (2018-02-13)
+
+* **Fixed:** Actions from the "Note" menu that depend on a selection in the results list are now disabled when you are editing a note that is not part of the results list anymore, for example after changing the search.
+* **Fixed:** When creating a note from the Omnibar, the editor did scroll down to keep the first line of text at the top, ignoring the top editor insets.
+* **Fixed:** Forgot to insert a "points" unit label in the "Editing" preferences after the search result size.
+
 ## v0.5.0 (2018-02-09)
 
 **Heads up!** When you update, your old filters will be gone. Please take note of your settings before updating and refer to the forum for info about the migration.
