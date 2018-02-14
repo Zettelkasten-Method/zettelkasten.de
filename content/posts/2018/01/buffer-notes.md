@@ -20,6 +20,6 @@ Therefore, I made a note in which I copied the title (+ID) of the new notes I ha
 
 The note is about problems like midlife-crisis, boyhood crisis, and similar stuff that emerges because of false feedback (e.g. thinking that a career serves as the pinnacle of meaning in life). I intended to use some of the thoughts to illustrate how you can get lost in knowledge work. Other examples are: Over-crafting the tools, over-digitalization (not reading real books) etc. 
 
-The same can be applied to new writing projects. I have a couple dozens of books that I am writing. New notes can be linked very fast to multiple books notes (either outlines or buffer notes) and with every note more than one book is growing. Like this, you can effectively <del>write<del> <ins>draft</ins> quite a lot books at the same time without losing the overview.
+The same can be applied to new writing projects. I have a couple dozens of books that I am writing. New notes can be linked very fast to multiple books notes (either outlines or buffer notes) and with every note more than one book is growing. Like this, you can effectively <del>write</del> <ins>draft</ins> quite a lot books at the same time without losing the overview.
 
 The buffer notes's role for the Zettelkasten Method is really a means to store notes relevant to a project in a rather unstructured manner.
