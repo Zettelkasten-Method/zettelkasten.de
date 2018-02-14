@@ -5,6 +5,11 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.5.2 (2018-02-14)
+
+* **Fixed:** Renaming a note with an active search did deselect it in the results.
+* **Fixed:** Tweaked a bit of code to _maybe_ prevent a rare crash that nobody but Sascha ever triggered so far.
+
 ## v0.5.1 (2018-02-13)
 
 * **Fixed:** Actions from the "Note" menu that depend on a selection in the results list are now disabled when you are editing a note that is not part of the results list anymore, for example after changing the search.
