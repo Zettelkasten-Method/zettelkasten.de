@@ -5,6 +5,12 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.5.4 (2018-02-19)
+
+* **Fixed:** A few regressions introduced in v0.5.1: there was a speed bump when ⌘A selecting lots of notes; and renaming the note didn't reflect the name change in the Omnibar.
+* **Fixed:** Starting to rename a note now scrolls the list until its row is visible so you know what and where you are typing.
+* **Changed:** Tabbing and back-tabbing during and after editing a note title. Should now be a bit smoother.
+
 ## v0.5.3 (2018-02-16)
 
 * **Fixed:** Tackles the crash that a lot more people have experienced since my last attempt at fixing it :)
