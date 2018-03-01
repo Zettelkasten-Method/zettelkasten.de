@@ -5,6 +5,19 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.5.5 (2018-03-01)
+
+**Attention:** the app will perform the First Launch routine once, even though this is not your first launch.
+
+* **Fixed:** External `/match/` URL invocation did not retain the supposed selection.
+* **Changed:** Use segmented controls in the preferences. As the saying goes, a word says more than the same word with a stupid icon, or something.
+* **Changed:** New demo notes.
+* **Changed:** The directory selection window now can quickly open the last used location.
+* **New:** 60-day trial instead of expiring beta. It is getting serious.
+* **New:** Create and open an archive in `~/Documents/Notes (The Archive)` upon launch. No more boring "pick a directory" window unless you want to see it. Aaaand you probably have to, because as I mentioned above, launching this version will change your active archive directory once. :)
+
+With this update, all you helpful beta testers are now immortalized in the "About" window's text. Thank you very much for helping us make the app better!
+
 ## v0.5.4 (2018-02-19)
 
 * **Fixed:** A few regressions introduced in v0.5.1: there was a speed bump when ⌘A selecting lots of notes; and renaming the note didn't reflect the name change in the Omnibar.
