@@ -23,3 +23,7 @@ The note is about problems like midlife-crisis, boyhood crisis, and similar stuf
 The same can be applied to new writing projects. I have a couple dozens of books that I am writing. New notes can be linked very fast to multiple books notes (either outlines or buffer notes) and with every note more than one book is growing. Like this, you can effectively <del>write</del> <ins>draft</ins> quite a lot books at the same time without losing the overview.
 
 The buffer notes's role for the Zettelkasten Method is really a means to store notes relevant to a project in a rather unstructured manner.
+
+**Update 2018-03-06:** The term "buffer note" appears to be a weird choice, native English website readers [tell us in the forums][buffer-forum]. We consider changing the term in the future. [Chime in][buffer-forum] if you have something you want to add.
+
+[buffer-forum]: https://forum.zettelkasten.de/discussion/122/what-are-buffer-notes
