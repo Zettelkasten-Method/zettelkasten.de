@@ -1,0 +1,12 @@
+---
+title: "The Archive: Available March 15th"
+created_at: 2018-03-06 15:29:02 +0100
+kind: article
+author: christian
+tags: [ archiveapp, announcement ]
+image: 20180306152844_ta-launch-preview.png
+---
+
+<%= insert_teaser_image title: "screenshot of The Archive" %>
+
+We plan to release _The Archive_ on Thursday, March 15th, early in the day in UTC. So if you wake up anywhere in the U.S. that day and the sun is up, it should be online.
