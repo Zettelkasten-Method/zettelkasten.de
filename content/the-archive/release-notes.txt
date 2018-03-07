@@ -5,6 +5,18 @@ published: false
 
 [Back to the Project Page](/the-archive/)
 
+## v0.5.7 (2018-03-07)
+
+* **Fixed:** Switching themes did carry over editor colors if they are not set by the new theme, resulting in a weird mix of colors until you restart the app.
+* **Fixed:** Renaming a note while the sidebar is hidden will show the sidebar first.
+* **Fixed:** Show/Hide sidebar menu items did not update their text when the editor was focused, only from the Omnibar.
+* **Changed:** Renamed the sort options from "descending" and "ascending" to something meaningful. I can never remember which is which, and I coded this myself. This is not a vocabulary test, it's a productivity-enhancing app, so out with the bourgeois terminology!
+* **Changed:** Renamed "Search Results" to "Note List".
+* **Changed:** Picking an external editor will show the `/Applications` directory by default.
+* **New:** "Insert Zettel ID" (wired to <kbd>Cmd-U</kbd>) from the "Edit" menu will, well, insert a date-based Zettel ID. Totally not configurable at the moment.
+* **New:** Setting to call new files "Untitled" as before, or use a Zettel ID that is still free to speed up verzettelling :)
+* **New:** You can now close the main app window.
+
 ## v0.5.6 (2018-03-02)
 
 * **Fixed:** The launch window now updates the previously known directory live instead of only after relaunch.
