@@ -447,16 +447,14 @@ hr {
   h2 { clear: both; }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1200px) {
 
 /* ===============
     Maximal Width
    =============== */
 
-  body { background: $color-background-wide; }
-
   .wrapper, .content-wrapper {
-    width: 810px; /* 1140px - 10% for margins */
+    width: 920px;
     margin: 0 auto;
   }
   figure { 

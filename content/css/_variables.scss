@@ -1,9 +1,8 @@
 $color-text: #333;
 $color-light: #aaa;
 $color-link: #4961DD;
-$color-background-wide: #feede6;
-$color-separator: darken($color-background-wide, 5%);
-$color-background: lighten($color-background-wide, 4%);
+$color-separator: darken(#feede6, 5%);
+$color-background: #faf7f4;
 $color-background-nav: #144659;
 
 $font-serif: 'PT Serif', serif;
