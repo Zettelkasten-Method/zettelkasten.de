@@ -158,10 +158,6 @@ nav a:hover {
   background: $color-background;
 }
 
-.main article h1 {
-  font-size: 2em;
-}
-
 .footer-container footer {
   color: white;
   padding: 20px 0;
@@ -230,6 +226,11 @@ blockquote {
   font-style: italic;
   i, em { font-style: normal; }
 }
+
+// (Clickable) Post titles
+.main article h1 { font-size: 1.5em; }
+#posts .post__title a { color: $color-text; }
+#posts .post__title a:hover { border-bottom-color: $color-text; }
 
 .post__meta {
   display: inline-block;
@@ -430,6 +431,8 @@ hr {
     margin-top: 1em;
     margin-bottom: 0;
   }
+  
+  .main article h1 { font-size: 2em; }
   
   .post__title { margin-top: 1.5em; }
   
