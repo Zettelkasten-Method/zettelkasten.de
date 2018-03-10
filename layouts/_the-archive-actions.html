@@ -1,0 +1,25 @@
+<%
+if @position == 'below-features'
+  buy_grid      = "s-grid-12 m-grid-8 l-grid-8 l-padded-right m-padded-right"
+  download_grid = "s-grid-12 m-grid-4 l-grid-4 l-padded-left m-padded-left"
+  app_info_grid = "hidden"
+else 
+  buy_grid      = "s-grid-12 m-grid-12 l-grid-12"
+  download_grid = "s-grid-12 m-grid-6 l-grid-4"
+  app_info_grid = "s-grid-12 m-grid-6 l-grid-8"
+end
+%>
+
+<ul class="actions grid-whole">  
+  <li class="action__item action__item--button <%=buy_grid%>">
+    <a class="action action--buy" href="https://zettelkasten.onfastspring.com/the-archive?source=zettelkasten&campaign=position-<%= @position ? @position : 'top' %>" data-fsc-action="Reset,Add,Checkout" data-fsc-item-path-value="the-archive"><%= (%Q{<img src="/img/icon-sm.png" class="action__icon">} if @bottom == true) %>Buy Now</a>
+  </li>
+
+  <li class="action__item action__item--button <%=download_grid%>">
+    <a href="/download" class="action action--download">Download</a>
+  </li>
+  
+  <li class="action__item action__item--info <%=app_info_grid%>">
+    <p class="appinfo <%= "appinfo--left" unless @bottom == true %>">30 Day Free Trial<br>Requires at least macOS 10.11 and is ready for High Sierra.</p>
+  </li>
+</ul>

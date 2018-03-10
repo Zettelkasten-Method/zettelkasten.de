@@ -5,39 +5,103 @@ layout: the-archive
 ---
 
 <section class="hero">
-  <h1>The Archive</h1>
+  <h1 class="appname">The Archive</h1>
   <h2 class="tagline">Note Taking: Nimble, Calm, Plain.txt</h2>
   <img src="/the-archive/img/hero.png" />
+
+  <p class="two-sentence">Note Taking is the bridge between thinking and crafting text. Take it seriously. You will be pleased how much you creative work will improve.</p>
   
+  <%= render '_the-archive-actions', :position => 'hero' %>
+  
+  <hr class="resources-rule" />
 </section>
 
 <section class="features">
-  <p>Note Taking is the bridge between thinking and crafting text. Take it serious. You will be pleased how much you creative work will improve.</p>
-  
-  <article class="feature">
-    <h3 class="feature-title">Plain Text File Storage</h3> 
-    <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <article class="feature grid-whole">    
+    <div class="l-grid-8 m-grid-8 s-grid-12 l-padded-right m-padded-right">
+      <h3 class="feature-title">Plain Text File Storage</h3>
+      <p class="feature-desc">You want your notes to be robust and made for eternity. Plain Text is the way to go. It's the most robust and durable file format. It allows you to use Markdown which makes your life infinitely better anyhow.</p>
+    </div>
+
+    <div class="feature-img-container l-grid-4 m-grid-4 s-grid-12 l-padded-left m-padded-left">
+      <img class="feature-img feature-img--plaintext" src="/the-archive/img/plaintext.png" />
+    </div>
   </article>
   
-  <article class="feature">
-    <h3 class="feature-title">Clean and Simple User Interface</h3> 
-    <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <article class="feature grid-whole">
+    <div class="feature-img-container l-grid-5 m-grid-12 s-grid-12 l-padded-right m-padded-right">
+      <div class="c-window">
+        <div class="c-titlebar"><div class="c-bubble"></div><div class="c-bubble"></div><div class="c-bubble"></div></div>
+        <div class="c-omnibar"></div>
+        <div class="c-body">
+          <div class="c-results"></div>
+          <div class="c-fatbar"></div>
+          <div class="c-text"><span class="c-write">write.<span class="c-cursor"></span></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="l-grid-7 m-grid-12 s-grid-12 l-padded-left m-padded-left">
+      <h3 class="feature-title">Clean and Simple User Interface</h3>
+      <p class="feature-desc">In a distracted world, deep concentration becomes scarce and incredibly valuable. A clean and simple user interface is our small contribution to the value of your creative life.</p>
+    </div>
   </article>
   
-  <article class="feature">
-    <h3 class="feature-title">Elegant Text Editor</h3> 
-    <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <article class="feature grid-whole">
+    <div class="l-grid-8 m-grid-8 s-grid-12 l-padded-right m-padded-right">
+      <h3 class="feature-title">Elegant Text Editor</h3>
+      <p class="feature-desc">Note-taking is writing. A big part of the life of a creative person is taking notes. A bit of beauty is not only nice to have but mandatory.</p>
+    </div>
+
+    <div class="feature-img-container l-grid-4 m-grid-4 s-grid-12">
+      <img class="feature-img feature-img--elegant" src="/the-archive/img/elegant-editor.png" />
+    </div>
   </article>
   
-  <article class="feature">
-    <h3 class="feature-title">Swiss Army Knife of Note Taking</h3> 
-    <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <article class="feature grid-whole">
+    <div class="feature-img-container l-grid-4 m-grid-4 s-grid-12 l-padded-right m-padded-right">
+      <img class="feature-img feature-img--knife" src="/the-archive/img/versatile.png" />
+    </div>
+    
+    <div class="l-grid-8 m-grid-8 s-grid-12 l-padded-left m-padded-left">
+      <h3 class="feature-title">Swiss Army Knife of Note Taking</h3> 
+      <p class="feature-desc">A tool should serve <em>you</em>, not the other way around. Use <i>The Archive</i> your own way and don’t be forced into unnatural habits.</p>
+    </div>
+  </article>
+  
+  <article class="grid-whole">
+    <ul class="feature-shortlist">
+      <li><strong>Fast search</strong> for maximum productivity</li>
+      <li><strong>Markdown</strong> support to highlight notes</li>
+      <li><strong>Powerful tags</strong> that are simple to use</li>
+      <li><strong>Typewriter mode</strong> to keep your focus while typing</li>
+      <li><strong>Themes!</strong> Customize the editor to your liking</li>
+      <li><strong>Quick navigation</strong> based on plain text conventions</li>
+      <li><strong>Supportive community</strong> of writing nerds</li>
+      <li><strong>Saved searches</strong> to switch between subsets of your notes</li>
+    </ul>
   </article>
 </section>
 
+<section class="actions-row">
+  <%= render '_the-archive-actions', :position => 'below-features' %>
+</section>
+
+<section class="ethics">
+  <h2>Our Software Ethics</h2>
+
+  <p><strong>Update Policy:</strong> We have a vision of the first version of <em>The Archive</em>. We are very up front about the features that will be included in version&nbsp;1 of <em>The Archive</em>. You can expect we implement all the features we announce for v1 and ship them as free updates. And we are bug hunters. We will do our best to kill all of them.</p>
+
+  <p><strong>Version Policy:</strong> We don&#8217;t like the thought of selling a paid version&nbsp;2 upgrade just because we need cash. We believe in being open and clear about our promises from the beginning. After the v1 is completed we will continue to ship stability updates and continue begin work on <em>The Archive</em> v2. </p>
+
+  <p><strong>We value loyalty!</strong> If you are a proud owner of this first release, you are part of the club. v2 will come with a hefty discount for you. You will pay less for v1 + v2 combined than those who join in v2.</p>
+</section>
+
 <footer>
-  <ul>
+  <hr class="resources-rule" />
+  <ul class="resources">
     <li><a href="/the-archive/release-notes/">Release Notes</a></li>
-    <li><a href="/the-archive/roadmap/">Roadmap of Features</a></li>
+    <li><a href="/the-archive/roadmap/">Feature Roadmap</a></li>
+    <li><a href="https://github.com/Zettelkasten-Method/The-Archive-Themes">Theme Directory</a></li>
   </ul>
 </footer>
