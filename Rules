@@ -13,10 +13,10 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+ENV['NANOC_ENV'] ||= 'development'
+
 require 'compass'
 Compass.add_project_configuration 'compass_config.rb'
-
-ENV['NANOC_ENV'] ||= 'development'
 
 BYPASS_FILES = %w(404.html crossdomain.xml humans.txt robots.txt googlebd82924855df6b5d.html) unless defined?(BYPASS_FILES)
 is_deploying = false
@@ -53,7 +53,7 @@ preprocess do
           :mtime => Time.now#parse(Date.now) # for the sitemap
           # TODO ^-- this is wrong, use last post
         },
-        "/posts/tags/#{tag}/"
+        "/posts/tags/#{tag}"
       )
     end
   end

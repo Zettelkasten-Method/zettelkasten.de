@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'nanoc', '~> 4'
-gem 'haml', '~> 3.1'
+gem 'haml', '~> 4'
 #gem 'nanoc-cachebuster', '>= 0.3.1'
 gem 'nanoc-image-compressor', '>= 0.1.1'
 gem 'nanoc-javascript-concatenator', '~> 0.0.2'
 
-gem 'sass', '~> 3.2.12'
-gem 'compass', '~> 0.12.2'
+gem 'sass', '~> 3'
+gem 'compass', '~> 1'
 
 gem 'guard', '~>2.8'
 gem 'guard-nanoc', '~>2.0.0'
