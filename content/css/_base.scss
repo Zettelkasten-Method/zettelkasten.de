@@ -196,6 +196,7 @@ figure {
 figure a, figure a:hover {
   border-bottom-color: transparent;
 }
+code, pre { font-family: $font-mono; }
 
 .feed-icon {
   margin-left: 0.3em;
