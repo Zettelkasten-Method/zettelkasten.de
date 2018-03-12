@@ -1,9 +1,12 @@
 ---
 title: The Archive Release Notes
-published: false
+description: History of all updates and changes to The Archive, the macOS note-taking app.
+layout: the-archive
 ---
 
-[Back to the Project Page](/the-archive/)
+# The Archive: Release Notes
+
+<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
 ## v0.5.7 (2018-03-07)
 

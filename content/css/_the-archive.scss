@@ -57,12 +57,17 @@
     border-radius: 2px
   }
 
-  .action__icon { max-width: 100px; margin-right: 0.5em; margin-left: -0.5em; }
+  .action__icon { 
+    margin-right: 0.5em; 
+    margin-left: -0.5em; 
+    margin-top: -1em;
+    margin-bottom: -1em;
+  }
 
   .action--download {
     background-color: #4ecb19;
     @include background-image(linear-gradient(to bottom, #4ecb19 0%, #2cb01a 100%));
-    }
+  }
   .action--download:hover {
     background-color: darken(#4ecb19, 5%);
     @include background-image(linear-gradient(to bottom, darken(#4ecb19, 4%) 0%, darken(#2cb01a, 8%) 100%));
@@ -70,7 +75,7 @@
 
   .action--buy {
     width: 100%;
-    font-size: 2em;
+    font-weight: bold;
     background: #5B6FDC;
     text-decoration: underline;
     @include background-image(linear-gradient(to bottom, #6875EF 0%, #5D66CE 100%));
@@ -79,7 +84,7 @@
     background: darken(#5B6FDC, 5%);
     @include background-image(linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%));
   }
-  .actions-row .action--buy { font-size: 1em; font-weight: bold; }
+  .hero .action--buy { font-size: 2em; font-weight: normal; }
   
   .appinfo { font-size: 80%; }
   
@@ -91,6 +96,33 @@
   .feature-img-container { }
   .feature-img { max-width: 90%; display: block; margin: 0 auto; }
   .feature-desc { }
+  
+  .todos { list-style: none; }
+  .todo {
+    background: url('/the-archive/img/checkbox.png') no-repeat left center;
+    padding-left: 32px;
+  }
+  .todo.done {
+    background: url('/the-archive/img/checkbox-ticked.png') no-repeat left center;
+  }
+
+  a.back--link {
+    margin-top: 1em;
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: 2pt solid #434356;
+    border-radius: 2px;
+    
+    &:hover { 
+      border: 2pt solid #434356;
+      .back--text {
+        border-bottom: 1px solid $color-link;
+      }
+    }
+    &:visited { border: 2pt solid #434356; }
+  }
+  .back--image { margin-right: 0.7em; }
+  .back--text { font-family: $font-sans; }
 }
 
 /** Phone breakpoint */
@@ -137,7 +169,7 @@
     .action--download { }
     .action--download:hover {}
 
-    .action--buy { 
+    .hero .action--buy { 
       font-weight: normal;
       font-size: 220%; 
       padding-top: 1em;
