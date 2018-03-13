@@ -8,7 +8,7 @@ title: Posts written by Guest Authors
   <ul class="allposts">
   <% months.each do |month, posts| %>
   <% posts.each do |post| %>
-  <%= render '_post-archive', :post => post, :month => month, :show_author => true %>
+  <%= render '/_post-archive.*', :post => post, :month => month, :show_author => true %>
   <% end %>
   <% end %>
   </ul>

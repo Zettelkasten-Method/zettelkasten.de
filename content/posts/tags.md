@@ -1,5 +1,6 @@
 ---
 title: Tags
+layout: plain
 ---
 
 <ul>

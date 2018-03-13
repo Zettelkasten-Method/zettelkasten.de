@@ -1,5 +1,5 @@
 <section id="posts">
 <% posts_between_dates(@from, @to).each do |post| %>
-    <%= render '_post', :post => post %>
+    <%= render '/_post.*', :post => post %>
 <% end %>
 </section>

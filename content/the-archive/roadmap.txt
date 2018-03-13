@@ -31,4 +31,4 @@ The following big features are planned to be added to version 1:
 
 That's what you'll get with a license for version 1. There will be an upgraded version 2 coming afterwards, where we've planned to expand the app beyond the current scope of power and functionality. If you already own a license for version 1, you'll get a discount for your past support. 
 
-<%= render '_the-archive-actions', :position => 'roadmap' %>
+<%= render '/_the-archive-actions.*', :position => 'roadmap' %>

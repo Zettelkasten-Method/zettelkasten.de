@@ -2,7 +2,7 @@
 # Keep in sync with _post & _posts_page
 %>
 
-<% render 'default' do %>
+<% render '/default.*' do %>
 <section id="posts">
     <article class="post">
         <header>
@@ -34,8 +34,8 @@
 
     <% if Post::comments_allowed_for(@item) %>
     <aside id="comments">
-        <%= render('_comments') %>
-        <%= render('_comments-disqus') %>
+        <%= render '/_comments.*' %>
+        <%= render '/_comments-disqus.*' %>
     </aside>
     <% end %>
 </section>

@@ -4,7 +4,7 @@
 
 <section id="posts">
 <% paginated_posts(@config[:page_size])[@page - 1].each do |article| %>
-    <%= render '_post', :post => article %>
+    <%= render '/_post.*', :post => article %>
 <% end %>
 
     <nav class="pagination">

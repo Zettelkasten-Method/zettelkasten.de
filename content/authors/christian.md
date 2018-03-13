@@ -8,7 +8,7 @@ title: Posts written by Christian
   <ul class="allposts">
   <% months.each do |month, posts| %>
   <% posts.each do |post| %>
-  <%= render '_post-archive', :post => post, :month => month %>
+  <%= render '/_post-archive.*', :post => post, :month => month %>
   <% end %>
   <% end %>
   </ul>

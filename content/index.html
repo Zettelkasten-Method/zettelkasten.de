@@ -9,7 +9,7 @@ layout: default
   </header>
 
   <% sorted_posts()[0..7].each do |post| %>
-    <%= render '_post', :post => post, :fulltext => true %>
+    <%= render '/_post.*', :post => post, :fulltext => true %>
   <% end %>
   
   <hr />

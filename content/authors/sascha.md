@@ -10,7 +10,7 @@ Get in touch with Sascha <a href="mailto:sascha.fast@gmail.com">via email</a>.
   <ul class="allposts">
   <% months.each do |month, posts| %>
   <% posts.each do |post| %>
-  <%= render '_post-archive', :post => post, :month => month %>
+  <%= render '/_post-archive.*', :post => post, :month => month %>
   <% end %>
   <% end %>
   </ul>
