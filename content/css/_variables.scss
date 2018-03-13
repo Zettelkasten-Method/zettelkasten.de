@@ -1,22 +1,20 @@
 $color-text: #333;
 $color-light: #aaa;
 $color-link: #4961DD;
-$color-background-wide: #feede6;
-$color-separator: darken($color-background-wide, 5%);
-$color-background: lighten($color-background-wide, 4%);
+$color-separator: darken(#feede6, 5%);
+$color-background: #faf7f4;
 $color-background-nav: #144659;
 
 $font-serif: 'PT Serif', serif;
 $font-sans: 'PT Sans', sans-serif;
 $font-base: $font-serif;
+$font-mono: 'Monaco', monospace;
 
-$base-size: 16px / 16px * 1em;
-$base-line-height: 1.6;
+$base-size: 18px / 16px * 1em;
+$line-height: 1.6;
 $small-size: 0.8em; // 16px
-$large-base-size: 20px / 16px * 1em;
-
-//$color-background: #feede6;
-//$color-background-wide: adjust_hue(darken(desaturate(#feede6, 60), 15), 0);
+$large-base-size: 22px / 16px * 1em;
+$largest-preview-size: 26px / 22px * 1em;
 
 /*
 color-font: #222;

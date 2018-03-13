@@ -258,7 +258,7 @@ module My
       end
       
       def post_url
-        "/posts/#{year}/#{padded}/"
+        "/posts/#{year}/#{padded}"
       end
     end
     

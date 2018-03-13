@@ -1,49 +1,34 @@
 ---
 title: The Archive Roadmap
-published: false
+description: Feature announcement of The Archive, the macOS note-taking app for prolific writers.
+layout: the-archive
 ---
 
-[Back to the Project Page](/the-archive/)
+# The Archive: Version Roadmap
 
-## During the Beta 
-
-This is planned so far, but we'll adjust the roadmap when you report something that we've missed:
- 
-- Basic Markdown highlighting (done)
-- Autocompletion of bracket pairs and Markdown emphasis (done)
-- Zettel ID awareness (making editing and working with them more useful)
-- Note header support
-- Faster note navigation, like a history
-- Useful "First Launch" experience with demo data
-
-### Known issues
-
-Please be aware of the following quirks and problems:
-
-- Performance is <del>awful</del> <ins>bearable</ins> in large archives.
-- Renaming notes to the same title of a similar note will report an error and not show the old name.
-- Deleting a note with Cmd+Backspace while you're inside the Omnibar will not be undoable when you type something.
-- Replacing search terms from the system standard search bar (⌘F) is not undoable.
-- The iSight/camera snapping does not work when you have "Camera Guard Pro" installed.
-
-## Planned Features of "Version 1"
-
-This list is probably going to change.
+<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
 We decided to be radically transparent what you can expect. You don't only invest in current utility of the app. You invest in future improvements, too. Transparency is part of our business ethics.
 
+## Version 1: The Core
+
 This initial version is all about getting productive and having a great user experience.
 
-So far, the following big features are planned to be added to version 1:
+The following big features are planned to be added to version 1:
 
-- Note quick entry from anywhere (done)
-- Saved searches, aka "Filters" (done)
-- Typewriter mode (done)
-- Customizable Markdown editor templates (done)
-- Internationalization
-- Show backlinks of notes
-- Tag index
-- Manage images
-- Scriptability
+<ul class="todos">
+  <li class="todo done">Note quick entry from anywhere</li>
+  <li class="todo done">Saved searches, aka "Filters"</li>
+  <li class="todo done">Typewriter mode</li>
+  <li class="todo done">Customizable Markdown editor templates</li>
+  <li class="todo">Browser-Type Navigation</li>
+  <li class="todo">Dark Mode</li>
+  <li class="todo">Tag Index</li>
+  <li class="todo">Inline Image Preview</li>
+  <li class="todo">Mass Text Replacement</li>
+  <li class="todo">Scriptability</li>
+</ul>
 
-That's what you'll get with a license for version 1. There will be an upgraded version 2 coming afterwards, where we've planned to expand the app beyond the current scope of power and functionality. If you already own a license for version 1, you'll get an chunky discount for your past support. 
+That's what you'll get with a license for version 1. There will be an upgraded version 2 coming afterwards, where we've planned to expand the app beyond the current scope of power and functionality. If you already own a license for version 1, you'll get a discount for your past support. 
+
+<%= render '_the-archive-actions', :position => 'roadmap' %>
