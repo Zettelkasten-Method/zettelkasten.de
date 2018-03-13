@@ -21,7 +21,7 @@
     font-size: $largest-preview-size;
   }
   
-  hr {
+  hr.resources-rule {
     margin: 2em 10% 2em 10%;
     border: 0; border-top: 2pt solid #ddcccc;
     opacity: 0.8;
@@ -123,6 +123,22 @@
   }
   .back--image { margin-right: 0.7em; }
   .back--text { font-family: $font-sans; }
+  
+  .monomyth {
+    padding: 1em 2em;
+    transform: rotate(1deg);
+    background: #FCF4DC;
+    box-shadow: 1pt 2pt 4pt rgba(0,0,0,0.2);
+  }
+  .monomyth__signature {
+    padding-top: 3em;
+    line-height: 1;
+    font-style: italic;
+    background: url('/the-archive/img/signatures.png') no-repeat top left;
+    background-size: contain;
+    .names {}
+    .title { text-transform: lowercase; font-variant: small-caps; font-family: $font-sans; }
+  }
 }
 
 /** Phone breakpoint */
@@ -150,6 +166,10 @@
       li::after { content: '  \26AB  '; opacity: 0.3; }
       li:last-child::after { content: ''; }
     }
+    
+    .monomyth {
+      transform: rotate(2deg);
+    }
   }
 }
 
@@ -171,7 +191,7 @@
 
     .hero .action--buy { 
       font-weight: normal;
-      font-size: 220%; 
+      font-size: 220%;
       padding-top: 1em;
       padding-bottom: 1em;
     }
@@ -181,7 +201,20 @@
     .feature-img--plaintext { margin-top: 1em; width: 80%; }
     .feature-img--clean { margin-top: 2em; }
     .feature-img--elegant { margin-top: 1em; }
+    .monomyth {
+      transform: rotate(3deg);
+      padding: 2em 3em;
+    }
   }  
+}
+
+@media only screen and (min-width: 1200px) {
+  .the-archive {
+    .monomyth {
+      margin: 0 -10%;
+      width: 120%;
+    }
+  }
 }
 
 
