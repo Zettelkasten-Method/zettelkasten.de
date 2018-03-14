@@ -5,10 +5,16 @@
 AddCharset UTF-8 .html
 ErrorDocument 404 /404.html
 
+# The Archive Shortlinks
+RedirectMatch 303 ^the-archive/buy(.*) https://zettelkasten.onfastspring.com/the-archive?source=shortlink 
+RedirectMatch 303 ^the-archive/download(.*) http://thearchive.s3.amazonaws.com/TheArchive-v1.zip
+
+# Post redirections
 RewriteEngine On
 RewriteRule ^posts/2014/09/introducing-sascha/(.*)$ /posts/introducing-sascha/$1 [R=301,L]
 RewriteRule ^products/(.*)$ /tools/ [R=301,L]
 
+# Disable HTTPS redirects in local preview
 <% unless ENV['NANOC_ENV'] == 'development' %>
 RewriteCond %{HTTPS} off
 # Don't put www. here. If it is already there it will be included.
