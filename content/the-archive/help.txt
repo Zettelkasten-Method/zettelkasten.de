@@ -45,7 +45,7 @@ How do I create links between notes?
 
   *The Archive* tries to be helpful and aid you with these nifty `[[Double Bracket Wiki-Links]]`, which trigger a search. Adhering to the double-square-bracket convention of wikis, you get clickable links using Zettel IDs without buying into any proprietary file format or fragile file paths.
 
-  Reading more about this on our blog: <https://zettelkasten.de/posts/add-identity/>
+  [Read more about identifiers](https://zettelkasten.de/posts/add-identity/).
 
 
 How do I link to notes from other apps?

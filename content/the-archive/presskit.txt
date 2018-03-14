@@ -1,6 +1,6 @@
 ---
-title: The Archive Help
-description: A macOS note-taking app for prolific writers and productive researchers.
+title: The Archive Press Kit and Backstage Details
+description: The Archive is a macOS note-taking app for prolific writers and productive researchers.
 layout: the-archive
 ---
 
@@ -10,27 +10,15 @@ layout: the-archive
 
 ## Description
 
-*The Archive* is a macOS note-taking application to increase writer productivity.<!--ct: wieder die high-level Beschreibungsscheiße. 
+*The Archive* is a macOS note-taking application to increase writer productivity.
 
-https://www.realmacsoftware.com/rapidweaver/ : "The best web design software for Mac." und "RapidWeaver allows you to build beautiful websites without writing a line of code."
--->
-
-<!--ct: hier irgendwas über die ZK Methode? Die History? Unsere Zusammenarbeit und das Gesamtprojekt? Story-Material könnte für Journalisten interessant sein, wenn wir no-name underdogs auf einmal durchstarten.
-
-Bsp: http://www.octodadgame.com/press/
--->
-
-<!--ct: Soll ich irgendwas von der Einbettung in die Gelehrtenmaschine schreiben?-->
+*The Archive* is be a powerful yet very clean tool to take notes. You no longer will be overwhelmed but impose your order on the chaos of information. *The Archive* will enrich your workflow with competent note-taking: Access knowledge in an instant and in order.
 
 ### Why Should You Write About The Archive?
 
-<!--ct: Fand den Punkt "Why should you write about Timing 2?" (https://timingapp.com/presskit/) interessant als Ansatz, um Benefits für Presseleute zentral zu sammeln (nur sind Daniels Punkte nicht gut).-->
+The app is the implementation of a few core principles that value user autonomy and user data longevity first, fueled by a time-tested knowledge management method. We write about this method, called the *Zettelkasten Method*, [on our blog](http://zettelkasten.de/posts/).
 
-*The Archive* is unique because it will not and shall not appeal to everybody. It is the implementation of a few core principles that value user autonomy and user data longevity first, fueled by a time-tested knowledge management method. We write about this method, called the *Zettelkasten Method*, [on our blog](http://zettelkasten.de/posts/).
-
-This is not yet another general purpose information dump. It's a tool that only does the things that are needed to help writers write more. It's a powerhorse of information digestion and organic thinking. It's a creativity-fueling harbinger of new ideas.
-
-Like all good tools, it has a learning curve to separate the wheat from the chaff. Not everyone is destined to profit from the Order-Bringing Weapon of Gods. Not everyone can be a paladin of interestingness.
+This is not yet another general purpose information dump. It's a tool that only does the things that are needed to help writers write more. It's a powerhouse for information digesting and organic thinking. It's a creativity-fueling harbinger of new ideas. We think it is an Order-Bringing Weapon of Gods for the paladins of interestingness. We are, by the way, just mediums and very modest about our app. :)
 
 
 ### Features
@@ -119,6 +107,15 @@ Programming: Christian Tietze
     </div>
     <div class="l-grid-half m-grid-half s-grid-whole">
         <a href="/the-archive/presskit/solarized-light.png"><img src="/the-archive/presskit/solarized-light.png" class="pk-screenshot" /></a>
+    </div>
+    <div class="l-grid-half m-grid-half s-grid-whole">
+        <a href="/the-archive/presskit/no-chrome-prettyfunctional-small.png"><img src="/the-archive/presskit/no-chrome-prettyfunctional-small.png" class="pk-screenshot" /></a>
+    </div>
+    <div class="l-grid-half m-grid-half s-grid-whole">
+        <a href="/the-archive/presskit/fullscreen-prettyfunctional-big.png"><img src="/the-archive/presskit/fullscreen-prettyfunctional-big.png" class="pk-screenshot" /></a>
+    </div>
+    <div class="l-grid-half m-grid-half s-grid-whole">
+        <a href="/the-archive/presskit/launched.png"><img src="/the-archive/presskit/launched.png" class="pk-screenshot" /></a>
     </div>
 </div>
 

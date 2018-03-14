@@ -196,7 +196,10 @@ figure {
 figure a, figure a:hover {
   border-bottom-color: transparent;
 }
-code, pre { font-family: $font-mono; }
+code, pre { 
+  font-family: $font-mono; 
+  font-size: 90%; // about the same x-height
+}
 
 .feed-icon {
   margin-left: 0.3em;
