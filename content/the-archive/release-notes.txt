@@ -8,6 +8,15 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.0.0 (2018-03-14)
+
+* **Fixed:** Using letter-based shortcuts for saved searches.
+* **Fixed:** Quick Entry helper's shortcut assignment did not always store the key combo.
+* **Fixed:** Prevent the Saved Searches editor window from entering fullscreen mode.
+* **Changed:** Removed the hideous light drop shadow of icons in the Saved Search sidebar.
+* **New:** Toggle-able Saved Search sidebar size (large & small).
+* **New:** More default Saved Search icons.
+
 ## v0.5.7 (2018-03-07)
 
 * **Fixed:** Switching themes did carry over editor colors if they are not set by the new theme, resulting in a weird mix of colors until you restart the app.
