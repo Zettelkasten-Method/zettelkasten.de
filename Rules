@@ -103,11 +103,11 @@ end
 #
 # Blog
 #
-#
-# compile '/**/*/feed.*' do
-#   filter :erb
-#   write item.identifier.to_s
-# end
+
+compile '/authors/sascha/feed.*' do
+  filter :erb
+  write item.identifier.to_s
+end
 
 compile '/feed.*' do
   filter :erb
@@ -213,9 +213,7 @@ route '/posts/**/*' do
     identifier = item.identifier.without_ext
       .gsub(/\d{4}\/\d{2}\//, "") # remove date portion
       .gsub(/\/index$/, "") # drop index file name
-    res = identifier + '/index.html'
-    puts res
-    res
+    identifier + '/index.html'
   else # tags, date archives
     if item.identifier.without_ext =~ %r{/index$}
       item.identifier.without_ext + '.html'
