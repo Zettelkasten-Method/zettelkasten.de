@@ -1,0 +1,131 @@
+---
+title: The Archive Help
+description: A macOS note-taking app for prolific writers and productive researchers.
+layout: the-archive
+---
+
+# The Archive: Press Kit
+
+<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## Description
+
+*The Archive* is a macOS note-taking application to increase writer productivity.<!--ct: wieder die high-level Beschreibungsscheiße. 
+
+https://www.realmacsoftware.com/rapidweaver/ : "The best web design software for Mac." und "RapidWeaver allows you to build beautiful websites without writing a line of code."
+-->
+
+<!--ct: hier irgendwas über die ZK Methode? Die History? Unsere Zusammenarbeit und das Gesamtprojekt? Story-Material könnte für Journalisten interessant sein, wenn wir no-name underdogs auf einmal durchstarten.
+
+Bsp: http://www.octodadgame.com/press/
+-->
+
+<!--ct: Soll ich irgendwas von der Einbettung in die Gelehrtenmaschine schreiben?-->
+
+### Why Should You Write About The Archive?
+
+<!--ct: Fand den Punkt "Why should you write about Timing 2?" (https://timingapp.com/presskit/) interessant als Ansatz, um Benefits für Presseleute zentral zu sammeln (nur sind Daniels Punkte nicht gut).-->
+
+*The Archive* is unique because it will not and shall not appeal to everybody. It is the implementation of a few core principles that value user autonomy and user data longevity first, fueled by a time-tested knowledge management method. We write about this method, called the *Zettelkasten Method*, [on our blog](http://zettelkasten.de/posts/).
+
+This is not yet another general purpose information dump. It's a tool that only does the things that are needed to help writers write more. It's a powerhorse of information digestion and organic thinking. It's a creativity-fueling harbinger of new ideas.
+
+Like all good tools, it has a learning curve to separate the wheat from the chaff. Not everyone is destined to profit from the Order-Bringing Weapon of Gods. Not everyone can be a paladin of interestingness.
+
+
+### Features
+
+- **Plain Text** File Storage: Robust and made for eternity
+- **Clean and simple** user interface: Calm and structured
+- **Elegant** Text Editor: Note Taking is writing. Beauty is mandatory
+- **Flexible** in Use: Swiss Army knife of note taking
+- **Fast search** for maximum productivity
+- **Markdown** support to highlight notes
+- **Powerful tags** that are simple to use
+- **Typewriter mode** to keep your focus while typing
+- **Themes!** Customize the editor to your liking
+- **Quick navigation** based on plain text conventions
+- **Supportive community** of writing and note taking nerds
+- **Saved searches** to switch between subsets of your notes 
+
+### Paid Update Policy
+
+We have a strong codex of software ethics, which is kind of special. The user interest and morality comes first, our revenue comes second.
+
+We have a vision of the first version of _The Archive_. We are very up front about the features that will be included in version&nbsp;1 of *The Archive*, most importantly:
+
+- Note quick entry from anywhere
+- Saved searches, aka "Filters"
+- Typewriter mode
+- Customizable Markdown editor templates
+- Browser-Type Navigation
+- Dark Mode
+- Tag Index
+- Inline Image Preview
+- Mass Text Replacement
+- Scriptability
+
+We don't like the thought of selling a paid version&nbsp;2 upgrade just because we need cash. We believe in being open and clear about our promises from the beginning. After the v1 is completed we will continue to ship stability updates and begin work on *The Archive* v2. 
+
+Customers who buy version&nbsp;1 now will pay less for v1 and the upgrade to v2 _combined_ that people who jump on with v2. That's one way we want to say "thank you" for our customer's support.
+
+
+## People, Contact, & Social
+
+Concept and creation: Sascha Fast & Christian Tietze<br>
+Programming: Christian Tietze
+
+- Web address: <https://zettelkasten.de/the-archive/>
+- Videos about _The Archive_, shot during the beta [on YouTube](https://www.youtube.com/playlist?list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC)
+- E-mail (Christian): <a href="mailto:&#x68;&#x69;&#x40;&#x63;&#x68;&#x72;&#x69;&#x73;&#x74;&#x69;&#x61;&#x6E;&#x74;&#x69;&#x65;&#x74;&#x7A;&#x65;&#x2E;&#x64;&#x65;">&#x68;&#x69;&#x40;&#x63;&#x68;&#x72;&#x69;&#x73;&#x74;&#x69;&#x61;&#x6E;&#x74;&#x69;&#x65;&#x74;&#x7A;&#x65;&#x2E;&#x64;&#x65;</a>
+- Address:<br>Christian Tietze<br>Elpke 39<br>D-33605 Bielefeld, Germany
+- Phone: (+49) 177 6467763
+
+## Facts
+
+- Release date: 2018-03-15
+- Price: US$&nbsp;19.99 (19.99&nbsp;EUR)
+
+### System Requirements
+
+- Requires macOS 10.11 or Later; ready for High Sierra
+- Requires 40--50 MB of disk space
+ 
+### Development Background Info
+
+- Development began in December 2016
+- Private beta started in May 2017
+- 100% written in Swift
+- Counted 45922 lines of code in v1.0.0
+- Public theme directory located on GitHub: <https://github.com/Zettelkasten-Method/The-Archive-Themes>
+- Interesting technologies: 
+    - _ReSwift_, a unidirectional data flow library, provides the back-bone of data processing
+    - _RxSwift_, a reactive programming library, is used for user interface event handling
+- List of all open source third party libraries used: [CCNPreferencesWindowController](https://github.com/phranck/CCNPreferencesWindowController), [FlatButton](https://github.com/OskarGroth/FlatButton), [KeyHolder](https://github.com/Clipy/KeyHolder), [Magnet](https://github.com/Clipy/Magnet), [Result](https://github.com/antitypical/Result), [ReSwift](https://github.com/ReSwift/ReSwift), [RxSwift](https://github.com/ReactiveX/RxSwift), [RxOptional](https://github.com/RxSwiftCommunity/RxOptional), [SwiftDate](https://github.com/malcommac/SwiftDate), [SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver), [SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults), [Sparkle](https://github.com/sparkle-project/Sparkle)
+- List of open source libraries published during the course of development: [AppGuideOverlay](https://github.com/CleanCocoa/AppGuideOverlay), [BetaExpiration](https://github.com/CleanCocoa/BetaExpiration), [FatSidebar](https://github.com/CleanCocoa/FatSidebar), [LoopingAnimation](https://github.com/CleanCocoa/LoopingAnimation), [Omnibar](https://github.com/CleanCocoa/Omnibar), [RxFileMonitor](https://github.com/RxSwiftCommunity/RxFileMonitor), [SwiftXattrs](https://github.com/CleanCocoa/SwiftXattrs), [Typewriter-Modes](https://github.com/CleanCocoa/Typewriter-Modes), [TrialLicensing](https://github.com/CleanCocoa/TrialLicensing), [WebcamSnap](https://github.com/CleanCocoa/WebcamSnap)
+
+## Images
+
+### Screenshots
+
+[Download collection of screenshots as .zip](/the-archive/presskit/TheArchive-screenshots.zip)
+
+<div class="grid-whole pk-screenshots">
+    <div class="l-grid-half m-grid-half s-grid-whole">
+        <a href="/the-archive/presskit/pretty-functional-mixed.png"><img src="/the-archive/presskit/pretty-functional-mixed.png" class="pk-screenshot" /></a>
+    </div>
+    <div class="l-grid-half m-grid-half s-grid-whole">
+        <a href="/the-archive/presskit/solarized-dark.png"><img src="/the-archive/presskit/solarized-dark.png" class="pk-screenshot" /></a>
+    </div>
+    <div class="l-grid-half m-grid-half s-grid-whole">
+        <a href="/the-archive/presskit/solarized-light.png"><img src="/the-archive/presskit/solarized-light.png" class="pk-screenshot" /></a>
+    </div>
+</div>
+
+### Application Icon
+
+[Download collection of app icons as .zip](/the-archive/presskit/TheArchive-icons.zip)
+
+<div class="pk-screenshots">
+    <a href="/the-archive/presskit/appicon-512.png"><img src="/the-archive/presskit/appicon-256.png" /></a>
+</div>

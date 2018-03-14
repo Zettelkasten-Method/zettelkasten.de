@@ -170,6 +170,26 @@
     .monomyth {
       transform: rotate(2deg);
     }
+
+    // Help
+    dt { font-weight: bold; margin-left: 2em; margin-top: 3em; }
+    dt:first-child { margin-top: 0; }
+    dt:before { 
+      content: "Q: "; 
+      float: left;
+      margin-left: -2em;
+    }
+    dd { 
+      margin-left: 2em; 
+    }
+    dd:before { 
+      content: "A: "; 
+      float: left;
+      margin-left: -2em;
+    }
+    
+    .pk-screenshots a:hover { border-bottom-color: transparent; }
+    .pk-screenshot { width: 100%; }
   }
 }
 
