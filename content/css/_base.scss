@@ -155,7 +155,10 @@ nav a:hover {
 
 .main {
   padding: 30px 0;
-  background: $color-background;
+}
+
+iframe { // YouTube videos
+  max-width: 100%;
 }
 
 .footer-container footer {
