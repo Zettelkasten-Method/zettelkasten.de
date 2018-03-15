@@ -7,6 +7,6 @@ tags: [ archiveapp, announcement ]
 image: 20180306152844_ta-launch-preview.png
 ---
 
-<%= insert_teaser_image title: "screenshot of The Archive" %>
+<%= insert_teaser_image title: "screenshot of The Archive", link: "/the-archive" %>
 
 We plan to release _The Archive_ on Thursday, March 15th, early in the day in UTC. So if you wake up anywhere in the U.S. that day and the sun is up, it should be online.
