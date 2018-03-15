@@ -1,5 +1,15 @@
 @import "compass";
 
+// Index page
+body.homepage { background: linear-gradient(180deg, darken($color-background, 80%) 2em, $color-background 600px); }
+.thearchive-launch { margin-top: -2em; }
+a.thearchive-launch__link:hover { border-bottom-color: transparent; }
+.thearchive-launch__image { width: 106%; margin-left: -3%; margin-right: -3%; }
+@media only screen and (min-width: 900px) {
+  .thearchive-launch__image { width: 150%; margin-left: -25%; margin-right: -25%; }
+}
+
+// Archive Content Pages
 .the-archive {
   .hero img { max-width: 100%; }
   .appname {
@@ -138,6 +148,17 @@
     background-size: contain;
     .names {}
     .title { text-transform: lowercase; font-variant: small-caps; font-family: $font-sans; }
+  }
+  
+  .app-announcement {
+    font-size: 1.2em;
+    font-weight: bold;
+    background: #E15330;
+    font-family: $font-sans;
+    padding: 2em;
+    text-align: center;
+    color: white;
+    margin-bottom: 1em;
   }
 }
 

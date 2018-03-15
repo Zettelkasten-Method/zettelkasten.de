@@ -21,6 +21,7 @@ The following big features are planned to be added to version 1:
   <li class="todo done">Saved searches, aka "Filters"</li>
   <li class="todo done">Typewriter mode</li>
   <li class="todo done">Customizable Markdown editor templates</li>
+  <li class="todo">Full MultiMarkdown Support</li>
   <li class="todo">Browser-Type Navigation</li>
   <li class="todo">Dark Mode</li>
   <li class="todo">Tag Index</li>
