@@ -1,0 +1,22 @@
+---
+title: TagConverter (macOS)
+description: A tool to convert Finder tags to #hashtags as part of the file's content.
+layout: the-archive
+---
+
+# Tag Converter
+
+<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to <em>The Archive</em></span></a>
+
+The TagConverter utility takes a directory of files and attempts to insert all metadata Tags as `#hastags` into the files themselves.
+
+**Plain-Textify Your Stuff:** If you export your notes from DEVONthink, or if you assigned tags in nvALT, simply let this tool bulk-edit your files and append the tags to the file they are assigned to.
+
+**No Duplicates:** If your plain text file has the Finder tags "Inbox, Outline, Project-X", and contains `#outline` somewhere in the contents already, the TagConverter will only insert `#Inbox` and `#Project-X` into the file. 
+
+- **[Direct Download](http://thearchive.s3.amazonaws.com/TagConverter-v1.0.zip)**
+- Requires macOS 10.11 or later.
+- Free!
+- [Open Source on GitHub](https://github.com/Zettelkasten-Method/macOS-Tag-Converter), distributed under the MIT License.
+
+<%= insert_image file: "/the-archive/tag-converter/screenshot.png", title: "TagConverter screenshot", caption: %{TagConverter screenshot} %>
