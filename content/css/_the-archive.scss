@@ -153,6 +153,27 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     .names {}
     .title { text-transform: lowercase; font-variant: small-caps; font-family: $font-sans; }
   }
+  
+  .testimonial { 
+    position: relative;
+
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+//  .testimonial:last-child { margin-bottom: 0em; }
+  .quote { 
+    font-family: $font-serif; 
+    font-style: normal; 
+    line-height: 1.8;
+    padding: 0; margin: 1em 0; 
+  }
+  .quote::before { font-style: normal; content: '“'; font-size: 2.2em; position: absolute; top: -0.2em; left: -0.8em; color: #ccc3a8; }
+  .quote::after { font-style: normal; content: '”'; font-size: 2.2em; position: absolute; top: -0.4em; right: -0.8em; color: #ccc3a8; }
+  .source { font-style: normal; font-family: $font-sans; }
+  .name { font-weight: bold; }
+  .creds { font-size: 80%; }
 }
 
 /** Phone breakpoint */
@@ -239,11 +260,18 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     .feature-img--plaintext { margin-top: 1em; width: 80%; }
     .feature-img--clean { margin-top: 2em; }
     .feature-img--elegant { margin-top: 1em; }
+   
     .monomyth {
       transform: rotate(3deg);
       padding: 2em 3em;
     }
-  }  
+    
+    .testimonial { 
+      margin-left: 2em;
+      margin-right: 2em;
+      margin-bottom: 4em;
+    }  
+  }
 }
 
 @media only screen and (min-width: 1200px) {
