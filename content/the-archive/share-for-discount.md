@@ -27,7 +27,7 @@ Images tend to perform better than text links in most cases, so if you want to r
 
 Make sure a link to the app is in there, and please be nice and don't trick people into clicking!
 
-You can also send in multiple posts for which the combined likes will count. You can post on multiple social networks and for multiple times during the month of October. Our deluxe trial period of 60 days will sustain you that long.
+You can also send in multiple posts for which the combined likes will count. You can post on multiple social networks and for multiple times. Our deluxe trial period of 60 days will sustain you that long.
 
 In fact, spreading posts over time is even more helpful than a single wave. 
 

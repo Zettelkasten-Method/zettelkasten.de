@@ -10,6 +10,6 @@ url: https://zettelkasten.de/the-archive/
 
 <%= insert_teaser_image title: "Screenshot of The Archive at Launch", link: "/the-archive" %>
 
-The definite note-taking app for heroic authors and prolific writers is here. 
+The definitive note-taking app for heroic authors and prolific writers is here. 
 
 **[Download and enjoy](/the-archive).**
