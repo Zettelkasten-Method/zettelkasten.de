@@ -8,6 +8,16 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.0.1 (2018-03-22)
+
+* **Fixed:** The "Nothing Selected" editor placeholder now does not show a scroll bar when Typewriter Mode is enabled.
+* **Fixed:** Setting a title in the Quick Entry window was ignored when you generate a Zettel ID.
+* **Fixed:** Saved Search icon tint usage was not properly bound to the "Tint icon" checkbox state, allowing color changes when the checkbox was unticked.
+* **Fixed:** The first change of a Saved Search icon with the "Tint Icon" checkbox unticked was ignored in the preview box.
+* **Changed:** Ctrl-A and Ctrl-E will jump to the beginning and end of the Omnibar's text, respectively. Alt-Up/Alt-Down will do, too, now not remote-controlling the table anymore.
+* **Changed:** Make the "Add Saved Search" button more prominent.
+* **New:** Cmd-S saves Quick Entry note drafts, too.
+
 ## v1.0.0 (2018-03-14)
 
 * **Fixed:** Using letter-based shortcuts for saved searches.
