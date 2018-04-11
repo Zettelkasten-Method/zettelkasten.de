@@ -8,6 +8,15 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.0.2 (2018-04-11)
+
+Switch to the "Cutting Edge" channel to get access to this update!
+
+* **Fixed:** Selecting "Help > Registration" did show the right preference pane, but did not select the right toolbar item.
+* **Changed:** Hashtag recognition supports a few more special characters.
+* **New:** Boolean search expressions: `#emotion !#hate`, or the more verbose `#emotion AND NOT #hate` (case-sensitive!). The available operators are `AND` (or just space), `OR`, `NOT` (or prefixed with a `!`), and parentheses, like: `(#note OR #zettel) writing !publish`.
+* **New:** Phrase search! `"the archive" OR #zettelkasten` will match, as expected, `the archive` but not `#archiveapp` or `the app`.
+
 ## v1.0.1 (2018-03-22)
 
 * **Fixed:** The "Nothing Selected" editor placeholder now does not show a scroll bar when Typewriter Mode is enabled.
