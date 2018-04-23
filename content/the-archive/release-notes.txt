@@ -8,6 +8,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.0.3 (2018-04-23)
+
+* **Fixed:** On High Sierra, opening the help menu prevents the app from accepting any further input if you don't close it by hovering over another main menu item. (I suspect this is because the "Search" box in the help menu doesn't give back focus to the window. See rdar://39374865) You can see the bug in action when you focus the Omnibar so it gets the blue focus outline, then click on the the Help menu item.  The blue outline should vanish. Now hover over the Window main menu. The outline should come back. That's when the window reacquires focus. That still doesn't happen when you just click out of the Help menu, but at least it's not blocking input anymore, either.
+* **Changed:** Improve performance of complex term highlights.
+* **Changed:** All built-in themes now support colored search term highlighting.
+* **New:** Disable alternating result list background colors from the settings.
+* **New:** An all-new theme updater that manages, well, theme updates.
+
 ## v1.0.2 (2018-04-11)
 
 Switch to the "Cutting Edge" channel to get access to this update!
