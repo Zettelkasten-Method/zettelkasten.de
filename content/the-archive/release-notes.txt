@@ -8,6 +8,12 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.0.4 (2018-04-26)
+
+Switch to the "Cutting Edge" channel to get access to this update!
+
+* **Fixed:** External file changes now affect the currently displayed note, too. This should prevent data loss when you switch between _The Archive_ and an external editor quickly and often. This should also get rid of error dialogs about conflicts when you rename, move, or delete the currently displayed note from the Finder.
+
 ## v1.0.3 (2018-04-23)
 
 * **Fixed:** On High Sierra, opening the help menu prevents the app from accepting any further input if you don't close it by hovering over another main menu item. (I suspect this is because the "Search" box in the help menu doesn't give back focus to the window. See rdar://39374865) You can see the bug in action when you focus the Omnibar so it gets the blue focus outline, then click on the the Help menu item.  The blue outline should vanish. Now hover over the Window main menu. The outline should come back. That's when the window reacquires focus. That still doesn't happen when you just click out of the Help menu, but at least it's not blocking input anymore, either.
@@ -17,8 +23,6 @@ layout: the-archive
 * **New:** An all-new theme updater that manages, well, theme updates.
 
 ## v1.0.2 (2018-04-11)
-
-Switch to the "Cutting Edge" channel to get access to this update!
 
 * **Fixed:** Selecting "Help > Registration" did show the right preference pane, but did not select the right toolbar item.
 * **Changed:** Hashtag recognition supports a few more special characters.
