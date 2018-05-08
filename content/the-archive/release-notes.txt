@@ -8,9 +8,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.0.4 (2018-04-26)
+## v1.0.5 (2018-05-08)
 
 Switch to the "Cutting Edge" channel to get access to this update!
+
+* **Fix:** Display new themes when available.
+* **Fixed:** External file changes were consumed properly, but also triggered by _internal_ changes to a note. In some cases, this made the cursor move back to the old position.
+
+## v1.0.4 (2018-04-26)
 
 * **Fixed:** External file changes now affect the currently displayed note, too. This should prevent data loss when you switch between _The Archive_ and an external editor quickly and often. This should also get rid of error dialogs about conflicts when you rename, move, or delete the currently displayed note from the Finder.
 
