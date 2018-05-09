@@ -8,9 +8,17 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.0.5 (2018-05-08)
+## v1.0.6 (2018-05-09)
 
 Switch to the "Cutting Edge" channel to get access to this update!
+
+- **Fixed:** Avoid re-displaying the same note text, potentially reducing editor flickering during auto-saves.
+- **Fixed:** Emails are now made clickable differently, which makes `message:` links to Mail.app's messages behave properly.
+- **Fixed:** Formatting command shortcuts activate autosaving, too. (Previously, only typing did.)
+- **Fixed:** Tab-indented lists are now styled correctly, including highlight of links in indented list items.
+- **Fixed:** Markdown images on the same line as a reference-style link did highlight everything in between as part of the image markup.
+
+## v1.0.5 (2018-05-08)
 
 * **Fix:** Display new themes when available.
 * **Fixed:** External file changes were consumed properly, but also triggered by _internal_ changes to a note. In some cases, this made the cursor move back to the old position.
