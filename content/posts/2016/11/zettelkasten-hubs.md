@@ -3,8 +3,7 @@ title: "The Money Is in the Hubs: Johannes Schmidt on Luhmann’s Zettelkasten"
 created_at: 2016-11-25 16:19:38 +0100
 kind: article
 author: sascha
-tags: [ luhmann, archive, connect, hub ]
-preview: fulltext
+tags: [ luhmann, archive, connect, hub, folgezettel ]
 vgwort: http://vg08.met.vgwort.de/na/66c53d23f9234b1182f247bd7465061b
 ---
 
