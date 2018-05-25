@@ -1,7 +1,6 @@
-#
-# http://www.w3.org/International/questions/qa-htaccess-charset
-#
+Options -Indexes
 
+# http://www.w3.org/International/questions/qa-htaccess-charset
 AddCharset UTF-8 .html
 ErrorDocument 404 /404.html
 RewriteEngine On
