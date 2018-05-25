@@ -288,6 +288,12 @@ blockquote {
   font-size: 0.8em;
 }
 
+#posts table { 
+  font-family: $font-sans;
+  font-size: $small-size;
+  margin: 0 auto;
+}
+#posts td { padding: 0.3em; }
 
 /** Tools Page */
 
