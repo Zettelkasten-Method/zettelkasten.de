@@ -13,9 +13,13 @@ For reference:
 * Post by [Christian](/authors/christian/) and [Sascha](/authors/sascha/).
 * [List of tags](/posts/tags/).
 
------
-
-<%= render '/_newsletter_signup.*' %>
+<%
+# 
+#-----
+#
+#<%= render '/_newsletter_signup.*' %>
+#
+%>
 
 -----
 
