@@ -1,5 +1,5 @@
 ---
-title: "Barbell Method of Reading"
+title: "The Barbell Method"
 created_at: 2018-05-25 16:32:54 +0100
 kind: article
 author: sascha
