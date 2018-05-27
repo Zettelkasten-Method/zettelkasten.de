@@ -61,11 +61,27 @@ A text consists of four different types of parts:
 3. Not useful but difficult to understand. You actually don't want to process these parts but you don't know if they are useful. Sharpen your mental theeth with them and then ignore them after you found out that they are not useful.
 4. Not useful and difficult to understand. Ignore these.
 
-|                | Difficult to understand                  | Easy to understand               |
-| -------------- | ---------------------------------------- | -------------------------------- |
-| **Useful**     | Read twice<br>Process heavily            | Read once<br>Process heavily     |
-| **Not useful** | Read twice<br>Don't process or sparingly | Read once<br>Mostly ignore       |
-
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th style="border-right: 1px solid black;">Difficult to understand</th>
+      <th>Easy to understand</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid black;">
+      <th><strong>Useful</strong></th>
+      <td style="border-right: 1px solid black;">Read twice<br>Process heavily</td>
+      <td>Read once<br>Process heavily</td>
+    </tr>
+    <tr>
+      <th><strong>Not useful</strong></th>
+      <td style="border-right: 1px solid black;">Read twice<br>Don&#8217;t process or sparingly</td>
+      <td>Read once<br>Mostly ignore</td>
+    </tr>
+  </tbody>
+</table>
 
 The second time you read the book you concentrate on what you have marked as useful or difficult to understand. During this second step you already sorted out a lot that has no use to you. Now you can concentrate on the two most important habits of reading (good) texts:
 
