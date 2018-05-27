@@ -8,6 +8,12 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+-----
+
+**The campaign ended on May 15th, 2018. Thanks for participating, y'all!**
+
+-----
+
 So you want to help us spread the word about _The Archive_. Thanks!
 
 It's simple: 

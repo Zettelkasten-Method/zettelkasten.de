@@ -10,11 +10,7 @@ elsif @position == 'roadmap'
 else 
   buy_grid      = "s-grid-12 m-grid-12 l-grid-12"
   download_grid = "s-grid-12 m-grid-6 l-grid-4"
-  app_info_grid = if @position == 'hero'
-                    "s-grid-12 m-grid-12 l-grid-12 appinfo--hero" # For Share4Discount
-                  else 
-                    "s-grid-12 m-grid-6 l-grid-8"
-                  end
+  app_info_grid = "s-grid-12 m-grid-6 l-grid-8"
 end
 %>
 
@@ -26,14 +22,6 @@ end
   <li class="action__item action__item--button <%=download_grid%>">
     <a href="/the-archive/download" class="action action--download">Download</a>
   </li>
-  
-  <% if @position == 'hero' %>
-  <li class="action__item action__item--info s-grid-12 m-grid-6 l-grid-8 m-padded-left l-padded-left">
-    <p class="s4d">
-      <strong class="s4d__save">Save 💰 80%</strong> by spreading the word.<br><a href="/the-archive/share-for-discount/">Learn how to save!</a> <small>(Available until May 15th only!)</small>
-    </p>
-  </li>
-  <% end %>
   
   <li class="action__item action__item--info <%=app_info_grid%>">
     <p class="appinfo <%= "appinfo--left" unless @bottom == true %>">60 Day Free Trial<br>Requires at least macOS 10.11 and is ready for High Sierra.</p>
