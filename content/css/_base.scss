@@ -292,8 +292,11 @@ blockquote {
   font-family: $font-sans;
   font-size: $small-size;
   margin: 0 auto;
+  th,
+  td { 
+    padding: 0.3em 1em; 
+  }
 }
-#posts td { padding: 0.3em; }
 
 /** Tools Page */
 
