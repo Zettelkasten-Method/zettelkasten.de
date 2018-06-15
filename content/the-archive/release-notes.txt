@@ -8,9 +8,20 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.0.6 (2018-05-09)
+## v1.0.7 (2018-06-15)
 
 Switch to the "Cutting Edge" channel to get access to this update!
+
+- **Fixed:** Updating themes did not work, now it does. Please update your themes, too!
+- **Fixed:** When all you did after an autosave was to undo an indentation change, this wasn't considered to be needed to be saved and thus the change was lost.
+- **Changed:** Increased padding around icons in the Saved Searches sidebar.
+- **Changed:** Increased search result vertical whitespace.
+- **Changed:** Broken themes will now produce an error message that can help theme developers debug their stuff.
+- **New:** The format menu sports a "Quote" submenu with shortcuts to increase and decrease the quotation level.
+- **New:** Themable sidebars and search result lists. Existing themes have been updated accordingly.
+- **New:** Themes now offer a tasteful default Saved Search icon color so that you don't have to worry about finding a nice-looking color again when you switch themes.
+
+## v1.0.6 (2018-05-09)
 
 - **Fixed:** Avoid re-displaying the same note text, potentially reducing editor flickering during auto-saves.
 - **Fixed:** Emails are now made clickable differently, which makes `message:` links to Mail.app's messages behave properly.
