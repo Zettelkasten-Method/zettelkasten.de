@@ -8,9 +8,17 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.0.7 (2018-06-15)
+## v1.0.8 (2018-07-16)
 
 Switch to the "Cutting Edge" channel to get access to this update!
+
+- **Fixed:** The big one: external changes are now getting through to the editor.
+- **Fixed:** Remove line breaks when pasting into the Omnibar.
+- **New:** Preview the theme's background color in the Saved Search icon editor so you can configure the colors more accurately.
+- **New:** "What's New" info window on launch after significant updates (like this one).
+
+
+## v1.0.7 (2018-06-15)
 
 - **Fixed:** Updating themes did not work, now it does. Please update your themes, too!
 - **Fixed:** When all you did after an autosave was to undo an indentation change, this wasn't considered to be needed to be saved and thus the change was lost.
