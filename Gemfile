@@ -11,7 +11,7 @@ gem 'compass', '~> 1'
 
 gem 'guard', '~>2.8'
 gem 'guard-nanoc', '~>2.0.0'
-gem 'terminal-notifier', '1.6.2'
+gem 'terminal-notifier', '~>1.8'
 gem 'terminal-notifier-guard'
 
 # Blogging
