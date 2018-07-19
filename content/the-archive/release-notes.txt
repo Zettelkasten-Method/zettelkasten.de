@@ -8,9 +8,15 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.0.8 (2018-07-16)
+## v1.0.9 (2018-07-19)
 
 Switch to the "Cutting Edge" channel to get access to this update!
+
+- **Fixed:** React properly to external file changes according to the [Basil 2x2 Matrix](https://forum.zettelkasten.de/discussion/comment/1653/#Comment_1653).
+- **Fixed:** Broken undo introduced in v1.0.8.
+- **Fixed:** Display flickering introduced in v1.0.8.
+
+## v1.0.8 (2018-07-16)
 
 - **Fixed:** The big one: external changes are now getting through to the editor.
 - **Fixed:** Remove line breaks when pasting into the Omnibar.
