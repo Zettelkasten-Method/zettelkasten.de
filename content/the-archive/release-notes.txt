@@ -8,9 +8,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.0.10 (2018-07-19)
+## v1.0.11 (2018-08-04)
 
 Switch to the "Cutting Edge" channel to get access to this update!
+
+- **Fixed:** Saved Search icon changes show up in the sidebar immediately now.
+- **Changed:** Scroll to the searched-for, highlighted terms when browsing through the notes, but _not_ for the automatically displayed best match, so you can continue where you left off
+
+## v1.0.10 (2018-07-19)
 
 - **Fixed**: Searching in the Omnibar that produces a "match" (i.e. selects a note starting with the search string) would move focus to the editor after the 2nd character. Now you can search for more than 2 characters again.
 
