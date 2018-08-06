@@ -13,7 +13,7 @@ layout: the-archive
 Switch to the "Cutting Edge" channel to get access to this update!
 
 - **Fixed:** Saved Search icon changes show up in the sidebar immediately now.
-- **Changed:** Scroll to the searched-for, highlighted terms when browsing through the notes, but _not_ for the automatically displayed best match, so you can continue where you left off
+- **Changed:** Do not jump to search terms for the best match but keep the cursor at the last insertion point: this way you can jump between notes using the search and continue where you left off.
 
 ## v1.0.10 (2018-07-19)
 
