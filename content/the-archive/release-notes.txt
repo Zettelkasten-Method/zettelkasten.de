@@ -8,32 +8,48 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.0.11 (2018-08-04)
+## v1.1.0 (2018-08-25)
 
-Switch to the "Cutting Edge" channel to get access to this update!
+New since Version 1.0.1:
+
+- External changes to files in the archive are picked up and displayed live in the editor.
+- Themes now also provide color settings for the sidebar.
+- Themes can be updated from within the app.
+- More intuitive behavior when browsing notes, not scrolling around when switching notes as much as before.
+- Various small fixes and behavior tweaks, like: link highlight fixes; changes to the behavior of highlighted terms; more whitespace in the user interface.
+
+A breakdown of changes since the last release:
+
+### v1.1.0 (2018-08-25)
+
+- **Fixed:** Creating a new note with <kbd>Cmd-N</kbd> before pending changes to the currently displayed note have been saved would not select and display the new note.
+- **Fixed:** Wiki links with `[[...]]` do not span multiple lines anymore.
+- **Fixed:** Changing Saved Search icon tint didn't work unless you changed the radio button selection.
+- **New:** Display the sole note automatically when your search produces only 1 result. This is intended to treat e.g. pasting note titles into the Omnibar as an "Open" command.
+
+### v1.0.11 (2018-08-04)
 
 - **Fixed:** Saved Search icon changes show up in the sidebar immediately now.
 - **Changed:** Do not jump to search terms for the best match but keep the cursor at the last insertion point: this way you can jump between notes using the search and continue where you left off.
 
-## v1.0.10 (2018-07-19)
+### v1.0.10 (2018-07-19)
 
 - **Fixed**: Searching in the Omnibar that produces a "match" (i.e. selects a note starting with the search string) would move focus to the editor after the 2nd character. Now you can search for more than 2 characters again.
 
-## v1.0.9 (2018-07-19)
+### v1.0.9 (2018-07-19)
 
 - **Fixed:** React properly to external file changes according to the [Basil 2x2 Matrix](https://forum.zettelkasten.de/discussion/comment/1653/#Comment_1653).
 - **Fixed:** Broken undo introduced in v1.0.8.
 - **Fixed:** Display flickering introduced in v1.0.8.
 
-## v1.0.8 (2018-07-16)
+### v1.0.8 (2018-07-16)
 
 - **Fixed:** The big one: external changes are now getting through to the editor.
 - **Fixed:** Remove line breaks when pasting into the Omnibar.
 - **New:** Preview the theme's background color in the Saved Search icon editor so you can configure the colors more accurately.
 - **New:** "What's New" info window on launch after significant updates (like this one).
 
-
-## v1.0.7 (2018-06-15)
+### v1.0.7 (2018-06-15)
 
 - **Fixed:** Updating themes did not work, now it does. Please update your themes, too!
 - **Fixed:** When all you did after an autosave was to undo an indentation change, this wasn't considered to be needed to be saved and thus the change was lost.
@@ -44,7 +60,7 @@ Switch to the "Cutting Edge" channel to get access to this update!
 - **New:** Themable sidebars and search result lists. Existing themes have been updated accordingly.
 - **New:** Themes now offer a tasteful default Saved Search icon color so that you don't have to worry about finding a nice-looking color again when you switch themes.
 
-## v1.0.6 (2018-05-09)
+### v1.0.6 (2018-05-09)
 
 - **Fixed:** Avoid re-displaying the same note text, potentially reducing editor flickering during auto-saves.
 - **Fixed:** Emails are now made clickable differently, which makes `message:` links to Mail.app's messages behave properly.
@@ -52,16 +68,16 @@ Switch to the "Cutting Edge" channel to get access to this update!
 - **Fixed:** Tab-indented lists are now styled correctly, including highlight of links in indented list items.
 - **Fixed:** Markdown images on the same line as a reference-style link did highlight everything in between as part of the image markup.
 
-## v1.0.5 (2018-05-08)
+### v1.0.5 (2018-05-08)
 
 * **Fix:** Display new themes when available.
 * **Fixed:** External file changes were consumed properly, but also triggered by _internal_ changes to a note. In some cases, this made the cursor move back to the old position.
 
-## v1.0.4 (2018-04-26)
+### v1.0.4 (2018-04-26)
 
 * **Fixed:** External file changes now affect the currently displayed note, too. This should prevent data loss when you switch between _The Archive_ and an external editor quickly and often. This should also get rid of error dialogs about conflicts when you rename, move, or delete the currently displayed note from the Finder.
 
-## v1.0.3 (2018-04-23)
+### v1.0.3 (2018-04-23)
 
 * **Fixed:** On High Sierra, opening the help menu prevents the app from accepting any further input if you don't close it by hovering over another main menu item. (I suspect this is because the "Search" box in the help menu doesn't give back focus to the window. See rdar://39374865) You can see the bug in action when you focus the Omnibar so it gets the blue focus outline, then click on the the Help menu item.  The blue outline should vanish. Now hover over the Window main menu. The outline should come back. That's when the window reacquires focus. That still doesn't happen when you just click out of the Help menu, but at least it's not blocking input anymore, either.
 * **Changed:** Improve performance of complex term highlights.
@@ -69,7 +85,7 @@ Switch to the "Cutting Edge" channel to get access to this update!
 * **New:** Disable alternating result list background colors from the settings.
 * **New:** An all-new theme updater that manages, well, theme updates.
 
-## v1.0.2 (2018-04-11)
+### v1.0.2 (2018-04-11)
 
 * **Fixed:** Selecting "Help > Registration" did show the right preference pane, but did not select the right toolbar item.
 * **Changed:** Hashtag recognition supports a few more special characters.

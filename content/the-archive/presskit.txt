@@ -90,7 +90,7 @@ Programming: Christian Tietze
     - _ReSwift_, a unidirectional data flow library, provides the back-bone of data processing
     - _RxSwift_, a reactive programming library, is used for user interface event handling
 - List of all open source third party libraries used: [CCNPreferencesWindowController](https://github.com/phranck/CCNPreferencesWindowController), [FlatButton](https://github.com/OskarGroth/FlatButton), [KeyHolder](https://github.com/Clipy/KeyHolder), [Magnet](https://github.com/Clipy/Magnet), [Result](https://github.com/antitypical/Result), [ReSwift](https://github.com/ReSwift/ReSwift), [RxSwift](https://github.com/ReactiveX/RxSwift), [RxOptional](https://github.com/RxSwiftCommunity/RxOptional), [SwiftDate](https://github.com/malcommac/SwiftDate), [SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver), [SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults), [Sparkle](https://github.com/sparkle-project/Sparkle)
-- List of open source libraries published during the course of development: [AppGuideOverlay](https://github.com/CleanCocoa/AppGuideOverlay), [BetaExpiration](https://github.com/CleanCocoa/BetaExpiration), [FatSidebar](https://github.com/CleanCocoa/FatSidebar), [LoopingAnimation](https://github.com/CleanCocoa/LoopingAnimation), [Omnibar](https://github.com/CleanCocoa/Omnibar), [RxFileMonitor](https://github.com/RxSwiftCommunity/RxFileMonitor), [SwiftXattrs](https://github.com/CleanCocoa/SwiftXattrs), [Typewriter-Modes](https://github.com/CleanCocoa/Typewriter-Modes), [TrialLicensing](https://github.com/CleanCocoa/TrialLicensing), [WebcamSnap](https://github.com/CleanCocoa/WebcamSnap)
+- List of open source libraries published during the course of development: [AppGuideOverlay](https://github.com/CleanCocoa/AppGuideOverlay), [BetaExpiration](https://github.com/CleanCocoa/BetaExpiration), [FatSidebar](https://github.com/CleanCocoa/FatSidebar), [LoopingAnimation](https://github.com/CleanCocoa/LoopingAnimation), [Omnibar](https://github.com/CleanCocoa/Omnibar), [RxFileMonitor](https://github.com/RxSwiftCommunity/RxFileMonitor), [SwiftXattrs](https://github.com/CleanCocoa/SwiftXattrs), [Typewriter-Modes](https://github.com/CleanCocoa/Typewriter-Modes), [TrialLicensing](https://github.com/CleanCocoa/TrialLicensing), [WebcamSnap](https://github.com/CleanCocoa/WebcamSnap), [WhatsNewKit](https://github.com/CleanCocoa/WhatsNewKit)
 
 ## Images
 
@@ -101,6 +101,9 @@ Programming: Christian Tietze
 <div class="grid-whole pk-screenshots">
     <div class="l-grid-half m-grid-half s-grid-whole">
         <a href="/the-archive/presskit/pretty-functional-mixed.png"><img src="/the-archive/presskit/pretty-functional-mixed.png" class="pk-screenshot" /></a>
+    </div>
+    <div class="l-grid-half m-grid-half s-grid-whole">
+        <a href="/the-archive/presskit/pretty-functional-mixed-nochrome.png"><img src="/the-archive/presskit/pretty-functional-mixed-nochrome.png" class="pk-screenshot" /></a>
     </div>
     <div class="l-grid-half m-grid-half s-grid-whole">
         <a href="/the-archive/presskit/solarized-dark.png"><img src="/the-archive/presskit/solarized-dark.png" class="pk-screenshot" /></a>
@@ -115,7 +118,7 @@ Programming: Christian Tietze
         <a href="/the-archive/presskit/fullscreen-prettyfunctional-big.png"><img src="/the-archive/presskit/fullscreen-prettyfunctional-big.png" class="pk-screenshot" /></a>
     </div>
     <div class="l-grid-half m-grid-half s-grid-whole">
-        <a href="/the-archive/presskit/launched.png"><img src="/the-archive/presskit/launched.png" class="pk-screenshot" /></a>
+        <a href="/the-archive/presskit/launched.jpg"><img src="/the-archive/presskit/launched.jpg" class="pk-screenshot" /></a>
     </div>
 </div>
 
