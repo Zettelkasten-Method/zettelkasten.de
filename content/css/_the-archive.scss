@@ -25,26 +25,26 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     line-height: 100%;
     text-align: center;
   }
-  
-  .two-sentence { 
+
+  .two-sentence {
     font-family: $font-sans;
     font-size: $largest-preview-size;
   }
-  
+
   hr.resources-rule {
     margin: 2em 10% 2em 10%;
     border: 0; border-top: 2pt solid #ddcccc;
     opacity: 0.8;
   }
-  
+
   .actions {
     font-family: $font-sans;
-    
+
     text-align: center;
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
-    
+
     margin-bottom: 2em;
   }
   .action__item.action__item--button {
@@ -57,19 +57,19 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     display: block;
     box-sizing: border-box;
     border-bottom-width: 0 !important;
-    
+
     color: white;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
-  
+
     border-radius: 2px
   }
 
-  .action__icon { 
-    margin-right: 0.5em; 
-    margin-left: -0.5em; 
+  .action__icon {
+    margin-right: 0.5em;
+    margin-left: -0.5em;
     margin-top: -1em;
     margin-bottom: -1em;
   }
@@ -95,22 +95,22 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     @include background-image(linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%));
   }
   .hero .action--buy { font-size: 2em; font-weight: normal; }
-  
+
   .s4d { text-align: left; }//font-size: 1.2em; margin-top: 1.6em; }
   .s4d__save { }//font-size: 1.2em; }
-  
+
   .appinfo { font-size: 80%; }
   .appinfo--hero { }// S4D
-  
+
   .features { }
   .feature-shortlist { font-size: 80%; }
-  
+
   .feature { margin-top: 1.5em; }
   .feature-title { font-family: $font-sans; }
   .feature-img-container { }
   .feature-img { max-width: 90%; display: block; margin: 0 auto; }
   .feature-desc { }
-  
+
   .todos { list-style: none; }
   .todo {
     background: url('/the-archive/img/checkbox.png') no-repeat left center;
@@ -126,8 +126,8 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     padding: 0.2em 0.5em;
     border: 2pt solid #434356;
     border-radius: 2px;
-    
-    &:hover { 
+
+    &:hover {
       border: 2pt solid #434356;
       .back--text {
         border-bottom: 1px solid $color-link;
@@ -137,7 +137,7 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
   }
   .back--image { margin-right: 0.7em; }
   .back--text { font-family: $font-sans; }
-  
+
   .monomyth {
     padding: 1em 2em;
     transform: rotate(1deg);
@@ -153,8 +153,8 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     .names {}
     .title { text-transform: lowercase; font-variant: small-caps; font-family: $font-sans; }
   }
-  
-  .testimonial { 
+
+  .testimonial {
     position: relative;
 
     margin-left: 2em;
@@ -163,11 +163,11 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     margin-bottom: 2em;
   }
 //  .testimonial:last-child { margin-bottom: 0em; }
-  .quote { 
-    font-family: $font-serif; 
-    font-style: normal; 
+  .quote {
+    font-family: $font-serif;
+    font-style: normal;
     line-height: 1.8;
-    padding: 0; margin: 1em 0; 
+    padding: 0; margin: 1em 0;
   }
   .quote::before { font-style: normal; content: '“'; font-size: 2.2em; position: absolute; top: -0.2em; left: -0.8em; color: #ccc3a8; }
   .quote::after { font-style: normal; content: '”'; font-size: 2.2em; position: absolute; top: -0.4em; right: -0.8em; color: #ccc3a8; }
@@ -185,7 +185,7 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     }
     .action__item.action__item--info.appinfo--hero { margin-top: 0; }// S4D
     .action--download { }
-    
+
     .appinfo {
       text-align: left;
       padding-left: 1em;
@@ -193,7 +193,7 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
 
     .features { margin-top: 3em; }
     .feature-img--plaintext { }
-    
+
     .resources {
       margin: 0;
       padding: 0;
@@ -204,7 +204,7 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
       li::after { content: '  \25CF  '; opacity: 0.3; }
       li:last-child::after { content: ''; }
     }
-    
+
     .monomyth {
       transform: rotate(2deg);
     }
@@ -212,20 +212,20 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     // Help
     dt { font-weight: bold; margin-left: 2em; margin-top: 3em; }
     dt:first-child { margin-top: 0; }
-    dt:before { 
-      content: "Q: "; 
+    dt:before {
+      content: "Q: ";
       float: left;
       margin-left: -2em;
     }
-    dd { 
-      margin-left: 2em; 
+    dd {
+      margin-left: 2em;
     }
-    dd:before { 
-      content: "A: "; 
+    dd:before {
+      content: "A: ";
       float: left;
       margin-left: -2em;
     }
-    
+
     .pk-screenshots a:hover { border-bottom-color: transparent; }
     .pk-screenshot { width: 100%; }
   }
@@ -236,7 +236,7 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
   .the-archive {
     .hero img { }
     .appname { font-size: 400%; }
-    
+
     .actions { }
     .actions-row { margin: 2em 0; }
     .action__item.action__item--button {}
@@ -248,29 +248,29 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     .action--download { }
     .action--download:hover {}
 
-    .hero .action--buy { 
+    .hero .action--buy {
       font-weight: normal;
       font-size: 220%;
       padding-top: 1em;
       padding-bottom: 1em;
     }
     .action--buy:hover {}
-    
+
     .feature-img-container { text-align: center; }
     .feature-img--plaintext { margin-top: 1em; width: 80%; }
     .feature-img--clean { margin-top: 2em; }
     .feature-img--elegant { margin-top: 1em; }
-   
+
     .monomyth {
       transform: rotate(3deg);
       padding: 2em 3em;
     }
-    
-    .testimonial { 
+
+    .testimonial {
       margin-left: 2em;
       margin-right: 2em;
       margin-bottom: 4em;
-    }  
+    }
   }
 }
 
@@ -347,13 +347,13 @@ $solarized-editor: false;
   margin: 0; padding: 0;
   margin-right: 0.2em;
   border: $border;
-  height: 0.4em; 
-  width: 0.4em; 
+  height: 0.4em;
+  width: 0.4em;
   border-radius: 5em;
   display: inline-block;
 }
 
-.c-omnibar { 
+.c-omnibar {
   border: $border;
   height: 0.7em;
   margin: 0em 0.2em 0.2em 0.2em;
@@ -453,7 +453,7 @@ $fatbarWidth: 8%;
 }
 
 .c-write { font-size: 80%; }
-.c-cursor { 
+.c-cursor {
   position: absolute;
   margin-left: 2px;
   width: 3px;
