@@ -34,30 +34,11 @@ Die Downloads aus dem Buch:
 * [TextExpander Bausteine](/book/de/einrichten-zettelkasten-mac/Zettelkasten.textexpander.zip)
 * [PhraseExpress Bausteine](/book/de/einrichten-zettelkasten-windows/Zettelkastenheader.pxp.zip)
 
-
-## Sonderangebot für Leser: TextExpander mit 20% Rabatt
-
-Weil wir TextExpander für Mac so gut finden, haben wir mit den Entwicklern einen Rabatt für unsere Leser ausgehandelt.<img height="0" width="0" src="http://smile.7eer.net/i/176775/227880/2936" style="position:absolute;visibility:hidden;" border="0" />
-
-<div content="textexpander-ad">    
-    <a href="http://smile.7eer.net/c/176775/227880/2936" class="image-link"><img src="/img/textexpander.png" class="textexpander__image"></a>
-    <br />
-    <p><a href="http://smile.7eer.net/c/176775/227880/2936">TextExpander mit <b>20% Rabatt</b> kaufen</a></p>
-</div>
-
-TextExpander ist nützlich um:
-
-* Textbausteine vorzubereiten,
-* Grußformeln in E-mails zu automatisieren,
-* typische Tippfehler auszumerzen.
-
-
 [mac]: /book/de/einrichten-zettelkasten-mac/
 [pc]: /book/de/einrichten-zettelkasten-windows/
 
 [nvalt]: http://brettterpstra.com/projects/nvalt/
 [bibdesk]: http://bibdesk.sourceforge.net
-[textexpander]: http://smile.7eer.net/c/176775/227880/2936
 [resophnotes]: http://resoph.com/ResophNotes/Welcome.html
 [jabref]: http://jabref.sourceforge.net
 [phraseexpress]: http://www.phraseexpress.com
