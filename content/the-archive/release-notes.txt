@@ -8,6 +8,12 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.1.0 (2018-09-25)
+
+Currently only on the _Cutting Edge_ Channel!
+
+- **New:** Support for macOS 10.14 Mojave and its _Dark Mode_!
+
 ## v1.1.0 (2018-08-25)
 
 New since Version 1.0.1:
