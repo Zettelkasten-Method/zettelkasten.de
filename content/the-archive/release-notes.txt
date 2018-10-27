@@ -8,9 +8,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.1.0 (2018-09-25)
+## v1.1.2 (2018-10-27)
 
 Currently only on the _Cutting Edge_ Channel!
+
+- **Fixed:** Bug where editing note A and then selecting note B would overwrite the contents of B with A.
+- **Changed:** Enabled Mojave App Notarization. Should now perform the first run even easier on Mojave.
+
+## v1.1.1 (2018-09-25)
 
 - **New:** Support for macOS 10.14 Mojave and its _Dark Mode_!
 
