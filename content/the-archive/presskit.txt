@@ -103,6 +103,9 @@ Programming: Christian Tietze
         <a href="/the-archive/presskit/pretty-functional-mixed.png"><img src="/the-archive/presskit/pretty-functional-mixed.png" class="pk-screenshot" /></a>
     </div>
     <div class="l-grid-half m-grid-half s-grid-whole">
+        <a href="/the-archive/presskit/dark-mode.jpg"><img src="/the-archive/presskit/dark-mode.jpg" class="pk-screenshot" /></a>
+    </div>
+    <div class="l-grid-half m-grid-half s-grid-whole">
         <a href="/the-archive/presskit/pretty-functional-mixed-nochrome.png"><img src="/the-archive/presskit/pretty-functional-mixed-nochrome.png" class="pk-screenshot" /></a>
     </div>
     <div class="l-grid-half m-grid-half s-grid-whole">
