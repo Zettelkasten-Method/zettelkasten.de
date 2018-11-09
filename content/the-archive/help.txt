@@ -63,6 +63,14 @@ How do I link to notes from other apps?
   - `thearchive://matchOrCreate/TERM` will create a note of the exact title `TERM` if that doesn't exist; it's similar to entering a search term into the Omnibar and hitting the return key.
 
 
+Can I use boolean search?
+: Yes! Here's how.
+: Operators are all caps: `AND`, `OR`, and `NOT`. `NOT` is alternatively expressed by the `!` prefix. `NOT b` is equal to `!b` and will show notes that have no "b" inside them. `! b` (note the space) evaluates as `! AND b`. 
+: When you write `foo bar`, that's the same as writing `foo AND bar`. You can also connect phrases with `OR` to form a set union. Usually, phrases are "words", i.e. strings of characters separated by whitespace. You can group words into larger phrases with the use of quotation marks: `"the archive"` will only find this very phrase, sans quotation marks, and not each occurrence of "the" in your notes.
+: Phrase search wins: `"!b"` is a phrase search for "!b", matching the literal exclamation mark and letter. Instead of quotation marks, escaping works, too: `\!b`. Escaping _inside_ phrase searches will also work: `hello "you \"lovely\" specimen"`. You can also escape parts of reserved words, like the beginning of an operator: `\AND` will not be treated as an operator.
+: You can parenthesize expressions: `!(foo OR (baz AND !bar)` is equivalent to the expanded version, `!foo OR !baz AND !foo OR !bar`. Be aware that `OR` and `AND` do not have correct operator precedence. If you don't know what that means, you probably do not need to care.
+
+
 ## Sending in Log Files for Errors
 
 You can send log files from within the app by choosing **Help ‣ Send Log Files…**. This will attach log files of up to 5 days of app activity. You can remove irrelevant log files from the email draft. 
