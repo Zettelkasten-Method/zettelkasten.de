@@ -8,9 +8,13 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.1.2 (2018-10-27)
+## v1.1.3 (2018-11-09)
 
-Currently only on the _Cutting Edge_ Channel!
+- **Fixed:** Crash when changing Saved Search and Quick Entry shortcuts.
+- **Fixed:** Mojave cutting of preferences at the bottom.
+- **New:** "Copy Link to Note" added to the Edit menu.
+
+## v1.1.2 (2018-10-27)
 
 - **Fixed:** Bug where editing note A and then selecting note B would overwrite the contents of B with A.
 - **Changed:** Enabled Mojave App Notarization. Should now perform the first run even easier on Mojave.
