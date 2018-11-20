@@ -141,9 +141,10 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
   .monomyth {
     padding: 1em 2em;
     transform: rotate(1deg);
-    background: #FCF4DC;
+    background-color: #FCF4DC;
     box-shadow: 1pt 2pt 4pt rgba(0,0,0,0.2);
   }
+  // .monomyth image only visible on tablets and larger
   .monomyth__signature {
     padding-top: 3em;
     line-height: 1;
@@ -264,6 +265,13 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     .monomyth {
       transform: rotate(3deg);
       padding: 2em 3em;
+    }
+    .monomyth {
+      background-image: url('/the-archive/img/weapon-of-gods.png');
+      background-position: 110% 103%;
+      background-size: 40%;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
     }
 
     .testimonial {
