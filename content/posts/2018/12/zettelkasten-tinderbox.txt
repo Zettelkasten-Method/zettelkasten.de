@@ -1,0 +1,14 @@
+---
+title: Zettelkasten Method and Tinderbox (macOS)
+created_at: 2018-12-06 15:38:03 +0100
+kind: article
+author: christian
+tags: [ tinderbox ]
+url: http://www.becktench.com/blog/2018/11/12/using-zettelkasten-and-tinderbox-to-document-a-literature-review
+---
+
+Beck Tench [recorded 45min worth of inspiring "Literature Review" video](http://www.becktench.com/blog/2018/11/12/using-zettelkasten-and-tinderbox-to-document-a-literature-review) showing her current workflow with a Bullet Journal and the app Tinderbox for Mac to implement the Zettelkasten Method.
+
+I've never used this hypertext writing environment called Tinderbox. In the end, I'm a proponent of the plain text approach and keeping your knowledge portable, so there wasn't much appeal in trying out the app. But its community looks nice, the developer is a cool guy, and the app looks solid and makes people happy. Maybe it can make you happy, too.
+
+Anyway, make sure to [take a look at Beck's blog](http://www.becktench.com/). The posts's illustrations are  tasteful and I find the topics to be very interesting, too.
