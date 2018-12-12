@@ -25,12 +25,12 @@ Find discussions about _The Archive_ here:
 
 ## Frequently Asked Questions
 
-How can I import my notes from nvALT/DEVONthink without losing the tags?
+How can I import my notes from nvALT/DEVONthink without losing the tags? <a name="import-tags" href="#frequently-asked-questions">(top)</a>
 : nvALT stores the tags as so-called "Finder tags" in the file metadata. Same for DEVONthink's exported notes. This is brittle and only works on Mac. _The Archive_ does not recognize these on purpose, so you don't tag yourself into a corner.
 
    [We provide a **converter utility**](/the-archive/tag-converter/) that inserts missing `#hashtags` into your notes to match the Finder metadata. This should help with the transition!
 
-How do I create notes?
+How do I create notes? <a name="create-notes" href="#frequently-asked-questions">(top)</a>
 :   There are different ways to create a note, each with pros and cons depending on your workflow.
     
     1. Type the note title you want into the Omnibar and hit Return. If you type a term in the Omnibar that is not used as the name of a note already, *The Archive* will create a matching note for you; if a note exists, it will be opened instead. 
@@ -39,7 +39,7 @@ How do I create notes?
     4. Use the "Quick Entry" popup window from anywhere on your system to capture a thought. You have to configure the shortcut in the application preferences (<kbd>⌘,</kbd>) to make it globally accessible.
 
 
-How do I create links between notes?
+How do I create links between notes?<a name="links-between-notes" href="#frequently-asked-questions">(top)</a>
 : To create links between notes, you need to define how to *target* a note first. On the web, it is simple: each website has its own unique address that you can copy from the address bar of your web browser.
 
   When you work with plain text files, it might sound obvious to use the file names. And if you want to have clickable links, you might use the full path to a note, like `file:///Users/JaneDoe/Archive/some-note.txt`. But that's fragile, since the links break when you rename the note or move your archive to a different path.
@@ -53,7 +53,7 @@ How do I create links between notes?
   [Read more about identifiers](https://zettelkasten.de/posts/add-identity/).
 
 
-How do I link to notes from other apps?
+How do I link to notes from other apps? <a name="link-to-notes-from-outside" href="#frequently-asked-questions">(top)</a>
 : As with internal connection, using a file-based link isn't a very durable way to point into your note archive from outside. We suggest you simply paste the ID for maximum durability. 
 : If you really want to create a link to click on that launches _The Archive_ and opens an appropriate note, we got you covered with a **external link URL scheme**:
     
@@ -63,7 +63,7 @@ How do I link to notes from other apps?
   - `thearchive://matchOrCreate/TERM` will create a note of the exact title `TERM` if that doesn't exist; it's similar to entering a search term into the Omnibar and hitting the return key.
 
 
-Can I use boolean search?
+Can I use boolean search? <a name="search-syntax" href="#frequently-asked-questions">(top)</a>
 : Yes! Here's how.
 : Operators are all caps: `AND`, `OR`, and `NOT`. `NOT` is alternatively expressed by the `!` prefix. `NOT b` is equal to `!b` and will show notes that have no "b" inside them. `! b` (note the space) evaluates as `! AND b`. 
 : When you write `foo bar`, that's the same as writing `foo AND bar`. You can also connect phrases with `OR` to form a set union. Usually, phrases are "words", i.e. strings of characters separated by whitespace. You can group words into larger phrases with the use of quotation marks: `"the archive"` will only find this very phrase, sans quotation marks, and not each occurrence of "the" in your notes.
