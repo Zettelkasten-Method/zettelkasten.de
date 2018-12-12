@@ -12,3 +12,5 @@ Beck Tench [recorded 45min worth of inspiring "Literature Review" video](http://
 I've never used this hypertext writing environment called Tinderbox. In the end, I'm a proponent of the plain text approach and keeping your knowledge portable, so there wasn't much appeal in trying out the app. But its community looks nice, the developer is a cool guy, and the app looks solid and makes people happy. Maybe it can make you happy, too.
 
 Anyway, make sure to [take a look at Beck's blog](http://www.becktench.com/). The posts's illustrations are  tasteful and I find the topics to be very interesting, too.
+
+**Update:** Reader Russ pointed out that Tinderbox files are XML, which you could use in your own scripts or 3rd party tools. So you aren't really locked in.
