@@ -8,10 +8,18 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.1.4 (2018-12-28)
+
+Get the latest version on the "Cutting Edge" channel!
+
+- **Fixed:** Various dark mode-related fixes, like translucent icons, non-adaptive buttons, and introducing nicer colors.
+- **Fixed:** Changing colors or otherwise editing Saved Searches did progressively darken all custom tint colors until they turned black. (This was a fun bug, because it showed how saving colors in SRGB and restoring in a different color profile  could slowly deteriorate overall color appearances.)
+- **New:** Dark Mode theme switches. Theme settings now also have a separate preference pane.
+
 ## v1.1.3 (2018-11-09)
 
 - **Fixed:** Crash when changing Saved Search and Quick Entry shortcuts.
-- **Fixed:** Mojave cutting of preferences at the bottom.
+- **Fixed:** Mojave cutting-off preferences at the bottom.
 - **New:** "Copy Link to Note" added to the Edit menu.
 
 ## v1.1.2 (2018-10-27)
