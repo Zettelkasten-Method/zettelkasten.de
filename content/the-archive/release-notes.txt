@@ -8,6 +8,13 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.1.5 (2019-01-07)
+
+- **Fixed:** Crash when using the "Capture Image" function with the new security settings since Mojave.
+- **Fixed:** Collapsing sidebars or making the app full-screen does not break text editor layout anymore.
+- **Fixed:** The text field of renaming a note used black text on white background in dark mode. This is now reversed to fit the system standard.
+- **Fixed:** Allowing/disallowing themes to change fonts takes effect immediately now.
+
 ## v1.1.4 (2018-12-28)
 
 Get the latest version on the "Cutting Edge" channel!
