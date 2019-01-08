@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ keywords, archive ]
 image: 201506021359_pen-text.jpg
-vgwort: http://vg01.met.vgwort.de/na/3d23ea5212604d5189afbe03110dc42c
+vgwort: https://vg01.met.vgwort.de/na/3d23ea5212604d5189afbe03110dc42c
 excerpt: "Some of you guys asked for more practical articles about the Zettelkasten Method. So here we go. I use two different tags: some are in the header and some are right in the text body. Here is an example Zettel about the problematic implications of a materialistic view on the human mind."
 ---
 

@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ buffer ]
 image: "20180119164717_st-petersburg.jpg"
-vgwort: http://vg06.met.vgwort.de/na/09b421d334f4470eadb21f6d1017fbd6
+vgwort: https://vg06.met.vgwort.de/na/09b421d334f4470eadb21f6d1017fbd6
 ---
 
 <%= insert_teaser_image title: "photo of St Petersburg", caption: %{Buffer notes are ... the golden statues in your sprinkling well of ideas, or something? I cannot come up with a sensible caption for this, sorry folks. &mdash;Christian (<a href="https://pixabay.com/de/st-petersburg-springbrunnen-2930123/">Source</a>)} %>

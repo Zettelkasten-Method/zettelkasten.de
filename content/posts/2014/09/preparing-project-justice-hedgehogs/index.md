@@ -4,7 +4,7 @@ created_at: 2014-09-30 08:52:28 +0200
 kind: article
 author: christian
 tags: [ challenge, gtd ]
-vgwort: http://vg08.met.vgwort.de/na/950e7206a36c4028bc783e5b32e2adb2
+vgwort: https://vg08.met.vgwort.de/na/950e7206a36c4028bc783e5b32e2adb2
 import:
     from: "http://christiantietze.de/posts/2014/09/preparing-project-justice-hedgehogs/"
 ---

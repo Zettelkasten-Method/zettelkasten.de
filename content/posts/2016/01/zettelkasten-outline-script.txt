@@ -4,7 +4,7 @@ created_at: 2016-01-25 09:42:23 +0100
 kind: article
 author: christian
 tags: [ assemble, writing, outline, script, tool ]
-vgwort: http://vg01.met.vgwort.de/na/c67bda12b3164b88a002a5a6070ade42
+vgwort: https://vg01.met.vgwort.de/na/c67bda12b3164b88a002a5a6070ade42
 ---
 
 Last week I completed a script to help automate the process of compiling a first draft from an outline and Zettel notes. You can find it [on GitHub][render] or install it as a gem from the terminal: `gem install zettel_outline`. Learn more about the format it supports and how you can adopt it to your Zettelkasten note archive.

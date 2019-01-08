@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ book, writing ]
 image: "20180112081810_lebenswandel-cover.jpg"
-vgwort: http://vg07.met.vgwort.de/na/73dec2ee0b2240cd842fba7e414c9bd9
+vgwort: https://vg07.met.vgwort.de/na/73dec2ee0b2240cd842fba7e414c9bd9
 ---
 
 Hello dear knowledge workers,

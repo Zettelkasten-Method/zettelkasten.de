@@ -4,7 +4,7 @@ created_at: 2013-06-20 19:38:00 +0200
 author: christian
 kind: article
 tags: [ writing, productivity, zettel, connect, luhmann ]
-vgwort: http://vg02.met.vgwort.de/na/5ecb7a3567854388b277be5d1e30893f
+vgwort: https://vg02.met.vgwort.de/na/5ecb7a3567854388b277be5d1e30893f
 lang: mmd
 import:
     without_comments: true

@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ reading, antifragile ]
 image: 20180525163755_barbell.jpg
-vgwort: http://vg09.met.vgwort.de/na/f206cc1745d345d49092eb0f4c33f7d3
+vgwort: https://vg09.met.vgwort.de/na/f206cc1745d345d49092eb0f4c33f7d3
 ---
 
 Our reading habit is one of the corner stones of our knowledge work habits. Reading is the most efficient way to create an influx of information that can transform into knowledge. Therefore, we should devote some thought and energy in the optimization of our reading habits.

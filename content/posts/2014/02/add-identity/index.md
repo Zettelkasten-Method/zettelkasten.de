@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ archive, writing, process, identifier ]
 image: 201402272240_find.jpg
-vgwort: http://vg08.met.vgwort.de/na/960a44ad284a4fbbbe68b6159d1c8ad6
+vgwort: https://vg08.met.vgwort.de/na/960a44ad284a4fbbbe68b6159d1c8ad6
 import:
     from: "http://christiantietze.de/posts/2014/02/add-identity/"
 ---

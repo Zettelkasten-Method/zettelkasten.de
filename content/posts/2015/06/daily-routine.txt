@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ routine, review, productivity ]
 image: 201506151726_bike-no-handlebar.jpg
-vgwort: http://vg08.met.vgwort.de/na/7e394e2ebdbe4ea29fcbf612f94ec527
+vgwort: https://vg08.met.vgwort.de/na/7e394e2ebdbe4ea29fcbf612f94ec527
 ---
 
 I have picked up a habit which improves my well-being and helps me focus on the important parts in my life.

@@ -4,7 +4,7 @@ created_at: 2016-11-25 16:19:38 +0100
 kind: article
 author: sascha
 tags: [ luhmann, archive, connect, hub, folgezettel ]
-vgwort: http://vg08.met.vgwort.de/na/66c53d23f9234b1182f247bd7465061b
+vgwort: https://vg08.met.vgwort.de/na/66c53d23f9234b1182f247bd7465061b
 ---
 
 <iframe src="https://player.vimeo.com/video/173128404?byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

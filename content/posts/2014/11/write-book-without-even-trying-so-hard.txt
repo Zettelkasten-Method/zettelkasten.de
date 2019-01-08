@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ writing, outline, zettel, archive, effort ]
 image: 201411021132_outline_cat.jpg
-vgwort: http://vg01.met.vgwort.de/na/e44296ee949147e09f06029b6bdbf359
+vgwort: https://vg01.met.vgwort.de/na/e44296ee949147e09f06029b6bdbf359
 ---
 
 In my last post [A Life-Long Writing Project on Writing – and My Anxiety][lastpost] I said that I wrote [a (small) book on writing][onwritingmore] while researching it. 

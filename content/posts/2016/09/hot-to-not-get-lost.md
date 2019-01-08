@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ collect, read, overview ]
 image: 201609011659_dog-outdoor.jpg
-vgwort: http://vg02.met.vgwort.de/na/ec41102c59b3451b9af9e70a27968a84
+vgwort: https://vg02.met.vgwort.de/na/ec41102c59b3451b9af9e70a27968a84
 ---
 
 I am a huge proponent of not having any overview. The reason for that is the self-selective nature of the need for an overview. The need for a reasonable amount of overview can become a fetish which not only is not only unnecessary but even harmful for your productivity and creativity. 

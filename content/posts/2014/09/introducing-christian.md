@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ announcement, memory ]
 image: 201409221055_treasure-chest.jpg
-vgwort: http://vg08.met.vgwort.de/na/a4b543b8e5024727a45d94c45ff7e4f0
+vgwort: https://vg08.met.vgwort.de/na/a4b543b8e5024727a45d94c45ff7e4f0
 ---
 
 Hi, I'm Christian, and I'm prone to forget things.

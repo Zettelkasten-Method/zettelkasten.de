@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ writing, book, leanpub ]
 image: "201412240842_kid_writing_god.jpg"
-vgwort: http://vg08.met.vgwort.de/na/b2cdf158647f40fea79623841eb3067c
+vgwort: https://vg08.met.vgwort.de/na/b2cdf158647f40fea79623841eb3067c
 ---
 
 

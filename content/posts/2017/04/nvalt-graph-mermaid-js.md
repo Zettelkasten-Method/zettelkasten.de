@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ nvalt, javascript, graph ]
 image: 20170212085637_mermaid.png
-vgwort: http://vg01.met.vgwort.de/na/0a8500f216cb4cd39997bdf71654d5b8
+vgwort: https://vg01.met.vgwort.de/na/0a8500f216cb4cd39997bdf71654d5b8
 ---
 
 

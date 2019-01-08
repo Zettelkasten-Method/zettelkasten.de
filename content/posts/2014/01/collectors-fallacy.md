@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ archive, note-taking, reading, collect, knowledge-cycle ]
 image: 201401202212_messy-desk.jpg
-vgwort: http://vg08.met.vgwort.de/na/55373ef9fa9e410295badb08ea064eea
+vgwort: https://vg08.met.vgwort.de/na/55373ef9fa9e410295badb08ea064eea
 lang: mmd
 import:
     from: "http://christiantietze.de/posts/2014/01/collectors-fallacy/"

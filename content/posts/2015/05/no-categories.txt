@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ category, keywords, archive ]
 image: 201505160917_constructionsite.jpg
-vgwort: http://vg08.met.vgwort.de/na/77a7fbd9835b46eca87dc5203bef48c3
+vgwort: https://vg08.met.vgwort.de/na/77a7fbd9835b46eca87dc5203bef48c3
 ---
 
 A friend of mine recently asked for help with getting started. It was very hard for him to overcome initial uncertainty: how do you know you're sufficiently prepared to start filling your note archive? Which categories should you prepare before you begin?

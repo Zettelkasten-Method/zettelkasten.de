@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ personal ]
 image: 201404111029_workplace.jpg
-vgwort: http://vg08.met.vgwort.de/na/3d76f0b5b8084f078dedfc195dc2a453
+vgwort: https://vg08.met.vgwort.de/na/3d76f0b5b8084f078dedfc195dc2a453
 import:
     from: "http://christiantietze.de/posts/2014/04/lessons-learned-from-losing-all-routine/"
 ---

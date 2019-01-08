@@ -5,7 +5,7 @@ author: sascha
 kind: article
 tags: [ archive, zettel, writing, keywords, getting-started ]
 image: 201509130934_sharpen-blade.jpg
-vgwort: http://vg01.met.vgwort.de/na/80a666af11ba42d1b4bbd375b58c9312
+vgwort: https://vg01.met.vgwort.de/na/80a666af11ba42d1b4bbd375b58c9312
 comments: on
 ---
 

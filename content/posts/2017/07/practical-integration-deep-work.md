@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ deepwork, habit, health, focus ]
 image: "20170703171846_dog-on-floor.jpg"
-vgwort: http://vg04.met.vgwort.de/na/4b9c8459201c48bdb3ddad286e6a2284
+vgwort: https://vg04.met.vgwort.de/na/4b9c8459201c48bdb3ddad286e6a2284
 ---
 
 Fiddling with the details of IDs, and discussions about *Folgezettel*[^folgezettel] and whether they are an integral part of the method or just a compensatory solution for a physical Zettelkasten is fun and part of the constant improvement. 

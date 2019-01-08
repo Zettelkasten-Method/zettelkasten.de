@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ note-taking, process, archive ]
 image: 201604271033_new-note-infographic.jpg
-vgwort: http://vg01.met.vgwort.de/na/51d2fe403ffc43b892a2ee0142eb323f
+vgwort: https://vg01.met.vgwort.de/na/51d2fe403ffc43b892a2ee0142eb323f
 ---
 
 Say you start with a fresh Zettelkasten or you learn more about an existing topic. You write your note and expand the text -- and then you ask yourself this: should I create a new Zettel? Should I split this up? Can I attach this detail there?

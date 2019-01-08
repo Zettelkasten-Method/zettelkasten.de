@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ learning, collect, process, reading, archive, luhmann, hub ]
 image: 201403091054_reading.jpg
-vgwort: http://vg08.met.vgwort.de/na/a485d13b90094fad8d0581d65732f3ac
+vgwort: https://vg08.met.vgwort.de/na/a485d13b90094fad8d0581d65732f3ac
 import:
     from: "http://christiantietze.de/posts/2014/03/reading-putting-it-all-together/"
 ---

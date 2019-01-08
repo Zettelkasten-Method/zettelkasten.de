@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ connect, archive, tags, folgezettel, categories, links ]
 image: 201511170848_cables.jpg
-vgwort: http://vg01.met.vgwort.de/na/be8b1e24c46f43469263ace168c4b2ec
+vgwort: https://vg01.met.vgwort.de/na/be8b1e24c46f43469263ace168c4b2ec
 ---
 
 

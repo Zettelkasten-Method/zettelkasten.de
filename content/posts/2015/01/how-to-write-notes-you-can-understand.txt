@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ archive, collect ]
 image: 201501061708_clueless.jpg
-vgwort: http://vg03.met.vgwort.de/na/c987064b1ff644cb9f86d12b00a03eb9
+vgwort: https://vg03.met.vgwort.de/na/c987064b1ff644cb9f86d12b00a03eb9
 ---
 
 <!-- Benefit -->

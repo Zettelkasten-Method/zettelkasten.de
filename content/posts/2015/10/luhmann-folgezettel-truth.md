@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ archive, hyperlink, folgezettel, category, principle, luhmann ]
 image: 201510311813_ducklings.jpg
-vgwort: http://vg09.met.vgwort.de/na/760607bf91524ba088f9a0724333446f
+vgwort: https://vg09.met.vgwort.de/na/760607bf91524ba088f9a0724333446f
 ---
 
 I follow a principle that Ido Portal put nicely into words:

@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ getting-started, archive, collect ]
 image: 201603080745_kid-pens.jpg
-vgwort: http://vg01.met.vgwort.de/na/190ae27335a741cd80d33c20ba0edcc4
+vgwort: https://vg01.met.vgwort.de/na/190ae27335a741cd80d33c20ba0edcc4
 ---
 
 The Zettelkasten note archive is the storage of your knowledge. The Zettelkasten Method is an ideation tool, though. Using your Zettelkasten should help remember stuff and spark new ideas which will be stored as Zettel notes again. This process is fruitful and potentially never-ending. All that sounds nice, but naturally you have to start somewhere. How do you start working with your Zettelkasten? What's the best first note?

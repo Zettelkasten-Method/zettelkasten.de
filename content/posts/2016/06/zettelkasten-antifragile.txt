@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ antifragile, write, outline, archive ]
 image: 201606151023_virus.jpg
-vgwort: http://vg07.met.vgwort.de/na/5abb56c8009b4a6284156d5339c5b48e
+vgwort: https://vg07.met.vgwort.de/na/5abb56c8009b4a6284156d5339c5b48e
 ---
 
 In my opinion, Nassim Taleb's most important idea is the concept of Antifragility. Here is his three-concept-model:

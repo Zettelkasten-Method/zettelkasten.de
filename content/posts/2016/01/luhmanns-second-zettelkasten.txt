@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ luhmann, archive, project ]
 image: 201601191012_tree.jpeg
-vgwort: http://vg06.met.vgwort.de/na/bd66ccddb661407f9f3e921ce2099928
+vgwort: https://vg06.met.vgwort.de/na/bd66ccddb661407f9f3e921ce2099928
 ---
 
 If you are familiar with the latest research on Luhmann’s original Zettelkasten you already know that his first Zettelkasten is not lost. 

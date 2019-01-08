@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ writing, productivity, quantified-self ]
 image: 201406251740_spreadsheet.png
-vgwort: http://vg08.met.vgwort.de/na/0f26f85e91f148bf8bd00b69481f5b0d
+vgwort: https://vg08.met.vgwort.de/na/0f26f85e91f148bf8bd00b69481f5b0d
 import:
     from: "http://christiantietze.de/posts/2014/06/how-to-track-writing-progress"
 ---

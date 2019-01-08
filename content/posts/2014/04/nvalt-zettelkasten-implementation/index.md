@@ -6,7 +6,7 @@ kind: article
 author: christian
 tags: [ nv, software, review, mac ]
 image: "201404041723_nv.png"
-vgwort: http://vg08.met.vgwort.de/na/37717592bac84c1fa7340fe191b058d3
+vgwort: https://vg08.met.vgwort.de/na/37717592bac84c1fa7340fe191b058d3
 toc: on
 import:
     from: "http://christiantietze.de/posts/2014/04/nvalt-zettelkasten-implementation/"

@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ software, ipad, iphone, archive ]
 image: 201505022142_1writer.png
-vgwort: http://vg08.met.vgwort.de/na/de22da166bf746fc9bae49085c0e06ae
+vgwort: https://vg08.met.vgwort.de/na/de22da166bf746fc9bae49085c0e06ae
 ---
 
 My MacBook isn't going to recover, so I switched to an iPad for mobile writing and development. I found the one and ultimate application to access my Zettelkasten note archive on the go, while also being able to write long-form blog posts or proof-read texts from Sascha.

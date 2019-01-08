@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ mobile, reading ]
 image: 201402140929_cat_ipad.jpg
-vgwort: http://vg08.met.vgwort.de/na/fb4a7e6c00a24fa78ad221c62ff58321
+vgwort: https://vg08.met.vgwort.de/na/fb4a7e6c00a24fa78ad221c62ff58321
 import:
     from: "http://christiantietze.de/posts/2014/02/reading-web-rss-note-taking/"
 ---

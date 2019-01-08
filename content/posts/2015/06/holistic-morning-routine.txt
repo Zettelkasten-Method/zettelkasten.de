@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ routine, productivity, writers-block ]
 image: 201506261630_yoga-cliche.jpg
-vgwort: http://vg04.met.vgwort.de/na/ae29a90dcb7e40fca9aba2e3b0a3cc4f
+vgwort: https://vg04.met.vgwort.de/na/ae29a90dcb7e40fca9aba2e3b0a3cc4f
 ---
 
 Christian told you how a morning routine can [improve your productivity][ctmor] already. Now, it is my turn to show you my morning routine. I begin with its development but will end with the connection to productivity and the Zettelkasten Method. So, hang on!

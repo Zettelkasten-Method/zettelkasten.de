@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ reading, compile, information, note-taking, marginals ]
 image: 201603301015_cleverdog.jpg
-vgwort: http://vg03.met.vgwort.de/na/3a39c634805f4329a83d75af0e11ab59
+vgwort: https://vg03.met.vgwort.de/na/3a39c634805f4329a83d75af0e11ab59
 ---
 
 

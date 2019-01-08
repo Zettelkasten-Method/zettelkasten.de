@@ -4,7 +4,7 @@ created_at: 2014-10-09 21:41:00 +0200
 kind: article
 author: christian
 tags: [ nv, tool, mac ]
-vgwort: http://vg08.met.vgwort.de/na/eb5a7102855e4b4d875e88e998af70b5
+vgwort: https://vg08.met.vgwort.de/na/eb5a7102855e4b4d875e88e998af70b5
 image: 201410092140_nv-script.png
 ---
 

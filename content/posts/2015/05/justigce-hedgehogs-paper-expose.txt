@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ challenge, evernote ]
 image: 201407311932_hedgehog.jpg
-vgwort: http://vg08.met.vgwort.de/na/4624c139a1a54a80bade137be3ac987d
+vgwort: https://vg08.met.vgwort.de/na/4624c139a1a54a80bade137be3ac987d
 ---
 
 I had a great idea this weekend: for the ongoing challenge I started [last summer][chall], I'll take notes in a public Evernote notebook. Of course I will feed my real Zettelkasten note archive with everything I find, but additionally, I'll put a translated note into Evernote. This way, I'll end up with a project-focused Zettelkasten, as opposed to my all-encompassing private knowledge management archive, so we can discuss details of the workflow with that sample archive in the future.

@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ habit, knowledge-cycle, gtd, learning, research, writing, note-taking, archive ]
 image: 201407171527_assembly.jpg
-vgwort: http://vg08.met.vgwort.de/na/894cfafdd1814547829354a3d96bdad3
+vgwort: https://vg08.met.vgwort.de/na/894cfafdd1814547829354a3d96bdad3
 import:
     from: "http://christiantietze.de/posts/2014/07/knowledge-cycle-efficiently-organize-writing-projects/"
 ---

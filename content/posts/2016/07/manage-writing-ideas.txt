@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ writing, gtd, task-management, outline, assemble, anxiety, project ]
 image: 201607180846_library-catalogue.jpg
-vgwort: http://vg01.met.vgwort.de/na/b41fab6fa5594099842c254c4631713a
+vgwort: https://vg01.met.vgwort.de/na/b41fab6fa5594099842c254c4631713a
 ---
 
 I managed my writing ideas in a to-do list for years. Since I follow the principles of the _[Getting Things Done][gtd]_ methodology, a book idea was the perfect candidate for a "someday/maybe" project. That's a project which you can prepare with anything from the top of your head without much real planning. You don't have to follow-up on it anytime soon if you don't want and thus defer taking any action until later. You can have ideas _now_ and execute them later, whenever you wish.

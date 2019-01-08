@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ evernote, writing, outline, challenge ]
 image: 201407311932_hedgehog.jpg
-vgwort: http://vg08.met.vgwort.de/na/1bced14c398c46e3882ffb034e74960b
+vgwort: https://vg08.met.vgwort.de/na/1bced14c398c46e3882ffb034e74960b
 ---
 
 I've made a lot of progress using Evernote for my term paper. As [announced][ann], I want to share the progress with you so you can see how things develop.

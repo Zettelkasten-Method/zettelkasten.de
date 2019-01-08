@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ productivity, information-overload, informationdiet ]
 image: 201410020946_racing-dog.jpg
-vgwort: http://vg04.met.vgwort.de/na/bf49663401924f99b426db10cae653d8
+vgwort: https://vg04.met.vgwort.de/na/bf49663401924f99b426db10cae653d8
 ---
 
 
