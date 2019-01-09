@@ -8,6 +8,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.1.6 (2019-01-09)
+
+Get the latest version on the "Cutting Edge" channel!
+
+- **Fixed:** The new sidebar settings didn't adjust to large Saved Search icons.
+- **Fixed:** Preferences window sizing and animation did wobble in the past. 
+- **New:** When you pick a font that is not at regular width or does not support bold, italic, or bold-italic, you are warned about the font's missing features.
+
 ## v1.1.5 (2019-01-07)
 
 - **Fixed:** Crash when using the "Capture Image" function with the new security settings since Mojave.
@@ -16,8 +24,6 @@ layout: the-archive
 - **Fixed:** Allowing/disallowing themes to change fonts takes effect immediately now.
 
 ## v1.1.4 (2018-12-28)
-
-Get the latest version on the "Cutting Edge" channel!
 
 - **Fixed:** Various dark mode-related fixes, like translucent icons, non-adaptive buttons, and introducing nicer colors.
 - **Fixed:** Changing colors or otherwise editing Saved Searches did progressively darken all custom tint colors until they turned black. (This was a fun bug, because it showed how saving colors in SRGB and restoring in a different color profile  could slowly deteriorate overall color appearances.)
