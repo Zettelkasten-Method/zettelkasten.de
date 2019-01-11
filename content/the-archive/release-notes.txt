@@ -126,7 +126,7 @@ A breakdown of changes since the last release:
 * **Fixed:** Selecting "Help > Registration" did show the right preference pane, but did not select the right toolbar item.
 * **Changed:** Hashtag recognition supports a few more special characters.
 * **New:** Boolean search expressions: `#emotion !#hate`, or the more verbose `#emotion AND NOT #hate` (case-sensitive!). The available operators are `AND` (or just space), `OR`, `NOT` (or prefixed with a `!`), and parentheses, like: `(#note OR #zettel) writing !publish`.
-* **New:** Phrase search! `"the archive" OR #zettelkasten` will match, as expected, `the archive` but not `#archiveapp` or `the app`.
+* **New:** Phrase search! `"the archive" OR #zettelkasten` will match, as expected, `the archive` but not `#thearchiveapp` or `the app`.
 
 ## v1.0.1 (2018-03-22)
 
