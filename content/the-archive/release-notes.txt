@@ -8,9 +8,13 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.1.6 (2019-01-09)
+## v1.1.7 (2019-01-14)
 
 Get the latest version on the "Cutting Edge" channel!
+
+- **Fixed:** Broken display of some preferences on High Sierra due to an Apple Bug that wasn't fixed back then, it seems.
+
+## v1.1.6 (2019-01-09)
 
 - **Fixed:** The new sidebar settings didn't adjust to large Saved Search icons.
 - **Fixed:** Preferences window sizing and animation did wobble in the past. 
