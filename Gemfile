@@ -10,7 +10,7 @@ gem 'sass', '~> 3'
 gem 'compass', '~> 1'
 
 gem 'guard', '~>2.8'
-gem 'guard-nanoc', '~>2.0.0'
+gem 'guard-nanoc', '~>2.1.0'
 gem 'terminal-notifier', '~>1.8'
 gem 'terminal-notifier-guard'
 
@@ -33,7 +33,7 @@ gem 'multi_json', '~> 1.3' # needed by uglifier
 gem 'rake'
 
 # needed to run nanoc autocompile
-gem 'rack'
+gem 'rack', ">= 2.0.6"
 gem 'mime-types'
 gem 'i18n'
 
@@ -45,7 +45,7 @@ gem 'systemu'
 
 # needed to run validations
 gem 'w3c_validators'
-gem 'nokogiri'
+gem 'nokogiri', ">= 1.8.5"
 
 # XML Sitemap
 gem 'builder'
