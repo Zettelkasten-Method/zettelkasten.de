@@ -8,9 +8,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.1.7 (2019-01-14)
+## v1.1.8 (2019-02-07)
 
-Get the latest version on the "Cutting Edge" channel!
+- **Fixed:** A couple of small memory leaks when you switch archives.
+- **Changed:** Improved the overall performance of the app by making the main event pipeline faster.
+- **Changed:** Selecting multiple notes empties the Omnibar. Previously, the title of one of the selected notes was still displayed in there, not corresponding to the fact you don't see an editor.
+- **New:** The Omnibar displays a placeholder text of a light shade.
+
+## v1.1.7 (2019-01-14)
 
 - **Fixed:** Broken display of some preferences on High Sierra due to an Apple Bug that wasn't fixed back then, it seems.
 
