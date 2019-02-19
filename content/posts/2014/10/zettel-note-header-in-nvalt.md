@@ -1,5 +1,5 @@
 ---
-title: Zettel Note Header Automation in NvALT
+title: Zettel Note Header Automation in nvALT
 created_at: 2014-10-09 21:41:00 +0200
 kind: article
 author: christian
@@ -8,7 +8,7 @@ vgwort: https://vg08.met.vgwort.de/na/eb5a7102855e4b4d875e88e998af70b5
 image: 201410092140_nv-script.png
 ---
 
-An essential priniciple of a _Zettelkasten_ is its flexibility. From there you can derive maxims like "you should avoid proprietary software", and "you should use plain text notes to ensure longevity". That's why I don't use a fancy application with lots of spectacular features but the simple [nvALT][nvz] instead. Here's how I automate note creation to speed up my workflow.
+An essential principle of a _Zettelkasten_ is its flexibility. From there you can derive maxims like "you should avoid proprietary software", and "you should use plain text notes to ensure longevity". That's why I don't use a fancy application with lots of spectacular features but the simple [nvALT][nvz] instead. Here's how I automate note creation to speed up my workflow.
 
 nvALT isn't a dedicated _Zettelkasten_ application. It doesn't know anything about identifiers or references or topic clusters. It only manages text files, and it's up to us to make a sense of it. We have to plug-in everything related to the _Zettelkasten_ method ourselves.
 
