@@ -32,7 +32,11 @@
         </footer>
     </article>
 
-    <% if Post::comments_allowed_for(@item) %>
+    <% if ENV['NANOC_ENV'] == 'development' %>
+    <aside id="comments">
+      Comments disabled in development
+    </aside>
+    <% elsif Post::comments_allowed_for(@item) %>
     <aside id="comments">
         <%= render '/_comments.*' %>
         <%= render '/_comments-disqus.*' %>
