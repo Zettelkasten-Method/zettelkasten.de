@@ -7,7 +7,7 @@
     <article class="post">
         <header>
             <h1 class="post__title title"><%= @item[:title] %></h1>
-            
+
             <ul class="post__meta">
                 <li class="time"><time datetime="<%= @item[:created_at] %>"><%= Post::time_tag_for(@item) %></time></li>
                 <li class="author"><%= Post::author_tag_for(@item) %></li>
@@ -16,13 +16,13 @@
 
             <%= Post::tom_pixel_for(@item) %>
         </header>
-        
+
         <% if item[:toc] %>
         {{TOC}}
         <% end %>
-        
+
         <%= yield %>
-        
+
         <footer>
             <ul class="post__meta">
                 <li>Tags: <%= Post::tags_for(@item) %></li>
