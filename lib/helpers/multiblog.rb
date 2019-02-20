@@ -152,6 +152,8 @@ module My
       end
       
       def teaser_for(item)
+        return unless use_excerpt?(item)
+
         path = teaser_path_for(item)
         return unless path
         
