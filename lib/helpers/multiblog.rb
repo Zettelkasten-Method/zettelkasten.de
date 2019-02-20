@@ -375,18 +375,19 @@ module My
       %Q{<figure class="post-figure"><a href="#{href}"><img alt="#{title}" src="#{file}" class="post-figure__image"/></a>#{figcaption}</figure>}
     end
     
+
+    def fulltext_for(item)
+      item.compiled_content(snapshot: :pre)
+    end
+
     def excerpt_for(item)
       if !use_excerpt?(item)
-        return item.compiled_content
+        return fulltext_for(item)
       end
       
       return item[:excerpt] unless item[:excerpt].nil?
-    
-      # html = Nokogiri::HTML(item.compiled_content)
-      # paragraphs = html.xpath('//p/text()').to_a
-      # 
-      # summary = paragraphs[0]
-      html = Nokogiri::HTML::DocumentFragment.parse(item.compiled_content)
+
+      html = Nokogiri::HTML::DocumentFragment.parse(fulltext_for(item))
       summary = ""
       
       html.css('p').each do |p, index|

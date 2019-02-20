@@ -15,9 +15,9 @@
         <%= Post::teaser_for(@post) %>
         <%= Post::excerpt_for(@post) %>
     <% else %>
-        <%= @post.compiled_content %>
+        <%= Post::fulltext_for(@post) %>
     <% end %>
-    
+
     <footer>
         <ul class="post__meta">
             <li><%= link_to("&infin; Permalink", @post.path) %></li>
