@@ -19,6 +19,7 @@ Here goes what's called "exposé" at my University, but which doesn't seem to be
 [chall]: /posts/challenge-apply-knowledge-cycle/
 [just]: http://www.amazon.com/gp/product/0674072251/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0674072251&linkCode=as2&tag=ctzettelkasten-20&linkId=MP7E2UA3B7CBG3FV
 
+**Update 2019-02-20:** I uploaded a plain text export of the notes to GitHub: <https://github.com/Zettelkasten-Method/ba-zettelkasten-justice-for-hedgehogs>
 
 ## Presentation of the Idea
 

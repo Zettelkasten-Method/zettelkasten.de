@@ -14,6 +14,8 @@ I've made a lot of progress using Evernote for my term paper. As [announced][ann
 
 **Update 2018-03-13**: You can publish notebooks for public viewing again! Here's the link: <https://www.evernote.com/pub/divinedominion/zettelkastenjusticeforhedgehogs>
 
+**Update 2019-02-20:** I uploaded a plain text export to GitHub: <https://github.com/Zettelkasten-Method/ba-zettelkasten-justice-for-hedgehogs>
+
 ## Invitation 
 
 If you want to have a look at all the Zettel notes in the project archive, drop me an e-mail or get in touch on Twitter. Either way, I need your e-mail address. You find my contact info [on the about page](/legal/). 
