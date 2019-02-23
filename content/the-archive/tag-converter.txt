@@ -14,7 +14,7 @@ The TagConverter utility takes a directory of files and attempts to insert all m
 
 **No Duplicates:** If your plain text file has the Finder tags "Inbox, Outline, Project-X", and contains `#outline` somewhere in the contents already, the TagConverter will only insert `#Inbox` and `#Project-X` into the file. 
 
-- **[Direct Download](http://thearchive.s3.amazonaws.com/TagConverter-v1.0.zip)**
+- **[Direct Download](https://dlyfuw95744jo.cloudfront.net/TagConverter-v1.0.zip)**
 - Requires macOS 10.11 or later.
 - Free!
 - [Open Source on GitHub](https://github.com/Zettelkasten-Method/macOS-Tag-Converter), distributed under the MIT License.
