@@ -8,6 +8,10 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.1.9 (2019-02-28)
+
+- **Fixed:** "What's New" launch dialog is now Mojave dark-mode ready, and doesn't appear on first launch anymore, but only after you update.
+
 ## v1.1.8 (2019-02-07)
 
 - **Fixed:** A couple of small memory leaks when you switch archives.
