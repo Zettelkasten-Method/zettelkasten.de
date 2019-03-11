@@ -8,7 +8,15 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.1.9 (2019-02-28)
+## v1.1.11 (2019-03-09)
+
+- **Fixed:** Temporary memory leak when switching archives.
+- **Fixed:** Sort order when copying notes is maintained. Also, it's faster.
+- **Changed:** When your drive's Finder Trash is broken or doesn't exist, the app then tries to removes instead of trash the file.
+- **Changed:** Improves the undo/redo cycles of note creation and deletion so you don't get as many failure dialogs, e.g. when you sync your archive via Dropbox.
+- **Changed:** Cleaned up and simplified a lot of the behind-the-scenes handling of most of what the app does. Speed increase is negligible, sadly :)
+
+## v1.1.10 (2019-03-05)
 
 - **Fixed:** "What's New" launch dialog is now Mojave dark-mode ready, and doesn't appear on first launch anymore, but only after you update.
 
