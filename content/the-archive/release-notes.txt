@@ -8,6 +8,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.2.0 Beta (2019-03-14)
+
+- **New:** Back/forward navigation! 
+    * _The Archive_ now sports a history of displayed notes: you can navigate back and forward to get to previously displayed notes and back again.
+    * Since the convention for indenting/outdenting text is <kbd>Cmd+]</kbd>/<kbd>Cmd+[</kbd> respectively, and since <kbd>Ctrl</kbd> + arrow keys is used to jump around in text, the shortcut for navigation is <kbd>Cmd-Ctrl</kbd> + arrow keys like in some web browsers and e.g. Xcode.
+    * You can Show/Hide the new Navigation Buttons (from the "View" menu).
+- **New:** Inter-app-identification like it's the 80s: Added `ZkTA` as the shorthand app identifier. You probably cannot do much with it directly, but some 3rd party apps like spell-checkers may rely on this to perform their ... checking ... of spells.
+
 ## v1.1.11 (2019-03-09)
 
 - **Fixed:** Temporary memory leak when switching archives.
