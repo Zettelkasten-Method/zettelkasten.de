@@ -7,7 +7,7 @@ RewriteEngine On
 
 # The Archive Shortlinks
 RewriteRule ^the-archive/buy(.*)$ https://zettelkasten.onfastspring.com/the-archive?source=shortlink [R=303,L]
-RewriteRule ^the-archive/download(.*)$ http://dlyfuw95744jo.cloudfront.net/TheArchive-v1.1.9.dmg.zip [R=303,L]
+RewriteRule ^the-archive/download(.*)$ http://dlyfuw95744jo.cloudfront.net/TheArchive-v1.1.11.dmg.zip [R=303,L]
 RewriteRule ^forum(.*)$ https://forum.zettelkasten.de/ [R=303,L]
 
 # The Archive canonical theme repo link
