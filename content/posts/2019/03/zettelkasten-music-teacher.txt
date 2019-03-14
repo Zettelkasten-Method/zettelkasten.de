@@ -1,0 +1,17 @@
+---
+title: Using The Archive to Teach Music
+created_at: 2019-03-14 10:34:38 +0100
+kind: article
+author: christian
+tags: [ music, thearchiveapp ]
+image: "20190314105356_foley-archive-music.png"
+url: https://www.foleymusicandarts.com/blog/2019/3/5/how-i-use-the-archive-and-my-music-staff-to-create-engaging-lesson-notes
+---
+
+<%= insert_teaser_image title: "Screenshot of Dr. Foley's archive", caption: %{An example note by Dr. Foley} %>
+
+Dr. Christopher Foley is a piano teacher based in Toronto, Canada. He set up The Archive to write, send, and curate lesson notes for his piano students. Read ["How I Use The Archive and My Music Staff to Create Engaging Lesson Notes"](https://www.foleymusicandarts.com/blog/2019/3/5/how-i-use-the-archive-and-my-music-staff-to-create-engaging-lesson-notes).
+
+**Christian's Comment:** I'm familiar with programming and the humanities, but I always wondered how a Zettelkasten could work for fine arts -- or music, for that matter. I'm looking forward to hear progress reports by Dr. Foley that go into detail!
+
+**Sascha's Comment:** I think that shows the power of a plain text approach. Basically, all you need to do is to manipulate text. That means that you should set up a system that makes your manipulation abilities so powerful that the bottleneck in your workflow is not determined by your fingers but by your thinking. Great work, Doc. :)
