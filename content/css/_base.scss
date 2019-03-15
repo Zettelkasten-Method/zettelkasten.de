@@ -88,7 +88,7 @@ label, input { font-family: $font-sans; }
 }
 
 
-.header-container { 
+.header-container {
   background-color: #B5CB30;
   background-image: url('/img/header.png');
   background-repeat: repeat-x;
@@ -143,7 +143,7 @@ nav a:hover {
     color: $color;
     border-bottom-color: transparent;
     background: rgba(255,255,255,0.2);
-    
+
     .nav__icon .iconic-property-fill {
       fill: $color;
     }
@@ -199,8 +199,8 @@ figure {
 figure a, figure a:hover {
   border-bottom-color: transparent;
 }
-code, pre { 
-  font-family: $font-mono; 
+code, pre {
+  font-family: $font-mono;
   font-size: 90%; // about the same x-height
 }
 
@@ -229,7 +229,7 @@ code, pre {
 
 ul > li > p { margin-top: 0; }
 
-blockquote { 
+blockquote {
   font-style: italic;
   i, em { font-style: normal; }
 }
@@ -245,7 +245,7 @@ blockquote {
   margin-left: 0;
   list-style-type: none;
   font-size: $small-size;
-  
+
   li { display: inline-block; }
 }
 
@@ -258,7 +258,7 @@ blockquote {
   display: inline;
   padding-left: 0;
   margin-left: 0;
-  
+
   li {
     display: inline;
     list-style: none;
@@ -269,8 +269,8 @@ blockquote {
 /** Blog archive */
 
 .posts__browse { font-size: $large-base-size; font-family: $font-sans; }
-.allposts__post {} 
-.minimalpost{} 
+.allposts__post {}
+.minimalpost{}
 .post--minimal {}
 .minimalpost__title {}
 .minimalpost__time { font-size: $small-size; font-family: $font-sans; }
@@ -288,13 +288,13 @@ blockquote {
   font-size: 0.8em;
 }
 
-#posts table { 
+#posts table {
   font-family: $font-sans;
   font-size: $small-size;
   margin: 0 auto;
   th,
-  td { 
-    padding: 0.3em 1em; 
+  td {
+    padding: 0.3em 1em;
   }
 }
 
@@ -318,9 +318,9 @@ blockquote {
 .tool-author--single h3, .tool-review h3 { margin-right: 0.5em; }
 
 .post { margin-bottom: 3em; }
-.post__title { 
-  margin-bottom: 0; 
-  line-height: 1.2em; 
+.post__title {
+  margin-bottom: 0;
+  line-height: 1.2em;
 }
 .post__meta { margin-top: 0; }
 .post-figure {
@@ -341,16 +341,16 @@ blockquote {
   max-width: 100%;
   box-sizing: border-box;
 }
-.post-figure__caption { 
+.post-figure__caption {
   font-size: $small-size;
   margin-top: 1em;
 }
 .teaser__image { }
-.footnotes { 
+.footnotes {
   border-top: 3px solid $color-separator;
   margin-top: 3em;
 
-  font-size: $small-size; 
+  font-size: $small-size;
   p { margin-bottom: 0; margin-top: 0; }
 }
 
@@ -368,7 +368,7 @@ hr {
   max-width: 60%;
 }
 
-.book_cover { 
+.book_cover {
   max-width: 60%;
 }
 
@@ -381,11 +381,11 @@ hr {
   body {
     font-size: $large-base-size;
   }
-  
+
   .tool {
-    font-size: $small-size; 
+    font-size: $small-size;
   }
-  
+
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
@@ -405,7 +405,7 @@ hr {
   nav li:last-child a {
       margin-right: 0;
   }
-  
+
   .header__title {
     font-size: 220%;
     width: 8em;
@@ -416,7 +416,7 @@ hr {
   }
 
   .tool-icon { max-width: 100%; }
-  
+
   nav ul li {
       display: inline;
   }
@@ -433,13 +433,18 @@ hr {
     margin-bottom: .4em;
   }
   .the-archive .header__title { font-size: 220%; }
-  
+
   .post-figure__image {
     border: 1px solid #d4d4d4;
     padding: 0.25em;
     background: #fff;
   }
-  
+  .post-figure--borderless .post-figure__image {
+    border-color: transparent;
+    padding: 0;
+    background: transparent;
+  }
+
   .post-teaser {
     max-width: 40%;
     float: right;
@@ -447,22 +452,22 @@ hr {
     margin-top: 1em;
     margin-bottom: 0;
   }
-  
+
   .main article h1 { font-size: 2em; }
-  
+
   .post__title { margin-top: 1.5em; }
-  
+
   .textexpander__image {
     max-width: 8em;
   }
-  
+
   .book_cover {
     float: left;
     max-width: 30%;
     margin-right: 1em;
     margin-bottom: 1em;
   }
-  
+
   h2 { clear: both; }
 }
 
@@ -480,12 +485,12 @@ hr {
     width: 920px;
     margin: 0 auto;
   }
-  figure { 
+  figure {
     /* figure used negative margins to display to-the-edge on mobile */
     margin-left: 40px;
     margin-right: 40px;
   }
-  
+
   .main, .footer-main {
     padding-left: 2em;
     padding-right: 2em;
@@ -495,12 +500,12 @@ hr {
     font-size: 466%;
   }
   .the-archive .header__title { font-size: 220% };
-    
-  nav a { 
+
+  nav a {
     padding-top: 0.8em;
     padding-bottom: 0.8em;
   }
-  
+
   .tool ul { padding-left: 0; }
 }
 

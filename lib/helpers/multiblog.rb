@@ -350,18 +350,19 @@ module My
       '/img/blog/' + @item[:image]
     end
 
-    def insert_teaser_image(title: "", caption: "", link: nil)
+    def insert_teaser_image(title: "", caption: "", link: nil, border: true)
       insert_image(file: teaser_image_path(),
                    title: title,
                    caption: caption,
-                   link: link)
+                   link: link,
+                   border: border)
     end
 
-    def insert_rel_image(file: nil, title: "", caption: "", link: nil, relative: nil)
-      insert_image(file: rel_url_for(file), title: title, caption: caption, link: link, relative: relative)
+    def insert_rel_image(file: nil, title: "", caption: "", link: nil, relative: nil, border: true)
+      insert_image(file: rel_url_for(file), title: title, caption: caption, link: link, relative: relative, border: border)
     end
 
-    def insert_image(file: nil, title: "", caption: "", link: nil, relative: nil)
+    def insert_image(file: nil, title: "", caption: "", link: nil, relative: nil, border: true)
       raise "file expected" unless file
 
       href = link || unless relative.nil?
@@ -372,7 +373,8 @@ module My
 
       figcaption = %Q{<figcaption class="post-figure__caption">#{caption}</figcaption>} if caption
 
-      %Q{<figure class="post-figure"><a href="#{href}"><img alt="#{title}" src="#{file}" class="post-figure__image"/></a>#{figcaption}</figure>}
+      border_class = (border == true) ? "" : "post-figure--borderless"
+      %Q{<figure class="post-figure #{border_class}"><a href="#{href}"><img alt="#{title}" src="#{file}" class="post-figure__image"/></a>#{figcaption}</figure>}
     end
 
     def fulltext_for(item)

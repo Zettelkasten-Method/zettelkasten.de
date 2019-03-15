@@ -1,0 +1,24 @@
+---
+title: The Archive Turns 1 Year Old!
+created_at: 2019-03-15 09:39:30 +0100
+kind: article
+author: christian
+tags: [ thearchiveapp ]
+image: 20190314193821_confetti.png
+---
+
+<%= insert_teaser_image title: "birthday screenshot", link: "https://zettelkasten.onfastspring.com/the-archive?source=zettelkasten", border: false %>
+
+This day a year ago, The Archive became publicly available for sale! 
+
+To celebrate, we chopped **50% off** of the regular price for 5 days.
+
+You can now also purchase a license for a friend, colleague, family member, or your favorite pet by using the new _Gift Purchase_ option in our store.
+
+<div class="the-archive">
+  <div class="actions hero">
+    <div class="action__item action__item--button">
+      <a href="https://zettelkasten.onfastspring.com/the-archive?source=zettelkasten" class="action action--buy">Buy at 50% Off</a>
+    </div>
+  </div>
+</div>
