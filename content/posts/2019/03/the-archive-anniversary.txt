@@ -15,10 +15,4 @@ To celebrate, we chopped **50% off** of the regular price for 5 days.
 
 You can now also purchase a license for a friend, colleague, family member, or your favorite pet by using the new _Gift Purchase_ option in our store.
 
-<div class="the-archive">
-  <div class="actions hero">
-    <div class="action__item action__item--button">
-      <a href="https://zettelkasten.onfastspring.com/the-archive?source=zettelkasten" class="action action--buy">Buy at 50% Off</a>
-    </div>
-  </div>
-</div>
+_The sale is over! Thank you all very much for the amazing year!_
