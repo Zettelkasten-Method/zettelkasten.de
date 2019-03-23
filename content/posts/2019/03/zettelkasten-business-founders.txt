@@ -1,0 +1,14 @@
+---
+title: Zettelkasten and Personal Knowledge Management for Business Founders
+created_at: 2019-03-22 15:22:28 +0100
+kind: article
+author: christian
+tags: [ entrepreneur ]
+url: https://tinylittlebusinesses.com/zettelkasten-method
+---
+
+André Chaperon got in touch and told us how much he loves The Archive and the Zettelkasten Method -- and then went on to summarize the gist of the method and app usage for his fellowship of small business owners. His process includes paper-based notes, which are taken in a leisurely manner, meant to be thrown away later manner, and ends with Tinderbox-based visualizations to get an overview. With all the "Getting Started" links and helpful details, this is a great resource to get started. Read ["How to create Idea Babies: A Knowledge Processing System for Marketers, Creators, and Knowledge Workers"](https://tinylittlebusinesses.com/zettelkasten-method/).
+
+**Sascha's Comment:** Use cases are very interesting. If you think about them they can give you great insights into the method of creative knowledge work, especially if the particular use case is not from your field of expertise. As a scientist you can learn a lot from a small business owner. The similarities allow you to extract general rules of creative knowledge work. 
+
+**Christian's Comment:** André's post could be the starting point you've been missing on this very website for so long. His summary of the Zettelkasten Method is spot-on. I really like that he presents a full slice of a piece of work, from summarization on paper to notes because that makes it so much more valuable. (I may be biased after André opened the conversation with a declaration of his love for [_The Archive_](https://zettelkasten.de/the-archive/). Full disclosure: I'm the developer of said app :))
