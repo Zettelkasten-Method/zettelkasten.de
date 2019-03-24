@@ -8,6 +8,13 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.2.1 Beta (2019-03-24)
+
+- **Fixed:** Navigating backwards into the past a lot resulted in forgetting how to get back to the future.
+- **Fixed:** Error dialog when navigating back to a note that was deleted. Deleting a note that was selected according to your history records now results in the history entry being removed. 
+- **Fixed:** Similarly, no errors after renaming a note that was part of history anymore. Renaming a note results in rewriting affected history items. Oceania had always been at war with Eastasia.
+- **New:** You can navigate back from a search that yields no results, and then forward again. (Previously, only displaying a note would be added to the navigation history, so if you typed without changing the displayed note, as far as the app was concerned, you still were at the last item in the history.)
+
 ## v1.2.0 Beta (2019-03-14)
 
 - **New:** Back/forward navigation! 
