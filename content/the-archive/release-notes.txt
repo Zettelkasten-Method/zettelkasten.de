@@ -8,6 +8,12 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.2.2 Beta (2019-03-30)
+
+- **Fixed:** Regression introduced in v1.2.1 where the search results wouldn't update when you triggered a similar search multiple times (e.g. clicked on tags) or invoked Saved Searches.
+- **Changed:** Improved performance. In some cases, updates to the search result list happen faster now.
+- **New:** Touch Bar buttons for the navigation controls.
+
 ## v1.2.1 Beta (2019-03-24)
 
 - **Fixed:** Navigating backwards into the past a lot resulted in forgetting how to get back to the future.
