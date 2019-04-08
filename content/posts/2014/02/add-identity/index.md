@@ -18,7 +18,7 @@ The objective of a _Zettelkasten_ note archive is to store notes and allow conne
 
 To create links, you'll need to define **targets** first.  This is how I do it:  every _Zettel_ note gets its own unique ID.  It is time-based, and a timestamp like "2014-02-26 9:39am" is concatenated and turns into "201402260939", for example.
 
-Whenever I **reference** a note, I use the target's ID and prefix my reference-glyph of choice, the paragraph sign (`§`).  This way, I end up with `§201402260939`.  When I read a note, this is enough to give away that I'm linking to a note.  The reference glyph is useful to distinguish a thing itself, the note and its ID, from references to the thing.
+Whenever I **reference** a note, I use the target's ID and prefix my reference-glyph of choice, the section sign (`§`).  This way, I end up with `§201402260939`.  When I read a note, this is enough to give away that I'm linking to a note.  The reference glyph is useful to distinguish a thing itself, the note and its ID, from references to the thing.
 
 <%= insert_teaser_image title: "searching", caption: %Q{Photo Credit: <a href="http://www.flickr.com/photos/15577588@N00/1831955837/">chrisbb@prodigy.net</a>, <a href="http://creativecommons.org/licenses/by/2.0/">cc</a>}, link: "http://www.flickr.com/photos/15577588@N00/1831955837" %>
 
@@ -105,3 +105,7 @@ Try to come up with use cases where an ID could come in handy.  I use IDs for re
 Tell me where this might be useful in your workflow!
 
 [dayone]: http://dayoneapp.com/
+
+---
+
+**Update 2019-04-08:** Previously, I called `§` the "paragraph sign". It's now properly called "section sign". Why did we call it "paragraph sign" all the time? When referencing legal documents in German, you read "§13b" as "paragraph 13b", so we got used to this and introduced it as a false friend over time. Thanks Paul J. Miller for the correction!
