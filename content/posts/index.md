@@ -1,5 +1,5 @@
 ---
-title: Post Archive
+title: Blog Post Archive
 ---
 
 **Getting started:** look at the [curated article overview](/posts/overview/)!
