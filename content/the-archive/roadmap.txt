@@ -36,13 +36,18 @@ That's what you'll get with a license for version 1. There will be an upgraded v
 <%= render '/_the-archive-actions.*', :position => 'roadmap' %>
 
 
-## Version 2: The Workbench
+## Version 2: The Integrated Thinking Environment
 
-The second version of *The Archive* is all about creating a virtual desktop or workbench for your creative knowledge work. We will stick to our core beliefs of building nimble software that puts you in control. You decide how you want to work. A system for creative knowledge work is more about than just input and output to a pile of notes. It's about crafting and tinkering.
+The second version of *The Archive* is all about creating a desktop for your creative knowledge work. We will stick to our core beliefs of building nimble software that puts you in control. You decide how you want to work. A system for creative knowledge work is more than just input to and output from a pile of notes. It's about crafting and tinkering.
 
-What are the benefits of this version for you? You will rise a level above the notes and see more of your archive from a bird's perspective. This will enable you to dominate more complex structures in text and other bodies of knowledge like images, diagrams, and audio. Examples include: Dealing with a doctoral thesis; crafting arguments for debates; controlling structure and coherence in books; and writing well-researched blog posts.
+What are the benefits of this version for you? You will rise above the notes and see more of your archive from a bird's perspective. This will enable you to dominate more complex structures in text and other bodies of knowledge like images, diagrams, and audio. Examples include: 
 
-The features of this version also include greatly expanded support of [structure notes](https://zettelkasten.de/posts/three-layers-structure-zettelkasten/). Those are notes -- Zettel, as we call them -- that enrich the relations between notes.
+- Dealing with a doctoral thesis; 
+- crafting arguments for debates; 
+- controlling structure and coherence in books; 
+- and writing well-researched blog posts.
+
+The features of this version also include greatly expanded support of [structure notes](https://zettelkasten.de/posts/three-layers-structure-zettelkasten/). Those are notes -- _zettel,_ as we call them -- that enrich the relations between notes.
 
 Version 2 of *The Archive* transforms the note-management application into a fully Integrated Thinking Environment.[^2019-04-08-michael].
 
