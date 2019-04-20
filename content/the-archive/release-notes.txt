@@ -8,6 +8,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.2.3 Beta (2019-04-20)
+
+- **Fixed:** Clear search button in the Omnibar was obstructed and didn't work and sometimes didn't even display.
+- **Fixed:** Dark theme setting is stored properly and doesn't fall back to "Tomorrow".
+- **Fixed:** Trying to delete a note twice when you cancel the first confirmation request: I introduced a bug where the second try wasn't recognized as a new deletion attempt and got ignored completely.
+- **Fixed:** In the _Saved Searches_ editor, the color of the search terms was black on blue and is now properly highlighted.
+- **New:** Global bring-to-front hotkey to search quickly from anywhere while the app is running.
+
 ## v1.2.2 Beta (2019-03-30)
 
 - **Fixed:** Regression introduced in v1.2.1 where the search results wouldn't update when you triggered a similar search multiple times (e.g. clicked on tags) or invoked Saved Searches.
