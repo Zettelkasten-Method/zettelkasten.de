@@ -8,6 +8,12 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.2.4 Beta (2019-04-29)
+
+- **Fixed:** Graphics glitches on macOS 10.13.x in the Theme Updater window during the fade animations.
+- **Fixed:** Renaming notes externally now updates the note result list again; the regression was introduced in v1.2.2b.
+- **New:** Save and restore the scroll position for each note. When you enable "Highlight search terms", the editor will still scroll to show the first match. This does get rid of weird situations like scrolling down in a long note, then selecting a short one, and ending up way down at the bottom of it, too.
+
 ## v1.2.3 Beta (2019-04-20)
 
 - **Fixed:** Clear search button in the Omnibar was obstructed and didn't work and sometimes didn't even display.
