@@ -59,7 +59,7 @@ A very common mistake I have made a lot of times is ignoring the difference betw
 
 The third and last layer of evidence is the level of synthesis. This layer is to the second what the second is to the first. You take the entities as building blocks for the bigger picture. You string together hypothesis, theories, models and more create something that is useful, interesting, entertaining and what not.
 
-Christian pointed out that this section is suspiciously short. That is because this is layer is on the edge between your Zettelkasten and your writing environment. We are about to leave knowledge work and approach writing. I want to focus on the former.
+Christian pointed out that this section is suspiciously short. That is because this layer is on the edge between your Zettelkasten and your writing environment. We are about to leave knowledge work and approach writing. I want to focus on the former.
 
 ## Further Examples
 
