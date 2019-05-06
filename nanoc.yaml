@@ -24,9 +24,8 @@ meta_data:
   author_email: christian.tietze@gmail.com
   description: "The Zettelkasten note-taking method has made book writing and writing scientific papers easy for hundreds of years already."
   copyright: "CC:BY-NC-SA Christian Tietze, Sascha Fast <http://creativecommons.org/licenses/by-nc-sa/3.0>"
-  ga_tracking_code: UA-33981409-3
   lang: 'en'
-  
+
 prune:
   auto_prune: false
   exclude: [ '.git', '.hg', '.svn', 'CVS' ]
