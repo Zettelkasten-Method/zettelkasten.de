@@ -8,7 +8,12 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.2.4 Beta (2019-04-29)
+
+## v1.2.5 Beta (2019-05-07)
+
+- **Fixed:** Launch bug from v1.2.4 Beta 1.
+
+## v1.2.4 Beta (2019-05-04)
 
 - **Fixed:** Graphics glitches on macOS 10.13.x in the Theme Updater window during the fade animations.
 - **Fixed:** Renaming notes externally now updates the note result list again; the regression was introduced in v1.2.2b.
