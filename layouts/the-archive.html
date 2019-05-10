@@ -3,4 +3,17 @@
     <%= yield %>
 </div>
 <script id="fsc-api" src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.5/fastspring-builder.min.js" type="text/javascript" data-storefront="zettelkasten.onfastspring.com/popup-zettelkasten"></script>
+
+<!-- SHA popover -->
+<script src="https://unpkg.com/popper.js@1"></script>
+<script src="https://unpkg.com/tippy.js@4"></script>
+<script>
+  tippy('.sha-button', {
+    trigger: 'click',
+    interactive: true,
+    content: "SHA256 Checksum:\n1bbbb4f82f7dde6ec359367e5708edab5d3b63725149f8a53ddf684461b6f288",
+    arrow: true,
+    maxWidth: '40em'
+  })
+</script>
 <% end %>

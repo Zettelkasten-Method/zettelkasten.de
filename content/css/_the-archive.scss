@@ -471,3 +471,13 @@ $fatbarWidth: 8%;
   opacity: 1;
   @include animation('blink 1.5s ease-in-out infinite');
 }
+
+.sha-button {
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  background-color: #a9a9a9;
+  font-size: 80%;
+  text-transform: uppercase;
+}
+.tippy-content { font-family: $font-sans; }
