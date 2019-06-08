@@ -36,11 +36,12 @@
     <aside id="comments">
       Comments disabled in development
     </aside>
-    <% elsif Post::comments_allowed_for(@item) %>
+    <% else #elsif Post::comments_allowed_for(@item) %>
     <aside id="comments">
         <%= render '/_comments.*' %>
         <%= render '/_comments-disqus.*' %>
     </aside>
     <% end %>
+
 </section>
 <% end %>
