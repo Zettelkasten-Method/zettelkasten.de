@@ -1,0 +1,18 @@
+---
+title: The Archive (v1.3.0) Browser Navigation
+created_at: 2019-06-08 22:12:29 +0200
+kind: article
+author: christian
+tags: [ announcement, thearchiveapp ]
+image: 20190608221335_nav-bar.jpg
+---
+
+We're proud to announce the latest big update to [The Archive][ta]! It adds browser-like navigation, so you can get back to the results of an old search quickly.
+
+<%= insert_rel_image file: "20190608221134_browser-nav.gif", caption: %{The navigation in action. I enjoy going back and forth in time, I have to admit.} %>
+
+This will be super useful in your workflow, especially when you often get lost in a rabbit hole. When you're done following links, hit the back button to get to your starting point. No need to remember what exactly you did search for; no need to keep note IDs in the clipboard to get back to the start.
+
+**[Download the new version][ta]** from the website and check it out. This update is free for existing customers, as per [our update policy and feature promise!](https://zettelkasten.de/the-archive/roadmap/)
+
+[ta]: https://zettelkasten.de/the-archive
