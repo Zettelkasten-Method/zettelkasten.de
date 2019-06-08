@@ -8,8 +8,11 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-<!--
-## v1.2.4
+## v1.3.0 (2019-06-08)
+
+Introducing a note navigation history you'll recognize from any web browser ever!
+
+This is a compilation of all the important changes leading up to v1.3.0 since v1.1.10:
 
 - **Fixed:** Error dialogs popping up when you externally delete the currently displayed note.
 - **Fixed:** Trying to delete a note twice when you cancel the first confirmation request: I introduced a bug where the second try wasn't recognized as a new deletion attempt and got ignored completely.
@@ -17,8 +20,10 @@ layout: the-archive
 - **Fixed:** Dark theme setting is stored properly and doesn't fall back to "Tomorrow".
 - **Fixed:** Clear search button in the Omnibar was obstructed and didn't work and sometimes didn't even display.
 - **Fixed:** Graphics glitches on macOS 10.13.x in the Theme Updater window during the fade animations.
+- **Fixed:** Hashtag recognition for non-English characters that rely on character connectors a lot.
 - **Changed:** Improved performance. In some cases, updates to the search result list happen faster now.
 - **Changed:** Renaming a note in your search result list that was actually removed from disk will restore the contents to the new location instead of showing an error dialog.
+- **Changed:** Renaming a note inside the app does not affect modification date anymore.
 - **New:** Back/forward navigation! 
     * _The Archive_ now sports a history of displayed notes: you can navigate back and forward to get to previously displayed notes and back again.
     * Since the convention for indenting/outdenting text is <kbd>Cmd+]</kbd>/<kbd>Cmd+[</kbd> respectively, and since <kbd>Ctrl</kbd> + arrow keys is used to jump around in text, the shortcut for navigation is <kbd>Cmd-Ctrl</kbd> + arrow keys like in some web browsers and e.g. Xcode.
@@ -28,7 +33,14 @@ layout: the-archive
 - **New:** Global bring-to-front hotkey to search quickly from anywhere while the app is running.
 - **New:** Save and restore the scroll position for each note. When you enable "Highlight search terms", the editor will still scroll to show the first match. This does get rid of weird situations like scrolling down in a long note, then selecting a short one, and ending up way down at the bottom of it, too.
 - **New:** Inter-app-identification like it's the 80s: Added `ZkTA` as the shorthand app identifier. You probably cannot do much with it directly, but some 3rd party apps like spell-checkers may rely on this to perform their ... checking ... of spells.
--->
+
+
+## v1.3.0 Beta (2019-06-08)
+
+- **Fixed:** Removing a note from within the app will make it recoverable when you navigate back in the history. Previously, this would work fine for external note deletions, but deletions from within the app were ignored. remove it from all history records. This prevents outdated historic search results producing "cannot read this note from disk" errors when you click on affected notes. There is no undoing of this effect to the history.
+- **Fixed:** Hashtag recognition for non-English characters that rely on character connectors a lot.
+- **Fixed:** When you remove a file externally and then delete the note from your cached search results, you no longer get an error that the file could not be found. The app proceeds with removing the search result.
+- **Changed:** Renaming a note inside the app does not affect modification date anymore.
 
 ## v1.2.6 Beta (2019-05-17)
 
