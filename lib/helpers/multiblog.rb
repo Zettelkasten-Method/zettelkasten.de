@@ -48,7 +48,7 @@ module My
 
       def comment_link_for(item)
         href = item.path + '#comments'
-        link_to("Comments", href)
+        link_to("Comments", href, "vanilla-identifier" => Comments::identifier_for(item))
       end
 
       def is_imported?(item)
