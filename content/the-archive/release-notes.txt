@@ -8,6 +8,15 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+
+## v1.3.1 (2019-07-06)
+
+- **Fixed:** Using `thearchive://` URL scheme actions while the app doesn't run works now. Previously, the app would open but the action didn't execute, now it will.
+- **Fixed:** Crash on some devices on external file changes. This was due to concurrent read _and_ write access to the search index.
+- **New:** Added an [Internet Access Policy](https://obdev.at/iap/) so you get info about when and why the app is establishing a network connection to download updates.
+- **New:** Added an automatic crash reporter to help you submit crashes.
+
+
 ## v1.3.0 (2019-06-08)
 
 Introducing a note navigation history you'll recognize from any web browser ever!
