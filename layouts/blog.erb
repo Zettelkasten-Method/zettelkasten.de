@@ -32,16 +32,9 @@
         </footer>
     </article>
 
-    <% if ENV['NANOC_ENV'] == 'development' %>
-    <aside id="comments">
-      Comments disabled in development
-    </aside>
-    <% else #elsif Post::comments_allowed_for(@item) %>
     <aside id="comments">
         <%= render '/_comments.*' %>
         <%= render '/_comments-disqus.*' %>
     </aside>
-    <% end %>
-
 </section>
 <% end %>
