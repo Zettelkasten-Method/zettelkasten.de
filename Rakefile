@@ -25,6 +25,7 @@ task :generate do
 end
 
 task :deploy => [:generate, :thumb] do
+  ENV['NANOC_ENV'] = 'deployment'
   puts "Deploying website to server..."
   system "nanoc deploy"
   notify("Deploying site finished")
@@ -42,27 +43,27 @@ end
 
 desc "Create thumbnails of blog post images"
 task :thumb do
-  
+
   puts "Creating missing thumbnails ..."
-  
+
   dest = File.join(__dir__, "output", "img", "blog")
-  
+
   FileUtils.mkpath(dest)
-  
+
   Dir[File.join(__dir__, "blog_img", "*")].each do |path|
     file = File.basename(path)
 
     out_large = File.join(dest, file)
     out_thumb = File.join(dest, file).pathmap "%X-thumbnail%x"
-    
+
     unless File.exists?(out_large) || File.exists?(out_thumb)
       puts "... #{file}"
-    
-      to_thumb(path, out_large, 1200) 
+
+      to_thumb(path, out_large, 1200)
       to_thumb(path, out_thumb, 500)
     end
   end
-  
+
   puts "... done."
 end
 

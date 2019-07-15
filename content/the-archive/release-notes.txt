@@ -9,6 +9,11 @@ layout: the-archive
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
 
+## v1.3.2 (2019-07-15)
+
+- **Changed:** Reduced size of the app by ~10 MiB.
+- **Changed:** Improved performance and responsiveness of searches.
+
 ## v1.3.1 (2019-07-06)
 
 - **Fixed:** Using `thearchive://` URL scheme actions while the app doesn't run works now. Previously, the app would open but the action didn't execute, now it will.
