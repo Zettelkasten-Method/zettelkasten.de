@@ -8,6 +8,9 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.3.3 (2019-07-29)
+
+- **New:** Ability to have multiple _workspaces_. These would be rendered as tabs on modern macOS versions by default. Pre-macOS 10.12, you'll have multiple windows instead.
 
 ## v1.3.2 (2019-07-15)
 
