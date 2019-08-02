@@ -8,11 +8,35 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.3.3 (2019-07-29)
+<!--
+## v1.4.0
+
+Introduces multiple windows and tabs.
+
+Changes since v1.3.0:
+
+- **Fixed:** Using `thearchive://` URL scheme actions while the app doesn't run works now. Previously, the app would open but the action didn't execute, now it will.
+- **Fixed:** Crash on some devices on external file changes. This was due to concurrent read _and_ write access to the search index.
+- **Fixed:** Confirming a rename with the return key did not focus the result list again so that keyboard up/down navigation would not work.
+- **Changed:** Reduced size of the app by ~10 MiB and improved performance.
+- **New:** Ability to have multiple _workspaces_. These would be rendered as tabs on modern macOS versions by default. Pre-macOS 10.12, you'll see multiple windows instead.
+- **New:** Added an [Internet Access Policy](https://obdev.at/iap/) so you get info about when and why the app is establishing a network connection to download updates.
+- **New:** Added an automatic crash reporter to help you submit crashes.
+-->
+
+## v1.3.4 Beta (2019-07-31)
+
+- **Fixed:** When you selected multiple notes and hit Esc, the Omnibar would clear but no search was triggered. As a side-effect, hitting Esc multiple times in a row now effectively reloads the search.
+- **Fixed:** Hitting Esc used to set an empty note selection twice in a row, which is now fixed. This should not have impacted perceivable performance at all for anyone, but is still an improvement in principle.
+- **Fixed:** When the Omnibar contains more text than it can fit, it smoothly scrolls when you navigate past the edges e.g. with the arrow keys.
+- **Fixed:** Confirming a rename with the return key did not focus the result list again so that keyboard up/down navigation would not work.
+- **Changed:** User interface adjustments to look better with the tab bar visible.
+
+## v1.3.3 Beta (2019-07-29)
 
 - **New:** Ability to have multiple _workspaces_. These would be rendered as tabs on modern macOS versions by default. Pre-macOS 10.12, you'll have multiple windows instead.
 
-## v1.3.2 (2019-07-15)
+## v1.3.2 Beta (2019-07-15)
 
 - **Changed:** Reduced size of the app by ~10 MiB.
 - **Changed:** Improved performance and responsiveness of searches.
