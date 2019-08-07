@@ -24,6 +24,7 @@ The following big features are planned to be added to version 1:
   <li class="todo done">Boolean search expressions</li>
   <li class="todo done">Dark Mode</li>
   <li class="todo done">Browser-Type Navigation</li>
+  <li class="todo done">Multiple tabs/windows</li>
   <li class="todo">Scriptability</li>
   <li class="todo">Tag Index</li>
   <li class="todo">Mass Text Replacement</li>
