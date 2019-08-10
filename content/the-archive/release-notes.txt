@@ -8,6 +8,11 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.4.1 (2019-08-10)
+
+- **Fixed:** Crashing bug when you create an empty note from the Omnibar, i.e. clear all Omnibar contents and then hit enter.
+- **Fixed:** Renaming a note changes text color during editing. You had to start to rename a note, then switch to another app, then back again; if you typed afterwards, the new text would be drawn in the color of the current theme's result list text color. 
+
 ## v1.4.0 (2019-08-07)
 
 Introduces multiple windows and tabs.
