@@ -1,0 +1,19 @@
+---
+title: The Archive (v1.4) Introduces Multi-Tabbing
+created_at: 2019-08-11 11:09:29 +0200
+kind: article
+author: christian
+tags: [ announcement, thearchiveapp ]
+---
+
+We'd like to introduce to you the latest update to [The Archive][ta]. It comes with multiple tabs and windows! You can now search for different things in different windows without losing the context of your previous work.
+
+<%= insert_rel_image file: "20190807085327_tabs-and-navi.png", caption: %{(1) The tabs show the current search context for each tab, and (2) the history navigation for each tab enables you to go back in time for each tab individually.} %>
+
+Multiple windows were an oft-requested feature since the early beta. The benefit is obvious: you can write a note, then search for a note to link to in a new tab without losing the context of the note you were writing.
+
+So far, Sascha and I have used [the Q-Trick](https://www.kungfugrippe.com/post/453204090/q-trick) to get back to a note quickly. You leave `qqq` in the note right where you are, which is a unique search string that works much like a bookmark. Browse around in the archive, copy some links, then search for "qqq" again to paste them where you left off. Multiple windows and tabs make this hack almost unnecessary. Working with a lot of notes just got simpler for everyone!
+
+**[Download the new version][ta]** from our website and check it out. This update is free for existing customers, as per [our update policy and feature promise!](https://zettelkasten.de/the-archive/roadmap/)
+
+[ta]: https://zettelkasten.de/the-archive
