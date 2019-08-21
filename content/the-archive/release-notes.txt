@@ -8,6 +8,10 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.4.2 (2019-08-21)
+
+- **Fixed:** Crash when renaming notes after editing on some devices.
+
 ## v1.4.1 (2019-08-10)
 
 - **Fixed:** Crashing bug when you create an empty note from the Omnibar, i.e. clear all Omnibar contents and then hit enter.
