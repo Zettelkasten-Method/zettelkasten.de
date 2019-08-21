@@ -115,6 +115,10 @@ module My
           return "by Nick"
         end
 
+        if author[0] == "@"
+          return %Q{by <a href="https://forum.zettelkasten.de/profile/#{author[1...]}">#{author}</a>}
+        end
+
         author_name = author.capitalize
         %Q{by <a href="/authors/#{author}/" rel="author">#{author_name}</a>}
       end
@@ -128,6 +132,10 @@ module My
         when 'christian' then return %Q{&bull; <a href="https://www.twitter.com/ctietze">Twitter</a>}
         when "Peter Buyze" then return %Q{&bull; <a href="https://plus.google.com/+PeterBuyze">Google+</a>}
         when "Marko Wenzel", "Erik Pfeiffer", "Nick" then return ""
+        end
+
+        if author[0] == "@"
+          return %Q{&bull; <a href="https://forum.zettelkasten.de/profile/#{author[1...]}">Forum profile</a>}
         end
 
         return ""
