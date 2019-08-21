@@ -64,11 +64,11 @@ In general, I deal with projects this way:
 
 So in this case I end up with the active project "2014-09-26 phil Justice Hedgehogs". In there, I put a collection of pictures of my reading notes and the aforementioned list of research questions, called -- wait for it! -- "201409261640 research questions.md". The `.md` file type stands for Markdown plain text. Because I don't expect that file to change substantially (adding a question or two is no substantial change), I gave it a [stable and unique identifier][id], based on the current date and time. The research questions I collected are the following ones:
 
-> * How did Dworkin coin the concept of dignity in chapter 9? [368]
+> * How did Dworkin coin the concept of dignity in chapter 9? \[368\]
 > * Which "ought to"s and "should"s does Dworkin use to connect his concepts morally? (Create a diagram)
-> * Why is it of objective importance to lead a Good Life? [196]
+> * Why is it of objective importance to lead a Good Life? \[196\]
 > * If it's forbidden to lie because you'd influence other people's autonomous decision-making process with false information, do you have to say a lot of true things whenever possible to increase the overall degree of information among people?
-> * If morality isn't owned by a community, to whom does it belong instead? [402, see chapter 2]
+> * If morality isn't owned by a community, to whom does it belong instead? \[402, see chapter 2\]
 > * Is morality subject to private reasoning? (Kant's term)
 
 The accompanying reading notes on paper find their way into the trash. 29 reading notes left to go.

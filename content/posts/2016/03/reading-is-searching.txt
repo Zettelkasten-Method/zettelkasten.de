@@ -13,7 +13,7 @@ If you work with the Zettelkasten Method you have to deal with a lot of reading.
 
 I chose to create a typology of items to serve me as an epistemiologic amplifier. If you know how things look in general (type) you can find specific items more easily. I struggle a little bit with finding the correct english term. They are not themselves thoughts neither are they Zettel types. There are six of them:
 
-**Theories.** Theories are networks of statements. Together, they aim to generate statements on the reality. They have axioms that are not always explicit but rather implicit. **Example:** The theory of gravity. It is a collection of statements that produce the statement “Things fall down.”[^1]
+**Theories.** Theories are networks of statements. Together, they aim to generate statements on the reality. They have axioms that are not always explicit but rather implicit. **Example:** The theory of gravity. It is a collection of statements that produce the statement "Things fall down."[^1]
 
 **Models.** Models are representations of reality. A map is a perfect example but also metaphors. If you read that a couple is like a [binary star](https://commons.wikimedia.org/wiki/File:Orbit5.gif) you have a model in front of you.
 
@@ -25,7 +25,7 @@ I chose to create a typology of items to serve me as an epistemiologic amplifier
 2. The conclusion
 3. The operator
 
-If you are educated in formal logic you’d like do argue with me that an argument can be much more complex. You can have multiple premises and operators for one conclusion, for example. 
+If you are educated in formal logic you'd like do argue with me that an argument can be much more complex. You can have multiple premises and operators for one conclusion, for example. 
 
 However, it is easier to divide them into more digestible chunks. Most of the time you can divide them into several arguments. If you have multiple premises for example you can check if every one of them couples with the conclusion via an operator independently.
 
@@ -33,7 +33,7 @@ However, it is easier to divide them into more digestible chunks. Most of the ti
 
 If you have several conclusions you can form several arguments with different conclusions that share one premise, but package them into different Zettel.
 
-**Counterarguments.** Counterarguments aim to destroy an argument. They are normally targeted against the truth of the premises or the validity of the connection. So, either your premises are false or they don’t support the conclusion. 
+**Counterarguments.** Counterarguments aim to destroy an argument. They are normally targeted against the truth of the premises or the validity of the connection. So, either your premises are false or they don't support the conclusion. 
 
 When a counterargument is targeted against the truth of the premise I treat them like arguments with a different conclusion.
 
@@ -49,9 +49,8 @@ Now we have a small ontology of item types that are hidden in the various texts 
 
 One of the mistakes you avoid is being distracted by various attributes of the texts that are not related to your intention of reading. At least I can be distracted by the beauty or the (often unnecessary) complexity of the language. But if you take a step back and honestly ask what really is in there, you sometimes realize: Not so much. In that case, give your self the permission to accept that this text doesn't serve you well, even if it has a good reputation.
 
-[^1]:	Dear physicians, please don’t try to kill me. I know I raped the theory of gravity to death like a sea lion a penguin. http://www.bbc.com/earth/story/20141117-why-seals-have-sex-with-penguins
+[^1]:	Dear physicians, please don't try to kill me. I know I raped the theory of gravity to death like a sea lion a penguin. http://www.bbc.com/earth/story/20141117-why-seals-have-sex-with-penguins
 
-[^2]:	Pun intended.
 
 ---
 

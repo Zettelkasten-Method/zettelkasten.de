@@ -80,8 +80,7 @@ What can you expect from me?, or in other words: What kind of blogpost will I wr
 
 I am very happy for suggestions what to write. I don't have any shortcomings of ideas, but I like to interact and to discuss every aspect of my and your work. Feel free to contact me with anything you have.
 
-Twitter: [@SaschaFast](http://twitter.com/saschafast)  
-E-mail: Saschafast [at] gmail [dot] com  
+E-mail: Saschafast \[at\] gmail \[dot\] com  
 Homepage: <http://saschafast.de>
 
 -- Next week: [Christian's journey](/posts/introducing-christian/) to the Zettelkasten method.

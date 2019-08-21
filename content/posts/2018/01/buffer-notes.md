@@ -16,7 +16,7 @@ The second edition of the Zettelkasten Method Book is a perfect example. After I
 
 Therefore, I made a note in which I copied the title (+ID) of the new notes I have written that were not used in the book. I used a simple convention: ID + title + some context. The context made sure that I would know later on why I thought that the particular note could be used for the book. This is a (translated) example:
 
-> [[201708051151 False feedback for men in modern world]] What are the feedback problems of the Zettelkasten Method? Is there a real danger that people would write notes only for the sake of it?
+> \[\[201708051151 False feedback for men in modern world\]\] What are the feedback problems of the Zettelkasten Method? Is there a real danger that people would write notes only for the sake of it?
 
 The note is about problems like midlife-crisis, boyhood crisis, and similar stuff that emerges because of false feedback (e.g. thinking that a career serves as the pinnacle of meaning in life). I intended to use some of the thoughts to illustrate how you can get lost in knowledge work. Other examples are: Over-crafting the tools, over-digitalization (not reading real books) etc. 
 
