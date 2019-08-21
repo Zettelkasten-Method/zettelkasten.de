@@ -21,8 +21,9 @@ If you want to know more about us and how we roll, take a look at [the "personal
 * [How many Zettelkästen should I have?](/posts/how-many-zettelkasten/) The answer is, most likely, only one for the duration of your life. But there are exceptions to this rule.
 * [Don't use categories.](/posts/no-categories/) Use tags instead.
 * "What should my first note be?" -- [it doesn't matter.](/posts/your-first-note/) Just get started.
-* [Set links between notes.](/posts/search-alone-is-not-enough) Search alone is not enough.
+* [Set links between notes.](/posts/search-alone-is-not-enough) Full-text search on its own provides not enough information. Connections will do, especially in the long run.
 * ["When should I start a new note?"](/posts/when-start-new-note/)
+    * Also read ["Trust the process"](/posts/trust-the-process-nickmilo22/), an essay.
 * You have to [interpret your sources](/posts/dont-rely-on-source-have-faith-in-yourself/) and then rely on your own thoughts henceforth to get the maximum benefit. Collecting information does not increase your knowledge.
 * [Use outlines](/posts/how-i-use-outlines-to-write-any-text/) to start with the first draft of your writing project.
 * Then [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents in. 
@@ -31,22 +32,47 @@ If you want to know more about us and how we roll, take a look at [the "personal
 
 ## Knowledge Management
 
-* [The Collector's Fallacy](/posts/collectors-fallacy/): you have to work with new material to really learn it. It doesn't suffice to bookmark websites or just read and annotate books. (Christian still has [skeletons in the closet](/posts/collectors-fallacy-confession/).)
+[The building blocks of a Zettelkasten](/posts/zettelkasten-building-blocks/) are the **inbox**, the **note archive**, and the **reference manager**.
+
+These are the basics to get started with effective knowledge management:
+
+* [Use a real notebook](/posts/use-real-notebook/) to capture thoughts.
+* Write notes for your note archive [in a way you understand later.](/posts/how-to-write-notes-you-can-understand/)
 * [Add Identity](/posts/add-identity/) to things in the system to make references possible.
-* About learning and knowing more in general
-    * [A Zettelkasten improves your thinking and writing](/posts/zettelkasten-improves-thinking-writing/) because it surprises us when we search for something. 
-    * [Learn faster](/posts/learn-faster-by-writing-zettel-notes/): get coverage with good reading techniques, get practice by writing Zettel notes, and gain insights by connecting notes to your web of knowledge.
-    * [A Zettelkasten extends your mind and memory](/posts/extend-your-mind-and-memory-with-a-zettelkasten/) because its structure mimics the way your brain works.
-    * You have to [interpret your sources](/posts/dont-rely-on-source-have-faith-in-yourself/) and then rely on your own thoughts henceforth to get the maximum benefit.
-* [The building blocks of a Zettelkasten](/posts/zettelkasten-building-blocks/) are the inbox, the note archive, and the reference manager.
-    * [Use a real notebook](/posts/use-real-notebook/) to capture thoughts.
-    * Write notes for your note archive [in a way you understand later.](/posts/how-to-write-notes-you-can-understand/)
-    * Every Zettel has two forms: [inner and outer form](/posts/zettel-nature-two-forms/).
-    * [Don't use categories.](/posts/no-categories/) Use tags instead.
-    * [Set links between notes.](/posts/search-alone-is-not-enough) Search alone is not enough.
-* Concerning picking software:
-    * [You don't need a wiki](/posts/you-dont-need-wiki/) because every app which supports links in some way can be used.
-  
+* [Don't use categories.](/posts/no-categories/) Use tags instead.
+    * [Good and bad tags](/posts/object-tags-vs-topic-tags/) explained: some tagging habits will get in your way eventually.
+* [Set links between notes.](/posts/search-alone-is-not-enough) Search alone is not enough.
+* Every Zettel has two forms: [an inner and outer form](/posts/zettel-nature-two-forms/).
+
+And always keep in mind [The Collector's Fallacy](/posts/collectors-fallacy/): you have to work with new material to really learn it. It doesn't suffice to bookmark websites or just read and annotate books. (Christian still has [skeletons in the closet](/posts/collectors-fallacy-confession/).)
+
+To get you in the mood to grow your archive, read ["Trust the process"](/posts/trust-the-process-nickmilo22/), an essay.
+
+### Scaling your note archive
+
+To cope with the constant influx of new information, [use temporary "buffer" notes](/posts/buffer-notes/) to collect stuff that you can later re-arrange.
+
+With time, you'll notice multiple [Layers of Evidence](/posts/layers-of-evidence/) emerge. This means your notes will have different kinds of content. The layers are:
+
+1. Data description and patterns.
+2. Interpretation of descriptions and patterns.
+3. Synthesis of patterns, descriptions and interpretation.
+
+When your archive grows, you'll add [Structural Layers in your Zettelkasten](/posts/three-layers-structure-zettelkasten/) through links. The levels are:
+
+1. Bottom Layer: Content
+2. Middle Layer: Structure Notes
+3. Top Layer: Main Structure Notes and Double Hashes (that is: special tags)
+
+### About learning and knowing-more in general
+
+["Trust the process"](/posts/trust-the-process-nickmilo22/) (an essay) hits the nerve: thinking and memory retention are improved by working through problems.
+
+* [A Zettelkasten improves your thinking and writing](/posts/zettelkasten-improves-thinking-writing/) because it surprises us when we search for something. 
+* [A Zettelkasten extends your mind and memory](/posts/extend-your-mind-and-memory-with-a-zettelkasten/) because its structure mimics the way your brain works.
+* [Learn faster](/posts/learn-faster-by-writing-zettel-notes/): get coverage with good reading techniques, get practice by writing Zettel notes, and gain insights by connecting notes to your web of knowledge.
+* You have to [interpret your sources](/posts/dont-rely-on-source-have-faith-in-yourself/) and then rely on your own thoughts henceforth to get the maximum benefit.
+
 ## Writing
 
 * [Make writing a part of your identity](/posts/identity-schedule-serious-writing/). This requires to schedule time for writing, and to create lasting habits.
@@ -55,7 +81,7 @@ If you want to know more about us and how we roll, take a look at [the "personal
     * [How to track your writing progress](/posts/how-to-track-writing-progress/) -- define metrics and find out how well you perform.
     * [Counting your words](/posts/count-your-words/) is motivating and helps you stick to the habit of writing daily.
     * Christian also wrote a Mac app for this: the [Word Counter](http://wordcounterapp.com/).
-* Getting started with writing projects
+* Getting started with writing projects:
     * Buffer files in your Zettelkasten are great to [store writing ideas](/posts/manage-writing-ideas/).
     * [Use outlines](/posts/how-i-use-outlines-to-write-any-text/) to start with the first draft, and then
     * [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents. This works [without you trying so hard.](/posts/write-book-without-even-trying-so-hard/)
@@ -65,6 +91,7 @@ If you want to know more about us and how we roll, take a look at [the "personal
 ## Reading
 
 * [Create a bibliography](/posts/bibliography-zettelkasten/) as part of your toolkit. It's a permanent companion and keeps track of your sources of information.
+* The [Barbell Method of Reading](/posts/barbell-method-reading/) explains how to get most out of any text. Read thoroughly and invest more time (risky investment) when necessary, stick to quickly skimming (low risk) for the rest.
 * Reading on paper
     * [Make proper reading marks](/posts/making-proper-marks-in-books/) instead of leaving annotations in the margin.
     * You should [take reading notes instead](/posts/reading-putting-it-all-together/). Get the stuff _out_ of the book. (This is closely related to the [Collector's Fallacy](/posts/collectors-fallacy/).)
