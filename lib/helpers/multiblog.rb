@@ -124,21 +124,13 @@ module My
 
         # Guest bloggers
         case author
-        when "Marko Wenzel", "Erik Pfeiffer", "Nick" then return ""
+        when 'sascha' then return ""
+        when 'christian' then return %Q{&bull; <a href="https://www.twitter.com/ctietze">Twitter</a>}
         when "Peter Buyze" then return %Q{&bull; <a href="https://plus.google.com/+PeterBuyze">Google+</a>}
+        when "Marko Wenzel", "Erik Pfeiffer", "Nick" then return ""
         end
 
-        gplus = case author
-                when 'sascha' then 'https://plus.google.com/107502518870533837270'
-                else 'https://plus.google.com/102954263645795828102/'
-                end
-        twitter = case author
-                  when 'sascha' then 'saschafast'
-                  when 'ctietze' then 'ctietze'
-                  else ''
-                  end
-
-        %Q{&bull; <a href="#{gplus}">Google+</a>, <a href="https://www.twitter.com/#{twitter}">Twitter</a>}
+        return ""
       end
 
       def teaser_path_for(item)
