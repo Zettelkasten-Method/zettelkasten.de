@@ -32,9 +32,11 @@
         </footer>
     </article>
 
+    <% if Post::comments_allowed_for(@item) %>
     <aside id="comments">
         <%= render '/_comments.*' %>
         <%= render '/_comments-disqus.*' %>
     </aside>
+    <% end %>
 </section>
 <% end %>

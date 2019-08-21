@@ -46,6 +46,12 @@ module My
         item[:preview] && item[:preview] == "fulltext"
       end
 
+      def comments_allowed_for(item)
+        return true if item[:comments].nil?
+        return false if item[:comments] == "off" or item[:comments] == false
+        return true
+      end
+
       def comment_link_for(item)
         href = item.path + '#comments'
         link_to("Comments", href, "vanilla-identifier" => Comments::identifier_for(item))
@@ -325,12 +331,6 @@ module My
       end
 
       Time.parse(time.to_s)
-    end
-
-    def comments_allowed_for(item)
-      return true if item[:comments].nil?
-      return false if item[:comments] == "off"
-      return true
     end
 
     def rel_link_to(text, file)
