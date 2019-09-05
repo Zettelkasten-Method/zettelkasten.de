@@ -26,10 +26,10 @@ preprocess do
   config[:env] = ENV['NANOC_ENV'] ||= 'development'
   config[:is_deploying] = config[:env] == 'deployment'
   is_deploying = config[:is_deploying]
-  
+
   # authors may unpublish items by setting meta attribute publish: false
   items.delete_if { |item| item[:publish] == false }
-  
+
   tags("article").each do |tag|
     @items.create(
       "",
@@ -42,7 +42,7 @@ preprocess do
       "/posts/tags/#{tag}"
     )
   end
-  
+
   years, months = Post::years_and_months(posts())
 
   years.each do |year|
@@ -55,8 +55,8 @@ preprocess do
       "/posts/#{year}"
     )
   end
-  
-  months.map { |m| Month.new(m) }.each do |month|    
+
+  months.map { |m| Month.new(m) }.each do |month|
     @items.create(
       "<%= render '/_posts_per_time.*', :from => '#{month.first_day}', :to => '#{month.last_day}' %>",
       {
@@ -90,7 +90,7 @@ compile '/img/**/*' do
   #filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary? && is_deploying
 end
 
-compile '/sitemap.*' do 
+compile '/sitemap.*' do
   filter :erb
   write item.identifier.to_s
 end
@@ -104,12 +104,7 @@ end
 # Blog
 #
 
-compile '/authors/sascha/feed.*' do
-  filter :erb
-  write item.identifier.to_s
-end
-
-compile '/feed.*' do
+compile '**/feed.atom' do
   filter :erb
   write item.identifier.to_s
 end
@@ -118,13 +113,13 @@ compile '/posts/tags.md' do
   filter :erb
   filter :kramdown
   filter :typogruby
-  
+
   layout '/plain.*'
 end
 
 compile '/posts/tags/**/*' do
   filter :erb
-  
+
   layout '/tags.*'
 end
 
@@ -137,7 +132,7 @@ compile '/posts/{index,overview}.*' do
   filter :erb
   filter :kramdown
   filter :typogruby
-  
+
   layout '/plain.*'
 end
 
@@ -147,18 +142,18 @@ compile '/posts/**/*' do
     #   filter :thumbnailize, :width => 1500
   else # don’t filter binary items
     filter :erb
-    
+
     if item[:lang] == 'mmd'
       filter :mmd
     else
       filter :kramdown
     end
-    
+
     filter :typogruby
     filter :add_ids_to_headers
-    
+
     layout '/blog.*'
-    
+
     filter :add_toc
     if item[:toc]
       #filter :redcarpet, :renderer => Redcarpet::Render::HTML_TOC, :renderer_options => { :with_toc_data => true }
@@ -171,11 +166,11 @@ end
 #
 
 compile '/**/*' do
-  if item.binary? 
+  if item.binary?
     write item.identifier.to_s
     next
   end
-  
+
   case item[:extension]
     when 'md', 'markdown', 'txt', 'text'
       filter :erb
@@ -187,7 +182,7 @@ compile '/**/*' do
       filter :erb
       filter :typogruby
   end
-  
+
   if item[:layout]
     layout '/'+item[:layout]+'.*'
   else
