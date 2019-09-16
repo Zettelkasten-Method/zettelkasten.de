@@ -1,0 +1,108 @@
+---
+title: "Some Q&A on the Zettelkasten Method and Student Life"
+created_at: 2019-09-16 13:16:53 +0200
+kind: article
+author: sascha
+tags: [ attention, deep-work, lifestyle ]
+image: 20190916131808_dog-sunglasses.jpg
+vgwort: https://vg07.met.vgwort.de/na/8c5bbcbb8de5464eabe125cefb3ef3ae
+---
+
+[@diogenes](https://forum.zettelkasten.de/profile/diogenes), a student of philosophy, psychology and history in Vienna, asked some questions [on the forum](https://forum.zettelkasten.de/discussion/685/integrating-the-zettelkasten-methode-into-the-life-of-a-student). I'd like to elaborate a bit on that. There will be specific use cases for the Zettelkasten Method. The method itself is a meta method of knowledge work. It translates what we understand of knowledge acquisition into basic actions that can be incorporated into any (knowledge work) workflow. Here, I will show a couple of applications to a more specific case.
+
+## Personal Cognitive Work Load
+
+> Even though I would consider myself as a relatively good student I often struggle to process all the stuff that i've learn about during the lectures + processing the stuff for an upcoming exam.
+> My maximal cognitive Work Load (=Capacity for Deep Work) seems to be only 3-4 Hours. But on most of the work-days the lectures alone require three hours of concentration. So therefore I run out of cognitive energy to process the stuff of previous lectures or stuff for an upcoming exam.
+> 
+> What are you're experiences with your personal cognitive work load?
+
+As a coach, I have one benchmark for my clients. Unless they are able to concentrate for six hours straight with an approximate 80--90% effort, I consider them to have attention and concentration issues. That means that there is work to do on this matter.
+
+My personal capacity is, depending on the day, 6 to 10 hours at this level of effort. Of course, there are some days I cannot manifest this capacity fully. Christian's capacity is, in my estimate, quite similar.
+
+We have different bottlenecks in our attention system.[^petersen2012] My orienting system is my bottleneck. I am quite sensitive to specific kinds of distractions. I am not so distracted by other people. But I tend to fall into rabbit holes. Sometimes, in my deep work sessions, I start with a paper on brain lateralization but end with pages on dog training. Christian stays way more on point, though he doesn't rise to the same intensity as I and his bottleneck is getting up to speed at all.
+
+Concentration is a special form of attention which is governed by the brains own attention system. We all have different bottle necks.
+
+  [^petersen2012]: Steven E Petersen and Michael I Posner (2012):  The attention system of the human brain: 20 years after, Annu Rev Neurosci, 2012, Vol. 35, S. 73-89.
+
+> Is it possible to expand the capacity for deep work? Peterson and Newton estimate the maximal duration of focused knowledge work at 3-4 Hours per Day.
+
+I explicitly added the measure of intensity to my comment. I think Peterson is referring to really pushing oneself. That is a different story. Most deep work shouldn't be done at a hundred percent effort. 
+
+If you train for weightlifting or powerlifting in a Russian Style workout, you accumulate high volume with a moderate intensity. You stay very calm and don't hype yourself up before any lift. It is quite different from our western style of training. See the video below for your own amusement.<!--ct: Video fehlt-->
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nLVJTBZtiuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Having said that, there are many ways to increase the possible capacity for deep work. At the same time, you will decrease the drain on yourself if you don't use up all your capacity. Some methods:
+
+1. Mindfulness Meditation, besides its spiritual aim, is a training method for attention control. Mindfulness is a special state of attention, as there are many others. Start with 5 minutes in the morning and increase it to at least 20 minutes. You will see results after six to twelve months. Though it could be that you feel improvements much earlier because of additional acute effects.
+2. Eat very clean, and rich in micronutrients. Eating brain is not only for zombies. Brain is very nutrient-dense and healthy. There is a simple reason for it: The brain needs a lot of nutrients. Therefore, it is nutrient rich. You doesn't have to eat brain explicitly. But you concentration will improve if you switch from a pizza diet to a paleo-type diet. Eat fatty fish a couple of times a week. Consume foods like kale, berries and stinging nettles. And consider supplementing creatine and some adaptogens.
+3. Do a combination of strength and endurance training. Both are needed for a healthy brain. Train daily, but briefly. A short 30--45min workout per day (as part of your morning routine) is sufficient. Mix in very light days (one day could be very slow jogging for 30 Minutes)
+4. Engage in temperature stress. Cold training and sauna.
+5. Break up your deep work with small breaks to shake up the tension. 3--5 minutes of movement every 40 minutes of work is good enough.
+6. If you cannot concentrate on specific material, change the subject or the mode. If you wrote on your computer on psychology, switch do drawing a diagram on paper about some historical event.
+7. Drink water! 
+8. Consume coffee three times a week, tops. It is a real mental drain. 
+9. Block everything not needed. You smartphone needs to be in another room. Switch off the door bell etc. 
+10. Cool down. After an exhausting deep work session you should go into nature. Take a walk in a park if you don't have woods or true nature available. Just walk as long as you need to feel refreshed.
+
+There are many lifestyle choices that matter. The brain is an organ. It needs to be healthy to be able to concentrate.
+
+> Should I not consider lectures as deep work and therefore save some concentration?
+
+It depends on how you structure your studying. I wouldn't do it. I personally had a very hard time to even stay awake during lectures. I think they are way too slow and not very engaging. I can listen to recorded lectures speeded up to 1.5x the original speed. To me, lectures are a drag and would cost me a lot of energy in a very inefficient way. Therefore, I didn't engage a lot. Obviously, when I slept through them. :)
+
+## Structuring Deep Work-Units
+
+> As some of you may know, as a student you're free to organize your time spent studying (I call it Deep Work-Units).
+> So therefore I would like to know how you organize your learn-sessions on a daily basis.
+
+I had different schedules. Here is one example:
+
+- 0600: Wake up, morning routine (meditation, mobility)
+- 0700: Creative work like writing new stuff.
+- 1100: Strength Training, eating, relaxing.
+- 1400: Non-creative work like emails or appointments.
+- 1800: Crossfit-Style Training. 
+- 1900: Dinner. Read till sleepy.
+
+
+> Would you recommend doing all your knowledge work in the morning in a four hour stretch (of course divided by short breaks) or would you recommend to do two hours in the morning and two hours in the afternoon/evening?
+
+The latter. But aim for more work. Don't accept those limits.
+
+> I have to admit that I'd like the idea of finish the knowledge work for the day in an four hour stretch in the morning but don't know about the efficacy of this method.
+
+It is not all about efficiency but also on motivation. It is the principle of front-loading. Here it is front-loading of the day. When you have done all the things you consider duty, the rest of the day will feel free and joyful. The same thing goes for the week. If you did most, or even all, of your duties in the beginning of the week you feel very light towards the end. Adopting this habit will make you feel you can get everything done, instead of being stuck in doubt if you will ever get anything done/instead of always thinking about what's still left unfinished.
+
+## Structuring the Semester
+
+> Do you process the lectures immediately (on the same day or the day after) or do you wait until just before the exam to process the lectures?
+
+Let's say I didn't sleep through the lecture. Let's say it was a seminar or a recorded lecture that I listened at 1.5 times the normal speed while I am walking in the woods, sometimes stopping to make some notes.
+
+In that case, I would process the notes twice. One time, on the same day to order them, rephrase the knowledge atoms and make an effort to write down possible open questions and connections to different topics.
+
+**Example**: On a lecture on Freudian psychoanalysis, you can ask if there is differing relevancy in different countries for his work. Is there a difference between Anglo-Saxon and German ways to approach Freud's work? How would a behaviorist tackle an issue differently? Do similarities exist?
+
+The second time would be days or weeks later. Then I'd process the notes like any notes to integrate them into my Zettelkasten.
+
+> How do you take notes during the lectures? Do you just mark down possible connections for the zettelkasten, write down interesting informations or do you take notes at all?
+
+I do drawings and key points. In lectures I tend to do more of engagement notes that notes I actually use. Engagement notes are those types of notes that you do to process the material at the moment but then won't store them. 
+
+> How to you process the lecture afterwards? Just processing your notes, processing the PowerPoint-Slides of the lectures and feed them in into the zettelkasten?
+
+I have a problem with processing lectures to my Zettelkasten: The content you gather is what one person says another said. I always go to the primary source. So, I'd use the material that is produced during lectures in three ways:
+
+1. I use engagement notes for better depth of processing.
+2. I'd process them immediately after that. This increases depth of processing even further. (And in consequence recall).
+3. Then I'd use them as a guide to primary sources to process them fully.
+
+----
+
+**Christian's Lament:** My capacity to concentrate depends. During my favorite days, which are long, uninterrupted work-days, I dry up noticeably after about 5 hours of programming at around lunch time. After a break for exercise and, ideally, some food, I can easily put in another 3 hours. Took me a while to get there, though, and the years prior I was happy if I could squeeze 3--5 hours out of any given day in total. Back when I was going to uni, I was slogging through lecture-filled days most of the time. The first semester was the worst: everything was new, all the people were strangers, and I was attending classes for 2 majors at once. (Which was a bad idea.) It pushed me to stay awake during lectures, but I didn't post-process much. I was just too happy to be done with the day, exhausted from all the new info (especially all the maths major courses!), and that was that. Most processing, if at all, I crammed into the mornings I had to myself when I didn't have to commute to uni early. Not all was wasted, but neither did I preserve a lot for my future self. Then again, I learned how to read and how to learn effectively, got accustomed to the way academics write, including 18th century continental philosophers, and got introduced to interesting mental models like systems theory. I value all that, and it shapes my thinking. I'm happy I'm not 16 and stupid anymore. But boy am I curious what I'd be able to write today if had known the basic skills earlier in life, and then had the motivation in uni to actually adhere to all the meta-knowledge. :)
+
+(Pictyre by <a href="https://pixabay.com/de/users/5991595-5991595/" rel="nofollow">Irina Logvinenko</a> on <a href="https://pixabay.com/" rel="nofollow">Pixabay</a>)
