@@ -1,0 +1,17 @@
+---
+title: "David Epstein: \"Range\" - Book Processing Ep 01"
+created_at: 2019-09-20 07:45:44 +0200
+kind: article
+author: christian
+tags: [ video, book-processing-series ]
+url: https://www.youtube.com/watch?v=FLvcJyZiiUI&feature=youtu.be
+discussion_id: 689
+---
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FLvcJyZiiUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The video is live! Please comment in the forums; we'd like to know what you think of the format.
+
+Sascha's discussion starter, repeated here so you know the context when you comment below:
+
+> We are very curious about your opinion. We don't do bias your comment with specific question. So we ask in general: What are your thoughts about this format?
