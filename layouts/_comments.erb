@@ -8,6 +8,9 @@
     var vanilla_identifier = '<%= Comments::identifier_for(@item) %>';
     var vanilla_category_id = '11';
     var vanilla_title = '<%= Comments::title_for(@item) %>';
+    <% if @item[:discussion_id] != nil? %>
+    var vanilla_discussion_id = '<%= @item[:discussion_id] %>';
+    <% end %>
 
     /*** DON'T EDIT BELOW THIS LINE ***/
     (function() {
