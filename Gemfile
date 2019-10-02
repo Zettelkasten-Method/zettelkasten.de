@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'nanoc', '~> 4'
-gem 'haml', '~> 4'
-#gem 'nanoc-cachebuster', '>= 0.3.1'
 gem 'nanoc-image-compressor', '>= 0.1.1'
 gem 'nanoc-javascript-concatenator', '~> 0.0.2'
 
