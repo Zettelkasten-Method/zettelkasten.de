@@ -20,3 +20,6 @@ Looking at the footage, I also notice I added more commentary on top of the para
 
 [^ericsson1993delprac]: K. Anders Ericsson, Ralf Th. Krampe, and Clemens Tesch-Römer (1993):  _The Role of Deliberate Practice in the Acquisition of Expert Performance_, Psychological Review 3, 1993, Vol. 100, S. 363--406.
 
+**Update 2019-10-02:** Here's a visualization of the notes _before_ I recorded [Episode 3](https://zettelkasten.de/posts/david-epstein-range-episode-3/).
+
+<%= insert_rel_image file: "20191002195930-episode-2-diagram.png", caption: %{Web of notes after episode 2} %>

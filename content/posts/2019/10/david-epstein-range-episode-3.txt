@@ -1,0 +1,19 @@
+---
+title: "David Epstein: \"Range\" - Book Processing Ep 03"
+created_at: 2019-09-20 07:45:44 +0200
+kind: article
+author: christian
+tags: [ video, book-processing-series ]
+url: https://youtu.be/F6AZQQ_1U4E
+description: "I process new interesting topics in Chapter 2 Epstein's \"Range\". Many links, plus interesting visualizations!"
+---
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/F6AZQQ_1U4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Please enjoy episode 3, hitting early this week because I'll be traveling for a couple of days -- and cannot muster the strength to wait until Friday to hit the "publish" button.
+
+This chapter was harder to process. There seemed to be parts missing in the story. Maybe I'm too sloppy and haven't noticed the missing pieces? Either way, something's amiss in _Range_ land. I also notice that the topics from chapter 1 were connected to the topics here somehow, but it's just a hunch how things will fit together eventually. I'm looking forward to the next episodes, because I hope it "clicks" and I know how to split the sequence of notes in the structure note up into new Zettel notes and then work with the more powerful web of notes instead of this monolithic book overview.
+
+Anyway, here's a picture of the work-in-progress web of notes, starting from the book overview.
+
+<%= insert_rel_image file: "20191002194740_episode-3-diagram.png", caption: %{Web of notes starting at the book after episode 3} %>
