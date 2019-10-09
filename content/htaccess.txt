@@ -5,17 +5,6 @@ AddCharset UTF-8 .html
 ErrorDocument 404 /404.html
 RewriteEngine On
 
-
-# HTTPS Redirect
-# If we receive a forwarded http request from a proxy...
-RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
-# ...or just a plain old http request directly from the client
-RewriteCond %{HTTP:X-Forwarded-Proto} =""
-RewriteCond %{HTTPS} !=on
-# Redirect to https version
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-
 # The Archive Shortlinks
 RewriteRule ^the-archive/buy(.*)$ https://zettelkasten.onfastspring.com/the-archive?source=shortlink [R=303,L]
 RewriteRule ^the-archive/download(.*)$ https://dlyfuw95744jo.cloudfront.net/TheArchive-v1.4.2.dmg.zip [R=303,L]
