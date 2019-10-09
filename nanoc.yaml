@@ -16,7 +16,7 @@ deploy:
   default:
     kind: rsync
     options: [ '-aP', '-e ssh', '--delete-after' ]
-    dst: "edv38-christiantietze@zettelkasten.de:/home/pacs/edv38/users/christiantietze/doms/zettelkasten.de/htdocs"
+    dst: "edv38-christiantietze@zettelkasten.de:/home/pacs/edv38/users/christiantietze/doms/zettelkasten.de/htdocs-ssl"
 
 meta_data:
   title: Zettelkasten Method
