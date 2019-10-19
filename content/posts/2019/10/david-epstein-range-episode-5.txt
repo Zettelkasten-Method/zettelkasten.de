@@ -1,0 +1,17 @@
+---
+title: "\"Learning, Fast and Slow\" - David Epstein: \"Range\" - Book Processing Ep 05"
+created_at: 2019-10-19 07:37:44 +0200
+kind: article
+author: christian
+tags: [ video, book-processing-series ]
+img: 20191019072859_episode-5-thumbnail.jpeg
+description: "A very thorough link hierarchy is created from chapter 4, 'Learning, Fast and Slow', from Epstein's book 'Range'."
+---
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Vs1mscyOuFs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+By accident, I started this episode with an outline that was surprisingly long and lended itself well to my favorite _Zettel refactoring_, called "Extract Zettel", where I take part of an existing note and put it into a new one, leaving a link in place of the cutout.
+
+Took me 3 weeks to get into the groove, and since last time things flow quite smoothly as I hunt for precious information in this journalist's take on a complex topic.
+
+<%= insert_rel_image file: "20191019072824_episode-5-diagram.png", caption: %{The web of notes after episode 5 shows a second layer around the core, like an onion} %>
