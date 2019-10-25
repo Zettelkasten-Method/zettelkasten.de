@@ -1,0 +1,19 @@
+---
+title: "\"Thinking Outside Experience\" - David Epstein: \"Range\" - Book Processing Ep 06"
+created_at: 2019-10-25 18:58:44 +0200
+kind: article
+author: christian
+tags: [ video, book-processing-series ]
+img: 20191025185853_episode-6-thumbnail.jpeg
+description: "The 5th chapter of Epstein's book sports many anecdoted, but the original sources I didn't find the time to process."
+---
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NpMzDP6lMq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This chapter's outline started out was pretty short -- and most of the stuff that I did add was anecdotes and stories. Interesting stories, sure, but nevertheless not much to brag about in front of your friends who study humanities. The actual sources will be interesting, but I didn't get to them this time.
+
+Instead, I decided to go with placeholder notes: I added the stuff from Epstein's account and a reference to the original, but also left a note to myself both in the note (as a warning!) and in my to-do-list so I knew this is not supposed to be the end of that particular branch.
+
+Still, the visualization from the structure note looks interesting:
+
+<%= insert_rel_image file: "20191025185803-epstein-ep-6-diagram.png", caption: %{After this chapter, it looks less like an onion with many layers because it grows an appendix of sorts.} %>
