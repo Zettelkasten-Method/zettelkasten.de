@@ -8,6 +8,10 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.4.4 (2019-11-06)
+
+- **Fixed:** Another crashing bug when you close a window after using the system's <kbd>Cmd-F</kbd> search facility.
+
 ## v1.4.3 Beta (2019-11-05)
 
 - **Fixed:** A crashing bug when closing tabs in Catalina.
