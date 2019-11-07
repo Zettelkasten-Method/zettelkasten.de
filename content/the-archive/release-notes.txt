@@ -8,9 +8,10 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.4.4 (2019-11-06)
+## v1.4.5 (2019-11-07)
 
 - **Fixed:** Another crashing bug when you close a window after using the system's <kbd>Cmd-F</kbd> search facility.
+- **Fixed:** Regression to a crash when changing the Quick Entry Helper shortcuts.
 
 ## v1.4.3 Beta (2019-11-05)
 
