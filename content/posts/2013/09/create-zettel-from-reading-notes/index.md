@@ -1,9 +1,10 @@
 ---
-title: Create Zettel from Reading Notes
+title: "Create Zettel from Reading Notes According to the Principle of Atomicity"
 created_at: 2013-09-03 09:46:00 +0200
+updated_at: 2019-11-20 11:33:00 +0100
 kind: article
 author: christian
-tags: [ reading, collect, process, zettel ]
+tags: [ reading, collect, process, zettel, atomicity ]
 vgwort: https://vg02.met.vgwort.de/na/87159bbc8b6e4d2986649fca879da891
 image: "201309030945_reading-notes.jpg"
 import:
