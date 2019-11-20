@@ -1,5 +1,6 @@
 ---
 title: Post Overview
+updated_at: 2019-11-20 11:43:00 +0100
 ---
 
 So you're here for a starting point.
@@ -29,6 +30,14 @@ If you want to know more about us and how we roll, take a look at [the "personal
 * Then [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents in. 
 
 <!--ct: keep in sync with content/posts/2015/07/getting-started.txt -->
+
+## Principles
+
+> Principles are higher than techniques. Principles produce techniques in an instant.  
+> ---Ido Portal
+
+* [Principle of Atomicity](/posts/create-zettel-from-reading-notes/): put things that belong together into a single note, [give it an ID](/posts/add-identity/), but limit its content to that single topic.
+* Our post about the [Principle of Connectivity](/posts/luhmann-folgezettel-truth/) highlights how different techniques can implement the same underlying principle, here links vs Folgezettel to connect notes. Also see a discussion about [Different Kinds of Ties Between Notes](/posts/kinds-of-ties/).
 
 ## Knowledge Management
 

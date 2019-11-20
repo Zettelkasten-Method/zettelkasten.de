@@ -1,6 +1,7 @@
 ---
 title: OneNote Review
 created_at: 2015-12-16 11:17:02 +0100
+updated_at: 2019-11-20 11:41:30 +0100
 kind: article
 author: "Peter Buyze"
 tags: [ onenote, archive, review, tool ]
@@ -290,7 +291,7 @@ to link to specific small bits of info and expands the network connecting the
 notes.
 
 OneNote is actually designed for long notes, which in the case of the
-Zettelkasten runs counter to the principle of atomicity. However, OneNote has a
+Zettelkasten runs counter to the [principle of atomicity](/posts/create-zettel-from-reading-notes/). However, OneNote has a
 very interesting feature: the ability to link to a paragraph within a note. This
 means that, irrespective of the length of the notes, atomicity is ensured if one
 makes full use of the aforementioned feature. In fact, the length of the note

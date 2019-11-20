@@ -1,6 +1,7 @@
 ---
 title: When Should You Start a New Note?
 created_at: 2016-04-27 10:34:43 +0200
+updated_at: 2019-11-20 11:40:00 +0100
 kind: article
 author: christian
 tags: [ note-taking, process, archive ]
@@ -36,7 +37,7 @@ Then there are the more prosaic notes. Those that are themselves little texts.
 
 Does adding a new citation add value? That's easy to do. Do you have to rephrase the existing content under a new light? Although this takes a bit more effort and you should check if you break the context of backlinks, rephrasing can be a straightforward task.
 
-When you have to add paragraphs or subsections to the existing body of text, the note's text grows and it may become harder to work with the Zettel. Zettel notes with prose can get unwieldy. That's mostly the case when you violate the Principle of Atomicity: that's when it's time to split it in two.
+When you have to add paragraphs or subsections to the existing body of text, the note's text grows and it may become harder to work with the Zettel. Zettel notes with prose can get unwieldy. That's mostly the case when you violate the [Principle of Atomicity](/posts/create-zettel-from-reading-notes/): that's when it's time to split it in two.
 
 ## When is a note too big?
 

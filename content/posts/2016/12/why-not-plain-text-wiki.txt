@@ -1,6 +1,7 @@
 ---
 title: "Reader Question: Why Not Use a Plain-Text Wiki?"
 created_at: 2016-12-13 19:42:53 +0100
+updated_at: 2019-11-20 11:39:00 +0100
 kind: article
 author: christian
 tags: [ wiki, connect, zettel, process, identifier, antifragile ]
@@ -50,7 +51,7 @@ On of the most important conditions for my decisions is robustness against chang
 
 This heuristic saved me from the problem Christian mentioned. The ID and the title should be two separate things. A wiki does not provide that flexibility. Therefore it is not robust but fragile to changes in the method. With a wiki I would not have the possibility to change the title after editing or changing the content that is associated with the ID all together. Sometimes, I have to edit the title and the content heavily because I have another theory another concept or what not for solving the problem. 
 
-This is similar to the principle of "one thing well". With the right atomicity you can change parts without damaging the whole. This is a condition for any antifragility which basically means that the method will improve with changes, difficulties and other volatilities. 
+This is similar to the principle of "one thing well". With the right [atomicity](/posts/create-zettel-from-reading-notes/) you can change parts without damaging the whole. This is a condition for any antifragility which basically means that the method will improve with changes, difficulties and other volatilities. 
 
 I simply wikilink to the ID which brakes up the connection between structure and content. This is mandatory for knowledge work because most of the knowledge work is the action of differentiating the structure and content of knowledge (or information). Therefore, the software dependend solutions follows the method which follows the inner logic of knowledge work. 
 
