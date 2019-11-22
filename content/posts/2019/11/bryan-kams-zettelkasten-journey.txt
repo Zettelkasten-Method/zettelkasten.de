@@ -1,0 +1,29 @@
+---
+title: "Beginnings of Bryan Kam's Zettelkasten Journey"
+created_at: 2019-11-22 15:04:52 +0100
+kind: article
+author: christian
+tags: [ getting-started ]
+---
+
+Bryan Kam wrote two posts about his embarking on a Zettelkasten journey in recent months. Especially if you're getting started, posts like his can be a nice place to get inspiration and a feel for the early days.
+
+In his [first post][zk1], he talks about his understanding of the method as a **"methodology for thinking in writing."** Which is a pretty apt summary of one of its benefits already. He also draws connections to _Getting Things Done_, which I'd argue the Zettelkasten Method is not an alternative, but an extension of for personal productivity. Either way, Bryan lists a few core principles and their immediate, actionable results. For example this:
+
+> Each “zettel” (aka note) can only contain a single thought. [...] Massive interlinking. [...] The size limit encourages the recording of inchoate thoughts, to be developed by their relationships. If they’re not linked strongly enough, they may be lost forever in the network. (Less likely in software, but still possible, if you forget to link/search. Also sounds sort of like your brain, doesn’t it?)
+
+I wrote the following on the topics mentioned here: [the principle of atomicity][atom] and one of the early posts about [building a second brain][brain].
+
+A month later, he [wrote a follow-up to his post][zk2] with reflections on the process, and a very nice graphical visualization of note connections. One gem from that post:
+
+> The biggest benefit seems to be that a wider variety of thinking is closer to the surface of my mind at all times. I feel that I think more clearly and can make better analogies. I also feel more confident that I have mastered the material I’ve read (or alternatively, that I know when I haven’t understood, and need to learn more before returning to the material).
+> 
+> A second benefit is the _serendipity_ that Luhmann and Ahrens predict. I often find notes that I’d forgotten about, either by a search or by realising that one note connects to another, then finding more links on that note. This produces novel and insightful connections.
+
+So go ahead and read Bryan's [first][zk1] and [second][zk2] post to immerse yourself further in the Zettelkasten experience!
+
+
+[zk1]: https://clerestory.netlify.com/zk
+[zk2]: https://clerestory.netlify.com/zk1/
+[brain]: https://zettelkasten.de/posts/extend-your-mind-and-memory-with-a-zettelkasten/
+[atom]: https://zettelkasten.de/posts/create-zettel-from-reading-notes/
