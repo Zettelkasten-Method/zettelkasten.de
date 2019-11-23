@@ -10,6 +10,9 @@ RewriteRule ^the-archive/buy(.*)$ https://zettelkasten.onfastspring.com/the-arch
 RewriteRule ^the-archive/download(.*)$ https://dlyfuw95744jo.cloudfront.net/TheArchive-v1.4.5.dmg.zip [R=303,L]
 RewriteRule ^forum(.*)$ https://forum.zettelkasten.de/ [R=303,L]
 
+# Course placeholder
+RewriteRule ^course/(.*)$ / [R=303,L]
+
 # The Archive canonical theme repo link
 RewriteRule ^the-archive/theme-repository https://github.com/Zettelkasten-Method/The-Archive-Themes.git [R=303,L]
 
