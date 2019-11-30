@@ -6,7 +6,7 @@ title: Blog Post Archive
 
 * **Posts [by our amazing community contributors](/authors/guests/)** -- thanks, folks!
 * Post by [Christian](/authors/christian/) and [Sascha](/authors/sascha/).
-* Posts by year: [2019](/posts/2018/), [2018](/posts/2018/), [2017](/posts/2017/), [2016](/posts/2016/), [2015](/posts/2015/), [2014](/posts/2014/), [2013](/posts/2013/).
+* Posts by year: [2019](/posts/2019/), [2018](/posts/2018/), [2017](/posts/2017/), [2016](/posts/2016/), [2015](/posts/2015/), [2014](/posts/2014/), [2013](/posts/2013/).
 * [Zettelkasten Live](/live/) vlog series.
 * [List of tags](/posts/tags/).
 
