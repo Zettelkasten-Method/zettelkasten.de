@@ -8,7 +8,7 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.4.6 Beta (2019-12-07)
+## v1.4.6 (2019-12-07)
 
 - **Fixed:** Occasional error reading note contents when navigating back in history after renaming a note.
 - **Changed:** Renaming a note now alters all known history. If you rename `A` to `B`, all occurrences of `A` will be replaced with `B` in the history. This way, you will not have to remember which note was renamed to what, when you encounter an outdated note filename.
