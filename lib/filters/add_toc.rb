@@ -57,7 +57,7 @@ module NanocSite
     identifier :add_toc
 
     def run(content, params={})
-      content.gsub('{{TOC}}') do
+      content.gsub(/\{\{(TOC|toc)\}\}/) do
         toc = NokogiriTOC.run(content)
         
         res = '<details class="toc" open="open">'
