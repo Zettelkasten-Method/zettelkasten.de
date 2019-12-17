@@ -10,7 +10,7 @@ Bryan Kam wrote two posts about his embarking on a Zettelkasten journey in recen
 
 In his [first post][zk1], he talks about his understanding of the method as a **"methodology for thinking in writing."** Which is a pretty apt summary of one of its benefits already. He also draws connections to _Getting Things Done_, which I'd argue the Zettelkasten Method is not an alternative, but an extension of for personal productivity. Either way, Bryan lists a few core principles and their immediate, actionable results. For example this:
 
-> Each “zettel” (aka note) can only contain a single thought. [...] Massive interlinking. [...] The size limit encourages the recording of inchoate thoughts, to be developed by their relationships. If they’re not linked strongly enough, they may be lost forever in the network. (Less likely in software, but still possible, if you forget to link/search. Also sounds sort of like your brain, doesn’t it?)
+> Each “zettel” (aka note) can only contain a single thought. \[...\] Massive interlinking. \[...\] The size limit encourages the recording of inchoate thoughts, to be developed by their relationships. If they’re not linked strongly enough, they may be lost forever in the network. (Less likely in software, but still possible, if you forget to link/search. Also sounds sort of like your brain, doesn’t it?)
 
 I wrote the following on the topics mentioned here: [the principle of atomicity][atom] and one of the early posts about [building a second brain][brain].
 
