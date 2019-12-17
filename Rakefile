@@ -16,6 +16,16 @@ task :clean do
   Dir["#{SITE}/*"].each { |f| rm_rf(f) }
 end
 
+task :preview => [:thumb] do
+  puts "Generating website..."
+  ENV['NANOC_ENV'] = 'development'
+
+  result = system "nanoc co"
+  notify "Generating site finished"
+
+  result
+end
+
 desc "generate website in output directory"
 task :generate do
   ENV['NANOC_ENV'] = 'deployment'
