@@ -11,10 +11,10 @@
     <%= meta_tag :description %>
     <%= meta_tag :copyright %>
     <%= meta_tag :author %>
-    
+
     <meta name="revisit-after" content="1 day">
     <meta name="language" content="en">
-    
+
     <meta name="viewport" content="width=device-width">
 
     <% if @item[:kind] == 'article' %>
@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="/css/grid.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="alternate" title="Zettelkasten Blog Atom feed" type="application/atom+xml" href="/feed.atom" />
-    
+
     <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -49,22 +49,12 @@
         <div class="header-container clearfix">
             <h1 class="header__title"><a class="header__link" href="/">Zettelkasten</a></h1>
         </div>
-        <nav class="clearfix grid-whole">
-            <ul>
-                <li><a href="/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/compass.svg" width="16"> Home</a></li>
-                <li><a href="/posts/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/folder.svg" width="16"> Blog</a></li>
-                <li><a href="/the-archive/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/thearchive.svg" width="16"> The Archive</a></li>
-                <li><a href="/tools/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/wrench.svg" width="16"> Tools</a></li>
-                <li><a href="https://forum.zettelkasten.de/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/people.svg" width="16"> Forum</a></li>
-                <li><a href="/legal/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/chat.svg" width="16"> Contact</a></li>
-            </ul>
-        </nav>
+        <%= render '/_navigation.*' %>
     </header>
 
     <div class="main-container">
         <div class="wrapper content-wrapper">
             <div class="main clearfix">
-                
                 <%= yield %>
             </div> <!-- #main -->
         </div>
