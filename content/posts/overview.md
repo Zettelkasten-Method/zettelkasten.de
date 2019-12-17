@@ -1,19 +1,22 @@
 ---
-title: Post Overview
+title: Overview
 updated_at: 2019-11-20 11:43:00 +0100
+toc: true
 ---
+
+{{toc}}
+
+**********
 
 So you're here for a starting point.
 
-Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge. The products are texts, mostly. The categories we deem fit currently are the following:
+Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge. The products are texts, mostly. The categories we find fit the process well at the moment are the following:
 
 * _Knowledge Management_:  general information about what it means to work and learn efficiently.
 * _Writing_:  posts on the production of lasting knowledge, and about sharing it with others through your own texts.
 * _Reading_:  posts about the process of acquisition of new things and the organization of sources.
 
-We started to feature application reviews to see how well they fit the Zettelkasten workflow. You most likely want to pick a cool app for your work, so our [tools page](/tools/) and the [list of posts tagged "review"](/posts/tags/review) are good starting points.
-
-There's a lot of other software on the web you could experiment with, so don't feel limited to our (growing) selection.
+We started to feature application reviews to see how well they fit the Zettelkasten workflow. You most likely want to pick an app that adapts well to your work, so our [tools page](/tools/), the [list of blog posts tagged "review"](/posts/tags/review), and our [software forum](https://forum.zettelkasten.de/categories/tools) are all good starting points. There's a lot of other software on the web you could experiment with, so don't feel limited to our selection!
 
 If you want to know more about us and how we roll, take a look at [the "personal" tag](/posts/tags/personal/).
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# coding: utf-8
 
 # A few helpful tips about the Rules file:
 #
@@ -132,8 +133,11 @@ compile '/posts/{index,overview}.*' do
   filter :erb
   filter :kramdown
   filter :typogruby
+  filter :add_ids_to_headers
 
   layout '/plain.*'
+
+  filter :add_toc
 end
 
 compile '/posts/**/*' do
@@ -154,10 +158,7 @@ compile '/posts/**/*' do
 
     layout '/blog.*'
 
-    filter :add_toc
-    if item[:toc]
-      #filter :redcarpet, :renderer => Redcarpet::Render::HTML_TOC, :renderer_options => { :with_toc_data => true }
-    end
+#    filter :add_toc
   end
 end
 
