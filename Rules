@@ -112,8 +112,7 @@ end
 
 compile '/posts/tags.md' do
   filter :erb
-  filter :kramdown
-  filter :typogruby
+  filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true }
 
   layout '/plain.*'
 end
@@ -131,8 +130,7 @@ end
 
 compile '/posts/{index,overview}.*' do
   filter :erb
-  filter :kramdown
-  filter :typogruby
+  filter :redcarpet, renderer: ::RedcarpetRougeRenderer
   filter :add_ids_to_headers
 
   layout '/plain.*'
@@ -149,16 +147,16 @@ compile '/posts/**/*' do
 
     if item[:lang] == 'mmd'
       filter :mmd
+      filter :typogruby
     else
-      filter :kramdown
+      filter :redcarpet, renderer: ::RedcarpetRougeRenderer
     end
 
-    filter :typogruby
     filter :add_ids_to_headers
 
     layout '/blog.*'
 
-#    filter :add_toc
+    filter :add_toc
   end
 end
 
@@ -175,8 +173,7 @@ compile '/**/*' do
   case item[:extension]
     when 'md', 'markdown', 'txt', 'text'
       filter :erb
-      filter :kramdown
-      filter :typogruby
+      filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true }
     when 'haml'
       filter :haml
     else
