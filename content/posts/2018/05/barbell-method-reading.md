@@ -116,3 +116,7 @@ Don't practice shallow processing. But process deeply and practice deep thinking
 ----
 
 **Christian's Comment:** Oh boy, this hits home, and it hits hard: when I postponed my University degree, I transitioned from reading texts and producing text to writing code full-time. Most of the information I absorb are programming-related and come from articles on the web. Since I don't have any non-programming related writing projects, reading stuff for knowledge becomes a mere past-time activity. Without chipping away some time to process what I read, my understanding will remain shallow until I'll eventually forget what I read at all. What an outlook! I still have hope: establishing a weekly routine to further my study some is better than not working on knowledge acquisition at all. We'll see how that'll go.
+
+--- 
+
+**Note:** The content of this article is part of the upcoming Online Kurse on the _Zettelkasten Method of Creative Knowledge Work._
