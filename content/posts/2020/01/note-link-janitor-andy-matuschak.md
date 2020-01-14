@@ -4,7 +4,7 @@ created_at: 2020-01-14 07:34:03 +0100
 kind: article
 author: christian
 tags: [ script, backlink ]
-url: https://github.com/andymatuschak/note-link-janitor
+url:
 ---
 
 Andy Matuschak shared [a script called `note-link-janitor`][janitor] with us the other day that maintains a list of backlinks in all of your Markdown notes.
