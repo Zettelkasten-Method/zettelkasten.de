@@ -1,6 +1,7 @@
 ---
 title: How to Write a Book – Without Even Trying (so hard)
 created_at: 2014-11-02 11:47:00 +0100
+updated_at: 2020-01-14 18:37:00 +0100
 kind: article
 author: sascha
 tags: [ writing, outline, zettel, archive, effort ]
@@ -15,6 +16,8 @@ In my last post [A Life-Long Writing Project on Writing – and My Anxiety][last
   [onwritingmore]: https://leanpub.com/on-writing-more
 
 In this post I'll present the method which led to this book. 
+
+**Update 2020-01-14:** I now store my outlines as Structure Zettel. For more information what a Structure Zettel is see [this post](https://zettelkasten.de/posts/three-layers-structure-zettelkasten/). 
 
 There are two methods to work with a Zettelkasten: 
 
