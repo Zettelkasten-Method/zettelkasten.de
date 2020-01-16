@@ -112,7 +112,7 @@ end
 
 compile '/posts/tags.md' do
   filter :erb
-  filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true }
+  filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true, footnotes: true }
 
   layout '/plain.*'
 end
@@ -130,7 +130,7 @@ end
 
 compile '/posts/{index,overview}.*' do
   filter :erb
-  filter :redcarpet, renderer: ::RedcarpetRougeRenderer
+  filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true, footnotes: true }
   filter :add_ids_to_headers
 
   layout '/plain.*'
@@ -149,7 +149,7 @@ compile '/posts/**/*' do
       filter :mmd
       filter :typogruby
     else
-      filter :redcarpet, renderer: ::RedcarpetRougeRenderer
+      filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true, footnotes: true }
     end
 
     filter :add_ids_to_headers
@@ -173,7 +173,7 @@ compile '/**/*' do
   case item[:extension]
     when 'md', 'markdown', 'txt', 'text'
       filter :erb
-      filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true }
+      filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true, footnotes: true }
     when 'haml'
       filter :haml
     else
