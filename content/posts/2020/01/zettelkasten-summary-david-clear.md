@@ -4,8 +4,7 @@ created_at: 2020-01-16 12:46:25 +0100
 kind: article
 author: christian
 tags: [ getting-started ]
-image: 202001161213_zettelkasten-bclear.png
-url: https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125
+image: 202001161213_zettelkasten-bclear.jpeg
 ---
 
 <%= insert_teaser_image title: "Sketch of a Zettelkasten", caption: %{Image courtesy David B. Clear, CC BY-SA 4.0} %>
