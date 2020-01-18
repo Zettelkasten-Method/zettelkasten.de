@@ -77,7 +77,7 @@ label, input { font-family: $font-sans; }
   text-shadow: 0 2px 0 rgba(0,0,0,0.4);
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  background-color: #B5CB30;
+  background-color: $color-background-header;
   text-align: center;
 
   a.header__link, a.header__link:visited, a.header__link:hover {
@@ -350,6 +350,16 @@ blockquote {
   margin-top: 3em;
   font-size: $small-size;
   p { margin-bottom: 0; margin-top: 0; }
+}
+
+.post aside {
+  font-family: $font-sans;
+  padding: 0 1em;
+}
+
+.post aside.note {
+  border-radius: 1.4em;
+  border: 0.2em solid $color-aside-note;
 }
 
 hr {
