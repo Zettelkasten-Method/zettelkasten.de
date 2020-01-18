@@ -4,6 +4,7 @@ created_at: 2020-01-18 12:30:29 +0100
 kind: article
 author: christian
 tags: [ thearchiveapp, connect ]
+description: "If your app does not support link suggestions, you can emulate this with a few simple tricks to search for the link target without losing where you came from."
 ---
 
 If your note-taking app of choice doesn't support auto-completion to suggest links while you type, what can you do?
