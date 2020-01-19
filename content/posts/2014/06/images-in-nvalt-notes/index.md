@@ -1,7 +1,7 @@
 ---
 title: Include Images in nvALT for a Multi-Media Zettelkasten Experience
 created_at: 2014-06-18 19:39:52 +0200
-updated_at: 2014-07-12 13:56:00 +0200
+updated_at: 2020-01-19 10:36:00 +0200
 author: christian
 kind: article
 tags: [ nv, image ]
@@ -37,7 +37,7 @@ The thing is, nvALT doesn't pass its working directory through to the preview. T
 
 However, we could use absolute paths. I don't like that idea, though. 
 
-[semanotes]: http://www.abolish.me/blog/semantic-notes#archiving
+[semanotes]: https://web.archive.org/web/20150919121615/http://www.abolish.me/blog/semantic-notes#archiving
 [path]: http://en.wikipedia.org/wiki/Path_(computing)
 
 ## Why you should care about relative paths
