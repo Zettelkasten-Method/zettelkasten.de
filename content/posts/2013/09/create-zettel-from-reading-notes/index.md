@@ -40,7 +40,7 @@ Now let's see how all this works.
 
 <%= insert_rel_image file: "1_read.jpg", title: "Books" %>
 
-I finished a really good book on personal [Kanban][kanban] recently for which I'll demonstrate my workflow.[#benson2011pk][]
+I finished a really good book on personal [Kanban][kanban] recently for which I'll demonstrate my workflow. The book is by Jim Benson and Tonianne DeMaria Barry (2011):  [_Personal Kanban: mapping work, navigating life_][pkanb],[^aff] Seattle, WA: Modus Cooperandi Press.
 
 I take this particular book for an example because it was a light reading and I didn't take a lot of notes.  It's a great demonstration on clustering notes first and writing _Zettel_ afterwards, too, because the basic concepts appear repeatedly in the course of the book.
 
@@ -112,9 +112,10 @@ Connecting things like that is called "creativity."  There you are, a few nice p
 
 Next time, I'll show you more about my software setup and why my note titles are the way they are.  Thanks for all the great feedback so far!  I'd love to hear from you guys:  feel free to mail me or contact me via Twitter!
 
-  [creat]: http://lifehacker.com/5906749/creativity-is-just-connecting-things
-
-  [#benson2011pk]: Jim Benson and Tonianne DeMaria Barry (2011):  _[Personal Kanban: mapping work, navigating life](x-bdsk://benson2011pk)_, Seattle, WA: Modus Cooperandi Press.
-
 
 **Update 2017-06-06:** Sascha made [a video about note processing in his archive](/posts/book-processing-video/).
+
+[^aff]: Affiliate link; we get a small kickback by Amazon to support this site if you buy from our link, but it won't cost you anything.
+
+[creat]: http://lifehacker.com/5906749/creativity-is-just-connecting-things
+[pkanb]: https://www.amazon.com/Personal-Kanban-Mapping-Work-Navigating-ebook/dp/B004R1Q642/ref=as_li_ss_tl?keywords=benson+Personal+Kanban&qid=1579682634&s=books&sr=1-1&linkCode=ll1&tag=ctzettelkasten-20&linkId=b473573642847705586d0d8ea22cc1f7&language=en_US

@@ -5,7 +5,6 @@ author: christian
 kind: article
 tags: [ writing, productivity, zettel, connect, luhmann ]
 vgwort: https://vg02.met.vgwort.de/na/5ecb7a3567854388b277be5d1e30893f
-lang: mmd
 import:
     without_comments: true
     from: "http://christiantietze.de/posts/2013/06/zettelkasten-improves-thinking-writing/"
@@ -34,19 +33,19 @@ The principles I lay out in this post apply to both digital and paper-based note
 
 Let's start with the _thought_ before we get to the _note_.
 
-  [^nov]: From Wikipedia I got the [info about Nabokov][vn].  [Jean Paul][jp]'s 1796 narration _Leben des Quintus Fixlein_ is subtitled "aus funfzehn Zettelkästen gezogen; nebst einem Mustheil und einigen Jus de tablette" (literally:  drawn from fifteen card indexes).  [Arno Schmidt][as]'s so-called "book" _Zettels Traum_ (roughly "index card's dream") looks like the collage it really is.  You should just [take a look at _Zettels Traum_][zt] and see for yourself!
+[^nov]: From Wikipedia I got the [info about Nabokov][vn].  [Jean Paul][jp]'s 1796 narration _Leben des Quintus Fixlein_ is subtitled "aus funfzehn Zettelkästen gezogen; nebst einem Mustheil und einigen Jus de tablette" (literally:  drawn from fifteen card indexes).  [Arno Schmidt][as]'s so-called "book" _Zettels Traum_ (roughly "index card's dream") looks like the collage it really is.  You should just [take a look at _Zettels Traum_][zt] and see for yourself!
   
-  [^src]: From Luhmann (1992)[#luhmann1992zettel][] I took the model and the arguments I demonstrate in this post.  All credit's really due to him.  His article translates to _Communication with Index Card Systems. An Empirical Account_ or _Communication with Slip Boxes_.  See the [English full-text translation.][csb]
+[^src]: From Luhmann ([_Communication with Slip Boxes. An Empirical Account_][csb]) I took the model and the arguments I demonstrate in this post.  All credit's really due to him.  His article translates to _Communication with Index Card Systems. An Empirical Account_ or _Communication with Slip Boxes_.  See the [English full-text translation.][csb]
   
-  [jp]: http://en.wikipedia.org/wiki/Jean_Paul
-  [vn]: http://en.wikipedia.org/wiki/Index_card
-  [as]: http://en.wikipedia.org/wiki/Arno_Schmidt
-  [zt]: http://www.zinzin.com/observations/2013/who-was-arno-schmidt-and-what-is-zettels-traum-some-evidentiary-fragments/
-  [csb]: http://luhmann.surge.sh/communicating-with-slip-boxes
+[jp]: http://en.wikipedia.org/wiki/Jean_Paul
+[vn]: http://en.wikipedia.org/wiki/Index_card
+[as]: http://en.wikipedia.org/wiki/Arno_Schmidt
+[zt]: http://www.zinzin.com/observations/2013/who-was-arno-schmidt-and-what-is-zettels-traum-some-evidentiary-fragments/
+[csb]: http://luhmann.surge.sh/communicating-with-slip-boxes
   
 ## Improve Thinking by Writing: Why You Should Take Notes [impthink]
 
-Whenever you want to think to some purpose, you should consider writing it down.  See Luhmann[pp 55--56][#luhmann1992zettel], also Steffens[pp 20--21][#steffens2006scheib].
+Whenever you want to think to some purpose, you should consider writing it down.  See Luhmann, [_Communication with Slip Boxes. An Empirical Account_][csb], and the book by Steffens (pp 20--21, see [references](#_references)).
 
 - Writing improves your ability to think coherently:  "what's my point?" Whatever the answer, you'll be able to stick to it.
 - Writing prevents you from jumping around in your mind, forgetting details, but rather to think consistently:  "how is my point being developed?"
@@ -67,7 +66,7 @@ So here's the next step:  if you take notes and write a lot, it's only rational 
   [zhb]: http://zenhabits.net/write-daily/
   [hb]: http://en.wikipedia.org/wiki/Hindsight_bias
   
-  [^clar]: Refer to the research of Rimé et al[#rime1998soshae][] who have found people talk about troubling topics like emotions a lot.  Some suggest this is an indicator that talking will clarify your understanding.
+  [^clar]: Refer to the research of Rimé et al, __Social Sharing of Emotion_ (see [references](#_references)) who have found people talk about troubling topics like emotions a lot.  Some suggest this is an indicator that talking will clarify your understanding.
   
 ## Create Notes to Converse With
 
@@ -85,7 +84,7 @@ I'll show _what_ generally enables a thing (or person) to communicate with you b
 
 You usually retrieve notes from a bucket of some sort.  To say that there's communication happening, you have to move beyond basic input/output retrieval.
 
-Boiled down, the basic needs of a communication system according to Luhmann [pp 58--60][#luhmann1992zettel] are as follows:
+Boiled down, the basic needs of a communication system according to Luhmann in [_Communication with Slip Boxes_][csb] are as follows:
 
 *   **Irritation:**  basically, without surprise or disappointment there's no information.  Both partners have to be surprised in some way to say communication takes place.
     
@@ -151,11 +150,11 @@ Next, I'll show you how to implement a _Zettelkasten_ on your computer.  Stay tu
 
 <small>Thank you, <a href="http://hiltmon.com">Hilton</a>, for reading and editing the final draft and for encouraging me to publish it soon.</small>
 
-[Not Cited][#rime1998soshae] <!-- ct: fix for footnote conversion -->
+----
 
-[#luhmann1992zettel]: Niklas Luhmann (1992):  "Kommunikation mit Zettelkästen. Ein Erfahrungsbericht", in: _Universität als Milieu_, edited by André Kieserling, Bielefeld: Haux. -- Take a look at the full-text translation titled [_Communication with Slip Boxes. An Empirical Account_][csb] by Manfred Kuehn. ([original link (Archive.org)](https://web.archive.org/web/20150825031821/http://scriptogr.am/kuehnm))
-  
-[#rime1998soshae]: Bernard Rimé, Catrin Finkenauer, Olivier Luminet, Emmanuelle Zech, and Pierre Philippot (1998):  _Social Sharing of Emotion: New Evidence and New Questions_, European Review of Social Psychology 9, 1998, Vol. , S. 145--189.
+<a id="_references"></a><small><b>Further Reading:</b></small>
 
-[#steffens2006scheib]: Henry J. Steffens, Mary Jane Dickerson, and Wolfgang Schmale (2006):  "Schreiben um Geschichte zu lernen. Überblick und Einführung", in _Schreib-Guide Geschichte_, edited by Wolfgang Schmale, Wien and Köln and Weimar: Böhlau.
+- Niklas Luhmann (1992):  "Kommunikation mit Zettelkästen. Ein Erfahrungsbericht", in: _Universität als Milieu_, edited by André Kieserling, Bielefeld: Haux. -- Take a look at the full-text translation titled [_Communication with Slip Boxes. An Empirical Account_][csb] by Manfred Kuehn.   
+- Bernard Rimé, Catrin Finkenauer, Olivier Luminet, Emmanuelle Zech, and Pierre Philippot (1998):  _Social Sharing of Emotion: New Evidence and New Questions_, European Review of Social Psychology 9, 1998, Vol. , S. 145--189.
+- Henry J. Steffens, Mary Jane Dickerson, and Wolfgang Schmale (2006):  "Schreiben um Geschichte zu lernen. Überblick und Einführung", in _Schreib-Guide Geschichte_, edited by Wolfgang Schmale, Wien and Köln and Weimar: Böhlau.
   

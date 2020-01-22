@@ -45,7 +45,7 @@ The majority of the writing is done in advance and it's done in manageable parts
 
 When you query your _Zettelkasten_ to find out what you've collected on a given topic, it will give you a birds-eye view of your archived knowledge.  At the same time, you're able to dig deeper and follow the trails of interconnected notes.  Opposed to less elaborate note-taking techniques, a _Zettelkasten_ provides a more useful overview since it also serves links between items in the archive. <!-- ct: usefulness of the overview -->
 
-After you select what you want to use for your writing project, you should order the material in an outline as a wireframe <!--sf: Frame reicht --> for your text.  Outlines will prove beneficial because you've thought about the structure before you get your hands dirty crafting paragraphs.[pp 33--35][#hayes2006writheor] 
+After you select what you want to use for your writing project, you should order the material in an outline as a wireframe <!--sf: Frame reicht --> for your text.  Outlines will prove beneficial because you've thought about the structure before you get your hands dirty crafting paragraphs.[^hayes2006writheor] 
 
 To see with clarity if your research backs up your text's structure sufficiently, the next step is to assign notes from your _Zettelkasten_ to the items of your outline.  When an item of your outline seems to be neglected because you don't have enough notes that fit, you can continue your research, focusing on the missing pieces.  As soon as you're confident you got enough coverage for a start, you string the notes's contents together according to the outline.  Thus you create the very first draft.  That's all it takes to move from a plan to outline to manuscript.  Then you begin to re-write, organize the material and start to make the text coherent.
 
@@ -59,7 +59,7 @@ A well-fed _Zettelkasten_ takes you there quickly since you mostly compile notes
 [goins]: http://goinswriter.com/write-less-not-more-how-to-slice-and-dice/
 [sfd]: http://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf
 
-[#hayes2006writheor]: John R. Hayes (2006):  _[New Directions in Writing Theory](x-bdsk://hayes2006writheor)_, New York and London: The Guilford Press.
+[^hayes2006writheor]: John R. Hayes (2006):  _New Directions in Writing Theory_, New York and London: The Guilford Press, pp. 33--35.
 
 ## Summing Up
 

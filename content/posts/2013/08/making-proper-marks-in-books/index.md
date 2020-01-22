@@ -6,7 +6,6 @@ author: christian
 tags: [ reading, collect ]
 image: "201308102253_marks.jpg"
 vgwort: https://vg02.met.vgwort.de/na/416d0ec1ad734a1aa4c334e1eb9bc12b
-lang: mmd
 import:
     from: "http://christiantietze.de/posts/2013/08/making-proper-marks-in-books/"
 ---
@@ -24,7 +23,9 @@ When you read a book, do you underline words or sentences or whole paragraphs?  
 
 Manfred Kuehn thinks **the way you treat a book is a sign of how civilized a reader you are**.  If you paint the pages you don't know a lot about getting information and treating books.  Also, [underlining is utterly useless][und] in most cases:  you don't magically remember the content better if you underline it word for word, sentence by sentence.  Underlining won't help you _remember_;  marks are there to aid understanding in a later phase of reading.
 
-Despite Kuehn's point, you're not supposed to consider yourself a caveman just because you use colored pens to put marks in texts:  Umberto Eco states in _How to Write a Dissertation_[^eco] that you should use different colors for different questions, topics, points of view, and he says you should mark passages in color for revisiting the text.[160][#eco2007abschlussarbeit]  According to Eco, it's useful to **color-code your marks and reflect this code in your notes.**
+Despite Kuehn's point, you're not supposed to consider yourself a caveman just because you use colored pens to put marks in texts:  Umberto Eco states in [_How to Write a Thesis_][htwat] that you should use different colors for different questions, topics, points of view, and he says you should mark passages in color for revisiting the text.[^where]  According to Eco, it's useful to **color-code your marks and reflect this code in your notes.**
+
+[^where]: This is from on page 160 in the German translation of the book; I don't know the page number of the newer English translation, though. If you find the place, please tell us about it!
 
 I agree that you should neither ruin other people's property nor their reading experience of library books by painting the book's pages, though.  That's just ruthless.  But you'll need to mark passages for further reference, else you'll forget what you found important in the first place.  So because you have to, use a pencil and erase your marks later if the book wasn't yours.  If you're going to re-read the text and use it during future research, buy the book and use colored pencils if you like.
 
@@ -61,9 +62,6 @@ These glyphs I only use for texts in philosophy and sociology which tend to be m
 _Please [tell me more](http://twitter.com/ctietze) about your own reading habits!_  
 
 [und]: http://takingnotenow.blogspot.com/2013/08/underlining-in-library-books.html
-
-[imp]: /posts/zettelkasten-improves-thinking-writing/#impthink
-
-[^eco]:  I couldn't find an English translation of Eco's _Come si fa una tesi di laurea_.  The [German translation](http://www.amazon.de/gp/product/3825215121/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=3825215121&linkCode=as2&tag=divined-21) (affiliate link) is very popular, though.  I cite this one.
-
-[#eco2007abschlussarbeit]: Eco, Umberto: _Wie man eine wissenschaftliche Abschlußarbeit schreibt_, translated from Italian. Müller, 2007.
+[imp]: https://zettelkasten.de/posts/zettelkasten-improves-thinking-writing/#impthink
+[^aff]: Affiliate link; we get a small kickback from Amazon to support this site from if you buy from our link, but it won't cost you anything.
+[htwat]: https://www.amazon.com/How-Write-Thesis-MIT-Press/dp/0262527138/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=ctzettelkasten-20&linkId=74f6517a8c4df9f357cf9781972b7fb1&language=en_US

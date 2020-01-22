@@ -19,6 +19,7 @@ ENV['NANOC_ENV'] ||= 'development'
 require 'compass'
 Compass.add_project_configuration 'compass_config.rb'
 
+REDCARPET_OPTIONS = { fenced_code_blocks: true, footnotes: true, tables: true }
 BYPASS_FILES = %w(404.html crossdomain.xml humans.txt robots.txt googlebd82924855df6b5d.html) unless defined?(BYPASS_FILES)
 is_deploying = false
 
@@ -112,7 +113,7 @@ end
 
 compile '/posts/tags.md' do
   filter :erb
-  filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true, footnotes: true }
+  filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
 
   layout '/plain.*'
 end
@@ -130,7 +131,7 @@ end
 
 compile '/posts/{index,overview}.*' do
   filter :erb
-  filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true, footnotes: true }
+  filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
   filter :add_ids_to_headers
 
   layout '/plain.*'
@@ -144,14 +145,7 @@ compile '/posts/**/*' do
     #   filter :thumbnailize, :width => 1500
   else # don’t filter binary items
     filter :erb
-
-    if item[:lang] == 'mmd'
-      filter :mmd
-      filter :typogruby
-    else
-      filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true, footnotes: true }
-    end
-
+    filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
     filter :add_ids_to_headers
 
     layout '/blog.*'
@@ -173,7 +167,7 @@ compile '/**/*' do
   case item[:extension]
     when 'md', 'markdown', 'txt', 'text'
       filter :erb
-      filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: { fenced_code_blocks: true, footnotes: true }
+      filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
     when 'haml'
       filter :haml
     else

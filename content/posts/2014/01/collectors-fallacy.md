@@ -6,7 +6,6 @@ author: christian
 tags: [ archive, note-taking, reading, collect, knowledge-cycle ]
 image: 201401202212_messy-desk.jpg
 vgwort: https://vg08.met.vgwort.de/na/55373ef9fa9e410295badb08ea064eea
-lang: mmd
 import:
     from: "http://christiantietze.de/posts/2014/01/collectors-fallacy/"
 ---
@@ -21,7 +20,7 @@ Let's call this "The Collector's Fallacy".  Why fallacy?  Because 'to know about
 
 <!--ct: ct:201205300916 Textkopien als Alibi, beschäftigt zu sein -->
 
-Preparing reading material alone doesn't get you anywhere.  It's quite common that students prepare lots and lots of photocopies of the texts they have to read --- and stop just there.  The copies grow to be an alibi, says [Umberto Eco][ecow]:  "there's a lot someone doesn't know anything about precisely because she photocopied a text;  she has given herself in to the illusion of having read the text already."[162][#eco2007abschlussarbeit] (My translation.)
+Preparing reading material alone doesn't get you anywhere.  It's quite common that students prepare lots and lots of photocopies of the texts they have to read --- and stop just there.  The copies grow to be an alibi, says Umberto Eco in his book ["How to Write a Thesis"][htwat]:[^aff]  "there's a lot someone doesn't know anything about precisely because she photocopied a text;  she has given herself in to the illusion of having read the text already." (That's from page 162 of the German translation; I translated the quote from there since it precedes the publication of the official English translation.)
 
 The worst we could do is to pile up copies until the stack grows intimidatingly high, until it becomes unmanageable.  After that it will be ignored in its entirety.  Because to take a photocopy of a text is so much faster than actually reading it and learning what's inside, we tend to amass days worth of deliberate reading in about half an hour standing next to the copier.  We have to pay attention not to copy more texts than we may handle.
 
@@ -42,7 +41,6 @@ Just like photocopying is self-rewarding and addictive, I argue that we fall int
 What can we do about the addictive behavior of collecting?
 
 [colrss]: /posts/reading-web-rss-note-taking
-[ecow]: http://en.wikipedia.org/wiki/Umberto_Eco
 
 ### Research, Read, Assimilate;  rinse and repeat
 
@@ -64,7 +62,7 @@ Taking notes thoroughly means you can rely on your notes alone and rarely need t
 
 This is a first step to conquer Collector's Fallacy:  to realize that having a text at hand does nothing to increase our knowledge.  We have to work with it instead.  Reading alone won't suffice:  we have to create notes, too, to create real, sustainable knowledge.
 
-Especially when we start to research something new, Eco recommends we read and highlight texts right after we create copies.[#eco2007abschlussarbeit][]  If we train ourselves to process photocopied texts soon, we get a feeling of how much we can really handle.
+Especially when we start to research something new, Eco recommends we read and highlight texts right after we create copies in ["How to Write a Thesis"][htwat].[^aff]  If we train ourselves to process photocopied texts soon, we get a feeling of how much we can really handle.
 
 Shorter cycles of research, reading, and knowledge assimilation are better than long ones.  With every full cycle from research to knowledge assimilation, we learn more about the topic.  When we know more, our decisions are more informed, thus our research gets more efficient.  If, on the other hand, we take home a big pile of material to read and process, some of it will turn out be useless once we finished parts of the pile.  To minimize waste, both of time and of paper, it's beneficial to immerse oneself step by step and learn on the way instead of making big up-front decisions based on guesswork.
 
@@ -87,5 +85,6 @@ Want to stop collecting with no end and start to get productive?  Try the routin
 [mk]: http://takingnotenow.blogspot.com/2013/11/devonthink-reconsidered.html
 [extend]: /extend-your-mind-and-memory-with-a-zettelkasten/
 
-[#eco2007abschlussarbeit]: Umberto Eco (2007):  _Wie man eine wissenschaftliche Abschlußarbeit schreibt_, Heidelberg: Müller.
+[htwat]: https://www.amazon.com/How-Write-Thesis-MIT-Press/dp/0262527138/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=ctzettelkasten-20&linkId=74f6517a8c4df9f357cf9781972b7fb1&language=en_US
 
+[^aff]: Affiliate link; we get a small kickback from Amazon to support this site if you buy from our link, but it won't cost you anything.
