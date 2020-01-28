@@ -59,10 +59,9 @@ Your topics will be different.  When you commit to [take notes while you read a 
 [read]: /posts/create-zettel-from-reading-notes/
 [cite]: /posts/bibliography-zettelkasten/
 
-<!-- ct: TODO later post about WRITING The permanent storage is opening up opportunities to combine and connect thoughts:  a Zettelkasten ultimately [writes your articles and books for you][write] over time.
+The permanent storage is opening up opportunities to combine and connect thoughts:  a Zettelkasten ultimately [writes your articles and books for you][write] over time.
 
-[write]: -- next post --
--->
+[write]: https://zettelkasten.de/ease-into-writing/
 
 ## Wrapping Up
 

@@ -47,7 +47,7 @@ At first, I thought I couldn't work without clickable links in my Zettelkasten a
 
 In the end, I never bothered to add the link feature, though. After getting used to not having what I wanted for some time, I found out how well the whole thing worked nonetheless.
 
-To emulate what a link does, taking me to another note, that is, I copy the [note identifier][ident] and search for it. This takes me to the target note. <!--ct: TODO add link to nvALT workflow video once it's done-->
+To emulate what a link does, taking me to another note, that is, I copy the [note identifier][ident] and search for it. This takes me to the target note.
 
 Please pay attention to the fact that I rely on the search of my software _to jump to link targets_. I don't use the full-text search to jump between notes _by their content._ If I were to rely on the contents, I wouldn't create connections manually and miss the whole point of a Zettelkasten. Similar access mechanism, different outcome.
 

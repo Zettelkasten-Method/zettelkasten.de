@@ -8,11 +8,7 @@ image: 201501061708_clueless.jpg
 vgwort: https://vg03.met.vgwort.de/na/c987064b1ff644cb9f86d12b00a03eb9
 ---
 
-<!-- Benefit -->
-
 If you not only take notes but also edit them before you put them into you archive (hopefully a Zettelkasten), you will save energy and time, and preserve sanity. It will also enhance the clarity of your writing in general.
-
-<!-- Hook -->
 
 If you use the Zettelkasten Method you will be faced with your ghosts of the past. If I ask my Zettelkasten about a term like *evolution*, it throws Zettels from 2010 at me. 
 
@@ -25,8 +21,6 @@ I decided to restrict myself to a writing structure after similar incidents. Act
 <%= insert_teaser_image title: "clueless kid", caption: %{Photo credit: "<a href="https://www.flickr.com/photos/bethanyjbrady/2384931677">Clueless</a>" by lady_lbrty, <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0</a>} %>
 
 This is the challenge a Zettelkasten puts up: You have to be able to understand what you have written up to a life time.
-
-<!-- The solution -->
 
 A lot was written about how to write good books and articles but I didn't find anything on how to take notes. Why? Because notes usually are not meant to last forever. This is a unique trait of the Zettelkasten. 
 

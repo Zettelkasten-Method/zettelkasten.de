@@ -40,19 +40,9 @@ Both the mark and the note will be useful when I process the text later.  True u
 
 ## Getting Fancy with Marks
 
-<style type="text/css" media="screen">
-<!--
-.circled {
-border-width: 0.5em 0.7em;
--moz-border-image: url(border.png) 19 30 16 30 stretch stretch;
-border-image: url(border.png) 19 30 16 30 stretch stretch;
-}
--->
-</style>
-
 For academic reading, I employ a tactic which is slightly more complex.  My good friend Sascha suggested to divide text into its functionings:
 
-*   I <em class="circled">circle terms</em> which are being defined and write a `D` for Definition in the margin.
+*   I circle terms which are being defined and write a `D` for Definition in the margin.
 *   When the author elaborates a model, I put an `M` or `μ` in the margin and maybe highlight key terms she uses.
 *   If I spot an argument, I put an `A` or `α` in the margin and sometimes draw a vertical line in the margin to designate the passage.
 *   Everytime I find a weakness in the argument or disagree due to a different starting point, I put a bolt glyph in the margin.

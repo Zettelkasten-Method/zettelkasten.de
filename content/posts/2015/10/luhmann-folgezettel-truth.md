@@ -72,7 +72,7 @@ This connection can intend several things:
 
 - continue a thought
 - add an idea to a thought
-- exclude a thought from the existing line of thoughts (Folgezettel could mark a blind end. That means it says what conclusion not to make.<!--ct: verstehe die Erklärung, aber "blind end" ist mir ungeläufig. Meinst du dead end (Sackgasse)?-->) 
+- exclude a thought from the existing line of thoughts (Folgezettel could mark a blind end. That means it says what conclusion not to make.
 
 Let’s summarize what we have so far. A Folgezettel
 

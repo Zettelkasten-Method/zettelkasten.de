@@ -10,8 +10,6 @@ import:
     from: "http://christiantietze.de/posts/2014/02/count-your-words"
 ---
 
-<!-- VG Wort Zählmarke von Sascha -->
-
 So you are a knowledge worker? This means 90% of your work is about dealing with words. Blogger, writer, journalists -- the biggest chunk of work is writing. "Writing" is just a short term for producing words.
 
 Let's be clear: productivity equals your output, counted in words. It is writing itself that equals the 20% which get you 80% of the results. If you want to improve as a writer, writing more is your best lever. And more writing leads to a myriad of other benefits:

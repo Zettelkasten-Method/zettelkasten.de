@@ -49,8 +49,6 @@ Smarter search applications like [DEVONthink][dt] can even sort search results b
 [nogu]: http://lifehacker.com/the-noguchi-filing-system-keeps-paper-documents-organiz-1593529432
 [dt]: /posts/devonthink-zettelkasten-review/
 
-<!--ct: TODO junction (Schweißnaht)-->
-
 ## Tags/Keywords
 
 I wrote about this before when I tried to show [how a Zettelkasten can extend your mind.][ext] There, and in my [first post][zk], I have stressed the importance of connections. 

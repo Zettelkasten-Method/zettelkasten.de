@@ -39,7 +39,6 @@ I think this is wrong. It's wrong because the brain makes use of breaks to clean
 Research is addictive, because it rewards us with the false impression of making progress. Finding something interesting isn't the same as knowing something and being able to work with it. I call this the [Collector's Fallacy][colfal].
 
 I know the anxiety to leave my work place when I'm programming: "I'm so into this problem and I know I can solve it pretty soon! Just five more minutes, I need just five more minutes. No need to take a break now. I'll take it afterwards." Whenever this happens, I mostly achieve ... back pain. From sitting too long at a stretch. But I don't realize it sometimes. That's what break timers are good for. Sometimes I think I'd have dropped dead already if I hadn't discovered an app which interrupts my work every 20 minutes.
-<!--ct: TODO link post Take Breaks-->
 
 Now I know from experience that I can take a short break and come back refreshed. I don't even lose the context. I don't need the proverbial [fifteen](http://c2.com/cgi/wiki?MentalStateCalledFlow) [minutes](http://online.wsj.com/news/articles/SB10001424127887324123004579057212505053076) to get into the flow again and to wrap my head around the task I left. I think this is because I didn't really mentally leave it during the 2&nbsp;minute-break I just took. I still thought about it. I simply got out of the mess for a little while.
 
@@ -57,13 +56,6 @@ This ability enables us to redesign how we work. I already said that _Knowledge 
 
 ## To Make a Habit of Learning
 
-<!--ct: 
-201407031839 Kurzer Wissenszyklus verschafft Continuous Integration
-#lean-thinking -- wenn auch veröffentlicht wird
--->
-
-<!--ct: §201401211346 Habit um in einen kurzen Wissenszyklus zu kommen-->
-
 The Knowledge Cycle is composed of these steps:
 
 1. **Research** for new material, where we have to scan and select what's useful and what isn't,
@@ -79,10 +71,7 @@ The bottom line is, you can't fool yourself anymore into believing everything an
 
 It's useful to keep the knowledge cycle short. The shorter it is, the better you can judge what's useful in the following round. We pick material based on our actual knowledge, and from increasing our domain knowledge follows that we get better at picking new material. You minimize waste by making informed decisions -- waste of time and energy, that is.
 
-<!--ct: §201112161013 Interaktive Schreibstrategie führt wahrscheinlich zu besseren Texten-->
-
 Most writing projects with sufficient complexity are completed iteratively anyway. We form thoughts when we write. These thoughts are important for planning and making better decisions. That's why I call it a cycle of _knowledge_, not a cycle of getting writing projects done: ultimately, everything we do in a writing project is about increasing our knowledge during the process and teaching the results with our writing. Consequently, it's rational you start writing early so you're able to improve your ability to think about the topic and make more informed decisions.
-<!--ct: comes from http://ct.dev/posts/2014/01/collectors-fallacy/ TODO link back to here-->
 
 You will go through lots of these Knowledge Cycles until your project is finished. That's why it's called 'iterative writing.' This iterative approach may feel weird at first, but it's the same uneasiness we feel when we're about to make breaks from work: we are afraid we miss something if we don't continue and immerse even deeper in what we do at the moment.
 
@@ -108,7 +97,7 @@ The process of adaptation goes like this:
 
 *   **Start** with 1 hour of research. Stick to the time limit. You will return to this later, so take note of your trails before you leave.
 *   **Process** all your findings of the first step. Take notes and connect them in your _Zettelkasten_ note archive. Once you think you got everything in the archive, add the notes or references to them to your draft. Write a sentence or two to explain the connections between the notes you just inserted if you like. Do whatever it takes to really _integrate_ the new findings into your current draft.
-*   **Reflect on**  <!--ct: upon?--> the process. How well did you do? Did you learn something new? Judge the processing work you had to do: Was the amount of material manageable? How long did it take to work through your findings Would you prefer to have more or less time to research? Keep book of your answers. It's important to write them down in a log to review changes over time.
+*   **Reflect on** the process. How well did you do? Did you learn something new? Judge the processing work you had to do: Was the amount of material manageable? How long did it take to work through your findings Would you prefer to have more or less time to research? Keep book of your answers. It's important to write them down in a log to review changes over time.
 *   **Adapt the routine:**  change the time limit of your research. Try to double or halve the time at first to get a feeling for the direction in which you'll have to push the time boundary. The time it takes to process your findings is part of the feedback you can use to change the boundary.
 
 Repeat the process.
@@ -122,7 +111,6 @@ After some time, you obtain relative expertise in your field. To know more means
 With time and experience, you'll know how much research you can handle at the start of a project and how to adapt your schedule. You'll be able to plan writing projects better than most of your peers.
 
 If you don't need to do research because, say, you have to write about one large book only, you have to change the process a bit. You won't need to regulate research time, but reading time instead. You can limit time spent reading or the amount of pages read each session. You can also alternate between modes of reading with each cycle. There are [four levels of reading][summfs] Adler and van Doren recognize in their classic _[How to Read a Book][readbook]_.[^aff] For example, you can skim the whole book first and take notes on your overall feeling for the topic. Later, you can skim sections and compare them. Sometimes, you'll read a few pages with great effort. The one thing to keep in mind is this: **know in advance when you'll have to stop.**
-<!--ct: TODO link to knowledge cycle w/o research-->
 
 Keep in mind that our memories aren't reliable, so don't try to work with it alone. You'll need to keep a log and take a look at it whenever you want to change the process to make an _informed_ and directed change instead of blindly guessing what could work next. Reflecting on the process will inevitably give your mind a bit of rest. This might trigger ideas which lead you to research differently and get new insights. So take the logging and journalling seriously.
 
@@ -134,7 +122,6 @@ Keep in mind that our memories aren't reliable, so don't try to work with it alo
 ## Conclusion
     
 So I hope you take regular work breaks to stay sane. As a side-effect of learning to take short breaks regularly, you will lose the anxiety that stopping what you do will make you less productive. Because our minds need to rest a bit to operate on a high level, taking breaks will make you more productive instead.
-<!--ct: TODO link future post: work break-->
 
 Once you know you can get back to work whenever you want to and continue where you left off, you're free to alternate the kind of work you do. There's no need to "_Research All the Things!_" en bloc, just as there's no need to complete any tasks without interruption. To alternate activities can be useful because our brains can figure out missing pieces in between without us knowing.
 

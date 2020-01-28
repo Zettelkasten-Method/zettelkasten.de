@@ -32,7 +32,7 @@ If you want to know more about us and how we roll, take a look at [the "personal
 * [Use outlines](/posts/how-i-use-outlines-to-write-any-text/) to start with the first draft of your writing project.
 * Then [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents in. 
 
-<!--ct: keep in sync with content/posts/2015/07/getting-started.txt -->
+<%# <!--ct: keep in sync with content/posts/2015/07/getting-started.txt --> %>
 
 ## Principles
 

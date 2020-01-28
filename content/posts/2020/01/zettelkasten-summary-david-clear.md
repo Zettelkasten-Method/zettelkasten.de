@@ -9,8 +9,6 @@ image: 202001161213_zettelkasten-bclear.jpeg
 
 <%= insert_teaser_image title: "Sketch of a Zettelkasten", caption: %{Image courtesy David B. Clear, CC BY-SA 4.0} %>
 
-<!-- TODO image 202001161213_zettelkasten-bclear -->
-
 At the turn of the decade, David B. Clear[^clr] wrote a summary about all things Zettelkasten, called ["Zettelkasten — How One German Scholar Was So Freakishly Productive"][prod].
 
 It's a great post, especially if one is just starting out with the Zettelkasten Method. There's so many highlights there, like:

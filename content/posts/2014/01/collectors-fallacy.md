@@ -18,8 +18,6 @@ Let's call this "The Collector's Fallacy".  Why fallacy?  Because 'to know about
 
 <%= insert_teaser_image title: "Messy desk", caption: %Q{Collections make us drown in liabilities. Photo Credit: <a href="http://www.flickr.com/photos/kk/18768224/">Kris Krug</a>, <a href="http://creativecommons.org/licenses/by-sa/2.0/">cc</a>} %>
 
-<!--ct: ct:201205300916 Textkopien als Alibi, beschäftigt zu sein -->
-
 Preparing reading material alone doesn't get you anywhere.  It's quite common that students prepare lots and lots of photocopies of the texts they have to read --- and stop just there.  The copies grow to be an alibi, says Umberto Eco in his book ["How to Write a Thesis"][htwat]:[^aff]  "there's a lot someone doesn't know anything about precisely because she photocopied a text;  she has given herself in to the illusion of having read the text already." (That's from page 162 of the German translation; I translated the quote from there since it precedes the publication of the official English translation.)
 
 The worst we could do is to pile up copies until the stack grows intimidatingly high, until it becomes unmanageable.  After that it will be ignored in its entirety.  Because to take a photocopy of a text is so much faster than actually reading it and learning what's inside, we tend to amass days worth of deliberate reading in about half an hour standing next to the copier.  We have to pay attention not to copy more texts than we may handle.
@@ -52,8 +50,6 @@ That's the reason we are used to picking up a reference text again and again whe
 
 It's only rational to take notes when you read a text because a system of notes can become [an extension to your mind and memory][extend].  This will integrate the text's information into our own knowledge.  To increase one's knowledge is a meaningful and the only sustainable way of working with information.  Instead of shoveling information from the source text into your own project with the help of your working memory, you can integrate it into your knowledge system once and have it available forever.  We may expand our knowledge permanently only by storing notes permanently.
 
-<!--ct: ct:201311251538 Alle Notizen beim ersten Lesen der Sekundärquellen machen -->
-
 Taking notes thoroughly means you can rely on your notes alone and rarely need to look up a detail in the original text.
 
 > I rarely consult secondary sources again. If I have to do so, it means that
@@ -72,7 +68,7 @@ The habit of keeping the cycle of research, reading, and knowledge assimilation 
 
 To form a habit, you have to set yourself actionable limits and keep score.
 
-* To get started,  do research for one hour and no second more.  Process the collected material until the stack is empty.<!--ct: inbox empty-->
+* To get started,  do research for one hour and no second more.  Process the collected material until the stack is empty.
 * Then do a quick review of the cycle:  how well did it go?  Did you learn something new?  Was it too much or too little you found in the amount of time?
 * Afterwards, change the time limit a bit if you think it wasn't appropriate.
 

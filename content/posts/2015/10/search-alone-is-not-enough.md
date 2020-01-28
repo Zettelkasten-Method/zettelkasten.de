@@ -26,8 +26,6 @@ Links are the strongest tie between notes:
 
 ## Argument against relying on full-text search
 
-<!--ct: 201411221745 Argumente gegen Verlass auf Volltextsuche im Zettelkasten -->
-
 One argument for relying on full-text search is this: 
 
 > Setting links manually is a waste of time because this links are not different from search results; in fact, they are the same. Some search has produced both the current note and the note it's linking to in the past. A link is simply the remark that "these two things are of the same kind". A link saves you from typing in in the search term again. That's all.
@@ -38,7 +36,6 @@ We had a [great discussion][oldpost] in the comments in the past about this.
 
 I disagree. Here's why:
 
-<!--ct: TODO wenn ein Artikel über Atomizität steht, hier verlinken-->
 Each Zettel note relates to a chunk of information if you keep it atomic, which you should. To keep every chunk in its own Zettel note file is likely similar to your existing mental model of how information work. (You can separate and relate information. Information is not just a big pile but chunked.) Consequently, having a single file for convenience is actually not so convenient.
 
 Also, over time, your writing will evolve. You're going to use different terms and also think differently.
@@ -64,10 +61,6 @@ The resulting web of connections is more than just a sequence of searches.
 
 <%= insert_teaser_image title: "watchmaker", caption: %{Photo credit: <a href="https://commons.wikimedia.org/wiki/File%3AMinidoka_Relocation_Center%2C_Minidoka%2C_Washington._Watch_repair_shop._Sokichi_Hoshide%2C_head_watch-maker._-_NARA_-_536542.jpg">Francis Stewart, War Relocation Authority photographer</a> (NARA record: 8464475) (U.S. National Archives and Records Administration) [Public domain], via Wikimedia Commons} %>
 
-<!--ct: (201411221750 Mehrwert von Links im Zettelkasten) -->
-
-<!--ct: 201411221802 Wie ich Zettel miteinander verknüpfe-->
-
 When I write a Zettel, tags come to my mind which I could use for this particular note. While I write, I also remember older Zettel or clusters of related ideas which I would like to look at and evaluate for use as link candidates.
 
 In short: in order to create links, I rely on my memory. But wasn't that what I'd rather not do according to the previous section?
@@ -88,9 +81,6 @@ In any case my memory helps to get a good angle to find useful notes in the arch
 In the worst case, if nothing comes to mind when writing, I can still use the full-text search to poke around until a spontaneous idea comes up.
 
 Search becomes more the source of inspiration than the mechanical tool to retrieve notes. Working with a Zettelkasten requires I am "on", actively engaging my brain. Links help me take note of my brain's efforts.
-
-<!--ct: Source <http://zettelkasten.de/posts/zettel-nature-two-forms/#comment-1706927525>
--->
 
 
 ## Conclusion

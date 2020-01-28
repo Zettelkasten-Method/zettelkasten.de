@@ -24,14 +24,12 @@ Each and every one of us has developed a personal approach to learning and manag
 
 Either way, we benefit from thinking about what we do, and how we do it: If knowledge work or writing is part of your identity, changes to these aspects of your life will ultimately result in [a transformation of yourself](/posts/identity-schedule-serious-writing/). That's powerful, and that's exactly what Sascha and I have experienced.
 
-<!--ct: archive originals-->
 Maybe you know the following situation: You read an article in a magazine, find something that relates to your interests in life, and the best you come up is to highlight interesting paragraphs, cut out the article, and file the pages in a folder.
 
 I did this with a lot of stuff from psychology mags, with features in "intellectual" newspapers, and with sites on the world-wide web. I got rid of the noise and kept the interesting parts of magazines in their original form, with annotations. I wanted to archive knowledge so I have it at my disposal at all times. That was before anyone had smartphones.
 
 Now I had some kind of archive at last, but it was the result of a knee-jerk response only, a response to my fear of losing information and knowledge. It wasn't well designed, and it didn't even extinguish the fear in the long run. Compared to a healthy diet to make me feel better, this was the chocolate bar to raise my mood short-term.
 
-<!--ct: create system-->
 An archive like this will get you nowhere. If you're a collector of information, an archive of originals is all right of course. If you intend to work _with_ the information, though, you will need something different. You'll need to keep a record of your own thoughts.
 
 A Zettelkasten is a great tool to create flow. It's a system designed to store your ideas and thoughts, and to make them work in your favor for a long time. Long-term learning is necessary to develop expertise in anything.

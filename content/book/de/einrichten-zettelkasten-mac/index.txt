@@ -14,8 +14,6 @@ Für einen Mac funktioniert folgende Kombination wunderbar:
 [nvalt]: http://brettterpstra.com/projects/nvalt/
 [textexpander]: http://smile.7eer.net/c/176775/227880/2936
 
-<!--TODO-txt TextExpander affiliate Link einfügen-->
-
 ##### Dropbox zum Sichern und Mitnehmen deines Archives
 
 Wenn du Dropbox nicht kennst, hast du die letzten Jahre wirklich etwas verpasst. Dropbox überwacht einen Ordner auf deiner Festplatte und sichert Änderungen online. Wenn man sich mit einem Dropboxkonto auf zwei Computern anmeldet, kann man so mit einer minimalen Verzögerung über das Internet Dateien hin und her kopieren.
@@ -56,8 +54,6 @@ Füge mal eine neue Publikation zur Übung hinzu, um das Programm auszuprobieren
 
 Je nachdem, welche Publikationsart du auswählst ("book" ist im Bild selektiert, aber es gibt auch noch ein Dutzend andere), verändert sich die Eingabemaske. Wähle also zuerst die Publikationsart passend aus und trage dann die bibliographischen Daten ein.
 
-<!--TODO-txt wo schaut man nach, wenn man nicht weiß, wie man z.B. Websites zitieren soll?-->
-
 Wenn trotzdem mal eine Angabe fehlt, kannst du neue Felder in die Eingabemaske einfügen, indem du im "Publikation"-Menü "Feld hinzufügen" auswählst.
 
 Du kannst Anhänge zu Publikationen hinzufügen. Dateien und Webadressen kannst du in die rechte Spalte ziehen oder über das Kontextmenü (mit Rechtsklick zu erreichen) auswählen.
@@ -90,7 +86,6 @@ Mit der voreingestellten Markdown-Vorlage kommen Publikationen über die Kopierf
 Das erste Beispiel ist ein Buch ("book"), das zweite ein Journalartikel ("article") und das dritte ein Beitrag in einem Sammelband ("incollection").
 
 Das könnte man jetzt schon in die Zettel einfügen und verwenden. Dafür brauchst du jetzt natürlich das Programm, mit welchem du dein Archiv bedienst. Richten wir also als nächstes nvALT als Programm ein, um das Archiv des Zettelkastens zu bedienen.
-<!--TODO Link auf die Markdown-Zitationsanleitung im Anhang-->    
 
 [mdtemp]: https://gist.github.com/DivineDominion/6870769
 
@@ -145,7 +140,7 @@ Damit ist der Zettelkasten bereit, befüllt zu werden. Es ist aber umständlich,
 
 ##### TextExpander zum Zeitsparen
 
-Zuerst das Einfache: wie besprochen wirst du immer wieder mal IDs brauchen, um Verknüpfungen zwischen Notizen herzustellen. Die ID `201508271153` steht dabei für den 27. Aug 2015, 11:53 Uhr. Die Vorteile einer Datum-basierten ID hat Sascha bereits besprochen.<!--TODO-mrk füge Link-->
+Zuerst das Einfache: wie besprochen wirst du immer wieder mal IDs brauchen, um Verknüpfungen zwischen Notizen herzustellen. Die ID `201508271153` steht dabei für den 27. Aug 2015, 11:53 Uhr. Die Vorteile einer Datum-basierten ID hat Sascha bereits besprochen.
 
 Mit TextExpander kannst du das aktuelle Datum und die Zeit mit einem Kürzel belegen, passend formattiert als ID selbstverständlich. Als Kürzel bieten sich Zeichenfolgen als Präfix an, die man sonst nicht eingibt, gefolgt von etwas, das sprechend oder merk-würdig genug ist. In meinem Fall lautet das Kürzel "`,,id`", weil ich zwei Kommata schnell tippen kann und leicht an die Taste gelange.[^saschatextexpanderkürzel] Wenn ich diese vier Zeichen tippe, wird es automatisch durch eine ID auf Basis der aktuellen Zeitpunkt ersetzt.
 
@@ -157,8 +152,6 @@ TextExpander kann noch viel mehr. Es lohnt sich für dich, wenn du dich mit dies
 
 [Lade TextExpander herunter][textexpander], kopiere die Datei in deinen "Programme"-Ordner und starte es.
 
-<!--ct: TODO Verweis auf die Coupon-Seite im Buch-->
-
 Damit das Programm funktioniert, braucht es Zugriffsrechte auf die "Bedienungshilfe"-Funktion des Mac. Das bedeutet, dass TextExpander sehen darf, was du tippst, um das Getippte durch etwas anderes zu ersetzen zu können. Beim ersten Start wirst du auf die entsprechenden Systemeinstellungen verwiesen.
 
 Nachdem du die Haken gesetzt hast, starte das Programm erneut.
@@ -167,16 +160,14 @@ Du wirst mit obigem Bildschirm begrüßt, der dir Beispielkürzel zeigt, die zum
 
 Verfahre mit den vorgegebenen Kürzeln, wie du willst. Ich habe meine zum Teil gelöscht und durch andere ersetzt.
 
-Wir werden eine neue Gruppe an Kürzeln für die Zettelkastenarbeit einrichten. Lade dafür die von uns vorgefertigten Kürzel herunter
-
-.<!--TODO-txt Downloadlink einfügen-->
+Wir werden eine neue Gruppe an Kürzeln für die Zettelkastenarbeit einrichten. Lade dafür die von uns vorgefertigten Kürzel herunter.
 
 ![Zettelkasten-taugliche Kürzel](images/201508271205_texp-zk.png)
 
 Diese `.textexpander`-Datei kannst du einfach öffnen. Wenn das nicht klappen sollte, kannst du sie mit *drag & drop* in die Liste des Fensters ziehen. Dann erhältst du eine neue Gruppe namens "Zettelkasten" mit den entsprechenden Kürzeln:
 
 - `,,id` fügt eine ID mit Präzision auf die Minute ein, die für Zettel leicht ausreicht.
-- `,,iid` fügt eine ID mit Präzision auf die Sekunde ein, die eben zwei Stellen länger ist, aber manchmal hilft, wenn man zum Beispiel Stellen im Fließtext mit einer Sprungmarke versehen will oder viele Dateien in kurzer Zeit einzigartig benennen möchte.<!--ct: TODO Link auf Blogpost oder Hinweis im Buch-->
+- `,,iid` fügt eine ID mit Präzision auf die Sekunde ein, die eben zwei Stellen länger ist, aber manchmal hilft, wenn man zum Beispiel Stellen im Fließtext mit einer Sprungmarke versehen will oder viele Dateien in kurzer Zeit einzigartig benennen möchte.
 - `,,dd` fügt das Datum nach ISO-Norm ein, also gemäß dem Format "2015-08-27".
 - `,,dt` fügt das Datum und die Zeit ein, also zum Beispiel "2015-08-27 12:10".
 - `qhead` fragt nach einem Titel und Tags und fügt in nvALT einen Header mit entsprechenden Daten ein. Benennt außerdem die Datei um.
@@ -217,7 +208,7 @@ All diese Schritte müsste ich für jeden einzelnen neuen Zettel vollführen. Da
 
 Das Setzen der ID mit dem Kürzel `,,id` spart schon viel Zeit beim Ablesen der Uhr. Mit TextExpander kann man das aber noch weiter vereinfachen.
 
-Mit dem `qhead`-Kürzel, das in unserem Download <!--TODO: setze Link auf Buchwebsite --> enthalten ist, kannst du dir die ganzen Tastenkombinationen sparen.
+Mit dem `qhead`-Kürzel, das in unserem Download enthalten ist, kannst du dir die ganzen Tastenkombinationen sparen.
 
 Wenn du TextExpander wie oben geschildert eingerichtet hast, bist du schon bereit, davon zu profitieren.
 

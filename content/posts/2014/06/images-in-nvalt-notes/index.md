@@ -50,7 +50,7 @@ To use absolute paths is a pragmatic short-term solution while relative paths wo
 
 From an "ontological" point of view, relative paths are the right thing to do:  they take into account only the structure of the note archive and its sub-folders.  These sub-folders are important attributes of my archive. The application which provides access to the folder isn't. It's just a coincidence that I happen to like nvALT.
 
-If we design a _Zettelkasten_ note archive, the archive itself should always come first. Application-specific limitations aren't worth to consider most of the time because the archive itself will likely survive the software. That's why I think proprietary file formats kill the longevity of your _Zettelkasten_.<!--ct: TODO add post about why plain text wins-->
+If we design a _Zettelkasten_ note archive, the archive itself should always come first. Application-specific limitations aren't worth to consider most of the time because the archive itself will likely survive the software. That's why I think proprietary file formats kill the longevity of your _Zettelkasten_.
 
 In other words: all information in the Zettelkasten is made to be timeless. This includes meta-information like paths. Don't water down the significant feature of timelessness by pouring in platform or application specific limitations just because they make it a little more convenient. The long-term cost may be higher than you think.
 

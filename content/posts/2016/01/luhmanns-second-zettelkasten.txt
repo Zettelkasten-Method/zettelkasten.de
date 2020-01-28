@@ -56,8 +56,6 @@ A fresh start is what he needed and his first Zettel defines the new course:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4veq2i3teVk" frameborder="0" allowfullscreen></iframe>
 
-<!--ct: nocookies Variante auswählen, weil unsere Besucher uns wichtig sind--><!--sf: Viel Spaß dabei -->
-
 A new bonsai, a very beautiful and mighty one, will grow from this little stem. It will lean on his mother sometimes (it refers to the old Zettelkasten to some extent) but will be an entity on its own. 
 
 My hypothesis: One of the best ways to describe Luhmann’s Zettelkasten is that it’s a organically grown system that can be read as a theory of theories. Why else would you need an introduction?
@@ -88,7 +86,7 @@ Luhmanns intent was to create an organic growing system -- [not to implement Fol
 
 ## Dan Sheffler’s Zettelkasten
 
-First, I was deeply skeptical about Dan Sheffler’s <!--ct: TODO an mich: link auf Dans Seite-->setup. His naming scheme results in some kind of categories [as Christian discussed][cats]. Since categories impose more inflexibility compared to tags I thought that his approach was too restricted to let the magic of a Zettelkasten unfold to its fullest.
+First, I was deeply skeptical about Dan Sheffler’s setup. His naming scheme results in some kind of categories [as Christian discussed][cats]. Since categories impose more inflexibility compared to tags I thought that his approach was too restricted to let the magic of a Zettelkasten unfold to its fullest.
 
 Now I have to radically revise my opinion.
 

@@ -63,7 +63,7 @@ I knew all the time that change is hard -- it's what everyone on the internet sa
 
 How do I ensure I spend time writing? By making appointments with myself.
 
-Training to write means sitting down at a set time and -- write! You don't need a muse <!--ct: ?-->, any inspiration, or to "unleash your inner writer" when you do non-fiction writing. Instead, you have to stick to a schedule and deliver. To make a habit of writing is important, and the crucial part is to stick to a schedule. For a while, I had a daily appointment with myself every morning at 8 o'clock to write for at least an hour straight. At the moment, though, I reduced the appointments to twice a week to accommodate my temporarily tight schedule and do more software development.
+Training to write means sitting down at a set time and -- write! You don't need a muse, any inspiration, or to "unleash your inner writer" when you do non-fiction writing. Instead, you have to stick to a schedule and deliver. To make a habit of writing is important, and the crucial part is to stick to a schedule. For a while, I had a daily appointment with myself every morning at 8 o'clock to write for at least an hour straight. At the moment, though, I reduced the appointments to twice a week to accommodate my temporarily tight schedule and do more software development.
 
 The bottom line is this: **you don't have to _find_ time to write**. If you wait for the right time to come, it'll most likely never come. While you wait, life just happens and fills every second of every day of you have. This unnecessarily creates anxiety, the fear of not getting where you'd like to be, because on one hand your wishes are inspiring and motivating but on the other hand your actions don't follow. It's the fear of being a failure, of not doing what you ultimately want to do, and this creates a feeling of helplessness. So you first have to stop waiting for a miracle to make the life how you want it to. Do it yourself.
 
@@ -82,8 +82,6 @@ There's this awesome [book by Paul J. Silvia called _How to Write a Lot_][wrilo]
 We all know how appointments work in theory, so making appointments with ourselves should be straightforward. Reserve a spot in your calendar and show up to write. Get rid of distractions and your productivity killers. Say 'no' to incoming requests of colleagues, maybe turn of the wi-fi or internet of your computer, mute your telephone -- you know the drill. Take whatever measure is necessary to keep distractions at bay. In my case, it helps to mute the telephone and hide all other applications on my computer. I don't need to go offline because I disabled all notifications which demand attention already, and because I'm not compulsively checking e-mail any more (thank God!). You know your weaknesses best, and in your heart you know how to counter them.
 
 When the appointments work, how do we ensure that we write and get better at it?
-
-<!--ct: §201403011714 Beobachten und Messen des Schreibprozesses-->
 
 To get on a repeating schedule and make writing a habit, you need to track your writing progress. To tracking a habit is useful to make it stick. Self-monitoring itself causes the desired behavior already.[^silstilk]
 
@@ -105,8 +103,7 @@ If you work on a complex project, you may have to do tons of research, read a lo
 
 A change in the mindset can help. Creative work like this, to me, appears to be orthogonal to usual chores. You can manage writing a short report, mailing it off to someone, waiting for a response and such. That's the stuff _Getting Things Done_ handles really well. Creative work, on the other hand, is characterized by surprise findings which change the course, especially at the start. A project like this requires regular time commitment. You have to immerse yourself into the topic; you can't just tick items off of a list.
 
-So try to stop splitting these projects into chunks by topic and start to split the process itself according to the action steps you need to take. The action steps are: research, read, take note, write. That's what I call the **Knowledge Cycle.**
-<!--ct: TODO link to Knowledge Cycle post-->
+So try to stop splitting these projects into chunks by topic and start to split the process itself according to the action steps you need to take. The action steps are: research, read, take note, write. That's what I call the [**Knowledge Cycle.**](https://zettelkasten.de/posts/knowledge-cycle-efficiently-organize-writing-projects/)
 
 Each cycle consists of these four action steps. By managing the time I spend on large projects instead of writing super detailed list of tasks, I get a whole slice done with every cycle: I find something new while reading, learn something new by taking note, and produce something new by adding to my own draft. 
 

@@ -10,16 +10,12 @@ import:
     from: "http://christiantietze.de/posts/2014/02/reading-web-rss-note-taking/"
 ---
 
-<!--ct: TODO link piping post-->
-
 In the last post, I detailed that collecting texts may become a tempting replacement for obtaining real knowledge, but also that collecting in itself doesn't get us anywhere.  I called this the "[Collector's Fallacy][colfal]".  I think we need to conquer this lazy, stuff-hoarding part of ourselves with good knowledge management habits.
 
 Meanwhile, the internet confronts us with so much information that we have to find new ways to deal with it -- or get overwhelmed.  How do we efficiently read online?  How do we keep up to date?  And how can we conserve information we find on the web?  I want to share my approach with you.
 
 *   Links get delivered to my devices via RSS, Twitter, and Facebook.  How am I supposed to deal with these streams when only a fraction of the links are of real value to me?
-    <!--ct: 1: filter flow-->
 *   I read web pages or [RSS feed subscriptions][rss][^whatrss] on my mobile device.  But how do I take lasting notes?
-    <!--ct: 2: mobile workflow-->
 
 [colfal]: /posts/collectors-fallacy
 [rss]: http://inessential.com/2014/01/29/describing_rss
@@ -67,7 +63,6 @@ I use the reading list like an inbox when I pick useful stuff to read later:  I 
 
 To make it easier to grok why a reading list is an inbox, let me detail how I read online and how I take note on the web.
 
-<!--ct: TODO amazon global affiliate link-->
 [svn]: http://en.wikipedia.org/wiki/Signal-to-noise_ratio
 
 ## How to Consume RSS Subscriptions Everywhere
@@ -80,7 +75,7 @@ Here's my suggestion to dealing with a stream of input like RSS feeds or Twitter
 
 *   **Skim** the material, look at web pages and articles briefly.  Decide quickly what you want to do with it.  Skimming can be done on multiple devices if you use online feed reading services.
 *   Then decide:  If it's **information you want to keep,** you need to work on it.  Add it to a reading list at first.  Make it a habit to process the reading list like you would process a stack of books:  read, annotate, and store in your notes archive.  On your smartphone, this process may be different from the process on your computer.  There are tools to overcome the gap between devices.
-*   If it's **a collectible**, like a recipe, or like a recommendation of cool products, then put it on a reference list.  This process can be partially automated.  [Patrick Welker detailed][filerss] how he shovels items into various lists.  In one of the next posts, I'm going to talk about how to pre-process stuff in the cloud.<!--ct: TODO link "Piping" post-->
+*   If it's **a collectible**, like a recipe, or like a recommendation of cool products, then put it on a reference list.  This process can be partially automated.  [Patrick Welker detailed][filerss] how he shovels items into various lists.  In one of the next posts, I'm going to talk about how to pre-process stuff in the cloud.
 
 In the following three sections, I'll go into detail.
 
@@ -133,7 +128,7 @@ Mobile devices are great for filtering stuff, though.  Recall the flow of inform
 
 On my phone, I prepare _stuff_ -- that's web pages and news feed items -- to become an actual _thing_ in terms of my knowledge management system.  That's what a reading list is for.  Although I can't write notes for my archive in a reasonable way, I can still decide which articles I want to take note of.  In this respect is my iPhone a device to filter the web and my feeds.[^hlweb]
 
-My RSS feed reader is not an inbox in the flow chart because I consider my subscriptions to be outside of my system, just like the whole web itself is outside of it.  Unread items in my feed reader have to become a _thing_ in my system first.  I deliberately pick the articles I want to cover when I put them into my reading list.  They're still not processed, but I commit to take care of them.  I make them become a _thing_ which I can handle. <!--ct: thats why its an inbox-->
+My RSS feed reader is not an inbox in the flow chart because I consider my subscriptions to be outside of my system, just like the whole web itself is outside of it.  Unread items in my feed reader have to become a _thing_ in my system first.  I deliberately pick the articles I want to cover when I put them into my reading list.  They're still not processed, but I commit to take care of them.  I make them become a _thing_ which I can handle.
 
 Therefore, I use my list of RSS feed items mainly as a source of information which I skim and from which I select useful pieces.  The work takes place on my Mac.
 

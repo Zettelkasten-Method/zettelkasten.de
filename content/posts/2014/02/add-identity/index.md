@@ -10,9 +10,7 @@ import:
     from: "http://christiantietze.de/posts/2014/02/add-identity/"
 ---
 
-<!--ct: -->
-
-I want to answer the question: Why are unique identifiers useful when you work with a _Zettelkasten_?
+I want to answer the question\: Why are unique identifiers useful when you work with a _Zettelkasten_?
 
 The objective of a _Zettelkasten_ note archive is to store notes and allow connections.  Both are necessary to [extend our mind and memory][extend].  As long as the software you use doesn't provide any means to create links between notes, you have to come up with your own convention.  Even if the software did provide such a mechanism, I'd suggest you think twice about relying on it:  I want to evade vendor lock-in for my _Zettelkasten,_ and I think you should, too.  So let's assume you don't care about the software and create your own hyperlink scheme.
 

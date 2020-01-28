@@ -10,8 +10,6 @@ import:
     from: "http://christiantietze.de/posts/2014/02/learn-faster-by-writing-zettel-notes/"
 ---
 
-<!--ct: TODO link to Take Notes of Irritations post-->
-
 As a knowledge worker, you have to learn a lot in your field.  The internet is full of information, and there's the books you just have to know in and out.  How do you speed up the process and learn efficiently?
 
 Scott Young [learned linear algebra in 10 days][sy] due to a very efficient method.  It works for other fields of knowledge as well.  The "Drilldown Method" consists of three stages:
@@ -30,7 +28,6 @@ I'll show you that a _Zettelkasten_ covers these stages well.
 <%= insert_teaser_image title: "Rabbit Reading", caption: %Q{Photo Credit: <a href="http://www.flickr.com/photos/35342879@N00/127809435/">Toms Bauģis</a> <a href="http://creativecommons.org/licenses/by/2.0/">cc</a>
 }, link: "http://www.flickr.com/photos/toms/127809435/" %>
 
-<!--ct: §201401070920 Zettelkasten erfüllt Scott Youngs Anforderung an Lerntechniken -->
 
 I'm going to cover the three stages in detail right away.  Here's the gist so you know what to expect:
 
@@ -82,7 +79,6 @@ During practice, you deepen the knowledge you just obtained.  You already obtain
 
 1. Re-read the passages you marked as 'interesting' before. Do it as slow as you need to understanding the contents.  Read whole passages only if you're positive that there's stuff you want to keep.
 2. Take notes.  This is the way of the _Zettelkasten_ to compact the information and deepen your knowledge.  Re-phrasing information in your own words is a great way to memorize it.  Search for irritating stuff, for statements which caught your attention and got you thinking.  These are lasting points of interest.
-    <!--ct: TODO link to Take Notes of Irritations post-->
 
 Using your own words will make the information more accessible to a _Future You_ who is going to read the note.  Compacting the key statements is a task which will challenge you intellectually a bit every time.  This is how you make your knowledge last.
 

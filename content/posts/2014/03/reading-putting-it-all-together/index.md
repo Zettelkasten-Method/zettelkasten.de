@@ -59,8 +59,6 @@ If you'd like to differentiate between the various functions a paragraph in a te
 
 <%= insert_rel_image file: "3_cluster_notes.jpg", title: "cluster notes", caption: %Q{Here, I already clustered reading notes for processing; from the post <a href="/posts/2013/09/create-zettel-from-reading-notes/">Create Zettel from Reading Notes</a>}, relative: "/posts/2013/09/create-zettel-from-reading-notes/" %>
 
-<!--ct: §201210271413 Notizen verzetteln zum Verfügbarmachen -->
-
 In the **processing stage**, I pull out the notes and create clusters before I add anything to my digital note archive.  The dots in the page margin help to look up details if needed in this stage. 
 
 Don't worry about re-usability of the information you keep.  A lot of the notes we take tend to be wasteful at first.[^2]  Since we're trained to do something useful, though, we expect our work to bear fruit, or else we cease to continue.  Make the notes available for later access to keep up your morale.  Integrating notes into your trusted _Zettelkasten_ system strengthens your memory as a side effect.  Because the step of integration is accompanied by creating connections, you have to find suitable associations both in your note archive and in your head.  The latter will persist longer than the single note by itself.  Rely on your _Zettelkasten_ to remember the details, so your mind has capacity to worry about stuff you really need.

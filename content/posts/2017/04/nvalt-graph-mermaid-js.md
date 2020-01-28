@@ -91,8 +91,8 @@ Put this Mermaid test graph definition into a note to test it later:
 5. From the Mermaid folder, copy `mermaid.min.js` and `mermaid.css` to the nvALT folder next to the `template.html`.
 6. Open the `template.html` in a text editor. Paste the following lines inside the "head" section at the top, maybe in a new line right after the one starting with `<title>`:
 
-<!-- -->
-    
+<br>
+
     <link rel="stylesheet" href="file://{%support%}/mermaid.css">
     <script type="text/javascript" src="file://{%support%}/mermaid.min.js"></script>
 
