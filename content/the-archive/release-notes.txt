@@ -8,6 +8,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.4.7 on Cutting Edge (2020-02-01)
+
+- **Fixed:** Crash when outdenting and undoing outdents at the very end of the document.
+- **Fixed:** Save changes after removing emphasis. Removing emphasis from selected text via the shortcuts <kbd>Cmd+B</kbd> or <kbd>Cmd+I</kbd> used to not mark the document as "dirty" and in need of being saved to disk; it now does.
+- **Fixed:** Undoing the deletion of an emphasis character wrongly did insert a closing pair, as if you just typed it manually.
+- **Fixed:** Button contrast of the guide/tutorial overlay was broken in light mode for recent Mojave updates and also Catalina.
+- **New:** Status bar at the bottom of the window that shows the word count of the currently selected note. You have to enable it manually from _View_&nbsp;>&nbsp;_Show Status Bar_. We don't want to clutter the default UI for you all.
+
 ## v1.4.6 (2019-12-07)
 
 - **Fixed:** Occasional error reading note contents when navigating back in history after renaming a note.
