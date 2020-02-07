@@ -8,7 +8,7 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.4.7 on Cutting Edge (2020-02-01)
+## v1.4.7 (2020-02-01)
 
 - **Fixed:** Crash when outdenting and undoing outdents at the very end of the document.
 - **Fixed:** Save changes after removing emphasis. Removing emphasis from selected text via the shortcuts <kbd>Cmd+B</kbd> or <kbd>Cmd+I</kbd> used to not mark the document as "dirty" and in need of being saved to disk; it now does.
