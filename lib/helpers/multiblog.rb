@@ -1,4 +1,5 @@
 require "date"
+require "time"
 require 'set'
 require "active_support/inflector"
 require "nokogiri"
@@ -212,16 +213,14 @@ module My
     end
 
     def tags(kind = "article")
-      posts = sorted_posts(kind)
-      tags = Set.new
-
-      posts.each do |post|
-        post[:tags].each do |tag|
-          tags.add(tag)
-        end unless post[:tags].nil?
+      tags_mtimes = {}
+      posts(kind).each do |post|
+        mtime = attribute_to_time(post[:updated_at] || post[:created_at])
+        (post[:tags] || []).each do |tag|
+          tags_mtimes[tag] = [tags_mtimes[tag] || mtime, mtime].max
+        end
       end
-
-      return tags.to_a.sort
+      return tags_mtimes
     end
 
     def partitioned_by_year(posts)
@@ -271,13 +270,16 @@ module My
     end
 
     def years_and_months(posts)
-      years = Set.new
-      months = Set.new
+      # year-to-mtime (last post modification date)
+      years = {}
+      months = {}
 
       posts.each do |post|
         date = DateTime.parse(post[:created_at].to_s)
-        years << date.year
-        months << { year: date.year, month: date.month }
+        mtime = attribute_to_time(post[:updated_at] || post[:created_at])
+        ym = { year: date.year, month: date.month }
+        years[date.year] = [years[date.year] || mtime, mtime].max
+        months[ym] = [months[ym] || mtime, mtime].max
       end
 
       return years, months

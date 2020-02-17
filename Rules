@@ -32,14 +32,13 @@ preprocess do
   # authors may unpublish items by setting meta attribute publish: false
   items.delete_if { |item| item[:publish] == false }
 
-  tags("article").each do |tag|
+  tags("article").each do |tag, mtime|
     @items.create(
       "",
       {
         :title => %Q{Posts tagged &ldquo;#{tag}&rdquo;},
         :tag => tag,
-        :mtime => Time.now#parse(Date.now) # for the sitemap
-        # TODO ^-- this is wrong, use last post
+        :mtime => mtime
       },
       "/posts/tags/#{tag}"
     )
@@ -47,23 +46,24 @@ preprocess do
 
   years, months = Post::years_and_months(posts())
 
-  years.each do |year|
+  years.each do |year, mtime|
     @items.create(
       "<%= render '/_posts_per_time.*', :from => '#{year}-01-01', :to => '#{year}-12-31' %>",
       {
         :title => %Q{Posts from #{year}},
-        :mtime => Time.now # TODO last post
+        :mtime => mtime
       },
       "/posts/#{year}"
     )
   end
 
-  months.map { |m| Month.new(m) }.each do |month|
+  months.each do |monthdata, mtime|
+    month = Month.new(monthdata)
     @items.create(
       "<%= render '/_posts_per_time.*', :from => '#{month.first_day}', :to => '#{month.last_day}' %>",
       {
         :title => %Q{Posts from #{month.title} #{month.year}},
-        :mtime => Time.now # TODO last post
+        :mtime => mtime
       },
       month.post_url
     )
@@ -140,10 +140,7 @@ compile '/posts/{index,overview}.*' do
 end
 
 compile '/posts/**/*' do
-  if item.binary?
-    # don't need this since the post images are stored outside anyway
-    #   filter :thumbnailize, :width => 1500
-  else # don’t filter binary items
+  unless item.binary? # don’t filter binary items
     filter :erb
     filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
     filter :add_ids_to_headers
