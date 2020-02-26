@@ -1,13 +1,16 @@
 ---
 title: The Archive Help
-description: A macOS note-taking app for prolific writers and productive researchers.
+updated_at: 2020-02-26 10:03:00 +0100
+description: "Resources and information for The Archive, macOS note-taking app for prolific writers and productive researchers."
 layout: the-archive
+toc: true
 ---
 
 # The Archive: Help
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+{{toc}}
 
 ## How to Get Help Inside the App
 
@@ -19,61 +22,76 @@ layout: the-archive
 
 Out community of users is pretty amazing. You should get to know them! We'll answer any app-related questions on the forums, too, so those coming after you can benefit from your question.
 
-Find discussions about _The Archive_ here:  
+Find discussions about _The Archive_ here:
 <https://forum.zettelkasten.de/categories/the-archive>
 
 
 ## Frequently Asked Questions
 
-How can I import my notes from nvALT/DEVONthink without losing the tags? <a name="import-tags" href="#frequently-asked-questions">(top)</a>
-: nvALT stores the tags as so-called "Finder tags" in the file metadata. Same for DEVONthink's exported notes. This is brittle and only works on Mac. _The Archive_ does not recognize these on purpose, so you don't tag yourself into a corner.
+### How can I import my notes from nvALT/DEVONthink without losing the tags?
 
-   [We provide a **converter utility**](/the-archive/tag-converter/) that inserts missing `#hashtags` into your notes to match the Finder metadata. This should help with the transition!
+nvALT stores the tags as so-called "Finder tags" in the file metadata. Same for DEVONthink's exported notes. This is brittle and only works on Mac. _The Archive_ does not recognize these on purpose, so you don't tag yourself into a corner.
 
-How do I create notes? <a name="create-notes" href="#frequently-asked-questions">(top)</a>
-:   There are different ways to create a note, each with pros and cons depending on your workflow.
-    
-    1. Type the note title you want into the Omnibar and hit Return. If you type a term in the Omnibar that is not used as the name of a note already, *The Archive* will create a matching note for you; if a note exists, it will be opened instead. 
-    2. Use a Wiki-Link: create a link that leads nowhere, click on it to follow the link. There'll be no note to show, but the Omnibar contains the link now. Then create a note from the Omnibar as you would above. The Wiki-link feature is built on top of the search. Similar rules apply to entering a term in the Omnibar: if a note with the linked text exists, it will be displayed for you. If there is no matching note, you can hit Return from the Omnibar to create a note with the title set to the search term.
-    3. Create an empty note in *The Archive* without changing your search. Just hit <kbd>⌘N</kbd> (or pick **Note ‣ New** from the menu). The Archive will create a note for you that will be named "Untitled" and take you right into the editor. After you complete the note you can rename it by hitting <kbd>⌘R</kbd> (or via **Note ‣ Rename** from the main menu).
-    4. Use the "Quick Entry" popup window from anywhere on your system to capture a thought. You have to configure the shortcut in the application preferences (<kbd>⌘,</kbd>) to make it globally accessible.
+[We provide a **converter utility**](/the-archive/tag-converter/) that inserts missing `#hashtags` into your notes to match the Finder metadata. This should help with the transition!
 
+<a href="#frequently-asked-questions">(back to top)</a>
 
-How do I create links between notes?<a name="links-between-notes" href="#frequently-asked-questions">(top)</a>
-: To create links between notes, you need to define how to *target* a note first. On the web, it is simple: each website has its own unique address that you can copy from the address bar of your web browser.
+### How do I create notes?
 
-  When you work with plain text files, it might sound obvious to use the file names. And if you want to have clickable links, you might use the full path to a note, like `file:///Users/JaneDoe/Archive/some-note.txt`. But that's fragile, since the links break when you rename the note or move your archive to a different path.
+There are different ways to create a note, each with pros and cons depending on your workflow.
 
-  This is how we do it: every Zettel note gets its own unique ID. We choose the timestamp-like IDs like `201402260939` which would be based on the date "2014-02-26 9:39a.m." Moments in time are unique; and the ID should be fixed, so the note title is not a good candidate as it may change over time.
+1. Type the note title you want into the Omnibar and hit Return. If you type a term in the Omnibar that is not used as the name of a note already, *The Archive* will create a matching note for you; if a note exists, it will be opened instead.
+2. Use a Wiki-Link: create a link that leads nowhere, click on it to follow the link. There'll be no note to show, but the Omnibar contains the link now. Then create a note from the Omnibar as you would above. The Wiki-link feature is built on top of the search. Similar rules apply to entering a term in the Omnibar: if a note with the linked text exists, it will be displayed for you. If there is no matching note, you can hit Return from the Omnibar to create a note with the title set to the search term.
+3. Create an empty note in *The Archive* without changing your search. Just hit <kbd>⌘N</kbd> (or pick **Note ‣ New** from the menu). The Archive will create a note for you that will be named "Untitled" and take you right into the editor. After you complete the note you can rename it by hitting <kbd>⌘R</kbd> (or via **Note ‣ Rename** from the main menu).
+4. Use the "Quick Entry" popup window from anywhere on your system to capture a thought. You have to configure the shortcut in the application preferences (<kbd>⌘,</kbd>) to make it globally accessible.
 
-  When you reference a note from someplace else, you paste the ID there. You will soon learn to recognize such sequences of digits as IDs because of the way they look. Then you know, "there's a Zettel with this ID, I should check it out!"
+<a href="#frequently-asked-questions">(back to top)</a>
 
-  *The Archive* tries to be helpful and aid you with these nifty `[[Double Bracket Wiki-Links]]`, which trigger a search. Adhering to the double-square-bracket convention of wikis, you get clickable links using Zettel IDs without buying into any proprietary file format or fragile file paths.
+### How do I create links between notes?
 
-  [Read more about identifiers](https://zettelkasten.de/posts/add-identity/).
+To create links between notes, you need to define how to *target* a note first. On the web, it is simple: each website has its own unique address that you can copy from the address bar of your web browser.
 
+When you work with plain text files, it might sound obvious to use the file names. And if you want to have clickable links, you might use the full path to a note, like `file:///Users/JaneDoe/Archive/some-note.txt`. But that's fragile, since the links break when you rename the note or move your archive to a different path.
 
-How do I link to notes from other apps? <a name="link-to-notes-from-outside" href="#frequently-asked-questions">(top)</a>
-: As with internal connection, using a file-based link isn't a very durable way to point into your note archive from outside. We suggest you simply paste the ID for maximum durability. 
-: If you really want to create a link to click on that launches _The Archive_ and opens an appropriate note, we got you covered with a **external link URL scheme**:
-    
+This is how we do it: every Zettel note gets its own unique ID. We choose the timestamp-like IDs like `201402260939` which would be based on the date "2014-02-26 9:39a.m." Moments in time are unique; and the ID should be fixed, so the note title is not a good candidate as it may change over time.
 
-  - `thearchive://search/TERM` searches for `TERM` as if you typed it in
-  - `thearchive://match/TERM` works like the search but displays a good match directly; this is similar to `[[Wiki-Links]]`.
-  - `thearchive://matchOrCreate/TERM` will create a note of the exact title `TERM` if that doesn't exist; it's similar to entering a search term into the Omnibar and hitting the return key.
+When you reference a note from someplace else, you paste the ID there. You will soon learn to recognize such sequences of digits as IDs because of the way they look. Then you know, "there's a Zettel with this ID, I should check it out!"
 
+*The Archive* tries to be helpful and aid you with these nifty `[[Double Bracket Wiki-Links]]`, which trigger a search. Adhering to the double-square-bracket convention of wikis, you get clickable links using Zettel IDs without buying into any proprietary file format or fragile file paths.
 
-Can I use boolean search? <a name="search-syntax" href="#frequently-asked-questions">(top)</a>
-: Yes! Here's how.
-: Operators are all caps: `AND`, `OR`, and `NOT`. `NOT` is alternatively expressed by the `!` prefix. `NOT b` is equal to `!b` and will show notes that have no "b" inside them. `! b` (note the space) evaluates as `! AND b`. 
-: When you write `foo bar`, that's the same as writing `foo AND bar`. You can also connect phrases with `OR` to form a set union. Usually, phrases are "words", i.e. strings of characters separated by whitespace. You can group words into larger phrases with the use of quotation marks: `"the archive"` will only find this very phrase, sans quotation marks, and not each occurrence of "the" in your notes.
-: Phrase search wins: `"!b"` is a phrase search for "!b", matching the literal exclamation mark and letter. Instead of quotation marks, escaping works, too: `\!b`. Escaping _inside_ phrase searches will also work: `hello "you \"lovely\" specimen"`. You can also escape parts of reserved words, like the beginning of an operator: `\AND` will not be treated as an operator.
-: You can parenthesize expressions: `!(foo OR (baz AND !bar)` is equivalent to the expanded version, `!foo OR !baz AND !foo OR !bar`. Be aware that `OR` and `AND` do not have correct operator precedence. If you don't know what that means, you probably do not need to care.
+[Read more about identifiers](https://zettelkasten.de/posts/add-identity/).
 
+<a href="#frequently-asked-questions">(back to top)</a>
+
+### How do I link to notes from other apps?
+
+As with internal connection, using a file-based link isn't a very durable way to point into your note archive from outside. We suggest you simply paste the ID for maximum durability.
+
+If you really want to create a link to click on that launches _The Archive_ and opens an appropriate note, we got you covered with a **external link URL scheme**:
+
+- `thearchive://search/TERM` searches for `TERM` as if you typed it in
+- `thearchive://match/TERM` works like the search but displays a good match directly; this is similar to `[[Wiki-Links]]`.
+- `thearchive://matchOrCreate/TERM` will create a note of the exact title `TERM` if that doesn't exist; it's similar to entering a search term into the Omnibar and hitting the return key.
+
+<a href="#frequently-asked-questions">(back to top)</a>
+
+### Can I use boolean search?
+
+Yes! Here's how.
+
+Operators are all caps: `AND`, `OR`, and `NOT`. `NOT` is alternatively expressed by the `!` prefix. `NOT b` is equal to `!b` and will show notes that have no "b" inside them. `! b` (note the space) evaluates as `! AND b`.
+
+When you write `foo bar`, that's the same as writing `foo AND bar`. You can also connect phrases with `OR` to form a set union. Usually, phrases are "words", i.e. strings of characters separated by whitespace. You can group words into larger phrases with the use of quotation marks: `"the archive"` will only find this very phrase, sans quotation marks, and not each occurrence of "the" in your notes.
+
+Phrase search wins: `"!b"` is a phrase search for "!b", matching the literal exclamation mark and letter. Instead of quotation marks, escaping works, too: `\!b`. Escaping _inside_ phrase searches will also work: `hello "you \"lovely\" specimen"`. You can also escape parts of reserved words, like the beginning of an operator: `\AND` will not be treated as an operator.
+
+You can parenthesize expressions: `!(foo OR (baz AND !bar)` is equivalent to the expanded version, `!foo OR !baz AND !foo OR !bar`. Be aware that `OR` and `AND` do not have correct operator precedence. If you don't know what that means, you probably do not need to care.
+
+<a href="#frequently-asked-questions">(back to top)</a>
 
 ## Sending in Log Files for Errors
 
-You can send log files from within the app by choosing **Help ‣ Send Log Files…**. This will attach log files of up to 5 days of app activity. You can remove irrelevant log files from the email draft. 
+You can send log files from within the app by choosing **Help ‣ Send Log Files…**. This will attach log files of up to 5 days of app activity. You can remove irrelevant log files from the email draft.
 
 Please make sure to delete confidential information from the log if necessary using any text editor.
 

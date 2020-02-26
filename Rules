@@ -172,11 +172,19 @@ compile '/**/*' do
       filter :typogruby
   end
 
+  if item[:toc]
+    filter :add_ids_to_headers
+  end
+
   if item[:layout]
     layout '/'+item[:layout]+'.*'
   else
     layout '/plain.*'
     # layout 'default' # use if basic `section > h1` setting doesn't suffice
+  end
+
+  if item[:toc]
+    filter :add_toc
   end
 end
 
