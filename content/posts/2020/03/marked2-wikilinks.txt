@@ -1,0 +1,54 @@
+---
+title: "Make [[WikiLinks]] Clickable in Marked 2"
+created_at: 2020-03-04 08:50:17 +0100
+kind: article
+author: christian
+tags: [ links, wiki, tool ]
+discussion_id: 897
+---
+
+In the forums, [@mjknight shared a Marked 2 preprocessor script](https://forum.zettelkasten.de/discussion/comment/4381/#Comment_4381) that you can use to transform non-standard `[[wiki link]]` to become regular Markdown links that you can click on.
+
+1. Save the script below to a convenient location, e.g. `~/scripts/marked_wikilink_preprocessor.rb`.
+2. Open [Marked 2](https://marked2app.com/) and head to the app preferences.
+3. In the "Advanced" tab, select "Preprocessor and paste the path to your script.
+
+<%= insert_rel_image file: "202003040850_marked2-prefs.png", title: "Marked 2 preferences screenshot", caption: %{Type in the path to your preprocessor script; that's why you should use a simple path :)} %>
+
+Marked will expand the path, so in my case `~/scripts/marked_wikilink_preprocessor.rb` becomes `/Users/ctm/scripts/marked_wikilink_preprocessor.rb` and it shows a faint "OK" next to the path text field.
+
+<%= insert_rel_image file: "202003040851_marked2-preview.png", title: "screenshot of Marked 2", caption: %{See how my David Epstein structure note displays clickable links. Note the resolved URL at the bottom} %>
+
+With these settings, you can open a note from The Archive in Marked and you can click `[[wiki links]]` to navigate around in The Archive. Upon hovering, it'll show [the URL scheme for "matching"](https://zettelkasten.de/the-archive/help/#how-do-i-link-to-notes-from-other-apps), aka searching and showing the best match, which is the same thing The Archive's internal wiki links do.
+
+## Marked preprocessor script
+
+```ruby
+#!/usr/bin/env ruby
+
+def class_exists?(class_name)
+  klass = Module.const_get(class_name)
+  return klass.is_a?(Class)
+rescue NameError
+  return false
+end
+
+if class_exists? 'Encoding'
+  Encoding.default_external = Encoding::UTF_8 if Encoding.respond_to?('default_external')
+  Encoding.default_internal = Encoding::UTF_8 if Encoding.respond_to?('default_internal')
+end
+
+begin
+  input = STDIN.read.force_encoding('utf-8')
+rescue
+  input = STDIN.read
+end
+
+input.gsub!(/\[\[(.*?)\]\]/) do |m|
+  match = Regexp.last_match
+  link_target = match[1]
+  "\[\[[#{link_target}](thearchive://match/#{URI.escape(link_target)})\]\]"
+end
+
+print input
+```
