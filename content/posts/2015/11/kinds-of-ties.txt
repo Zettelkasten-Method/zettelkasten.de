@@ -1,6 +1,7 @@
 ---
 title: Different Kinds of Ties Between Notes
 created_at: 2015-11-17 09:11:24 +0100
+updated_at: 2020-03-05 09:11:00 +0100
 kind: article
 author: christian
 tags: [ connect, archive, tags, folgezettel, category, links ]
@@ -64,7 +65,7 @@ Keywords are an indirect connection. They essentially decouple related notes fro
 
 ## Categories
 
-We don't so categories here [because they are too limiting.][categories] They work in a similar way as tags/keywords: they group otherwise unrelated notes. The result is a set of notes with a label. Category sets are exclusive, tag sets may overlap.
+We don't do categories here [because they are too limiting.][categories] They work in a similar way as tags/keywords: they group otherwise unrelated notes. The result is a set of notes with a label. Category sets are exclusive, tag sets may overlap.
 
 ## Hyperlinks
 
