@@ -1,6 +1,7 @@
 ---
 title: How I use Outlines to Write Any Text
 created_at: 2014-05-24 17:11:02 +0200
+updated_at: 2020-03-05 20:35:00 +0100
 kind: article
 author: christian
 tags: [ outline, writing, hub ]
@@ -90,4 +91,4 @@ I wonder: **how exactly do you start when you write texts?** What's your workflo
 [calnp]: http://calnewport.com/blog/2007/11/05/monday-master-class-how-to-use-a-flat-outline-to-write-outstanding-papers-fast/
 [^calbook]: Also worth a read is his book which covers the writing process. Cal Newport:  _[How to Become a Straight-A Student. The Unconventional Strategies Real College Students Use to Score High While Studying Less](http://www.amazon.com/gp/product/0767922719/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0767922719&linkCode=as2&tag=ctzettelkasten-20&linkId=3SFYYPM52IOBRJ5C)_, New York: Broadway Books, 2007. (Affiliate link.)
 [sascha]: http://saschafast.de
-[tk]: http://frankchimero.com/blog/no-new-tools/
+[tk]: https://frankchimero.com/blog/2014/no-new-tools/
