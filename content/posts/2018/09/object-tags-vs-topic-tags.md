@@ -3,7 +3,7 @@ title: The Difference Between Good and Bad Tags
 created_at: 2018-09-24 11:31:38 +0200
 kind: article
 author: sascha
-tags: [ tag, structure ]
+tags: [ tagging, structure ]
 image: 20180924113605_chihuahua.jpg
 vgwort: https://vg09.met.vgwort.de/na/28f1b9cc67064d05a4f3b2a5594baf1c
 ---
