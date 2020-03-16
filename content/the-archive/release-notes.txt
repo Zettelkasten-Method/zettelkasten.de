@@ -1,5 +1,6 @@
 ---
 title: The Archive Release Notes
+updated_at: 2020-03-16 10:33:00 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app.
 layout: the-archive
 ---
@@ -7,6 +8,11 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## v1.5.0 Beta (2020-03-16)
+
+- **Changed:** Reorganized preference pane contents into groups. Saved Searches icon size is now under the "Appearance" tab.
+- **New:** Support for multiple External Editors.
 
 ## v1.4.7 (2020-02-01)
 
