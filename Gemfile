@@ -10,6 +10,7 @@ gem 'compass', '~> 1'
 gem 'guard', '~>2.8'
 gem 'guard-nanoc', '~>2.1.0'
 gem 'terminal-notifier-guard'
+gem 'terminal-notifier'
 
 # Blogging
 gem 'activesupport'

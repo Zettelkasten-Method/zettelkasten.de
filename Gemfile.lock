@@ -138,6 +138,7 @@ GEM
     shellany (0.0.1)
     slow_enumerator_tools (1.1.0)
     systemu (2.6.5)
+    terminal-notifier (2.0.0)
     terminal-notifier-guard (1.7.0)
     thor (1.0.1)
     thread_safe (0.3.6)
@@ -183,6 +184,7 @@ DEPENDENCIES
   rouge
   sass (~> 3)
   systemu
+  terminal-notifier
   terminal-notifier-guard
   typogruby
   uglifier
