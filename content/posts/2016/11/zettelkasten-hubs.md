@@ -1,6 +1,7 @@
 ---
 title: "The Money Is in the Hubs: Johannes Schmidt on Luhmann’s Zettelkasten"
 created_at: 2016-11-25 16:19:38 +0100
+updated_at: 2020-03-19 11:01:00 +0100
 kind: article
 author: sascha
 tags: [ luhmann, archive, connect, hub, folgezettel ]
@@ -77,7 +78,9 @@ Fin.
 
 ## Additional Notes
 
-Christian and I attended an event in which we had a chance to listen to an up-to-date talk from Johannes Schmidt. If you don't know who he is: He is *the* man who does the research on the original Zettelkasten of Luhmann here in Bielefeld, Germany. I had the opportunity to pester him with a bunch of questions. There is more to come. 
+Christian and I attended an event in which we had a chance to listen to an up-to-date talk from Johannes Schmidt. 
+
+If you don't know who Johannes is: He is *the* man who does the research on the original Zettelkasten of Luhmann here in Bielefeld, Germany; he's the _Guardian of the Godfather's Zettelkasten_. I had the opportunity to pester him with a bunch of questions. There is more to come. Check out [his research on Luhmann and the Zettelkasten](https://uni-bielefeld.de/soz/luhmann-archiv/publikationen.html).
 
 I have to recommend the following to you: Start your Zettelkasten. Use a plain text approach. It takes a while but it is definitely worth it. 
 

@@ -18,7 +18,7 @@ Using a Zettelkasten is about optimizing a workflow of learning and producing kn
 
 We started to feature application reviews to see how well they fit the Zettelkasten workflow. You most likely want to pick an app that adapts well to your work, so our [tools page](/tools/), the [list of blog posts tagged "review"](/posts/tags/review), and our [software forum](https://forum.zettelkasten.de/categories/tools) are all good starting points. There's a lot of other software on the web you could experiment with, so don't feel limited to our selection!
 
-If you want to know more about us and how we roll, take a look at [the "personal" tag](/posts/tags/personal/).
+If you want to know more about us and how we roll, take a look at [the "personal" tag](/posts/tags/personal/). Also check out the [ongoing research on Luhmann's Zettelkasten by Johannes Schmidt](https://uni-bielefeld.de/soz/luhmann-archiv/publikationen.html) at Bielefeld University.
 
 ## Getting Started
 
