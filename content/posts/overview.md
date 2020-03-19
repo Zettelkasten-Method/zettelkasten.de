@@ -1,6 +1,6 @@
 ---
 title: Overview
-updated_at: 2019-11-20 11:43:00 +0100
+updated_at: 2020-03-19 11:07:00 +0100
 toc: true
 ---
 
@@ -18,7 +18,7 @@ Using a Zettelkasten is about optimizing a workflow of learning and producing kn
 
 We started to feature application reviews to see how well they fit the Zettelkasten workflow. You most likely want to pick an app that adapts well to your work, so our [tools page](/tools/), the [list of blog posts tagged "review"](/posts/tags/review), and our [software forum](https://forum.zettelkasten.de/categories/tools) are all good starting points. There's a lot of other software on the web you could experiment with, so don't feel limited to our selection!
 
-If you want to know more about us and how we roll, take a look at [the "personal" tag](/posts/tags/personal/). Also check out the [ongoing research on Luhmann's Zettelkasten by Johannes Schmidt](https://uni-bielefeld.de/soz/luhmann-archiv/publikationen.html) at Bielefeld University.
+If you want to know more about us and how we roll, take a look at [the "personal" tag](/posts/tags/personal/). 
 
 ## Getting Started
 
@@ -110,4 +110,8 @@ When your archive grows, you'll add [Structural Layers in your Zettelkasten](/po
     * [Create Zettel from reading notes](/posts/create-zettel-from-reading-notes/) afterwards.
 * Reading online
     * [How to read on the web efficiently](/posts/reading-web-rss-note-taking/), using and managing RSS feed subscriptions.
+
+## History of the Zettelkasten
+
+If you want to know more about the history of the Zettelkasten Method, check out the [ongoing research on Luhmann's Zettelkasten by Johannes Schmidt](https://uni-bielefeld.de/soz/luhmann-archiv/publikationen.html) at Bielefeld University. Johannes is the _Guardian of the Godfather's Zettelkasten_, and his work is genuinely interesting for knowledge work nerds.
 
