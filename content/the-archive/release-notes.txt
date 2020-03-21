@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2020-03-16 10:33:00 +0100
+updated_at: 2020-03-21 13:07:00 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app.
 layout: the-archive
 ---
@@ -8,6 +8,14 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## v1.5.1 Beta (2020-03-21)
+
+- **Fixed:** Sort order of external editors.
+- **Fixed:** Typo in "welcome" notes.
+- **Fixed:** When clicking the Dock icon, open a new window on macOS 10.12+ if necessary.
+- **Changed:** Hitting the "Save" shortcut <kbd>Cmd</kbd>+<kbd>S</kbd> doesn't beep anymore.
+- **Changed:** The bring-to-front hotkey is now a toggle. Use it once to activate the app and bring it to front; use it again to hide it.
 
 ## v1.5.0 Beta (2020-03-16)
 
