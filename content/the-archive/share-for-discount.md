@@ -22,7 +22,7 @@ It's simple:
 2. gather a few likes and re-shares, 
 3. and then send me the links or screenshots of these posts via e-mail: <a href="mailto:&#x68;&#x69;&#x40;&#x63;&#x68;&#x72;&#x69;&#x73;&#x74;&#x69;&#x61;&#x6E;&#x74;&#x69;&#x65;&#x74;&#x7A;&#x65;&#x2E;&#x64;&#x65;">&#x68;&#x69;&#x40;&#x63;&#x68;&#x72;&#x69;&#x73;&#x74;&#x69;&#x61;&#x6E;&#x74;&#x69;&#x65;&#x74;&#x7A;&#x65;&#x2E;&#x64;&#x65;</a>
 
-Campaign Starts: 2018-03-15\\
+Campaign Starts: 2018-03-15<br>
 Campaign Ends: 2018-05-15
 
 If your posts are liked 10x or re-shared at least 5x, I'll e-mail you a $15 coupon so you pay less than $5. That's 80% off!

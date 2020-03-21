@@ -10,7 +10,7 @@ vgwort: https://vg09.met.vgwort.de/na/760607bf91524ba088f9a0724333446f
 
 I follow a principle that Ido Portal put nicely into words:
 
-> Principles are higher than techniques. Principles produce techniques in an instant.\\
+> Principles are higher than techniques. Principles produce techniques in an instant.  
 > ---Ido Portal
 
 During my journey of developing the Zettelkasten Method, I recall two phases:

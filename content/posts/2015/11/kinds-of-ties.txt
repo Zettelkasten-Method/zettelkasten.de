@@ -1,7 +1,7 @@
 ---
 title: Different Kinds of Ties Between Notes
 created_at: 2015-11-17 09:11:24 +0100
-updated_at: 2020-03-05 09:11:00 +0100
+updated_at: 2020-03-21 13:22:00 +0100
 kind: article
 author: christian
 tags: [ connect, archive, tagging, folgezettel, category, links ]
@@ -128,6 +128,6 @@ Please comment if you recognize additional ties!
 
 You leave breadcrumbs behind that your future self can follow. You give these breadcrumbs different colors to signify the kind of connection. The coloring of the paths through the landscape of your notes will hint at its structure and difficulty. Some are Folgezettel and some are direct links. 
 
-This was the whole point of my last post. The journey is about the breadcrumbs and not about their color. Pick whatever color you like but be aware that some paths through the landscape are more difficult to cross. 
+This was the whole point of my last post, "[No, Luhmann was not about Folgezettel](https://zettelkasten.de/posts/luhmann-folgezettel-truth/)". The journey is about the breadcrumbs and not about their color. Pick whatever color you like but be aware that some paths through the landscape are more difficult to cross. 
 
 We choose a harsher but shorter route which is the plain text approach. But we have developed the tools to manage harsh terrain pretty well. That means being able to take a shorter route and thus save time and effort since the terrain's harshness doesn't matter as you're using your 4x4 and not a Volvo. :)
