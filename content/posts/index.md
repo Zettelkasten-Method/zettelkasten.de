@@ -2,6 +2,12 @@
 title: Blog Post Archive
 ---
 
+<div style="clear: both; overflow: auto;">
+    <%= render '/_search_box.*' %>
+</div>
+
+<hr>
+
 👉 [**Get started** with the curated article overview](/posts/overview/)! 👈
 
 * **Posts [by our amazing community contributors](/authors/guests/)** -- thanks, folks!
@@ -10,15 +16,7 @@ title: Blog Post Archive
 * [Zettelkasten Live](/live/) vlog series.
 * [List of tags](/posts/tags/).
 
-<%
-# 
-#-----
-#
-#<%= render '/_newsletter_signup.*' %>
-#
-%>
-
------
+<hr>
 
 <% partitioned_sorted_posts_by_year().each do |year, months| %>
 <h2><%= year %></h2>
@@ -28,7 +26,7 @@ title: Blog Post Archive
 <% posts.each do |post| %>
 <%= render '/_post-archive.*', :post => post, :month => month %>
 <% end %>
-<% end %> 
+<% end %>
 </ul>
 
 <% end %>
