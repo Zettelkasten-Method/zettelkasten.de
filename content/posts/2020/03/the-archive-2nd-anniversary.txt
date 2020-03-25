@@ -1,0 +1,32 @@
+---
+title: The Archive Turns 2 Years Old
+created_at: 2020-03-24 17:24:46 +0100
+kind: article
+author: christian
+tags: [ thearchiveapp ]
+image: "202003241725_screenshot-the-archive-2nd-anniversary.png"
+---
+
+The dominating topic of this month is COVID-19. Nevertheless, *The Archive* is celebrating. We don't let pessimism grip us and carry on.
+
+Last week, on March 15th, was _The Archive_'s 2nd anniversary. Just like we're all supposed to not celebrate big birthday parties or gather for festivities in general, this year's app anniversary is toned way down as well. Here's to what has happened in the past year.
+
+<%= insert_teaser_image title: "screenshot of the Archive", caption: %{The latest version of The Archive, demonstrating tabs and the new overall look, still looks great with the user-submitted theme "Pretty Functional" by @Basil}, link: "https://zettelkasten.de/the-archive" %>
+
+In a nutshell, The Archive [changed a lot](https://zettelkasten.de/the-archive/release-notes/) in the past year. We've now got **multi-tabbing and multi-windowing**, for example. Around last year's anniversary, the **browser-like navigation** began to land, too. Both features affect the way people work with notes quite a bit! Scripting is next on the list and due to become this year's big milestone. 
+
+[Here's a link to check out The Archive](https://zettelkasten.de/the-archive/) if you don't know the app, yet.
+
+But the real star of the past year in this part of the interwebs isn't the app. 
+
+It's the community of Zettlers. Or Zettelnauts; [this case for the name isn't yet decided](https://forum.zettelkasten.de/discussion/848/zettelizers) 🙂
+
+<%= insert_rel_image file: "202003241728_forum.jpg", title: "screenshot of the forum", caption: %{The forums are buzzing with activity}, link: "https://forum.zettelkasten.de/" %>
+
+To see what has changed, just [take a look at the forums.](https://forum.zettelkasten.de/) There are now 772 discussions in total, and the community currently clocks in about 10 replies per day, on average. There's a lot of interesting discussions about software, workflows, and automation. People explore new ideas and openly share their approaches. The overall tone of the discourse is sugary sweet: We don't even need to moderate at all. Everyone is already being genuinely helpful on their own account.
+
+The practice of the Zettelkasten Method is evolving as well. For one, the world-wide community of Zettlers is beginning to produce information material, scripts and applications to improve everyone's life. It's easier than ever to find Zettelkasten resources; I can hardly keep up storing [bookmarks of everything](https://pinboard.in/u:DivineDominion/t:zettelkasten) (also see the [global #zettelkasten bookmarks](https://pinboard.in/t:zettelkasten)). Interesting developments include Andy Matuschaks [auto-backlink-management script](https://forum.zettelkasten.de/discussion/833/insert-a-list-of-backlinks-into-all-your-notes) that is compatible with every folder of plain text files: Run it regularly to keep an up-to-date list of backlinks in your notes. This approach to scripting is a game-changer. It's augmenting what a simple text editor can do. Then there are experiments to [unify date-based Zettel IDs with Luhmann's approach to nest notes](https://forum.zettelkasten.de/discussion/comment/4584/) -- which, oddly, was totally unprecedented until late! There also now is a growing [Zettelkasten subreddit](https://www.reddit.com/r/Zettelkasten/) where people share and use even more fringe plain text approaches using vim and emacs.
+
+So for knowledge workers in general and Zettelnauts in particular, the past year was good, the mapped territory of all things Zettelkasten expanded, and we all were gifted with very interesting new ideas and development. Thanks to you all for your contribution!
+
+Stay safe everyone, and stay tuned for belated anniversary gifts to trickle in. 
