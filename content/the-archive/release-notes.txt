@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2020-03-21 13:07:00 +0100
+updated_at: 2020-03-25 10:25:00 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app.
 layout: the-archive
 ---
@@ -8,6 +8,11 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## v1.5.2 Beta (2020-03-25)
+
+- **Fixed:** The editor did prevent all shortcuts with the command key and "S" to work.
+- **Changed:** Show a notification banner when you try to manually save very often.
 
 ## v1.5.1 Beta (2020-03-21)
 
