@@ -1,5 +1,6 @@
-<% date = @item[:created_at] || Time.parse("2017-08-01") %>
-<% if date < Time.parse("2017-07-31") && (ENV['NANOC_ENV'] && ENV['NANOC_ENV'] != 'development') %>
+<%
+date = @item[:created_at] || Time.parse("2017-08-01")
+if date < Time.parse("2017-07-31") %>
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
