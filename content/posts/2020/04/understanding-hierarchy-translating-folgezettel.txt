@@ -1,0 +1,132 @@
+---
+title: Understanding Hierarchy by translating Folgezettel and Structure Zettel
+created_at: 2020-04-15 15:41:49 +0200
+kind: article
+author: sascha
+tags: [ folgezettel, structure, principle, luhmann ]
+image: 202004151541_duck-folge.jpg
+vgwort: https://vg08.met.vgwort.de/na/df1f921ccc1141dca84c3e9145453f5f
+---
+
+**Please note:** This is a post that requires a bit of prior knowledge. There are links for some of the terms. If you are interested in taking knowledge work to the next level, [join the forum](https://forum.zettelkasten.de/) and become part of the community. This post is directly inspired by the great discussions by the folks over there. 
+
+<%= insert_teaser_image title: "ducklings following mama duck", caption: %{Picture by <a href="https://pixabay.com/de/users/272447-272447/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=934518">272447</a> on <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=934518">Pixabay</a>} %>
+
+I think one difficulty in understanding the nature of [Folgezettel](https://zettelkasten.de/posts/tags/folgezettel/) and [Structure Zettel](https://zettelkasten.de/posts/three-layers-structure-zettelkasten/) stems from the fact that one does not detach oneself from the technical implementation of principles. That sounds quite complicated, but it isn't. 
+
+If you use the Folgezettel technique, you achieve two things:
+
+1. You assign each Zettel a place in a hierarchy. 
+2. You automatically create a connection to the Zettel you create.
+
+Those two achievements refer to specific principles that are part of the Zettelkasten: Hierarchy and hyper-textuality. But it is very obvious that both principles can be realized with different techniques.
+
+1. Structure Zettel are hierarchies that are made explicit on dedicated Zettels.
+2. Direct links are ... well, direct links. If you always create a link to your new Zettel, you also get hyper-textuality, just as if you used Folgezettel.
+
+Let's put aside the second aspect and concentrate on hierarchy. Luhmann implemented the Folgezettel technique by making use of a certain method to assign unique identifiers (IDs). This results in a hierarchy that consists of the entirety of his Zettelkasten. If we want a hierarchy that covers all of our Zettelkasten we'd just create a Master Structure Zettel. By implementing Luhmann's Folgezettel technique, you create an enumerated, nested list. Nothing more and nothing less. It can be done by assigning each Zettel the [Luhmann Identifier](https://zettelkasten.de/posts/kinds-of-ties/#folgezettel), and it can be done by creating a master Structure Zettel.
+
+[Luhmann said the following](http://luhmann.surge.sh/communicating-with-slip-boxes), emphasis mine:
+
+> Given this technique, it is **less important** where we place a new note. If there are several possibilities, we can solve the problem as we wish and just record the connection by a link [or reference].
+
+There are some difficulties when translating the German original's "<i lang="de">weniger wichtig</i>": It does not simply mean "less important", but in many cases is used as an understatement. If you read his article with that interpretation, you'd rather translate this phrase as "not important" instead of "less important". The open question is: How important is the position really?
+
+If you use Structure Zettel, the answer is: it is of minimal importance. You can create as much Structure Zettel as you want and let each Zettel have any position in any hierarchy you want. If you use the Luhmann-ID, the answer is the same: the position is of minimal importance. The whole point of the Folgezettel technique was to rob hierarchy from its meaning. Al, who is @improveism on the forum, got [this aspect](https://improveism.com/digital-folgezettel/) right (emphasis mine):
+
+> But just to be clear, let me tell you that **Folgezettel does not mean hierarchy**. When I saw argonsnorts post about it, I thought a Digital implementation of Folgezettel was a hierarchical method of creating notes and combined the decentralized characteristic of UID-systems. I even commented on it; but I’d be wrong.
+>
+> After seeing that, I reviewed how the Folgezettel worked, and then finally understood that it actually meant a **direct, obvious connection** between notes. 
+
+To make it clear: Both Folgezettel and Structure Zettel are means to remove meaning from position in a hierarchy. The advantage is that you don't have to think about position a lot: It is not very important where you place the Zettel. 
+
+Let's take a step back and see where we are:
+
+1. The Folgezettel technique realizes two things: Hierarchy and direct linking. This hierarchy, however, is meaningless. It is a hierarchy on paper only because you don't file one Zettel as a true child under a true parent but just placing it at a place that seems fair enough because it is somehow related to his parent.
+2. The Structure Zettel technique creates hierarchies. Direct linking is possible via unique identifiers. 
+3. You can replicate the Folgezettel technique with no loss of functionality with the Structure Zettel technique.
+4. By using the Folgezettel technique, you create a single general hierarchy (enumerated, nested list) for your Zettelkasten. The same would be true if you create a Master Structure Zettel that entails all your Zettel.
+
+Therefore: Folgezettel and Structure Zettel are manifestations of introducing a general principle to your note taking. They realize the principles of hierarchy to the Zettelkasten.
+
+But there are several important differences:
+
+**Folgezettel provide unique identifiers. Structure Zettel don't.** That's the reason why time-based identifiers came first in the history in the creation of the Zettelkasten Method. If the single purpose of the Folgezettel, as stated by Luhmann, was to provide Zettel with an address, the time-based ID is not just good enough, it even is an improvement because it doesn't need to introduce (meaningless) hierarchy and can be easily automated.
+
+**Structure Zettel and Folgezettel rob hierarchy of its meaning by different means.** Folgezettel create one single hierarchy. Its meaning is minimized by the arbitrariness of the position: You can put a Zettel in one position or another. It is not important as long as you link from the other position to the Zettel. Structure Zettel on the other hand do not introduce one single hierarchy but *the possibility of indefinite hierarchies*. If there are indefinite hierarchies, the position of each hierarchy has zero importance to the individual Zettel. You can make it part of one hierarchy, or another, or both. You can even create new hierarchies.
+
+In this second difference lies the advantage in power of Structure Zettel over Folgezettel. Let's explore this by thinking about why one wants to introduce hierarchy in the first place.
+
+## Meaningless hierarchies
+
+Why do we introduce hierarchy in the first place? The short answer is: Order.
+
+Without at least some order we could not interact with our Zettelkasten. A Zettelkasten without any order would be just a box with slips in it. We would create some order by memorizing what we put inside until we'd reach our mental limits. Then the box of slips would descend into total chaos. 
+
+Luhmann created order with his Folgezettel to force each Zettel into an unchanging position: Once it is placed, it could not be moved. He externalized the memorization of each position of the Zettel to the system: If each Zettel has an unchanging position, you can refer to it. But you would not have to recall the individual number. You combine entry points (that's what his register is for) with associations within the Zettelkasten. Instead of remembering individual Zettels, you would enter the Zettelkasten at a point that seems associated with the topic your are thinking about, then you'd follow the links. This is exactly how our own memory works: Mostly you don't just recall what you memorized but surf through the associations until you are satisfied with what you loaded into your working memory.
+
+As you can see, at no point is there a meaningful use of the hierarchy that was created by the Folgezettel technique. There is no meaning in the Folgezettel hierarchy *on purpose*. It is just *another connection*. 
+
+We adhered to this by dividing [the ID](https://zettelkasten.de/posts/add-identity/) from the title of the note. The ID represents the eternal position of each Zettel. Its eternity is granted by the nature of time, which our IDs are based on. No moment in time repeats itself. 
+
+But there seems to be *something* achieved by the Folgezettel technique. After a period of silence on this topic, it re-emerged in the forums driven by the [Keyboard Maestro macro by argonsnorts](https://forum.zettelkasten.de/discussion/comment/4584/#Comment_4584). It is a clever way to combine both IDs. 
+
+I view it as a *need for more order*. Many of the troubles seem to revolve around the issue of making sense what is in the Zettelkasten. This need for order manifests itself through various questions:
+
+- How do I find related Zettels to place meaningful links?
+- If new ideas, topics and thoughts emerge, how can I access them?
+- How can I get an overview on topic X in my Zettelkasten?
+- How can I make sure that I integrated my Zettel well enough by linking to the right places?
+
+The Folgezettel seems to give *a feeling* of order. Thought trains become *tangible* by making them explicit. You have the feeling that you *placed* each Zettel *somewhere* at least with *some* purpose.
+
+Let's recap:
+
+1. Structure Zettel (combined with an ID) and Folgezettel realize the same principles: Hierarchy and direct linking (made possible by the unchanging place via unchanging IDs).
+2. They both make the individual hierarchy meaningless by different means. Folgezettel minimize the meaning of the position of each Zettel by creating a single but ultimately meaningless hierarchy. Structure Zettel on the other hand create the possibility of infinite hierarchies and therefore there is no meaning in the decision where to put each Zettel if it could be placed in any hierarchy (in theory).
+3. But there is more to techniques than adherence to principles. They need to deliver a certain feeling.
+
+The last point is the last straw the Folgezettel seems to cling on. Next, let's cut that straw, too, to finally free us from this outdated technique.
+
+## Meaningful hierarchies
+
+I think Luhmann was already dealing with the problem that he needed more order. He created [hubs](https://zettelkasten.de/posts/zettelkasten-hubs/). For example, he created a Zettel on ideologies that linked to other departments that each dealt with the topic "ideology". I have Zettel like those, too: I have a Structure Zettel on the Zettelkasten Method that links to other departments (in my case realized via Structure Zettel) of the Zettelkasten Method. These departments/Structure Zettel  would be "linking", "complexity", "developing ideas", and more. 
+
+Those hubs can be seen as the ancestors of Structure Zettel. I really believe that both Luhmann and I had the same reason for coming up with such a solution. When I came up with the first version of what I call now Structure Zettel I named it "Overview Note". I felt the need of order. It would surprise me if Luhmann's reason was different. After a couple of years with this technique, it evolved quite naturally as I realized what I was actually doing. I gradually enriched those "overview notes" with meaning. I wrote my intentions and goals on top. I added structure to what were merely lists, separated by headings. I wrote texts on them and refactored them into separate Zettel, leaving breadcrumbs to the extracted Zettel where they originated from. After years of tinkering, the concept of structure and its relationships to the Zettelkasten unraveled itself. 
+
+This development was only possible for me because my Zettelkasten was digital. Luhmann would have used *a lot* of pencil and rubber to do the same. This is not something you do on paper. 
+
+Folgezettel cannot serve any of that. They don't enrich certain link patterns with meaning. The only thing they *could* establish is *a* connection. That is the problem with the Folgezettel-Technique. If you think that you do something other than apply a technique that generates an ID for a Zettel you will be mislead. 
+
+As the discussion about Folgezettel re-emerges in the forums, an argument is coming up: Structure Zettel require some understanding about the nature of the connection between the Zettel. The Folgezettel-Technique enables you to postpone the connection. There is an assumption that there is *a* connection, and its meaning of it can be discovered later.
+
+Didn't we hear the same argument quite some time ago? Yes. It is basically: First collect, process later. You have what you have and it is better to have and not need than to need and not have. This is [Collector's Fallacy](https://zettelkasten.de/posts/collectors-fallacy/), which roots in a false sense of accomplishment.
+
+Christian wrote his well-received article as a warning: Don't collect content of other people. Don't postpone processing, but make things your own. The earlier, the better. The use of the Folgezettel is to establish some connection early; its meaning would be revealed later, one might believe. That's the fallacious assumption the Collector's Fallacy points out as well. Folgezettel is to connection what the Collector's Fallacy is to content. 
+
+So I will formulate stronger: Collector's Fallacy means that you collect without processing, while making the assumption that it is fine to process later. The fallacious part is that you think you are productive by the mere act of collecting. We call it Collector's Fallacy when someone is hoarding unprocessed content and sources for years. I say: If you collect connections (for example via Folgezettel) with the aim to uncover the nature of the connection later, you are doing the same. You are just collecting, succumbing to a fallacy by assuming you are doing something productive. 
+
+Structure Zettels on the other hand introduce the possibility of *meaningful hierarchy* without sacrificing the open design of the hypertext. You can link to any Zettel from anywhere. But at the same time you can create a view of the Zettelkasten that is ordered. 
+
+Example: I have a Structure Zettel that is named *Self-Development*. It links to a Zettel that is named *The concept of the future-self*. The Structure Zettel gives me an ordered view of my Zettelkasten as if it was *only ordered* for the purpose of developing a knowledge structure around the concept of self-development. The Zettel *Concept of the future-self* is linked because it is one of the core models that map the self in time and space. 
+
+At the same time, I have a Structure Zettel named *Time*. What it is about is self-evident. It puts every Zettel in a hierarchy as if my whole Zettelkasten is only designed to create a knowledge structure around the concept of time. The Zettel *Concept of the future-self* is linked because it is a model that maps the subjective nature of time. 
+
+If you use Structure Zettel, you introduce a quite limitless power to your Zettelkasten: You'll have order without limiting yourself to *one order*.
+
+## Summary
+
+1. Folgezettel and Structure Zettel use the form of hierarchy.
+2. Folgezettel uses one single hierarchy to eliminate any meaning from hierarchy. Structure Zettel does the same by introducing infinite possible hierarchies.
+3. Folgezettel do provide an address via ID and therefore hypertextuality through linking. Structure Zettel don't, and we rely on time-based IDs. 
+4. Folgezettel do not establish meaningful connections because their position and therefore their relationship to parents or children of the one single hierarchy is meaningless -- even by design. Structure Zettel establish meaningful connections. Hierarchy is meaningful for this one Structure Zettel. But because any Zettel can be part of any hierarchy the ultimate importance of its position is erased.
+5. Using the Folgezettel to capture some connections and hope that their nature will reveal themselves later on it just another form of Collector's Fallacy.
+
+## Question for the community
+
+1. If you use the Folgezettel technique, what are your actual goals?
+2. How do you measure your progress towards those goals?
+
+----
+
+**Christian's Comment:** So here we are [again](https://zettelkasten.de/posts/luhmann-folgezettel-truth/), after the epic Folgezettel wars of 2015, fighting the same fights? -- Not really. A lot has changed in the meantime with regard to the role of manifest structures in the Zettelkasten. "Hubs" were a topic back then as well, but structure notes have been fleshed out in the past 5 years a lot more both in writing on this site, and in practice. The problem of creating order is a pertinent one in knowledge work and writing. Structure Zettel appear, to me, to be a very graceful and flexible addition to the practice of note-taking. I started to adopt them years after Sascha, and got all their benefits without any of the early birth pangs. They age quite well, they don't impose any limitations to the overall set-up -- they are not invasive at all and helpful when needed. To create them, you need to utilize a bit more brain power. But that's true for everything related to connecting notes in the Zettelkasten. That's the actual work that requires effort. Typing quotes from books is easy; making sense of them is hard. Putting notes next to each other is easy; making sense of their relation, again, is hard.

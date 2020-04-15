@@ -3,7 +3,7 @@ title: No, Luhmann was not about Folgezettel
 created_at: 2015-10-31 17:58:13 +0100
 kind: article
 author: sascha
-tags: [ archive, hyperlink, folgezettel, category, principle, luhmann ]
+tags: [ hyperlink, folgezettel, category, principle, luhmann ]
 image: 201510311813_ducklings.jpg
 vgwort: https://vg09.met.vgwort.de/na/760607bf91524ba088f9a0724333446f
 ---
@@ -21,6 +21,8 @@ During my journey of developing the Zettelkasten Method, I recall two phases:
 I find these two phases in most of the processes I develop. This is because I am (1) an information binge eater and (2) hate clutter. 
 
 One piece of clutter was the concept of *Folgezettel*.
+
+**Update 2020-04-15:** The topic re-emerged after a couple of years. There is quite some discussions in the forum. For example: [Here](https://forum.zettelkasten.de/discussion/928/hierarchical-branched-note-taking-and-the-archive-app-is-topography-important), [here](https://forum.zettelkasten.de/discussion/978/is-there-a-benefit-to-luhmann-ids-vs-date-time-ids) and [here](https://forum.zettelkasten.de/discussion/976/the-case-for-a-digital-folgezettel). See [this new post from 2020](https://zettelkasten.de/understanding-hierarchy-translating-folgezettel/) for an expansion on that topic.
 
 ## What is a *Folgezettel*?
 

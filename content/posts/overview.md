@@ -40,7 +40,9 @@ If you want to know more about us and how we roll, take a look at [the "personal
 > ---Ido Portal
 
 * [Principle of Atomicity](/posts/create-zettel-from-reading-notes/): put things that belong together into a single note, [give it an ID](/posts/add-identity/), but limit its content to that single topic.
-* Our post about the [Principle of Connectivity](/posts/luhmann-folgezettel-truth/) highlights how different techniques can implement the same underlying principle, here links vs Folgezettel to connect notes. Also see a discussion about [Different Kinds of Ties Between Notes](/posts/kinds-of-ties/).
+* Our post about the [Principle of Connectivity](/posts/luhmann-folgezettel-truth/) highlights how different techniques can implement the same underlying principle: links vs note sequences.
+    - There's [an expanded explanation of this argument](/posts/understanding-hierarchy-translating-folgezettel/) from 5 years after the initial post about this principle. 
+    - See the related discussion about [Different Kinds of Ties Between Notes](/posts/kinds-of-ties/).
 
 ## Knowledge Management
 
