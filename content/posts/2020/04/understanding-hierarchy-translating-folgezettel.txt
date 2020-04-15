@@ -1,11 +1,12 @@
 ---
-title: Understanding Hierarchy by translating Folgezettel and Structure Zettel
+title: Understanding Hierarchy by Translating Folgezettel and Structure Zettel
 created_at: 2020-04-15 15:41:49 +0200
 kind: article
 author: sascha
 tags: [ folgezettel, structure, principle, luhmann ]
 image: 202004151541_duck-folge.jpg
 vgwort: https://vg08.met.vgwort.de/na/df1f921ccc1141dca84c3e9145453f5f
+toc: on
 ---
 
 **Please note:** This is a post that requires a bit of prior knowledge. There are links for some of the terms. If you are interested in taking knowledge work to the next level, [join the forum](https://forum.zettelkasten.de/) and become part of the community. This post is directly inspired by the great discussions by the folks over there. 
