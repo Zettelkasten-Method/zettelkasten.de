@@ -7,6 +7,7 @@ tags: [ folgezettel, structure, principle, luhmann ]
 image: 202004151541_duck-folge.jpg
 vgwort: https://vg08.met.vgwort.de/na/df1f921ccc1141dca84c3e9145453f5f
 toc: on
+description: "Folgezettel and Structure Zettel use the form of hierarchy: Folgezettel use a single one, Structure Zettel use multiple. Folgezettel can lure you into collector's fallacy, though, when you postpone making connections meaningful."
 ---
 
 **Please note:** This is a post that requires a bit of prior knowledge. There are links for some of the terms. If you are interested in taking knowledge work to the next level, [join the forum](https://forum.zettelkasten.de/) and become part of the community. This post is directly inspired by the great discussions by the folks over there. 
