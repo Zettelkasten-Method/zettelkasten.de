@@ -49,7 +49,7 @@ Now we have a small ontology of item types that are hidden in the various texts 
 
 One of the mistakes you avoid is being distracted by various attributes of the texts that are not related to your intention of reading. At least I can be distracted by the beauty or the (often unnecessary) complexity of the language. But if you take a step back and honestly ask what really is in there, you sometimes realize: Not so much. In that case, give your self the permission to accept that this text doesn't serve you well, even if it has a good reputation.
 
-[^1]:	Dear physicians, please don't try to kill me. I know I raped the theory of gravity to death like a sea lion a penguin. http://www.bbc.com/earth/story/20141117-why-seals-have-sex-with-penguins
+[^1]:	Dear physicists, please don't try to kill me. I know I raped the theory of gravity to death like a sea lion a penguin. http://www.bbc.com/earth/story/20141117-why-seals-have-sex-with-penguins
 
 
 ---
