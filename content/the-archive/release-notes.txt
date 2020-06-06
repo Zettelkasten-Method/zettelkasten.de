@@ -1,7 +1,7 @@
 ---
 title: The Archive Release Notes
-updated_at: 2020-03-25 10:25:00 +0100
-description: History of all updates and changes to The Archive, the macOS note-taking app.
+updated_at: 2020-06-06 16:28:00 +0100
+description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
 
@@ -9,7 +9,18 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.5.2 Beta (2020-03-25)
+## v1.5.3 Beta (2020-06-06)
+
+- **Fixed:** _Edit > Select Line_ does now correctly activate when the focus is inside the editor.
+- **Fixed:** Using the editor's find bar and then searching for something in the Omnibar that matches a note and displays it in the editor will no longer auto-focus the editor once the match was found: you can continue to type in the Omnibar like usual.
+- **Fixed:** The editor's find bar can no longer be invoked with Cmd+F right after app launch when the editor is invisible.
+- **Changed:** The word count of the currently displayed note updates while you type, not only when you pause.
+- **Changed:** The "External Editors" window will close itself when you click outside, and it always appears on top of the main window as a modal window.
+- **Changed:** The _Theme Updater..._ menu item is now in the _The Archive_ main menu.
+- **Changed:** Rotating log files are not put into the trash anymore, but removed directly. This should help all of you who like to keep their Finder trash clean.
+- **New:** Marked 2 Streaming Preview: toggle it from the _Note_ main menu or from the Advanced preferences. (Off by default.)
+
+## v1.5.2 (2020-03-25)
 
 - **Fixed:** The editor did prevent all shortcuts with the command key and "S" to work.
 - **Changed:** Show a notification banner when you try to manually save very often.
