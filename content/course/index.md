@@ -1,6 +1,7 @@
 ---
 title: The Online Course
 updated_at: 2020-06-09 17:43:00 +0100
+bodyclass: online-course
 ---
 
 We will release a video course later this year.
