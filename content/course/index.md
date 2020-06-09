@@ -1,7 +1,8 @@
 ---
-title: The Online Course
-updated_at: 2020-06-09 17:43:00 +0100
+title: Online Video Course
+updated_at: 2020-06-09 19:50:00 +0100
 bodyclass: online-course
+description: "Announcing the Zettelkasten Method Online Video Course for 2020!"
 ---
 
 We will release a video course later this year.
