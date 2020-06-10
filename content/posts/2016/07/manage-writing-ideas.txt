@@ -70,6 +70,12 @@ A very recent and still small outline file called `- O reswift` looks like this:
 
 With the help of my [outline compilation script][script] I can make a very rough (and, in this case, very short) draft from the outline.
 
+<aside class="note">
+  <h2>The use of IDs in outline notes</h2>
+  <p><b>Update 2020-06-10:</b> My outline notes used not to have IDs, so they stay afloat in a directory listing or my note-taking app. This post predates me using <a href="https://zettelkasten.de/posts/three-layers-structure-zettelkasten/">structure notes</a> for these. My line of reasoning was that these outlines are work-in-progress project files, and they have nothing to do with the regular Zettelkasten work. For example, I figured I will hardly have a reason to ever link to a book project outline.</p>
+  <p>Nowadays, I think that distinction doesn’t hold up. I can make an overview of book project outlines, and then use this overview of book projects to navigate around. These book outlines don't need to stay separated. So there’s definitely benefit in assigning IDs to these as well, as I’m currently doing.</p>
+</aside>
+
 There are a dozen long-running outlines living next to my notes. When Zettel notes are text fragments, the outlines hold fragments together as a writing project. In that sense an outline is the project -- until I move it to the next step: compiling a first draft and editing around. I started the outline from above as recently as May, 29th. Other outlines are 4 years old, growing very slowly. You can see that I worked in a similar way when compiling my [Justice for Hedgehogs][hedge] paper. (See [the outline itself](https://www.evernote.com/shard/s4/sh/413d8138-ed87-4cb5-9b2e-4365612655ef/9dd42d31327b571c05e1055afb608c80).)
 
 Next to Zettel links, these outlines can contain notes, paragraphs, and headings on their own. Otherwise I wouldn't be able to give ideas for structuring the piece a place to live. 
