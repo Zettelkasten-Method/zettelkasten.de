@@ -9,7 +9,7 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.5.3 Beta (2020-06-06)
+## v1.5.3 (2020-06-06)
 
 - **Fixed:** _Edit > Select Line_ does now correctly activate when the focus is inside the editor.
 - **Fixed:** Using the editor's find bar and then searching for something in the Omnibar that matches a note and displays it in the editor will no longer auto-focus the editor once the match was found: you can continue to type in the Omnibar like usual.
