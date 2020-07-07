@@ -119,4 +119,4 @@ Don't practice shallow processing. But process deeply and practice deep thinking
 
 --- 
 
-**Note:** The content of this article is part of the upcoming Online Kurse on the _Zettelkasten Method of Creative Knowledge Work._
+**Note:** The content of this article is part of the upcoming [Online Course])(/course/) on the _Zettelkasten Method of Creative Knowledge Work._

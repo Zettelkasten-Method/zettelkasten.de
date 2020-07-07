@@ -56,12 +56,12 @@ The topics of _Zettelkasten_ notes can be as broad as you like.  Mine certainly 
 
 Your topics will be different.  When you commit to [take notes while you read a book][read] and carefully weave these into your existing web of knowledge, you will be able to think more creatively.  Also, this will make you write texts which are well [backed-up by citations.][cite]
 
-[read]: /posts/create-zettel-from-reading-notes/
-[cite]: /posts/bibliography-zettelkasten/
+[read]: https://zettelkasten.de/posts/create-zettel-from-reading-notes/
+[cite]: https://zettelkasten.de/posts/bibliography-zettelkasten/
 
 The permanent storage is opening up opportunities to combine and connect thoughts:  a Zettelkasten ultimately [writes your articles and books for you][write] over time.
 
-[write]: https://zettelkasten.de/ease-into-writing/
+[write]: https://zettelkasten.de/posts/ease-into-writing/
 
 ## Wrapping Up
 

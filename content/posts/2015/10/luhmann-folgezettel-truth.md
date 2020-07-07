@@ -22,7 +22,7 @@ I find these two phases in most of the processes I develop. This is because I am
 
 One piece of clutter was the concept of *Folgezettel*.
 
-**Update 2020-04-15:** The topic re-emerged after a couple of years. There is quite some discussions in the forum. For example: [Here](https://forum.zettelkasten.de/discussion/928/hierarchical-branched-note-taking-and-the-archive-app-is-topography-important), [here](https://forum.zettelkasten.de/discussion/978/is-there-a-benefit-to-luhmann-ids-vs-date-time-ids) and [here](https://forum.zettelkasten.de/discussion/976/the-case-for-a-digital-folgezettel). See [this new post from 2020](https://zettelkasten.de/understanding-hierarchy-translating-folgezettel/) for an expansion on that topic.
+**Update 2020-04-15:** The topic re-emerged after a couple of years. There is quite some discussions in the forum. For example: [Here](https://forum.zettelkasten.de/discussion/928/hierarchical-branched-note-taking-and-the-archive-app-is-topography-important), [here](https://forum.zettelkasten.de/discussion/978/is-there-a-benefit-to-luhmann-ids-vs-date-time-ids) and [here](https://forum.zettelkasten.de/discussion/976/the-case-for-a-digital-folgezettel). See [this new post from 2020](https://zettelkasten.de/posts/understanding-hierarchy-translating-folgezettel/) for an expansion on that topic.
 
 ## What is a *Folgezettel*?
 
