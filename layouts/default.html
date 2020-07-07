@@ -39,6 +39,8 @@
     <link type="text/plain" href="/humans.txt" />
 
     <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/littlefoot/dist/littlefoot.css"/>
 </head>
 <body class="<%= @layout_variant %> <%= @item[:bodyclass] unless @item[:bodyclass].nil? %>">
     <!--[if lt IE 7]>
@@ -66,5 +68,7 @@
 
     <script src="/js/vendor/iconic.min.js"></script>
     <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/littlefoot/dist/littlefoot.js" type="application/javascript"></script>
+    <script type="application/javascript">littlefoot.default()</script>
 </body>
 </html>
