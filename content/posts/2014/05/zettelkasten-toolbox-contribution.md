@@ -1,6 +1,7 @@
 ---
 title: The Zettelkasten Platform – 2 Ways You Can Contribute
 created_at: 2014-05-03 10:17:25 +0200
+updated_at: 2020-07-08 17:49:00 +0100
 kind: article
 author: christian
 tags: [ announcement ]
@@ -37,7 +38,7 @@ Second, I am working on a [blog aggregator][aggregator] to create a river of new
 
 This way, people interested in effective knowledge management have one place to look for news and to discover interesting blogs.
 
-The aggregator fetches new posts from websites which have applied to the service and adds every relevant post to the stream. Relevancy mostly depends on keywords. For example, not every post from my blog shows up there, but [every post with the _Zettelkasten_ tag][zktag]. For example, [Google News aggregates websites in a similar fashion](https://news.google.com/), but without any curation.
+The aggregator fetches new posts from websites which have applied to the service and adds every relevant post to the stream. Relevancy mostly depends on keywords. For example, [Google News aggregates websites in a similar fashion](https://news.google.com/), but without any curation.
 
 **How You Can Contribute:**  Suggest blogs, both your own and others'.  I'm on the hunt already, but I'm certain that I will miss some interesting pages on the web.
 
@@ -55,4 +56,3 @@ Photo Credit: <a href="http://www.flickr.com/photos/10976418@N04/1235777767/">Am
 [tools]: http://www.zettelkasten.de/tools/
 [baseline]: /posts/baseline-zettelkasten-software-reviews/
 [aggregator]: http://en.wikipedia.org/wiki/News_aggregator
-[zktag]: /posts/tags/zettelkasten/

@@ -36,7 +36,7 @@ I can only guess what happened to my mind. Here are a few possible factors:
 
 [broscience]: http://www.urbandictionary.com/define.php?term=broscience
 [1]: http://jasonferruggia.com/7-ways-to-minimize-cns-fatigue/
-[2]: /posts/need-to-craft/
+[2]: https://christiantietze.de/posts/2014/03/need-to-craft/
 
 
 I know about the phenomenon of [ego depletion][3] and [decision fatigue][9].  Yet I'm surprised how quickly I was completely drained.  I had expected both that it would take longer and that such small decisions wouldn't have so big an impact. The size of a decision, however measured, doesn't matter in the end. Maybe lots of tiny decisions are even worse because we don't get a sense of accomplishment.
@@ -74,7 +74,7 @@ Some of this applies to writing as well, of course.
 
 Sometimes, this is all it takes:  strict appointments with ourselves to do the stuff we really care about, and doing a bit less than we expect from ourselves.
 
-[dwp]: /posts/useful-daily-writing-practice/
+[dwp]: https://christiantietze.de/posts/2013/12/useful-daily-writing-practice/
 [6]: /posts/count-your-words
 
 ---

@@ -79,7 +79,7 @@ Repeat the cycle and keep track of your perceived productivity until you establi
 Want to stop collecting with no end and start to get productive?  Try the routine and tell me how it works for you.  What time cap did you end up with?
 
 [mk]: http://takingnotenow.blogspot.com/2013/11/devonthink-reconsidered.html
-[extend]: /extend-your-mind-and-memory-with-a-zettelkasten/
+[extend]: /posts/extend-your-mind-and-memory-with-a-zettelkasten/
 
 [htwat]: https://www.amazon.com/How-Write-Thesis-MIT-Press/dp/0262527138/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=ctzettelkasten-20&linkId=74f6517a8c4df9f357cf9781972b7fb1&language=en_US
 

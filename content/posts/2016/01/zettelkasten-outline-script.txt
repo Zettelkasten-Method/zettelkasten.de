@@ -17,7 +17,7 @@ The current version 0.1.0 supports Sascha's and my note archives. Our notes adhe
 
 Outlines are useful to [write anything][out]. Back in 2013 (!) I wrote about [how to "ease into writing"][method] using an outline with Zettel note references. Then I showed how to re-create this method with a project Zettelkasten [using Evernote][ever]. Not too long ago, Sascha explained [how one of his manuscripts came about][case] using the method of organically growing outlines. 
 
-The outlines are converted to the first draft of the final text by hand in a step we call "assembling": you paste in a Zettel note wherever a Zettel reference is. Referencing is easy thanks to [Zettel note IDs](ident). You see, outlines and Zettel notes can like each other very much. 
+The outlines are converted to the first draft of the final text by hand in a step we call "assembling": you paste in a Zettel note wherever a Zettel reference is. Referencing is easy thanks to [Zettel note IDs][ident]. You see, outlines and Zettel notes can like each other very much. 
 
 [out]: /posts/how-i-use-outlines-to-write-any-text/
 [method]: /posts/ease-into-writing/

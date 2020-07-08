@@ -91,7 +91,7 @@ When your archive grows, you'll add [Structural Layers in your Zettelkasten](/po
 
 * [Make writing a part of your identity](/posts/identity-schedule-serious-writing/). This requires to schedule time for writing, and to create lasting habits.
 * How to become a better writer:
-    * A [daily writing practice](/posts/useful-daily-writing-practice/) will help lower the hurdle to get started, for example.
+    * A [daily writing practice](https://christiantietze.de/posts/2013/12/useful-daily-writing-practice/) will help lower the hurdle to get started, for example.
     * [How to track your writing progress](/posts/how-to-track-writing-progress/) -- define metrics and find out how well you perform.
     * [Counting your words](/posts/count-your-words/) is motivating and helps you stick to the habit of writing daily.
     * Christian also wrote a Mac app for this: the [Word Counter](http://wordcounterapp.com/).

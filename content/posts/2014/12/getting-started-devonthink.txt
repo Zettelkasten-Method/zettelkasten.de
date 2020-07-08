@@ -1,6 +1,7 @@
 ---
 title: Getting Started with DEVONthink 2
 created_at: 2014-12-17 21:33:31 +0100
+updated_at: 2020-07-08 17:34:00 +0100
 kind: article
 author: christian
 tags: [ devonthink ]
@@ -10,7 +11,7 @@ via:
     name: Macdrifter
 ---
 
-Just now, a few days after publishing Marko's article on [DEVONthink as a Zettelkasten archive](/posts/2014/12/devonthink-zettelkasten-review/), did I stumble upon Christopher Mayo's [excellent collection of DEVONthink resources.][dt]
+Just now, a few days after publishing Marko's article on [DEVONthink as a Zettelkasten archive](/posts/devonthink-zettelkasten-review/), did I stumble upon Christopher Mayo's [excellent collection of DEVONthink resources.][dt]
 
 Apart from his own introductory words on using DEVONthink, Christopher provides a *huge* collection of links to get you started. And he showcases 22 different use cases so you may learn from pro users how to facilitate DEVONthink's potential. I checked out a few of them and I think they alone are worth visiting Christopher's post if you want to find out more about DEVONthink.
 

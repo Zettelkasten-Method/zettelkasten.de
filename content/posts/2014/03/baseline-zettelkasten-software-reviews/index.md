@@ -140,8 +140,8 @@ I discovered MultiMarkdown because it is built into [Scrivener][].  It supports 
 
 [plaintext]: http://www.christopher-mayo.com/?p=14
 [word]: http://davidhewson.com/2013/12/28/does-markdown-mean-your-work-will-live-forever/
-[scrivener]: http://literatureandlatte.com/scrivener.php
-[nvprev]: /posts/multi-markup-notational-velocity/
+[scrivener]: https://literatureandlatte.com/scrivener.php
+[nvprev]: https://christiantietze.de/posts/2010/10/multi-markup-notational-velocity/
 
 ### Going plain text with Pandoc
 

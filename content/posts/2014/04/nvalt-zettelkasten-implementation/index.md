@@ -12,7 +12,7 @@ import:
     from: "http://christiantietze.de/posts/2014/04/nvalt-zettelkasten-implementation/"
 ---
 
-I want to start this series of reviews with a software I'm fairly familiar with.  While most things apply to the [Notational Velocity][nv] base application, I will talk about [nvALT][] exclusively in this review.  nvALT is a fork by [Brett Terpstra](http://brettterpstra.com/) and [David Halter](http://elasticthreads.tumblr.com/) of the original Notational Velocity, which was created by Zachary Schneirov, and a few [modifications by yours truly](/posts/2010/10/markdown-hud-nv/).  It's Open Source, free, and very popular.
+I want to start this series of reviews with a software I'm fairly familiar with.  While most things apply to the [Notational Velocity][nv] base application, I will talk about [nvALT][] exclusively in this review.  nvALT is a fork by [Brett Terpstra](http://brettterpstra.com/) and [David Halter](http://elasticthreads.tumblr.com/) of the original Notational Velocity, which was created by Zachary Schneirov, and a few [modifications by yours truly](http://christiantietze.de/posts/2010/10/markdown-hud-nv/).  It's Open Source, free, and very popular.
 
 I use nvALT since 2010, and I think it's the best product available to create and find notes quickly and to manage a lot of them.  I mean, really, a **LOT**, as in 3000 and counting.  This app is Mac only, sadly, but there are alternative implementations popping up which promise to work on every platform.
 
@@ -58,7 +58,7 @@ Using the "Search or Create" field is the main way to interact with the applicat
 
 You can select the "Search or Create" field with &#x2318;+L.  That's the same shortcut for selecting the location bar in every web browser on a Mac, by the way.  You can navigate the filtered notes with the up (&uarr;) and down arrows (&darr;) or select one with the mouse.  When a note is selected, its content shows up to the right.
 
-<%= insert_rel_image file: "201404041052_exnote.png", title: "note example", caption: "Example note in the one-size-fits-all format.", link: "/posts/2014/03/baseline-zettelkasten-software-reviews/" %>
+<%= insert_rel_image file: "201404041052_exnote.png", title: "note example", caption: "Example note in the one-size-fits-all format.", link: "https://zettelkasten.de/posts/baseline-zettelkasten-software-reviews/" %>
 
 In total, to select a note it takes only three steps: you hit &#x2318;+L, type in the search string, select the appropriate note with &uarr; or the mouse, and there you are.
 
@@ -109,7 +109,7 @@ Linking notes can't possibly get more raw than this.  Of course, to create the c
 I really wish for a go-back function or a [breadcrumb navigation][bc] to make browsing and creating links easier.  This is something I will add some day when I have the time. Promise.  Then, I'll fix the link suggestion box, too.
 
 [ex]: /posts/baseline-zettelkasten-software-reviews/
-[bc]: /posts/mass-edit-notes/
+[bc]: https://christiantietze.de/posts/2010/11/mass-edit-notes/
 [qq]: http://www.kungfugrippe.com/post/453204090/q-trick
 
 ### Data Import/Export

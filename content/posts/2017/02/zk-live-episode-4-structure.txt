@@ -19,6 +19,6 @@ Also, Mr. Andersen was with us again and this asked about a proper reading workf
 
 Relevant posts:
 
-* [Reading -- putting it all together](/posts//reading-putting-it-all-together/)
+* [Reading -- putting it all together](/posts/reading-putting-it-all-together/)
 * [Manage Citations for a Zettelkasten](/posts/bibliography-zettelkasten/)
 

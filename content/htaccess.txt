@@ -14,6 +14,8 @@ RewriteRule ^forum(.*)$ https://forum.zettelkasten.de/ [R=303,L]
 RewriteRule ^the-archive/theme-repository https://github.com/Zettelkasten-Method/The-Archive-Themes.git [R=303,L]
 
 # Post redirections
+RewriteRule ^about/(.*)$ /legal/$1 [R=303,L]
+RewriteRule ^posts/..../../(.*)$ /posts/$1 [R=301,L]
 RewriteRule ^posts/2014/09/introducing-sascha/(.*)$ /posts/introducing-sascha/$1 [R=301,L]
 RewriteRule ^products/(.*)$ /tools/ [R=301,L]
 

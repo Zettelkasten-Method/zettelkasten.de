@@ -57,7 +57,7 @@ If you'd like to differentiate between the various functions a paragraph in a te
 
 ### Processing Stage
 
-<%= insert_rel_image file: "3_cluster_notes.jpg", title: "cluster notes", caption: %Q{Here, I already clustered reading notes for processing; from the post <a href="/posts/2013/09/create-zettel-from-reading-notes/">Create Zettel from Reading Notes</a>}, relative: "/posts/2013/09/create-zettel-from-reading-notes/" %>
+<%= insert_rel_image file: "3_cluster_notes.jpg", title: "cluster notes", caption: %Q{Here, I already clustered reading notes for processing; from the post <a href="/posts/create-zettel-from-reading-notes/">Create Zettel from Reading Notes</a>}, relative: "/posts/create-zettel-from-reading-notes/" %>
 
 In the **processing stage**, I pull out the notes and create clusters before I add anything to my digital note archive.  The dots in the page margin help to look up details if needed in this stage. 
 

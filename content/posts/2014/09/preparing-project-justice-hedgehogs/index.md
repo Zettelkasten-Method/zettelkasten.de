@@ -17,7 +17,7 @@ I like to make plans. And I like to make actionable to-do lists. To create those
 
 I prepare for the real work: deep research and writing for a long period of time. I know that I won't finish the project in a matter of days or weeks. Instead, I assign a few months to the overall progress. That's why I think preparing is so important: I have to ensure there's a solid system in place to support my work. Writing, like a marathon, requires endurance. I prepare for every writing project in a similar manner. Conventions make my work predictable, and I have to think less about the wire-framing and can focus on the important stuff instead.
 
-Don't know what else I did in this series? [Have a look at the other posts from the 2014 Summer Knowledge Challenge.](/posts/2014/summer-knowledge-challenge/)
+Don't know what else I did in this series? [Have a look at the other posts from the 2014 Summer Knowledge Challenge.][chall]
 
 ## Getting an Overview: Bring Order to the Reading Notes
 
@@ -91,10 +91,10 @@ I put the draft of this post into the project folder, too. This time, I will not
 
 * How are you doing so far in this challenge? What's your first step when you tackle a book?
 * If you still want to join, put an announcement and a link to your blog or website into the comments so I can add you to the list of participants.
-* [See the other posts from the 2014 Summer Knowledge Challenge.](http://christiantietze.de/posts/2014/summer-knowledge-challenge/)
+* [See the other posts from the 2014 Summer Knowledge Challenge.][chall]
 
 
 [pencil]: http://www.amazon.com/gp/product/B000KT9EEY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000KT9EEY&linkCode=as2&tag=ctzettelkasten-20&linkId=7RZ3KAQKPS6WO6PP
-[chall]: /posts/summer-knowledge-challenge/
+[chall]: https://christiantietze.de/posts/2014/summer-knowledge-challenge/
 
 [^aff]: Affiliate links; I get a small kickback from the vendor if you buy from my link but it won't cost you anything.
