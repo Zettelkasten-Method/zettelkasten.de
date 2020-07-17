@@ -9,6 +9,18 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.5.5 (2020-07-17)
+
+- **Fixed:** On macOS 10.11 (El Capitan), the "External Editors" table heading displayed a reddish border.
+- **Changed:** The Saved Searches editor in the preferences now has a more native preferences look to it.
+- **Changed:** The built-in black and white "The Archive" icon for Saved Searches renders more sharply now. You have to re-select it in the Saved Searches editor for the changes to take effect.
+- **Changed:** Adjust the size and position of the "(x)" button in the banner that explains you don't need to manually save your notes to match the Omnibar.
+- **Changed:** Display crash reporter windows on top of the main window (so it is not accidentally obstructed on launch).
+- **Changed:** Make `thearchive://` URL scheme action ignore the case, so `matchOrCreate` and `matchorcreate` or even `MatCHorCrEaTe` will work.
+- **New:** Sort notes by their creation date.
+- **New:** The currently active note sort order is highlighted in the _View > Sort By_ menu.
+- **New:** Support for setting hidden preferences: app settings that didn't make it to the preference panes. Use `thearchive://preference/PREFERENCENAME/set/NEWVALUE/` and `thearchive://preference/PREFERENCENAME/delete` to change these. A list of customizable entires is in [the online help](https://zettelkasten.de/the-archive/help)
+
 ## v1.5.4 Beta (2020-06-27)
 
 - **Changed:** Improved the Omnibar's instructions when it's empty. It now shows keyboard navigation shortcuts.

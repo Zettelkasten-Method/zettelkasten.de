@@ -25,6 +25,21 @@ Out community of users is pretty amazing. You should get to know them! We'll ans
 Find discussions about _The Archive_ here:
 <https://forum.zettelkasten.de/categories/the-archive>
 
+## Hidden Preferences
+
+Some settings in the app are not exposed as user-customizable preferences. But they can be changed via the `thearchive://` URL scheme. For some changes to take effect, you may have to relaunch the app.
+
+To open these URLs, use the Terminal and use the `open` command, e.g.:
+
+    open thearchive://preference/thePreferenceName/set/1234
+
+- To set a preference, use the format `thearchive://preference/<PREFNAME>/set/<VALUE>`.
+- To reset a changed preference to its built-in value, use the format `thearchive://preference/<PREFNAME>/delete`.
+
+Currently supported preferences (replace `<PREFNAME>` with these):
+
+- `timeZoneOverride` (string), default is unset: `<VALUE>` can be an abbreviation like `UTC` or `CEST` and is case-sensitve. New note IDs will be generated for the current time in that time zone.
+- `resultsCellHeightFactor` (fractional number), default value: `2.2`. Changes the height of the search result list rows in relation to the text.
 
 ## Frequently Asked Questions
 
