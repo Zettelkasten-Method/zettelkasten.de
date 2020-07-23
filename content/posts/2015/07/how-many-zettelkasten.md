@@ -37,7 +37,7 @@ It makes sense to use a single Zettelkasten because you will increase the chance
 
 I did a lot of programming recently. In the past, I found articles and books about the beauty of program code. Maybe my upcoming university degree in philosophy will point me towards theories of aesthetics. Armed with philosophical theory, I can contribute to the discussion in the field computer sciences again. Years may have passed between the two encounters. Doesn't matter, since everything is connected -- probably at least through the tag `#beauty`.
 
-[bb]: /posts/bibliography-zettelkasten/
+[bb]: /posts/zettelkasten-building-blocks/
 
 ## Why use multiple Zettelkasten instances?
 
