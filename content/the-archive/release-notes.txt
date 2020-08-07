@@ -9,6 +9,11 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.5.6 (2020-08-07)
+
+- **Fixed:** Changing the selected note from the menu via keyboard shortcuts used to keep the last note open if the changes were not saved, yet. Changes are now properly saved before the selection is changed to fix this.
+- **Changed:** When no external editor is set but the Cmd+E shortcut is used, instructions to add an editor are now displayed.
+
 ## v1.5.5 (2020-07-17)
 
 - **Fixed:** On macOS 10.11 (El Capitan), the "External Editors" table heading displayed a reddish border.
