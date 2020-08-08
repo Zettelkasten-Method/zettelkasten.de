@@ -346,6 +346,46 @@ blockquote {
   margin-top: 1em;
 }
 .teaser__image { }
+
+.footnote-button {
+  -webkit-font-smoothing: antialiased;
+  backface-visibility: hidden;
+  background-color: lighten($color-link, 10%);
+  border-radius: 0.5em;
+  border: 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: bold;
+  height: 1.4em;
+  line-height: 1;
+  margin: 0 0.1em 0 .2em;
+  min-width: 1.8em;
+  padding: 0.2em .5em;
+  position: relative;
+  text-decoration: none;
+  top: -0.5em;
+  transition-duration: 0.2s;
+  transition-property: background-color color;
+  transition-timing-function: ease;
+  vertical-align: middle;
+  z-index: 5;
+  
+  &.is-active {
+    background-color: rgba($color-link, 0.3);
+    color: black;
+    transition-delay: .1s;
+  }
+
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
 .footnotes {
   margin-top: 3em;
   font-size: $small-size;
