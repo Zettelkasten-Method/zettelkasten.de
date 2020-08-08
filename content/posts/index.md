@@ -12,7 +12,7 @@ title: Blog Post Archive
 
 * **Posts [by our amazing community contributors](/authors/guests/)** -- thanks, folks!
 * Post by [Christian](/authors/christian/) and [Sascha](/authors/sascha/).
-* Posts by year: <%= (2013..2019).to_a.reverse.map { |y| %Q{[#{y}](/posts/#{y}/)} }.join(", ") %>
+* Posts by year: <%= (2013..2020).to_a.reverse.map { |y| %Q{[#{y}](/posts/#{y}/)} }.join(", ") %>
 * [Zettelkasten Live](/live/) vlog series.
 * [List of tags](/posts/tags/).
 
