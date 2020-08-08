@@ -332,6 +332,20 @@ blockquote {
   margin-bottom: 2em;
   text-align: center;
 }
+.post-figure--grid {
+  display: flex;
+  flex-direction: column;
+  .post-figure__images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .post_figure--grid__item {
+    display: block;
+    box-sizing: border-box;
+    width: 49%;
+  }
+}
 .post-teaser {
   margin: 0;
   padding: 0;
