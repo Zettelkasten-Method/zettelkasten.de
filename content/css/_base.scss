@@ -1,13 +1,9 @@
-/* ==========================================================================
-   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
-   ========================================================================== */
-
 html,
 button,
 input,
 select,
 textarea {
-    color: $color-text;
+  color: $color-text;
 }
 
 body {
@@ -243,16 +239,6 @@ blockquote {
 #posts .post__title a { color: $color-text; border-bottom-color: transparent; }
 #posts .post__title a:hover { border-bottom-color: $color-text; }
 
-.post__meta {
-  display: inline-block;
-  padding-left: 0;
-  margin-left: 0;
-  list-style-type: none;
-  font-size: $small-size;
-
-  li { display: inline-block; }
-}
-
 .post--link {
   .post__title { font-size: $base-size; }
   .post__title::before { content: '→ ' };
@@ -322,11 +308,24 @@ blockquote {
 .tool-author--single h3, .tool-review h3 { margin-right: 0.5em; }
 
 .post { margin-bottom: 3em; }
-.post__title {
+
+.post__title,
+.page--attributed .page__title {
   margin-bottom: 0;
   line-height: 1.2em;
 }
-.post__meta { margin-top: 0; }
+
+.post__meta,
+.page__meta {
+  display: inline-block;
+  padding-left: 0;
+  margin-top: 0;
+  margin-left: 0;
+  list-style-type: none;
+  font-size: $small-size;
+
+  li { display: inline-block; }
+}
 .post-figure {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -555,7 +554,7 @@ hr {
 
   .main article h1 { font-size: 2em; }
 
-  .post__title { margin-top: 1.5em; }
+  .post__title, .page__tile { margin-top: 1.5em; }
 
   .textexpander__image {
     max-width: 8em;

@@ -1,7 +1,18 @@
 <% render '/default.*' do %>
-<div class="grid-whole padded">
-    <h1><%= @item[:title] %></h1>
+<div class="grid-whole">
+  <article class="plain page <%= Page::page_class_for(@item)%> ">
+    <h1 class="title page__title"><%= @item[:title] %></h1>
+    
+    <%
+    # Plain pages usually don't have an author set. If one is set, assume it's important to display.
+    if @item[:author] %>
+    <ul class="page__meta">
+      <li class="author"><%= Post::author_tag_for(@item) %></li>
+      <li class="contact"><%= Post::contact_tag_for(@item) %></li>
+    </ul>
+    <% end %>    
     
     <%= yield %>
+  </article>
 </div>
 <% end %>

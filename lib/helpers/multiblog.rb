@@ -205,6 +205,18 @@ module My
       end
     end
 
+    module Page
+      class << self
+        include My::Blog::Page
+      end
+
+      def page_class_for(item)
+        [].tap { |classes|
+          classes << "page--attributed" if is_attributed?(item)
+        }.join(' ')
+      end
+    end
+    
     def latest_post(kind = "article")
       posts(kind)[-1]
     end
@@ -437,7 +449,11 @@ module My
       end
 
       def is_link_post?(item)
-        is_link_post = (item[:url] != nil)
+        item[:url].nil? == false
+      end
+
+      def is_attributed?(item)
+        item[:author].nil? == false
       end
 
       def relative_path_for(filename, item)
