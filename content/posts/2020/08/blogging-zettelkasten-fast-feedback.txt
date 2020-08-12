@@ -1,0 +1,22 @@
+---
+title: "Tying Blogging and the Zettelkasten Method Together for Fast Feedback"
+created_at: 2020-08-12 16:46:48 +0100
+kind: article
+author: sascha
+tags: [ publishing, blogging, editing  ]
+image: 20200812130614_note-blog-feedback.png
+description: "If you have a blog, you can use it to get fast feedback for your long form writing through Zettelkasten notes."
+---
+
+If you have a blog, you can use it within a fast feedback workflow:
+
+1. Create a Zettel and decide if it is a candidate of a short blog post. The criteria depend on the nature of you blog, of course.
+2. Tag this Zettel with `##publish`.
+3. Edit the content of the Zettel so that it can be published. 
+4. Publish it on your blog and change the meta-tag from `##publish` to `##public`.
+5. React to comments by editing and improving the blogpost. If someone hints at a typo or any improvements on the content, create a footnote with a hat tip or something similar.
+6. Always feed back the changes to the original Zettelkasten.
+
+<%= insert_teaser_image %>
+
+If you have an active community, you can rely on this fast feedback and have many editing iterations for your text. This improves many Zettel in your Zettelkasten, which is especially nice if you plan to craft a book out of them.
