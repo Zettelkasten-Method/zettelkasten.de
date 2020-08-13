@@ -181,12 +181,15 @@ iframe { // YouTube videos
 a {
   color: $color-link;
   text-decoration: none;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid $color-link;
 }
-a.image-link { border-bottom: 0; }
+figure > a,
+a.image-link {
+  border-bottom-color: transparent;
+}
 a:hover {
   color: $color-link;
-  border-bottom-color: $color-link;
+  border-bottom-color: transparent;
 }
 figure {
   margin-left: -$margin-content-wrapper;
@@ -350,20 +353,19 @@ blockquote {
 .footnote-button {
   -webkit-font-smoothing: antialiased;
   backface-visibility: hidden;
-  background-color: lighten($color-link, 10%);
-  border-radius: 0.5em;
   border: 0;
+  background-color: transparent;
   box-sizing: border-box;
-  color: white;
+  color: $color-link;
   cursor: pointer;
   display: inline-block;
-  font-size: 0.7em;
-  font-weight: bold;
-  height: 1.4em;
+  font-size: 0.8em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  height: 1.6em;
   line-height: 1;
-  margin: 0 0.1em 0 .2em;
+  padding: 0 0.4em;
   min-width: 1.8em;
-  padding: 0.2em .5em;
   position: relative;
   text-decoration: none;
   top: -0.5em;
@@ -372,10 +374,8 @@ blockquote {
   transition-timing-function: ease;
   vertical-align: middle;
   z-index: 5;
-  
+
   &.is-active {
-    background-color: rgba($color-link, 0.3);
-    color: black;
     transition-delay: .1s;
   }
 

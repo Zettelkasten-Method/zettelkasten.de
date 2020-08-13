@@ -33,6 +33,6 @@ ready(function (event) {
           aria-label="Footnote <% number %>"\
           class="footnote-button"\
           id="<% reference %>"\
-          title="See Footnote <% number %>" /><% number %></button>',
+          title="See Footnote <% number %>" />(<% number %>)</button>',
   });
 });
