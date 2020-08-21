@@ -123,6 +123,7 @@ nav a {
     font-weight: bold;
 
     color: $color-nav;
+    border-bottom-color: transparent;
 }
 .nav__icon { padding-right: 0.3em; }
 .nav__icon .iconic-property-fill {
@@ -239,7 +240,7 @@ blockquote {
 
 // (Clickable) Post titles
 .main article h1 { font-size: 1.5em; }
-#posts .post__title a { color: $color-text; }
+#posts .post__title a { color: $color-text; border-bottom-color: transparent; }
 #posts .post__title a:hover { border-bottom-color: $color-text; }
 
 .post__meta {
