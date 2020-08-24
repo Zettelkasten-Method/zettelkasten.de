@@ -177,6 +177,11 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
   .creds { font-size: 80%; }
 }
 
+.pk-screenshots a,
+.pk-screenshots a:hover {
+  border-bottom-color: transparent;
+}
+
 /** Phone breakpoint */
 @media only screen and (min-width: 480px) {
   .the-archive {
@@ -226,8 +231,6 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
       float: left;
       margin-left: -2em;
     }
-
-    .pk-screenshots a:hover { border-bottom-color: transparent; }
     .pk-screenshot { width: 100%; }
   }
 }
