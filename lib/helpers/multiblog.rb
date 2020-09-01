@@ -149,13 +149,14 @@ module My
       end
 
       def teaser_path_for(item)
-        return unless item[:image]
-
-        filename = item[:image]
-        image_name = File::basename(filename, File::extname(filename))
-        thumbnail = image_name + '-thumbnail' + File::extname(filename)
-
-        '/img/blog/' + thumbnail
+        if not item[:rel_image].nil?
+          rel_url_for(item[:rel_image], item)
+        elsif not item[:image].nil?
+          filename = item[:image]
+          image_name = File::basename(filename, File::extname(filename))
+          thumbnail = image_name + '-thumbnail' + File::extname(filename)
+          '/img/blog/' + thumbnail
+        end
       end
 
       def teaser_for(item)
@@ -344,16 +345,19 @@ module My
       %Q{<a href="#{href}">#{text}</a>}
     end
 
-    def rel_url_for(file)
-      relative_path_for file, @item
-    end
-
-    def teaser_image_path
-      '/img/blog/' + @item[:image]
+    def rel_url_for(file, item=nil)
+      relative_path_for file, item || @item
     end
 
     def insert_teaser_image(title: "", caption: "", link: nil, border: true)
-      insert_image(file: teaser_image_path(),
+      teaser_image_path = if !@item[:image].nil?
+                            '/img/blog/' + @item[:image]
+                          elsif !@item[:rel_image].nil?
+                            rel_url_for(@item[:rel_image])
+                          end
+      return unless teaser_image_path
+
+      insert_image(file: teaser_image_path,
                    title: title,
                    caption: caption,
                    link: link,
