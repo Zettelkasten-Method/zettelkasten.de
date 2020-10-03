@@ -5,7 +5,7 @@ kind: article
 author: christian
 tags: [ announcement ]
 ---
-[Jooble](https://de.jooble.org), the job search portal, kindly reached out and offered to feature our site on their page. [According to Wikipedia](https://en.wikipedia.org/wiki/Jooble) and their references, "Jooble is in the top 1000 most visited sites in the world" and "the second most visited job search site".
+[Jooble](https://de.jooble.org/stellenangebote-lehrerin), the job search portal, kindly reached out and offered to feature our site on their page. [According to Wikipedia](https://en.wikipedia.org/wiki/Jooble) and their references, "Jooble is in the top 1000 most visited sites in the world" and "the second most visited job search site".
 
 So if you're new to the Zettelkasten Method for creative knowledge work and came here from their page, welcome!
 
