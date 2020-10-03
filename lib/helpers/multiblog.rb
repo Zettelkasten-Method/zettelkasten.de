@@ -364,6 +364,28 @@ module My
                    border: border)
     end
 
+    def insert_image_group(urls: [], caption: "", border: true)
+      raise "urls must not be empty" if urls.empty?
+
+      border_class = (border == true) ? "" : "post-figure--borderless"
+      rendered_image_links = urls.map { |url|
+        %Q{<a href="#{url}" class="post_figure--grid__item"><img src="#{url}")" class="post-figure__image"></a>}
+      }.join("\n")
+      rendered_caption = if caption.empty?
+                           ""
+                         else
+                           %Q{<figcaption class="post-figure__caption">#{caption}</figcaption>}
+                         end
+      return [
+        %Q{<figure class="post-figure post-figure--grid #{border_class}">},
+          %Q{<div class="post-figure__images">},
+            rendered_image_links,
+          %Q{</div>},
+          rendered_caption,
+        %Q{</figure>}
+      ].join("\n")
+    end
+
     def insert_rel_image(file: nil, title: "", caption: "", link: nil, relative: nil, border: true)
       insert_image(file: rel_url_for(file), title: title, caption: caption, link: link, relative: relative, border: border)
     end
