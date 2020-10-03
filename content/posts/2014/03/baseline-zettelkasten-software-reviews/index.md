@@ -1,7 +1,7 @@
 ---
 title: Baseline for Zettelkasten Software Reviews
 created_at: 2014-03-29 11:12:19 +0100
-updated_at: 2017-02-12 11:22:00 +0100
+updated_at: 2020-10-03 12:36:00 +0100
 author: christian
 kind: article
 tags: [ software, review ]
@@ -35,7 +35,7 @@ The key elements I look at will be:
 
 * **Note retrieval**: for example, how fast and easy is full-text search?
 * **Note creation**: does it take many clicks or keystrokes to create a new _Zettel_ note?
-* **Note connections**: which mechanisms does the app support to create connections?  I'm leaving this point pretty vague intentionally.  I know of various ways different applications deal with this problem.  Also, I'm going to cheat a bit:  if full-text search works, manually linking notes will work, too:  just put the target's identifier somewhere, copy it, search for the identifier, and open the resulting note. 
+* **Note connections**: which mechanisms does the app support to create connections?  I'm leaving this point pretty vague intentionally.  I know of various ways different applications deal with this problem.  Also, I'm going to cheat a bit:  if full-text search works, manually linking notes will work, too:  just put the target's identifier somewhere, copy it, search for the identifier, and open the resulting note.
 * **Data export**:  nobody wants to be locked into a [data silo][silo].  How does the application manage to get everything out without losing information?  How does it manage to get stuff in?
 
 Every software has its own features and limitations, of course.  Wiki-like software makes linking painless, while others provide sophisticated search mechanisms.  I will evaluate these individual properties too, of course, but only in respect to their usefulness for managing a _Zettelkasten_ note archive.
@@ -51,37 +51,35 @@ Instead of searching for the perfect app for an ideal note, we should focus on t
 
 ## The Bare Minimum of a _Zettel_ Note
 
-Every note consists of various parts:  it needs to have an [identifier][id], it needs to have body text or content, and it may have some front matter and back matter.
+**Update 2020-10-03:** I've updated the note format and replaced the screenshot with a more recent example.
 
-To ensure that you and I talk about the same stuff when we use these terms, take a look at this example note of mine called `201105160958 Improve the structure of essays by rewriting`:
+Every note consists of various parts:  it needs to have an [identifier][id] for linking, it needs to have body text or content to actually say something, and it may have some front matter and back matter to provide more info about the note or its sources.
 
-<%= insert_rel_image file: "201403291138_example.png", title: "example note", caption: "Example note, partitioned" %>
+To ensure that you and I talk about the same stuff when we use these terms, take a look at this example note of mine called `201910091801 Struggling when you acquire a skill could be important to become great in your field`:
+
+<%= insert_rel_image file: "202010031149_zettel-anatomy.png", title: "example note", caption: "Anatomy of a Zettel: a partitioned example note" %>
 
 In this example, the note is partitioned as follows:
 
-* The **identifier** is `201105160958` and it's stored in the file name.  Also, I can reconstruct the ID from the date in the front matter.
-* Obviously, the **body text** consists of the first introductory paragraph and the following list.  I don't consider the web link to be part of the content in this case.  Note that in the body text I have put the hash-tag `#Zettelkasten` inline, just as you do on Twitter, for example.
-* The **front matter**, called **header** in this case since it's contained at the top of the note itself, is about metadata like the creation date;  in my case, it even hold a list of tags.  Like I said, you could put the tags in the running text, too.  This is just my personal preference.
-    
-        Title:      Improve the structure of essays by rewriting
-        Date:       2011-05-16 09:58:57
-        Keywords:   #writing #essay #practice
+* The **identifier** is `201910091801`, which stands for the 2019-10-09 at 18:01. It's part of the file name and the note.
+* The **body text** consists of the first introductory sentence, and the list of details. You see there are multiple links to other notes that provide more details on the summarized list items: `201910091746` points to the note "Savants excel at their skill without innovating".
+* The **front matter** or **header** (because it's at the top of the note) is about metadata like the creation date. That is part of the date-based unique identifier. In my case, it contains a list of tags, too.  Like I said, you could put the tags in the running text, too ("inter-textual tags").  This is just my personal preference and makes it easier to scan for relevant keywords, I find.
 
-* The **back matter** should contain references, and it may include a dedicated list of links on the same topic if you want to add those.  In my case, the definition of citations contains a link to my reference manager [BibDesk][].
-        
-        Cf. <http://www.earlyamerica.com/lives/franklin/chapt1/>
+        # 201910091801 Struggling when you acquire a skill could be important to become great in your field
+        #expertise #innovation
 
-        [#isaacson2004bf]: Walter Isaacson (2004):  
-        _[Benjamin Franklin. An American Life](x-bdsk://isaacson2004bf)_, 
-        New York and London and Toronto and Sydney: 
-        Simon and Schuster Paperbacks.
-        
+* The **back matter** should contain references (and in case you write your notes in Markdown, it can also hold link definitions and footnotes). It may include a dedicated list of links on the same topic if you want to add those. In this example, there's a literature reference in the MultiMarkdown format:
+
+        [#epstein2019range]: David Epstein (2019):
+        _Range. why generalists triumph in a specialized world_,
+        New York: Riverhead Books.
+
 
 As you see, I use plain-text notes.  The syntax or "language" I use to format notes and add references is called [MultiMarkdown][mmd].  This isn't mandatory;  I only tell you so you know which particular details I settled on.
 
 Now that we've taken a look at the example, we can strip away my personal twists on saving notes and focus on the essentials.
 
-I want to establish an all-purpose note layout as a baseline in a way that every text editing software on this planet can cope with it.  
+I want to establish an all-purpose note layout as a baseline in a way that every text editing software on this planet can cope with it.
 
 [mmd]: http://fletcherpenney.net/multimarkdown/
 [bibdesk]: http://bibdesk.sourceforge.net/
@@ -92,34 +90,38 @@ This one is suitable for every editor which supports saving text.
 
 The body text or content dominates. Citations work as they do in print:  you put "(Author YEAR)" in the appropriate places and append a readable list of references in the back matter.  I put tags into the back matter as well so they get out of the way when reading the note;  the topmost lines are precious screen real estate I don't like to waste.
 
-This is a viable example:
-            
-    201105160958 Improve the structure of essays by rewriting
+If you drop all the Markdown formatting, this is still a viable example:
 
-    Benjamin Franklin improved his writing skill by re-writing other author's articles (Isaacson 2004, p. 28):
+    201910091801 Struggling when you acquire a skill could be important
+    to become great in your field
 
-    * Take notes when reading on single scraps of paper. (Like in the reading workflow for a Zettelkasten)
-    * Shuffle the notes sometimes
-    * When the original content is forgotten, write an essay based on your notes and compare to the original
-    * Sometimes try to write in verse instead
+    Being good at something is not enough to be an innovator:
 
-    Cf. <http://www.earlyamerica.com/lives/franklin/chapt1/>
+    - Savants excel at their skill without innovating.[[201910091746]]
+      So merely being good at something is not enough to innovate and
+      be creative.
+    - Self-taught jazz musicians sound more interesting than their peers
+      from jazz music school.[[201910091737]] "More interesting" can
+      entail being more creative, too; Epstein writes about a lot of
+      great musicians being self-taught.[chapter 3][#epstein2019range]
 
-    #writing #essay #practice #zettelkasten
-    
+    #expertise #innovation
+
     ---
     References:
 
-    Walter Isaacson (2004):  Benjamin Franklin. An American Life, New York and London and Toronto and Sydney: Simon and Schuster Paperbacks.
+    David Epstein (2019): Range. Why generalists triumph in a
+    specialized world, New York: Riverhead Books.
 
-This is perfectly readable in every application which can display text.
+This is perfectly readable in any application that can display text.
 
-Instead of using asterisks (`*`) to denote list items, I can imagine using rich text editing features to add real list markup, depending on the software we'll be looking at.  When there's no rich text available, asterisks work fine for me.
+Here's two example pictures of similar notes -- one in a plain text editor, one in a rich text editor:
 
-Here's two example pictures, one in a plain text editor, one in a rich text editor:
-
-<%= insert_rel_image file: "201403291127_plaintext.png", title: "plain text", caption: "View in a plain text editor" %>
-<%= insert_rel_image file: "201403291128_rtf.png", title: "rich text", caption: "View in a rich text editor with some formatting" %>
+<%= insert_image_group(
+  urls: [
+    rel_url_for("201403291127_plaintext.png"),
+    rel_url_for("201403291128_rtf.png")],
+  caption: "View in a plain text editor vs rich-text editor with minimal formatting") %>
 
 ### Going plain text with MultiMarkdown
 
@@ -149,9 +151,9 @@ While I am a plain text aficionado, MultiMarkdown is not a flavor for everyone. 
 
 If you are fond of Markdown but don't like MultiMarkdown's peculiarities, you can rely on Pandoc's markup language support for conversion and utilize its all-purpose metadata format.  The metadata is embedded in a different markup language called [YAML][].  The front matter of my example note from above would look like this in YAML:
 
-    title:      Improve the structure of essays by rewriting
-    date:       2011-05-16 09:58:57 +2
-    keywords:   [#writing, #essay, #practice]
+    id:    201910091801
+    title: Struggling when you acquire a skill could be important to become great in your field
+    tags:  [#expertise #innovation]
 
 Not much has changed.  This is a self-contained YAML document.  The nice thing about YAML is, though, that you can _embed_ them into every text file if you put a line with three dashes (`---`) above and below the YAML content.
 
@@ -172,10 +174,10 @@ Here's an example note with the full bibliography reference put in YAML front ma
         publisher: Simon and Schuster Paperbacks
         type: book
     ---
-    
+
     Benjamin Franklin improved his writing skill by re-writing other author's articles:[@isaacson2004bf p. 28]
 
-    *   Take notes when reading on single scraps of paper. 
+    *   Take notes when reading on single scraps of paper.
         (Like in the reading workflow for a #Zettelkasten)
     *   Shuffle the notes sometimes
     *   When the original content is forgotten, write an essay based on your notes
