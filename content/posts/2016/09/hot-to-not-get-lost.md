@@ -3,12 +3,12 @@ title: How to Not Get Lost in a Book
 created_at: 2016-09-01 17:00:01 +0200
 kind: article
 author: sascha
-tags: [ collect, read, overview ]
+tags: [ collect, reading, overview ]
 image: 201609011659_dog-outdoor.jpg
 vgwort: https://vg02.met.vgwort.de/na/ec41102c59b3451b9af9e70a27968a84
 ---
 
-I am a huge proponent of not having any overview. The reason for that is the self-selective nature of the need for an overview. The need for a reasonable amount of overview can become a fetish which not only is not only unnecessary but even harmful for your productivity and creativity. 
+I am a huge proponent of not having any overview. The reason for that is the self-selective nature of the need for an overview. The need for a reasonable amount of overview can become a fetish which not only is not only unnecessary but even harmful for your productivity and creativity.
 
 If the need of generating overview for your knowledge archive becomes self-selective, it becomes non-functional and is cancerous to your knowledge system we call a Zettelkasten.
 
@@ -18,7 +18,7 @@ The goal of this blog post is to provide a solution for investing just enough ef
 
 ## The Overview: My beastly ex girlfriend
 
-How does this need harm your knowledge work? It forces you to juggle two mental states. If you want an overview of the context of information and knowledge while you explore the potential of the piece of knowledge itself, you have two balls in the air. While juggling two objects is a pretty simple feat in the real world, mental juggling slows you down. It is the classical problem of multi-tasking. 
+How does this need harm your knowledge work? It forces you to juggle two mental states. If you want an overview of the context of information and knowledge while you explore the potential of the piece of knowledge itself, you have two balls in the air. While juggling two objects is a pretty simple feat in the real world, mental juggling slows you down. It is the classical problem of multi-tasking.
 
 I avoid this problem like a beastly ex-girlfriend. I was trapped with a non-functional but pressing need for an overview until I met Christian. With the plain text approach I learned from him I gave up on some features for the benefit of having the freedom of simplicity. Old friends turned enemies are the most ferocious. This happened with techniques to increase overview. I avoided them like a crazy ex-girlfriend who mistakes getting into a fight for having a relationship.
 
@@ -44,9 +44,9 @@ When I process notes, I do one page after another, from start to finish. That me
 
 ### My ex comes back but without her craziness
 
-Then I had difficulties to manage more complicated works. That are mostly works that I go through more often (like the Bible or classics in philosophy) or which are inherently complex text that present a whole theory (e.g. _Evolution in Four Dimensions_ by Jablonka/Lamb). 
+Then I had difficulties to manage more complicated works. That are mostly works that I go through more often (like the Bible or classics in philosophy) or which are inherently complex text that present a whole theory (e.g. _Evolution in Four Dimensions_ by Jablonka/Lamb).
 
-I started to need an overview to become at least a bit effective in my knowledge work. *That is not true for most of the texts I read* because I plow through texts in a pretty relentless manner. I don’t care much if the author would approve with what I take out. I don’t want to understand an author. I want to understand ideas and generate ideas. 
+I started to need an overview to become at least a bit effective in my knowledge work. *That is not true for most of the texts I read* because I plow through texts in a pretty relentless manner. I don’t care much if the author would approve with what I take out. I don’t want to understand an author. I want to understand ideas and generate ideas.
 
 ### Method of book overviews (my ex without craziness) applied
 
@@ -54,13 +54,13 @@ My solution is to generate one Zettel for the book and begin with chapters as su
 
 <%= insert_rel_image file: "overview.png", title: "book overview notes", caption: %{Book overview note with Zettel links and page numbers.} %>
 
-Then I start to go through the book and create Zettels but always make sure that I leave a link to the overview note for that particular book. 
+Then I start to go through the book and create Zettels but always make sure that I leave a link to the overview note for that particular book.
 
 I started to use the wiki link feature of nvALT which didn’t accelerate the creation of notes but was a bit lighter on my mind because I can use a lighter mental model. The wiki link feature of nvALT is a basically a shortcut for a search. If you click on the link nvALT performs a search within the omnibar. But for me it means that I can now directly create a Zettel through the wiki link. I have the book overview as a mental crouch (the lighter model) instead of juggling the structure of the book in my mind.
 
-In spite of not being faster, I felt that I consumed less mental energy. This saving is measurable for me because I train three times a day and the last training session can function as a proxy to gauge how stressful my day was. 
+In spite of not being faster, I felt that I consumed less mental energy. This saving is measurable for me because I train three times a day and the last training session can function as a proxy to gauge how stressful my day was.
 
-What happens after I finish the book? Sometimes, only sometimes, the overview Zettel would stay in my archive (the Holy Bible, Nietzsche, Luhmann, ...).  In most cases, the overview note for the book served me well and becomes superfluous. It made my work more efficient (not: effective) and I will delete it afterwards. It would be just clutter in my archive. 
+What happens after I finish the book? Sometimes, only sometimes, the overview Zettel would stay in my archive (the Holy Bible, Nietzsche, Luhmann, ...).  In most cases, the overview note for the book served me well and becomes superfluous. It made my work more efficient (not: effective) and I will delete it afterwards. It would be just clutter in my archive.
 
 ---
 
