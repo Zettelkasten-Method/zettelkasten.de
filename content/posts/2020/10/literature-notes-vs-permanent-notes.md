@@ -4,6 +4,7 @@ created_at: 2020-10-21 08:03:59 +0100
 kind: article
 author: "@Will"
 tags: [ process, note-taking, literature, reading ]
+image: 202010211514_dough.jpg
 ---
 Here's a highlight from the forum from recent days.
 
@@ -19,6 +20,8 @@ Find [@Will's excellent instructional answer](https://forum.zettelkasten.de/disc
 Please note that Sascha and I (Christian, who's awkwardly introducing the post), do not distinguish between "literature note" and "permanent note" in the context of a Zettelkasten, and we don't want to actively endorse the practice. Our approach is much more simple: There are only notes that are part of the Zettelkasten, and then there are all the other notes. So we think Will's take on the problem is spot-on to bring simplicity and clarity to your thinking when you run into questions like this.
 
 ----
+
+<%= insert_teaser_image caption: "Photo from <a href=\"https://pixabay.com/photos/bakery-bread-baker-apron-baking-1868396/\">Pixabay</a>" %>
 
 ## Will's Reply: What is "Permanent"?
 
