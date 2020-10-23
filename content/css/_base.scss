@@ -406,12 +406,13 @@ blockquote {
   p { margin-bottom: 0; margin-top: 0; }
 }
 
-.post aside {
+.post aside,
+aside.note {
   font-family: $font-sans;
   padding: 0 1em;
 }
 
-.post aside.note {
+aside.note {
   border-radius: 1.4em;
   border: 0.2em solid $color-aside-note;
 }
