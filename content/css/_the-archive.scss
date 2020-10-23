@@ -182,8 +182,7 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
   border-bottom-color: transparent;
 }
 
-/** Phone breakpoint */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: $medium-breakpoint) {
   .the-archive {
     .action__item.action__item--info {
       // Vertically align with button to its left
@@ -235,8 +234,7 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
   }
 }
 
-/** 768px breakpoint */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: $large-breakpoint) {
   .the-archive {
     .hero img { }
     .appname { font-size: 400%; }

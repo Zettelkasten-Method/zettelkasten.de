@@ -19,4 +19,3 @@ Sign up to our newsletter to receive an email notification when the course goes 
 
 - **Price:** The regular course price will be US$129.
 - **Length:** The script for the course contains 40,000+ words. A conservative estimate leads to a length of roughly 4 hours -- this doesn't even include demonstrations, or dramatic pauses.
-

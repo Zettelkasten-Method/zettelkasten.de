@@ -1,7 +1,9 @@
 ---
 title: Zettelkasten Method Coaching
 updated_at: 2020-10-23 14:45:00 +0100
+bodyclass: coaching
 ---
+
 <%
 def box
 <<HTML

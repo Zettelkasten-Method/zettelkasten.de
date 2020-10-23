@@ -100,53 +100,6 @@ $margin-content-wrapper: 3%;
 #footer { font-family: $font-sans; }
 
 /* ==============
-    MOBILE: Menu
-   ============== */
-
-nav { background: $color-background-nav; font-family: $font-sans; }
-
-nav ul { margin: 0; padding: 0; }
-nav ul li { list-style-type: none; }
-
-$color-nav: #D3D3D3;
-nav a {
-    display: block;
-    margin: 10px 0;
-    padding: 0.5em 0;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: $color-nav;
-    border-bottom-color: transparent;
-}
-.nav__icon { padding-right: 0.3em; }
-.nav__icon .iconic-property-fill {
-  stroke: $color-nav;
-  fill: $color-nav;
-}
-.nav__icon .iconic-property-accent,
-.nav__icon .iconic-property-stroke {
-  stroke: $color-nav;
-}
-.nav__icon--products {
-  .iconic-property-fill { fill: darken($color-nav, 15%); }
-  .iconic-property-stroke { stroke: $color-nav; }
-}
-
-nav a:hover {
-    $color: white;
-    color: $color;
-    border-bottom-color: transparent;
-    background: rgba(255,255,255,0.2);
-
-    .nav__icon .iconic-property-fill {
-      fill: $color;
-    }
-}
-
-/* ==============
     MOBILE: Main
    ============== */
 
@@ -219,7 +172,7 @@ code, pre {
 .icon--head {
   max-width: 4em;
   .iconic-property-fill {
-    fill: $color-background-nav;
+    fill: $color-background-nav-main;
   }
 }
 
@@ -473,7 +426,7 @@ hr {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: $medium-breakpoint) {
 
   body {
     font-size: $large-base-size;
@@ -481,26 +434,6 @@ hr {
 
   .tool {
     font-size: $small-size;
-  }
-
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-  nav a {
-/*        float: left;*/
-/*        width: 27.1%;*/
-/*        margin: 0 1.7%;*/
-      padding: 0.5em /*2%*/ 0; // Centered anyway
-      margin-bottom: 0;
-  }
-
-  nav li:first-child a {
-      margin-left: 0;
-  }
-
-  nav li:last-child a {
-      margin-right: 0;
   }
 
   .header__title {
@@ -514,24 +447,16 @@ hr {
 
   .tool-icon { max-width: 100%; }
 
-  nav ul li {
-      display: inline;
-  }
-
   .oldie nav a {
       margin: 0 0.7%;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: $medium-breakpoint) {
   .header__title {
-    font-size: 400%;
+    font-size: 220%;
     margin-top: .4em;
     margin-bottom: .4em;
-  }
-  .the-archive .header__title,
-  .online-course .header__title {
-    font-size: 220%;
   }
 
   .post-figure__image {
@@ -571,7 +496,7 @@ hr {
   h2 { clear: both; }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: $large-breakpoint) {
   .wrapper, .content-wrapper { max-width: 920px; margin: 0 auto; }
 }
 
@@ -594,19 +519,6 @@ hr {
   .main, .footer-main {
     padding-left: 2em;
     padding-right: 2em;
-  }
-
-  .header__title {
-    font-size: 466%;
-  }
-  .the-archive .header__title,
-  .online-course .header__title {
-      font-size: 220%;
-  }
-
-  nav a {
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
   }
 
   .tool ul { padding-left: 0; }

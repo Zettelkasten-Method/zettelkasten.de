@@ -2,6 +2,7 @@
 title: Contact and Legal Information
 layout: plain
 toc: true
+bodyclass: contact
 ---
 
 {{toc}}

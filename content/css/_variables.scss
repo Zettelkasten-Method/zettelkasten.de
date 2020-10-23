@@ -1,11 +1,13 @@
 $color-text: #333;
 $color-light: #aaa;
 $color-link: #4961DD;
+$color-nav: #D3D3D3;
 $color-separator: darken(#feede6, 5%);
 $color-background: #faf7f4;
 $color-background-header: #B5CB30;
 $color-background-footer: #B5CB30;
-$color-background-nav: #144659;
+$color-background-nav-main: #144659;
+$color-background-nav-sub: lighten(#144659, 5%);
 $color-aside-note: $color-background-header;
 
 $font-serif: 'PT Serif', serif;
@@ -18,6 +20,9 @@ $line-height: 1.6;
 $small-size: 0.8em; // 16px
 $large-base-size: 22px / 16px * 1em;
 $largest-preview-size: 26px / 22px * 1em;
+
+$medium-breakpoint: 480px;
+$large-breakpoint: 900px;
 
 /*
 color-font: #222;

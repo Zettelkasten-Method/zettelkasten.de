@@ -1,11 +1,12 @@
 @import "_grid.generator.scss";
+@import "_variables.scss";
 
 // Default settings
 //   (0, 480px, 800px), // breakpoints
-//   'px',              // breakpoint type px or em 
-//   12,                // number of grid columns 
-//   .5em,              // outer padding 
-//   1em,               // inner padding 
+//   'px',              // breakpoint type px or em
+//   12,                // number of grid columns
+//   .5em,              // outer padding
+//   1em,               // inner padding
 //   (s-,m-,l-)         // breakpoint prefixes
 
 
@@ -20,7 +21,7 @@
 
 // Optionally call grid generator, overwritting all the defaults
 @include gridGenerator(
-  (0, 480px, 900px),   // breakpoints
+  (0, $medium-breakpoint, $large-breakpoint),   // breakpoints
   'px',              // breakpoint type 'px' or 'em'
   12,                // number of grid columns
   .5em,               // outer padding
