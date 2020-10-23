@@ -4,9 +4,9 @@
 unless defined? LOADED_DEFAULT_CONFIG
 
   LOADED_DEFAULT_CONFIG = true
-  
+
   Encoding.default_internal = Encoding::UTF_8
-  
+
   # include common helpers
   include Nanoc::Helpers::Blogging
   include Nanoc::Helpers::HTMLEscape
@@ -17,10 +17,10 @@ unless defined? LOADED_DEFAULT_CONFIG
   # cache busting
   #require 'nanoc/cachebuster'
   #include Nanoc::Helpers::CacheBusting
-  
+
   # image compression
   require 'nanoc/filters/image_compressor'
-  
+
   # javascript concatenation
   require 'nanoc/filters/javascript_concatenator'
 
@@ -44,10 +44,10 @@ unless defined? LOADED_DEFAULT_CONFIG
     value = @item[key] || @config[:meta_data][key]
     '<meta name="%s" content="%s">' % [key, value] if value
   end
-  
+
   def extract_identifiers(route)
     regex = /(?<parent>.*\/)(?<ident>[@\w\d\.\-_\s]+\/)$/
-  
+
     return route[regex, :ident], route[regex, :parent]
   end
 end

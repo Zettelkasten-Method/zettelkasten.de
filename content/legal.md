@@ -15,12 +15,12 @@ If you have any questions about the Zettelkasten Method, please <a href="https:/
     <p>Please note that Christian and Sascha are not available for public software reviews in accordance with their <a href="/our-software-review-policy/">software review principle</a>.</p>
 </aside>
 
-Find Christian at <a href="http://christiantietze.de" title="Christian Tietze">his website</a>. 
+Find Christian at <a href="http://christiantietze.de" title="Christian Tietze">his website</a>.
 You can contact Christian on
-<a href="https://twitter.com/ctietze">Twitter</a>.  
-You could also simply <a href="mailto:&#x68;&#x69;&#x40;&#x63;&#x68;&#x72;&#x69;&#x73;&#x74;&#x69;&#x61;&#x6E;&#x74;&#x69;&#x65;&#x74;&#x7A;&#x65;&#x2E;&#x64;&#x65;">drop an e-mail</a>.
+<a href="https://twitter.com/ctietze">Twitter</a>.
+You could also simply <%=email("hi@christiantietze.de", text: "drop an e-mail")%>.
 
-The only way to contact Sascha is <a href="mailto:&#x73;&#x61;&#x73;&#x63;&#x68;&#x61;&#x2E;&#x66;&#x61;&#x73;&#x74;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;&#x63;&#x6F;&#x6D;">via email</a> or via his <a href="http://saschafast.de" lang="de">homepage</a>. He does not use social media.
+The only way to contact Sascha is <%=email("saschafast@gmail.com", text: "via email")%> or via his <a href="http://saschafast.de" lang="de">homepage</a>. He does not use social media.
 
 We love to be hearing from you!
 
@@ -37,7 +37,7 @@ Responsible for the contents of this website, according to 55 Abs. 2 RStV:
   <span class="postal-code">D-33605</span> <span class="locality">Bielefeld</span></span><br/>
   <span class="mobile">+49 177 6467763</span>
 </p>
-    
+
 Our web pages and their contents are subject to German copyrigth law. Except where otherwise noted, content on this site is licensed <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>.
 
 
