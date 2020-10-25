@@ -16,16 +16,6 @@ task :clean do
   Dir["#{SITE}/*"].each { |f| rm_rf(f) }
 end
 
-task :preview => [:thumb] do
-  puts "Generating website..."
-  ENV['NANOC_ENV'] = 'development'
-
-  result = system "nanoc co"
-  notify "Generating site finished"
-
-  result
-end
-
 desc "generate website in output directory"
 task :generate do
   ENV['NANOC_ENV'] = 'deployment'
@@ -37,8 +27,19 @@ end
 task :deploy => [:generate, :thumb] do
   ENV['NANOC_ENV'] = 'deployment'
   puts "Deploying website to server..."
-  system "nanoc deploy"
+  system "rm output/.htaccess" # Remove potentially modified HTACCESS from staging step
+  system "nanoc deploy production"
   notify("Deploying site finished")
+end
+
+task :staging => [:thumb] do
+  puts "Generating website for staging..."
+  ENV['NANOC_ENV'] = 'staging'
+  system "rm output/.htaccess" # Remove HTACCESS to regernate it during staging
+  system "nanoc co"
+  notify "Generating stating site finished"
+
+  system "nanoc deploy staging"
 end
 
 def to_thumb(file, output, width)

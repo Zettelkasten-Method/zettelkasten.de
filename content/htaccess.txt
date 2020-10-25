@@ -25,3 +25,11 @@ RewriteCond %{HTTPS} off
 # Don't put www. here. If it is already there it will be included.
 RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 <% end %>
+
+<% if ENV['NANOC_ENV'].downcase == 'staging' %>
+# Require HTTP authentication in staging
+require valid-user
+Authname "Privater Bereich, bitte Anmelden."
+Authtype Basic
+AuthUserFile <%= env(key:"htpasswd_path") %>
+<% end %>

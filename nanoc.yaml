@@ -12,10 +12,14 @@ enable_output_diff: false
 base_url: https://www.zettelkasten.de
 
 deploy:
-  default:
+  production:
     kind: rsync
     options: [ '-aP', '-e ssh', '--delete-after' ]
     dst: "edv38-christiantietze@zettelkasten.de:/home/pacs/edv38/users/christiantietze/doms/zettelkasten.de/htdocs-ssl"
+  staging:
+    kind: rsync
+    options: [ '-aP', '-e ssh', '--delete-after' ]
+    dst: "edv38-christiantietze@zettelkasten.de:/home/pacs/edv38/users/christiantietze/doms/zettelkasten.de/subs/staging"
 
 meta_data:
   title: Zettelkasten Method
