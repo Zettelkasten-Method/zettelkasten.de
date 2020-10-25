@@ -57,7 +57,7 @@ Entropy increases over time one way or the other, you know, so I  expect the wor
 
 ### Phase 2: Form clusters and create overviews
 
-<%= insert_rel_image file: "3_cluster%20notes.JPG", title: "Cluster notes", caption: "Note clusters by topic" %>
+<%= insert_rel_image file: "3_cluster_notes.jpg", title: "Cluster notes", caption: "Note clusters by topic" %>
 
 It has proven useful to not just dive in and convert note by note from paper to text file but prepare some kind of plan instead.  Ask yourself:  **What was your reading intent and how can you capture it best?**
 
