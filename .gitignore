@@ -5,3 +5,4 @@
 output
 tmp
 deploy.sh
+.env.*
