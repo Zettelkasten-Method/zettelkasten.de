@@ -60,12 +60,14 @@ module NanocSite
       content.gsub(/\{\{(TOC|toc)\}\}/) do
         toc = NokogiriTOC.run(content)
 
-        res = '<details class="toc" open="open">'
-        res << '<summary>Table of Contents</summary>'
-        res << toc
-        res << '</details>'
-
-        res
+        "".tap do |html|
+          html << '<div id="toc-wrapper">'
+          html << '<details class="toc" open="open">'
+          html << '<summary>Table of Contents</summary>'
+          html << toc
+          html << '</details>'
+          html << '</div>'
+        end
       end
     end
   end
