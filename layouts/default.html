@@ -5,71 +5,71 @@
 <!--[if IE 9 ]>    <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js ie ie9 lte9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title><%= @item[:title] + " &bull; " if @item[:title] %><%= @config[:meta_data][:title] %></title>
-    <%= meta_tag :description %>
-    <%= meta_tag :copyright %>
-    <%= meta_tag :author %>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title><%= @item[:title] + " &bull; " if @item[:title] %><%= @config[:meta_data][:title] %></title>
+  <%= meta_tag :description %>
+  <%= meta_tag :copyright %>
+  <%= meta_tag :author %>
 
-    <meta name="revisit-after" content="1 day">
-    <meta name="language" content="en">
+  <meta name="revisit-after" content="1 day">
+  <meta name="language" content="en">
 
-    <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width">
 
-    <% if @item[:kind] == 'article' %>
-    <meta name="og:title" content="<%= @item[:title] %>">
-    <meta name="og:type" content="article">
-    <meta name="og:article:published_time" content="<%= @item[:created_at]%>">
-    <meta name="og:url" content="<%= @config[:base_url] + @item.path %>">
-    <%= Post::teaser_open_graph_for(@item, @config) %>
-    <meta name="og:site_name" content="<%= @config[:meta_data][:title] %>">
-    <% end %>
+  <% if @item[:kind] == 'article' %>
+  <meta name="og:title" content="<%= @item[:title] %>">
+  <meta name="og:type" content="article">
+  <meta name="og:article:published_time" content="<%= @item[:created_at]%>">
+  <meta name="og:url" content="<%= @config[:base_url] + @item.path %>">
+  <%= Post::teaser_open_graph_for(@item, @config) %>
+  <meta name="og:site_name" content="<%= @config[:meta_data][:title] %>">
+  <% end %>
 
-    <link rel="stylesheet" href="/css/grid.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/littlefoot.css"/>
-    <link rel="stylesheet" href="/css/iconic-glyphs.css"/>
-    <link rel="stylesheet" href="/css/thearchive-glyphs.css"/>
+  <link rel="stylesheet" href="/css/grid.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/littlefoot.css"/>
+  <link rel="stylesheet" href="/css/iconic-glyphs.css"/>
+  <link rel="stylesheet" href="/css/thearchive-glyphs.css"/>
 
-    <link rel="alternate" title="Zettelkasten Blog Atom feed" type="application/atom+xml" href="/feed.atom" />
+  <link rel="alternate" title="Zettelkasten Blog Atom feed" type="application/atom+xml" href="/feed.atom" />
 
-    <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
-    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <link href="/favicon.ico" rel="shortcut icon">
-    <link type="text/plain" href="/humans.txt" />
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link href="/favicon.ico" rel="shortcut icon">
+  <link type="text/plain" href="/humans.txt" />
 
-    <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body class="<%= @layout_variant %> <%= @item[:bodyclass] if !@item[:bodyclass].nil? %>">
-    <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
+  <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
 
-    <header class="">
-        <div class="header-container clearfix">
-            <h1 class="header__title"><a class="header__link" href="/">Zettelkasten</a></h1>
-        </div>
-        <%= render '/_navigation.*' %>
-    </header>
-
-    <div class="main-container">
-        <div class="wrapper content-wrapper">
-            <div class="main clearfix">
-                <%= yield %>
-            </div> <!-- #main -->
-        </div>
-    </div> <!-- #main-container -->
-
-    <div class="footer-container clearfix">
-      <%= render '/_footer.*' %>
+  <header class="">
+    <div class="header-container clearfix">
+      <h1 class="header__title"><a class="header__link" href="/">Zettelkasten</a></h1>
     </div>
+    <%= render '/_navigation.*' %>
+  </header>
 
-    <script src="/js/vendor/iconic.min.js"></script>
-    <script src="/js/vendor/littlefoot-3.4.0.js"></script>
-    <script src="/js/main.js"></script>
+  <div class="main-container">
+    <div class="wrapper content-wrapper">
+      <div class="main clearfix">
+        <%= yield %>
+      </div> <!-- #main -->
+    </div>
+  </div> <!-- #main-container -->
+
+  <div class="footer-container clearfix">
+    <%= render '/_footer.*' %>
+  </div>
+
+  <script src="/js/vendor/iconic.min.js"></script>
+  <script src="/js/vendor/littlefoot-3.4.0.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
