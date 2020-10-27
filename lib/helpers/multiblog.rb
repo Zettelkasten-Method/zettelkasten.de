@@ -216,7 +216,7 @@ module My
         }.join(' ')
       end
     end
-    
+
     def latest_post(kind = "article")
       posts(kind)[-1]
     end
@@ -376,7 +376,7 @@ module My
                    border: border)
     end
 
-    def insert_image_group(urls: [], caption: "", border: true)
+     def insert_image_group(urls: [], caption: "", border: true)
       raise "urls must not be empty" if urls.empty?
 
       border_class = (border == true) ? "" : "post-figure--borderless"
@@ -399,6 +399,10 @@ module My
     end
 
     def insert_rel_image(file: nil, title: "", caption: "", link: nil, relative: nil, border: true)
+      insert_relative_image(file: file, title: title, caption: caption, link: link, relative: relative, border: border)
+    end
+
+    def insert_relative_image(file: nil, title: "", caption: "", link: nil, relative: nil, border: true)
       insert_image(file: rel_url_for(file), title: title, caption: caption, link: link, relative: relative, border: border)
     end
 

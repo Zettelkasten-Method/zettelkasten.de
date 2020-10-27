@@ -1,0 +1,35 @@
+digraph {
+  rankdir=LR;
+  ratio="compress";//ranksep="1.0 equally";
+  splines=true;
+  node [shape=box];
+  "Zettelkasten" -> "Workflow";
+  "Workflow" -> "Zettelkasten als\nVereinheitlicher\n[[201706130807]]";
+
+  "Zettelkasten" -> "Lesen\n[[201704011211]]";
+
+  "Lesen\n[[201704011211]]" -> "Barbell Methode des Lesens\n[[201709041358]]";
+  "Lesen\n[[201704011211]]" -> "Zwei Mal lesen zum\nvollständigen Verstehen\n[[201711160839]]";
+  "Lesen\n[[201704011211]]" -> "Notizen anfertigen\n[[201709091143]]";
+
+  "Zettelkasten" -> "Arbeiten im Archiv";
+  "Arbeiten im Archiv" -> "Verzetteln im Zettelkasten\n[[201704021059]]";
+  "Arbeiten im Archiv" -> "Verknüpfen im Zettelkasten\n[[201702210934]]";
+  "Arbeiten im Archiv" -> "Instandhaltung der\nZettelkastenstruktur\n[[201704021057]]";
+  "Arbeiten im Archiv" -> "Ideen im Archiv entwickeln\n[[201702190828]]";
+  "Arbeiten im Archiv" -> "Lernen mit dem Archiv\n[[201710151631]]";
+
+  "Zettelkasten" -> "Texte schreiben mit dem Zettelkasten";
+  "Texte schreiben mit dem Zettelkasten" -> "Texte mit dem\nZettelkasten schreiben\n[[201704021107]]"
+  "Texte schreiben mit dem Zettelkasten" -> "Wie entstehen Texte im Zettelkasten\n[[202002190736]]"
+  "Texte schreiben mit dem Zettelkasten" -> "Zettelkasten light\n[[270920110954]]"
+  "Texte schreiben mit dem Zettelkasten" -> "Projekt-Zettelkasten\n[[202002221026]]"
+
+  "Zettelkasten" -> "Anwender";
+  "Anwender" -> "Für Studenten\n[[201704021029]]";
+  "Anwender" -> "Für Blogger" -> "Zettel als Social Media\nPosts überwachen\n[[202001250654]]";
+  "Anwender" -> "Für Nichtschrift-Künstler";
+  "Anwender" -> "Für Romanautoren\n[[201704021045]]";
+  "Anwender" -> "Für Sachbuchautoren";
+  "Anwender" -> "Für Wissenschaftler\n[[201709060937]]";
+}
