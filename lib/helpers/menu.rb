@@ -11,10 +11,10 @@ module Menu
   }
   MAIN_MENU = [
     { title: "Blog",            link: "/",                icon: "folder" },
-    { title: "Getting Started", link: "/posts/overview/", icon: "folder" },
+    { title: "Getting Started", link: "/posts/overview/", icon: "compass" },
     { title: "Coaching",        link: "/coaching/",       icon: "easel" },
     { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
-    { title: "Online Course",   link: "/course/",         icon: "easel" },
+    { title: "Online Course",   link: "/course/",         icon: "monitor" },
     { title: "Forum",           link: FORUM_URL,          icon: "people" },
   ]
 
@@ -70,15 +70,30 @@ module Menu
         classes << "menu-item--has-submenu" if !submenu.nil?
       end.join(" ")
 
-      icon_html = %Q{<img class="iconic iconic-sm nav__icon" data-src="/img/#{icon}.svg" width="16">} if !icon.nil?
-      icon_html ||= ""
+      icon_html = if !icon.nil?
+                    if icon.include?(".")
+                      icon_image(icon)
+                    else
+                      iconic(icon)
+                    end
+                  else
+                    ""
+                  end
 
       return "".tap do |output|
         output << %Q{<li class="#{classes}">}
-        output << renderer.link_to_unless_root_of_hierarchy(%Q{#{icon_html} #{title}}, self)
+        output << renderer.link_to_unless_root_of_hierarchy(%Q{#{icon_html}#{title}}, self)
         output << rendered_submenu(renderer: renderer)
         output << %Q{</li>}
       end
+    end
+
+    def icon_image(file)
+      %Q{<img class="iconic iconic-sm nav__icon" src="/img/#{file}" width="16">}
+    end
+
+    def iconic(name)
+      %Q{<span aria-hidden="true" class="iconic" data-glyph="#{icon}"></span> } # Trailing space here
     end
 
     def submenu
