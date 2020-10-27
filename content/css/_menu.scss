@@ -1,0 +1,129 @@
+nav { font-family: $font-sans; }
+
+.main-navigation {
+  background: $color-background-nav-main;
+  position: relative;
+}
+.sub-navigation {
+  background: $color-background-nav-sub;
+  position: static;
+  z-index: 200;
+  left: 0;
+  width: 100%;
+}
+
+nav ul:after {
+  clear: both;
+}
+nav ul:before,
+nav ul:after {
+  content: " ";
+  display: table;
+}
+
+nav ul { margin: 0; padding: 0; }
+nav ul li { list-style-type: none; }
+
+.menu-item { display: inline-block; }
+.menu-item--has-submenu {}
+
+// Hide submenus by default; only display for when sibling is the "active" indicator
+.sub-navigation { display: none; }
+.menu-item--has-submenu > .active + .sub-navigation { display: block; }
+
+.menu-item--has-submenu > .active {
+  background: $color-background-nav-sub;
+}
+
+nav a,
+nav .active {
+  display: block;
+  margin: 0;
+  padding: 0.5em 0;
+  text-align: center;
+  border-style: solid;
+  border-width: 0 6px 0 6px; // Display active border as surrounding mobile
+  border-color: transparent;
+}
+nav .active {
+  font-weight: bold;
+  color: darken($color-nav, 5%);
+}
+
+nav .main-navigation .active,
+nav .sub-navigation .active {
+  border-color: #B5CB30;
+}
+// Don't highlight a main menu item itself when a sub navigation is available
+nav .main-navigation .menu-item--has-submenu > .active {
+  border-color: transparent;
+}
+
+
+nav a {
+  color: $color-nav;
+  font-weight: normal;
+  text-decoration: none;
+}
+.nav__icon { padding-right: 0.3em; }
+.nav__icon .iconic-property-fill {
+  stroke: $color-nav;
+  fill: $color-nav;
+}
+.nav__icon .iconic-property-accent,
+.nav__icon .iconic-property-stroke {
+  stroke: $color-nav;
+}
+.nav__icon--products {
+  .iconic-property-fill { fill: darken($color-nav, 15%); }
+  .iconic-property-stroke { stroke: $color-nav; }
+}
+
+nav a:hover {
+  $color: white;
+  color: $color;
+  border-bottom-color: transparent;
+  background: rgba(255,255,255,0.2);
+
+  .nav__icon .iconic-property-fill {
+    fill: $color;
+  }
+}
+
+@media only screen and (min-width: $medium-breakpoint) {
+  nav a,
+  nav .active {
+    padding: 0.5em 0;
+    margin-bottom: 0;
+    border-width: 4px; // 4 sided outline
+  }
+
+  nav li:first-child a {
+    margin-left: 0;
+  }
+
+  nav li:last-child a {
+    margin-right: 0;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: $large-breakpoint) {
+  nav a,
+  nav .active {
+    padding-bottom: 0.3em;
+    border-width: 0 0 8px 0; // Display active border on bottom on larger screens
+  }
+
+  nav.has-submenu {
+    margin-bottom: 3em; // TODO approximate height of menu bar
+  }
+
+  .sub-navigation {
+    // Show 2nd tier nav in a row below main items
+    position: absolute;
+  }
+}

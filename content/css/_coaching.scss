@@ -1,0 +1,45 @@
+aside.coaching__tldr {
+  font-family: $font-sans;
+  padding: 0 1em;
+  border-radius: 1.4em;
+  border: 0.2em solid $color-aside-note;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.coaching__action-container {
+  text-align: center;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 2em;
+}
+.coaching__action {
+  display: block;
+  margin-top: 0em;
+  padding: 1em 2em;
+  display: block;
+  box-sizing: border-box;
+  border-bottom-width: 0 !important;
+  border-radius: 2px;
+
+  text-align: center;
+  vertical-align: middle;
+
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background: #5B6FDC;
+  @include background-image(linear-gradient(to bottom, #6875EF 0%, #5D66CE 100%));
+
+  &:hover {
+    color: white;
+    background: darken(#5B6FDC, 5%);
+    @include background-image(linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%));
+  }
+
+  @media only screen and (min-width: $large-breakpoint) {
+    display: inline-block;
+  }
+}

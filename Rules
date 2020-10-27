@@ -74,6 +74,10 @@ end
 
 ignore '/**/_*' # don't compile and route partials (used for SASS, JS)
 
+compile '/css/fonts/*' do
+  write item.identifier
+end
+
 compile '/css/**/*' do
   filter :erb          # Use erb to enable timestamps and author information and such.
   filter :sass, Compass.sass_engine_options

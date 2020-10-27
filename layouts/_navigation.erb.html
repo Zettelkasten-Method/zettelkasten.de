@@ -1,10 +1,5 @@
-<nav id="navigation" class="clearfix grid-whole">
-  <ul>
-    <li><a href="/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/home.svg" width="16"> Home</a></li>
-    <li><a href="/posts/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/folder.svg" width="16"> Blog</a></li>
-    <li><a href="/the-archive/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/thearchive.svg" width="16"> Software</a></li>
-    <li><a href="/course/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/course.svg" width="16"> Online Course</a></li>
-    <li><a href="https://forum.zettelkasten.de/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/people.svg" width="16"> Forum</a></li>
-    <li><a href="/legal/" class="l-grid-2 m-grid-6 s-grid-12"><img class="iconic iconic-sm nav__icon" data-src="/img/chat.svg" width="16"> Contact</a></li>
+<nav id="navigation" class="clearfix grid-whole <%= "has-submenu" if item_has_submenu? %>">
+  <ul class="grid-whole main-navigation">
+    <%= render_menu_items %>
   </ul>
 </nav>
