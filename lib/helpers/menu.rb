@@ -82,7 +82,7 @@ module Menu
 
       return "".tap do |output|
         output << %Q{<li class="#{classes}">}
-        output << renderer.link_to_unless_root_of_hierarchy(%Q{#{icon_html}#{title}}, self)
+        output << renderer.link_to_unless_current(%Q{#{icon_html}#{title}}, link)
         output << rendered_submenu(renderer: renderer)
         output << %Q{</li>}
       end
