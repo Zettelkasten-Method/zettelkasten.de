@@ -1,11 +1,13 @@
 ---
 title: Getting Started Series
 created_at: 2015-07-29 12:11:59 +0200
+updated_at: 2020-10-27 21:51:00 +0100
 kind: article
 author: christian
 tags: [ getting-started, announcement ]
 preview: fulltext
 ---
+**Update 2020-10-27:** If you're new to the whole Zettelkasten thing, check out our [Introduction to the Zettelkasten Method](/introduction)!
 
 With today's post on [how many Zettelkästen you should have](/posts/how-many-zettelkasten/), I have started to collect posts specifically made to get started with the method.
 
@@ -16,10 +18,11 @@ So far we have:
 * [How many Zettelkästen should I have?](/posts/how-many-zettelkasten/) The answer is, most likely, only one for the duration of your life. But there are exceptions to this rule.
 * [Don't use categories.](/posts/no-categories/) Use tags instead.
 * "What should my first note be?" -- [it doesn't matter.](/posts/your-first-note/) Just get started.
-* [Set links between notes.](/posts/search-alone-is-not-enough/) Search alone is not enough.
+* [Set links between notes.](/posts/search-alone-is-not-enough) Full-text search on its own provides not enough information. Connections will do, especially in the long run.
 * ["When should I start a new note?"](/posts/when-start-new-note/)
+    * Also read ["Trust the process"](/posts/trust-the-process-nickmilo22/), an essay.
 * You have to [interpret your sources](/posts/dont-rely-on-source-have-faith-in-yourself/) and then rely on your own thoughts henceforth to get the maximum benefit. Collecting information does not increase your knowledge.
 * [Use outlines](/posts/how-i-use-outlines-to-write-any-text/) to start with the first draft of your writing project.
-* Then [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents in. 
+* Then [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents in.
 
 Please tell us [in the comments](/posts/getting-started/#comments) what you always wanted to know, where you struggle, or what you think a beginner should know.

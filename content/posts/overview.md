@@ -1,26 +1,25 @@
 ---
 title: Overview
-updated_at: 2020-03-19 11:07:00 +0100
+updated_at: 2020-10-27 21:43:00 +0100
 toc: true
 ---
-
 {{toc}}
 
-**********
+## The Introduction to the Zettelkasten Method
 
-So you're here for a starting point.
+Are you new to the Method?
 
-Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge. The products are texts, mostly. The categories we find fit the process well at the moment are the following:
+[Read the Introduction to the Zettelkasten Method](/introduction) and learn what makes the Zettelkasten work as a system, how to create notes, how to connect notes to make a web of knowledge, and how to create structures so you stay in control of the growing knowledge web.
 
-* _Knowledge Management_:  general information about what it means to work and learn efficiently.
-* _Writing_:  posts on the production of lasting knowledge, and about sharing it with others through your own texts.
-* _Reading_:  posts about the process of acquisition of new things and the organization of sources.
+Using a Zettelkasten is about optimizing your workflow of learning and producing knowledge. The products are texts, mostly. The categories we find fit the process well at the moment are the following:
 
-We started to feature application reviews to see how well they fit the Zettelkasten workflow. You most likely want to pick an app that adapts well to your work, so our [tools page](/tools/), the [list of blog posts tagged "review"](/posts/tags/review), and our [software forum](https://forum.zettelkasten.de/categories/tools) are all good starting points. There's a lot of other software on the web you could experiment with, so don't feel limited to our selection!
+* [_Knowledge Management_](#knowledge-management):  general information about what it means to work and learn efficiently.
+* [_Writing_](#writing):  posts on the production of lasting knowledge, and about sharing it with others through your own texts.
+* [_Reading_](#reading):  posts about the process of acquisition of new things and the organization of sources.
 
-If you want to know more about us and how we roll, take a look at [the "personal" tag](/posts/tags/personal/). 
+## Common Questions
 
-## Getting Started
+<%# <!--ct: keep in sync with content/posts/2015/07/getting-started.txt --> %>
 
 * [How many Zettelkästen should I have?](/posts/how-many-zettelkasten/) The answer is, most likely, only one for the duration of your life. But there are exceptions to this rule.
 * [Don't use categories.](/posts/no-categories/) Use tags instead.
@@ -30,18 +29,16 @@ If you want to know more about us and how we roll, take a look at [the "personal
     * Also read ["Trust the process"](/posts/trust-the-process-nickmilo22/), an essay.
 * You have to [interpret your sources](/posts/dont-rely-on-source-have-faith-in-yourself/) and then rely on your own thoughts henceforth to get the maximum benefit. Collecting information does not increase your knowledge.
 * [Use outlines](/posts/how-i-use-outlines-to-write-any-text/) to start with the first draft of your writing project.
-* Then [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents in. 
-
-<%# <!--ct: keep in sync with content/posts/2015/07/getting-started.txt --> %>
+* Then [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents in.
 
 ## Principles
 
-> Principles are higher than techniques. Principles produce techniques in an instant.  
+> Principles are higher than techniques. Principles produce techniques in an instant.<br>
 > ---Ido Portal
 
 * [Principle of Atomicity](/posts/create-zettel-from-reading-notes/): put things that belong together into a single note, [give it an ID](/posts/add-identity/), but limit its content to that single topic.
 * Our post about the [Principle of Connectivity](/posts/luhmann-folgezettel-truth/) highlights how different techniques can implement the same underlying principle: links vs note sequences.
-    - There's [an expanded explanation of this argument](/posts/understanding-hierarchy-translating-folgezettel/) from 5 years after the initial post about this principle. 
+    - There's [an expanded explanation of this argument](/posts/understanding-hierarchy-translating-folgezettel/) from 5 years after the initial post about this principle.
     - See the related discussion about [Different Kinds of Ties Between Notes](/posts/kinds-of-ties/).
 
 ## Knowledge Management
@@ -82,7 +79,7 @@ When your archive grows, you'll add [Structural Layers in your Zettelkasten](/po
 
 ["Trust the process"](/posts/trust-the-process-nickmilo22/) (an essay) hits the nerve: thinking and memory retention are improved by working through problems.
 
-* [A Zettelkasten improves your thinking and writing](/posts/zettelkasten-improves-thinking-writing/) because it surprises us when we search for something. 
+* [A Zettelkasten improves your thinking and writing](/posts/zettelkasten-improves-thinking-writing/) because it surprises us when we search for something.
 * [A Zettelkasten extends your mind and memory](/posts/extend-your-mind-and-memory-with-a-zettelkasten/) because its structure mimics the way your brain works.
 * [Learn faster](/posts/learn-faster-by-writing-zettel-notes/): get coverage with good reading techniques, get practice by writing Zettel notes, and gain insights by connecting notes to your web of knowledge.
 * You have to [interpret your sources](/posts/dont-rely-on-source-have-faith-in-yourself/) and then rely on your own thoughts henceforth to get the maximum benefit.
@@ -117,3 +114,8 @@ When your archive grows, you'll add [Structural Layers in your Zettelkasten](/po
 
 If you want to know more about the history of the Zettelkasten Method, check out the [ongoing research on Luhmann's Zettelkasten by Johannes Schmidt](https://uni-bielefeld.de/soz/luhmann-archiv/publikationen.html) at Bielefeld University. Johannes is the _Guardian of the Godfather's Zettelkasten_, and his work is genuinely interesting for knowledge work nerds.
 
+We also cover the relevant bit of history in [our introduction](/introduction) to explain how the Zettelkasten Method works.
+
+## Tools
+
+**Interested in software?** We started to feature application reviews to see how well they fit the Zettelkasten workflow. You most likely want to pick an app that adapts well to your work, so our [tools page](/tools/), the [list of blog posts tagged "review"](/posts/tags/review), and our [software forum](https://forum.zettelkasten.de/categories/tools) are all good starting points. There's a lot of other software on the web you could experiment with, so don't feel limited to our selection!
