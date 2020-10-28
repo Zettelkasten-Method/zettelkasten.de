@@ -19,6 +19,8 @@ end
 desc "generate website in output directory"
 task :generate do
   ENV['NANOC_ENV'] = 'deployment'
+  puts "Removing .htaccess to trigger re-render"
+  system "rm output/.htaccess" # Remove potentially modified HTACCESS from staging step
   puts "Generating website..."
   system "nanoc co"
   notify("Generating site finished")
@@ -27,7 +29,6 @@ end
 task :deploy => [:generate, :thumb] do
   ENV['NANOC_ENV'] = 'deployment'
   puts "Deploying website to server..."
-  system "rm output/.htaccess" # Remove potentially modified HTACCESS from staging step
   system "nanoc deploy production"
   notify("Deploying site finished")
 end
