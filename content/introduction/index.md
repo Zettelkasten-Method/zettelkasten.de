@@ -98,7 +98,7 @@ The fixed address of each note is the alpha and omega of the world of Zettelkast
 
 If you want to replicate the functionality of Luhmann's Zettelkasten, you would have to create a hypertext and limit your entry into it via the most central pages on a topic, from which you would continue by following links.
 
-## A Zettelkasten is a personal tool for thinking and writing
+## A Zettelkasten Is a Personal Tool for Thinking and Writing
 
 In contrast to other approaches, Luhmann decided against making his Zettelkasten stiff and opted for an organic approach instead. There's a reason [his own manual][luhmann-zk] is titled "*Communicating* with Slip Boxes", and not something like "A slip box as a writing and thinking tool". Our point of reference is that The Zettelkasten Method is an organic and non-linear, even living, approach on note-taking.
 
