@@ -12,7 +12,7 @@ def box
   <ul>
     <li>Learn from a decade of experience and dedication</li>
     <li>Live 1-on-1 Skype coaching</li>
-    <li>80 EUR per hour</li>
+    <li>80 EUR (US$90) per hour</li>
   </ul>
   <div class="coaching__action-container">
     #{email("saschafast@gmail.com", text: "Send Me an E-Mail", classes: "coaching__action")}
