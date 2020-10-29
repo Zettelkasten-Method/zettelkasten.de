@@ -43,3 +43,21 @@ aside.coaching__tldr {
     display: inline-block;
   }
 }
+
+img.coaching__about-me {
+  display: block;
+  max-width: 100%;
+  @media only screen and (min-width: $medium-breakpoint) {
+    float: right;
+    max-width: 50%;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  @media only screen and (min-width: $large-breakpoint) {
+    float: right;
+    width: 33%;
+    margin-left: 1em;
+    margin-bottom: 0.1em;
+  }
+}
