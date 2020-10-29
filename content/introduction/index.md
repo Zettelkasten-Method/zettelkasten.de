@@ -13,7 +13,7 @@ Why are you reading this introduction? The chances are that you either have an i
 
 The Zettelkasten Method is an amplifier of your endeavors in the realm of knowledge work. It *is* highly effective, and many people report they have more fun, one even comparing it to the addictive nature of games like World of Warcraft, and have an easier time doing knowledge work overall. But this only comes as a result of putting in a high level of consistent effort.
 
-It is like swimming. If you can't swim, you won't be having any fun at all. Swimming sucks if all you do is float (or even sink) and fight the water. But boy, if you figure out the technique and glide through the water, it is incredible. But you don't learn swimming by aiming for ease and fun. You learn to swim by aiming to be fast and gracious.
+It is like swimming. If you can't swim, you won't be having any fun at all. Swimming sucks if all you do is float (or even sink) and fight the water. But boy, if you figure out the technique and glide through the water, it is incredible. But you don't learn swimming by aiming for ease and fun. You learn to swim by aiming to be fast and graceful.
 
 The Zettelkasten Method needs some practice. First, you will have the feeling that you don't do anything useful. But with a little bit of practice and patience, you will surprise yourself and produce gems of knowledge.
 
