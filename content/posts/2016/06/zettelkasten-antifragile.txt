@@ -12,7 +12,7 @@ In my opinion, Nassim Taleb's most important idea is the concept of Antifragilit
 
 **Fragile** means that something doesn't like volatility and variability. In short: It doesn't like to be touched. If you send something fragile via mail you write *fragile* on it so to say: Do as little as possible with it.
 
-According to Taleb, many people think the opposite of fragile is **robust**. But your behavior with non-fragile mail contradicts that: You don't write “Abuse it as much as you can.” which would be the the opposite. Instead, you write nothing on it because you don't care. *Robust* is something that doesn't care.  
+According to Taleb, many people think the opposite of fragile is **robust**. But your behavior with non-fragile mail contradicts that: You don't write “Abuse it as much as you can.” which would be the opposite. Instead, you write nothing on it because you don't care. *Robust* is something that doesn't care.  
 
 **Antifragile** is something that likes volatility and variability. It gains from disorder -- always to a certain degree. You are antifragile. If you train you harm your body a little bit. You challenge it and it reacts with adaptation. As a result, you get strength and endurance. 
 
