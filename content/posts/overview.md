@@ -118,4 +118,6 @@ We also cover the relevant bit of history in [our introduction](/introduction) t
 
 ## Tools
 
-**Interested in software?** We started to feature application reviews to see how well they fit the Zettelkasten workflow. You most likely want to pick an app that adapts well to your work, so our [tools page](/tools/), the [list of blog posts tagged "review"](/posts/tags/review), and our [software forum](https://forum.zettelkasten.de/categories/tools) are all good starting points. There's a lot of other software on the web you could experiment with, so don't feel limited to our selection!
+Since 2018, we offer our own app, [The Archive for macOS](/the-archive), to manage your Zettelkasten. Since then, we stopped reviewing commercial tools because of a clash of interests. We honestly think The Archive is great, and that you should check it out.
+
+Since we don't review paid apps anymore [in accordance with our software review principle](/our-software-review-policy/), if you are interested in apps for other platforms and other tools, check out our [forum about software and gadgets](https://forum.zettelkasten.de/categories/tools) for tips from the community.
