@@ -70,7 +70,7 @@ He referred to his Zettelkasten as a “spiderweb like system” or, in other wo
 
 Luhmann had hubs in his archive. There are some Zettel that just contained an extensive list of links to the core Zettels. That reminds me heavily of my overview Zettel. 
 
-Johannes Schmidt emphasized the the difficulty of finding a Zettel. Hubs are like highways between topics for the physical Zettelkasten. My hubs serve a different purpose. 
+Johannes Schmidt emphasized the difficulty of finding a Zettel. Hubs are like highways between topics for the physical Zettelkasten. My hubs serve a different purpose. 
 
 I don’t need to search Zettels in a inconvenient *physical* Zettelkasten. In a digital Zettelkasten, it is quite easy but I can play around with some of the meta-structure of some topics in my Zettelkasten. I develop ideas, theories on my overview Zettel. Sometimes, like in the book I write after finishing my next one, titled “Modernity as disease”, I develop a theory in a Zettel which serves as [an outline and manuscript at the same time][4]. I always state that the method should bend around your thinking and not the other way around. I just can think and write - the Zettelkasten Method does the rest. This is the freedom of the digital version.
 

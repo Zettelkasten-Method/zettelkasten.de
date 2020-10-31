@@ -69,7 +69,7 @@ It contains two entities:
 - The content
 
 
-The meta data includes information on the Zettel itself. The content includes information about something else. Thus, another dual nature is hidden in the the inner structure of a Zettel. A Zettel includes not only information on something but also information on itself.
+The meta data includes information on the Zettel itself. The content includes information about something else. Thus, another dual nature is hidden in the inner structure of a Zettel. A Zettel includes not only information on something but also information on itself.
 
 Is it possible to have a Zettel without any meta data? The answer is: No. The Zettel must contain some form of unique identifier either in the content of the file or in its name. Even if you only decide to have a unique title you still have a title which is an identifier. This is meta data. 
 
