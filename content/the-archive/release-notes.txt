@@ -9,6 +9,15 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.5.8 Beta (2020-10-30)
+
+- **Fixed:** In some cases, Cmd-Click would search first, then open the tab. Now it opens a new tab first.
+- **Fixed:** Resizing the window doesn't shrink the editor anymore so much that it can be hidden.
+- **Changed:** Add app guide info for the navigation buttons and status bar, and explain shortcuts a bit more.
+- **New:** Adds "Jump to Previous Link" (<kbd>Ctrl-Shift-Tab</kbd>).
+- **New:** Adds "Open Link in New Tab" (<kbd>Cmd-Ctrl-L</kbd>).
+- **New:** Support Marked 2's "Streaming Preview" with relative paths to links and images.
+
 ## v1.5.7 Beta (2020-10-21)
 
 - **Fixed:** Icon selection for Saved Searches on macOS 10.11 El Capitan didn't display the built-in icons.
