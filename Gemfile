@@ -4,6 +4,7 @@ gem 'nanoc', '~> 4'
 gem 'nanoc-image-compressor', '>= 0.1.1'
 gem 'nanoc-javascript-concatenator', '~> 0.0.2'
 
+gem 'dotenv', '~> 2'
 gem 'sass', '~> 3'
 gem 'compass', '~> 1'
 

@@ -1,12 +1,9 @@
 module Environment
-  def yaml
-    require 'yaml'
-    environment = ENV['NANOC_ENV'] || 'development'
-    path = File.join(File.expand_path(File.dirname(__FILE__)), "..", "..", ".env.#{environment}.yml")
-    YAML::load_file(path)
-  end
-
-  def env(key:)
-    yaml[key]
+  def self.included(base)
+    require "dotenv"
+    environment = (ENV['NANOC_ENV'] || 'development').downcase
+    path = File.join(File.expand_path(File.dirname(__FILE__)), "..", "..", ".env.#{environment}")
+    puts path
+    Dotenv.load(path)
   end
 end

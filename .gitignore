@@ -5,4 +5,4 @@
 output
 tmp
 deploy.sh
-.env.*
+.env.staging

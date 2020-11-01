@@ -10,6 +10,11 @@ def notify(msg)
   system %Q{terminal-notifier -group 'Nanoc' -title "Nanoc" -message "#{msg}"}
 end
 
+def touch_files
+  puts "Touching .htaccess to trigger re-render"
+  system "rm output/.htaccess" # Remove HTACCESS to regernate it during staging
+end
+
 desc "remove files in output directory"
 task :clean do
   puts "Removing output..."
@@ -19,8 +24,7 @@ end
 desc "generate website in output directory"
 task :generate do
   ENV['NANOC_ENV'] = 'deployment'
-  puts "Removing .htaccess to trigger re-render"
-  system "rm output/.htaccess" # Remove potentially modified HTACCESS from staging step
+  touch_files_to_force_compile
   puts "Generating website..."
   system "nanoc co"
   notify("Generating site finished")
@@ -36,10 +40,9 @@ end
 task :staging => [:thumb] do
   puts "Generating website for staging..."
   ENV['NANOC_ENV'] = 'staging'
-  system "rm output/.htaccess" # Remove HTACCESS to regernate it during staging
+  touch_files_to_force_compile
   system "nanoc co"
   notify "Generating stating site finished"
-
   system "nanoc deploy staging"
 end
 

@@ -68,5 +68,5 @@ RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 require valid-user
 Authname "Privater Bereich, bitte Anmelden."
 Authtype Basic
-AuthUserFile <%= env(key:"htpasswd_path") %>
+AuthUserFile <%= ENV["HTPASSWD_PATH"] %>
 <% end %>
