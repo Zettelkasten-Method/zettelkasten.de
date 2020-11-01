@@ -14,8 +14,9 @@ layout: the-archive
 - **Fixed:** In some cases, Cmd-Click would search first, then open the tab. Now it opens a new tab first.
 - **Fixed:** Resizing the window doesn't shrink the editor anymore so much that it can be hidden.
 - **Changed:** Add app guide info for the navigation buttons and status bar, and explain shortcuts a bit more.
-- **New:** Adds "Jump to Previous Link" (<kbd>Ctrl-Shift-Tab</kbd>).
-- **New:** Adds "Open Link in New Tab" (<kbd>Cmd-Ctrl-L</kbd>).
+- **Changed:** The new link-related shortcuts are now <kbd>Cmd-Ctrl-J</kbd> to jump, and <kbd>Cmd-Ctrl-Return</kbd> to open.
+- **New:** Adds "Jump to Previous Link" (<kbd>Cmd-Ctrl-Opt-J</kbd>).
+- **New:** Adds "Open Link in New Tab" (<kbd>Cmd-Ctrl-Opt-Return</kbd>).
 - **New:** Support Marked 2's "Streaming Preview" with relative paths to links and images.
 
 ## v1.5.7 Beta (2020-10-21)
