@@ -19,11 +19,31 @@ RewriteRule ^posts/..../../(.*)$ /posts/$1 [R=301,L]
 RewriteRule ^posts/2014/09/introducing-sascha/(.*)$ /posts/introducing-sascha/$1 [R=301,L]
 RewriteRule ^products/(.*)$ /tools/ [R=301,L]
 
+<% if @config[:is_deploying] %>
 # Disable HTTPS redirects in local preview
-<% unless ENV['NANOC_ENV'] == 'development' %>
 RewriteCond %{HTTPS} off
 # Don't put www. here. If it is already there it will be included.
 RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+<% end %>
+
+<% if @config[:env] == 'production' %>
+# Cache files of assets/attachments for 20 days
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|svg)$">
+  Header set Cache-Control "max-age=<%= 24*60*60*20 %>, public"
+</FilesMatch>
+
+# Cache files of CSS/JS for 1 hour
+<FilesMatch "\.(css|js)$">
+  Header set Cache-Control "max-age=<%= 60*60 %>, public"
+</FilesMatch>
+<% end %>
+
+<% if @config[:env] == 'staging' %>
+# Require HTTP authentication in staging
+require valid-user
+Authname "Privater Bereich, bitte Anmelden."
+Authtype Basic
+AuthUserFile <%= @config[:htpasswd_path] %>
 <% end %>
 
 # GZIP compression for text files: HTML, CSS, JS, Text, XML, fonts
@@ -50,23 +70,3 @@ RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
   AddOutputFilterByType DEFLATE text/plain
   AddOutputFilterByType DEFLATE text/xml
 </IfModule>
-
-<% if !['staging', 'development'].include?(ENV['NANOC_ENV'].downcase) %>
-# Cache files of assets/attachments for 20 days
-<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|svg)$">
-  Header set Cache-Control "max-age=<%= 24*60*60*20 %>, public"
-</FilesMatch>
-
-# Cache files of CSS/JS for 1 hour
-<FilesMatch "\.(css|js)$">
-  Header set Cache-Control "max-age=<%= 60*60 %>, public"
-</FilesMatch>
-<% end %>
-
-<% if ENV['NANOC_ENV'].downcase == 'staging' %>
-# Require HTTP authentication in staging
-require valid-user
-Authname "Privater Bereich, bitte Anmelden."
-Authtype Basic
-AuthUserFile <%= ENV["HTPASSWD_PATH"] %>
-<% end %>

@@ -10,11 +10,6 @@ def notify(msg)
   system %Q{terminal-notifier -group 'Nanoc' -title "Nanoc" -message "#{msg}"}
 end
 
-def touch_files
-  puts "Touching .htaccess to trigger re-render"
-  system "rm output/.htaccess" # Remove HTACCESS to regernate it during staging
-end
-
 desc "remove files in output directory"
 task :clean do
   puts "Removing output..."
@@ -23,15 +18,12 @@ end
 
 desc "generate website in output directory"
 task :generate do
-  ENV['NANOC_ENV'] = 'deployment'
-  touch_files_to_force_compile
   puts "Generating website..."
-  system "nanoc co"
+  system "nanoc co --env=production"
   notify("Generating site finished")
 end
 
 task :deploy => [:generate, :thumb] do
-  ENV['NANOC_ENV'] = 'deployment'
   puts "Deploying website to server..."
   system "nanoc deploy production"
   notify("Deploying site finished")
@@ -39,9 +31,7 @@ end
 
 task :staging => [:thumb] do
   puts "Generating website for staging..."
-  ENV['NANOC_ENV'] = 'staging'
-  touch_files_to_force_compile
-  system "nanoc co"
+  system "nanoc co --env=staging"
   notify "Generating stating site finished"
   system "nanoc deploy staging"
 end
@@ -58,7 +48,6 @@ end
 
 desc "Create thumbnails of blog post images"
 task :thumb do
-
   puts "Creating missing thumbnails ..."
 
   dest = File.join(__dir__, "output", "img", "blog")
