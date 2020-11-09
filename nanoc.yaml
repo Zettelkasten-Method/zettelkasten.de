@@ -8,6 +8,8 @@ index_filenames: [ 'index.html' ]
 # before and after the last site compilation.
 enable_output_diff: false
 
+the_archive_checksum: "7b7becbe9bdbe975026367bc4b368580fa6daac4988991ca72948838e116108d"
+
 # For XML Sitemap
 base_url: https://www.zettelkasten.de
 

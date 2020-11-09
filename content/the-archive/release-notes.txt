@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2020-06-06 16:28:00 +0100
+updated_at: 2020-11-09 09:57:00 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,14 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## v1.5.9 (2020-11-09)
+
+The "release" version bundles the following changes and those from v1.5.8 and v1.5.7, which were only available as a "cutting edge" release:
+
+- **Fixed:** Removes the document icon from the title bar that was introduced when exposing the current note's URL to AppleScript.
+- **Changed:** Following a link via keyboard shortcut takes links right before and right after your insertion point into account, so you can type a link, and with the cursor right after it, still open it.
+- **Changed:** A default value of the status bar visibility wasn't set on first launch; now the default is "true" for initial discovery. If you ever manually hid the status bar, your setting will be respected.
 
 ## v1.5.8 Beta (2020-10-30)
 
