@@ -10,7 +10,7 @@ description: "Lists of backlinks, manually made or automatically generated, don'
 ---
 **Disclaimer:** I talked with Christian about what backlinks are. I don't mean it as a technical concept like software and web developers would use the term. To me, a backlink is a link that allows you to go to files that refer to the very note you are looking at. Practically, it does not matter how the backlink is generated, by hand or presented to you by your software. Automatic backlinks are not only automatic when there is software that is showing them for you. If you create a backlink apparatus by habit it is still automatic. The automatization software would then be in your head.
 
-----
+<%= insert_teaser_image caption: %{Picture from <a href="https://pixabay.com/de/photos/portsoy-schottland-hafen-historisch-1244575/">Pixabay</a>} %>
 
 <!-- Introduction/Context -->
 
