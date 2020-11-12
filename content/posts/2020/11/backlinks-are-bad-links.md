@@ -6,6 +6,7 @@ author: sascha
 tags: [ backlink, hyperlink, links, connect, knowledge ]
 image: 202011122132_broken-link.jpg
 vgwort: https://vg01.met.vgwort.de/na/5a020e41a3864f41afda2aff988c5c2e
+description: "Lists of backlinks, manually made or automatically generated, don't reveal the context. That's terrible for a growing archive."
 ---
 **Disclaimer:** I talked with Christian about what backlinks are. I don't mean it as a technical concept like software and web developers would use the term. To me, a backlink is a link that allows you to go to files that refer to the very note you are looking at. Practically, it does not matter how the backlink is generated, by hand or presented to you by your software. Automatic backlinks are not only automatic when there is software that is showing them for you. If you create a backlink apparatus by habit it is still automatic. The automatization software would then be in your head.
 
