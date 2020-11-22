@@ -79,7 +79,7 @@ Programming: Christian Tietze
 
 ### System Requirements
 
-- Requires macOS 10.11 or Later; ready for Catalina
+- Requires macOS 10.11 or Later; ready for Big Sur
 - Requires 40--50 MB of disk space
 
 ### Development Background Info
