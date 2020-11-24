@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-updated_at: 2020-10-27 21:43:00 +0100
+updated_at: 2020-11-24 16:21:00 +0100
 toc: true
 ---
 {{toc}}
@@ -103,6 +103,7 @@ When your archive grows, you'll add [Structural Layers in your Zettelkasten](/po
 
 * [Create a bibliography](/posts/bibliography-zettelkasten/) as part of your toolkit. It's a permanent companion and keeps track of your sources of information.
 * The [Barbell Method of Reading](/posts/barbell-method-reading/) explains how to get most out of any text. Read thoroughly and invest more time (risky investment) when necessary, stick to quickly skimming (low risk) for the rest.
+* [Reading for the Zettelkasten is searching](https://zettelkasten.de/posts/reading-is-searching/): next time you tackle a long text, try to look for very specific kinds of information that lend themselves to being extracted.
 * Reading on paper
     * [Make proper reading marks](/posts/making-proper-marks-in-books/) instead of leaving annotations in the margin.
     * You should [take reading notes instead](/posts/reading-putting-it-all-together/). Get the stuff _out_ of the book. (This is closely related to the [Collector's Fallacy](/posts/collectors-fallacy/).)
