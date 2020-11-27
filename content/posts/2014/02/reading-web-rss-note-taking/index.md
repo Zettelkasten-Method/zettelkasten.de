@@ -44,7 +44,7 @@ In a nutshell, to deal with information on the web is similar to [taking notes f
 2.  Reading on the web should be like reading books:  after you found what's useful, take note of it.  Taking note ensures you [expand your knowledge][extend].  Everything else is either wasted time or reading for fun.
 3.  Process the notes you took, integrate them into your knowledge system.  This is the biggest lever of change.
 
-That's it.  Now come the parts to apply the process to:
+That's it!  Now come the parts to apply the process to:
 
 *   **Stuff** is made up of posts and links from Twitter and Facebook, it's made up of news in our RSS feed readers, and it contains the pages we stumble upon when we do casual web browsing.
 *   The **Inbox** is the place to hold the items we either _want to_ or _need to_ pay attention to.  A lot of stuff will never reach our inbox;  we can shut off the noise outside.  Of course, there's inboxes other people have access to, like e-mail or postal inboxes, but we deliberately invite web pages into our lives ourselves.  In this case, we have full control over what comes in and what is kept out.  Web pages we want to keeps will make up the reading list.
