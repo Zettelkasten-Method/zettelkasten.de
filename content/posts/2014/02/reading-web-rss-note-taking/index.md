@@ -22,7 +22,7 @@ Meanwhile, the internet confronts us with so much information that we have to fi
 
 [^whatrss]:  If you haven't heard of RSS before, check out Brent Simmons'  [explanation of RSS in plain english.][rss]  If you're not familiar with the technology, you should give it a try.  Seriously.  Go and subscribe to some feeds in the free [NetNewsWire][nnw], for example, to get a feeling for it.
 
-    
+
 ## Flow of Information
 
 <%= insert_rel_image file: "201312041147_inbox_flowchart.png", title: "Inbox Flowchart", caption: "The path we focus on."%>
@@ -79,7 +79,7 @@ Here's my suggestion to dealing with a stream of input like RSS feeds or Twitter
 
 In the following three sections, I'll go into detail.
 
-[filerss]: http://www.rocketink.net/2013/12/rss-filing.html
+[filerss]: https://rocketink.net/2013/12/rss-filing.html
 
 ### Skim RSS feeds only
 
