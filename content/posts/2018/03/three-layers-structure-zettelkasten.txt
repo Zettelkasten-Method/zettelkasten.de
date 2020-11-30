@@ -9,7 +9,7 @@ image_source: "https://pixabay.com/de/engel-eiche-charleston-wandkunst-2018822/"
 vgwort: https://vg09.met.vgwort.de/na/f7cd218a8da343609589001804d772c6
 ---
 
-A Zettelkasten is neither a neatly structured filing system for notes easy to access nor a turmoil deep sea generating ideas out of the ununderstandable chaos. There are three layers in my archive which emerged from the years of working with the Zettelkasten Method. I didn't plan them in advance. It rather was a organic process.
+A Zettelkasten is neither a neatly structured filing system for notes easy to access nor a turmoil deep sea generating ideas out of the ununderstandable chaos. There are three layers in my archive which emerged from the years of working with the Zettelkasten Method. I didn't plan them in advance. It rather was an organic process.
 
 <%= insert_teaser_image title: "oak tree" %>
 

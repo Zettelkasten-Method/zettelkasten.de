@@ -308,7 +308,7 @@ To recap: To create Zettels about the relationship between other Zettels, is cal
 ### Choosing Software
 
 If you choose software to handle your Zettelkasten, there are some
-features the software should have. Below is a essential checklist for
+features the software should have. Below is an essential checklist for
 features you should look for:
 
 1. The software needs to make hypertext possible. There are two ways to accomplish this. You either use whatever linking feature the software offers -- this is often more convenient for less tech-savvy people --, or you stick to the imitation of direct links through full-text search. The search-based approach is more robust over time and across apps, but perhaps a bit more awkward to get used to. [See our demonstration how TextMate would handle links](https://www.youtube.com/watch?v=d-x8MpM4yDE). Keep in mind that I didn't modify TextMate in any way to accommodate the handling of a Zettelkasten.

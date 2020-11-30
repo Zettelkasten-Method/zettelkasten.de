@@ -12,7 +12,7 @@ Fiddling with the details of IDs, and discussions about *Folgezettel*[^folgezett
 
 But sometimes, one thing gets left behind: How to implement knowledge work into your life. This is how I do it.
 
-  [^folgezettel]: Folgezettel are not a integral part of the Zettelkasten Method. Not even for Luhmanns Zettelkasten. He had to use it to cope with the physicality of his Zettelkasten. See "[No, Luhmann was not about Folgezettel](http://zettelkasten.de/posts/luhmann-folgezettel-truth/)"
+  [^folgezettel]: Folgezettel are not an integral part of the Zettelkasten Method. Not even for Luhmanns Zettelkasten. He had to use it to cope with the physicality of his Zettelkasten. See "[No, Luhmann was not about Folgezettel](http://zettelkasten.de/posts/luhmann-folgezettel-truth/)"
 
 ## Designated *Deep Work* Days
 
