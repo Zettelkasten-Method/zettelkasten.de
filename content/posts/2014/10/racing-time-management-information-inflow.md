@@ -67,7 +67,7 @@ I saved *a lot* of time since I changed my mindset. I rarely spend more than 25m
 
 Why do we feel the obligation to be thorough with our information inflows? 
 
-I believe that this is some form of hunter-gatherer greed, applied to knowledge workers. Being greedy for information is definitely inappropriate in our time of information overload. I am a typical victim of the mismatch of our ancestral heritage and our modern time. Even worse, I consider myself a information binge eater.
+I believe that this is some form of hunter-gatherer greed, applied to knowledge workers. Being greedy for information is definitely inappropriate in our time of information overload. I am a typical victim of the mismatch of our ancestral heritage and our modern time. Even worse, I consider myself an information binge eater.
 
 To race gives you the opportunity to free yourself from this greed and focus on what really matters: Your time. 
 

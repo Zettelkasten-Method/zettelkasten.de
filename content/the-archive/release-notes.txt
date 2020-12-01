@@ -774,7 +774,7 @@ Focus on list and block editing:
 
 ## v0.3.3 (2017-07-28)
 
-* **New:** Live Markdown syntax highlighting. It's a awfully hungry for energy at the moment, especially for larger files, so you can disable it from the main menu if needed.
+* **New:** Live Markdown syntax highlighting. It's an awfully hungry for energy at the moment, especially for larger files, so you can disable it from the main menu if needed.
 
 That's about all I've been working on, shockingly.
 

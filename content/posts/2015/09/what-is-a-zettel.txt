@@ -43,7 +43,7 @@ The second trait is a small abstract if the Zettel contains more than 2 paragrap
 
 These two traits are all what you need to get an idea what is inside a Zettel very fast. 
 
-**Take home message:** Have a super easy to digest title and a abstract right at first in the content of your Zettel.
+**Take home message:** Have a super easy to digest title and an abstract right at first in the content of your Zettel.
 
 ## Searching for something specific
 

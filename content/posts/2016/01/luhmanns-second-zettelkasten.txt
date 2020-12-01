@@ -58,7 +58,7 @@ A fresh start is what he needed and his first Zettel defines the new course:
 
 A new bonsai, a very beautiful and mighty one, will grow from this little stem. It will lean on his mother sometimes (it refers to the old Zettelkasten to some extent) but will be an entity on its own. 
 
-My hypothesis: One of the best ways to describe Luhmann’s Zettelkasten is that it’s a organically grown system that can be read as a theory of theories. Why else would you need an introduction?
+My hypothesis: One of the best ways to describe Luhmann’s Zettelkasten is that it’s an organically grown system that can be read as a theory of theories. Why else would you need an introduction?
 
 Luhmann stated that he had big problems during the writing process of his books. It was hard to put the chapters in order. He theoretically would have had to include all the other chapters in every single chapter to complete the reasoning. The books are highly self-referential. That is because they are little offsprings of the Zettelkasten and follow the same rules of hypertext. The books are groomed and cultivated to please the reader (be understandable) but they still inherit the basic predispositions of his Zettelkasten.
 
@@ -104,7 +104,7 @@ I recall that Luhmann stated that an ecosystem is not a system in Luhmann's sens
 
 It would be a fun irony of fate if my pursuit to create a Zettelkasten and develop a toolbox for everyone to create his own Zettelkasten would have led me to a non-Zettelkasten Zettelkasten.
 
-I am excited to solve this next riddle of my Zettelkasten. Of course, I will keep you updated with my thoughts on the difference of an ecosystem vs. a autopoietic system.
+I am excited to solve this next riddle of my Zettelkasten. Of course, I will keep you updated with my thoughts on the difference of an ecosystem vs. an autopoietic system.
 
 [^1]:	My translation of Niklas Luhmann (1997):  Die Gesellschaft der Gesellschaft, Frankfurt/M: Suhrkamp. S.11: "Bei meiner Aufnahme in die 1969 gegründete Fakultät für Soziologie der Universität Bielefeld fand ich mich konfrontiert mit der Aufforderung, Forschungsprojekte zu benennen, an denen ich arbeite. Mein Projekt lautete: Theorie der Gesellschaft; Laufzeit: 30 Jahre; Kosten: keine."
 
