@@ -1,11 +1,11 @@
 ---
 title: Online Video Course
-updated_at: 2020-06-09 19:50:00 +0100
+updated_at: 2020-12-08 16:14:00 +0100
 bodyclass: online-course
 description: "Announcing the Zettelkasten Method Online Video Course for 2020!"
 ---
 
-We will release a video course later this year.
+We are going to release a video course!
 
 - Learn the mechanics of interacting with a Zettelkasten.
 - Explore different implementations with different kinds of software and even a paper-based version.
