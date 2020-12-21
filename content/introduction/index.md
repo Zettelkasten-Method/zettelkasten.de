@@ -108,7 +108,7 @@ Let us begin with the most important traits of a Zettelkasten:
 2. It adheres to the *Principle of Atomicity*.
 3. It is personal.
 
-**First,** it is some kind of hypertext, not a single text or just a collection of texts, but texts that refer to each other, explain, expand and use each other's information. The difference between regular note-taking systems and a Zettelkasten is the emphasis on forming relationships. *A Zettelkasten makes connecting and not collecting a priority*. The difference between just a text and hypertext is that the former is *linear* and the later is *organic*.
+**First,** it is some kind of hypertext, not a single text or just a collection of texts, but texts that refer to each other, explain, expand and use each other's information. The difference between regular note-taking systems and a Zettelkasten is the emphasis on forming relationships. *A Zettelkasten makes connecting and not collecting a priority*. The difference between just a text and hypertext is that the former is *linear* and the latter is *organic*.
 
 To become a hypertext, a Zettelkasten requires multiple texts, or notes, that you can connect via hyperlinks. We call an individual note a *Zettel*. Zettel is the German word for "paper slip". They are the smallest building blocks of the Zettelkasten.
 
