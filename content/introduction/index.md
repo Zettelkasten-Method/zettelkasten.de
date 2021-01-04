@@ -10,6 +10,13 @@ layout: blog
 comments: off
 vgwort: "https://vg01.met.vgwort.de/na/916b3e9b3ecb4187a7c8412f5dd973cb"
 ---
+
+* * * * * *
+
+<small><a href="/introduction">English Original</a> &bull; <a href="/introduction/zh">Chinese Translation</a></small>
+
+* * * * * *
+
 Why are you reading this introduction? The chances are that you either have an immediate need to solve the riddle of knowledge work, feel overwhelmed by your master's thesis, try to level up your blog, want to write a book because it's cool, try to get on top as a consultant, excel at research, or something like that. But the Zettelkasten Method is more than just a tool to finish some work or project. It is a holistic method on how to deal with knowledge in your life.
 
 The Zettelkasten Method is an amplifier of your endeavors in the realm of knowledge work. It *is* highly effective, and many people report they have more fun, one even comparing it to the addictive nature of games like World of Warcraft, and have an easier time doing knowledge work overall. But this only comes as a result of putting in a high level of consistent effort.
@@ -274,8 +281,7 @@ The main benefit of hierarchical structures is the increased potential for knowl
   urls: [
     rel_url_for("2020-07-30-struktur.png"),
     rel_url_for("2020-07-30-struktur_graph.png")
-  ], caption: "A Structure Zettel with fancy table-of-contents markup, and a graph view of the same connections and hierarchy.
-") %>
+  ], caption: "A Structure Zettel with fancy table-of-contents markup, and a graph view of the same connections and hierarchy.") %>
 
 A Structure Note is a Meta-Note: it is a Zettel about other Zettels and their relationships. [Luhmann's hub notes](https://zettelkasten.de/posts/zettelkasten-hubs/) served as fast tracks to navigate through the web of notes. The same is true for Structure Note. For example, I have a Structure Note about The Zettelkasten Method. It is similar to a table of contents specifically made of all my Zettel on the topic. Whenever I write a new Zettel on the Zettelkasten Method, I make sure that I place a link to it on this Structure Note, or on a Structure Note that is itself referred to by the main Structure Note on the Zettelkasten Method.
 

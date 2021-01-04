@@ -17,7 +17,7 @@
             <%= Post::tom_pixel_for(@item) %>
         </header>
 
-        <% if item[:toc] %>
+        <% if item[:toc] && item[:toc] != 'manual' %>
         {{TOC}}
         <% end %>
 
