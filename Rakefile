@@ -23,12 +23,14 @@ task :generate do
   notify("Generating site finished")
 end
 
+desc "Deploy to production/live website"
 task :deploy => [:generate, :thumb] do
   puts "Deploying website to server..."
   system "nanoc deploy production"
   notify("Deploying site finished")
 end
 
+desc "Deploy to staging/preview site"
 task :staging => [:thumb] do
   puts "Generating website for staging..."
   system "nanoc co --env=staging"
