@@ -122,3 +122,22 @@ We also cover the relevant bit of history in [our introduction](/introduction) t
 Since 2018, we offer our own app, [The Archive for macOS](/the-archive), to manage your Zettelkasten. Since then, we stopped reviewing commercial tools because of a clash of interests. We honestly think The Archive is great, and that you should check it out.
 
 Since we don't review paid apps anymore [in accordance with our software review principle](/our-software-review-policy/), if you are interested in apps for other platforms and other tools, check out our [forum about software and gadgets](https://forum.zettelkasten.de/categories/tools) for tips from the community.
+
+### The Archive
+
+Get to know the app better:
+
+- [How to Use Tabs](/posts/how-to-use-tabs-in-the-archive/), a short demo video.
+- [How to Capture Images](/posts/the-archive-image-capturing-video/)
+- [How to Use Wiki Links for Saved Searches in The Archive](/posts/wiki-links-as-searches/), a "hack" of sorts to use links to restore your searches.
+
+Extending The Archive's functionality with scripts and other apps:
+
+- In the forums, we have a [Collection of Keyboard Maestro/Alfred Macros](https://forum.zettelkasten.de/discussion/213/the-archive-keyboard-maestro-alfred-macros) where most if not all macros from the forums are aggregated.
+- There's a cohesive [Alfred Macro collection](/posts/alfred-macros-the-archive/) with complete workflows.
+- Interoperability with the Markdown preview app, Marked 2, supports [streaming note previews (YouTube)](https://www.youtube.com/watch?v=DVPi4WG5rQc)
+
+Use cases and demos for inspiration:
+
+- [Using The Archive to Teach Music](https://zettelkasten.de/posts/zettelkasten-music-teacher/)
+- [Creating Structure Notes (YouTube)](https://www.youtube.com/watch?v=QOhme6QEECg)
