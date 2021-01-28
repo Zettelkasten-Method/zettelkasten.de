@@ -148,6 +148,12 @@ module My
         return ""
       end
 
+      def translator_tag_for(item)
+        return "" if item[:translators].nil?
+
+        "&bull; Translated by " + item[:translators].map { |t| %Q{<a rel="translator" href="#{t[:website]}">#{t[:name]}</a>} }.join(", ")
+      end
+
       def teaser_path_for(item)
         if not item[:rel_image].nil?
           rel_url_for(item[:rel_image], item)

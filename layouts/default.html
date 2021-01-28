@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js ie ie6 lte7 lte8 lte9"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js ie ie7 lte7 lte8 lte9"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js ie ie8 lte8 lte9"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js ie ie9 lte9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="<%= @item[:lang] || @config[:meta_data][:lang] %>" class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7 ]> <html lang="<%= item_lang %>" class="ie ie6 lte7 lte8 lte9"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="<%= item_lang %>" class="ie ie7 lte7 lte8 lte9"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="<%= item_lang %>" class="ie ie8 lte8 lte9"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="<%= item_lang %>" class="ie ie9 lte9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="<%= item_lang %>"> <!--<![endif]-->
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,7 +13,9 @@
   <%= meta_tag :author %>
 
   <meta name="revisit-after" content="1 day">
-  <meta name="language" content="en">
+  <meta name="language" content="<%= item_lang %>">
+  <%= render_language_links %>
+  <%= %Q{<link rel="alternate" href="#{@item[:alternate]}">} if item[:alternate] %>
 
   <meta name="viewport" content="width=device-width">
 
