@@ -12,6 +12,7 @@
                 <li class="time"><time datetime="<%= @item[:created_at] %>"><%= Post::time_tag_for(@item) %></time></li>
                 <li class="author"><%= Post::author_tag_for(@item) %></li>
                 <li class="contact"><%= Post::contact_tag_for(@item) %></li>
+                <li class="translation"><%= Post::translator_tag_for(@item) %>
             </ul>
 
             <%= Post::tom_pixel_for(@item) %>

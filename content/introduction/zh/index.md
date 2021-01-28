@@ -1,7 +1,11 @@
 ---
 title: "卢曼卡片盒笔记法介绍 (Introduction to the Zettelkasten Method)"
 created_at: 2021-01-26 08:32:31 +0100
-author: Sascha
+author: sascha
+translators:
+- name: Zhixiang Cai
+  website: https://www.zhihu.com/people/cai-zhi-xiang
+  url: https://zhuanlan.zhihu.com/p/336706087/
 tags: [ introduction, beginning ]
 description: "(Chinese Translation) Learn how the Zettelkasten works as a system, what a Zettel is made of, and how to grow an organic web of knowledge."
 toc: manual
@@ -10,9 +14,9 @@ comments: off
 lang: zh
 ---
 
-This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/), created and generously provided to us by [Zhixiang Cai](https://zhuanlan.zhihu.com/p/336706087/) who holds a Ph.D in Oil and Gas Well Engineering, is a programmer, and loves knowledge management.
+This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/), created and generously provided to us by [Zhixiang Cai](https://www.zhihu.com/people/cai-zhi-xiang) who holds a Ph.D in Oil and Gas Well Engineering, is a programmer, and loves knowledge management.
 
-<small><a href="/introduction">English Original</a> &bull; <a href="/introduction/zh">Chinese Translation</a></small>
+<small><a href="/introduction" lang="en">English Original</a> &bull; <a href="/introduction/zh" lang="zh">Chinese Translation</a></small>
 
 * * * * * *
 
