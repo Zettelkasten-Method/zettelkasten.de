@@ -1,6 +1,7 @@
 ---
 title: Introduction to the Zettelkasten Method
 created_at: 2020-10-27 21:54:00 +0100
+updated_at: 2021-01-28 18:14:00 +0100
 author: sascha
 kind: article
 tags: [ introduction, beginning ]
@@ -9,6 +10,10 @@ toc: manual
 layout: blog
 comments: off
 vgwort: "https://vg01.met.vgwort.de/na/916b3e9b3ecb4187a7c8412f5dd973cb"
+lang: en
+languages:
+    en: "/introduction"
+    zh: "/introduction/zh"
 ---
 
 <small>

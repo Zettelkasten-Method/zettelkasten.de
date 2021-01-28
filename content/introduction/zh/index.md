@@ -5,13 +5,16 @@ author: sascha
 translators:
 - name: Zhixiang Cai
   website: https://www.zhihu.com/people/cai-zhi-xiang
-  url: https://zhuanlan.zhihu.com/p/336706087/
 tags: [ introduction, beginning ]
 description: "(Chinese Translation) Learn how the Zettelkasten works as a system, what a Zettel is made of, and how to grow an organic web of knowledge."
 toc: manual
 layout: blog
 comments: off
 lang: zh
+languages:
+    en: "/introduction"
+    zh: "/introduction/zh"
+alternate: "https://zhuanlan.zhihu.com/p/336706087/"
 ---
 
 This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/), created and generously provided to us by [Zhixiang Cai](https://www.zhihu.com/people/cai-zhi-xiang) who holds a Ph.D in Oil and Gas Well Engineering, is a programmer, and loves knowledge management.

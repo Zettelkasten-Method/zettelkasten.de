@@ -15,6 +15,7 @@
   <meta name="revisit-after" content="1 day">
   <meta name="language" content="<%= item_lang %>">
   <%= render_language_links %>
+  <%= %Q{<link rel="alternate" href="#{@item[:alternate]}">} if item[:alternate] %>
 
   <meta name="viewport" content="width=device-width">
 
