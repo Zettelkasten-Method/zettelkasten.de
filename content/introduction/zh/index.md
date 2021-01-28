@@ -16,7 +16,10 @@ lang: zh
 
 This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/), created and generously provided to us by [Zhixiang Cai](https://www.zhihu.com/people/cai-zhi-xiang) who holds a Ph.D in Oil and Gas Well Engineering, is a programmer, and loves knowledge management.
 
-<small><a href="/introduction" lang="en">English Original</a> &bull; <a href="/introduction/zh" lang="zh">Chinese Translation</a></small>
+<small>
+  <%=link_to_unless_current("English Original", "/introduction/", lang:"en")%> &bull;
+  <%=link_to_unless_current("Chinese Translation", "/introduction/zh/", lang:"zh")%>
+</small>
 
 * * * * * *
 

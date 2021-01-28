@@ -5,17 +5,20 @@ author: sascha
 kind: article
 tags: [ introduction, beginning ]
 description: "Learn how the Zettelkasten works as a system, what a Zettel is made of, and how to grow an organic web of knowledge."
-toc: true
+toc: manual
 layout: blog
 comments: off
 vgwort: "https://vg01.met.vgwort.de/na/916b3e9b3ecb4187a7c8412f5dd973cb"
 ---
 
+<small>
+  <%=link_to_unless_current("English Original", "/introduction/", lang:"en")%> &bull;
+  <%=link_to_unless_current("Chinese Translation", "/introduction/zh/", lang:"zh")%>
+</small>
+
 * * * * * *
 
-<small><a href="/introduction">English Original</a> &bull; <a href="/introduction/zh">Chinese Translation</a></small>
-
-* * * * * *
+{{TOC}}
 
 Why are you reading this introduction? The chances are that you either have an immediate need to solve the riddle of knowledge work, feel overwhelmed by your master's thesis, try to level up your blog, want to write a book because it's cool, try to get on top as a consultant, excel at research, or something like that. But the Zettelkasten Method is more than just a tool to finish some work or project. It is a holistic method on how to deal with knowledge in your life.
 
