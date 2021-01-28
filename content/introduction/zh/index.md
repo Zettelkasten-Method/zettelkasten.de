@@ -1,6 +1,6 @@
 ---
 title: "卢曼卡片盒笔记法介绍 (Introduction to the Zettelkasten Method)"
-created_at: 2021-01-26 08:32:31 +0100
+created_at: 2021-01-28 18:52:31 +0100
 author: sascha
 translators:
 - name: Zhixiang Cai
