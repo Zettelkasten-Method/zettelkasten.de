@@ -151,7 +151,7 @@ module My
       def translator_tag_for(item)
         return "" if item[:translators].nil?
 
-        "&bull; Translated by " + item[:translators].map { |t| %Q{<a rel="translator" href="#{t[:web]}">#{t[:name]}</a>} }.join(", ")
+        "&bull; Translated by " + item[:translators].map { |t| %Q{<a rel="translator" href="#{t[:website]}">#{t[:name]}</a>} }.join(", ")
       end
 
       def teaser_path_for(item)
