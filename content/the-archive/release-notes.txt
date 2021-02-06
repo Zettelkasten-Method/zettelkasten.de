@@ -9,6 +9,18 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.6.0 Beta (2021-02-06)
+
+- **New:** Inline image preview. Enable or disable from the "Editing" preferencs or the "View" main menu.
+- **New:** When trying to access a file that was deleted, e.g. via the history navigation, display an information notice in the middle of the screen instead of (a) trying to fetch the note from the cache or (b) when the note isn't cached, fail.
+- **Changed:** Inline image links used to produce clickable links only for empty labels, or single-word labels. It now works with spaces in the label part, too, `![like so](pic.jpg)`.
+- **Changed:** Surrounding text with parens or emphasis characters is disabled when you select an image preview. Instead of surrounding, it replaces the selection with the character. (This is a temporary technical limitation.)
+- **Changed:** Improved performance and display of the note list on Big Sur.
+- **Changed:** Undoing external file changes is now labeled: you'll see "Undo External Change" in the Edit menu for these.
+- **Changed:** Attempting to delete a note that isn't found on disk anymore does not display an error aymore. Since the file is gone, and that's the user's intention, it removes the missing note from the note list.
+- **Changed:** When you send log files, the files will be revealed in Finder just in case your email application doesn't automatically attach them.
+- **Fixed:** The Archive relinquishes "ownership" of a note you've edited a bit more to avoid Dropbox/iCloud/... sync conflicts when you edit the same note on 2+ computers. Previously, 2 instances of The Archive could have started to react to synced file changes by reading the changes and then saving file metadata (like cursor position in the note) again, thus producing an update for the other end, ad infinitum.
+
 ## v1.5.9 (2020-11-09)
 
 The "release" version bundles the following changes and those from v1.5.8 and v1.5.7, which were only available as a "cutting edge" release:
