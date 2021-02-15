@@ -4,10 +4,9 @@ created_at: 2017-05-16 17:17:55 +0200
 kind: article
 author: christian
 tags: [ thearchiveapp ]
-url: https://www.youtube.com/watch?v=mRBbR_OvRFs&index=1&list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC
 ---
 
-Sascha is preparing a video series showcasing the unique features of our app _The Archive_. Here's the intro:
+Sascha is preparing a video series showcasing the unique features of our app _The Archive_. [Here's the intro](https://www.youtube.com/watch?v=mRBbR_OvRFs&index=1&list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC):
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/mRBbR_OvRFs?list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC" frameborder="0" allowfullscreen></iframe>
 

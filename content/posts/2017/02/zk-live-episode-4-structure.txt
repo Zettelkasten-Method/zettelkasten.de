@@ -3,7 +3,6 @@ title: "Zettelkasten Live Ep. 4: Structure, Structure, Structure. Bringing Order
 created_at: 2017-02-16 21:08:29 +0100
 kind: article
 author: christian
-url: https://www.youtube.com/watch?v=ZKNyirFHVAU
 tags: [ live, reading, collect ]
 ---
 

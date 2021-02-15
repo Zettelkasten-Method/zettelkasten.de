@@ -4,13 +4,12 @@ created_at: 2019-09-26 07:45:44 +0200
 kind: article
 author: christian
 tags: [ video, book-processing-series ]
-url: https://youtu.be/HX4q2XmC8sA
 description: "In this episode, I process the few highlights from Chapter 1 of David Epstein's book \"Range\". I end up with many more links than last time already."
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HX4q2XmC8sA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Here's episode 2 for y'all! 
+[Here's episode 2](https://youtu.be/HX4q2XmC8sA) for y'all! 
 
 Everything was a _ton_ easier this time. In the previous episode, I processed the classic study by Ericsson et al on deliberate practice[^ericsson1993delprac]. That was by far the hardest nut to crack, and on top everything was recorded. That took a noticeable amount of cognitive capacity, too. And the studies I wanted to have a closer look at were either not available in full-text or irrelevant in detail, so I could focus more on the actual connection-making and writing. (The part I actually like, heh.)
 

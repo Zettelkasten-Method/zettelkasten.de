@@ -4,13 +4,12 @@ created_at: 2019-10-09 21:29:44 +0200
 kind: article
 author: christian
 tags: [ video, book-processing-series ]
-url: https://youtu.be/v3bbM5B9pv4
 description: "I process weird citations from Chapter 3 in Epstein's book Range."
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/v3bbM5B9pv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This episode is shorter, because I didn't find many useful ideas in Chapter 3. And the ideas I did find interesting were not citable, so I had to look the originals up. That took most of the time, but did ultimately not produce many new notes.
+[This episode](https://youtu.be/v3bbM5B9pv4) is shorter, because I didn't find many useful ideas in Chapter 3. And the ideas I did find interesting were not citable, so I had to look the originals up. That took most of the time, but did ultimately not produce many new notes.
 
 I did add a couple, though, and in the last 5 minutes extracted a few notes from a comment I left behind that also affected the previous chapter's outline.
 

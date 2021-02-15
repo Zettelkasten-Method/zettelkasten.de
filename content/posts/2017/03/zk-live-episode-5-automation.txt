@@ -3,7 +3,6 @@ title: "Zettelkasten Live Ep. 5: Automation is Dangerous"
 created_at: 2017-03-11 10:40:29 +0100
 kind: article
 author: christian
-url: https://www.youtube.com/watch?v=6W3fqizIGZU
 tags: [ live, tool, software ]
 ---
 
