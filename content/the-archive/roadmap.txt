@@ -1,5 +1,6 @@
 ---
 title: The Archive Roadmap
+updated_at: 2021-02-08 11:11:00 +0100
 description: Feature announcement of The Archive, the macOS note-taking app for prolific writers.
 layout: the-archive
 ---
@@ -25,11 +26,11 @@ The following big features are planned to be added to version 1:
   <li class="todo done">Dark Mode</li>
   <li class="todo done">Browser-Type Navigation</li>
   <li class="todo done">Multiple tabs/windows</li>
+  <li class="todo done">Inline Image Preview</li>
   <li class="todo">Scriptability</li>
   <li class="todo">Tag Index</li>
   <li class="todo">Mass Text Replacement</li>
   <li class="todo">Full MultiMarkdown Support</li>
-  <li class="todo">Inline Image Preview</li>
 </ul>
 
 That's what you'll get with a license for version 1. There will be an upgraded version 2 coming afterwards, where we've planned to expand the app beyond the current scope of power and functionality. If you already own a license for version 1, you'll get a discount for your past support.
@@ -41,11 +42,11 @@ That's what you'll get with a license for version 1. There will be an upgraded v
 
 The second version of *The Archive* is all about creating a desktop for your creative knowledge work. We will stick to our core beliefs of building nimble software that puts you in control. You decide how you want to work. A system for creative knowledge work is more than just input to and output from a pile of notes. It's about crafting and tinkering.
 
-What are the benefits of this version for you? You will rise above the notes and see more of your archive from a bird's perspective. This will enable you to dominate more complex structures in text and other bodies of knowledge like images, diagrams, and audio. Examples include: 
+What are the benefits of this version for you? You will rise above the notes and see more of your archive from a bird's perspective. This will enable you to dominate more complex structures in text and other bodies of knowledge like images, diagrams, and audio. Examples include:
 
-- Dealing with a doctoral thesis; 
-- crafting arguments for debates; 
-- controlling structure and coherence in books; 
+- Dealing with a doctoral thesis;
+- crafting arguments for debates;
+- controlling structure and coherence in books;
 - and writing well-researched blog posts.
 
 The features of this version also include greatly expanded support of [structure notes](https://zettelkasten.de/posts/three-layers-structure-zettelkasten/). Those are notes -- _zettel,_ as we call them -- that enrich the relations between notes.
@@ -56,5 +57,5 @@ Version 2 of *The Archive* transforms the note-management application into a ful
 
 
 ## Version 3: Text Creation
- 
+
 The third version will be dedicated to improve your process of drafting texts.

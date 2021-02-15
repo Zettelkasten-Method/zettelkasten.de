@@ -9,7 +9,13 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.6.0 Beta (2021-02-06)
+## v1.6.0 Release Candidate 2 (2021-02-14)
+
+- **Fixed:** Hitting ESC to show all notes doesn't reset the editor in other tabs anymore. Until now, ESC would show all notes in the current tab and deselect the note; but then also globally deselected the note in all other tabs, too.
+- **Fixed:** Deleting the search string (e.g. with backspace) until there's nothing left used to leave the last selected note selected visually in the search results list, without actually showing the note.
+- **Fixed:** Making changes to the note via spell checking/auto-correction didn't persist because it didn't mark the note as needing to be saved.
+
+## v1.6.0 Release Candidate 1 (2021-02-06)
 
 - **New:** Inline image preview. Enable or disable from the "Editing" preferencs or the "View" main menu.
 - **New:** When trying to access a file that was deleted, e.g. via the history navigation, display an information notice in the middle of the screen instead of (a) trying to fetch the note from the cache or (b) when the note isn't cached, fail.

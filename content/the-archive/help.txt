@@ -1,6 +1,6 @@
 ---
 title: The Archive Help
-updated_at: 2020-02-26 10:03:00 +0100
+updated_at: 2021-02-08 11:11:00 +0100
 description: "Resources and information for The Archive, macOS note-taking app for prolific writers and productive researchers."
 layout: the-archive
 toc: true
@@ -40,6 +40,7 @@ Currently supported preferences (replace `<PREFNAME>` with these):
 
 - `timeZoneOverride` (string), default is unset: `<VALUE>` can be an abbreviation like `UTC` or `CEST` and is case-sensitve. New note IDs will be generated for the current time in that time zone.
 - `resultsCellHeightFactor` (fractional number), default value: `2.2`. Changes the height of the search result list rows in relation to the text.
+- `maxInlineImagePreviewHeight` (number), default value: `400` pixels. Preview images will always shrink to fit to the text column's width. This value determines tha maximum height, so you don't fill multiple screens worth of scrolling with tall screenshots. We recommend a value no larger than half your screen height.
 
 ## Frequently Asked Questions
 
