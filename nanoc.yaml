@@ -28,7 +28,7 @@ meta_data:
   author: "Christian Tietze, Sascha Fast"
   author_email: "christian.tietze@gmail.com"
   description: "A Zettelkasten is a personal tool for thinking and writing that creates an interconnected web of thought. Its emphasis is on connection and not mere collection of ideas."
-  copyright: "CC:BY-NC-SA Christian Tietze, Sascha Fast <http://creativecommons.org/licenses/by-nc-sa/3.0>"
+  copyright: "CC:BY-NC-SA Christian Tietze, Sascha Fast <https://creativecommons.org/licenses/by-nc-sa/3.0>"
   lang: "en"
 
 prune:
