@@ -45,6 +45,6 @@ Then, I am in your team. Send me an email to <%=email("saschafast@gmail.com")%>.
 
 <img src="/coaching/about-sascha.jpg" class="coaching__about-me">
 
-I am a coach for a decade now. My mission is to teach people how to overcome challenges and transform themselves to match any challenges. One of the challenges is knowledge work. I used the Zettelkasten Method to teach knowledge work to high performing clients who wanted to take the next step in excellence as well as clients struggling with depression who just wanted to finish their master's thesis. We will talk on Skype and use the screensharing feature as our platform of teaching.
+I am Sascha, and I am a coach for a decade now. My mission is to teach people how to overcome challenges and transform themselves to match any challenges. One of the challenges is knowledge work. I used the Zettelkasten Method to teach knowledge work to high performing clients who wanted to take the next step in excellence as well as clients struggling with depression who just wanted to finish their master's thesis. We will talk on Skype and use the screensharing feature as our platform of teaching.
 
 <%= box %>
