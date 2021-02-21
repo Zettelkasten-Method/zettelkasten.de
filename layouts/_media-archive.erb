@@ -1,0 +1,5 @@
+<li class="allposts__post minimalpost post--minimal">
+  <span class="minimalpost__title"><%= link_to(@post[:title], @post.path) %></span>
+  <span class="minimalpost__author"><%= Post::author_tag_for(@post) %></span>
+  <span class="minimalpost__time">(<%= Post::date_for(@post) %>)</span>
+</li>
