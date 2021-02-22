@@ -9,6 +9,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.6.0 Final Release (2021-02-22)
+
+The public release of all the v1.6.0 changes listed below. If you're not on the "Cutting Edge" update channel, you'll most notable receive: the image preview; way better file sync service compatibility; a dozen fixes for minor inconveniences.
+
+- **Changed:** HTML link encoded spaces like `%20` work in image previews as well. -- Here's a tip: If you can, consider using dashes instead of spaces for filenames of resources. Dashes are way more robust to work with in general given the variety of Markdown tools available.
+- **Changed:** The Welcome notes now ship with a sample image.
+- **Fixed:** Issue on Big Sur where the Saved Searches list in the app's preferences was displayed incorrectly.
+
 ## v1.6.0 Release Candidate 2 (2021-02-14)
 
 - **Fixed:** Hitting ESC to show all notes doesn't reset the editor in other tabs anymore. Until now, ESC would show all notes in the current tab and deselect the note; but then also globally deselected the note in all other tabs, too.
