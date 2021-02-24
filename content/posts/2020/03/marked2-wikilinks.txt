@@ -1,6 +1,7 @@
 ---
 title: "Make [[WikiLinks]] Clickable in Marked 2"
 created_at: 2020-03-04 08:50:17 +0100
+updated_at: 2021-02-24 12:22:00 +0100
 kind: article
 author: christian
 tags: [ links, wiki, tool ]
@@ -25,6 +26,7 @@ With these settings, you can open a note from The Archive in Marked and you can 
 
 ```ruby
 #!/usr/bin/env ruby
+require 'uri'
 
 def class_exists?(class_name)
   klass = Module.const_get(class_name)
