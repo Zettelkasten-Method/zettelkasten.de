@@ -1,17 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'nanoc', '~> 4'
+gem 'nanoc-live'
 gem 'nanoc-image-compressor', '>= 0.1.1'
 gem 'nanoc-javascript-concatenator', '~> 0.0.2'
 
 gem 'dotenv', '~> 2'
 gem 'sass', '~> 3'
 gem 'compass', '~> 1'
-
-gem 'guard', '~>2.8'
-gem 'guard-nanoc', '~>2.1.0'
-gem 'terminal-notifier-guard'
-gem 'terminal-notifier'
 
 # Blogging
 gem 'activesupport'
@@ -31,6 +27,7 @@ gem 'multi_json', '~> 1.3' # needed by uglifier
 
 # needed for tasks
 gem 'rake'
+gem 'terminal-notifier'
 
 # needed to run nanoc autocompile
 gem 'rack', ">= 2.0.6"
