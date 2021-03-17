@@ -54,7 +54,7 @@ There are big departments. They are big topics which are in order of his histori
 
 The only criterion where to put a new Zettel: Connection to the previous Zettel. A Zettel should have some connection to the previous Zettel. The result: Some topics are spread out to different places. That makes the *physical* archive easier to use because you can just fill the notes and think about the whole archive structure later -- if at all.[^1]
 
-But at the same time, you have different contexts because of the many places one topic is spread to. That gave Luhmann some variability which could enhance the possibility of making far fetches, therefore interesting connections. If you ditch the Folgezettel technique you'll lose that benefit. I extended my tool box with structural notes lately. This gives you the opportunity to safe the context without sacrificing the usability with Folgezettel. I will write about this tool in the future. (Hint: There will be a very expanded second edition of the Zettelkasten Method Book.) 
+But at the same time, you have different contexts because of the many places one topic is spread to. That gave Luhmann some variability which could enhance the possibility of making far fetches, therefore interesting connections. If you ditch the Folgezettel technique you're going to loose this benefit. I extended my tool box with structural notes lately. This gives you the opportunity to safe the context without sacrificing the usability with Folgezettel. I will write about this tool in the future. (Hint: There will be a very expanded second edition of the Zettelkasten Method Book.) 
 
 ### Folgezettel don’t matter
 
