@@ -28,7 +28,7 @@ Luhmann knew right from the beginning that this would be a lifetime project. Thi
 
 There were two archives. The first one contains 24,000 Zettel and 1800 bibliographic entries. The second one was bigger and has 66,000 entries with 16,000 bibliographic entries (which is insane). There are very few connections between the two as they served two different purposes.
 
-That differs from our approach. We are much less specific in our goals with our Zettelkasten Method. That is not problem because we don't have the limitations of a physical Zettelkasten. 
+That differs from our approach. We are much less specific in our goals with our Zettelkasten Method. That is not a problem because we don't have the limitations of a physical Zettelkasten. 
 
 ### Reading for the Zettelkasten
 
@@ -54,7 +54,7 @@ There are big departments. They are big topics which are in order of his histori
 
 The only criterion where to put a new Zettel: Connection to the previous Zettel. A Zettel should have some connection to the previous Zettel. The result: Some topics are spread out to different places. That makes the *physical* archive easier to use because you can just fill the notes and think about the whole archive structure later -- if at all.[^1]
 
-But at the same time, you have different contexts because of the many places one topic is spread to. That gave Luhmann some variability which could enhance the possibility of making far fetches, therefore interesting connections. If you ditch the Folgezettel technique you'll lose that benefit. I extended my tool box with structural notes lately. This gives you the opportunity to safe the context without sacrificing the usability with Folgezettel. I will write about this tool in the future. (Hint: There will be a very expanded second edition of the Zettelkasten Method Book.) 
+But at the same time, you have different contexts because of the many places one topic is spread to. That gave Luhmann some variability which could enhance the possibility of making far fetches, therefore interesting connections. If you ditch the Folgezettel technique you're going to loose this benefit. I extended my tool box with structural notes lately. This gives you the opportunity to safe the context without sacrificing the usability with Folgezettel. I will write about this tool in the future. (Hint: There will be a very expanded second edition of the Zettelkasten Method Book.) 
 
 ### Folgezettel don’t matter
 
