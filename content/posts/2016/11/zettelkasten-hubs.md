@@ -28,7 +28,7 @@ Luhmann knew right from the beginning that this would be a lifetime project. Thi
 
 There were two archives. The first one contains 24,000 Zettel and 1800 bibliographic entries. The second one was bigger and has 66,000 entries with 16,000 bibliographic entries (which is insane). There are very few connections between the two as they served two different purposes.
 
-That differs from our approach. We are much less specific in our goals with our Zettelkasten Method. That is not problem because we don't have the limitations of a physical Zettelkasten. 
+That differs from our approach. We are much less specific in our goals with our Zettelkasten Method. That is not a problem because we don't have the limitations of a physical Zettelkasten. 
 
 ### Reading for the Zettelkasten
 
