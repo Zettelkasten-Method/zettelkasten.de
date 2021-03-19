@@ -5,6 +5,7 @@ kind: article
 author: christian
 tags: [ announcement, thearchiveapp ]
 rel_image: 20210317132452_claim-o-matic.gif
+description: "To celebrate the 3rd anniversary, everyone who bought the app can claim 1 additional free license!"
 ---
 This week marks 3rd year of [The Archive][ta] being available in public. In March 2018 we published the final release. To celebrate this anniversary, we have a special treat for you to share the joy with friends!
 
