@@ -1,6 +1,6 @@
 ---
 title: "Use Case: Investing with the Zettelkasten Method"
-created_at: 2021-03-19 09:45:49 +0100
+created_at: 2021-03-20 11:37:49 +0100
 kind: article
 author: sascha
 tags: [ structure, use-case ]
@@ -33,7 +33,7 @@ The corresponding Structure Note is divided up into three parts:
 2. The second subsection has this table in it.
 3. The third subsection is my thinking canvas on this method of investing.
 
-<!--TODO Einfügen. pics for articles/2021-02_table-overview.jpg -->
+<%= insert_rel_image file: "20210320113851_investment-overview.jpg", caption: "Rough structure of the note" %>
 
 The table is the central element that has a strong pull on all the notes on investing stock criteria, metaphorically speaking. I link to them in the "references"-column. Whenever I learn something new on investing in stock I go to this structure note and try to improve the metrics in question. So, there is a strong tag `##stocks` (in German, though) placed to enforce this habit.
 
