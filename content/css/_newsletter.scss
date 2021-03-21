@@ -3,8 +3,8 @@
  */
 
 .newsletter { }
-.newsletter__title { font-size: $large-base-size / $base-size * 1em; }
-.newsletter__info { font-size: $small-size; }
+.newsletter__title { }
+.newsletter__info { }
 
 /*
  * Newsletter Form
@@ -28,7 +28,7 @@
   padding: 0.3em 0.5em;
   margin: 0.5em 0;
 }
-.news__input--email {
+.news__input--text {
   box-shadow: 0 2px 1px rgba(0,0,0,0.2) inset;
   display: block;
   -webkit-box-sizing: border-box;
@@ -36,15 +36,17 @@
   box-sizing: border-box;
   width: 100%;
 }
+.news__input--email {}
+.news__input--text {}
 .news__input--button {
   position: relative;
   font-variant: small-caps;
   text-transform: lowercase;
   color: #333;
   letter-spacing: 1px;
-  
+
   width: 100%;
-    
+
   $bg: rgba(163, 166, 88, 0.6);
   background-color: $bg;
   box-shadow: 0 2px 0 rgba(0,0,0,0.2);
@@ -58,3 +60,11 @@
 }
 .asterisk { color: red; }
 .indicates-required { font-size: 80%; font-style: italic; }
+
+/**
+ * GDPR and marketing consent
+ */
+$consent_inset: 1.5em;
+.gdpr { margin-top: 1.5em; padding-left: $consent_inset; }
+.gdpr__checkbox { float: left; height: 1.6em; margin-left: -$consent_inset; }
+.gdpr__label { }
