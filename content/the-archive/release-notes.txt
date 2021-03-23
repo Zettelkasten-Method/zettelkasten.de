@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2020-11-09 09:57:00 +0100
+updated_at: 2021-03-23 07:31:00 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -9,7 +9,7 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.6.1 Beta (2021-03-16)
+## v1.6.1 (2021-03-16)
 
 - **New:** Themes now support setting fonts without specifying a size. You can specify `"font": {"name": "Menlo"}` and thus the font family is replaced, inheriting the user's font size choice. This makes using multiple fonts at the same, user-customizable scale easier.
 - **New:** Themes support relative font size changes, e.g. `"font": {"name": "Arial", "relativeSize": "200%"}`, e.g. to make headings bigger. Line height isn't increases proportionally, though, so huge changes here won't look good for now.
