@@ -1,1 +1,3 @@
-<%= xml_sitemap %>
+<%= xml_sitemap(
+  items: items.select { |i| !i[:hidden] }
+) %>

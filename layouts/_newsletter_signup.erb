@@ -1,28 +1,34 @@
 <section class="clearfix newsletter">
-    <h1 class="title newsletter__title">Subscribe to our mailing list</h1>
-    <p class="newsletter__info">Receive project news, announcements, and special offers for our Zettelkasten products before anybody else does. <a href="http://us5.campaign-archive1.com/home/?u=9aad95d757e454078fe42ae23&id=d06cc48a0f" title="To the archive!">View past issues</a> to see that we keep the promise to stay relevant.</p>
-    
-    <form action="https://christiantietze.us5.list-manage.com/subscribe/post?u=9aad95d757e454078fe42ae23&amp;id=d06cc48a0f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>
+  <h2 class="title newsletter__title">Subscribe to our mailing list</h2>
+  <p class="newsletter__info">Receive project news, announcements, and special offers for our Zettelkasten products before anybody else does.</p>
 
-        <div class="grid-whole">
-            <label class="news__label grid-whole" for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
-            <input type="email" value="" name="EMAIL" class="news__input news__input--email required" id="mce-EMAIL">
-        </div>
-        <div class="grid-whole">
-            <input id="gdpr_2369" name="gdpr[2369]" type="checkbox">
-            <label class="news__label news__label--checkbox" for="gdpr_2369"><q>Yes, I want to hear from you via email!</q></label>
-        </div>
-        <div class="grid-whole">
-            <p class="newsletter__info">We send our email through MailChimp. MailChimp stores your contact information for us. By submitting this form, you acknowledge that the information you provide will be transferred to MailChimp for processing in accordance with their <a href="https://mailchimp.com/legal/privacy/">Privacy Policy</a> and <a href="https://mailchimp.com/legal/terms/">Terms</a>.</a> </p>
-	    <p class="newsletter__info">We will not share your data with anybody else. We will not send spam, ever. See <a href="/legal/#mailchimp-newsletter">our own policy</a> for details.</p>
-        </div>
-        <div class="grid-whole">
-            <input type="submit" value="Subscribe to the List" name="subscribe" id="mc-embedded-subscribe" class="news__input news__input--button">
-        </div>
-        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-    </form>
+  <form action="https://newsletter.christiantietze.de/subscribe" method="POST" accept-charset="utf-8">
+    <input type="hidden" name="list" value="vGdm8DaHEoRuG7zMEPyC3w"/>
+    <input type="hidden" name="subform" value="yes"/>
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="hp" id="hp" tabindex="-1" value=""/></div>
+
+    <div class="grid-whole">
+      <label class="news__label grid-whole" for="email">Email Address <span class="asterisk">*</span></label>
+      <input type="email" value="" name="email" class="news__input news__input--text news__input--email required" id="email">
+    </div>
+    <div class="grid-whole">
+      <label class="news__label grid-whole" for="name">Name</label>
+      <input type="text" value="" name="name" class="news__input news__input--text news__input--name" id="name">
+    </div>
+    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+
+    <div class="grid-whole gdpr">
+      <input type="checkbox" name="gdpr" id="gdpr" class="gdpr__checkbox" />
+      <label class="news__label news__label--checkbox gdpr__label" for="gdpr"><q>I give my consent to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</q></label>
+    </div>
+
+    <div class="grid-whole">
+	  <p class="newsletter__info">We will not share your data with anybody else. We will not send spam, ever. See <a href="/legal/#newsletter">our privacy policy</a> for details. We host the newsletter stuff ourselves, so there's no third party involved.</p>
+      <p class="newsletter__info">If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at <code>newsletter@zettelkasten.de</code>.</span>
+    </div>
+
+    <div class="grid-whole">
+      <input type="submit" value="Subscribe to the List" name="submit" id="submit" class="news__input news__input--button">
+    </div>
+  </form>
 </section>

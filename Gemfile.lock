@@ -117,7 +117,7 @@ GEM
       listen (~> 3.0)
       nanoc-cli (~> 4.11, >= 4.11.14)
       nanoc-core (~> 4.11, >= 4.11.14)
-    nokogiri (1.11.1)
+    nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     parallel (1.20.1)
@@ -174,9 +174,9 @@ DEPENDENCIES
   jsmin (~> 1.0)
   mime-types
   multi_json (~> 1.3)
-  nanoc (~> 4)
-  nanoc-image-compressor (>= 0.1.1)
-  nanoc-javascript-concatenator (~> 0.0.2)
+  nanoc
+  nanoc-image-compressor
+  nanoc-javascript-concatenator
   nanoc-live
   nokogiri (>= 1.8.5)
   rack (>= 2.0.6)

@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'nanoc', '~> 4'
-gem 'nanoc-live'
-gem 'nanoc-image-compressor', '>= 0.1.1'
-gem 'nanoc-javascript-concatenator', '~> 0.0.2'
+group 'nanoc' do
+  gem 'nanoc'
+  gem 'nanoc-live'
+  gem 'nanoc-image-compressor'
+  gem 'nanoc-javascript-concatenator'
+end
 
 gem 'dotenv', '~> 2'
 gem 'sass', '~> 3'
