@@ -207,7 +207,7 @@ If in doubt, write the note, within the confines of your deadline. If you knew w
 
 In practice, you need to compromise between taking broad notes and focussing on your current projects. You cannot just take random notes on what you are interested in and expect to get anything done. So, use your current projects as golden threads to guide your work while allowing a bit of deviation from this path. The amount of deviation depends on what your deadline is.
 
-The benefit of this habit is that you can maintain a flow of writing much more. I cannot count the many good ideas and texts I wrote while technically working on another project. By keeping your flow going and will produce more useful thoughts and text in the long run. The limits of this practice are the how much you *need* to achieve in the short-term.
+The benefit of this habit is that you can maintain a flow of writing much more. I cannot count the many good ideas and texts I wrote while technically working on another project. By keeping the flow going you will produce more useful thoughts and text in the long run. The limits of this practice are the how much you *need* to achieve in the short-term.
 
 <%= insert_rel_image file: "path-to-project.png", caption: "The path to a finished project produces all kinds of byproducts" %>
 
