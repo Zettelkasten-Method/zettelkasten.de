@@ -9,6 +9,15 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.6.2 Beta (2021-04-13)
+
+- **New:** Move line or selection up and down added, with default shortcuts.
+- **New:** Open link in new window, instead of new tab, on macOS 10.12 or newer. Works with <kbd>Cmd-Shift-Click</kbd>, or <kbd>Cmd-Ctrl-Shift-Return</kbd> (a variant of "Open Links at Selection").
+- **Changed:** Groups actions in a "Navigate" menu that move around in a note and change the note selection.
+- **Fixed:** Saved Searches shortcuts in the main menu including the Option key used to display special characters instead of the Latin character on the keyboard.
+- **Fixed:** Dark mode colors of shortcut fields are readable again.
+- **Fixed:** Autosaving when closing windows/tabs.
+
 ## v1.6.1 (2021-03-16)
 
 - **New:** Themes now support setting fonts without specifying a size. You can specify `"font": {"name": "Menlo"}` and thus the font family is replaced, inheriting the user's font size choice. This makes using multiple fonts at the same, user-customizable scale easier.
