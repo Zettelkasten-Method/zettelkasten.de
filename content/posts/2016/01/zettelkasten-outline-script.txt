@@ -11,7 +11,7 @@ Last week I completed a script to help automate the process of compiling a first
 
 The current version 0.1.0 supports Sascha's and my note archives. Our notes adhere to a similar convention. If yours don't, you'll have to tweak the script until it works -- contributions are highly welcome! I cannot cover every edge case of every note archive convention myself, so you will have to dirty your own hands for now to adapt it to your needs.
 
-[render]: https://github.com/DivineDominion/zettel-outline-rendering
+[render]: https://github.com/Zettelkasten-Method/zettel-outline-rendering
 
 ## Why Outlines?
 
@@ -116,9 +116,9 @@ In order for the archive-browsing option to work, all your notes have to be in a
 
 ## Adopting Your Own Naming Scheme
 
-If your notes end with the ID instead of start with it, you'll have to tweak [the note `Finder`](https://github.com/DivineDominion/zettel-outline-rendering/blob/master/lib/zettel_outline/archive.rb) which is responsible for finding files in your archive folder. There you could also implement searching in sub-folders if needed.
+If your notes end with the ID instead of start with it, you'll have to tweak [the note `Finder`](https://github.com/Zettelkasten-Method/zettel-outline-rendering/blob/master/lib/zettel_outline/archive.rb) which is responsible for finding files in your archive folder. There you could also implement searching in sub-folders if needed.
 
-If your notes don't have a numerical ID, then you'll have to tweak the [`ZettelInfo`](https://github.com/DivineDominion/zettel-outline-rendering/blob/master/lib/zettel_outline/zettel_info.rb) that determines which portion of a line of text from the outline file becomes what. Currently, the portion identified as ID is the search term in the above mentioned `Finder`. If you're Dan Sheffler, then you might want to make the whole line of text the ID and use the existing mechanism to search for a similarly-named note.
+If your notes don't have a numerical ID, then you'll have to tweak the [`ZettelInfo`](https://github.com/Zettelkasten-Method/zettel-outline-rendering/blob/master/lib/zettel_outline/zettel_info.rb) that determines which portion of a line of text from the outline file becomes what. Currently, the portion identified as ID is the search term in the above mentioned `Finder`. If you're Dan Sheffler, then you might want to make the whole line of text the ID and use the existing mechanism to search for a similarly-named note.
 
 Over time, I imagine the script could recognize different styles so users can choose how they want the outline to be parsed. The current version is a very humble start probably nobody but Sascha and me can make use of at the moment :)
 
