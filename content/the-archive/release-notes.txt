@@ -9,7 +9,15 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.6.2 Beta (2021-04-13)
+## v1.6.3 (2021-05-16)
+
+- **Fixed:** The Archive tells macOS about its file changes in a way that should play better with other so-called "document-based" apps. They now coordinate reading and writing internally. (Example: iA Writer, TableFlip)
+- **Fixed:** When you used the shortcuts to outdent a line or decreate the quotation level and the insertion point was at the very beginning of the line, it was nudged to the left, turning up in another line of the note effectively.
+- **Changed:** The _External Editor_ picker window now looks better, especially on Big Sur.
+- **Changed:** The app preferences now have icons in the toolbar. It seems to be the way forward with macOS and was reinforced with Big Sur, so we adopt this convention, too.
+- **Changed:** The Saved Searches icon sidebar now matches the look of the preferences when you have set "Display Large Icons". These measure 32x32 pixels. The smaller variant is now half the size, 16x16. (Used to be 24x24 which didn't scale well.)
+
+## v1.6.2 (2021-04-13)
 
 - **New:** Move line or selection up and down added, with default shortcuts.
 - **New:** Open link in new window, instead of new tab, on macOS 10.12 or newer. Works with <kbd>Cmd-Shift-Click</kbd>, or <kbd>Cmd-Ctrl-Shift-Return</kbd> (a variant of "Open Links at Selection").
