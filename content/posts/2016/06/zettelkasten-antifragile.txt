@@ -1,9 +1,10 @@
 ---
 title: Nassim Taleb would love the Zettelkasten Method
 created_at: 2016-06-15 10:22:19 +0200
+updated_at: 2021-05-27 19:04:37 +0100
 kind: article
 author: sascha
-tags: [ antifragile, write, outline, archive ]
+tags: [ antifragile, writing, outline, archive ]
 image: 201606151023_virus.jpg
 vgwort: https://vg07.met.vgwort.de/na/5abb56c8009b4a6284156d5339c5b48e
 ---
@@ -12,9 +13,9 @@ In my opinion, Nassim Taleb's most important idea is the concept of Antifragilit
 
 **Fragile** means that something doesn't like volatility and variability. In short: It doesn't like to be touched. If you send something fragile via mail you write *fragile* on it so to say: Do as little as possible with it.
 
-According to Taleb, many people think the opposite of fragile is **robust**. But your behavior with non-fragile mail contradicts that: You don't write “Abuse it as much as you can.” which would be the opposite. Instead, you write nothing on it because you don't care. *Robust* is something that doesn't care.  
+According to Taleb, many people think the opposite of fragile is **robust**. But your behavior with non-fragile mail contradicts that: You don't write “Abuse it as much as you can.” which would be the opposite. Instead, you write nothing on it because you don't care. *Robust* is something that doesn't care.
 
-**Antifragile** is something that likes volatility and variability. It gains from disorder -- always to a certain degree. You are antifragile. If you train you harm your body a little bit. You challenge it and it reacts with adaptation. As a result, you get strength and endurance. 
+**Antifragile** is something that likes volatility and variability. It gains from disorder -- always to a certain degree. You are antifragile. If you train you harm your body a little bit. You challenge it and it reacts with adaptation. As a result, you get strength and endurance.
 
 Let me clear things up with examples:
 
@@ -28,23 +29,23 @@ The three concepts describe the relationship of an entitiy to variability and vo
 
 1. It gets worse the more variable the environment is? It is fragile.
 2. It doesn't change with increasing or decreasing variability in it's environment? It is robust.
-3. It improves the more variable the environment is? It is antifragile. 
+3. It improves the more variable the environment is? It is antifragile.
 
 ## Decentralization Antifragilizes a System
 
 <%= insert_teaser_image title: "virus cell", caption: %{Source: <a href="https://pixabay.com/en/virus-infected-cells-dna-disease-213708/">Pixabay</a>. License: CC0 Public Domain} %>
 
-What do you get if you create backups of your data? You create redundancy. You backup your data because you don't want a mistake to ruin your whole system. The more redundancy you create the less downsides a system failure has. 
+What do you get if you create backups of your data? You create redundancy. You backup your data because you don't want a mistake to ruin your whole system. The more redundancy you create the less downsides a system failure has.
 
 Imagine that you have twenty backups and one fails. You don't even care. Imagine you have only one backup and your system shuts down. If you have important data you'll still get a little nervous, I guess.
 
 Now you just have to add a learning effect. Imagine you lose your backup storage several times because your kids mess with it. Next time, you put it where your kids can't reach it. Your backup system as a whole gets better (here: more robust) *because* your kids destroyed a part of it. A local failure becomes a gain of the whole. If you add learning to a decentralized system you get an antifragile system because a small failure means an improvement of the whole system.
 
-## The Zettelkasten Method Introduces Antifragility 
+## The Zettelkasten Method Introduces Antifragility
 
-The Zettelkasten Method utilizes the concept of antifragility. A decentralized system like a Zettelkasten is antifragile. If something fails, it fails locally and the system as a whole can go on. 
+The Zettelkasten Method utilizes the concept of antifragility. A decentralized system like a Zettelkasten is antifragile. If something fails, it fails locally and the system as a whole can go on.
 
-If you write using the Zettelkasten Method and have an idea, you create one Zettel. If that idea later turns out to be shitty you'll only have lost a couple of minutes. If you have a shitty idea and always try to write a whole article or even a thesis from it, a failure would hurt much more. Your knowledge production gets antifragile because you fail more at a local level (bad Zettel vs. bad article) and you learn from these failures with little sacrifice. 
+If you write using the Zettelkasten Method and have an idea, you create one Zettel. If that idea later turns out to be shitty you'll only have lost a couple of minutes. If you have a shitty idea and always try to write a whole article or even a thesis from it, a failure would hurt much more. Your knowledge production gets antifragile because you fail more at a local level (bad Zettel vs. bad article) and you learn from these failures with little sacrifice.
 
 But even a shitty idea can inspire you or be transformed into a good one. That means that bad ideas can have upsides. The more Zettel notes you write, the more combinations and connections arise and the more valuable a bad Zettel can be. The possible drawback of investing time in writing down an idea is marginal because you don't have to invest time or energy in this bad idea. The potential benefit increases over time and drawbacks are less likely to hurt. You create a system that gets more and more upsides and less downsides.
 
@@ -52,17 +53,17 @@ If you can't focus on a big project you can always write smaller Zettels or just
 
 The Zettelkasten Method gives you a working environment that gives you more and more upsides and thus changes the ratio of upsides to downsides.
 
-The more Zettel you write the more each Zettel benefits. You have a system of accelerating gain of upsides from each action. Nassim Taleb would say: It makes your knowledge work more antifragile. 
+The more Zettel you write the more each Zettel benefits. You have a system of accelerating gain of upsides from each action. Nassim Taleb would say: It makes your knowledge work more antifragile.
 
 ## Application
 
-**Tinker** a lot. Write lots of Zettels and apply the outline method in abundance. The more Zettel you write the faster you erase the downsides of investing time in writing a Zettel. It seems that you'd produce more waste but the more you write the less wasteful the waste becomes. 
+**Tinker** a lot. Write lots of Zettels and apply the outline method in abundance. The more Zettel you write the faster you erase the downsides of investing time in writing a Zettel. It seems that you'd produce more waste but the more you write the less wasteful the waste becomes.
 
-Write different Zettels for different ideas on the same topic and adhere to the principle of atomicity. Connections let the magic of the Zettelkasten Method happen. More Zettel equal more connectivity. Some Zettel may not be the best to work on that topic but they may lead to new ideas in a different topic. This serendipity could be hindered if you have just one big Zettel on that topic. 
+Write different Zettels for different ideas on the same topic and adhere to the principle of atomicity. Connections let the magic of the Zettelkasten Method happen. More Zettel equal more connectivity. Some Zettel may not be the best to work on that topic but they may lead to new ideas in a different topic. This serendipity could be hindered if you have just one big Zettel on that topic.
 
 **Connect** a lot. The benefits of having a high number of Zettel comes from the connection. The connections should be meaningful, indeed. You can't connect just randomly and expect good results, even if some far fetched connection would add an element of surprise later on. Just be sure that you highlight why you connected those Zettel.
 
-**Use** the Zettelkasten Method as your main mode of writing. I am very guilty of making the mistake of writing outside of my Zettelkasten. The more you write outside your archive the more you shift to a less efficient process. You will generate texts and not Zettel. Texts are not an element of your archive and therefore don't foster the Zettelkasten's mighty magic. If you apply the Zettelkasten Method you can extract your texts later, especially with the [heavy use of outlines][outline], *and* generate a powerful tool for knowledge generation and thinking. 
+**Use** the Zettelkasten Method as your main mode of writing. I am very guilty of making the mistake of writing outside of my Zettelkasten. The more you write outside your archive the more you shift to a less efficient process. You will generate texts and not Zettel. Texts are not an element of your archive and therefore don't foster the Zettelkasten's mighty magic. If you apply the Zettelkasten Method you can extract your texts later, especially with the [heavy use of outlines][outline], *and* generate a powerful tool for knowledge generation and thinking.
 
 [outline]: http://zettelkasten.de/posts/write-book-without-even-trying-so-hard/
 
