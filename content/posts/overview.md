@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-updated_at: 2020-11-24 16:21:00 +0100
+updated_at: 2021-05-27 19:11:10 +0100
 toc: true
 ---
 {{toc}}
@@ -98,6 +98,7 @@ When your archive grows, you'll add [Structural Layers in your Zettelkasten](/po
     * [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents. This works [without you trying so hard.](/posts/write-book-without-even-trying-so-hard/)
 * [Divide composing from editing your texts](/posts/writing-composing-revising/) to reach a state of flow and get faster at finishing your projects.
 * [Publish iteratively](/posts/publish-iteratively/).
+* Field Report: [A PhD About Writing with His Zettelkasten](/posts/henrik-zettelkasten-paper-submission/). Henrik talks about his process from draft to submission, to revision, to being accepted in a journal.
 
 ## Reading
 
