@@ -3,7 +3,7 @@ title: "Field Report #1: A PhD About Writing with His Zettelkasten"
 created_at: 2021-05-27 18:49:14 +0100
 kind: article
 author: "@henrikenggaard"
-tags: [ assemble, writing, publishing ]
+tags: [ assemble, writing, publishing, field-report-series ]
 discussion_id: 1831
 relative_image: 2_detail.png
 ---
