@@ -45,9 +45,11 @@ Currently supported preferences (replace `<PREFNAME>` with these):
 
 ## Frequently Asked Questions
 
-### How can I import my notes from nvALT/DEVONthink without losing the tags?
+### How can I import Finder tags? (Applies to nvALT and DEVONthink, too)
 
-nvALT stores the tags as so-called "Finder tags" in the file metadata. Same for DEVONthink's exported notes. This is brittle and only works on Mac. _The Archive_ does not recognize these on purpose, so you don't tag yourself into a corner.
+nvALT stores the tags as so-called "Finder tags" in the file metadata. Same for DEVONthink's exported notes.
+
+This is brittle and only works on Mac. _The Archive_ does not recognize these on purpose, so you don't tag yourself into a corner.
 
 [We provide a **converter utility**](/the-archive/tag-converter/) that inserts missing `#hashtags` into your notes to match the Finder metadata. This should help with the transition!
 
