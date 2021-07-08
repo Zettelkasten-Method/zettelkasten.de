@@ -1,6 +1,8 @@
 ---
-title: About Sascha Fast
+title: About Sascha
+updated_at: <%= sorted_posts_by('sascha')[0][:created_at] %>
 ---
+
 Hi,
 
 <img src="/authors/sascha/sascha-leini-profile.jpg" class="author-profile-picture">
@@ -29,7 +31,7 @@ Sascha
 
 PS: [I offer 1-on-1-coaching](https://zettelkasten.de/coaching) if you want to learn the Zettelkasten Method from an experienced person.
 
-## Posts Written by Sascha
+# Posts Written by Sascha
 
 - <%=email("saschafast@gmail.com", text: "Email Sascha")%>
 - Get Sascha's posts as an [RSS Feed](/authors/sascha/feed.atom).
