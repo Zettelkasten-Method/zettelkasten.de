@@ -1,8 +1,9 @@
 ---
-title: Sascha Fast's Author Profile
+title: About Sascha Fast
 ---
 Hi,
 
+<img src="/authors/sascha/sascha-leini-profile.jpg" class="author-profile-picture">
 I am Sascha. I write and coach for a living. I worked on the Zettelkasten Method to build tools for my personal knowledge work. I began to teach some of my clients my method and discovered that they had great success with that. So I now work on this project with Christian to provide the world with the best solutions to knowledge work problems.
 
 ## How I use my Zettelkasten
