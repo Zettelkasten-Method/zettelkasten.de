@@ -26,7 +26,7 @@ Do you need help or just want to take the next step in note-taking, thinking too
 
 <%= box %>
 
-    The Zettelkasten Method is a collection of techniques and tools based on universal principles of knowledge work. However, my focus is on you and how to individualize the approach to your needs without any dogma.
+The Zettelkasten Method is a collection of techniques and tools based on universal principles of knowledge work. However, my focus is on you and how to individualize the approach to your needs without any dogma.
 
 Are you
 
