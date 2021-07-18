@@ -387,7 +387,7 @@ module My
 
       border_class = (border == true) ? "" : "post-figure--borderless"
       rendered_image_links = urls.map { |url|
-        %Q{<a href="#{url}" class="post_figure--grid__item"><img src="#{url}")" class="post-figure__image"></a>}
+        %Q{<a href="#{url}" class="post_figure--grid__item"><img src="#{url}" class="post-figure__image"></a>}
       }.join("\n")
       rendered_caption = if caption.empty?
                            ""
