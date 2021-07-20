@@ -3,8 +3,8 @@ title: The Archive Roadmap
 updated_at: 2021-02-08 11:11:00 +0100
 description: Feature announcement of The Archive, the macOS note-taking app for prolific writers.
 layout: the-archive
+toc: manual
 ---
-
 # The Archive: Version Roadmap
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
