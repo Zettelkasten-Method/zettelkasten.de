@@ -8,7 +8,7 @@ tags: [ thearchiveapp ]
 
 Sascha is preparing a video series showcasing the unique features of our app _The Archive_. [Here's the intro](https://www.youtube.com/watch?v=mRBbR_OvRFs&index=1&list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC):
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/mRBbR_OvRFs?list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("mRBbR_OvRFs?list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC") %>
 
 Remember that we follow a "software-agnostic approach". That means our app will be great, but it will still be replaceable. Because we don't want to lock people in with things they couldn't do by any other means. The workflow and the method are important, not the tools!
 

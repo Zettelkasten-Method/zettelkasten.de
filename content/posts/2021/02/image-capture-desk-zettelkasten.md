@@ -7,7 +7,7 @@ tags: [ thearchiveapp, image ]
 image: 2021-02-13-desk-integration.jpeg
 description: "See how to use a webcam and image preview to connect the real world with your notes"
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Wp7oHW-s7sA" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("Wp7oHW-s7sA") %>
 
 [In this video,](https://www.youtube.com/watch?v=Wp7oHW-s7sA) Sascha demonstrates how you can get stuff from the physical world into the digital: by capturing images of sketches on paper with The Archive, and turning on our shiny new inline image preview function to see the sketches inside his notes.
 

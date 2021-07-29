@@ -6,7 +6,7 @@ author: christian
 tags: [ live ]
 ---
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/bevIFTngU2g" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("bevIFTngU2g") %>
 
 _Hello dear friends of knowledge work and knowledge management!_ -- Today we're thrilled to tell you that our video experiments did bear fruit. We hereby announce the Zettelkasten Live channel.
 

@@ -6,7 +6,7 @@ author: christian
 tags: [ thearchiveapp ]
 ---
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/R2AC6i9OdAU?list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("R2AC6i9OdAU?list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC") %>
 
 Sascha created [a short video](https://www.youtube.com/watch?v=R2AC6i9OdAU?list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC) (sub 4min) about the usefulness of a little feature: clicking on stuff to change the search. Once you design your workflow to center around search terms, search shortcuts become super powerful. 
 

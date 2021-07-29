@@ -6,7 +6,7 @@ author: christian
 tags: [ archive, luhmann, live, folgezettel, paper ]
 ---
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/n7ACkCncNT4" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("n7ACkCncNT4") %>
 
 In this episode, we respond to [Peter's question](http://disq.us/p/1eepei9): What do we _not_ put into our archives?
 

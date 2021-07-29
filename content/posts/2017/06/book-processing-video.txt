@@ -6,6 +6,6 @@ author: christian
 tags: [ thearchiveapp, nv, process ]
 ---
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/4DIEiIH-N24?list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("4DIEiIH-N24?list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC") %>
 
 Today, [Sascha talks about his workflow](https://www.youtube.com/watch?v=4DIEiIH-N24&index=1&list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC) of processing books. The demonstration is supposed to highlight the power of a useful search -- in opposition to overly fancy software features. At about minute 22:00, Sascha also demonstrates using _The Archive_ for this in all its buggy glory.

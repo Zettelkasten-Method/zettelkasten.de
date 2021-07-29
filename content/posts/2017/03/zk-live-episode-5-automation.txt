@@ -6,7 +6,7 @@ author: christian
 tags: [ live, tool, software ]
 ---
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/6W3fqizIGZU" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("6W3fqizIGZU") %>
 
 In [this week's episode](https://www.youtube.com/watch?v=6W3fqizIGZU) we talked about the dangers of automatization. In short, the computer may help you find stuff, but if you rely on its power 100%, you will end up with a homogenous mush of notes. That's when we also mentioned Nassim Taleb's notion of the "barbell method" to antifragilize your life .
 

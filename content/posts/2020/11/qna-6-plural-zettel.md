@@ -6,6 +6,6 @@ author: sascha
 tags: [ video, qna, terminology ]
 description: "Learn how to pluralize the German word 'Zettel' in this video"
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ulOkqsl-IG8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<%= insert_youtube("ulOkqsl-IG8") %>
 
 [Today's video](https://youtu.be/ulOkqsl-IG8): How do you pluralize the German word 'Zettel' in English?

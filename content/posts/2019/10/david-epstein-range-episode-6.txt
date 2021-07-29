@@ -8,7 +8,7 @@ img: 20191025185853_episode-6-thumbnail.jpeg
 description: "The 5th chapter of Epstein's book sports many anecdoted, but the original sources I didn't find the time to process."
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NpMzDP6lMq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<%= insert_youtube("NpMzDP6lMq4") %>
 
 This chapter's outline started out was pretty short -- and most of the stuff that I did add was anecdotes and stories. Interesting stories, sure, but nevertheless not much to brag about in front of your friends who study humanities. The actual sources will be interesting, but I didn't get to them this time.
 

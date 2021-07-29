@@ -33,7 +33,7 @@ I explicitly added the measure of intensity to my comment. I think Peterson is r
 
 If you train for weightlifting or powerlifting in a Russian Style workout, you accumulate high volume with a moderate intensity. You stay very calm and don't hype yourself up before any lift. It is quite different from our western style of training. See the video below for your own amusement.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nLVJTBZtiuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<%= insert_youtube("nLVJTBZtiuw") %>
 
 Having said that, there are many ways to increase the possible capacity for deep work. At the same time, you will decrease the drain on yourself if you don't use up all your capacity. Some methods:
 

@@ -6,6 +6,6 @@ author: sascha
 tags: [ video, qna, beginning ]
 description: Easier said than done. But doing is superior than telling. So do it.
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mZTmrH52P2U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<%= insert_youtube("mZTmrH52P2U") %>
 
 [How to start a Zettelkasten?](https://www.youtube.com/watch?v=mZTmrH52P2U) It's easier said than done. But doing is superior than telling. So do it.

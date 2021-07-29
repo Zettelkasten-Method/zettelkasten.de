@@ -7,7 +7,7 @@ tags: [ video, book-processing-series ]
 description: "In this episode, I process the few highlights from Chapter 1 of David Epstein's book \"Range\". I end up with many more links than last time already."
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HX4q2XmC8sA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<%= insert_youtube("HX4q2XmC8sA") %>
 
 [Here's episode 2](https://youtu.be/HX4q2XmC8sA) for y'all! 
 

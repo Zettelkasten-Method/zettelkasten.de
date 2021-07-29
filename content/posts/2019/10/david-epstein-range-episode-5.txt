@@ -8,7 +8,7 @@ img: 20191019072859_episode-5-thumbnail.jpeg
 description: "A very thorough link hierarchy is created from chapter 4, 'Learning, Fast and Slow', from Epstein's book 'Range'."
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Vs1mscyOuFs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<%= insert_youtube("Vs1mscyOuFs") %>
 
 By accident, I started this episode with an outline that was surprisingly long and lended itself well to my favorite _Zettel refactoring_, called "Extract Zettel", where I take part of an existing note and put it into a new one, leaving a link in place of the cutout.
 

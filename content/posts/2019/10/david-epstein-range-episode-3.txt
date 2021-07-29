@@ -8,7 +8,7 @@ tags: [ video, book-processing-series ]
 description: "I process new interesting topics in Chapter 2 Epstein's \"Range\". Many links, plus interesting visualizations!"
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/F6AZQQ_1U4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<%= insert_youtube("F6AZQQ_1U4E") %>
 
 Please enjoy [episode 3](https://youtu.be/F6AZQQ_1U4E), hitting early this week because I'll be traveling for a couple of days -- and cannot muster the strength to wait until Friday to hit the "publish" button.
 

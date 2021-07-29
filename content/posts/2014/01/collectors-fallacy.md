@@ -29,7 +29,7 @@ Why do we hoard stuff and clutter our lives like that?
 Photocopying is potentially addictive.  That's because we are rewarded with sheets of paper for pressing the 'copy' button, and we're rewarded promptly.   The stack grows quickly when we use modern high-volume copiers which spit out printed pages rapidly.  Moreover, accumulating photocopies is _tangible_.  When we can see a stack growing and feel its weight, the feeling of reward is even higher.  When photocopying, we condition ourselves like Skinner conditioned doves:
 
 <figure>
-    <iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/CtoH5tlr-bI" frameborder="0" allowfullscreen></iframe>
+    <%= insert_youtube("CtoH5tlr-bI") %>
 </figure>
 
 The dove's behavior is reinforced by food.  Pressing the 'copy' button is immediately rewarded with copied paper.  These reinforcements are satisfying.  From there stems the illusion we have done something meaningful:  "Look how big my pile of paper is!"

@@ -22,7 +22,7 @@ It showed me that the Zettelkasten Method is as powerful as my hypothesis predic
 
 Did you know that Luhmann wrote approximately 70 Books and 450 Articles during his career, all on paper, only using a typewriter and hunt and peck typing? This is a freakish output, even if we would not take his lack of modern technology into consideration. 
 
-<iframe width="420" height="315" src="http://www.youtube-nocookie.com/embed/qRSCKSPMuDc?cc_load_policy=1&start=2247" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("qRSCKSPMuDc&start=2247") %>
 
 Now I was not only hoping, but rather knew that I was walking on a path similar to some of my biggest heroes in the world of science.
 

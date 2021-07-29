@@ -6,7 +6,7 @@ author: christian
 tags: [ live, tool, software ]
 ---
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/vfaSGJISkNc" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("vfaSGJISkNc") %>
 
 In [this week's episode](https://www.youtube.com/watch?v=vfaSGJISkNc) ... lots of things have happened. There was no clear outline this time, but we further talked about the dangers of automatization and how clever apps can dumb _you_ down.
 

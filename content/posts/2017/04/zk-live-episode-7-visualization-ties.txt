@@ -6,7 +6,7 @@ author: christian
 tags: [ live, tagging, hyperlink, folgezettel ]
 ---
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/nQw5ySLxDR8" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("nQw5ySLxDR8") %>
 
 In [this week's episode](https://www.youtube.com/watch?v=nQw5ySLxDR8), Sascha pulled out the digital pen and visualizes the notes from the archive that grew over the past couple of episodes. You'll see how local structures turn into entry points of new topics and how note sequences ("Folgezettel") can be created from a messy start.
 

@@ -9,7 +9,7 @@ image: "202008211453_textmate.jpg"
 
 [TextMate][] is a free, open-source macOS text editor that we mention on this site since forever. It is also damn good at navigating files in a big folder. So it's a good alternative to dedicated Zettelkasten software.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/d-x8MpM4yDE" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("d-x8MpM4yDE") %>
 
 In this video, I demonstrate the basic interaction patterns for TextMate to get a plain text Zettelkasten working: how to navigate around, make use of the folder-relative "Open Quickly" command, and create new notes. You know, everything you really need to be productive.
 

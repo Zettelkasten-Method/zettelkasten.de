@@ -6,7 +6,7 @@ author: christian
 tags: [ live, reading, collect ]
 ---
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/ZKNyirFHVAU" frameborder="0" allowfullscreen></iframe>
+<%= insert_youtube("ZKNyirFHVAU") %>
 
 In [today's episode](https://www.youtube.com/watch?v=ZKNyirFHVAU) we used our crappy English (I don't know what went wrong today) to talk about misconceptions when using the Zettelkasten: you cannot automate yourself away. The archive always needs an intelligent (!) user to help generate ideas, and you need to take note of them for later retrieval.
 

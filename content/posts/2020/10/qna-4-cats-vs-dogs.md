@@ -6,7 +6,7 @@ author: sascha
 tags: [ video, qna ]
 description: "Animals, communities, and brain lateralization"
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oLF9QWO0nj8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<%= insert_youtube("oLF9QWO0nj8") %>
 
 [A video about animals and brain lateralization.](https://youtu.be/oLF9QWO0nj8)
 
