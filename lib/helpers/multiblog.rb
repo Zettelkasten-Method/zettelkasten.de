@@ -382,7 +382,7 @@ module My
                    border: border)
     end
 
-     def insert_image_group(urls: [], caption: "", border: true)
+    def insert_image_group(urls: [], caption: "", border: true)
       raise "urls must not be empty" if urls.empty?
 
       border_class = (border == true) ? "" : "post-figure--borderless"
@@ -415,11 +415,12 @@ module My
     def insert_image(file: nil, title: "", caption: "", link: nil, relative: nil, border: true)
       raise "file expected" unless file
 
-      href = link || unless relative.nil?
-                       relative_path_for relative, @item
-                     else
-                       file
-                     end
+      href = link
+      href ||= if relative.nil?
+                 file
+               else
+                 relative_path_for relative, @item
+               end
 
       figcaption = %Q{<figcaption class="post-figure__caption">#{caption}</figcaption>} if caption
 
