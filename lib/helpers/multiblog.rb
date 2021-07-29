@@ -428,9 +428,10 @@ module My
       %Q{<figure class="post-figure #{border_class}"><a href="#{href}"><img alt="#{title}" src="#{file}" class="post-figure__image"/></a>#{figcaption}</figure>}
     end
 
-    def insert_youtube(id)
+    def insert_youtube(id, caption: nil)
       raise "youtube video id expected" unless id && !id.to_s.empty?
-      %Q{<figure class="post-figure youtube"><iframe src="https://www.youtube-nocookie.com/embed/#{id}" frameborder="0" allowfullscreen></iframe></figure>}
+      figcaption = %Q{<figcaption class="post-figure__caption">#{caption}</figcaption>} if caption
+      %Q{<figure class="post-figure youtube"><iframe src="https://www.youtube-nocookie.com/embed/#{id}" frameborder="0" allowfullscreen></iframe>#{figcaption}</figure>}
     end
 
     def fulltext_for(item)
