@@ -427,6 +427,11 @@ module My
       %Q{<figure class="post-figure #{border_class}"><a href="#{href}"><img alt="#{title}" src="#{file}" class="post-figure__image"/></a>#{figcaption}</figure>}
     end
 
+    def insert_youtube(id)
+      raise "youtube video id expected" unless id && !id.to_s.empty?
+      %Q{<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/#{id}" frameborder="0" allowfullscreen></iframe>}
+    end
+
     def fulltext_for(item)
       item.compiled_content(snapshot: :pre)
     end
