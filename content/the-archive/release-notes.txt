@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2021-03-23 07:31:00 +0100
+updated_at: 2021-08-04 20:49:20 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,15 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## v1.7.0 Beta (2021-08-04)
+
+- **New:** Complete replacement of the note editor component, backed by the super fast MultiMarkdown parser. This means everything is faster now. Typing, selecting notes, resizing the sidebars -- just about everything where the editor is involved. Also some weird syntax edge cases are now resolved.
+
+**Known issues:** Restoring the last scroll position when re-visiting of a note a bit flaky. The issue does not appear when you click on notes in the results list. It only appears when you use the arrow keys.
+
+Please report any Markdown styling you didn't expect to look the way it does to support via the app's Help menu.
+
 
 ## v1.6.3 (2021-05-16)
 
