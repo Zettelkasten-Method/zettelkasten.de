@@ -431,7 +431,7 @@ module My
     def insert_youtube(id, caption: nil)
       raise "youtube video id expected" unless id && !id.to_s.empty?
       figcaption = %Q{<figcaption class="post-figure__caption">#{caption}</figcaption>} if caption
-      %Q{<figure class="post-figure youtube"><iframe src="https://www.youtube-nocookie.com/embed/#{id}" frameborder="0" allowfullscreen></iframe>#{figcaption}</figure>}
+      %Q{<figure class="post-figure youtube"><div class="video-container"><iframe src="https://www.youtube-nocookie.com/embed/#{id}" frameborder="0" allowfullscreen></iframe></div>#{figcaption}</figure>}
     end
 
     def fulltext_for(item)
