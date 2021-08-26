@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2021-08-04 20:49:20 +0100
+updated_at: 2021-08-26 13:24:16 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -9,14 +9,29 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.7.0 Beta (2021-08-04)
+## v1.7.1 Beta (2021-08-26)
 
-- **New:** Complete replacement of the note editor component, backed by the super fast MultiMarkdown parser. This means everything is faster now. Typing, selecting notes, resizing the sidebars -- just about everything where the editor is involved. Also some weird syntax edge cases are now resolved.
-
-**Known issues:** Restoring the last scroll position when re-visiting of a note a bit flaky. The issue does not appear when you click on notes in the results list. It only appears when you use the arrow keys.
+- **Fixed:** Wiki link detection in MultiMarkdown front-matter.
+- **Fixed:** "Problems during archive initialization" is presented only once, and after you dismiss the alert, the same errors will not bug you again.
+- **Fixed:** Opening a note in The Archive for the first time could auto-select text sometimes. Now looking at a note for the first time appropriately starts at the beginning of the document.
+- **Fixed:** Restoring the old scroll position of a note now works reliably.
+- **Fixed:** Opening links in new window or new tab with the new editor.
+- **Fixed:** Auto-linking of URLs: clean-up of broken links fixed, and while links lists used to work while you type, once you changed the list layout, the clickable link would vanish.
+- **Fixed:** While we don't allow inline images to be displayed in some cases, the paths are now always clickable. Now also skips image syntax inside comments.
+- **Fixed:** Character composition using accents, or using Japanese or Chinese input methods, used to be interruptible by external file changes.
+- **Changed:** When a file is removed before The Archive could read it for the first time, this will not raise an error anymore and is just going to be ignored. This improved compatibility with apps like Typora that implement non-standard file save operations.
+- **Changed/Fixed:** Links and other URLs inside code blocks and inline code spans aren't recognized as clickable anymore.
+- **Changed:** Definition list items that span multiple lines indent all lines visually like all the other lists.
+- **New:** Hidden preference `isRestoringScrollPosition` to disable restoration of note scroll positions.
+- **New:** If you want to use real tabs, you can customize their width to 2 or 4 characters (n-width).
+- **New:** Pressing the tab key inside a list always indents the current line.
 
 Please report any Markdown styling you didn't expect to look the way it does to support via the app's Help menu.
 
+## v1.7.0 Beta (2021-08-04)
+
+- **New:** Complete replacement of the note editor component, backed by the super fast MultiMarkdown parser. This means everything is faster now. Typing, selecting notes, resizing the sidebars -- just about everything where the editor is involved. Also some weird syntax edge cases are now resolved.
+- Known issue: Restoring the last scroll position when re-visiting of a note a bit flaky. The issue does not appear when you click on notes in the results list. It only appears when you use the arrow keys. (Fixed in v1.7.1)
 
 ## v1.6.3 (2021-05-16)
 
