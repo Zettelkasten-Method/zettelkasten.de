@@ -1,5 +1,5 @@
 ---
-title: "Field Report 2: Lessons Learned From Processing \"Team of Rivals\""
+title: "Field Report #2: Lessons Learned From Processing \"Team of Rivals\""
 created_at: 2021-06-09 19:57:36 +0100
 kind: article
 author: "@boxcariii"
