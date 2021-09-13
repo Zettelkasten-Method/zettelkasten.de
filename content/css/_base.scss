@@ -281,6 +281,8 @@ blockquote {
 .tool-author--single h3, .tool-review h3 { margin-right: 0.5em; }
 
 .post { margin-bottom: 3em; }
+// In a listing like the home page
+#posts .post { margin-bottom: 5em; }
 
 .post__title,
 .page--attributed .page__title {
@@ -298,6 +300,8 @@ blockquote {
   font-size: $small-size;
 
   li { display: inline-block; }
+  a, a:link, a:hover, a:visited { color: $color-text; }
+  a, a:link, a:visited { border-color: $color-text; }
 }
 .post-figure {
   margin-top: 2em;
