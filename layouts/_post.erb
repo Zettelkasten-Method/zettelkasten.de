@@ -1,10 +1,11 @@
 <%
-# Keep in sync with blog & _posts_page
+# /!\ Keep in sync with blog & _posts_page
+# Used for all listings of posts, full text or as excerpts.
 %>
 
 <article class="post <%= Post::post_class_for(@post)%>">
     <header>
-        <h1 class="title post__title"><%= Post::post_title_link_for(@post) %></h1>
+        <h2 class="title post__title"><%= Post::post_title_link_for(@post) %></h2>
         <ul class="post__meta">
             <li class="time"><%= Post::time_tag_for(@post) %></li>
             <li class="author"><%= Post::author_tag_for(@post) %></li>

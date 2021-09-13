@@ -203,8 +203,14 @@ blockquote {
 
 // (Clickable) Post titles
 .main article h1 { font-size: 1.5em; }
-#posts .post__title a { color: $color-text; border-bottom-color: transparent; }
-#posts .post__title a:hover { border-bottom-color: $color-text; }
+#posts .post__title {
+  font-family: $font-sans;
+  a {
+    color: $color-text;
+    border-bottom-color: transparent;
+    &:hover { border-bottom-color: $color-text; }
+  }
+}
 
 .post--link {
   .post__title { font-size: $base-size; }
