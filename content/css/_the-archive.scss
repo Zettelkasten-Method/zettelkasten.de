@@ -37,36 +37,6 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     opacity: 0.8;
   }
 
-  .actions {
-    font-family: $font-sans;
-
-    text-align: center;
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-
-    margin-bottom: 2em;
-  }
-  .action__item.action__item--button {
-    display: block;
-    margin-top: 2em;
-  }
-
-  .action {
-    padding: 1em 2em;
-    display: block;
-    box-sizing: border-box;
-    border-bottom-width: 0 !important;
-
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
-
-    border-radius: 2px
-  }
-
   .action__icon {
     margin-right: 0.5em;
     margin-left: -0.5em;
@@ -189,7 +159,6 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
       margin-top: 2em;
     }
     .action__item.action__item--info.appinfo--hero { margin-top: 0; }// S4D
-    .action--download { }
 
     .appinfo {
       text-align: left;
@@ -239,16 +208,9 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     .hero img { }
     .appname { font-size: 400%; }
 
-    .actions { }
-    .actions-row { margin: 2em 0; }
     .action__item.action__item--button {}
     .action__item.action__item--info { margin-top: 2.6em; }
     .action__item.action__item--info.appinfo--hero { margin-top: 0; }// S4D
-    .action { }
-    .action__icon { }
-
-    .action--download { }
-    .action--download:hover {}
 
     .hero .action--buy {
       font-weight: normal;
@@ -256,7 +218,6 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
       padding-top: 1em;
       padding-bottom: 1em;
     }
-    .action--buy:hover {}
 
     .feature-img-container { text-align: center; }
     .feature-img--plaintext { margin-top: 1em; width: 80%; }
@@ -265,6 +226,7 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
 
     .monomyth {
       transform: rotate(3deg);
+      margin-top: 2em;
       padding: 2em 3em;
     }
     .monomyth {

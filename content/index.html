@@ -5,18 +5,22 @@ bodyclass: homepage
 ---
 
 <section id="posts" class="grid-whole">
-  <header class="visuallyhidden">
+  <header>
       <h1>Latest Posts</h1>
   </header>
 
-  <% sorted_posts()[0..7].each do |post| %>
-    <%= render '/_post.*', :post => post, :fulltext => true %>
+  <% sorted_posts().take(5).each do |post| %>
+    <%= render '/_post.*', :post => post, :fulltext => false %>
   <% end %>
 
   <hr />
 
   <footer>
-    <p><a class="posts__browse" href="/posts/">Browse the Blog Archive &rarr;</a></p>
+    <ul class="actions grid-whole clearfix">
+      <li class="action__item action__item--button">
+        <a class="action action--gotoblog" href="https://zettelkasten.de/posts/">Read more in the Blog Archive</a>
+      </li>
+    </ul>
   </footer>
 </section>
 

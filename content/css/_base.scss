@@ -203,8 +203,14 @@ blockquote {
 
 // (Clickable) Post titles
 .main article h1 { font-size: 1.5em; }
-#posts .post__title a { color: $color-text; border-bottom-color: transparent; }
-#posts .post__title a:hover { border-bottom-color: $color-text; }
+#posts .post__title {
+  font-family: $font-sans;
+  a {
+    color: $color-text;
+    border-bottom-color: transparent;
+    &:hover { border-bottom-color: $color-text; }
+  }
+}
 
 .post--link {
   .post__title { font-size: $base-size; }
@@ -275,6 +281,8 @@ blockquote {
 .tool-author--single h3, .tool-review h3 { margin-right: 0.5em; }
 
 .post { margin-bottom: 3em; }
+// In a listing like the home page
+#posts .post { margin-bottom: 5em; }
 
 .post__title,
 .page--attributed .page__title {
@@ -292,6 +300,8 @@ blockquote {
   font-size: $small-size;
 
   li { display: inline-block; }
+  a, a:link, a:hover, a:visited { color: $color-text; }
+  a, a:link, a:visited { border-color: $color-text; }
 }
 .post-figure {
   margin-top: 2em;

@@ -448,7 +448,7 @@ module My
       html = Nokogiri::HTML::DocumentFragment.parse(fulltext_for(item))
       summary = ""
 
-      html.css('p').each do |p, index|
+      html.css('p, li').each do |p, index|
         p.css("a").each do |a|
           a.remove if a['href'].start_with?('#fn:')
         end

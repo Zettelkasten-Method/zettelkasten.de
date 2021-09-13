@@ -10,7 +10,7 @@ module Menu
 #    ]
   }
   MAIN_MENU = [
-    { title: "Blog",            link: "/",                icon: "folder" },
+    { title: "Blog",            link: "/posts/",          icon: "folder" },
     { title: "Getting Started", link: "/posts/overview/", icon: "compass" },
     { title: "Coaching",        link: "/coaching/",       icon: "easel" },
     { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
@@ -40,8 +40,10 @@ module Menu
   end
 
   def link_to_unless_root_of_hierarchy(text, menu_item)
-    if current_path = @item_rep&.path and menu_item.submenu_includes_path?(current_path)
-      "<span class=\"active\">#{text}</span>"
+    if menu_item.submenu_includes_path?(@item_rep&.path)
+      %Q{<span class="active">#{text}</span>}
+    # elsif path.to_s.start_with?(menu_item.link)
+    #   %Q{<span class="active">#{link_to_unless_current(text, menu_item.link)}</span>}
     else
       link_to_unless_current(text, menu_item.link)
     end
@@ -106,6 +108,7 @@ module Menu
 
     def submenu_includes_path?(path)
       return false unless has_submenu?
+      return false unless path
       return submenu.map { _1[:link] }.include?(path)
     end
 
