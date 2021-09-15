@@ -300,8 +300,11 @@ blockquote {
   font-size: $small-size;
 
   li { display: inline-block; }
+
+  // Visually tone-down meta links to not distract from other links, esp. "Continue Reading"
   a, a:link, a:hover, a:visited { color: $color-text; }
   a, a:link, a:visited { border-color: $color-text; }
+  a:hover { border-color: transparent; }
 }
 .post-figure {
   margin-top: 2em;
