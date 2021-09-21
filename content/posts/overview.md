@@ -114,7 +114,7 @@ When your archive grows, you'll add [Structural Layers in your Zettelkasten](/po
 
 ## History of the Zettelkasten
 
-If you want to know more about the history of the Zettelkasten Method, check out the [ongoing research on Luhmann's Zettelkasten by Johannes Schmidt](https://uni-bielefeld.de/soz/luhmann-archiv/publikationen.html) at Bielefeld University. Johannes is the _Guardian of the Godfather's Zettelkasten_, and his work is genuinely interesting for knowledge work nerds.
+If you want to know more about the history of the Zettelkasten Method, check out the [ongoing research on Luhmann's Zettelkasten by Johannes Schmidt](https://niklas-luhmann-archiv.de/projekt/publikationen) at Bielefeld University. Johannes is the _Guardian of the Godfather's Zettelkasten_, and his work is genuinely interesting for knowledge work nerds.
 
 We also cover the relevant bit of history in [our introduction](/introduction) to explain how the Zettelkasten Method works.
 
