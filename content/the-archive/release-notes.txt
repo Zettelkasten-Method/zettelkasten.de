@@ -9,6 +9,18 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.7.2 Beta (2021-10-01)
+
+Mostly improvements for the MultiMarkdown accuracy and compatibility.
+
+- **Fixed:** `matchOrCreate` URL scheme action correctly uses the given title again.
+- **Fixed:** Huge performance bottleneck related to a macOS Touch Bar API problem that was affecting large document performance when typing or moving the insertion point.
+- **Fixed:** Visual multi-line indentation using real tabs at 2 and 4 spaces width.
+- **Fixed:** HTML comment range colors now apply correctly to the whole range including the opening `<!--` and closing `-->` syntax elements when the comment spans multiple lines.
+- **Fixed:** Wikilinks and hashtags are detected inside multi-line comments.
+- **Fixed:** Wikilinks after an exclamation mark like `this![[...]]` were recognized as image syntax (`![...]`). Now the wikilinks take precedence.
+- **Changed:** Visual indentation of multi-line paragraphs now applies to *any* line, not just list items, so you can soft-wrap and indent code blocks and regular paragraphs as well.
+
 ## v1.7.1 Beta (2021-08-26)
 
 - **Fixed:** Wiki link detection in MultiMarkdown front-matter.
