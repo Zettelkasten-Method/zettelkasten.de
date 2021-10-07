@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2021-08-26 13:24:16 +0100
+updated_at: 2021-10-07 10:24:49 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,11 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## v1.7.3 Beta (2021-10-07)
+
+- **Fixed:** The last hashtag in a line wasn't clickable when it was followed by a space.
+- **Fixed:** Metadata block recognizion, both for YAML headers and MultiMarkdown headers.
 
 ## v1.7.2 Beta (2021-10-01)
 
