@@ -1,5 +1,5 @@
 ---
-title: "Live Zettelkasten Session on Sep 10th"
+title: "Live Zettelkasten Session on Sep 10th (Episode 3)"
 created_at: 2021-09-06 09:54:31 +0100
 kind: article
 author: sascha

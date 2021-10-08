@@ -1,11 +1,11 @@
 ---
-title: "Live Zettelkasten Session on Sep 24th"
-created_at: 2021-09-23 14:37:31 +0100
+title: "Live Zettelkasten Session on Oct 8th (Episode 4)"
+created_at: 2021-10-08 10:21:31 +0100
 kind: article
 author: sascha
 tags: [ live ]
 preview: fulltext
-description: "Tune in on 2021-09-24, 7:30 p.m. CEST, for episode 4"
+description: "Tune in on 2021-10-08, 7:30 p.m. CEST, for episode 4"
 ---
 Dear Zettlers,
 

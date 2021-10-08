@@ -1,5 +1,5 @@
 ---
-title: "Live Zettelkasten Session on Aug 27th"
+title: "Live Zettelkasten Session on Aug 27th (Episode 2)"
 created_at: 2021-08-16 10:36:31 +0100
 kind: article
 author: sascha
