@@ -43,7 +43,7 @@ The Zettelkasten, as we know it today, really took off with Niklas Luhmann, the 
 
 ## Luhmann's Zettelkasten
 
-Niklas Luhmann was a highly productive social scientist. He published 50 books and over 600 articles[^2020-05-14-non-publish]. He didn't achieve this on his own. He had quite a companion.
+Niklas Luhmann was a highly productive social scientist. He published 50 books and over 600 articles.[^2020-05-14-non-publish] He didn't achieve this on his own. He had quite a companion.
 
 [^2020-05-14-non-publish]: See <https://pub.uni-bielefeld.de/download/2942475/2942530/jschmidt_2016_niklas%20luhmanns%20card%20index.pdf>.
 
