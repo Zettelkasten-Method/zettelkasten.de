@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2021-10-07 10:24:49 +0100
+updated_at: 2021-11-03 21:43:14 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,11 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## v1.7.4 Beta (2021-11-03)
+
+- **Fixed:** Background colors of e.g. inline code right after a list item's bullet stretched leftwards up to the bullet character. That's no longer an issue.
+- **Changed:** Various speed improvements of the Markdown rendering engine, especially in larger documents.
 
 ## v1.7.3 Beta (2021-10-07)
 
