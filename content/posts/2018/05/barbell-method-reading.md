@@ -84,6 +84,8 @@ A text consists of four different types of parts:
   </tbody>
 </table>
 
+**Update 2021-11-12:** Fixed a typo in the list above, where the 4th point said "difficult to understand". Had to be "easy", though. Thanks for [pointing this out](https://forum.zettelkasten.de/discussion/comment/13544/#Comment_13544), @Brettelectric!
+
 The second time you read the book you concentrate on what you have marked as useful or difficult to understand. During this second step you already sorted out a lot that has no use to you. Now you can concentrate on the two most important habits of reading (good) texts:
 
 **First**, get inspired by useful yet easy to understand texts. A very good example is *Deep Work* by Cal Newport. For me, it was not a book that gave me much new information. But Cal presented it in an inspiring way. This is the reason I recommend it. Not because of some arcane knowledge but because of its performative nature. I developed quite a few ideas in reference to this book. When something is useful yet easy to understand it is an opportunity to produce and go with the flow. Write a lot!
