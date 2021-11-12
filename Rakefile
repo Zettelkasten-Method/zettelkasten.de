@@ -74,6 +74,6 @@ task :thumb do
 end
 
 desc "Generate the whole site."
-task :generate_all => [ :generate ]
+task :generate_all => [ :thumb, :generate ]
 
 task :default => :generate_all
