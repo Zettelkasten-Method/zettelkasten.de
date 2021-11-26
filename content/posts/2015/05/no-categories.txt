@@ -37,7 +37,7 @@ Creating categories is a top-down process. You start with the structure and then
 
 ## Organic Growth & Brain--Zettelkasten-Fit
 
-Having a Zettelkasten is all about being effective. The brain--Zettelkasten-fit is important. The better your knowledge management system suits the way you think, the easier it'll be to work with the things you put inside. 
+Having a Zettelkasten is all about being effective. The brain--Zettelkasten-fit is important. The better your knowledge management system suits the way you think, the easier it'll be to work with the things you put inside.
 
 Our brain doesn't work with categories, at least not initially. It may invent categories to become more efficient, but we don't start our lives on pre-existing categories.
 
@@ -63,10 +63,10 @@ All of this is very liberating: you don't have to come up with a sufficiently de
 
 Everything starts with a word. Create a note. Save it. Continue to add more stuff. Then see what happens over the course of months.
 
-It's easy to correct course if the supporting structure is flexible. Trust your creativity in finding supportive rules with time. 
+It's easy to correct course if the supporting structure is flexible. Trust your creativity in finding supportive rules with time.
 
-[accommodation]: http://www.learningandteaching.info/learning/assimacc.htm
-[assimilation]: http://www.learningandteaching.info/learning/assimacc.htm
+[accommodation]: http://web.archive.org/web/20160305015224/http://www.learningandteaching.info/learning/assimacc.htm
+[assimilation]: http://web.archive.org/web/20160305015224/http://www.learningandteaching.info/learning/assimacc.htm
 [slate]: http://en.wikipedia.org/wiki/Tabula_rasa
 [nfs]: http://markforster.squarespace.com/blog/2008/6/9/noguchi-filing-system.html
-[commonsense]: http://takingnotenow.blogspot.com/2009/10/darnton-on-commonplace-books.html
+[commonsense]: http://web.archive.org/web/20140822053423/http://takingnotenow.blogspot.com/2009/10/darnton-on-commonplace-books.html
