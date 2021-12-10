@@ -6,6 +6,7 @@ author: sascha
 tags: [ writing, anxiety, publishing, belief ]
 image: 201410161818_scared-baby.jpg
 vgwort: https://vg01.met.vgwort.de/na/a4759c7874ba445bb1a0ed8a4882f5e4
+updated_at: 2021-12-10 10:01:23 +0100
 ---
 
 The first "first draft" I ever finished was a short-ish ebook about writing. I tend to be very heavy on research with my projects. As I realized that my Zettelkasten archive already contains content worth several books, I started to research on how to write a book.
@@ -16,11 +17,11 @@ The Zettelkasten Method means that you embrace a technique that is called _"Schr
 
   [^understanding]: I believe that this is true. It is a big difference if you write something down. The precision of your thoughts will be greatly enhanced. If you want to understand something, write about it.
 
-During the time that I have read books and articles about writing, I put a book on writing together -- just on the fly. It took me no more than two weeks to write the first draft. I was thrilled and moved through the first editing process quite fast. I realized that I could write a short book on a topic in just a couple of weeks. 
+During the time that I have read books and articles about writing, I put a book on writing together -- just on the fly. It took me no more than two weeks to write the first draft. I was thrilled and moved through the first editing process quite fast. I realized that I could write a short book on a topic in just a couple of weeks.
 
-It showed me that the Zettelkasten Method is as powerful as my hypothesis predicted. Contrary to Christian, I researched on the Zettelkasten Method with the methods of history and philosophy. I never had a big technical background. 
+It showed me that the Zettelkasten Method is as powerful as my hypothesis predicted. Contrary to Christian, I researched on the Zettelkasten Method with the methods of history and philosophy. I never had a big technical background.
 
-Did you know that Luhmann wrote approximately 70 Books and 450 Articles during his career, all on paper, only using a typewriter and hunt and peck typing? This is a freakish output, even if we would not take his lack of modern technology into consideration. 
+Did you know that Luhmann wrote approximately 70 Books and 450 Articles during his career, all on paper, only using a typewriter and hunt and peck typing? This is a freakish output, even if we would not take his lack of modern technology into consideration.
 
 <%= insert_youtube("qRSCKSPMuDc&start=2247") %>
 
@@ -42,7 +43,7 @@ My hesitations killed a project in the cradle that I was thrilled about and put 
 
 ## A new frosting on an old cake
 
-A couple days ago, I had a conversation with a 50 year old guy from the gym I work in addition to private clients. He told me about some of his private problems and how they affect him on a deep level. 
+A couple days ago, I had a conversation with a 50 year old guy from the gym I work in addition to private clients. He told me about some of his private problems and how they affect him on a deep level.
 
 I told him about how I deal with problems and that many problems don't even show up if you have found your mission in life. If you choose your dogma properly and realize it according to your peripheral beliefs and your true self, life is still hard, but simple.
 
@@ -52,13 +53,13 @@ At the same evening of this event, my old project on writing sneaked into my min
 
 I didn't write a manual to my method. I wrote a piece on writing from the perspective of a budding writer. I offer my perspective on methods on writing only.
 
-It doesn't seem to make such a difference, but as I changed my perspective on that writing piece, I was totally happy with publishing it.  
+It doesn't seem to make such a difference, but as I changed my perspective on that writing piece, I was totally happy with publishing it.
 
-This shift in perspective changed my view on this project dramatically. Rather than aiming for putting a perfect piece out, being afraid that I make a mistake, I publish it as it is: a snap shot in time which I can continue to work on. I will revise this book "[On Writing More](http://leanpub.com/on-writing-more)" as often as I learn something new on writing. It is simply the result of my practice, and it's an illustrative example of what you can achieve with the Zettelkasten Method. 
+This shift in perspective changed my view on this project dramatically. Rather than aiming for putting a perfect piece out, being afraid that I make a mistake, I publish it as it is: a snap shot in time which I can continue to work on. I will revise this book "On Writing More" as often as I learn something new on writing. It is simply the result of my practice, and it's an illustrative example of what you can achieve with the Zettelkasten Method.
 
 So, I decided to quiet my hesitations about this project.
 
-I will extend and upgrade it on a regular basis as the corresponding part of my Zettelkasten note archive grows. Once someone purchased it, he'll have life long access to everything I learn about writing and how I think he can implement it into a process of research and life in general. 
+I will extend and upgrade it on a regular basis as the corresponding part of my Zettelkasten note archive grows. Once someone purchased it, he'll have life long access to everything I learn about writing and how I think he can implement it into a process of research and life in general.
 
 This is a kind of project I can present to the public while being honest with myself.
 
