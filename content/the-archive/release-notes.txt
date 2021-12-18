@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2021-11-17 11:19:53 +0100
+updated_at: 2021-12-18 09:47:59 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -9,7 +9,9 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.7.5 Beta (2021-11-17)
+## v1.7.5 (2021-11-17)
+
+First non-Cutting Edge release since v1.6.3. Contains all changes since then. For Cutting Edge updates, this version introduces the following changes:
 
 - **Fixed:** Clicking of inline image paths that contain subdirectories.
 - **Fixed:** Finding the end of a `#hashtag` when it ends with special characters.
