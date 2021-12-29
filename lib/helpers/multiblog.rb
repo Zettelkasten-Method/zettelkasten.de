@@ -443,17 +443,20 @@ module My
         return fulltext_for(item)
       end
 
-      return item[:excerpt] unless item[:excerpt].nil?
-
-      html = Nokogiri::HTML::DocumentFragment.parse(fulltext_for(item))
       summary = ""
 
-      html.css('p, li').each do |p, index|
-        p.css("a").each do |a|
-          a.remove if a['href'].start_with?('#fn:')
+      if not item[:excerpt].nil?
+        summary = item[:excerpt]
+      else
+        html = Nokogiri::HTML::DocumentFragment.parse(fulltext_for(item))
+
+        html.css('p, li').each do |p, index|
+          p.css("a").each do |a|
+            a.remove if a['href'].start_with?('#fn:')
+          end
+          summary << p.inner_html + " "
+          break if summary.length > 300
         end
-        summary << p.inner_html + " "
-        break if summary.length > 300
       end
 
       %Q{<p class="summary">#{summary}</p><p class="readmore"><a class="readmore__link" href="#{item.path}">Continue reading...</a></p>}
