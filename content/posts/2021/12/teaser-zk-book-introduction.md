@@ -19,7 +19,7 @@ This is taken from the introduction to the second edition of the German book on 
 
 The biggest challenge in dealing with digital knowledge work is to get away from the idea that you are interacting with an application interface. We are used to being guided by the inner logic of a software application. All too quickly, we believe that we need this or that software because it does something unique, something irreplaceable for us. This makes us dependent and puts shackles on our thinking. This is harmful to our minds.
 
-A side effect of these shackles is that we submit to the assumptions of the programmers of the software. Software is not neutral, of course. Build into them are the programmers' assumptions about what are good and bad practices in knowledge work. For this reason, I have decided to present the notebox method in a way that is independent of all software.
+A side effect of these shackles is that we submit to the assumptions of the programmers of the software. Software is not neutral, of course. Build into them are the programmers' assumptions about what are good and bad practices in knowledge work. For this reason, I have decided to present the Zettelkasten Method in a way that is independent of all software.
 
 ## German
 
