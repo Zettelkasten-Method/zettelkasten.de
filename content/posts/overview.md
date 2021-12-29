@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-updated_at: 2021-05-27 19:11:10 +0100
+updated_at: 2021-12-29 10:30:21 +0100
 toc: true
 ---
 {{toc}}
@@ -34,7 +34,7 @@ Using a Zettelkasten is about optimizing your workflow of learning and producing
 ## Principles
 
 > Principles are higher than techniques. Principles produce techniques in an instant.<br>
-> ---Ido Portal
+> ---[Ido Portal](https://www.youtube.com/watch?v=iNry_JLb4yE)
 
 * [Principle of Atomicity](/posts/create-zettel-from-reading-notes/): put things that belong together into a single note, [give it an ID](/posts/add-identity/), but limit its content to that single topic.
 * Our post about the [Principle of Connectivity](/posts/luhmann-folgezettel-truth/) highlights how different techniques can implement the same underlying principle: links vs note sequences.
