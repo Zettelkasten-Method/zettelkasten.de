@@ -4,27 +4,9 @@ updated_at: 2020-10-23 14:45:00 +0100
 bodyclass: coaching
 ---
 
-<%
-def box
-<<HTML
-<aside class="coaching__tldr">
-  <h2>Zettelkasten Coaching in&nbsp;a&nbsp;Nutshell</h2>
-  <ul>
-    <li>Learn from a decade of experience and dedication</li>
-    <li>Live 1-on-1 Skype coaching</li>
-    <li>80 EUR (US$95) per hour</li>
-  </ul>
-  <div class="coaching__action-container">
-    #{email("saschafast@gmail.com", text: "Send Me an E-Mail", classes: "coaching__action")}
-  </div>
-</aside>
-HTML
-end
-%>
-
 Do you need help or just want to take the next step in note-taking, thinking tools and creative knowledge work in general? I am there for you and happy to equip you with powerful tools for your journey.
 
-<%= box %>
+<%= coaching_box %>
 
 The Zettelkasten Method is a collection of techniques and tools based on universal principles of knowledge work. However, my focus is on you and how to individualize the approach to your needs without any dogma.
 
@@ -47,4 +29,4 @@ If so, I am in your team. Send me an email to <%=email("saschafast@gmail.com")%>
 
 I am Sascha, and I have been a coach for a decade now. My mission is to teach people how to overcome challenges and transform themselves to match any challenges. One of the challenges is knowledge work. I used the Zettelkasten Method to teach knowledge work to high performing clients who wanted to take the next step in excellence as well as clients struggling with depression who just wanted to finish their master's thesis. We will talk on Skype and use the screensharing feature as our platform of teaching.
 
-<%= box %>
+<%= coaching_box %>
