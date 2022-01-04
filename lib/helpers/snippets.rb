@@ -6,7 +6,7 @@ module Snippets
   <h2>Zettelkasten Coaching in&nbsp;a&nbsp;Nutshell</h2>
   <ul>
     <li>Learn from a decade of experience and dedication</li>
-    <li>Live 1-on-1 Skype coaching</li>
+    <li>Live 1-on-1 video chat</li>
     <li>80 EUR (US$95) per hour</li>
   </ul>
   <div class="coaching__action-container">
