@@ -1,6 +1,7 @@
 ---
 title: "The Zettelkasten Method for Fiction I – Knowledge is Knowledge"
 created_at: 2022-01-04 16:51:40 +0100
+updated_at: 2022-01-06 09:12:58 +0100
 kind: article
 author: sascha
 tags: [ fiction, reading, note-taking, process ]
@@ -13,7 +14,9 @@ description: "The source does not have an influence on the nature of the knowled
 
 Quite frequently, the question how to make the Zettelkasten Method work for fiction arises. The simple answer is: There is no need to modify the Zettelkasten Method because it only provides the overarching architecture for your notes and their connections. If your sources are fictional or non-fictional is just a question of the content your notes hold.
 
-To demonstrate this claim, I will show you ways to process a quote from the great book *The Godfather* by Mario Puzo. Please forgive me for not providing the exact bibliographical data since I read the book in German. All quotes are taken from [Goodreads](https://www.goodreads.com/work/quotes/266624-the-godfather?page=1).
+To demonstrate this claim, I will show you ways to process a quote from the great movie *The Godfather* by Mario Puzo. Please forgive me for not providing the exact bibliographical data since I read the book in German. All quotes are taken from [Goodreads](https://www.goodreads.com/work/quotes/266624-the-godfather?page=1).[^goodr]
+
+[^goodr]: Some quotes might be from the book. I have no way to tell from the Goodreads data.
 
 ## The Quotes
 
