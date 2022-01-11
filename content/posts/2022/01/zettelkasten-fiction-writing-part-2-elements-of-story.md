@@ -8,6 +8,7 @@ image: 20220111180002_dogs-in-line.jpg
 vgwort: https://vg07.met.vgwort.de/na/a70a59b2380b4e05a98473682246e897
 description: "Know what you are trying to process when you process fiction, and be skilled in handling these pieces."
 excerpt: "In part 1 we concluded that knowledge is knowledge, independent of its source. Applying the Zettelkasten Method to fiction books does not change anything if we are dealing with knowledge .But if you want to use the Zettelkasten Method to analyse a story as a story? Then you need to know what to look for besides knowledge."
+discussion_id: 2088
 ---
 
 **Recap:** In [part 1](https://zettelkasten.de/posts/zettelkasten-fiction-writing-part-1-knowledge/) we concluded that knowledge is knowledge, independent of its source. Applying the Zettelkasten Method to fiction books does not change anything if we are dealing with knowledge.
