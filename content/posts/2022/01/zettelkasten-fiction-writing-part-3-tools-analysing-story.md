@@ -152,7 +152,7 @@ Then the analysis is finished. The result will be a model of the book *The Godfa
 
 If you want to analyse stories with your Zettelkasten, create a tool box and let it live within your Zettelkasten. If you go to work, do it like any good worker: First, [prepare the tools](https://en.wikipedia.org/wiki/Mise_en_place) you need and keep the tool box at hand. And second, know what you are aiming for.
 
-This is how you can use the Zettelkasten Method to analyse stories. In the next installment of this series, we will learn how to create stories using the Zettelkasten Method.
+This is how you can use the Zettelkasten Method to analyse stories. In the [next installment](https://zettelkasten.de/posts/zettelkasten-fiction-writing-part-4-create-story) of this series, we will learn how to create stories using the Zettelkasten Method.
 
 ----
 
