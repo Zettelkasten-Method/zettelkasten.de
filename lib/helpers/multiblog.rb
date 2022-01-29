@@ -123,7 +123,11 @@ module My
         end
 
         if author[0] == "@"
-          return %Q{by <a href="https://forum.zettelkasten.de/profile/#{author[1...]}">#{author}</a>}
+          if author_full_name = item[:author_full_name]
+            return %Q{by #{author_full_name} (<a href="https://forum.zettelkasten.de/profile/#{author[1...]}">#{author}</a>)}
+          else
+            return %Q{by <a href="https://forum.zettelkasten.de/profile/#{author[1...]}">#{author}</a>}
+          end
         end
 
         author_name = author.capitalize

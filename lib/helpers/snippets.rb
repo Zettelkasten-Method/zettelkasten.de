@@ -34,7 +34,10 @@ HTML
   # via https://github.com/avdgaag/nanoc-template
   def meta_tag(key)
     value = @item[key] || @config[:meta_data][key]
-    '<meta name="%s" content="%s">' % [key, value] if value
+    if key == :author && value[0] == "@" && author_full_name = item[:author_full_name]
+      value = %Q{#{author_full_name} (#{value})}
+    end
+    return '<meta name="%s" content="%s">' % [key, value] if value
   end
 
   def extract_identifiers(route)
