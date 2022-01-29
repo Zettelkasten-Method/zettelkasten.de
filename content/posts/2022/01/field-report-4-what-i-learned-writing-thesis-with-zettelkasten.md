@@ -3,9 +3,14 @@ title: "Field Report #4: I spent six months using a Zettelkasten to write my the
 created_at: 2022-01-28 17:16:22 +0100
 kind: article
 author: "@Sociopoetic"
+author_full_name: "Caleb Winebrenner"
 tags: [ field-report-series, writing, thesis ]
 discussion_id: 2112
 excerpt: "We users of a Zettelkasten strive for a set of ideals: that we don't only collect knowledge but integrate it and use it in the service of our own knowledge work; that use of a Zettelkasten generates new connections and insights for us in that work (as Luhmann said, as a conversation partner); that our organization of notes allows for clear thinking and organized ideas."
+---
+
+*This is a guest post by Caleb Winebrenner (@Sociopoetic) from our forums where he shares his practical insights. Enjoy!*
+
 ---
 
 We users of a Zettelkasten strive for a set of ideals: that we don't only collect knowledge but integrate it and use it in the service of our own knowledge work; that use of a Zettelkasten generates new connections and insights for us in that work (as Luhmann said, as a conversation partner); that our organization of notes allows for clear thinking and organized ideas.
@@ -27,7 +32,7 @@ The thesis-writing process revealed three dictums that I'm carrying forward:
 3. **Material from a thesis draft should feed back into the Zettelkasten**
     As my thesis writing dominated my schedule, I began to work primarily in that document[^2]. One thing I found myself doing, however, was to put Zettel UIDs as comments[^3] in the draft. This led to the discovery that some material in my thesis writing was *not* in my Zettelkasten and should be, especially quotes or figures from scholars I was in dialogue with. I've not completed this step yet, but I intend to. Even as the thesis is a finished product, it is still a product that can feed my Zettelkasten. In doing so, it will make my future scholarship more robust. Relatedly, some expressions of key ideas that I finally seemed to get right in the final draft of my thesis are probably deserving of inclusion as separate (atomic) notes for use in other projects -- with the caveat that I will still end up rewriting in order to meet the goals of the project at hand.
 
-All of this served as a reminder that my Zettelkasten is not static. A finished thesis, however, has to be in some sense. Continuing to add to and edit my Zettelkasten is essential. Again, I trust the Zettelkasten Method; it really worked for me. For the part of the scholarly process it's designed for (collecting, organizing, and analyzing ideas), it's spectacularly good. For other part of the process (some synthesis, writing), it's best in a supporting role.
+All of this served as a reminder that my Zettelkasten is not static. A finished thesis, however, has to be in some sense. Continuing to add to and edit my Zettelkasten is essential ([be like the bee](https://forum.zettelkasten.de/discussion/1693/ant-spider-bee)). Again, I trust the Zettelkasten Method; it really worked for me. For the part of the scholarly process it's designed for (collecting, organizing, and analyzing ideas), it's spectacularly good. For other part of the process (some synthesis, writing), it's best in a supporting role.
 
 [^1]: So much so I found a LaTeX package to import markdown files. It's a useful package for some writing goals (a short essay, perhaps), but not for a complex academic text.
 [^2]: Technically, a folder of documents.
