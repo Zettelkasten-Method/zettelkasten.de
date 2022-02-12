@@ -66,13 +66,13 @@ _Permanent notes_ are self-contained notes that end up in the slip-box or in a r
 > Permanent notes, which will **never** be thrown away and contain the necessary information in themselves in a **permanently understandable way**. They are always stored in the same way in the same place, either **in the reference system** or, written **as if for print**, **in the slip-box**.<br>
 > (Ahrens, 41)
 
+Ahrens recommends that permanent notes be written in "your own words." (Ahrens, 23, 24, 37).
+
 ### Literature notes: a subcategory of permanent notes
 
 A _literature note_ is a source reference in a reference manager, optionally with one or more attached notes.
 
 The term 'literature note' derives from the note cards on which Niklas Luhmann, the prolific sociologist and originator of the Zettelkasten Method, recorded bibliographic references (Ahrens, 18). Occasionally Luhmann wrote a few brief remarks on the other side of these cards (Ahrens, 18, 43; Schmidt 2013, 170). Despite the ambiguous terminology, a literature note is a reference in a reference manager, such as Zotero.  Ordinarily one doesn't refer to bibliographic references as notes, although it is possible to attach notes to bibliographic entries in Zotero. In Ahrens, the reference manager is where those notes would go (Ahrens 43).
-
-Literature notes always end up in the reference manager.
 
 ### Zettels: a subcategory of permanent notes
 
@@ -80,7 +80,7 @@ What about the notes that go into the slip-box? Since Ahrens doesn't give them a
 
 A _Zettel_ is a permanent note that isn't a literature note.
 
-Ahrens refers to these notes as "the main notes in the slip-box" in exactly one place (Ahrens, 44).   Since Ahrens doesn't provide examples of Zettels or offer a standard template for notes, I offer a template for free at <https://github.com/flengyel/Zettel>.
+Ahrens refers to these notes as "the main notes in the slip-box" in exactly one place (Ahrens, 44).  Since Ahrens doesn't provide examples of Zettels or offer a standard template for notes, I offer a template for free at <https://github.com/flengyel/Zettel>.
 
 #### Malleability?
 
