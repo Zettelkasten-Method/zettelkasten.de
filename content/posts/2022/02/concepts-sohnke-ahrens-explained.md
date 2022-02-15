@@ -21,7 +21,7 @@ Terminological troubles beset the account of note categories in _How To Take Sma
 
 ## Note categories named and unnamed
 
-Ahrens discusses five categories of notes: three main descriptive categories of notes:  _fleeting notes_, _permanent notes_ and _project notes_; and two subcategories of permanent notes: _literature notes_ and _Zettels_, although the term _Zettel_ occurs nowhere in Ahrens (Ahrens,  41). Italicized terms are defined in "Note categories in detail" below, after some remarks on the components of a Zettekasten and on workflow in the Zettelkasten Method according to Ahrens.
+Ahrens discusses five categories of notes: three main descriptive categories of notes:  _fleeting notes_, _permanent notes_ and _project notes_; and two subcategories of permanent notes, _literature notes_ and _Zettels_, although the term _Zettel_ occurs nowhere in Ahrens (Ahrens,  41). Italicized terms are defined in "Note categories in detail" below, after some remarks on the components of a Zettekasten and on workflow in the Zettelkasten Method according to Ahrens.
 
 
 ## Zettelkasten components
