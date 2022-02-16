@@ -1,5 +1,5 @@
 ---
-title: "Zettelkasten Method, 2nd Edition Teaser: Declare Software Independence to Unshackle Your Mind"
+title: "Book Teaser (2nd Edition): Declare Software Independence to Unshackle Your Mind"
 created_at: 2021-12-29 10:32:33 +0100
 kind: article
 author: sascha

@@ -1,5 +1,5 @@
 ---
-title: "Zettelkasten Method, 2nd Edition Teaser: Flow Diagram of the Zettelkasten Method"
+title: "Book Teaser (2nd Edition): Flow Diagram of the Zettelkasten Method"
 created_at: 2022-02-16 15:39:50 +0100
 kind: article
 author: sascha
