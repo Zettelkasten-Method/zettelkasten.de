@@ -2,6 +2,7 @@
 title: "From Fleeting Notes to Project Notes – Concepts of \"How to Take Smart Notes\" by Sönke Ahrens"
 kind: article
 created_at: 2022-02-10 08:41:01 +0100
+updated_at: 2022-02-16 10:15:00 +0100
 author: "@ZettelDistraction"
 author_full_name: "F Lengyel"
 tags: [ concept, terminology, note-taking ]
