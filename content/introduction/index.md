@@ -139,7 +139,7 @@ In contrast, referring to an atomic note is unambiguous: when you reference it, 
 
 The Zettelkasten is a tool for thought, thus it needs to treat individual thoughts as its base unit. In order to connect individual thoughts, give each thought an address to refer to. In the words of us "Zettlers": Create one Zettel per thought.
 
-**Third,** there is one Zettelkasten per person, and one person per Zettelkasten. Thinking is a different process from communicating with another person. You want your Zettelkasten to be a personal thinking tool.
+**Third,** there is one Zettelkasten per person, and one person per Zettelkasten. Thinking is a different process from communicating with another person. You want your Zettelkasten to be a personal thinking tool. If you don't keep your diary absolutely private, you wouldn't write some things down, and you'd filter other things, therefore distorting them. Writing for yourself is and should be different from writing for the public.
 
 That does not mean that it is never useful to create a shared, project-specific hypertext. But that is not what we are talking about when we talk about a Zettelkasten.
 
