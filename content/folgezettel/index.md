@@ -9,7 +9,7 @@ For all intents and purposes, we often translate the German word "Folgezettel" a
 
 We're writing this overview in the open. If you come across any relevant resource or piece of discussion you want to share, [contribute to the forum discussion][forum] or [email us][contact]
 
-## *The Great Folgezettel* Debate Timeline
+## *The Great Folgezettel Debate* Timeline
 
 - Daniel Lüdecke's original post; German original: ["Luhmanns Arbeitsweise im elektronischen Zettelkasten"](https://strengejacke.wordpress.com/2015/09/08/luhmanns-arbeitsweise-im-elektronischen-zettelkasten/)
 - Sascha's reaction: ["No, Luhmann was not about Folgezettel"](https://zettelkasten.de/posts/luhmann-folgezettel-truth/)
