@@ -1,8 +1,10 @@
 ---
 title: Folgezettel
 created_at: 2022-02-22 13:55:00 +0100
+kind: article
 description: "Overview of debates and arguments around the topic of 'Folgezettel'."
 ---
+
 On this page, we provide an overview of what came to be known as *The Great Folgezettel Debate* and its follow-up discussions.
 
 For all intents and purposes, we often translate the German word "Folgezettel" as "sequence of notes".
@@ -22,6 +24,10 @@ We're writing this overview in the open. If you come across any relevant resourc
 - @ZettelDistractions's [Mathematical Definition of Folgezettel](https://forum.zettelkasten.de/discussion/1982/mathematical-definition-of-folgezettel/p1), a work-in-progress piece.
 - @iamaustinha's ["Using Cartography as a Metaphor for Investigating the Great Folgezettel Debate"](https://forum.zettelkasten.de/discussion/1982/mathematical-definition-of-folgezettel/p1)
 - [All our posts and videos tagged #folgezettel](https://zettelkasten.de/posts/tags/folgezettel/)
+
+-----
+
+[Discuss this page on the forums][forum]
 
 [contact]: https://zettelkasten.de/legal/#contact
 [forum]: https://forum.zettelkasten.de/discussion/2152/
