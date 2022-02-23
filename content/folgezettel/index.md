@@ -24,6 +24,7 @@ We're writing this overview in the open. If you come across any relevant resourc
 - @ZettelDistractions's [Mathematical Definition of Folgezettel](https://forum.zettelkasten.de/discussion/1982/mathematical-definition-of-folgezettel/p1), a work-in-progress piece.
 - @iamaustinha's ["Using Cartography as a Metaphor for Investigating the Great Folgezettel Debate"](https://forum.zettelkasten.de/discussion/1982/mathematical-definition-of-folgezettel/p1)
 - [All our posts and videos tagged #folgezettel](https://zettelkasten.de/posts/tags/folgezettel/)
+- [Backwards Compatible Folgezettel ID format for Zettlr](https://forum.zettelkasten.de/discussion/comment/14575/#Comment_14575)
 
 -----
 
