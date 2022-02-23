@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2021-12-18 09:47:59 +0100
+updated_at: 2022-02-23 19:03:02 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,17 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## v1.7.6 (2022-02-23)
+
+- **New:** Drag & drop of image files into the app will use relative paths if the media directory is inside your notes' directory. Otherwise, the app asks if and how you want to import the file into your managed resources directory.
+- **New:** "Storage" settings pane to group where notes are stored and how resources are managed and imported.
+- **New:** Camera capture (webcam tool) allows to quickly retake pictures without having to cancel.
+- **Changed:** The media subfolder setting now also accepts absolute paths and shows a preview/reveal button.
+- **Changed:** Performance improvements and less memory usage with multiple tabs/windows open at the same time.
+- **Changed:** Right-click menu offers default shortcuts to interact with selected note(s).
+- **Fixed:** Camera capture (webcam tool) window buttons looked goofy on more recent macOS versions. Fixed their layout and their borders being cropped off. The preview also resizes when you resize the window now.
+- **Fixed:** Recognition of image files in macOS Catalina and earlier.
 
 ## v1.7.5 (2021-11-17)
 
