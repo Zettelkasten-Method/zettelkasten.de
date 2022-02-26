@@ -157,7 +157,7 @@ This is how you can use the Zettelkasten Method to analyse stories. In the [next
 ----
 
 
-Do you want someone to assist you with using the Zettelkasten Method? [I offer 1-on-1 coaching](https://zettelkasten.de/coaching/).
+Do you want me to assist you with using the Zettelkasten Method? [I offer 1-on-1 coaching](https://zettelkasten.de/coaching/).
 
 <%= coaching_box %>
 
