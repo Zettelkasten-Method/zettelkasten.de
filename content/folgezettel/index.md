@@ -22,7 +22,7 @@ We're writing this overview in the open. If you come across any relevant resourc
 - ["Different Kinds of Ties Between Notes"](https://zettelkasten.de/posts/kinds-of-ties/)
 - ["Understanding Hierarchy by Translating Folgezettel and Structure Zettel"](https://zettelkasten.de/posts/understanding-hierarchy-translating-folgezettel/)
 - @ZettelDistractions's [Mathematical Definition of Folgezettel](https://forum.zettelkasten.de/discussion/1982/mathematical-definition-of-folgezettel/p1), a work-in-progress piece.
-- @iamaustinha's ["Using Cartography as a Metaphor for Investigating the Great Folgezettel Debate"](https://forum.zettelkasten.de/discussion/1982/mathematical-definition-of-folgezettel/p1)
+- @iamaustinha's ["Using Cartography as a Metaphor for Investigating the Great Folgezettel Debate"](https://forum.zettelkasten.de/discussion/2148/using-cartography-as-a-metaphor-for-investigating-the-great-folgezettel-debate)
 - [All our posts and videos tagged #folgezettel](https://zettelkasten.de/posts/tags/folgezettel/)
 - [Backwards Compatible Folgezettel ID format for Zettlr](https://forum.zettelkasten.de/discussion/comment/14575/#Comment_14575)
 - [The Folgezettel Conundrum](https://medium.com/@ethomasv/the-folgezettel-conundrum-20b14dc986ec)
