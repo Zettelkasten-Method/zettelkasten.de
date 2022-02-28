@@ -170,6 +170,9 @@ code, pre {
   font-family: $font-mono;
   font-size: 90%; // about the same x-height
 }
+pre.highlight.markdown {
+  white-space: pre-wrap;
+}
 
 .feed-icon {
   margin-left: 0.3em;
