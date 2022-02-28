@@ -3,7 +3,7 @@
 <p>Comments are powered by <a href="https://forum.zettelkasten.de/">our forums.</a> Sign up there to join the discussion.</p>
 
 <div id="vanilla-comments"></div>
-    <script type="text/javascript">
+<script type="text/javascript">
     var vanilla_forum_url = 'https://forum.zettelkasten.de/';
     var vanilla_identifier = '<%= Comments::identifier_for(@item) %>';
     var vanilla_category_id = '11';
@@ -20,6 +20,5 @@
     vanilla.src = vanilla_forum_url + '/js/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(vanilla);
     })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a
-    href="http://vanillaforums.com/?ref_noscript">comments powered by Vanilla.</a></noscript>
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://vanillaforums.com/?ref_noscript">comments powered by Vanilla.</a></noscript>
