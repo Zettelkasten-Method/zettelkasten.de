@@ -1,8 +1,11 @@
 ---
 title: Folgezettel
 created_at: 2022-02-22 13:55:00 +0100
+updated_at: 2022-02-28 20:30:53 +0100
 kind: article
 description: "Overview of debates and arguments around the topic of 'Folgezettel'."
+discussion_id: 2152
+comments: true
 ---
 
 On this page, we provide an overview of what came to be known as *The Great Folgezettel Debate* and its follow-up discussions.
@@ -26,10 +29,6 @@ We're writing this overview in the open. If you come across any relevant resourc
 - [All our posts and videos tagged #folgezettel](https://zettelkasten.de/posts/tags/folgezettel/)
 - [Backwards Compatible Folgezettel ID format for Zettlr](https://forum.zettelkasten.de/discussion/comment/14575/#Comment_14575)
 - [The Folgezettel Conundrum](https://medium.com/@ethomasv/the-folgezettel-conundrum-20b14dc986ec)
-
------
-
-[Discuss this page on the forums][forum]
 
 [contact]: https://zettelkasten.de/legal/#contact
 [forum]: https://forum.zettelkasten.de/discussion/2152/
