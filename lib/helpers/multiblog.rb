@@ -225,6 +225,13 @@ module My
           classes << "page--attributed" if is_attributed?(item)
         }.join(' ')
       end
+
+      def comments_allowed_for(item)
+        return false if item[:comments].nil?
+        return false if item[:comments] == "off" or item[:comments] == false
+        return false if item[:discussion_id].nil?
+        return true
+      end
     end
 
     def latest_post(kind = "article")
