@@ -19,6 +19,7 @@ We're writing this overview in the open. If you come across any relevant resourc
 - Daniel Lüdecke's original post; German original: ["Luhmanns Arbeitsweise im elektronischen Zettelkasten"](https://strengejacke.wordpress.com/2015/09/08/luhmanns-arbeitsweise-im-elektronischen-zettelkasten/)
 - Sascha's reaction: ["No, Luhmann was not about Folgezettel"](https://zettelkasten.de/posts/luhmann-folgezettel-truth/)
 - Daniel Lüdecke then replied: ["You Underestimate the Power of the Dark Folgezettel"](https://zettelkasten.de/posts/luedeckes-follow-up/)
+- To which Sascha countered: ["No, I Do Not Underestimate the Power of the Dark Folgezettel – I Embrace Its Source of Power"](https://zettelkasten.de/posts/embrace-dark-folgezettel-power/)
 
 ## Understanding Folgezettel
 
