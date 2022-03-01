@@ -30,6 +30,7 @@ We're writing this overview in the open. If you come across any relevant resourc
 - [All our posts and videos tagged #folgezettel](https://zettelkasten.de/posts/tags/folgezettel/)
 - [Backwards Compatible Folgezettel ID format for Zettlr](https://forum.zettelkasten.de/discussion/comment/14575/#Comment_14575)
 - [The Folgezettel Conundrum](https://medium.com/@ethomasv/the-folgezettel-conundrum-20b14dc986ec)
+- [Folgezettel is More than Mechanism](https://bobdoto.computer/folgezettel-mechanics)
 
 [contact]: https://zettelkasten.de/legal/#contact
 [forum]: https://forum.zettelkasten.de/discussion/2152/
