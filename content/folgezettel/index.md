@@ -16,10 +16,13 @@ We're writing this overview in the open. If you come across any relevant resourc
 
 ## *The Great Folgezettel Debate* Timeline
 
-- Daniel Lüdecke's original post; German original: ["Luhmanns Arbeitsweise im elektronischen Zettelkasten"](https://strengejacke.wordpress.com/2015/09/08/luhmanns-arbeitsweise-im-elektronischen-zettelkasten/)
-- Sascha's reaction: ["No, Luhmann was not about Folgezettel"](https://zettelkasten.de/posts/luhmann-folgezettel-truth/)
-- Daniel Lüdecke then replied: ["You Underestimate the Power of the Dark Folgezettel"](https://zettelkasten.de/posts/luedeckes-follow-up/)
-- To which Sascha countered: ["No, I Do Not Underestimate the Power of the Dark Folgezettel – I Embrace Its Source of Power"](https://zettelkasten.de/posts/embrace-dark-folgezettel-power/)
+| \# | Post                                                         | Core Position                                                |
+| - | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1 | **Daniel Lüdecke:** ["How Luhmann worked"](https://strengejacke.wordpress.com/2015/09/08/luhmanns-arbeitsweise-im-elektronischen-zettelkasten/) (German) | Folgezettel are essential to Luhmann's style of working |
+| 2 | **Sascha:** ["No, Luhmann was not about Folgezettel"](https://zettelkasten.de/posts/luhmann-folgezettel-truth/) | Folgezettel are *one technique amongst many* to implement an underlying principle. |
+| 3 | **Daniel Lüdecke:** ["You Underestimate the Power of the Dark Folgezettel"](https://zettelkasten.de/posts/luedeckes-follow-up/) | Folgezettel provide context, links don't. They are not just *one technique amongst many*. They provide a unique mechanism and are therefore essential |
+| 4 | **Sascha:** ["No, I Do Not Underestimate the Power of the Dark Folgezettel – I Embrace Its Source of Power"](https://zettelkasten.de/posts/embrace-dark-folgezettel-power/) | Links provide rich context, Folgezettel can't, by design. Both provide the mechanistic foundation to a Luhmannesque Zettelkasten. But links provide vastly enriched contexts to connections. |
+
 
 ## Understanding Folgezettel
 
