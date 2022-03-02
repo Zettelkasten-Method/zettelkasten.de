@@ -62,6 +62,16 @@ A text consists of four different types of parts:
 3. Not useful but difficult to understand. You actually don't want to process these parts but you don't know if they are useful. Sharpen your mental theeth with them and then ignore them after you found out that they are not useful.
 4. Not useful and easy to understand. Ignore these.
 
+<style type="text/css">
+<!--
+#posts article table th,
+#posts article table td {
+  padding: 0.3em 1em;
+  vertical-align: middle;
+  border: 0;
+}
+-->
+</style>
 <table>
   <thead>
     <tr>

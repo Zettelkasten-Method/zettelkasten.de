@@ -254,13 +254,19 @@ blockquote {
   font-size: 0.8em;
 }
 
-#posts table {
+// Should look good on e.g.
+// - https://zettelkasten.de/folgezettel/
+// - https://zettelkasten.de/posts/barbell-method-reading/
+article table {
   font-family: $font-sans;
   font-size: $small-size;
   margin: 0 auto;
+
   th,
   td {
-    padding: 0.3em 1em;
+    padding: 0.3em 0.5em;
+    border: 1px solid $color-table-border;
+    vertical-align: top;
   }
 }
 
