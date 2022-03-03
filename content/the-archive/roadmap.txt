@@ -27,10 +27,10 @@ The following big features are planned to be added to version 1:
   <li class="todo done">Browser-Type Navigation</li>
   <li class="todo done">Multiple tabs/windows</li>
   <li class="todo done">Inline Image Preview</li>
+  <li class="todo done">Full MultiMarkdown Support</li>
   <li class="todo">Scriptability</li>
   <li class="todo">Tag Index</li>
   <li class="todo">Mass Text Replacement</li>
-  <li class="todo">Full MultiMarkdown Support</li>
 </ul>
 
 That's what you'll get with a license for version 1. There will be an upgraded version 2 coming afterwards, where we've planned to expand the app beyond the current scope of power and functionality. If you already own a license for version 1, you'll get a discount for your past support.
