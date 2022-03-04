@@ -31,7 +31,7 @@ We're writing this overview in the open. If you come across any relevant resourc
 - @ZettelDistractions's [Mathematical Definition of Folgezettel](https://forum.zettelkasten.de/discussion/1982/mathematical-definition-of-folgezettel/p1), a work-in-progress piece.
 - @iamaustinha's ["Using Cartography as a Metaphor for Investigating the Great Folgezettel Debate"](https://forum.zettelkasten.de/discussion/2148/using-cartography-as-a-metaphor-for-investigating-the-great-folgezettel-debate)
 - [All our posts and videos tagged #folgezettel](https://zettelkasten.de/posts/tags/folgezettel/)
-- [Backwards Compatible Folgezettel ID format for Zettlr](https://forum.zettelkasten.de/discussion/comment/14575/#Comment_14575)
+- [Backwards Compatible Folgezettel ID format for Zettlr](https://github.com/flengyel/Zettel/wiki/Backward-compatible-Folgezettel-IDs-and-user-friendly-timestamps-in-Zettlr)
 - [The Folgezettel Conundrum](https://medium.com/@ethomasv/the-folgezettel-conundrum-20b14dc986ec)
 - [Folgezettel is More than Mechanism](https://bobdoto.computer/folgezettel-mechanics)
 
