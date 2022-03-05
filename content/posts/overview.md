@@ -30,6 +30,7 @@ Using a Zettelkasten is about optimizing your workflow of learning and producing
 * You have to [interpret your sources](/posts/dont-rely-on-source-have-faith-in-yourself/) and then rely on your own thoughts henceforth to get the maximum benefit. Collecting information does not increase your knowledge.
 * [Use outlines](/posts/how-i-use-outlines-to-write-any-text/) to start with the first draft of your writing project.
 * Then [ease into writing](/posts/ease-into-writing/) by adding Zettel notes to the outline, pasting their contents in.
+* [Everything you want to know about "Folgezettel"](https://zettelkasten.de/folgezettel/): a curated overview.
 
 ## Principles
 
