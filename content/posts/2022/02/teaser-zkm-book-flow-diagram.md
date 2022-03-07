@@ -1,6 +1,7 @@
 ---
 title: "Book Teaser (2nd Edition): Flow Diagram of the Zettelkasten Method"
 created_at: 2022-02-16 15:39:50 +0100
+updated_at: 2022-03-07 11:43:47 +0100
 kind: article
 author: sascha
 tags: [ workflow, second-edition ]
@@ -19,3 +20,5 @@ This is a little flow diagram that illustrates the Zettelkasten Process with the
 *Flow diagrams can distract from the actual sites of value creation. They are mostly for superficial overview.* There are a couple of different ways to translate the Zettelkasten Method into a flow diagram. At this moment, two flow diagrams including this one are part of the book. I don't stress the concept of work*flow* since I fear that it is rather distracting from the more valuable aspects of the Zettelkasten Method. For example: It is by far more important to be able to write a good note than to have some process put in place to extract digital reading highlights from Kindle to the app of your choice.
 
 If you want to improve your own way of processing knowledge, you may ask yourself: **Do you have an unbroken chain of transforming the sources of your world into publications, improved habits and actions?**
+
+**Update 2022-03-07:** [There's an improved version.](http://zettelkasten.de/posts/zkm-teaser-improved-diagram-flow-value-creation/)
