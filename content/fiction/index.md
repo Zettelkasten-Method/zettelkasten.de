@@ -5,6 +5,7 @@ kind: article
 author: sascha
 tags: [ fiction ]
 toc: manual
+publish: false
 ---
 
 {{TOC}}
