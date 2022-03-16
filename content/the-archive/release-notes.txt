@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2022-02-23 19:03:02 +0100
+updated_at: 2022-03-16 14:04:39 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,14 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## v1.7.7 (2022-03-16)
+
+- **New:** You can right-click a file path to rename the file -- enabled for managed resources, like images in your media folder.
+- **New:** When all windows are closed, the Saved Searches shortcuts will open a new window and search there directly, just like Cmd+L would bring up a new window, if needed.
+- **Fixed:** Invoking Saved Searches via shortcuts or the main menu doesn't trigger a search in *all* windows/tabs, just the frontmost one.
+- **Fixed:** New files are created with a Zettel ID timestamp by default again if you never changed this setting manually.
+- **Changed:** Taking pictures with the webcam: some visual overhauls for contrast and to better hit the "take picture" button.
 
 ## v1.7.6 (2022-02-23)
 
