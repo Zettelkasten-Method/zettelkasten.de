@@ -1,9 +1,10 @@
 ---
 title: "First Teaser for the Second Edition of the Zettelkasten Method Book"
 created_at: 2020-11-13 10:31:28 +0100
+updated_at: 2022-03-23 12:45:18 +0100
 kind: article
 author: sascha
-tags: [ book, announcement, teaser ]
+tags: [ book, announcement, teaser, second-edition ]
 ---
 This little snippet is from the section *One Sentence Summary* in the chapter *How to Write Good Notes*.
 
