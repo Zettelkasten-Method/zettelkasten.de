@@ -4,7 +4,6 @@ created_at: 2013-10-18 17:49:54 +0200
 kind: article
 author: christian
 tags: [ announcement, book ]
-vgwort: ident
 preview: fulltext
 import:
     without_comments: true
