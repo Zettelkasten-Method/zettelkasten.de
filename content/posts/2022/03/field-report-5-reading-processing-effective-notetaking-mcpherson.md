@@ -10,9 +10,9 @@ description: "When you process a book into your Zettelkasten you should prepare 
 ---
 <%= insert_teaser_image %>
 
-When you process a book into your Zettelkasten you should prepare both the book and your Zettelkasten. The following is exactly how I prepared [*Effective Notetaking* by Fiona McPherson](https://www.amazon.com/dp/1927166527?&linkCode=ll1&tag=chritietwork-20&linkId=37967cb7c8ada98a34a19b7bfd8afdc1&language=de_DE&ref_=as_li_ss_tl):[^aff]
+When you process a book into your Zettelkasten you should prepare both the book and your Zettelkasten. The following is exactly how I prepared [*Effective Notetaking* by Fiona McPherson](https://amzn.to/3tPEsvj):[^aff]
 
-[^aff]: Affiliate link. We earn a % commission when you use our link, you don't pay extra.
+[^aff]: Affiliate link. I earn a little % commission when you use my link to purchase, but you don't pay extra.
 
 **I set clear expectations and why I am reading a book.** I don't read for joy, although I enjoy good books almost regardless of their topic. The usefulness of the book comes first. I expect *Effective Notetaking* to teach me on how to use note-taking to achieve specific goals. So I expect a combination of theoretical and practical knowledge.
 
