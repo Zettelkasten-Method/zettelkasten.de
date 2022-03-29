@@ -7,7 +7,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title><%= @item[:title] + " &bull; " if @item[:title] %><%= @config[:meta_data][:title] %></title>
+  <title><%= full_page_title %></title>
   <%= meta_tag :description %>
   <%= meta_tag :copyright %>
   <%= meta_tag :author %>
@@ -20,7 +20,7 @@
   <meta name="viewport" content="width=device-width">
 
   <% if @item[:kind] == 'article' %>
-  <meta name="og:title" content="<%= @item[:title] %>">
+  <meta name="og:title" content="<%= item_title_only %>">
   <meta name="og:type" content="article">
   <meta name="og:article:published_time" content="<%= @item[:created_at]%>">
   <meta name="og:url" content="<%= @config[:base_url] + @item.path %>">
