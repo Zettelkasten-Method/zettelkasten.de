@@ -64,7 +64,7 @@ GEM
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    memo_wise (1.6.0)
+    memo_wise (1.7.0)
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
@@ -116,7 +116,7 @@ GEM
     nokogiri (1.13.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    parallel (1.22.0)
+    parallel (1.22.1)
     pastel (0.8.0)
       tty-color (~> 0.5)
     progress (3.6.0)
@@ -153,6 +153,7 @@ GEM
       json (>= 1.8)
       nokogiri (~> 1.6)
       rexml (~> 3.2)
+    webrick (1.7.0)
     zeitwerk (2.5.4)
 
 PLATFORMS
@@ -184,6 +185,7 @@ DEPENDENCIES
   typogruby
   uglifier
   w3c_validators
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.3.7
