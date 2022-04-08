@@ -3,7 +3,7 @@ title: "Playing the Zettelkasten RPG Through Arbitrary Constraints"
 created_at: 2022-04-08 19:43:41 +0100
 kind: article
 author: "@pseudoevagrius"
-author_fullname: "Allen Wilson"
+author_full_name: "Allen Wilson"
 tags: [ workflow, writing, productivity, constraints, gamification ]
 rel_image: "nethack.gif"
 discussion_id: 2205

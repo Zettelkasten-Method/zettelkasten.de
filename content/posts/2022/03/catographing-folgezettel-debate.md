@@ -3,7 +3,7 @@ title: "Using Cartography as a Metaphor for Investigating the Great Folgezettel 
 created_at: 2022-03-05 12:20:35 +0100
 kind: article
 author: "@iamaustinha"
-author_fullname: "Austin Ha"
+author_full_name: "Austin Ha"
 tags: [ cartography, folgezettel, connect ]
 rel_image: "a99q7c1dalz3_folgezettel-forward-links.png"
 discussion_id: 2148
