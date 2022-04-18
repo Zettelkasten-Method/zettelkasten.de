@@ -1,12 +1,15 @@
 ---
 title: "The Zettelkasten Method for Fiction Writing"
-created_at: 2022-03-15 10:29:40 +0100
+created_at: 2022-04-18 20:41:40 +0100
 kind: article
 author: sascha
 tags: [ fiction ]
 toc: manual
-publish: false
+comments: on
+layout: blog
 vgwort: https://vg08.met.vgwort.de/na/864a444d776949ac879789c7c36a66d5
+description: "The Zettelkasten Method will support your goals relating to both consuming and producing fiction texts. It is designed to create a thinking machine out of your notes you are already making that supports all of your thinking."
+excerpt: "The Zettelkasten Method will support your goals relating to both consuming and producing fiction texts. It is designed to create a thinking machine out of your notes you are already making that supports all of your thinking."
 ---
 
 {{TOC}}
