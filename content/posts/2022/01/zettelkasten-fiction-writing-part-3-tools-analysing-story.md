@@ -1,6 +1,7 @@
 ---
-title: "The Zettelkasten Method for Fiction III - Tools and Products of Analysing Story"
+title: "The Zettelkasten Method for Fiction III - Create a Toolbox to Analyse Stories that Live in Your Zettelkasten"
 created_at: 2022-01-18 17:10:06 +0100
+updated_at: 2022-04-18 18:12:18 +0100
 kind: article
 author: sascha
 tags: [ fiction, process, toolbox, analysis ]
