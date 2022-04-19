@@ -115,7 +115,7 @@ When your archive grows, you'll add [Structural Layers in your Zettelkasten](/po
 
 ## Use Cases
 
-* [Zettelkasten for fiction writing](/fiction) is covered in a series that explains how little the Zettelkasten Method changes, and how much stays the same, and why.
+* [Zettelkasten for fiction writing](/fiction) is a collection of articles on how to apply the Zettelkasten Method to fiction.
 
 ## History of the Zettelkasten
 
