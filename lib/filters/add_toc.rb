@@ -17,6 +17,7 @@ class NokogiriTOC
 
     doc.xpath(selector).each do |node|
       current_heading = node.name
+      next if node['class']&.include? "skip-toc"
       @level[node.name] += 1
 
       @level["h3"] = 0 if node.name == "h2"

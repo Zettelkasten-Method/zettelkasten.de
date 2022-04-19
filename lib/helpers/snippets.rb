@@ -3,7 +3,7 @@ module Snippets
   def coaching_box
     <<HTML
 <aside class="coaching__tldr">
-  <h2>Zettelkasten Coaching in&nbsp;a&nbsp;Nutshell</h2>
+  <h2 class="skip-toc">Zettelkasten Coaching in&nbsp;a&nbsp;Nutshell</h2>
   <ul>
     <li>Learn from a decade of experience and dedication</li>
     <li>Live 1-on-1 video chat</li>
