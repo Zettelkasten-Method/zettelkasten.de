@@ -113,6 +113,10 @@ When your archive grows, you'll add [Structural Layers in your Zettelkasten](/po
 * Reading online
     * [How to read on the web efficiently](/posts/reading-web-rss-note-taking/), using and managing RSS feed subscriptions.
 
+## Use Cases
+
+* [Zettelkasten for fiction writing](/fiction) is covered in a series that explains how little the Zettelkasten Method changes, and how much stays the same, and why.
+
 ## History of the Zettelkasten
 
 If you want to know more about the history of the Zettelkasten Method, check out the [ongoing research on Luhmann's Zettelkasten by Johannes Schmidt](https://niklas-luhmann-archiv.de/projekt/publikationen) at Bielefeld University. Johannes is the _Guardian of the Godfather's Zettelkasten_, and his work is genuinely interesting for knowledge work nerds.
