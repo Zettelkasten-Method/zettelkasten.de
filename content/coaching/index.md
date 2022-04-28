@@ -29,15 +29,18 @@ But I highly recommend at least a second session: from my experience, people und
 
 We can truly improve your knowledge mastery if we conduct multiple sessions. Then we can hit an intensive training and mentoring. To encourage you to make this decision I will give you a big discount on if commit to multiple session at once:
 
-- &nbsp;1 Session @ 80€/95$
-- &nbsp;3 Sessions @ 210€/230$ total (12.5% off)
-- &nbsp;5 Sessions @ 325€/350$ total (18.75% off)
-- 10 Sessions @ 600€/650$ total (25% off)
+<style class="text/css">
+<!-- .sessions { display: inline-block; width: 2ch; text-align: right; } -->
+</style>
+
+- <span class="sessions">1</span> Session&nbsp; @ 80€/95$
+- <span class="sessions">3</span> Sessions @ 210€/230$ total (12.5% off)
+- <span class="sessions">5</span> Sessions @ 325€/350$ total (18.75% off)
+- <span class="sessions">10</span> Sessions @ 600€/650$ total (25% off)
 
 <%= coaching_email_request(text: "Send Me an E-Mail") %>
 
-<!--TODO Sneakpeak into coaching content: (Hier die Zettelfeedbacks einfügen -->
-<!--ct: falls das (nur) 7 Links ins Forum sind, vielleicht noch testimonials rauspicken, wie "@Will: I am in awe oh my god amazing wow"? --><!--sf: Stimmt. lass den Kommentar einfach hier drin. Dann weiß ich schon, was geht. -->
+<!-- TODO Sneakpeak into coaching content: (Hier die Zettelfeedbacks einfügen -->
 
 ## A Bit About Me
 
