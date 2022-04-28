@@ -10,7 +10,7 @@ module Snippets
     <li>80 EUR (US$95) per hour</li>
   </ul>
   <div class="coaching__action-container">
-    #{email("saschafast@gmail.com", text: "Send Me an E-Mail", classes: "coaching__action")}
+    #{coaching_email_request(text: "Send Me an E-Mail", classes: "coaching__action")}
   </div>
 </aside>
 HTML

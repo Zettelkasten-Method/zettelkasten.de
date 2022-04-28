@@ -1,32 +1,52 @@
 ---
 title: Zettelkasten Method Coaching
-updated_at: 2020-10-23 14:45:00 +0100
+updated_at: 2022-04-26 10:19:00 +0100
 bodyclass: coaching
 ---
 
-Do you need help or just want to take the next step in note-taking, thinking tools and creative knowledge work in general? I am there for you and happy to equip you with powerful tools for your journey.
+Do you need help or just want to take the next step in note-taking, creating thinking tools and creative knowledge work in general? I am there for you and happy to equip you with powerful tools for your journey.
 
-<%= coaching_box %>
+## Your Benefits
 
-The Zettelkasten Method is a collection of techniques and tools based on universal principles of knowledge work. However, my focus is on you and how to individualize the approach to your needs without any dogma.
+1. **Create value with each action you take.** A common misconception about note-taking is that it's only an intermediary step to create value. The truth is that note-taking can be the very act of value-creation itself!
+2. **Improve your thinking by learning how to develop a thought fully.** The fully developed thought might be the single most important part of the puzzle. A note should be fully developed, not just scribbles. Then and only then is it fertile soil to grow your thinking and problem-solving.
+3. **Create a thinking machine that multiplies the power of your mind.** This is where the Zettelkasten Method shines. It is the most powerful note-taking architecture.
+4. **Upgrade your mind to a new level.** Practicing the Zettelkasten Method is fitness training for your mind. Over time, you will blow yourself away by your next-level abilities.
+5. **Increase your productivity by setting up a powerful workflow.** Each step of your workflow will result in knowledge-based value creation if you set it up correctly.
 
-Are you
+## How I Will Help You
 
-- a struggling student, needing guidance in your workflow?
-- a student winning everything but wondering if you can unlock more potential?
-- a fiction writer, wanting to improve your background research?
-- a blogger who wants to put out content consistently?
-- trying to build a solid knowledge base?
-- trying to increase retention and improve recall of what you learn?
+Not everyone needs everything. You can choose the most valuable aspect of the coaching for you.
 
-Once you apply the Zettelkasten Method to your knowledge work, you can expect an increase in productivity and quality of your work on a consistent basis.
+1. I will teach you the foundational knowledge of the Zettelkasten Method. This includes what a note should look like and how to setup the basic architecture of your note-taking system.
+2. I will teach you how to develop a thought fully and create a note that is valuable for eternity.
+3. I will teach you how to create personal digital gardens that bear fruits.
+4. I will provide you with specialised knowledge tools if you have special needs.
 
-If so, I am in your team. Send me an email to <%=email("saschafast@gmail.com")%>. If you have any questions about the coaching, drop me a line.
+The first coaching session will take 60--90 minutes. In one session, I can teach the fundamentals of the Zettelkasten Method. The software you want to use doesn't matter when I teach the Zettelkasten Method.
+
+But I highly recommend at least a second session: from my experience, people underestimate what can be achieved if you learn how to develop a thought (and therefore, a note) fully, yet lack the skills to do so.
+
+We can truly improve your knowledge mastery if we conduct multiple sessions. Then we can hit an intensive training and mentoring. To encourage you to make this decision I will give you a big discount on if commit to multiple session at once:
+
+- &nbsp;1 Session @ 80€/95$
+- &nbsp;3 Sessions @ 210€/230$ total (12.5% off)
+- &nbsp;5 Sessions @ 325€/350$ total (18.75% off)
+- 10 Sessions @ 600€/650$ total (25% off)
+
+<%= coaching_email_request(text: "Send Me an E-Mail") %>
+
+<!--TODO Sneakpeak into coaching content: (Hier die Zettelfeedbacks einfügen -->
+<!--ct: falls das (nur) 7 Links ins Forum sind, vielleicht noch testimonials rauspicken, wie "@Will: I am in awe oh my god amazing wow"? --><!--sf: Stimmt. lass den Kommentar einfach hier drin. Dann weiß ich schon, was geht. -->
 
 ## A Bit About Me
 
 <img src="/coaching/about-sascha.jpg" class="coaching__about-me">
 
-I am Sascha, and I have been a coach for a decade now. My mission is to teach people how to overcome challenges and transform themselves to match any challenges. One of the challenges is knowledge work. I used the Zettelkasten Method to teach knowledge work to high performing clients who wanted to take the next step in excellence as well as clients struggling with depression who just wanted to finish their master's thesis. We will talk on Skype and use the screensharing feature as our platform of teaching.
+I am Sascha, and I have been a coach for a decade now. My mission is to teach people how to overcome challenges and transform themselves to match any challenges. One of the challenges is knowledge work. I used the Zettelkasten Method to teach knowledge work to high performing clients who wanted to take the next step in excellence as well as clients struggling with depression who just wanted to finish their master's thesis.
 
-<%= coaching_box %>
+## Get in Touch!
+
+So, what are you waiting for? You want to become a better learner and utilise the full power of the Zettelkasten Method. Send me an email and we'll set you up for success. I'll reply soon.
+
+<%= coaching_email_request(text: "Send Me an E-Mail") %>
