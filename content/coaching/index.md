@@ -1,6 +1,6 @@
 ---
 title: Zettelkasten Method Coaching
-updated_at: 2022-04-26 10:19:00 +0100
+updated_at: 2022-04-28 16:51:02 +0100
 bodyclass: coaching
 ---
 
@@ -13,6 +13,8 @@ Do you need help or just want to take the next step in note-taking, creating thi
 3. **Create a thinking machine that multiplies the power of your mind.** This is where the Zettelkasten Method shines. It is the most powerful note-taking architecture.
 4. **Upgrade your mind to a new level.** Practicing the Zettelkasten Method is fitness training for your mind. Over time, you will blow yourself away by your next-level abilities.
 5. **Increase your productivity by setting up a powerful workflow.** Each step of your workflow will result in knowledge-based value creation if you set it up correctly.
+
+<%= coaching_email_request(text: "Send Me an E-Mail") %>
 
 ## How I Will Help You
 
