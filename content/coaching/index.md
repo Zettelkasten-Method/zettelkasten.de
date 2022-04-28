@@ -33,10 +33,10 @@ We can truly improve your knowledge mastery if we conduct multiple sessions. The
 <!-- .sessions { display: inline-block; width: 2ch; text-align: right; } -->
 </style>
 
-- <span class="sessions">1</span> Session&nbsp; @ 80€/95$
-- <span class="sessions">3</span> Sessions @ 210€/230$ total (12.5% off)
-- <span class="sessions">5</span> Sessions @ 325€/350$ total (18.75% off)
-- <span class="sessions">10</span> Sessions @ 600€/650$ total (25% off)
+- <span class="sessions">1</span> Session&nbsp; @ 80€/US$95
+- <span class="sessions">3</span> Sessions @ 210€/US$230 total (12.5% off)
+- <span class="sessions">5</span> Sessions @ 325€/US$350 total (18.75% off)
+- <span class="sessions">10</span> Sessions @ 600€/US$650 total (25% off)
 
 <%= coaching_email_request(text: "Send Me an E-Mail") %>
 
