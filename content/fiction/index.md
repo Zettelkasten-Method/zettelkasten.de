@@ -6,6 +6,7 @@ author: sascha
 tags: [ fiction ]
 toc: manual
 comments: on
+rel_image: "reading-cat.jpg"
 layout: blog
 vgwort: https://vg08.met.vgwort.de/na/864a444d776949ac879789c7c36a66d5
 description: "The Zettelkasten Method will support your goals relating to both consuming and producing fiction texts. It is designed to create a thinking machine out of your notes you are already making that supports all of your thinking."
@@ -21,6 +22,8 @@ The Zettelkasten Method will support your goals relating to both consuming and p
 The Zettelkasten Method is commonly associated with non-fiction texts. However, the Zettelkasten Method is not tied to any goal within the realm of knowledge.
 
 ## Zettelkasten Method for Fiction by Sascha Fast
+
+<%= insert_teaser_image caption: %Q{Image by <a href="https://pixabay.com/users/bibbornem-217673/">Bibliotheek Bornem</a> from <a href="https://pixabay.com/">Pixabay</a>} %>
 
 <!--N How to read -->
 This four-part series is designed to get you started. You can learn about specific techniques on analysing and writing fiction. Read this series as an inspiration what you *can* do, not what you *should* do.
