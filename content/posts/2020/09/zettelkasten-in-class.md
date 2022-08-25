@@ -1,13 +1,14 @@
 ---
 title: "PhD Student Reporting What It's Like to Use a Zettelkasten for Classes"
 created_at: 2020-09-14 10:01:48 +0100
+updated_at: 2022-08-25 17:40:21 +0100
 kind: article
 author: "@jeannelking"
 tags: [ learning ]
 discussion_id: 1348
 ---
 
-> This is a recent highlight from the forums: [@jeannelking](https://forum.zettelkasten.de/profile/jeannelking) [reported][original] how the Zettelkasten Method and preparing for a PhD at university work together.
+*This is a recent highlight from the forums: [Jeannel King](http://jeannelking.com) [reported][original] how the Zettelkasten Method and preparing for a PhD at university work together.*
 
 [original]: https://forum.zettelkasten.de/discussion/1348/phd-student-reporting-what-its-like-to-use-a-zettelkasten-for-the-first-time-with-my-classes
 
@@ -35,3 +36,7 @@ This is the first semester where I'm using my Zettelkasten for my courses (PhD p
 Seriously. It's like Ahrens said in *How To Take Smart Notes*:  with a Zettelkasten your paper is basically written as you read. All you have to do is pull it forth when it's time.
 
 If you are a student and are wondering if it's worth starting a Zettelkasten - it is!
+
+----
+
+**Update 2022-08-25:** Check out [the follow-up two years later](https://zettelkasten.de/posts/2022/09/field-report-6-phd-student-3-years/)!
