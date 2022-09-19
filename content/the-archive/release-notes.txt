@@ -9,6 +9,16 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.7.8 Beta (2022-09-19)
+
+- **New:** Open Link in New Tab/New Window are now part of the context menu when you click on a link.
+- **New:** Users on the Cutting Edge channel can access a new "Debug" right click menu.
+- **Changed:** Removed the extra 'padding' of the active area around the divider between search result list and note editor. Changing it is now a hidden preference.
+- **Fixed:** Suppressing the note deletion confirmation dialog didn't persist across app launches.
+- **Fixed:** Renaming attachments could crash an internal macOS editor component.
+- **Fixed:** Renaming attachments (like images) with a `file://` URL scheme didn't retain the scheme part after the rename was completed, and instead reverted to regular paths.
+- **Fixed:** When allowing the theme to override fonts with relative/fractional font sizes for some elements, the relative size was applied twice for inline code `...` and wikilinks inside lists.
+
 ## v1.7.7 (2022-03-16)
 
 - **New:** You can right-click a file path to rename the file -- enabled for managed resources, like images in your media folder.
