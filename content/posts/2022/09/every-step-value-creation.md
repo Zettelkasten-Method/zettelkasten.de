@@ -40,8 +40,7 @@ These transformations are not merely a play of words. You *could* link, write in
 
 Look at the following diagram:
 
-<%= insert_image file: "/posts/field-report-5-reading-processing-effective-notetaking-mcpherson/value-creation-extended.png", caption:
-"Flow diagram of the Zettelkasten Method for the 2nd edition of the book" %>
+<%= insert_rel_image file: "value-creation-extended.png", caption: "Flow diagram of the Zettelkasten Method for the 2nd edition of the book" %>
 
 There is no step in the process that is not adding value in the sense of creating knowledge. That's by design.
 
