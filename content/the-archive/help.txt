@@ -38,19 +38,38 @@ To open these URLs, use the Terminal and use the `open` command, e.g.:
 
 Currently supported preferences (replace `<PREFNAME>` with these):
 
-- `enableInlineImagePreview` (boolean).<br>Default value: `true`.<br>Turn the image preview on and off.
 
-- `isHighlightingMarkdown` (boolean).<br>Default value: `true`.<br>Turn Markdown highlighting on and off.
+- `debugMode` (boolean).<br>
+  Default value: `false`.<br>
+  Shows additional tools to help diagnose problems, and develop themes and scripts.
 
-- `isRestoringScrollPosition` (boolean).<br>Default value: `true`.<br>Turn restoring of the previously saved position when revisiting a note on and off. Turned off (`false`), selecting a note will always scroll to the top.
+- `enableInlineImagePreview` (boolean).<br>
+  Default value: `true`.<br>
+  Turn the image preview on and off.
 
-- `maxInlineImagePreviewHeight` (number).<br>Default value: `400` pixels.<br>Preview images will always shrink to fit to the text column's width. This value determines tha maximum height, so you don't fill multiple screens worth of scrolling with tall screenshots. We recommend a value no larger than half your screen height.
+- `isHighlightingMarkdown` (boolean).<br>
+  Default value: `true`.<br>
+  Turn Markdown highlighting on and off.
 
-- `resultsCellHeightFactor` (fractional number).<br>Default value: `2.2`.<br>Changes the height of the search result list rows in relation to the text.
+- `isRestoringScrollPosition` (boolean).<br>
+  Default value: `true`.<br>
+  Turn restoring of the previously saved position when revisiting a note on and off. Turned off (`false`), selecting a note will always scroll to the top.
 
-- `splitViewDividerAreaExpansion` (number).<br>Default is unset, effectively `0` pixels.<br>Affects the padding around the divider hairline that activates the resize functionality, indicated by the `←|→` mouse cursor.
+- `maxInlineImagePreviewHeight` (number).<br>
+  Default value: `400` pixels.<br>
+  Preview images will always shrink to fit to the text column's width. This value determines tha maximum height, so you don't fill multiple screens worth of scrolling with tall screenshots. We recommend a value no larger than half your screen height.
 
-- `timeZoneOverride` (string).<br>Default is unset, effectively using the system's time zone.<br>`<VALUE>` can be an abbreviation like `UTC` or `CEST` and is case-sensitve. New note IDs will be generated for the current time in that time zone.
+- `resultsCellHeightFactor` (fractional number).<br>
+  Default value: `2.2`.<br>
+  Changes the height of the search result list rows in relation to the text.
+
+- `splitViewDividerAreaExpansion` (number).<br>
+  Default is unset, effectively `0` pixels.<br>
+  Affects the padding around the divider hairline that activates the resize functionality, indicated by the `←|→` mouse cursor.
+
+- `timeZoneOverride` (string).<br>
+  Default is unset, effectively using the system's time zone.<br>
+  `<VALUE>` can be an abbreviation like `UTC` or `CEST` and is case-sensitve. New note IDs will be generated for the current time in that time zone.
 
 ## Frequently Asked Questions
 

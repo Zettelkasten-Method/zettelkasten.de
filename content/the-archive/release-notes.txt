@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2022-03-16 14:04:39 +0100
+updated_at: 2022-09-19 13:50:35 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -12,7 +12,7 @@ layout: the-archive
 ## v1.7.8 Beta (2022-09-19)
 
 - **New:** Open Link in New Tab/New Window are now part of the context menu when you click on a link.
-- **New:** Users on the Cutting Edge channel can access a new "Debug" right click menu.
+- **New:** Access to new "Debug" menus with the `debugMode` [hidden preference](https://zettelkasten.de/the-archive/help/#hidden-preferences).
 - **Changed:** Removed the extra 'padding' of the active area around the divider between search result list and note editor. Changing it is now a hidden preference.
 - **Fixed:** Suppressing the note deletion confirmation dialog didn't persist across app launches.
 - **Fixed:** Renaming attachments could crash an internal macOS editor component.
