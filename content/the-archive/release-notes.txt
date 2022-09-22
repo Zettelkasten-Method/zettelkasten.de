@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2022-09-19 13:50:35 +0100
+updated_at: 2022-09-22 14:27:01 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -10,6 +10,8 @@ layout: the-archive
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
 ## v1.7.8 Beta (2022-09-19)
+
+Version retracted from auto-update because some users reported problems with their license being recognized.
 
 - **New:** Open Link in New Tab/New Window are now part of the context menu when you click on a link.
 - **New:** Access to new "Debug" menus with the `debugMode` [hidden preference](https://zettelkasten.de/the-archive/help/#hidden-preferences).
