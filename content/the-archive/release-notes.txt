@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2022-09-22 14:27:01 +0100
+updated_at: 2022-09-27 15:55:54 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,14 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## v1.7.9 Beta (2022-09-27)
+
+- **New:** You ca npaste images from the clipboard. The Archive creates an image from the clipboard contents and imports it into your resources directory, aka the "media" folder. For example, this works with screenshots via the system-wide ⌃⇧⌘4 shortcut, and with copied images from web browsers.
+- **New:** Create note from right-click menu in the search results list.
+- **New:** Console log viewer in the "Debug" menu, available with the `debugMode` [hidden preference](https://zettelkasten.de/the-archive/help/#hidden-preferences).
+- **Fixed:** Renaming a note from the right-click menu works without a selection, treating the clicked note as the to-be-renamed one.
+- **Fixed:** Special characters and emoji (that aren't part of your actual font used for typing) were prone to temporarily vanish sometimes.
 
 ## v1.7.8 Beta (2022-09-19)
 
