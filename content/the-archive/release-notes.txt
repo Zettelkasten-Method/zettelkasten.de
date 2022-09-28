@@ -11,7 +11,7 @@ layout: the-archive
 
 ## v1.7.9 Beta (2022-09-27)
 
-- **New:** You ca npaste images from the clipboard. The Archive creates an image from the clipboard contents and imports it into your resources directory, aka the "media" folder. For example, this works with screenshots via the system-wide ⌃⇧⌘4 shortcut, and with copied images from web browsers.
+- **New:** You can paste images from the clipboard. The Archive creates an image from the clipboard contents and imports it into your resources directory, aka the "media" folder. For example, this works with screenshots via the system-wide ⌃⇧⌘4 shortcut, and with copied images from web browsers.
 - **New:** Create note from right-click menu in the search results list.
 - **New:** Console log viewer in the "Debug" menu, available with the `debugMode` [hidden preference](https://zettelkasten.de/the-archive/help/#hidden-preferences).
 - **Fixed:** Renaming a note from the right-click menu works without a selection, treating the clicked note as the to-be-renamed one.
