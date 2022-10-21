@@ -11,6 +11,7 @@ end
 gem 'dotenv', '~> 2'
 gem 'sass', '~> 3'
 gem 'compass', '~> 1'
+gem 'terser', '~> 1.1'
 
 # Blogging
 gem 'activesupport'
