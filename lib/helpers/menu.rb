@@ -95,7 +95,7 @@ module Menu
     end
 
     def iconic(name)
-      %Q{<span aria-hidden="true" class="iconic" data-glyph="#{icon}"></span> } # Trailing space here
+      %Q{<span aria-hidden="true" class="iconic" data-glyph="#{icon}"></span>} + " " # Trailing space here
     end
 
     def submenu
