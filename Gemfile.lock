@@ -188,7 +188,7 @@ DEPENDENCIES
   sass (~> 3)
   systemu
   terminal-notifier
-  terser
+  terser (~> 1.1)
   typogruby
   uglifier
   w3c_validators
