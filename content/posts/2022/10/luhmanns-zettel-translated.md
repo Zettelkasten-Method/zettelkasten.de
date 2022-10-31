@@ -118,7 +118,7 @@ Personnel has been scarce and expensive for a long time, now it additionally bec
 
 > (<b>9/8</b>) Geist im Kasten? Zuschauer kommen. Sie bekommen alles zu sehen, und nichts als das – wie beim Pornofilm. Und entsprechend ist die Enttäuschung.
 
-Ghost in the box? Spectators visit. They get to see everything, and nothing but that - like in a porn movie. And the disappointment is correspondingly high.
+The human mind in a box? Spectators visit. They get to see everything, and nothing but that - like in a porn movie. And the disappointment is correspondingly high.
 
 -----
 
