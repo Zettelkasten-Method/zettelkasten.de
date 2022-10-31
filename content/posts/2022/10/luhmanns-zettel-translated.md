@@ -28,7 +28,7 @@ The productivity problem has to be based on a relation, namely on the relation o
 
 > (<b>9/8a1</b>) Der Zettelkasten ist unaufhörlich gewachsen, und ich habe versucht, so gut ich konnte und soweit meine Fähigkeiten reichen, davon zu profitieren.
 
-The Zettelkasten growed unceasingly, and I tried my best to profit from it within the reach of my capabilities.
+The Zettelkasten growed unceasingly, and I tried my best to benefit from it within the reach of my capabilities.
 
 -----
 
