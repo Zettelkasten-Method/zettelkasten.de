@@ -5,6 +5,7 @@ kind: article
 author: sascha
 tags: [ luhmann ]
 image: luhmann.png
+description: "Faithful, English translation of Niklas Luhmann's original notes on Zettelkasten."
 ---
 I thought it would be nice if there was a common knowledge base on what Luhmann himself wrote on Zettelkasten. So here is a translation of all 18 notes of [the section 9/8 of his second Zettelkasten.](https://niklas-luhmann-archiv.de/bestand/zettelkasten/zettel/ZK_2_NB_9-8_V) I tried to find a middle ground between a translation that is faithful to his style, the nature of the German language, and the least ambigious English I can come up with.
 
@@ -28,7 +29,9 @@ The productivity problem has to be based on a relation, namely on the relation o
 
 > (<b>9/8a1</b>) Der Zettelkasten ist unaufhörlich gewachsen, und ich habe versucht, so gut ich konnte und soweit meine Fähigkeiten reichen, davon zu profitieren.
 
-The Zettelkasten growed unceasingly, and I tried my best to profit from it within the reach of my capabilities.
+The Zettelkasten has grown incessantly, and I have tried, to the best of my ability, to profit from it.[^bobdoto]
+
+[^bobdoto]: By Bob Doto.
 
 -----
 
