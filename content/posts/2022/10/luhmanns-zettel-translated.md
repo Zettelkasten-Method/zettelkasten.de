@@ -109,19 +109,19 @@ There is a note in the Zettelkasten that contains the argument that refutes the 
 
 -----
 
-> (<b>9/8</b>) Thema: Kommunikation mit dem Zettelkasten: Wie kommt man zu einem adaequaten Partner, Junior-Partner? – wichtig, nachdem das Arbeiten mit Personal immer schwieriger und immer teurer wird. Zettels Wirklichkeit
+> (<b>9/8,1</b>) Thema: Kommunikation mit dem Zettelkasten: Wie kommt man zu einem adaequaten Partner, Junior-Partner? – wichtig, nachdem das Arbeiten mit Personal immer schwieriger und immer teurer wird. Zettels Wirklichkeit
 
 Topic: Communication with the Zettelkasten: How to get an adequate partner, junior partner? -- important after working with staff becomes more and more difficult and expensive. Zettel's reality
 
 -----
 
-> (<b>9/8</b>) Personal ist schon lange knapp und teuer, jetzt wird es zusätzlich ungebärdig und unleitbar. Die Mikroprozessoren sind angekündigt, aber noch nicht wirklich verfügbar. Das eigene Gedächtnis mangelhaft und entlastungsbedürftig. Überlegungen zu einem Versuch, sich ein Zweitgedächtnis zu schaffen.
+> (<b>9/8,2</b>) Personal ist schon lange knapp und teuer, jetzt wird es zusätzlich ungebärdig und unleitbar. Die Mikroprozessoren sind angekündigt, aber noch nicht wirklich verfügbar. Das eigene Gedächtnis mangelhaft und entlastungsbedürftig. Überlegungen zu einem Versuch, sich ein Zweitgedächtnis zu schaffen.
 
 Personnel has been scarce and expensive for a long time, now it additionally becomes unruly and unmanageable. Microprocessors have been announced, but are not really available yet. One's own memory is deficient and in need of relief. Considerations on an attempt to create a second memory.
 
 -----
 
-> (<b>9/8</b>) Geist im Kasten? Zuschauer kommen. Sie bekommen alles zu sehen, und nichts als das – wie beim Pornofilm. Und entsprechend ist die Enttäuschung.
+> (<b>9/8,3</b>) Geist im Kasten? Zuschauer kommen. Sie bekommen alles zu sehen, und nichts als das – wie beim Pornofilm. Und entsprechend ist die Enttäuschung.
 
 Ghost in the box? Spectators visit. They get to see everything, and nothing but that - like in a porn movie. And the disappointment is correspondingly high.
 
