@@ -1,12 +1,14 @@
 ---
 title: "English Translation of All Notes on Zettelkasten by Luhmann"
 created_at: 2022-10-31 08:45:02 +0100
+updated_at: 2022-11-02 08:11:45 +0100
 kind: article
 author: sascha
 tags: [ luhmann ]
 image: luhmann.png
-description: "Faithful, English translation of Niklas Luhmann's original notes on Zettelkasten."
+description: "Faithful English translation of Niklas Luhmann's original notes on Zettelkasten."
 ---
+
 I thought it would be nice if there was a common knowledge base on what Luhmann himself wrote on Zettelkasten. So here is a translation of all 18 notes of [the section 9/8 of his second Zettelkasten.](https://niklas-luhmann-archiv.de/bestand/zettelkasten/zettel/ZK_2_NB_9-8_V) I tried to find a middle ground between a translation that is faithful to his style, the nature of the German language, and the least ambigious English I can come up with.
 
 If there is some dispute about a particular translation, I will highlight the dispute within the translation and will link to the post in the forums. [Participate in the forums!][luh-forum]
@@ -31,7 +33,7 @@ The productivity problem has to be based on a relation, namely on the relation o
 
 The Zettelkasten has grown incessantly, and I have tried, to the best of my ability, to profit from it.[^bobdoto]
 
-[^bobdoto]: By Bob Doto.
+[^bobdoto]: Translation improved by Bob Doto.
 
 -----
 
