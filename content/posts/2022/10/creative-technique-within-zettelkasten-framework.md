@@ -7,6 +7,7 @@ tags: [ processing, creativity, truth, relevance, usefulness, beauty, simplicity
 rel_image: 2022-09-29-knowledge-flower.png
 vgwort: https://vg09.met.vgwort.de/na/65dcab417b1947ac98758a69b29f7f47
 description: "Truth, relevance, usefulness, beauty, simplicity: the 5 aspects of an idea."
+updated_at: 2022-11-15 16:48:21 +0100
 ---
 One of the greatest difficulties in understanding the Zettelkasten Method is to separate its specific characteristics from actual knowledge work. Or, how I like to phrase it: "Link knowledge, not notes." Working with our Zettelkasten is the physical (or digital) manifestation of our thinking. It provides a framework that allows us to think through writing and to create an increasingly complex thinking machine that can help us think deeper than being on our own. The Zettelkasten Method provides a framework for our thinking, but does not prescribe what and how we think.
 
@@ -67,6 +68,8 @@ Tseng's thinking tool idea is excellent for exploring a thought. But it is not a
 The difficulty of the Zettelkasten Method is not to be found in its complicatedness, but in translating techniques and methods into the Zettelkasten Framework. Tseng has done an excellent job of that here. With a slight change of the name and the correct classification of this thinking tool in relation to the Zettelkasten Method, it is (hopefully) 2% better.
 
 Her article [The essence of the Zettelkasten method, demystified](https://feeei.substack.com/p/the-essence-of-the-zettelkasten-method#%C2%A7the-compass-of-zettelkasten-thinking) is a recommended read!
+
+**Update (2022-11-15):** Vicky Zhao and Fei-Ling Tseng did a presentation and used the term “Idea Compass” in May which predates my article, so all credit goes to them. Check out their presentation if you want to see a presentation about this creative technique: [Vicky Zhao & Fei-Ling Tseng: The Compass of Zettelkasten Thinking: Associative Thinking Made Easy](https://www.linkingyourthinking.com/lytcon/vicky-and-fei-compass-of-zettelkasten-thinking)
 
 ---------
 
