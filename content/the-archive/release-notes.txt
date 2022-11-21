@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2022-11-19 12:08:49 +0100
+updated_at: 2022-11-21 10:14:49 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -9,9 +9,9 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.7.10 Beta (2022-11-19)
+## v1.7.10 Beta (2022-11-21)
 
-- **New:** When you copy images from the web browser and paste them into The Archive, the correct file type will be used, instead of a generic TIFF image. (Works best in Chrome at the moment, Safari and Firefox can be hit or miss.)
+- **New:** When you copy images from the web browser and paste them into The Archive, the correct file type will be used, instead of a generic TIFF image.
 - **New:** Using the Page Up/Page Down keys in the Omnibar scrolls the search results.
 - **New:** Cmd-W when opening external editors closes the floating filter.
 - **Fixed:** Cmd-Backspace when renaming a note will delete to the beginning of the text field instead of delete the note.
