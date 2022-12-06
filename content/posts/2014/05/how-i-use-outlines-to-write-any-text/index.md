@@ -1,7 +1,7 @@
 ---
 title: How I use Outlines to Write Any Text
 created_at: 2014-05-24 17:11:02 +0200
-updated_at: 2020-03-05 20:35:00 +0100
+updated_at: 2022-12-06 17:59:53 +0100
 kind: article
 author: christian
 tags: [ outline, writing, hub ]
@@ -21,6 +21,8 @@ Every item in the outline is going to be a full sentence. This way, I can rearra
 
 Remember, English is my second language only. Usually, I don't come up with sentences, paragraphs, or sections which work out-of-the-box. I have to re-write my texts a lot to create flow. Outlines help to separate composing a text from creating flow.
 
+<%= insert_teaser_image caption: %Q{Photo Credit: <a href="https://www.flickr.com/photos/33252379@N00/5337737384/">llamnudds</a> via <a href="https://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>} %>
+
 So, what's in for you?
 
 * Outlines are composed of movable parts, as opposed to finished paragraphs and blocks of texts.
@@ -39,10 +41,12 @@ This is a great relief when you write really large texts, too. Zoomed out, the o
 
 <%= insert_rel_image file: "201405242035_finished_t.png", title: "screenshot of finished outline", relative: "201405242035_finished.png" %>
 
-When I work on my [Zettelkasten book][zkbook] manuscript, I have to incorporate years' worth of notes into the outline.  There are two possible ways to assemble a draft with the help of notes from the archive:
+When I worked on my book manuscript, I had to incorporate years' worth of notes into the outline.  There are two possible ways to assemble a draft with the help of notes from the archive:
 
 1. Copy and paste everything into a single document and rewrite later. This creates a strong relationship between your draft and your notes right away. If you change the notes in the process, the changes won't be reflected in your draft.
 2. Reference notes instead of pasting their content. This is a much weaker relationship. You don't rely on the content of a note itself, but on the note's existence.
+
+If you want to know in more detail how to write a _book_ in particular, check out [the post "How to Write a Book – Without Even Trying (so hard)"](/posts/write-book-without-even-trying-so-hard/).
 
 Since I keep notes in my _Zettelkasten_ note archive, every note has a [unique identifier][id]. This identifier empowers me to reference notes by ID so I can defer copying the note's content:  at first, I merely decide that a note is relevant to a given part of the draft; later, after I have added other notes, maybe I changed my mind and now think a particular reference is superfluous. I simply remove the reference then. How would I untangle the mess if I pasted everything into the document from the start? I have no idea.
 
@@ -78,17 +82,20 @@ I think it's great that my outlines are Markdown-aware, so I can insert links, e
 
 Using a text editor for outlining isn't a recommendation. It's just what I do because it works great in my case, and because I like to keep things simple. The [smaller my toolkit][tk], the less I have to rely on others. I don't wish for _the next big feature which would definitely change the way I work, this time for real,_ but try to get as far as I can with what I have.
 
-I wonder: **how exactly do you start when you write texts?** What's your workflow?
+From outlines, you can
 
-------
+I wonder: **how exactly do you start when you write texts?** What's your workflow? Tell us in the comments!
 
-<small>Photo Credit: <a href="http://www.flickr.com/photos/33252379@N00/5337737384/">llamnudds</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a></small>
+[markdown]: https://en.wikipedia.org/wiki/Markdown
 
-[markdown]: http://en.wikipedia.org/wiki/Markdown
-[hangpunct]: http://en.wikipedia.org/wiki/Hanging_punctuation
-[zkbook]: http://zettelkasten.de/book
+[hangpunct]: https://en.wikipedia.org/wiki/Hanging_punctuation
+
 [id]: /posts/add-identity/
-[calnp]: http://calnewport.com/blog/2007/11/05/monday-master-class-how-to-use-a-flat-outline-to-write-outstanding-papers-fast/
+
+[calnp]: https://calnewport.com/blog/2007/11/05/monday-master-class-how-to-use-a-flat-outline-to-write-outstanding-papers-fast/
+
 [^calbook]: Also worth a read is his book which covers the writing process. Cal Newport:  _[How to Become a Straight-A Student. The Unconventional Strategies Real College Students Use to Score High While Studying Less](http://www.amazon.com/gp/product/0767922719/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0767922719&linkCode=as2&tag=ctzettelkasten-20&linkId=3SFYYPM52IOBRJ5C)_, New York: Broadway Books, 2007. (Affiliate link.)
-[sascha]: http://saschafast.de
+
+[sascha]: https://zettelkasten.de/authors/sascha/
+
 [tk]: https://frankchimero.com/blog/2014/no-new-tools/

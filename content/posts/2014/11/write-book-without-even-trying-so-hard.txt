@@ -1,7 +1,7 @@
 ---
 title: How to Write a Book – Without Even Trying (so hard)
 created_at: 2014-11-02 11:47:00 +0100
-updated_at: 2020-01-14 18:37:00 +0100
+updated_at: 2022-12-06 17:59:51 +0100
 kind: article
 author: sascha
 tags: [ writing, outline, zettel, archive, effort ]
@@ -9,17 +9,15 @@ image: 201411021132_outline_cat.jpg
 vgwort: https://vg01.met.vgwort.de/na/e44296ee949147e09f06029b6bdbf359
 ---
 
-In my last post [A Life-Long Writing Project on Writing – and My Anxiety][lastpost] I said that I wrote [a (small) book on writing][onwritingmore] while researching it. 
+In my last post [A Life-Long Writing Project on Writing – and My Anxiety][lastpost] I said that I wrote [a (small) book on writing][onwritingmore] while researching it.
 
   [lastpost]: http://www.zettelkasten.de/posts/project-on-writing-my-anxiety/
 
   [onwritingmore]: https://leanpub.com/on-writing-more
 
-In this post I'll present the method which led to this book. 
+In this post I'll present the method which led to this book.
 
-**Update 2020-01-14:** I now store my outlines as Structure Zettel. For more information what a Structure Zettel is see [this post](https://zettelkasten.de/posts/three-layers-structure-zettelkasten/). 
-
-There are two methods to work with a Zettelkasten: 
+There are two methods to work with a Zettelkasten:
 
 1. Indirectional
 2. Directional
@@ -30,23 +28,25 @@ There are two methods to work with a Zettelkasten:
 
   [luhmann]: http://luhmann.surge.sh/communicating-with-slip-boxes
 
-**Directional Work** means that you are working on a text, a book or an article, and feeding your Zettelkasten with notes directly and intentionally related to this book. 
+**Directional Work** means that you are working on a text, a book or an article, and feeding your Zettelkasten with notes directly and intentionally related to this book.
 
 Most of my work with the Zettelkasten is indirectional. That means that I have no intention to use it for any project when I read stuff and extract ideas, concepts, and models, and form Zettels out of them. I just conquer the [ideas for my small realm][platon].
 
   [platon]: http://en.wikipedia.org/wiki/Theory_of_Forms
 
-I need to do research for most of my writing. During this research the notes are formed into Zettels and go into my Zettelkasten. The "secret ingredient" here is to attach the ID to an outline.
+I need to do research for most of my writing. During this research the notes are formed into Zettels and go into my Zettelkasten. The "secret ingredient" here is to attach the ID to an [outline](/posts/how-i-use-outlines-to-write-any-text/).
+
+**Update 2020-01-14:** I now store my outlines as Structure Zettel. For more information what a Structure Zettel is see [this post](/posts/three-layers-structure-zettelkasten/).
 
 <%= insert_teaser_image title: "silhouette of a cat", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/24515968@N05/13413225314/">Watt_Dabney</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>} %>
 
 As I progress through the research I can see the outline growing and changing. Sometimes I just begin with an empty file and just make a list of Zettels related to that topic. After a while clusters will form to topics and subtopics, which I mark up as headings and subheadings.
 
-I thrive on that kind of writing because it divides the big behemoth of a complex writing project into smaller little text snippets that are easy to deal with. 
+I thrive on that kind of writing because it divides the big behemoth of a complex writing project into smaller little text snippets that are easy to deal with.
 
-After I experienced the ease of writing with this method I transformed all my indirectional work with the Zettelkasten into some sort of directional work. 
+After I experienced the ease of writing with this method I transformed all my indirectional work with the Zettelkasten into some sort of directional work.
 
-I created a folder with the title *Themes and Outlines*. 
+I created a folder with the title *Themes and Outlines*.
 
 When I create a Zettel, I search through the folder for an outline that could make use of this Zettel. If I don't have an outline in my folder that fits, I create one.
 
