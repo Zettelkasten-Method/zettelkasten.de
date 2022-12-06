@@ -54,10 +54,16 @@ textarea {
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
+html {
+  font-size: $base-size;
+  @media only screen and (min-width: $medium-breakpoint) {
+    font-size: $large-base-size;
+  }
+}
+
 body {
   font-family: $font-base;
-  font-size: $base-size;
-  line-height: $line-height;
+  line-height: 1.6rem;
 }
 
 h1, .announcement,
@@ -483,10 +489,6 @@ img.author-profile-picture {
    ========================================================================== */
 
 @media only screen and (min-width: $medium-breakpoint) {
-
-  body {
-    font-size: $large-base-size;
-  }
 
   .tool {
     font-size: $small-size;
