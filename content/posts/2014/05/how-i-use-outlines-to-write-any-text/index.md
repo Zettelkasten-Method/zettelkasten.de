@@ -94,7 +94,9 @@ I wonder: **how exactly do you start when you write texts?** What's your workflo
 
 [calnp]: https://calnewport.com/blog/2007/11/05/monday-master-class-how-to-use-a-flat-outline-to-write-outstanding-papers-fast/
 
-[^calbook]: Also worth a read is his book which covers the writing process. Cal Newport:  _[How to Become a Straight-A Student. The Unconventional Strategies Real College Students Use to Score High While Studying Less](http://www.amazon.com/gp/product/0767922719/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0767922719&linkCode=as2&tag=ctzettelkasten-20&linkId=3SFYYPM52IOBRJ5C)_, New York: Broadway Books, 2007. (Affiliate link.)
+[^calbook]: Also worth a read is his book which covers the writing process: Cal Newport: _[How to Become a Straight-A Student. The Unconventional Strategies Real College Students Use to Score High While Studying Less][straighta]_, New York: Broadway Books, 2007. (Affiliate link.)
+
+[straighta]: http://www.amazon.com/gp/product/0767922719/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0767922719&linkCode=as2&tag=ctzettelkasten-20&linkId=3SFYYPM52IOBRJ5C
 
 [sascha]: https://zettelkasten.de/authors/sascha/
 
