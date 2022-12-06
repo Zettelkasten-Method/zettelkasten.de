@@ -1,9 +1,13 @@
-html,
+html {
+  color: $color-text;
+}
+
 button,
 input,
 select,
 textarea {
   color: $color-text;
+  font-size: 1rem;
 }
 
 body {
@@ -66,8 +70,9 @@ body {
   line-height: 1.6rem;
 }
 
-h1, .announcement,
-label, input { font-family: $font-sans; }
+.announcement, label, input {
+  font-family: $font-sans;
+}
 
 .header__title {
   $color: white;
@@ -109,7 +114,7 @@ $margin-content-wrapper: 3%;
    ============== */
 
 .main {
-  padding: 30px 0;
+  padding: 2rem 0;
 }
 
 .youtube iframe { // YouTube videos
@@ -146,6 +151,14 @@ $margin-content-wrapper: 3%;
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+h1 { font-size: 2.2rem; line-height: 2 * 1.6rem; margin-top: 0; margin-bottom: 1.6rem; }
+h2 { font-size: 1.6rem; line-height: 1.5 * 1.6rem; margin-top: 0; margin-bottom: 1.6rem; }
+h3 { font-size: 1.4rem; line-height: 1 * 1.6rem; margin-top: 0; margin-bottom: 1.6rem; }
+h4,
+h5,
+h6 { font-size: 1.0rem; line-height: 2 * 1.6rem; margin-top: 0; margin-bottom: 1.6rem; }
+h1, h3, h5, h6 { font-family: $font-sans; }
 
 a {
   color: $color-link;
@@ -209,8 +222,11 @@ blockquote {
   i, em { font-style: normal; }
 }
 
+// Remove large heading space between post title and its inevitable metadata; style .page__title in the same way for visual consistency. Limit post title to h1 to only target single post pages.
+h1.post__title, .page__title { margin-bottom: 0; line-height: 2 * 1.6rem; }
+h2.post__title { font-size: 1.4rem; margin-bottom: 0; line-height: 1.6rem; }
+
 // (Clickable) Post titles
-.main article h1 { font-size: 1.5em; }
 #posts .post__title {
   font-family: $font-sans;
   a {
@@ -294,15 +310,9 @@ article table {
 .tool-author--single *, .tool-review * { display: inline; }
 .tool-author--single h3, .tool-review h3 { margin-right: 0.5em; }
 
-.post { margin-bottom: 3em; }
-// In a listing like the home page
-#posts .post { margin-bottom: 5em; }
-
-.post__title,
-.page--attributed .page__title {
-  margin-bottom: 0;
-  line-height: 1.2em;
-}
+.post { margin-bottom: 2 * 1.6rem; }
+// In a listing like the home page, increase spacing without collapsing margins
+#posts .post + .post { padding-top: 2 * 1.6rem; }
 
 .post__meta,
 .page__meta {
@@ -312,6 +322,7 @@ article table {
   margin-left: 0;
   list-style-type: none;
   font-size: $small-size;
+  font-family: $font-sans;
 
   li { display: inline-block; }
 
@@ -401,12 +412,27 @@ article table {
 // 1 unit space = 1 line height (1.6x)
 p, blockquote {
   margin-top: 1.6rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.6rem
+}
+.post__meta, .page__meta {
+  margin-bottom: 1.6rem
 }
 // 2 unit space
 hr, figure, aside, table, article table {
   margin-top: 2 * 1.6rem;
   margin-bottom: 2 * 1.6rem;
+}
+// Do not add big margin when this is the first actual content of a post
+.post > header + * {
+  margin-top: 0;
+}
+
+aside#comments {
+  margin-top: 1.6rem;
+  // Remove big margin from topmost comment content separator
+  & > hr:first-child {
+    margin-top: 0
+  }
 }
 
 .post aside,
@@ -495,7 +521,8 @@ img.author-profile-picture {
   }
 
   .header__title {
-    font-size: 220%;
+    font-size: 2.2rem;
+    line-height: 1.0;
     width: 8em;
     padding-left:  0.4em;
     padding-right: 0.2em; /* right: 0.4em - letter-spacing */
@@ -508,13 +535,10 @@ img.author-profile-picture {
   .oldie nav a {
       margin: 0 0.7%;
   }
-}
 
-@media only screen and (min-width: $medium-breakpoint) {
   .header__title {
-    font-size: 220%;
-    margin-top: .4em;
-    margin-bottom: .4em;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
   }
 
   .post-figure__image {
@@ -536,10 +560,6 @@ img.author-profile-picture {
     margin-bottom: 0;
   }
 
-  .main article h1 { font-size: 2em; }
-
-  .post__title, .page__tile { margin-top: 1.5em; }
-
   .textexpander__image {
     max-width: 8em;
   }
@@ -555,28 +575,23 @@ img.author-profile-picture {
 }
 
 @media only screen and (min-width: $large-breakpoint) {
-  .wrapper, .content-wrapper { max-width: 920px; margin: 0 auto; }
+  .wrapper, .content-wrapper { max-width: 36rem; margin: 0 auto; }
 }
 
 @media only screen and (min-width: 1200px) {
-
-/* ===============
-    Maximal Width
-   =============== */
-
-  .wrapper, .content-wrapper {
-    width: 920px;
-    margin: 0 auto;
-  }
   figure {
     /* figure used negative margins to display to-the-edge on mobile */
     margin-left: 40px;
     margin-right: 40px;
   }
 
-  .main, .footer-main {
-    padding-left: 2em;
-    padding-right: 2em;
+  .main {
+    padding-top: 3 * 1.6rem;
+  }
+
+  .footer-main {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .tool ul { padding-left: 0; }
