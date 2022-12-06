@@ -142,7 +142,7 @@ Get to know the app better:
 
 Extending The Archive's functionality with scripts and other apps:
 
-- In the forums, we have a [Collection of Keyboard Maestro/Alfred Macros](https://forum.zettelkasten.de/discussion/213/the-archive-keyboard-maestro-alfred-macros/p1) where most if not all macros from the forums are aggregated.
+- We have a [Collection of 3rd Party App Macros](https://zettelkasten.de/the-archive/macros/) where we curate macros shared on the forums.
 - There's a cohesive [Alfred Macro collection](/posts/alfred-macros-the-archive/) with complete workflows.
 - Interoperability with the Markdown preview app, Marked 2, supports [streaming note previews (YouTube)](https://www.youtube.com/watch?v=DVPi4WG5rQc)
 
