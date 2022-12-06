@@ -4,7 +4,7 @@ created_at: 2022-10-31 08:45:02 +0100
 updated_at: 2022-11-02 08:11:45 +0100
 kind: article
 author: sascha
-tags: [ luhmann ]
+tags: [ luhmann, translation ]
 image: luhmann.png
 description: "Faithful English translation of Niklas Luhmann's original notes on Zettelkasten."
 ---
@@ -124,6 +124,8 @@ Personnel has been scarce and expensive for a long time, now it additionally bec
 > (<b>9/8,3</b><a name="9_8,3"></a>) Geist im Kasten? Zuschauer kommen. Sie bekommen alles zu sehen, und nichts als das – wie beim Pornofilm. Und entsprechend ist die Enttäuschung.
 
 Ghost in the box? Spectators visit. They get to see everything, and nothing but that - like in a porn movie. And the disappointment is correspondingly high.
+
+-- For a detailed exploration, check out: ["Philosophy of Zettelkasten: What is the Ghost in the Box?"](/posts/ghost-in-the-box/)
 
 -----
 
