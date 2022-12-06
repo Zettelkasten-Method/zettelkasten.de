@@ -423,8 +423,12 @@ hr, figure, aside, table, article table {
   margin-bottom: 2 * 1.6rem;
 }
 // Do not add big margin when this is the first actual content of a post
-.post > header + * {
+.post--single > header + * {
   margin-top: 0;
+}
+// Negate the spacing on overviews
+.post--in-list > header {
+  margin-bottom: -1.6rem;
 }
 
 aside#comments {
@@ -515,7 +519,6 @@ img.author-profile-picture {
    ========================================================================== */
 
 @media only screen and (min-width: $medium-breakpoint) {
-
   .tool {
     font-size: $small-size;
   }
@@ -576,6 +579,10 @@ img.author-profile-picture {
 
 @media only screen and (min-width: $large-breakpoint) {
   .wrapper, .content-wrapper { max-width: 36rem; margin: 0 auto; }
+
+  .main {
+    padding-top: 3 * 1.6rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -583,10 +590,6 @@ img.author-profile-picture {
     /* figure used negative margins to display to-the-edge on mobile */
     margin-left: 40px;
     margin-right: 40px;
-  }
-
-  .main {
-    padding-top: 3 * 1.6rem;
   }
 
   .footer-main {
