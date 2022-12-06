@@ -2,7 +2,7 @@
 title: Blog Post Archive
 ---
 
-<div style="clear: both; overflow: auto;">
+<div style="clear: both;">
     <%= render '/_search_box.*' %>
 </div>
 

@@ -1,5 +1,7 @@
 html {
   color: $color-text;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 button,
@@ -9,6 +11,25 @@ textarea {
   color: $color-text;
   font-size: 1rem;
 }
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+a:active, a:hover { outline: 0; }
+abbr[title] { border-bottom: 1px dotted; }
+dfn { font-style: italic; }
+// Prevent `sub` and `sup` affecting `line-height` in all browsers.
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+img { border: 0; }
 
 body {
   margin: 0;
@@ -28,6 +49,8 @@ body {
 hr {
   height: 1px;
   display: block;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
   border-color: transparent;
   border-top: 3px solid $color-separator;
   padding: 0;
@@ -185,6 +208,7 @@ figure {
 figure a, figure a:hover {
   border-bottom-color: transparent;
 }
+pre { overflow: auto; }
 code, pre {
   font-family: $font-mono;
   font-size: 90%; // about the same x-height
