@@ -16,6 +16,7 @@ $font-sans: 'PT Sans', sans-serif;
 $font-base: $font-serif;
 $font-mono: 'Monaco', monospace;
 
+// Browser default sizes is 16px, so we compute it in fractions:
 $base-size: 18px / 16px * 1em;
 $line-height: 1.6;
 $small-size: 0.8em; // 16px

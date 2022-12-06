@@ -21,12 +21,11 @@ body {
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  height: 1px;
+  display: block;
+  border-color: transparent;
+  border-top: 3px solid $color-separator;
+  padding: 0;
 }
 
 img {
@@ -316,8 +315,6 @@ article table {
   a:hover { border-color: transparent; }
 }
 .post-figure {
-  margin-top: 2em;
-  margin-bottom: 2em;
   text-align: center;
 }
 .post-figure--grid {
@@ -395,6 +392,17 @@ article table {
   p { margin-bottom: 0; margin-top: 0; }
 }
 
+// 1 unit space = 1 line height (1.6x)
+p, blockquote {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+// 2 unit space
+hr, figure, aside, table, article table {
+  margin-top: 2 * 1.6rem;
+  margin-bottom: 2 * 1.6rem;
+}
+
 .post aside,
 aside.note {
   font-family: $font-sans;
@@ -404,13 +412,6 @@ aside.note {
 aside.note {
   border-radius: 1.4em;
   border: 0.2em solid $color-aside-note;
-}
-
-hr {
-  border-color: transparent;
-  border-top: 3px solid $color-separator;
-  margin-top: 2em;
-  margin-bottom: 2em;
 }
 
 .book_cover {
