@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-updated_at: 2021-12-29 10:30:21 +0100
+updated_at: 2022-12-07 19:05:30 +0100
 toc: true
 ---
 {{toc}}
@@ -121,7 +121,10 @@ When your archive grows, you'll add [Structural Layers in your Zettelkasten](/po
 
 If you want to know more about the history of the Zettelkasten Method, check out the [ongoing research on Luhmann's Zettelkasten by Johannes Schmidt](https://niklas-luhmann-archiv.de/projekt/publikationen) at Bielefeld University. Johannes is the _Guardian of the Godfather's Zettelkasten_, and his work is genuinely interesting for knowledge work nerds.
 
-We also cover the relevant bit of history in [our introduction](/introduction) to explain how the Zettelkasten Method works.
+We cover the relevant bit of history in [our introduction](/introduction) to explain how the Zettelkasten Method works.
+
+Check out [the translation of Luhmann's own Zettel about his Zettelkasten](/posts/luhmanns-zettel-translated).
+
 
 ## Tools
 
