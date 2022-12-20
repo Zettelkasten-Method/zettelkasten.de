@@ -251,6 +251,8 @@ blockquote {
 h1.post__title, .page__title { margin-bottom: 0; line-height: 2 * 1.6rem; }
 h2.post__title { font-size: 1.4rem; margin-bottom: 0; line-height: 1.6rem; }
 
+article form.search { margin: 1.6rem 0; }
+
 // (Clickable) Post titles
 #posts .post__title {
   font-family: $font-sans;

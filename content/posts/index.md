@@ -2,11 +2,9 @@
 title: Blog Post Archive
 ---
 
-<div style="clear: both;">
-    <%= render '/_search_box.*' %>
-</div>
+<%= render '/_search_box.*' %>
 
-<hr>
+----------
 
 👉 [**Get started** with the curated article overview](/posts/overview/)! 👈
 
