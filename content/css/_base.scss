@@ -387,6 +387,9 @@ article table {
 }
 .teaser__image { }
 
+// ToC (Table of Contents) summaries
+details, summary { font-family: $font-sans; }
+
 .footnote-button {
   -webkit-font-smoothing: antialiased;
   backface-visibility: hidden;
