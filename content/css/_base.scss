@@ -138,7 +138,7 @@ $margin-content-wrapper: 3%;
    ============== */
 
 .main {
-  padding: 2rem 0;
+  padding: 1.6rem 0;
 }
 
 .youtube iframe { // YouTube videos
@@ -598,10 +598,6 @@ img.author-profile-picture {
 
 @media only screen and (min-width: $large-breakpoint) {
   .wrapper, .content-wrapper { max-width: 36rem; margin: 0 auto; }
-
-  .main {
-    padding-top: 3 * 1.6rem;
-  }
 }
 
 @media only screen and (min-width: 1200px) {
