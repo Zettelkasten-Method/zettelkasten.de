@@ -109,6 +109,7 @@ body {
   letter-spacing: 0.2em;
   background-color: $color-background-header;
   text-align: center;
+  margin-bottom: 0; // Preserve space in mobile vertical nav
 
   a.header__link, a.header__link:visited, a.header__link:hover {
     text-decoration: none;
@@ -550,6 +551,7 @@ img.author-profile-picture {
     padding-right: 0.2em; /* right: 0.4em - letter-spacing */
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1.6rem;
   }
 
   .tool-icon { max-width: 100%; }
