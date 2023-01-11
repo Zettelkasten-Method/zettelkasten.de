@@ -16,7 +16,7 @@ layout: the-archive
 - **New:** When you copy images files, from Mail or Messages or Finder, and paste them into The Archive, they'll be imported similar to drag and drop as a copy.
 - **New:** Using the Page Up/Page Down keys in the Omnibar scrolls the search results.
 - **New:** Cmd-W when opening external editors closes the floating filter.
-- **Fixed:** A cause of data loss where the wrong note was overwritten with
+- **Fixed:** A cause of data loss where the wrong file was replaced with the currently visited note.
 - **Fixed:** Issue with license codes now appearing invalid: previously, they could contain spaces in the middle, which are hard to spot, and that became illegal a couple updates ago. Now The Archive cleans these up for you.
 - **Fixed:** Cmd-Backspace when renaming a note will delete to the beginning of the text field instead of delete the note.
 - **Fixed:** Page Up/Page Down keys scroll the search results lists when it has focus.
