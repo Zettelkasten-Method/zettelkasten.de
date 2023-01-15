@@ -351,6 +351,8 @@ article table {
   a, a:link, a:visited { border-color: $color-text; }
   a:hover { border-color: transparent; }
 }
+.post__languages { display: block; margin-bottom: 1.6rem; }
+
 .post-figure {
   text-align: center;
 }

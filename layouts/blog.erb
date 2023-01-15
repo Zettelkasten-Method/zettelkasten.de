@@ -16,6 +16,14 @@
             </ul>
 
             <%= Post::tom_pixel_for(@item) %>
+
+            <% if @item[:canonical]&.empty? == false %>
+              <nav class="post__languages languages">
+                <small>
+                  <%= language_announcement %>: <%= language_links %>
+                </small>
+              </nav>
+            <% end %>
         </header>
 
         <% if item[:toc] && item[:toc] != 'manual' %>

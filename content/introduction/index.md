@@ -12,17 +12,8 @@ layout: blog
 comments: off
 vgwort: "https://vg01.met.vgwort.de/na/916b3e9b3ecb4187a7c8412f5dd973cb"
 lang: en
-languages:
-    en: "/introduction"
-    zh: "/introduction/zh"
+canonical: "/introduction/"
 ---
-
-<small>
-  <%=link_to_unless_current("English Original", "/introduction/", lang:"en")%> &bull;
-  <%=link_to_unless_current("Chinese Translation", "/introduction/zh/", lang:"zh")%>
-</small>
-
-* * * * * *
 
 {{TOC}}
 

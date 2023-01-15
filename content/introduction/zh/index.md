@@ -11,18 +11,11 @@ toc: manual
 layout: blog
 comments: off
 lang: zh
-languages:
-    en: "/introduction"
-    zh: "/introduction/zh"
+canonical: "/introduction/"
 alternate: "https://zhuanlan.zhihu.com/p/336706087/"
 ---
 
 This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/), created and generously provided to us by [Zhixiang Cai](https://www.zhihu.com/people/cai-zhi-xiang) who holds a Ph.D in Oil and Gas Well Engineering, is a programmer, and loves knowledge management.
-
-<small>
-  <%=link_to_unless_current("English Original", "/introduction/", lang:"en")%> &bull;
-  <%=link_to_unless_current("Chinese Translation", "/introduction/zh/", lang:"zh")%>
-</small>
 
 * * * * * *
 
