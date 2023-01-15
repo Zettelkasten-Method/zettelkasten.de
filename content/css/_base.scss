@@ -351,7 +351,21 @@ article table {
   a, a:link, a:visited { border-color: $color-text; }
   a:hover { border-color: transparent; }
 }
-.post__languages { display: block; margin-bottom: 1.6rem; }
+.post header .post__meta,
+.post header .page__meta {
+  margin-bottom: 1.6rem
+}
+.post footer .post__meta,
+.post footer .page__meta {
+  margin-bottom: 0;
+}
+
+.post__languages { display: block; }
+.post header .post__languages { margin-bottom: 1.6rem; }
+.post footer .post__languages { margin-bottom: 1.6rem; }
+
+.post footer { margin-bottom: 1.6rem; }
+
 
 .post-figure {
   text-align: center;
@@ -439,9 +453,7 @@ p, blockquote {
   margin-top: 1.6rem;
   margin-bottom: 1.6rem
 }
-.post__meta, .page__meta {
-  margin-bottom: 1.6rem
-}
+
 // 2 unit space
 hr, figure, aside, table, article table {
   margin-top: 2 * 1.6rem;

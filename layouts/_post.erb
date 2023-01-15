@@ -27,5 +27,12 @@
             <%= %Q{<li>&bull; via <a href="#{@post[:via][:url]}">#{@post[:via][:name]}</a></li>} if @post[:via] %>
             <%= %Q{<li>&bull; #{Post::origin_of(@post)}</li>} if @post[:import]%>
         </ul>
+        <% if @post[:canonical]&.empty? == false %>
+            <nav class="post__languages languages">
+                <small>
+                    <%= language_announcement(@post) %>: <%= language_links(@post) %>
+                </small>
+            </nav>
+        <% end %>
     </footer>
 </article>
