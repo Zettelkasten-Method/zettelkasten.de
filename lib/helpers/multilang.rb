@@ -2,7 +2,8 @@ module MultiLang
   public
   def item_lang(item = nil)
     item ||= @item
-    lang = item[:lang] || @config[:meta_data][:lang]
+    lang = item[:lang] unless item.nil?
+    lang ||= @config[:meta_data][:lang]
     lang.to_sym
   end
 
@@ -33,9 +34,10 @@ module MultiLang
   end
 
   # Hyperlinks to click
-  def language_links()
+  def language_links(item = nil)
+    item ||= @item
     language_links = [].tap do |result|
-      item_translations(@item, skip_current: false).each do |other_item|
+      item_translations(item, skip_current: false).each do |other_item|
         result << link_to_lang_unless_current(other_item)
       end
     end
@@ -49,7 +51,8 @@ module MultiLang
     :zh => "Read in these languages", # TODO: translate to Chinese
   }
 
-  def language_announcement
-    LANGUAGE_ANNOUNCEMENTS[item_lang.to_sym]
+  def language_announcement(item = nil)
+    item ||= @item
+    LANGUAGE_ANNOUNCEMENTS[item_lang(item).to_sym]
   end
 end

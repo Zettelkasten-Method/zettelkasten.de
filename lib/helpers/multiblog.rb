@@ -238,8 +238,9 @@ module My
       posts(kind)[-1]
     end
 
-    def posts(kind = "article")
-      @items.select { |item| item[:kind] == kind }
+    def posts(kind = "article", current_language = true)
+      lang = item_lang(@item)
+      @items.select { _1[:kind] == kind && !(current_language && item_lang(_1) != lang) }
     end
 
     def tags(kind = "article")
