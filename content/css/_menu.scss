@@ -12,17 +12,17 @@ nav { font-family: $font-sans; }
   width: 100%;
 }
 
-nav ul:after {
+#navigation ul:after {
   clear: both;
 }
-nav ul:before,
-nav ul:after {
+#navigation ul:before,
+#navigation ul:after {
   content: " ";
   display: table;
 }
 
-nav ul { margin: 0; padding: 0; }
-nav ul li { list-style-type: none; }
+#navigation ul { margin: 0; padding: 0; }
+#navigation ul li { list-style-type: none; }
 
 .menu-item { display: inline-block; }
 .menu-item--has-submenu {}
@@ -35,8 +35,8 @@ nav ul li { list-style-type: none; }
   background: $color-background-nav-sub;
 }
 
-nav a,
-nav .active {
+#navigation a,
+#navigation .active {
   display: block;
   margin: 0;
   padding: 0.5em 0;
@@ -45,22 +45,22 @@ nav .active {
   border-width: 0 6px 0 6px; // Display active border as surrounding mobile
   border-color: transparent;
 }
-nav .active {
+#navigation .active {
   font-weight: bold;
   color: darken($color-nav, 5%);
 }
 
-nav .main-navigation .active,
-nav .sub-navigation .active {
+#navigation .main-navigation .active,
+#navigation .sub-navigation .active {
   border-color: #B5CB30;
 }
 // Don't highlight a main menu item itself when a sub navigation is available
-nav .main-navigation .menu-item--has-submenu > .active {
+#navigation .main-navigation .menu-item--has-submenu > .active {
   border-color: transparent;
 }
 
 
-nav a {
+#navigation a {
   color: $color-nav;
   font-weight: normal;
   text-decoration: none;
@@ -79,7 +79,7 @@ nav a {
   .iconic-property-stroke { stroke: $color-nav; }
 }
 
-nav a:hover {
+#navigation a:hover {
   $color: white;
   color: $color;
   border-bottom-color: transparent;
@@ -91,34 +91,34 @@ nav a:hover {
 }
 
 @media only screen and (min-width: $medium-breakpoint) {
-  nav a,
-  nav .active {
+  #navigation a,
+  #navigation .active {
     padding: 0.5em 0;
     margin-bottom: 0;
     border-width: 4px; // 4 sided outline
   }
 
-  nav li:first-child a {
+  #navigation li:first-child a {
     margin-left: 0;
   }
 
-  nav li:last-child a {
+  #navigation li:last-child a {
     margin-right: 0;
   }
 
-  nav ul li {
+  #navigation ul li {
     display: inline;
   }
 }
 
 @media only screen and (min-width: $large-breakpoint) {
-  nav a,
-  nav .active {
+  #navigation a,
+  #navigation .active {
     padding-bottom: 0.3em;
     border-width: 0 0 8px 0; // Display active border on bottom on larger screens
   }
 
-  nav.has-submenu {
+  #navigation.has-submenu {
     margin-bottom: 3em; // TODO approximate height of menu bar
   }
 
