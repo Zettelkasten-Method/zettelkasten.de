@@ -53,4 +53,16 @@ module MultiLang
     item ||= @item
     LANGUAGE_ANNOUNCEMENTS[item_lang(item).to_sym]
   end
+
+  NO_COMMENTS_TEXT = {
+    :de => %{Kommentare sind auf Englisch <a href="https://forum.zettelkasten.de/">in unserem Forum.</a>},
+    :zh => %{Comments are in English and <a href="https://forum.zettelkasten.de/">powered by our forum.</a>}, # TODO: translate to Chinese
+  }
+
+  def canonical_comment_link()
+    return [
+      "<hr/>",
+      NO_COMMENTS_TEXT[item_lang] || "",
+    ].join("\n")
+  end
 end

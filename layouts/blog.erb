@@ -42,10 +42,14 @@
     </article>
 
     <% if Post::comments_allowed_for(@item) %>
-    <aside id="comments">
-        <%= render '/_comments.*' %>
-        <%= render '/_comments-disqus.*' %>
-    </aside>
+      <% if item_lang(@item) == :en %>
+        <aside id="comments">
+          <%= render '/_comments.*' %>
+          <%= render '/_comments-disqus.*' %>
+        </aside>
+      <% else  %>
+        <%= canonical_comment_link %>
+      <% end %>
     <% end %>
 </section>
 <% end %>
