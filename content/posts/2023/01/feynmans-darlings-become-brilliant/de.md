@@ -4,10 +4,11 @@ created_at: 2023-01-15 19:46:02 +0100
 kind: article
 author: sascha
 tags: [ Antifragilität, Verzetteln ]
-rel_image: ../feynman.jpg
 vgwort: https://vg08.met.vgwort.de/na/5253ee53731948fead7d450e778ad94d
 lang: de
 canonical: "/posts/feynmans-darlings-become-brilliant/"
+image:     "/posts/feynmans-darlings-become-brilliant/feynman.jpg"
+custom_path: "/de/posts/feynmans-lieblinge-wie-jeder-genial-sein-kann/"
 ---
 
 **Du kannst genial werden. Du musst nur clever sein und hart arbeiten.**
