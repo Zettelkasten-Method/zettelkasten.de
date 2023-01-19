@@ -36,12 +36,10 @@ module MultiLang
   # Hyperlinks to click
   def language_links(item = nil)
     item ||= @item
-    language_links = [].tap do |result|
-      item_translations(item, skip_current: false).each do |other_item|
-        result << link_to_lang_unless_current(other_item)
-      end
-    end
-    language_links.join(" &bull; ")
+    language_links = item_translations(item, skip_current: false)
+                       .sort { _1[:lang] <=> _2[:lang] }
+                       .map { |other_item| link_to_lang_unless_current(other_item) }
+    language_links.join(" ")  # .join(" &bull; ")
   end
 
   # Text to show in front of alternative language selectors.
