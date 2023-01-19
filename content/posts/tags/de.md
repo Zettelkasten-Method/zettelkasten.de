@@ -1,8 +1,9 @@
 ---
-title: Tags
+title: Schlagworte
 layout: plain
-lang: en
+lang: de
 canonical: "/posts/tags/"
+custom_path: "/de/posts/tags/"
 ---
 
 <ul>
