@@ -142,7 +142,7 @@ compile %r{^/posts/\d{4}(/\d{2})?$} do
   layout '/plain.*'
 end
 
-compile '/posts/index.*' do
+compile '/posts/*' do
   filter :erb
   filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
   filter :add_ids_to_headers
