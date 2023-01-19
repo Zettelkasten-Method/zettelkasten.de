@@ -18,6 +18,17 @@ module Menu
     { title: "Forum",           link: FORUM_URL,          icon: "people" },
   ]
 
+  def link_to_homepage
+    case item_lang
+    when :en
+      %{<a class="header__link" href="/">Zettelkasten</a>}
+    when :de
+      %{<a class="header__link" href="/de/">Zettelkasten</a>}
+    else
+      %{<a class="header__link" href="/">Zettelkasten</a>}
+    end
+  end
+
   def main_menu_items
     @@main_menu_items ||= MAIN_MENU.map { MainMenuItem.new(**_1) }
   end
