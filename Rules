@@ -226,11 +226,14 @@ route %r{^/(de/)?posts/.*?} do |_, custom_lang|
 
     "/posts/" + post_id + "/" + id
   elsif item[:kind] == 'article'
-    path = item[:custom_path]&[-2] || item.identifier.without_ext
-                                        .gsub(/\d{4}\/\d{2}\//, "") # remove date portion
-                                        .gsub(/\/index$/, "") # drop index file name
-
-    path = "/" + custom_lang.to_s + path if !custom_lang.nil?
+    if custom_path = item[:custom_path]
+      path = custom_path[..-2]
+    else
+      path = item.identifier.without_ext
+               .gsub(/\d{4}\/\d{2}\//, "") # remove date portion
+               .gsub(/\/index$/, "") # drop index file name
+      path = "/" + custom_lang.to_s + path if !custom_lang.nil?
+    end
 
     path + '/index.html'
   else # tags, date archives
