@@ -238,14 +238,15 @@ module My
       posts(kind)[-1]
     end
 
-    def posts(kind = "article", current_language = true)
-      lang = item_lang(@item)
-      @items.select { _1[:kind] == kind && !(current_language && item_lang(_1) != lang) }
+    def posts(kind = "article", lang = nil)
+      current_lang = item_lang(@item)
+      lang ||= current_lang
+      @items.select { _1[:kind] == kind && item_lang(_1) == lang }
     end
 
-    def tags(kind = "article")
+    def tags(kind = "article", lang = nil)
       tags_mtimes = {}
-      posts(kind).each do |post|
+      posts(kind, lang).each do |post|
         mtime = attribute_to_time(post[:updated_at] || post[:created_at])
         (post[:tags] || []).each do |tag|
           tags_mtimes[tag] = [tags_mtimes[tag] || mtime, mtime].max
@@ -316,8 +317,8 @@ module My
       return years, months
     end
 
-    def sorted_posts(kind = "article")
-      posts(kind).sort_by do |post|
+    def sorted_posts(kind = "article", lang = nil)
+      posts(kind, lang).sort_by do |post|
         attribute_to_time(post[:created_at])
       end.reverse
     end
@@ -336,10 +337,10 @@ module My
       %Q{<a href="/posts/pages/#{page}/">#{text}</a>}
     end
 
-    def posts_tagged_with(tags, kind = "article")
+    def posts_tagged_with(tags, kind = "article", lang = nil)
       tags = tags.split(',') if tags.is_a?(String)
 
-      sorted_posts(kind).select do |item|
+      sorted_posts(kind, lang).select do |item|
         item_tags = item[:tags] || []
         overlap   = item_tags & tags
 
