@@ -52,7 +52,11 @@
     <div class="header-container clearfix">
       <h1 class="header__title"><a class="header__link" href="/">Zettelkasten</a></h1>
     </div>
-    <%= render '/_navigation.*' %>
+    <nav id="navigation" class="clearfix grid-whole <%= "has-submenu" if item_has_submenu? %>">
+      <ul class="grid-whole main-navigation">
+        <%= render_menu_items %>
+      </ul>
+    </nav>
   </header>
   <div class="clearfix"><!-- for the menu on mobile --></div>
   <div class="main-container">
