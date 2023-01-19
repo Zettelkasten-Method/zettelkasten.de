@@ -3,7 +3,7 @@ title: "Feynman's Darlings -- Or: How Anyone Can Become Brilliant"
 created_at: 2023-01-15 19:48:26 +0100
 kind: article
 author: sascha
-tags: [  ]
+tags: [ antifragile, processing ]
 rel_image: feynman.jpg
 vgwort: https://vg08.met.vgwort.de/na/e3a8569ddae243f689909efb808a7a43
 lang: en

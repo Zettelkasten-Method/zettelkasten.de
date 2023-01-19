@@ -3,7 +3,7 @@ title: "Feynmans 12 Lieblinge -- Oder: Wie jeder genial sein kann"
 created_at: 2023-01-15 19:46:02 +0100
 kind: article
 author: sascha
-tags: [  ]
+tags: [ Antifragilität, Verzetteln ]
 rel_image: ../feynman.jpg
 vgwort: https://vg08.met.vgwort.de/na/5253ee53731948fead7d450e778ad94d
 lang: de
