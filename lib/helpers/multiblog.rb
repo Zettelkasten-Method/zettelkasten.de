@@ -11,8 +11,13 @@ module My
         include My::Blog::Tag
       end
 
+      def clean_name(tag_name)
+        # TODO: find faster way for 3 gsubs
+        tag_name.downcase.gsub('ä', 'ae').gsub('ö', 'oe').gsub('ü', 'ue').gsub('ß', 'ss')
+      end
+
       def link_to(tag_name)
-        %Q{<a href="/posts/tags/#{tag_name}/">#{tag_name}</a>}
+        %Q{<a href="/posts/tags/#{clean_name(tag_name)}/">#{tag_name}</a>}
       end
     end
 

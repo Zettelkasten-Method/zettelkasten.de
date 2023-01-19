@@ -26,21 +26,38 @@ preprocess do
   config[:is_deploying] = ['production', 'staging'].include?(ENV['NANOC_ENV'])
   config[:htpasswd_path] = ENV['HTPASSWD_PATH']
 
-  # authors may unpublish items by setting meta attribute publish: false
+  # authors may unpublish items by setting meta attribute `publish: false`
   items.delete_if { |item| item[:publish] == false }
 
-  tags("article").each do |tag, mtime|
+  tags("article", :en).each do |tag, mtime|
     @items.create(
       "",
       {
         :title => %Q{Posts tagged &ldquo;#{tag}&rdquo;},
-        :tag => tag,
-        :mtime => mtime
+        :tag => tag.to_s,
+        :mtime => mtime,
+        :kind => "tag",
+        :lang => :en,
       },
-      "/posts/tags/#{tag}"
+      "/posts/tags/#{Tag::clean_name(tag)}"
     )
   end
 
+  tags("article", :de).each do |tag, mtime|
+    @items.create(
+      "",
+      {
+        :title => %Q{Beiträge mit Schlagwort &ldquo;#{tag}&rdquo;},
+        :tag => tag.to_s,
+        :mtime => mtime,
+        :kind => "tag",
+        :lang => :de,
+      },
+      "/de/posts/tags/#{Tag::clean_name(tag)}"
+    )
+  end
+
+  # TODO: Add Year/Month overviews for all languages
   years, months = Post::years_and_months(posts())
 
   years.each do |year, mtime|
