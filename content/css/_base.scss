@@ -361,8 +361,27 @@ article table {
 }
 
 .post__languages { display: block; }
-.post header .post__languages { margin-bottom: 1.6rem; }
 .post footer .post__languages { margin-bottom: 1.6rem; }
+.post header .post__languages { margin-bottom: 1.6rem; }
+.post header .post__languages {
+  .active {
+    display: inline-block;
+    padding: 0 0.3rem;
+    border: 1px solid $color-text;
+    border-radius: 3px;
+  }
+
+  a {
+    display: inline-block;
+    padding: 0 0.3rem;
+    border: 1px solid $color-link;
+    border-radius: 3px;
+    &:active, &:hover {
+      background: $color-link;
+      color: $color-background;
+    }
+  }
+}
 
 .post footer { margin-bottom: 1.6rem; }
 
