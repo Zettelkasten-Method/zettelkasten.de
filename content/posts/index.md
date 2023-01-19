@@ -1,5 +1,7 @@
 ---
 title: Blog Post Archive
+lang: en
+canonical: "/posts/"
 ---
 
 <%= render '/_search_box.*' %>
