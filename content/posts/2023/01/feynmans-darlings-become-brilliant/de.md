@@ -7,7 +7,7 @@ tags: [ Antifragilität, Verzetteln ]
 vgwort: https://vg08.met.vgwort.de/na/5253ee53731948fead7d450e778ad94d
 lang: de
 canonical: "/posts/feynmans-darlings-become-brilliant/"
-image:     "/posts/feynmans-darlings-become-brilliant/feynman.jpg"
+rel_image: "/posts/feynmans-darlings-become-brilliant/feynman.jpg"
 custom_path: "/de/posts/feynmans-lieblinge-wie-jeder-genial-sein-kann/"
 ---
 

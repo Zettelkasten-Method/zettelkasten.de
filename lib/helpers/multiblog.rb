@@ -382,7 +382,7 @@ module My
     end
 
     def rel_url_for(file, item=nil)
-      relative_path_for file, item || @item
+      relative_path_for(file, item || @item)
     end
 
     def insert_teaser_image(title: "", caption: "", link: nil, border: true)
@@ -495,6 +495,7 @@ module My
       end
 
       def relative_path_for(filename, item)
+        return filename if filename[0] == "/"
         File.join(item.path, filename)
       end
 
