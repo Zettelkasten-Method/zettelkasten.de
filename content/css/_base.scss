@@ -362,20 +362,23 @@ article table {
 
 .post__languages { display: block; }
 .post footer .post__languages { margin-bottom: 1.6rem; }
-.post header .post__languages { margin-bottom: 1.6rem; }
+.page .post__languages,
 .post header .post__languages {
+  margin-bottom: 1.6rem;
+  line-height: 1rem;
+
   .active {
     display: inline-block;
-    padding: 0 0.3rem;
+    padding: 0.2rem 0.4rem;
     border: 1px solid $color-text;
-    border-radius: 3px;
+    border-radius: 1rem;
   }
 
   a {
     display: inline-block;
-    padding: 0 0.3rem;
+    padding: 0.2rem 0.4rem;
     border: 1px solid $color-link;
-    border-radius: 3px;
+    border-radius: 1rem;
     &:active, &:hover {
       background: $color-link;
       color: $color-background;
