@@ -15,11 +15,10 @@ canonical: "/"
     <%= render '/_post.*', :post => post, :fulltext => false %>
   <% end %>
 
-  <hr />
-
-  <footer>
-    <p>Die deutschen Artikel befinden sich noch im Aufbau. <a href="/" hreflang="en">Viel mehr gibt es hier auf Englisch.</a></p>
-  </footer>
+  <!-- TODO: Link to blog archive in German when >5 posts -->
+  <aside class="note">
+    <p>Wir haben erst kürzlich angefangen, auch auf Deutsch zu veröffentlichen. Viele Artikel sind derzeit nur <a href="/posts/" hreflang="en">auf Englisch verfügbar</a>.</p>
+  </aside>
 </section>
 
 <%= render '/_vanilla_count.*' %>

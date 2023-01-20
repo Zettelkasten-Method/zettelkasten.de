@@ -7,7 +7,13 @@ custom_path: "/de/posts/"
 
 <%= render '/_search_box.*' %>
 
-----------
+<hr>
+
+<nav class="post__languages languages">
+  <small>
+    <%= language_announcement %>: <%= language_links %>
+  </small>
+</nav>
 
 👉 [**Erste Schritte** mit der Artikelübersicht](/posts/overview/)! 👈
 
@@ -35,3 +41,7 @@ custom_path: "/de/posts/"
 </ul>
 
 <% end %>
+
+<aside class="note">
+<p>Wir haben erst kürzlich angefangen, auch auf Deutsch zu veröffentlichen. Viele Artikel sind derzeit nur <a href="/posts/" hreflang="en">auf Englisch verfügbar</a>.</p>
+</aside>
