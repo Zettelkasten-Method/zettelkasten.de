@@ -351,6 +351,44 @@ article table {
   a, a:link, a:visited { border-color: $color-text; }
   a:hover { border-color: transparent; }
 }
+.post header .post__meta,
+.post header .page__meta {
+  margin-bottom: 1.6rem
+}
+.post footer .post__meta,
+.post footer .page__meta {
+  margin-bottom: 0;
+}
+
+.post__languages { display: block; }
+.post footer .post__languages { margin-bottom: 1.6rem; }
+.page .post__languages,
+.post header .post__languages {
+  margin-bottom: 1.6rem;
+  line-height: 1rem;
+
+  .active {
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid $color-text;
+    border-radius: 1rem;
+  }
+
+  a {
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid $color-link;
+    border-radius: 1rem;
+    &:active, &:hover {
+      background: $color-link;
+      color: $color-background;
+    }
+  }
+}
+
+.post footer { margin-bottom: 1.6rem; }
+
+
 .post-figure {
   text-align: center;
 }
@@ -437,9 +475,7 @@ p, blockquote {
   margin-top: 1.6rem;
   margin-bottom: 1.6rem
 }
-.post__meta, .page__meta {
-  margin-bottom: 1.6rem
-}
+
 // 2 unit space
 hr, figure, aside, table, article table {
   margin-top: 2 * 1.6rem;

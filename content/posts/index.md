@@ -1,10 +1,18 @@
 ---
 title: Blog Post Archive
+lang: en
+canonical: "/posts/"
 ---
 
 <%= render '/_search_box.*' %>
 
-----------
+<hr>
+
+<nav class="post__languages languages">
+  <small>
+    <%= language_announcement %>: <%= language_links %>
+  </small>
+</nav>
 
 👉 [**Get started** with the curated article overview](/posts/overview/)! 👈
 

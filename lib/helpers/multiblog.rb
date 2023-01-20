@@ -11,8 +11,13 @@ module My
         include My::Blog::Tag
       end
 
+      def clean_name(tag_name)
+        # TODO: find faster way for 3 gsubs
+        tag_name.downcase.gsub('ä', 'ae').gsub('ö', 'oe').gsub('ü', 'ue').gsub('ß', 'ss')
+      end
+
       def link_to(tag_name)
-        %Q{<a href="/posts/tags/#{tag_name}/">#{tag_name}</a>}
+        %Q{<a href="/posts/tags/#{clean_name(tag_name)}/">#{tag_name}</a>}
       end
     end
 
@@ -238,13 +243,15 @@ module My
       posts(kind)[-1]
     end
 
-    def posts(kind = "article")
-      @items.select { |item| item[:kind] == kind }
+    def posts(kind = "article", lang = nil)
+      current_lang = item_lang(@item)
+      lang ||= current_lang
+      @items.select { _1[:kind] == kind && item_lang(_1) == lang }
     end
 
-    def tags(kind = "article")
+    def tags(kind = "article", lang = nil)
       tags_mtimes = {}
-      posts(kind).each do |post|
+      posts(kind, lang).each do |post|
         mtime = attribute_to_time(post[:updated_at] || post[:created_at])
         (post[:tags] || []).each do |tag|
           tags_mtimes[tag] = [tags_mtimes[tag] || mtime, mtime].max
@@ -315,8 +322,8 @@ module My
       return years, months
     end
 
-    def sorted_posts(kind = "article")
-      posts(kind).sort_by do |post|
+    def sorted_posts(kind = "article", lang = nil)
+      posts(kind, lang).sort_by do |post|
         attribute_to_time(post[:created_at])
       end.reverse
     end
@@ -335,10 +342,10 @@ module My
       %Q{<a href="/posts/pages/#{page}/">#{text}</a>}
     end
 
-    def posts_tagged_with(tags, kind = "article")
+    def posts_tagged_with(tags, kind = "article", lang = nil)
       tags = tags.split(',') if tags.is_a?(String)
 
-      sorted_posts(kind).select do |item|
+      sorted_posts(kind, lang).select do |item|
         item_tags = item[:tags] || []
         overlap   = item_tags & tags
 
@@ -375,7 +382,7 @@ module My
     end
 
     def rel_url_for(file, item=nil)
-      relative_path_for file, item || @item
+      relative_path_for(file, item || @item)
     end
 
     def insert_teaser_image(title: "", caption: "", link: nil, border: true)
@@ -488,6 +495,7 @@ module My
       end
 
       def relative_path_for(filename, item)
+        return filename if filename[0] == "/"
         File.join(item.path, filename)
       end
 

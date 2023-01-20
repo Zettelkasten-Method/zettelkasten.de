@@ -9,17 +9,41 @@ module Menu
 #      { title: "Blog Archive",      link: "/posts/" }
 #    ]
   }
-  MAIN_MENU = [
-    { title: "Blog",            link: "/posts/",          icon: "folder" },
-    { title: "Getting Started", link: "/posts/overview/", icon: "compass" },
-    { title: "Coaching",        link: "/coaching/",       icon: "easel" },
-    { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
-    { title: "Online Course",   link: "/course/",         icon: "monitor" },
-    { title: "Forum",           link: FORUM_URL,          icon: "people" },
-  ]
+
+  MAIN_MENU_PER_LANG = {
+    :en => [
+      { title: "Blog",            link: "/posts/",          icon: "folder" },
+      { title: "Getting Started", link: "/posts/overview/", icon: "compass" },
+      { title: "Coaching",        link: "/coaching/",       icon: "easel" },
+      { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
+      { title: "Online Course",   link: "/course/",         icon: "monitor" },
+      { title: "Forum",           link: FORUM_URL,          icon: "people" },
+    ],
+    :de => [
+      { title: "Blog",            link: "/de/posts/",       icon: "folder" },
+      { title: "Erste Schritte",  link: "/posts/overview/", icon: "compass" },
+      { title: "Coaching",        link: "/coaching/",       icon: "easel" },
+      { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
+      { title: "Onlinekurs",      link: "/course/",         icon: "monitor" },
+      { title: "Forum",           link: FORUM_URL,          icon: "people" },
+    ]
+  }
+
+  def link_to_homepage
+    case item_lang
+    when :en
+      %{<a class="header__link" href="/">Zettelkasten</a>}
+    when :de
+      %{<a class="header__link" href="/de/">Zettelkasten</a>}
+    else
+      %{<a class="header__link" href="/">Zettelkasten</a>}
+    end
+  end
 
   def main_menu_items
-    @@main_menu_items ||= MAIN_MENU.map { MainMenuItem.new(**_1) }
+    @@main_menu_items ||= {}
+    # Try to generate the menu per language; fall back to English (default).
+    @@main_menu_items[item_lang] ||= (MAIN_MENU_PER_LANG[item_lang] || MAIN_MENU_PER_LANG[:en]).map { MainMenuItem.new(**_1) }
   end
 
   public
