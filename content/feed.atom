@@ -1,5 +1,5 @@
-<%= atom_feed :limit => 40, 
-              :articles => sorted_posts("article"), 
+<%= atom_feed :limit => 40,
+              :articles => sorted_posts("article"), # TODO: Limit Feed to languages
               :title => "Zettelkasten.de",
               :author_name => @config[:meta_data][:author],
               :author_uri => @config[:base_url] %>
