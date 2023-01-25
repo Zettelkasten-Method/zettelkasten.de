@@ -63,7 +63,7 @@ But the opposite of fragility is not robustness in the sense of mere resistance 
 2. Robust is everything that doesn't care about chance and time.
 3. Antifragile is everything that benefits from chance and time.
 
-Limiting the possible costs while keeping the possible upsides is one way to make a system antifragile. You protect the system against catastrophic events, but let it fully benefit from [anastrophes](https://www.merriam-webster.com/dictionary/anastrophe).
+Limiting the possible costs while keeping the possible upsides is one way to make a system antifragile. You protect the system against catastrophic events, but let it fully benefit from [anastrophes](https://de-m-wikipedia-org.translate.goog/wiki/Anastrophe_(Soziologie)?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp).
 
 This is the mechanics behind Feynman's 12 favorite problems: everything we learn becomes an opportunity to be an important step toward solving problems important to us. If we learn something new, we can test that new thing for its usefulness to our 12 favorite problems. Each time we go through the list, it costs us very little time and energy (low cost). But each time we have the chance to take a giant leap toward the solution (anastrophic consequences).
 

@@ -64,7 +64,7 @@ Das Gegenteil von Fragilität ist aber nicht Robustheit im Sinne einer bloßen W
 2. Robust ist alles, was unbeeindruckt von Zufall und Zeit ist.
 3. Antifragil ist alles, was von Zufall und Zeit Nutzen gewinnt.
 
-Eine Möglichkeit, ein System antifragil zu gestalten, sodass es von Zufall und über die Zeit profitiert, ist, die möglichen Kosten von Ereignissen zu begrenzen, dafür aber die möglichen Vorteile von ihren Grenzen zu befreien. Das heißt, dass das System relativ gut gegen katastrophale Ereignisse geschützt ist, dafür aber von [Anastrophen](https://www.merriam-webster.com/dictionary/anastrophe) voll profitieren kann.
+Eine Möglichkeit, ein System antifragil zu gestalten, sodass es von Zufall und über die Zeit profitiert, ist, die möglichen Kosten von Ereignissen zu begrenzen, dafür aber die möglichen Vorteile von ihren Grenzen zu befreien. Das heißt, dass das System relativ gut gegen katastrophale Ereignisse geschützt ist, dafür aber von [Anastrophen](https://de.wikipedia.org/wiki/Anastrophe_%28Soziologie%29) voll profitieren kann.
 
 Genau das ist die Mechanik hinter den 12 Lieblingsproblemen von Feynman: Alles, was wir lernen, wird zur Gelegenheit ein wichtiger Schritt auf die Lösung für uns wichtige Probleme zu sein. Lernen wir etwas Neues, können wir dieses Neue auf seine Nützlichkeit für unsere 12 Lieblingsprobleme hin prüfen. Jedes Durchgehen der Liste kostet uns nur wenig Zeit und Energie (geringe Kosten). Doch jedes Mal haben wir die Chance, einen Riesensprung auf die Lösung zu machen (anastrophale Folgen).
 
