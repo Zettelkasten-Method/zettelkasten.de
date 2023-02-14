@@ -51,7 +51,7 @@ Antifragility is a term coined by Nassim Taleb. He even dedicated his magnum opu
 
 [^20230104aff]: Affiliate Link. I get a small commission from Amazon if you buy something from Amazon through the link.
 
-[^2022-12-16-haupt1]: Nassim Nicholas Taleb (2012):  Antifragile. Things that Gain from Disorder, St. Ives: Penguin Books. P.13, P.14
+[^2022-12-16-main1]: Nassim Nicholas Taleb (2012):  Antifragile. Things that Gain from Disorder, St. Ives: Penguin Books. P.13, P.14
 
 There are things for which randomness and time are negative risks. For example, a vase can only lose when confronted with randomness. Playing children are never good for it. The longer the vase exists, the more likely it is that it will be destroyed. It is *fragile*.
 
