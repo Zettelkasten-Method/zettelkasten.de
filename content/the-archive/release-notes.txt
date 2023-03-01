@@ -9,6 +9,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.7.11 Beta (2023-02-18)
+
+Please note The Archive now requires macOS 10.13 (High Sierra) or newer for technical reasons.
+
+- **Fixed:** Trashing a note in The Archive from a folder that's managed by third party sync solutions (i.e. not iCloud) could hang the app. This affected Dropbox users with the recent Dropbox updates.
+- **Changed:** Removed animation in the preferences window that began to look quite odd in recent macOS versions.
+- **Changed:** Some performance improvements that affect note editing.
+
 ## v1.7.10 Beta (2022-12-16)
 
 - **New:** Drag and drop from chat apps and web browsers imports images.
