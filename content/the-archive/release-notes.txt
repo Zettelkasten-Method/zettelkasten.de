@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2022-12-16 10:00:49 +0100
+updated_at: 2023-03-06 09:19:04 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -9,7 +9,7 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
-## v1.7.11 Beta (2023-02-18)
+## v1.7.11 (2023-02-18)
 
 Please note The Archive now requires macOS 10.13 (High Sierra) or newer for technical reasons.
 
