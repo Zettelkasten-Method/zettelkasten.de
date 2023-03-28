@@ -3,6 +3,7 @@ title: Contact and Legal Information
 layout: plain
 toc: true
 bodyclass: contact
+updated_at: 2023-03-28 17:04:47 +0100
 ---
 
 {{toc}}
@@ -34,7 +35,7 @@ Responsible for the contents of this website, according to 55 Abs. 2 RStV:
 
 <p class="vcard">
   <span class="fn"><a href="mailto:christian.tietze@gmail.com" class="email">Christian Tietze</a></span><br/>
-  <span class="adr home"><span class="street-address">Elpke 39</span><br/>
+  <span class="adr home"><span class="street-address">Dostalstr. 18</span><br/>
   <span class="postal-code">D-33605</span> <span class="locality">Bielefeld</span></span><br/>
   <span class="mobile">+49 177 6467763</span>
 </p>
