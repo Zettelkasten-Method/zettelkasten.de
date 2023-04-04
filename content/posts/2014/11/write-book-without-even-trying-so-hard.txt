@@ -1,7 +1,7 @@
 ---
 title: How to Write a Book – Without Even Trying (so hard)
 created_at: 2014-11-02 11:47:00 +0100
-updated_at: 2022-12-06 17:59:51 +0100
+updated_at: 2023-04-04 09:22:33 +0100
 kind: article
 author: sascha
 tags: [ writing, outline, zettel, archive, effort ]
@@ -24,9 +24,8 @@ There are two methods to work with a Zettelkasten:
 
 **Indirectional work** means that you just feed your Zettelkasten. It is hungry and demands for notes a.k.a. Zettels. The more you feed it, the more complex it becomes, and [the more it will actually talk to you][luhmann]. For additional information read: [Create a Zettelkasten for your Notes to Improve Thinking and Writing][ctluhmann]
 
- [ctluhmann]: /posts/zettelkasten-improves-thinking-writing/
-
-  [luhmann]: http://luhmann.surge.sh/communicating-with-slip-boxes
+[ctluhmann]: https://zettelkasten.de/posts/zettelkasten-improves-thinking-writing/
+[luhmann]: https://zettelkasten.de/communications-with-zettelkastens/
 
 **Directional Work** means that you are working on a text, a book or an article, and feeding your Zettelkasten with notes directly and intentionally related to this book.
 

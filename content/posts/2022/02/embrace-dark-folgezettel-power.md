@@ -8,6 +8,7 @@ image: 20220228195302_sorcery.jpg
 vgwort: https://vg02.met.vgwort.de/na/e540491779604e389daedfc0b1c4139c
 excerpt: "A long time ago, Daniel wrote a reply to my reply to his article. This might be the spark that ignited the Great Folgezettel Debate. Daniel wrote that Luhmann didn't just create a network that looked like a interconnected web, but instead, he created something resembling an ordered tree."
 description: "Let's see what real links and their contexts in my Zettelkasten look like, and how they hold up compared to Folgezettel. All examples are direct translations from my own Zettelkasten."
+updated_at: 2023-04-04 09:31:40 +0100
 ---
 
 <%= insert_teaser_image caption: %Q{Image by <a href="https://pixabay.com/users/clard-6995126">Szilárd Szabó</a> from <a href="https://pixabay.com/">Pixabay</a>} %>
@@ -30,7 +31,7 @@ The central quote is:
 
 This was what triggered my article [No, Luhmann was not about Folgezettel](https://zettelkasten.de/posts/luhmann-folgezettel-truth/) since in his now famous article *Kommunikation mit Zettelkästen* he wrote the following:
 
-> By creating links, we can, without too much work or paper invested, solve the problem of "multiple storage". Using this technique, **it is not important where a new note is placed.** If there is more than one possible place the decision is arbitrary since **the context can be captured by links.** (My emphasis, my translation of Luhmann (1993): _Kommunikation mit Zettelkästen_; [See here for a more word-by-word translation](http://luhmann.surge.sh/communicating-with-slip-boxes))
+> By creating links, we can, without too much work or paper invested, solve the problem of "multiple storage". Using this technique, **it is not important where a new note is placed.** If there is more than one possible place the decision is arbitrary since **the context can be captured by links.** (My emphasis, [my translation](https://zettelkasten.de/communications-with-zettelkastens/) of Luhmann (1993): _Kommunikation mit Zettelkästen_; for a more word-by-word translation by Manfred Kühn, [see here](http://luhmann.surge.sh/communicating-with-slip-boxes))
 
 Luhmann himself remarked the *functional equivalence* of the connection created by the relative placement of a note (parent--child-relationship) and the connection created by a link.
 

@@ -19,7 +19,7 @@ We will dip our toes in the cold water of what I call *concept work*. The goal i
 
 In contrast to other approaches, Luhmann decided against making his Zettelkasten stiff and opted for an organic approach. There's a reason [his own manual][2020-08-24-komm] is titled "*Communicating* with Slip Boxes", and not something like "A slip box as a writing and thinking tool”.
 
-  [2020-08-24-komm]: http://luhmann.surge.sh/communicating-with-slip-boxes
+  [2020-08-24-komm]: https://zettelkasten.de/communications-with-zettelkastens/
 
 Our starting point to understand the nature of the Zettelkasten Method is that it is an organic and non-linear, -- even alive ,-- approach on note-taking. This is not a clear-cut definition, because, in real life, there cannot be clear-cut definitions.
 

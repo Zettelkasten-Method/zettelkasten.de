@@ -13,6 +13,7 @@ comments: off
 lang: zh
 canonical: "/introduction/"
 alternate: "https://zhuanlan.zhihu.com/p/336706087/"
+updated_at: 2023-04-04 09:24:50 +0100
 ---
 
 This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/), created and generously provided to us by [Zhixiang Cai](https://www.zhihu.com/people/cai-zhi-xiang) who holds a Ph.D in Oil and Gas Well Engineering, is a programmer, and loves knowledge management.
@@ -73,7 +74,7 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 2. **提高我们的工作效率**。卡片盒笔记法通过提供明确的指导来简化我们的工作流程。明确的流程反过来又会减少使用该方法的难度。在使用卡片盒笔记系统来管理笔记的过程中，我们会感觉到效率的提高。我甚至每周都会有两天时间将卡片盒笔记系统作为我的首要任务，让自己沉浸于写卡片盒笔记的 *心流(flow)*之中。
 3. **不再浪费我们的付出**。即便你的笔记无法用于当下正在做的事情，你也会未来的项目储备知识，至少会提高你对该主题相关信息的处理深度。因为你可以很轻松的根据笔记之间的联系找到过去记的笔记。
 4. **让我们解决更复杂的问题**。处理复杂的问题时，你很难一次性将它全部解决。卡片盒笔记法可以让你集中精力处理问题的一小部分，然后再退一步，用全景的眼光去看这个问题。
-5. **我们的笔记不会混乱**。常规的笔记法，时间长了会变成臃肿不堪乱成一团。而卡片盒笔记系统则会根据你所要解决的问题的自动调整自己的规模。这是卢曼提到的[内生长(internal growth)](https://luhmann.surge.sh/communicating-with-slip-boxes)，我更愿意将其翻译为**有机生长**(organic growth，寓意像生命体一样自然生长)。
+5. **我们的笔记不会混乱**。常规的笔记法，时间长了会变成臃肿不堪乱成一团。而卡片盒笔记系统则会根据你所要解决的问题的自动调整自己的规模。这是卢曼提到的[内生长(internal growth)](https://zettelkasten.de/communications-with-zettelkastens/)，我更愿意将其翻译为**有机生长**(organic growth，寓意像生命体一样自然生长)。
 6. **让写作更容易，更顺畅，更有条理和说服力**。写作和思考的一个主要问题是，我们很难长时间保持写作的思绪(line of thought)不断。冥想时尚且很难将注意力集中于呼吸这样简单的事情，更不用说为了写一篇论文而在几周甚至几个月里都思考同一个问题。而Z卡片盒笔记法以帮你牢牢抓住你对问题的各种想法，并让这些想法保持活力不会丢失。
 
 为了有效的解决解决问题，我们必须记笔记。用卢曼的话说：
@@ -109,7 +110,7 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 
 ## 卡片盒笔记系统是个性化的思考和写作的工具
 
-与其他方法相比，卢曼选用了一种更有生命力的方式(organic approach)，来避免 卡片盒笔记系统变得僵硬。他曾撰写的卡片盒笔记系统手册的标题是“[与滑盒交流(Communicating with Slip Box)](https://luhmann.surge.sh/communicating-with-slip-boxes)”，这与我们把卡片盒笔记系统看作写作和思考的滑盒本质上是相同的：卡片盒笔记系统是一种有机的，非线性的，甚至像生命体一样活生生的笔记记录方法。
+与其他方法相比，卢曼选用了一种更有生命力的方式(organic approach)，来避免 卡片盒笔记系统变得僵硬。他曾撰写的卡片盒笔记系统手册的标题是“[与滑盒交流(Communicating with Slip Box)](https://zettelkasten.de/communications-with-zettelkastens/)”，这与我们把卡片盒笔记系统看作写作和思考的滑盒本质上是相同的：卡片盒笔记系统是一种有机的，非线性的，甚至像生命体一样活生生的笔记记录方法。
 
 我们先说说卡片盒笔记系统最重要的特点：
 
@@ -245,7 +246,7 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 
 与普通的笔记系统相比，卡片盒笔记系统真正的魔力来自于对连接(connection)的高度重视。每一个新的笔记卡片都需要与其他的笔记卡片建立某种关系。卢曼曾这样强调连接进每一个新 Zettel 的重要性：
 
-> 如果解决某个问题的方式有好几种，我们只需通过一个链接将这些可能性联系起来。通常，笔记中的一条笔记中有多个链接与好几个其他笔记相连。在这种情况下，我们不但**要建立正向的链接**，还应该在被链接的笔记中建立反向链接(backlinks)。在这个过程中，我们会发现所写的**笔记内容也会越来越丰富**。—— [Communicating with Slip Boxes by Niklas Luhmann](https://luhmann.surge.sh/communicating-with-slip-boxes)
+> 如果解决某个问题的方式有好几种，我们只需通过一个链接将这些可能性联系起来。通常，笔记中的一条笔记中有多个链接与好几个其他笔记相连。在这种情况下，我们不但**要建立正向的链接**，还应该在被链接的笔记中建立反向链接(backlinks)。在这个过程中，我们会发现所写的**笔记内容也会越来越丰富**。—— [Communicating with Slip Boxes by Niklas Luhmann](https://zettelkasten.de/communications-with-zettelkastens/)
 
 在笔记间建立连接的最主要的好处是对你大脑的影响。当你把很多知识碎片连接起来时，你会在知识之间建立联系。这不但有助于记忆知识，还能训练大脑看到知识的模式(patterns)。
 
@@ -357,7 +358,7 @@ The Archive 这款软件的主要理念是坚持软件不可知论(software-agno
 
 ## 参考文献
 
-1.  [Communicating with Slip Boxes by Niklas Luhmann](https://luhmann.surge.sh/communicating-with-slip-boxes)
+1.  [Communicating with Zettelkastens by Niklas Luhmann](https://zettelkasten.de/communications-with-zettelkastens/)
 2.  [Understanding Hierarchy by Translating Folgezettel and Structure Zettel](https://zettelkasten.de/posts/understanding-hierarchy-translating-folgezettel/)
 3.  [Ido Portal](https://www.facebook.com/notes/ido-portal/optimal-teaching-chunking-vs-the-chemistry-model-by-ido-portal/255608244481163)
 4.  [Heterarchy - Wikipedia](https://en.wikipedia.org/wiki/Heterarchy)

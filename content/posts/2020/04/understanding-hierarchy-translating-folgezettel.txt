@@ -8,6 +8,7 @@ image: 202004151541_duck-folge.jpg
 vgwort: https://vg08.met.vgwort.de/na/df1f921ccc1141dca84c3e9145453f5f
 toc: on
 description: "Folgezettel and Structure Zettel use the form of hierarchy: Folgezettel use a single one, Structure Zettel use multiple. Folgezettel can lure you into collector's fallacy, though, when you postpone making connections meaningful."
+updated_at: 2023-04-04 09:32:26 +0100
 ---
 
 **Please note:** This is a post that requires a bit of prior knowledge. There are links for some of the terms. If you are interested in taking knowledge work to the next level, [join the forum](https://forum.zettelkasten.de/) and become part of the community. This post is directly inspired by the great discussions by the folks over there. 
@@ -28,7 +29,7 @@ Those two achievements refer to specific principles that are part of the Zettelk
 
 Let's put aside the second aspect and concentrate on hierarchy. Luhmann implemented the Folgezettel technique by making use of a certain method to assign unique identifiers (IDs). This results in a hierarchy that consists of the entirety of his Zettelkasten. If we want a hierarchy that covers all of our Zettelkasten we'd just create a Master Structure Zettel. By implementing Luhmann's Folgezettel technique, you create an enumerated, nested list. Nothing more and nothing less. It can be done by assigning each Zettel the [Luhmann Identifier](https://zettelkasten.de/posts/kinds-of-ties/#folgezettel), and it can be done by creating a master Structure Zettel.
 
-[Luhmann said the following](http://luhmann.surge.sh/communicating-with-slip-boxes), emphasis mine:
+[Luhmann said the following](https://zettelkasten.de/communications-with-zettelkastens/), emphasis mine:
 
 > Given this technique, it is **less important** where we place a new note. If there are several possibilities, we can solve the problem as we wish and just record the connection by a link [or reference].
 

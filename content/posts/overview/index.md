@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-updated_at: 2022-12-07 19:05:30 +0100
+updated_at: 2023-04-04 09:34:27 +0100
 toc: true
 ---
 {{toc}}
@@ -123,7 +123,7 @@ If you want to know more about the history of the Zettelkasten Method, check out
 
 We cover the relevant bit of history in [our introduction](/introduction) to explain how the Zettelkasten Method works.
 
-Check out [the translation of Luhmann's own Zettel about his Zettelkasten](/posts/luhmanns-zettel-translated).
+Read our translation of Luhmann's _[Communication with Zettelkastens](/communications-with-zettelkastens/)_ to get to know his original approach. Then check out [the translation of Luhmann's own Zettel about his Zettelkasten](/posts/luhmanns-zettel-translated).
 
 
 ## Tools

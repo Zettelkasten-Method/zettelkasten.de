@@ -83,7 +83,7 @@ The very first note is assigned the number `1`. If you add a second note that is
 
 [^2020-06-29-id]: Luhmann's actual numbering system included one slash, but for didactic reasons, we chose to leave it out. He used it for better readability.
 
-[luhmann-zk]: https://luhmann.surge.sh/communicating-with-slip-boxes
+[luhmann-zk]: https://zettelkasten.de/communications-with-zettelkastens/
 
 Luhmann's numbering system has two consequences for re-creating his method:
 

@@ -8,6 +8,7 @@ vgwort: https://vg02.met.vgwort.de/na/5ecb7a3567854388b277be5d1e30893f
 import:
     without_comments: true
     from: "http://christiantietze.de/posts/2013/06/zettelkasten-improves-thinking-writing/"
+updated_at: 2023-04-04 09:29:45 +0100
 ---
 
 Who is this for?
@@ -41,8 +42,8 @@ Let's start with the _thought_ before we get to the _note_.
 [vn]: http://en.wikipedia.org/wiki/Index_card
 [as]: http://en.wikipedia.org/wiki/Arno_Schmidt
 [zt]: http://www.zinzin.com/observations/2013/who-was-arno-schmidt-and-what-is-zettels-traum-some-evidentiary-fragments/
-[csb]: http://luhmann.surge.sh/communicating-with-slip-boxes
-  
+[csb]: https://zettelkasten.de/communications-with-zettelkastens/
+
 ## Improve Thinking by Writing: Why You Should Take Notes [impthink]
 
 Whenever you want to think to some purpose, you should consider writing it down.  See Luhmann, [_Communication with Slip Boxes. An Empirical Account_][csb], and the book by Steffens (pp 20--21, see [references](#_references)).

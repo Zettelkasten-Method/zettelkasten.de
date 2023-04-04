@@ -6,6 +6,7 @@ author: sascha
 tags: [ personal, use-case ]
 image: 201412021638_happy-child.jpg
 vgwort: https://vg05.met.vgwort.de/na/3906353a4e23456fa5c53f146aef7a4a
+updated_at: 2023-04-04 09:33:11 +0100
 ---
 
 
@@ -36,7 +37,7 @@ Thus, ** I found the Zettelkasten was!** I was in love immediately, and it is an
 
 I did some research and found that Luhmann actually wrote an article on his Zettelkasten. I took it as my gospel of truth. I inferred [a few laws and rules][luhmann-comm] for my own Zettelkasten.
 
-  [luhmann-comm]: http://luhmann.surge.sh/communicating-with-slip-boxes
+  [luhmann-comm]: https://zettelkasten.de/communications-with-zettelkastens/
 
 At this point I was still working with paper and index cards. I think it was because of my romantic idea of analogous knowledge work. But in essence I tried to mimic Luhmann's Zettelkasten. 
 
