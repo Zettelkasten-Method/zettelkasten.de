@@ -399,6 +399,7 @@ module My
                    link: link,
                    border: border)
     end
+    alias :insert_teaser :insert_teaser_image
 
     def insert_image_group(urls: [], caption: "", border: true)
       raise "urls must not be empty" if urls.empty?
@@ -422,13 +423,10 @@ module My
       ].join("\n")
     end
 
-    def insert_rel_image(file: nil, title: "", caption: "", link: nil, relative: nil, border: true)
-      insert_relative_image(file: file, title: title, caption: caption, link: link, relative: relative, border: border)
-    end
-
     def insert_relative_image(file: nil, title: "", caption: "", link: nil, relative: nil, border: true)
       insert_image(file: rel_url_for(file), title: title, caption: caption, link: link, relative: relative, border: border)
     end
+    alias :insert_rel_image :insert_relative_image
 
     def insert_image(file: nil, title: "", caption: "", link: nil, relative: nil, border: true)
       raise "file expected" unless file
