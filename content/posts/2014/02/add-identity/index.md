@@ -1,6 +1,7 @@
 ---
 title: You Only Find What You Have Identified
 created_at: 2014-02-27 22:29:12 +0100
+updated_at: 2023-05-02 21:47:50 +0100
 kind: article
 author: christian
 tags: [ archive, writing, process, identifier ]
@@ -22,9 +23,9 @@ Whenever I **reference** a note, I use the target's ID and prefix my reference-g
 
 In fact, since I write my notes in plain text Markdown, I use a Markdown-style syntax to denote links:  `[target description][§201402260939]`.  I want to add a Markdown pre-processor so links like these work out of the box.  Since I don't define the link reference `[§201402260939]` anywhere, no click-able link is created when I convert notes to HTML.
 
-Also, every Zettel has its own file in my archive.  This isn't a necessary criteria for identity, though.  It's just way more convenient than writing everything in one single, big file of text.  Additionally, thinking in files comes easier than merely thinking in IDs.  Keep this in mind, though:  Note identity and file system representation are ultimately not the same thing.
+Also, every Zettel has its own file in my archive.  This isn't a necessary criterion for identity, though.  It's just way more convenient than writing everything in one single, big file of text.  Additionally, thinking in files comes easier than merely thinking in IDs.  Keep this in mind, though:  Note identity and file system representation are ultimately not the same thing.
 
-Think outside of the box for a moment:  when note identity and file system representation are decoupled like this, how could we use information identity elsewhere?
+Think outside the box for a moment: when note identity and file system representation are decoupled like this, how could we use information identity elsewhere?
 
 [extend]: /posts/extend-your-mind-and-memory-with-a-zettelkasten/
 
@@ -34,7 +35,7 @@ In my [Zettelkasten book][zkbook] manuscript, I wanted to create cross-reference
 
 Part of my writing process is to add comments to the manuscript which contain promises I make.  This way I don't lose track of all the open loops which are scattered everywhere.  The whole manuscript is a big construction site where I, the builder, make progress concurrently.  Pointing at other parts of the book makes it easier to remember _not_ to write about a topic in a particular place.  Instead, I can create a placeholder where the details really belong and point to it from where the thought occurred to me.
 
-Since not every sub-sub-section of the book has its own file, unlike Zettel notes, I can't use a file name to create references between parts of the book.  Instead, I have to use some kind of label.  It comes to mind that a section's heading can be uses for links in the same document -- but in this drafting phase, the headings change too often, thus making the references either unstable or a pain to maintain.  
+Since not every sub-sub-section of the book has its own file, unlike Zettel notes, I can't use a file name to create references between parts of the book.  Instead, I have to use some kind of label.  It comes to mind that a section's heading can be uses for links in the same document -- but in this drafting phase, the headings change too often, thus making the references either unstable or a pain to maintain.
 
 I need to manually add an invisible jump mark to solve this problem.  "To add a jump mark" means that I add an arbitrary line of text into the document which contains some kind of unique label.  Somewhere else I use that label again to create a reference back to the jump mark.  This is like jumping in an HTML document with the use of anchor links, like "go to top," or clickable table of contents in a PDF.  If you're a techie, you will find this is familiar to the [`GOTO` command][goto] of a BASIC programming language dialect, for example.  Sadly, when you write a text, there's no software which ensures you don't use the same textual label twice.  Unlike in programming, no one warns you about duplicate jump marks.  You have to worry about uniqueness yourself.
 
@@ -63,7 +64,7 @@ To resolve the reference, I have to select the ID and copy & paste it into a sea
 
 I can search for the ID either system-wide, project-wide, or directly in my Zettelkasten note archive.
 
-System wide search is a no-brainer on the Mac, thanks to Spotlight.  There is similar software for Linux and Windows, so everyone should be covered.  It's okay to default to system-wide search, but it'd be way faster if the ID-based link gave away where the target is.  It suffices to know whether a reference points either at the _Zettelkasten_ note archive or at some place in the current project -- if both aren't the case, then we have to search system wide, obviously.  Thus, we have to denote whether a link is an external link to the archive or an internal link to a jump mark in the project.
+System-wide search is a no-brainer on the Mac, thanks to Spotlight.  There is similar software for Linux and Windows, so everyone should be covered.  It's okay to default to system-wide search, but it'd be way faster if the ID-based link gave away where the target is.  It suffices to know whether a reference points either at the _Zettelkasten_ note archive or at some place in the current project -- if both aren't the case, then we have to search system-wide, obviously.  Thus, we have to denote whether a link is an external link to the archive or an internal link to a jump mark in the project.
 
 To limit search to a project is easy thanks to modern text editors.  [TextMate][] is my editor of choice:  it supports to search in all files of a folder.  This is perfect for writing projects, because every chapter has its own file, while all files share a common project folder.  Using a project-wide search, it becomes virtually irrelevant how you distribute your text across files.
 
