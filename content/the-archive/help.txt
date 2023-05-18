@@ -1,6 +1,6 @@
 ---
 title: The Archive Help
-updated_at: 2021-02-08 11:11:00 +0100
+updated_at: 2023-05-18 11:26:13 +0100
 description: "Resources and information for The Archive, macOS note-taking app for prolific writers and productive researchers."
 layout: the-archive
 toc: true
