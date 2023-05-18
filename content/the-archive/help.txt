@@ -128,6 +128,24 @@ For example, `thearchive://match/202305181051` will show the note matching "`202
 
 <a href="#frequently-asked-questions">(back to top)</a>
 
+
+### How can I include images in my notes?
+
+_The Archive_ stores notes as plain text, but you can display image files in your notes using the Markdown syntax:
+
+```markdown
+![image title](path/to/image.png)
+```
+
+The result looks like this:
+
+<%= insert_image file: "/the-archive/img/image-embed.png", caption: "Image files are displayed inside editor" %>
+
+The easiest way is to keep your images in your "media" sub-folder next to your notes and let _The Archive_ manage the files for you. Drag and drop images into your notes, and that's all you need.
+
+- [Image drag & drop, and copy & paste](https://zettelkasten.de/posts/images-in-the-archive/): find out how to import images and manage image files;
+- [Camera capturing](https://zettelkasten.de/posts/the-archive-image-capture/) makes it possible to use your Mac's camera (or your iPhone!) to snap pictures and include them in your notes.
+
 <a href="#frequently-asked-questions">(back to top)</a>
 
 
