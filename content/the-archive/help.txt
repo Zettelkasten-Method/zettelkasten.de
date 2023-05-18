@@ -33,6 +33,8 @@ To open these URLs, use the Terminal and use the `open` command, e.g.:
 
     open thearchive://preference/thePreferenceName/set/1234
 
+This also works in your browser if you copy the URL (not the "open" at the beginning)!
+
 - To set a preference, use the format `thearchive://preference/<PREFNAME>/set/<VALUE>`.
 - To reset a changed preference to its built-in value, use the format `thearchive://preference/<PREFNAME>/delete`.
 
@@ -94,33 +96,40 @@ There are different ways to create a note, each with pros and cons depending on 
 
 <a href="#frequently-asked-questions">(back to top)</a>
 
+
 ### How do I create links between notes?
 
-To create links between notes, you need to define how to *target* a note first. On the web, it is simple: each website has its own unique address that you can copy from the address bar of your web browser.
+This is how we do it in _The Archive_ by default: every Zettel note gets its own address. This is the note's ID. ([Find out why identifiers are important.](https://zettelkasten.de/posts/add-identity/ "Blog Post: “You Only Find What You Have Identified”"))
+An ID should never change: it must be fixed and stable. So the note title is not a good candidate as it may change over time. Moments in time are unique and also easy to generate.
+We choose date-and-time IDs like `202305181056` which represents the date "2023-05-18 10:56am".
 
-When you work with plain text files, it might sound obvious to use the file names. And if you want to have clickable links, you might use the full path to a note, like `file:///Users/JaneDoe/Archive/some-note.txt`. But that's fragile, since the links break when you rename the note or move your archive to a different path.
+To create links between notes, you reference the target note by its address, aka its ID.
 
-This is how we do it: every Zettel note gets its own unique ID. We choose the timestamp-like IDs like `201402260939` which would be based on the date "2014-02-26 9:39a.m." Moments in time are unique; and the ID should be fixed, so the note title is not a good candidate as it may change over time.
-
-When you reference a note from someplace else, you paste the ID there. You will soon learn to recognize such sequences of digits as IDs because of the way they look. Then you know, "there's a Zettel with this ID, I should check it out!"
+Even though it sounds obvious to use file names, an arbitrary ID (which should be *part* of the filename) is more stable.
 
 *The Archive* tries to be helpful and aid you with these nifty `[[Double Bracket Wiki-Links]]`, which trigger a search. Adhering to the double-square-bracket convention of wikis, you get clickable links using Zettel IDs without buying into any proprietary file format or fragile file paths.
 
-[Read more about identifiers](https://zettelkasten.de/posts/add-identity/).
+- [Read more about identifiers](https://zettelkasten.de/posts/add-identity/).
 
 <a href="#frequently-asked-questions">(back to top)</a>
+
 
 ### How do I link to notes from other apps?
 
-As with internal connection, using a file-based link isn't a very durable way to point into your note archive from outside. We suggest you simply paste the ID for maximum durability.
+We believe that using a file path-based link isn't a very durable way to point to your notes. The links break once you move your notes to another directory or drive. This is true for links between notes, but also for incoming links from other apps. Instead, we suggest you simply use the ID of your notes and tell _The Archive_ to look up the result.
 
-If you really want to create a link to click on that launches _The Archive_ and opens an appropriate note, we got you covered with a **external link URL scheme**:
+A link launches _The Archive_ and opens a matching note works with this **external link URL scheme**:
 
+- `thearchive://match/TERM` works like the search but displays a good match directly; this is similar to `[[Wiki-Links]]`. You likely want to use this.
 - `thearchive://search/TERM` searches for `TERM` as if you typed it in
-- `thearchive://match/TERM` works like the search but displays a good match directly; this is similar to `[[Wiki-Links]]`.
 - `thearchive://matchOrCreate/TERM` will create a note of the exact title `TERM` if that doesn't exist; it's similar to entering a search term into the Omnibar and hitting the return key.
 
+For example, `thearchive://match/202305181051` will show the note matching "`202305181051`" in _The Archive_.
+
 <a href="#frequently-asked-questions">(back to top)</a>
+
+<a href="#frequently-asked-questions">(back to top)</a>
+
 
 ### Can I use boolean search?
 
