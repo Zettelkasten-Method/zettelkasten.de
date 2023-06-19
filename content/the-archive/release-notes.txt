@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2023-03-06 09:19:04 +0100
+updated_at: 2023-06-19 18:51:55 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,10 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+## v1.7.12 (2023-06-19)
+
+- **Fixed:** Restoration of scroll position in long notes. (Thanks two tons to Paul Troop for live-debugging the issue with me for 90 minutes straight!)
 
 ## v1.7.11 (2023-02-18)
 
