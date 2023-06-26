@@ -55,6 +55,7 @@ module MultiLang
   end
 
   NO_COMMENTS_TEXT = {
+    :en => %{Comments are in English and <a href="https://forum.zettelkasten.de/">powered by our forum.</a>},
     :de => %{Kommentare sind auf Englisch <a href="https://forum.zettelkasten.de/">in unserem Forum.</a>},
     :zh => %{Comments are in English and <a href="https://forum.zettelkasten.de/">powered by our forum.</a>}, # TODO: translate to Chinese
   }
