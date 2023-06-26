@@ -66,4 +66,10 @@ module MultiLang
       NO_COMMENTS_TEXT[item_lang] || "",
     ].join("\n")
   end
+
+  # TODO: make My:Blog use use_helper API, remove that method from there, then this can be uncommented:
+  # def canonical_path(item = nil)
+    # item ||= @item
+    # item[:canonical] || item.path
+  # end
 end

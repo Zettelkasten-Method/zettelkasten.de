@@ -494,7 +494,13 @@ module My
 
       def relative_path_for(filename, item)
         return filename if filename[0] == "/"
-        File.join(item.path, filename)
+        canonical_path(item)
+        File.join(canonical_path(item), filename)
+      end
+      # TODO: Move to ./multilang.rb again
+      def canonical_path(item = nil)
+        item ||= @item
+        item[:canonical] || item.path
       end
 
       def attribute_to_time(time)
