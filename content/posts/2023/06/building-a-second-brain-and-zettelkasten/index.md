@@ -438,7 +438,7 @@ Strictly speaking, I do not follow PARA, but an overarching principle. I underst
 
 In my view, PARA is a version of a general principle of task hierarchy:
 
-> *Important projects are urgent.
+> *Important projects are urgent.*
 
 Models such as the [Eisenhower Matrix](https://asana.com/de/resources/eisenhower-matrix) suggest that the importance and urgency of tasks and projects are two independent properties. While this is true in the short term, it is not true in the long term. For example, it is urgent that I clean up my workspace today so that I have a clean start to next week. But cleaning up is not important compared to finishing this article. Tidying up is urgent because the mess is screaming at me right now, but it's not important. I could go on working in the mess for years. Completing this article, on the other hand, is an important milestone for the Zettelkasten Project. Whether I finish it a week earlier or later, on the other hand, makes little difference.
 
@@ -448,7 +448,7 @@ The principle *Important projects are urgent!* is a second-order principle that 
 
 This results in a unifying hierarchy that combines importance and urgency.
 
-PARA follows exactly this principle. The areas of responsibility are what is important but not urgent. Yet they continually produce projects that we treat as urgent. Indeed, projects have a specific goal and usually deadlines. <!--TODO Sense of Urgency by Kotter can be plugged in here (@Christian: ignore this comment) --> PARA is a way to continually transform important but not urgent into important *and* urgent. I think this is one reason why BASB works as a productivity tool.
+PARA follows exactly this principle. The areas of responsibility are what is important but not urgent. Yet they continually produce projects that we treat as urgent. Indeed, projects have a specific goal and usually deadlines. PARA is a way to continually transform important but not urgent into important *and* urgent. I think this is one reason why BASB works as a productivity tool.
 
 PARA has a kind of iceberg dynamic. Only the smallest part, the projects, float above the surface. The rest remains hidden below the water's surface. But below its surface, water freezes onto the iceberg and makes it larger. As a result, the iceberg gains more buoyancy and more of it protrudes above the water. The areas of responsibility and resources give the overall system a greater buoyancy. In a sense, they push projects above the surface of the water into our consciousness. And if you want to stretch the metaphor a bit, the ice above the water can be mined and drunk as precious fresh water.
 
