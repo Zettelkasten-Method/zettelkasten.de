@@ -23,18 +23,19 @@ I have made some changes in my own way of working. I will include these as examp
 
 ## The ultimate goal of Building a Second Brain is inner peace
 
-<!-- What is this? --> What did Robin Hood feel when he aimed at his own arrow at the center of his target before splitting it? Of all the answers, I like the following the best: oneness with the world with a consciousness that was freed from all its contents. Zen. The perfect inner harmony.
+What did Robin Hood feel when he aimed at his own arrow at the center of his target before splitting it? Of all the answers, I like the following the best: oneness with the world with a consciousness that was freed from all its contents. Zen. The perfect inner harmony.
 
 <%= insert_rel_image file: "robin-hood.jpg", caption: %Q{Picture by <a href="https://unsplash.com/@artem_kniaz">Artem Kniaz</a> from <a href="https://unsplash.com/de/fotos/jzJrcP2W-ZI">Unsplash</a>} %>
 
-Every form of self-management is an attempt to take a step towards this inner harmony. It is therefore no coincidence that David Allen in *Getting Things Done* repeatedly points to the goal of "mind like water" throughout his book.[14][#allen2015] Forte's *Building a Second Brain* builds on the tradition of Getting Things Done. Not only does he write this explicitly.[212][#forte2022] It is reflected in advice like this:
+Every form of self-management is an attempt to take a step towards this inner harmony. It is therefore no coincidence that David Allen in *Getting Things Done* repeatedly points to the goal of "mind like water" throughout his book.[14][#allen2015] Forte's *Building a Second Brain* builds on the tradition of Getting Things Done. Not only does he write this explicitly.[^forte-0] It is reflected in advice like this:
 
-> **Don't worry about analyzing, interpreting, or categorizing each point to decide whether to highlight it. That is way too taxing and will break the flow of your concentration. Instead, rely on your intuition** to tell you when a passage is interesting, counterintuitive, or relevant to your favorite problems or current project.[140][#forte2022] (Emphasis mine)
+> **Don't worry about analyzing, interpreting, or categorizing each point to decide whether to highlight it. That is way too taxing and will break the flow of your concentration. Instead, rely on your intuition** to tell you when a passage is interesting, counterintuitive, or relevant to your favorite problems or current project.[^forte-1] (Emphasis mine)
 
 Knowledge work is characterized by the fact that tasks are not given, but must first be recognized as such.[^allen2015-16] This lack of clarity about how to understand something and what to do with it leads to psychological entropy. Then, we feel nervous, uncertain, and anxious.[^hirsh2012]
 
+[^forte-0]: Forte 2022, 212
+[^forte-1]: Forte 2022, 140
 [^hirsh2012]: Jacob B. Hirsh, Raymond A. Mar, and Jordan B. Peterson (2012): Psychological entropy: a framework for understanding uncertainty-related anxiety., Psychological review, 2012, Vol. 119 2, S. 304-20.
-
 [^allen2015-16]: David Allen (2015): Getting Things Done. The Art of Stress-Free Productivity, Elcograf: Piatkus. S.16.
 
 Any form of self-management is ultimately a method of managing psychological entropy. This is also true for *Building a Second Brain*.
@@ -45,11 +46,12 @@ Any form of self-management is ultimately a method of managing psychological ent
 
 While BASB's "second brain" doesn’t move beyond the resource, the work with the Zettelkasten begins only after we have extracted the ideas and thoughts from the resource and put each of them on an atomic note while leaving behind the resource. This is one of the main differences between BASB and the ZKM. BASB is a system for resource management; ZKM is a method for working with ideas themselves.
 
-**(2) *Building a Second Brain* is a project management system.** The emphasis of the whole system on action effectiveness is particularly evident through the filing system PARA.[86ff, 103/104][#forte2022] The four parts (**P**rojects, **A**reas, **R**resources, **A**rchive) are aligned to a hierarchy of urgency. At the same time, a connection is made between urgency and importance because completed projects are "the blood flow of your Second Brain."[108][#forte2022] Importance and urgency are the categories of projects and tasks. In a sense, the overall system speaks the "language of action".
+**(2) *Building a Second Brain* is a project management system.** The emphasis of the whole system on action effectiveness is particularly evident through the filing system PARA.[^forte-97] The four parts (**P**rojects, **A**reas, **R**resources, **A**rchive) are aligned to a hierarchy of urgency. At the same time, a connection is made between urgency and importance because completed projects are "the blood flow of your Second Brain."[^forte-2] Importance and urgency are the categories of projects and tasks. In a sense, the overall system speaks the "language of action".
 
 In contrast, the Zettelkasten Method speaks the "language of knowledge". In the Zettelkasten, there is no such thing as importance or urgency. Each note merely contains ideas and their connections to other ideas. Their actionability is a second layer that we put onto them.
 
-<!--TODO Was ist der Unterschied zwischen "language of knowledge" und "language of action" -->
+[^forte-97]: Forte 2022, 86ff, 103/104
+[^forte-2]: Forte 2022, 108
 
 ### Who is *Building a Second Brain* for?
 
@@ -89,38 +91,58 @@ In most programs, you'd create a folder for each container. However, in some pro
 
 <%= insert_rel_image file: "2023-06-20_iceberg-v2.png" %>
 
-**Projects** are short-term efforts in work and personal life. They are what you are *currently* working on.[90][#forte2022] They have characteristics conducive to work:
+**Projects** are short-term efforts in work and personal life. They are what you are *currently* working on.[^forte-3] They have characteristics conducive to work:
 
-1. A beginning and an end (unlike a hobby or an area of responsibility).[91][#forte2022]
-2. A concrete result to be achieved and consist of concrete steps that are necessary and together sufficient to achieve that goal.[91][#forte2022]
+1. A beginning and an end (unlike a hobby or an area of responsibility).[^forte-4]
+2. A concrete result to be achieved and consist of concrete steps that are necessary and together sufficient to achieve that goal.[^forte-5] *Example:* Achieve 100 kilos in the bench press.
 
-*Example:* Achieve 100 kilos in the bench press.
-
-**Areas (of Responsibility)** are concerned with anything that you want to keep in mind for the long term. They differ from projects in that you do not pursue a goal with them, but want to maintain a standard. Accordingly, they are not limited in time. One could say that they represent an aspiration on ourselves and our living world.[94][#forte2022]
+**Areas (of Responsibility)** are concerned with anything that you want to keep in mind for the long term. They differ from projects in that you do not pursue a goal with them, but want to maintain a standard. Accordingly, they are not limited in time. One could say that they represent an aspiration on ourselves and our living world.[^forte-6]
 
 *Example:* Health and Fitness.
 
-**Resources** are topics that might become relevant or useful at best in the long run.[90][#forte2022] They are a catch-all container for everything that is neither a project nor a responsibility. Resources are:[94][#forte2022]
+[^forte-6]: Forte 2022, 94
+[^forte-5]: Forte 2022, 91
+[^forte-3]: Forte 2022, 90
+[^forte-4]: Forte 2022, 91
 
-- topics that are interesting,[94][#forte2022]
-- subjects to be researched,[94][#forte2022]
-- useful information for later use,[94][#forte2022]
-- hobbies.[94][#forte2022] (Note: I consider hobbies to be an area of responsibility because hobbies also have standards).
+**Resources** are topics that might become relevant or useful at best in the long run.[^forte-7] They are a catch-all container for everything that is neither a project nor a responsibility. Resources are:[^forte-8]
+
+- topics that are interesting,[^forte-9]
+- subjects to be researched,[^forte-10]
+- useful information for later use,[^forte-11]
+- hobbies.[^forte-12] (Note: I consider hobbies to be an area of responsibility because hobbies also have standards).
 
 *Example:* A workout plan to try at some point.
 
-The **Archive** is for everything inactive from the above three categories.[90][#forte2022] It is a storage for things finished and postponed.[95][#forte2022]
+[^forte-7]: Forte 2022, 90
+[^forte-8]: Forte 2022, 94
+[^forte-9]: Forte 2022, 94
+[^forte-10]: Forte 2022, 94
+[^forte-11]: Forte 2022, 94
+[^forte-12]: Forte 2022, 94
+
+
+The **Archive** is for everything inactive from the above three categories.[^forte-13] It is a storage for things finished and postponed.[^forte-14]
 
 *Example:* An old training plan.
 
+[^forte-13]: Forte 2022, 90
+[^forte-14]: Forte 2022, 95
+
 <%= insert_rel_image file: "2023-06-16_basb-layers.png" %>
 
-The four containers are sorted by action relevance:[86 ff., 102, 103/104][#forte2022]
+The four containers are sorted by action relevance:[^forte-98]
 
-1. Projects are most relevant to action because you are currently working on them and have a deadline.[102][#forte2022] The fact that you have to have a deadline is not the deciding factor, only that you are actively working on them. My personal criterion for this is that I sit down at least once a week to work on the project.
-2. Areas of responsibility have a longer time horizon and are therefore not immediately relevant for action.[102][#forte2022]
-3. Resources become actionable only in specific contexts.[102][#forte2022]
-4. Archived stuff is inactive until it is needed.[102][#forte2022] Therefore, it is hardly relevant to action.
+[^forte-98]: Forte 2022, 86 ff., 102, 103/104
+[^forte-15]: Forte 2022, 102
+[^forte-16]: Forte 2022, 102
+[^forte-17]: Forte 2022, 102
+[^forte-18]: Forte 2022, 102
+
+1. Projects are most relevant to action because you are currently working on them and have a deadline.[^forte-15] The fact that you have to have a deadline is not the deciding factor, only that you are actively working on them. My personal criterion for this is that I sit down at least once a week to work on the project.
+2. Areas of responsibility have a longer time horizon and are therefore not immediately relevant for action.[^forte-16]
+3. Resources become actionable only in specific contexts.[^forte-17]
+4. Archived stuff is inactive until it is needed.[^forte-18] Therefore, it is hardly relevant to action.
 
 This four-folder system is kept simple for a reason: Complex systems usually require complex maintenance. PARA abandons this complexity. CODE, BASB's workflow, is similarly kept simple.
 
@@ -135,7 +157,9 @@ The BASB workflow is divided into four steps:
 
 Forte does give some tips on **Capture**. However, I do not consider them essential to understanding BASB. Therefore, I will not go into them in detail.
 
-**Organize** is the step where we empty the inbox and incorporate the resources into the *PARA* system. In doing so, we use the hierarchical nature of PARA: We first check if the resource can be used for something urgent and then work our way to less urgent:[102][#forte2022]
+**Organize** is the step where we empty the inbox and incorporate the resources into the *PARA* system. In doing so, we use the hierarchical nature of PARA: We first check if the resource can be used for something urgent and then work our way to less urgent:[^forte-19]
+
+[^forte-19]: Forte 2022, 102
 
 <%= insert_rel_image file: "2023-06-17_basb-file.png" %>
 
@@ -144,7 +168,9 @@ Forte does give some tips on **Capture**. However, I do not consider them essent
 3. *If not:* Is the resource useful as part of a resource container? If yes, file it under the respective resource container.
 4. *If not:* Archive the resource.
 
-**Distill** describes the way the resource is processed. Here, Forte recommends the *progressive summary*:[120][#forte2022]
+**Distill** describes the way the resource is processed. Here, Forte recommends the *progressive summary*:[^forte-20]
+
+[^forte-20]: Forte 2022, 120
 
 1. Acquisition is counted as the first step of processing. That is: the resource is filed. In Forte, this is already achieved at *capture*. However, I think it is better to assign this step to *Organise*. Only when we have filed the resource in the PARA system can we speak of a first edit.
 2. Read the resource and mark in bold the passages that catch our eye.
@@ -155,15 +181,17 @@ This is where the difference from the Zettelkasten Method becomes particularly o
 
 With BASB, we get stuck with *managing* resources because we don't move beyond the resource. Yet, the method of resource editing is quite easily interchangeable. Even if we process the resource to the point of extracting out each individual thought, as is the case with, let's say, the Zettelkasten Method, we could still fit the individual thoughts into the PARA system as well. So, progressive summarization is not at all an essential ingredient for BASB to work.
 
-<!--ct: aus dem Deutschen eingefuegt-->
+> Don't worry about analyzing, interpreting, or categorizing each point to decide wether to highlight it. That is way too taxing and will break the flow of your concentration. Instead, rely on your intuition to tell you when a passage is interesting, counterintuitive, or relevant to your favorite problems or current project.[^forte-21]
 
-> Don't worry about analyzing, interpreting, or categorizing each point to decide wether to highlight it. That is way too taxing and will break the flow of your concentration. Instead, rely on your intuition to tell you when a passage is interesting, counterintuitive, or relevant to your favorite problems or current project.[140][#forte2022]
+[^forte-21]: Forte 2022, 140
 
 But the *progressive summary* is in the spirit of a way of working: The *progressive summary* could almost be seen as a technique for not letting knowledge work distract you from a project-oriented way of working. We will see more about this in the comparison of BASB and the ZKM. Progressive summarization does *not* involve thorough extracting and processing of ideas.
 
-**Express** means that Forte encourages us to actually use our system for something. Forte gives some tips in this section such as breaking up larger projects into small steps that are easy to work through.[151ff][#forte2022] But this step is already outside the actual system of processing and management because most likely you will start writing in your dedicated writing app or implement behavioral changes in your life and not in your second brain.
+**Express** means that Forte encourages us to actually use our system for something. Forte gives some tips in this section such as breaking up larger projects into small steps that are easy to work through.[^forte-22] But this step is already outside the actual system of processing and management because most likely you will start writing in your dedicated writing app or implement behavioral changes in your life and not in your second brain.
 
 The first three aspects *Capture*, *Organise* and *Distill* concern the input to the system *PARA*. *Express* states *that* we should use the system to its fullest effect. With PARA and CODE, we covered the system and the workflow. Now, let's continue with the first of the key habits.
+
+[^forte-22]: Forte 2022, 151ff
 
 ## The Key Habits
 
@@ -174,49 +202,77 @@ System-relevant habits are actions that are necessary for the effectiveness of t
 
 ### The Project Checklists
 
-There are two checklists: one at the beginning of the project and the other at the end of the project. The checklist at the beginning of the project is for using the system to its fullest extent for the current project. The checklist at the end of the project is for using the completed project to improve the system.[201][#forte2022] So, these two checklists are designed as positive feedback loop:
+There are two checklists: one at the beginning of the project and the other at the end of the project. The checklist at the beginning of the project is for using the system to its fullest extent for the current project. The checklist at the end of the project is for using the completed project to improve the system.[^forte-23] So, these two checklists are designed as positive feedback loop:
 
 <%= insert_rel_image file: "projects-para_en.png" %>
 
+[^forte-23]: Forte 2022, 201
+
 #### Checklist: Project Start
 
-1. **Collect:** Gather your thoughts about the project. What do you already know about it? What don't you know? What is your goal? What people can you tap into? What are possible resources?[203/204][#forte2022]
-2. **Review:** Search the folders of your second brain for useful information.[204][#forte2022]
-3. **Search:** Use the global search to back up the second step. Sometimes, useful information turns up in surprising places.[204][#forte2022]
-4. **Move:** Move all relevant notes to the project folder.[204][#forte2022]
-5. **Create:** Create an outline from everything you have collected in the project folder.[205][#forte2022] Important: You are only planning the project. You're not working on it directly yet.[206][#forte2022]
+1. **Collect:** Gather your thoughts about the project. What do you already know about it? What don't you know? What is your goal? What people can you tap into? What are possible resources?[^forte-96]
+2. **Review:** Search the folders of your second brain for useful information.[^forte-24]
+3. **Search:** Use the global search to back up the second step. Sometimes, useful information turns up in surprising places.[^forte-25]
+4. **Move:** Move all relevant notes to the project folder.[^forte-26]
+5. **Create:** Create an outline from everything you have collected in the project folder.[^forte-27] Important: You are only planning the project. You're not working on it directly yet.[^forte-28]
+
+[^forte-96]: Forte 2022, 203/204
+[^forte-24]: Forte 2022, 204
+[^forte-25]: Forte 2022, 204
+[^forte-26]: Forte 2022, 204
+[^forte-27]: Forte 2022, 205
+[^forte-28]: Forte 2022, 206
 
 #### Checklist: End of project
 
-1. **Mark:** Mark the project as complete in your task management and still process any loose ends.[208][#forte2022]
-2. **Cross out:** Mark the goal associated with the project as achieved and move the goal to a "Achieved" list. You can use this list of achieved goals as motivation.[208/209][#forte2022]
+1. **Mark:** Mark the project as complete in your task management and still process any loose ends.[^forte-29]
+
+2. **Cross out:** Mark the goal associated with the project as achieved and move the goal to a "Achieved" list. You can use this list of achieved goals as motivation.[^forte-95]
 3. **Review:** Review the project folder for content that you can use for other projects.
-4. **Move:** Move the project folder from "Projects" (**P**ARA) to the archive (PAR**A**) [209][#forte2022].
-5. **If project is becoming inactive:** If you cancel or postpone the project, make sure you can start where you left off. Create a note, with all the necessary information, how you would continue and also with the reasons why you stopped.[210][#forte2022]
+4. **Move:** Move the project folder from "Projects" (**P**ARA) to the archive (PAR**A**). [^forte-30]
+5. **If project is becoming inactive:** If you cancel or postpone the project, make sure you can start where you left off. Create a note, with all the necessary information, how you would continue and also with the reasons why you stopped.[^forte-31]
+
+[^forte-95]: Forte 2022, 208/209
+[^forte-29]: Forte 2022, 208
+[^forte-30]: Forte 2022, 209
+[^forte-31]: Forte 2022, 210
 
 ### Review
 
-All systems get cluttered and deteriorate if they are not maintained. Forte explicitly follows the tradition of David Allen's GTD here.[212][#forte2022] I consider these checklists to be fairly self-explanatory.
+All systems get cluttered and deteriorate if they are not maintained. Forte explicitly follows the tradition of David Allen's GTD here.[^forte-32] I consider these checklists to be fairly self-explanatory.
+
+[^forte-32]: Forte 2022, 212
 
 #### Weekly Review
 
-<!--ct: TODO to myself: may need to combine online the 5 footnotes into one with details like "213--215"; after all, the footnotes are clickable and quite large, so those can get in the way of reading-->
+1. Empty the email inbox.[^forte-33]
+2. View the calendar.[^forte-34]
+3. Clean up the desk of your computer.[^forte-35]
+4. Empty the inbox of your note-taking software.[^forte-36]
+ There is no editing involved! This is just about putting the material into the PARA system.
+5. Choose the assignments for the week.[^forte-97]
 
-1. Empty the email inbox [213][#forte2022].
-2. View the calendar.[213][#forte2022]
-3. Clean up the desk of your computer.[213][#forte2022]
-4. Empty the inbox of your note-taking software.[214][#forte2022] There is no editing involved! This is just about putting the material into the PARA system.
-5. Choose the assignments for the week.[214/215][#forte2022]
+[^forte-33]: Forte 2022, 213
+[^forte-34]: Forte 2022, 213
+[^forte-35]: Forte 2022, 213
+[^forte-36]: Forte 2022, 214
+[^forte-97]: Forte 2022, 214/215
 
 #### Monthly Review
 
-1. View and update your quarterly goals.[215][#forte2022]
-2. View and update your project list.[216][#forte2022]
-3. View your areas of responsibility.[216][#forte2022]
-4. View your "someday/maybes."[216/217][#forte2022]
-5. Update how important and urgent the tasks are.[217][#forte2022]
+1. View and update your quarterly goals.[^forte-37]
+2. View and update your project list.[^forte-38]
+3. View your areas of responsibility.[^forte-39]
+4. View your "someday/maybes."[^forte-94]
+5. Update how important and urgent the tasks are.[^forte-40]
 
 So we have all three aspects *system*, *workflow* and *habits* together.
+
+[^forte-94]: Forte 2022, 216/217
+[^forte-37]: Forte 2022, 215
+[^forte-38]: Forte 2022, 216
+[^forte-39]: Forte 2022, 216
+[^forte-40]: Forte 2022, 217
 
 ## Summary of BASB
 
@@ -227,14 +283,16 @@ So we have all three aspects *system*, *workflow* and *habits* together.
 
 Now that we have an overview of *Building a Second Brain*, we will compare this system to the Zettelkasten Method.
 
-<!--ct: folgendes ist die Sprungmarke (kommt vor der Überschrift, damit man die auch noch sieht):-->
+
 <a href="" name="basb-zkm-compare"></a>
 
 ## Building a Second Brain and the Zettelkasten Method in comparison
 
 Simplified, BASB is a source material feeder system for project-oriented self-organization. It is especially suitable for people whose projects are particularly dependent on source material. Oddly enough, the processing of knowledge seems almost to be considered a necessary evil, to be automated and simplified as much as possible. Thus, Forte writes in the processing step *Distill*:
 
-> Don't worry about analyzing, interpreting, or categorizing each point to decide whether to highlight it. That is way too taxing and will break the flow of your concentration. Instead, rely on your intuition to tell you when a passage is interesting, counterintuitive, or relevant to your favorite problems or current project.[140][#forte2022]
+> Don't worry about analyzing, interpreting, or categorizing each point to decide whether to highlight it. That is way too taxing and will break the flow of your concentration. Instead, rely on your intuition to tell you when a passage is interesting, counterintuitive, or relevant to your favorite problems or current project.[^forte-41]
+
+[^forte-41]: Forte 2022, 140
 
 Analysis, interpretation, and classification of resources and the thoughts they contain are essential to the processing of knowledge itself. It could not be clearer: The processing of knowledge, knowledge work, is explicitly *not* part of BASB. Knowledge work needs to be done, regardless, if you want to actually produce value. So, you will perform the actual knowledge processing outside the BASB system.
 
@@ -256,21 +314,27 @@ Let's say you want to breed pets. They are to be companion animals that keep peo
 
 That's the difference between BASB and ZKM. BASB speaks the language of action. ZKM speaks the language of knowledge. The basic categories of BASB are *importance* and *urgency*. These are categories of action. The basic categories of ZKM are atomic thought and its relation to other thoughts. BASB chooses as its filing categories PARA, a folder system that is a hierarchy of urgency. ZKM is a [heterarchy of thoughts](https://zettelkasten.de/posts/lattice-of-thoughts/) that can float freely in the ether like in the Platonic world of ideas.
 
-Forte places himself in the tradition of David Allen's *Getting Things Done*.[212][#forte2022]
+Forte places himself in the tradition of David Allen's *Getting Things Done*.[^forte-42]
 
 Completed projects are considered the blood supply of the second brain:
 
-> I've learned that **completed creative projects are the blood flow of your Second Brain**. They keep the whole system nourished, fresh and primed for action. It doesn't matter how organized, aesthetically pleasing, or impressive your notetaking [sic!] system is. It is only the steady completion of tangible wins that can infuse you with a sense of determination, momentum, and accomplishment.[108][#forte2022] (Emphasis mine)
+> I've learned that **completed creative projects are the blood flow of your Second Brain**. They keep the whole system nourished, fresh and primed for action. It doesn't matter how organized, aesthetically pleasing, or impressive your notetaking [sic!] system is. It is only the steady completion of tangible wins that can infuse you with a sense of determination, momentum, and accomplishment.[^forte-43] (Emphasis mine)
 
 And last but not least: *Progressive summarizing*, Forte's proposed method of processing resources, is just a method of highlighting a text. At no point does it leave behind the resource. Thus, not only is it not processing resources into knowledge, it is merely preparing resources so that they are easier to skim.
 
 PARA brings in an element of restlessness.
 
+[^forte-42]: Forte 2022, 212
+[^forte-43]: Forte 2022, 108
+
 #### The restlessness of PARA
 
-PARA is not based on an assumed correctness of filing (for example, on a sophisticated metaphysics of categories). It is a production system that puts information where it is most likely to be needed. Because this is constantly changing, the whole system is subject to constant upheaval and reordering:[104][#forte2022]
+PARA is not based on an assumed correctness of filing (for example, on a sophisticated metaphysics of categories). It is a production system that puts information where it is most likely to be needed. Because this is constantly changing, the whole system is subject to constant upheaval and reordering:[^forte-44]
 
-> PARA isn't a filing system; it's a production system. It's no use trying to find the "perfect place" where a note or file belongs. There isn't one. The whole system is constantly shifting and changing in sync with your constantly changing life.[104][#forte2022]
+> PARA isn't a filing system; it's a production system. It's no use trying to find the "perfect place" where a note or file belongs. There isn't one. The whole system is constantly shifting and changing in sync with your constantly changing life.[^forte-45]
+
+[^forte-44]: Forte 2022, 104
+[^forte-45]: Forte 2022, 104
 
 Resources and notes have no fixed location, but are always moved to where they seem to make the most sense. If one relates the three active folders (projects, areas of responsibility, resources) to each other, one could say that the internal purpose of the areas of responsibility is to supply the project folder with projects. The metaphor of blood supply that Forte chooses to describe the role of completed projects is perfect: "The blood supply to the brain is of absolute importance. [Without blood flow, neurons die within minutes.](https://www.msdmanuals.com/professional/neurologic-disorders/stroke/ischemic-stroke) If the project folder is not supplied with projects, the second brain dies. The central task of the user is to complete the projects and thus return the blood. Otherwise, your brain will suffer from a stroke.
 
@@ -284,7 +348,9 @@ It took me a few weeks to build up the sections of my Zettelkasten that cover th
 
 Not only do I have many such research projects. They also span disciplines and years. When I do a [research day](https://zettelkasten.de/posts/practical-integration-deep-work/), I may well combine the results of 5 or 6 such research projects. This means that within hours I have to access knowledge that I have built up over a span of 10--15 years. If the knowledge were spread over folders in my second brain and I was forced to re-collect such amounts of knowledge, my work would not be possible. I would be too slow. If I have an idea, it must be realizable *at this moment*. I can only do that with my Zettelkasten, but not with the PARA system.
 
-Forte recommends relying on system-wide search.[158ff][#forte2022] But my experience with the Zettelkasten Method has shown me that as the size of the Zettelkasten increases, the search function becomes less reliable and more cumbersome to use. I'm already at the point where the search function has lost much of its usefulness. My Zettelkasten is simply too complex for the search to provide reliable access.
+Forte recommends relying on system-wide search.[^forte-46]  But my experience with the Zettelkasten Method has shown me that as the size of the Zettelkasten increases, the search function becomes less reliable and more cumbersome to use. I'm already at the point where the search function has lost much of its usefulness. My Zettelkasten is simply too complex for the search to provide reliable access.
+
+[^forte-46]: Forte 2022, 158ff
 
 This problem is by no means only relevant for people like me. It results from the relationship between knowledge and the user. The problem described above always arises when one works at the limits of one's own cognitive capacities. It is only a matter of time before one reaches this limit when using a system for a lifetime. For some, this point arrives after a few years and for others after 10 years. But one thing is certain: It will arrive.
 
