@@ -29,7 +29,7 @@ Was fühlte Robin Hood, als mit dem Bogen auf seinen eigenen Pfeil im Zentrum se
 
 <%= insert_rel_image file: "robin-hood.jpg", caption: %Q{Foto von <a href="https://unsplash.com/@artem_kniaz">Artem Kniaz</a> auf <a href="https://unsplash.com/de/fotos/jzJrcP2W-ZI">Unsplash</a>} %>
 
-Jede Form von Selbstmanagement ist ein Versuch, ein Stück dieser inneren Harmonie zu erlangen. Es ist daher kein Zufall, dass David Allen in *Getting Things Done* immer wieder verspricht, durch sein System einen “Geist, klar wie Wasser” zu erhalten.[14][#allen2015] Forte steht mit *Building a Second Brain* (BASB) in der Tradition von *Getting Things Done*. Das schreibt er nicht nur ausdrücklich.[^forte-0]
+Jede Form von Selbstmanagement ist ein Versuch, ein Stück dieser inneren Harmonie zu erlangen. Es ist daher kein Zufall, dass David Allen in *Getting Things Done* immer wieder verspricht, durch sein System einen “Geist, klar wie Wasser” zu erhalten.[^allen2015-14] Forte steht mit *Building a Second Brain* (BASB) in der Tradition von *Getting Things Done*. Das schreibt er nicht nur ausdrücklich.[^forte-0]
 Es schlägt sich in Ratschlägen nieder wie diesem:
 
 [^forte-0]: 212
@@ -38,11 +38,12 @@ Es schlägt sich in Ratschlägen nieder wie diesem:
 
 [^forte-1]: 140
 
-Wissensarbeit zeichnet sich dadurch aus, dass Aufgaben nicht gegeben sind, sondern als solche erst einmal erkannt werden müssen.[^allen2015-16] Diese Unklarheit, wie man etwas zu verstehen hat und was man damit tun soll, ist der Zustand der psychischen Entropie. Dabei fühlen wir Nervosität, Verunsicherung und Ängstlichkeit. Der englische Ausdruck dafür ist “anxiety”.[^hirsh2012]
+Wissensarbeit zeichnet sich dadurch aus, dass Aufgaben nicht gegeben sind, sondern als solche erst einmal erkannt werden müssen.[^allen2015-16] Diese Unklarheit, wie man etwas zu verstehen hat und was man damit tun soll, ist der Zustand der psychischen Entropie. Dabei fühlen wir Nervosität, Verunsicherung und Ängstlichkeit. Der englische Ausdruck dafür ist “anxiety”.[^hirsh2012-304]
 
-[^hirsh2012]: Jacob B. Hirsh, Raymond A. Mar, and Jordan B. Peterson (2012): Psychological entropy: a framework for understanding uncertainty-related anxiety., Psychological review, 2012, Vol. 119 2, S. 304-20.
-
-[^allen2015-16]: David Allen (2015): Getting Things Done. The Art of Stress-Free Productivity, Elcograf: Piatkus. S.16.
+[^hirsh2012]: Jacob B. Hirsh, Raymond A. Mar, and Jordan B. Peterson (2012): Psychological entropy: a framework for understanding uncertainty-related anxiety., Psychological review, 2012, Vol. 119 2.
+[^hirsh2012-304]: Jacob B. Hirsh, Raymond A. Mar, and Jordan B. Peterson (2012): Psychological entropy: a framework for understanding uncertainty-related anxiety., Psychological review, 2012, Vol. 119 2, pp 304-20.
+[^allen2015-14]: David Allen (2015): Getting Things Done. The Art of Stress-Free Productivity, Elcograf: Piatkus. p. 14.
+[^allen2015-16]: David Allen (2015): Getting Things Done. The Art of Stress-Free Productivity, Elcograf: Piatkus. p. 16.
 
 Jede Form von Selbstmanagement ist letztlich eine Methode der Verwaltung psychischer Entropie. Das gilt auch für *Building a Second Brain*:
 
@@ -67,7 +68,7 @@ BASB ist allgemein für Menschen, die ihre Informationsströme und Quellen proje
 
 Es gibt meiner Erfahrung nach vor allem zwei Typen von Überforderungen, die sich auf den beiden Komponenten der Temperamenteigenschaft von Offenheit beziehen lassen.
 
-1. ***Openness to Experience*.** Als Glaubenssatz formuliert würde diese Eigenschaften lauten: *Was neu ist, ist wahrscheinlich gut.* Weil wir in einem Zeitalter der Informationsinflation leben, werden wir mit Neuem überschüttet. Menschen mit einer hohen *Openness to Experience* leben in einem Informationsschlaraffenland. Doch die Menschen im Schlaraffenland sind nicht glücklich. Sie sind überfressen und überfordert. Sie wissen nicht, wohin mit sich. Und wer nicht weiß, wohin mit sich, fühlt *anxiety*.[][#hirsh2012] Man könnte Menschen mit einer hohen *Openness to Experience* mit Menschen vergleichen, die eine besonders starke Anfälligkeit für Fastfood und Süßigkeiten haben. Beide neigen zu erratischem Verhalten, das wiederum zu einer *anxiety*-erzeugenden Lebenswelt führen kann.
+1. **Openness to Experience.** Als Glaubenssatz formuliert würde diese Eigenschaften lauten: *Was neu ist, ist wahrscheinlich gut.* Weil wir in einem Zeitalter der Informationsinflation leben, werden wir mit Neuem überschüttet. Menschen mit einer hohen *Openness to Experience* leben in einem Informationsschlaraffenland. Doch die Menschen im Schlaraffenland sind nicht glücklich. Sie sind überfressen und überfordert. Sie wissen nicht, wohin mit sich. Und wer nicht weiß, wohin mit sich, fühlt *anxiety*.[^hirsh2012] Man könnte Menschen mit einer hohen *Openness to Experience* mit Menschen vergleichen, die eine besonders starke Anfälligkeit für Fastfood und Süßigkeiten haben. Beide neigen zu erratischem Verhalten, das wiederum zu einer *anxiety*-erzeugenden Lebenswelt führen kann.
 2. **Intellect.** Als Glaubenssatz formuliert würde diese Eigenschaft lauten: *Etwas ist interessant, wenn es eine Sache ist, die man untersuchen kann.* Diese Menschen lieben das Analysieren und Konstruieren. Das sind diejenigen, die sich in der Analyse und der Konstruktion eines perfekten Systems verlieren. Sie laufen Gefahr, mehr an ihrem System zu arbeiten, als es für seinen eigentlichen Zweck einzusetzen. Sie können sich durch einen selbstgeschaffenen Informationsüberfluss überfordern, wenn sie ein ausgeklügeltes System von RSS-Feeds, Webclippern und anderen Techniken des Einfangens von Informationen und Informationsquellen aufbauen. Sie laufen aber auch Gefahr, zwecklose Forschung zu betreiben und dabei das projekt- und fristorientierte Arbeiten zu vernachlässigen.
 
 BASB kann die Lösung für beide Typen von Überforderung liefern:
@@ -87,7 +88,7 @@ Wie jedes Managementsystem besteht BASB aus drei Komponenten:
 
 ## Das System - PARA
 
-PARA ist das Ablagesystem von BASB. Das Akronym steht für die vier Container ***P**rojects* (Projekte), ***A**reas* (Verantwortungsbereiche), ***R**essources* (Ressourcen) und ***A**rchive (Archiv)*.
+PARA ist das Ablagesystem von BASB. Das Akronym steht für die vier Container *__P__rojects* (Projekte), *__A__reas* (Verantwortungsbereiche), *__R__essources* (Ressourcen) und *__A__rchive (Archiv)*.
 
 In den meisten Programmen legst Du für jeden Container je einen Ordner an. Bei manchen Programmen gibt es jedoch keine Ordner. Daher spreche ich meist von "Containern". Ich verstehe PARA jedoch als eine Manifestation eines allgemeinen Prinzips der Selbstorganisation: Das Eisbergprinzip der Selbstorganisation. Ich werde dies gegen Ende noch ausführlicher Beschreiben.
 
@@ -115,7 +116,6 @@ In den meisten Programmen legst Du für jeden Container je einen Ordner an. Bei 
 
 [^forte-8]: Forte 2022, 94
 [^forte-7]: Forte 2022, 90
-
 
 - Themen, die interessant sind.[^forte-9] (English: *Topic*)
 - Untersuchungsgegenständige, die man erforschen will.[^forte-10] (Englisch: *Subject*)
@@ -157,10 +157,10 @@ Dieses Vier-Ordner-System ist aus gutem Grund einfach gehalten: Komplexe Systeme
 
 Der Workflow von BASB gliedert sich in vier Schritte:
 
-1. ***C**apture* (Einfangen) umfasst alles, das Du Deine Inboxen füllst.
-2. ***O**rganise* (Einordnen) meint die Ablage in das Ordnersystem PARA.
-3. ***D**istill* (Konzentrieren) meint die Bearbeitung von Quellen mit der Methode des *progressiven Zusammenfassens*.
-4. ***E**xpress* (Mitteilen) meint die Anwendung oder Veröffentlichung von Inhalten.
+1. *__C__apture* (Einfangen) umfasst alles, das Du Deine Inboxen füllst.
+2. *__O__rganise* (Einordnen) meint die Ablage in das Ordnersystem PARA.
+3. *__D__istill* (Konzentrieren) meint die Bearbeitung von Quellen mit der Methode des *progressiven Zusammenfassens*.
+4. *__E__xpress* (Mitteilen) meint die Anwendung oder Veröffentlichung von Inhalten.
 
 Zu **Capture** gibt Forte zwar einige Tipps. Ich halte sie jedoch nicht für essentiell dafür, BASB zu verstehen. Daher werde ich nicht näher auf diese eingehen.
 
@@ -168,7 +168,7 @@ Zu **Capture** gibt Forte zwar einige Tipps. Ich halte sie jedoch nicht für ess
 
 [^forte-19]: Forte 2022, 102
 
-<%= insert_rel_image file: "2023-06-17_basb-file.png" %>
+<%= insert_rel_image file: "2023-06-17_basb-datei.png" %>
 
 1. Gehe zuerst alle aktiven Projekte durch. Ist die Quelle für das Projekt nützlich?
 2. *Wenn nicht:* Ist die Quelle für einen Verantwortungsbereich nützlich?
@@ -237,7 +237,6 @@ Es gibt zwei Checklisten: Eine zum Projektbeginn und die andere beim Projektabsc
 #### Checkliste: Projektende
 
 1. **Als erledigt markieren (Mark):** Markiere das Projekt als erledigt in deinem Aufgabenemanagement und verarbeite noch etwaige lose Enden.[^forte-29]
-
 2. **Das Ziel als erreicht markieren (Cross out):** Markiere das mit dem Projekt verbundene Ziel als erreicht und verschiebe das Ziel in eine Liste "Erreicht". Diese Liste von erreichten Zielen kann man als Motivation verwenden.[^forte-83]
 3. **Sichten (Review):** Sichte den Projektordner nach Inhalten, die du für andere Projekte verwenden kannst
 4. **Verschieben (Move):** Verschiebe den Projektordner von "Projekte" (**P**ARA) ins Archiv (PAR**A**)[^forte-30]
@@ -255,8 +254,6 @@ Alle Systeme verdrecken und verfallen, wenn sie nicht gepflegt werden. Forte ste
 [^forte-32]: Forte 2022, 212
 
 #### Wöchentliches Review
-
-<!--ct: TODO an mich selbst: womöglich müssen wir online die 5 Fußnoten zu einer zusammenfassen mit Angaben wie "213--215"; die Fußnoten sind ja klickbar und ziemlich groß, sodass die beim Lesen stören können-->
 
 1. Leere die Email Inbox.[^forte-33]
 2. Sichte den Kalender.[^forte-34]
@@ -422,7 +419,7 @@ Die Routine beim Projektende, sähe so aus:
 - *Review und Move* sind bereits teilweise erledigt, im Extremfall sogar komplett: Schließlich hast du alle Gedanken im Zettelkasten entwickelt. Sie sind schon im Zettelkasten und komplett in dein Basisnetzwerk integriert. Bei jedem Zettel, den du schreibst, kannst du direkt beim Erstelle prüfen, ob der Zettel für ein anderes Projekt verwertbar ist. Das Einzige, was du bei Beendigung des Projekts prüfen kannst, ist, ob etwas im Manuskript beim Schreiben entstanden ist, dass du wieder in den Zettelkasten zurückführen willst. Das nenne ich "Rückverzettelung".
 - *If project becomes inactive* ist überflüssig. Alles ist ohnehin im Zettelkasten.
 
-Die **Instandhaltungsgewohnheit *Review*** von BASB hat nichts mit der Verarbeitung von Wissen zu tun, sondern mit Projekt- und Aufgabenmanagement. Wir nutzen die Gewohnheiten um das PARA-System aufzuräumen. Der Zettelkasten bleibt davon unberührt.
+Die **Instandhaltungsgewohnheit _Review_** von BASB hat nichts mit der Verarbeitung von Wissen zu tun, sondern mit Projekt- und Aufgabenmanagement. Wir nutzen die Gewohnheiten um das PARA-System aufzuräumen. Der Zettelkasten bleibt davon unberührt.
 
 Meine persönlichen Lehren aus der Lektüre von *Building a Second Brain* sind die Folgenden:
 
@@ -478,6 +475,6 @@ Die Zettelkastenmethode betrifft dagegen vor allem die eigentliche Denkarbeit un
 
 Beide Methoden sind aufgrund ihrer geringen Überschneidung leicht miteinander zu vereinbaren.
 
-Für mich persönlich hat das Buch einen ähnlichen Effekt wie die Lektüre von *[Deep Work](https://amzn.to/3ZDWWvw)*[^affiliate-link] von Cal Newport. Seine Lektüre war Anlass, mein System zu verbessern. Ich arbeite nun seit ca. einigen Monaten (2023-03-03) mit BASB als Teil meines gesamten Workflows und bin sehr zufrieden. Ich kann eine klare Leseempfehlung ausgeben.
+Für mich persönlich hat das Buch einen ähnlichen Effekt wie die Lektüre von *[Deep Work](https://amzn.to/3ZDWWvw)* [^affiliate-link] von Cal Newport. Seine Lektüre war Anlass, mein System zu verbessern. Ich arbeite nun seit ca. einigen Monaten (2023-03-03) mit BASB als Teil meines gesamten Workflows und bin sehr zufrieden. Ich kann eine klare Leseempfehlung ausgeben.
 
 [^affiliate-link]: Affiliate link.

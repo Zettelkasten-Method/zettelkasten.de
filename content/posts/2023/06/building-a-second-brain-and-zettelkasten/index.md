@@ -27,16 +27,18 @@ What did Robin Hood feel when he aimed at his own arrow at the center of his tar
 
 <%= insert_rel_image file: "robin-hood.jpg", caption: %Q{Picture by <a href="https://unsplash.com/@artem_kniaz">Artem Kniaz</a> from <a href="https://unsplash.com/de/fotos/jzJrcP2W-ZI">Unsplash</a>} %>
 
-Every form of self-management is an attempt to take a step towards this inner harmony. It is therefore no coincidence that David Allen in *Getting Things Done* repeatedly points to the goal of "mind like water" throughout his book.[14][#allen2015] Forte's *Building a Second Brain* builds on the tradition of Getting Things Done. Not only does he write this explicitly.[^forte-0] It is reflected in advice like this:
+Every form of self-management is an attempt to take a step towards this inner harmony. It is therefore no coincidence that David Allen in *Getting Things Done* repeatedly points to the goal of "mind like water" throughout his book.[^allen2015-14] Forte's *Building a Second Brain* builds on the tradition of Getting Things Done. Not only does he write this explicitly.[^forte-0] It is reflected in advice like this:
 
 > **Don't worry about analyzing, interpreting, or categorizing each point to decide whether to highlight it. That is way too taxing and will break the flow of your concentration. Instead, rely on your intuition** to tell you when a passage is interesting, counterintuitive, or relevant to your favorite problems or current project.[^forte-1] (Emphasis mine)
 
-Knowledge work is characterized by the fact that tasks are not given, but must first be recognized as such.[^allen2015-16] This lack of clarity about how to understand something and what to do with it leads to psychological entropy. Then, we feel nervous, uncertain, and anxious.[^hirsh2012]
+Knowledge work is characterized by the fact that tasks are not given, but must first be recognized as such.[^allen2015-16] This lack of clarity about how to understand something and what to do with it leads to psychological entropy. Then, we feel nervous, uncertain, and anxious.[^hirsh2012-304]
 
 [^forte-0]: Forte 2022, 212
 [^forte-1]: Forte 2022, 140
-[^hirsh2012]: Jacob B. Hirsh, Raymond A. Mar, and Jordan B. Peterson (2012): Psychological entropy: a framework for understanding uncertainty-related anxiety., Psychological review, 2012, Vol. 119 2, S. 304-20.
-[^allen2015-16]: David Allen (2015): Getting Things Done. The Art of Stress-Free Productivity, Elcograf: Piatkus. S.16.
+[^hirsh2012]: Jacob B. Hirsh, Raymond A. Mar, and Jordan B. Peterson (2012): Psychological entropy: a framework for understanding uncertainty-related anxiety., Psychological review, 2012, Vol. 119 2.
+[^hirsh2012-304]: Jacob B. Hirsh, Raymond A. Mar, and Jordan B. Peterson (2012): Psychological entropy: a framework for understanding uncertainty-related anxiety., Psychological review, 2012, Vol. 119 2, pp 304-20.
+[^allen2015-16]: David Allen (2015): Getting Things Done. The Art of Stress-Free Productivity, Elcograf: Piatkus. p. 16.
+[^allen2015-14]: David Allen (2015): Getting Things Done. The Art of Stress-Free Productivity, Elcograf: Piatkus. p. 14.
 
 Any form of self-management is ultimately a method of managing psychological entropy. This is also true for *Building a Second Brain*.
 
@@ -61,7 +63,7 @@ BASB is for people who want to manage their information streams and resources in
 
 In my experience, there are two main types of overload that can be related to the two components of the temperament characteristic of openness.
 
-1. Overload because of **Openness to Experience**. Formulated as a belief set, the trait *Openness to experience* would read: *What is new is most likely good.* Because we live in an age of information inflation,[^20230529infoinfla] we are inundated with newness. People with a high *Openness to Experience* live in an information land of milk and honey. But people in the [Land of Cockaigne](https://en.wikipedia.org/wiki/The_Land_of_Cockaigne_(Bruegel)) are not happy. They are overstuffed and overwhelmed. They don't know what to do with themselves. And those who don't know what to do feel *anxiety*.[][#hirsh2012] You could compare people with a high *Openness to Experience* to people who have a particularly strong susceptibility to fast food and sweets. Both tend to engage in erratic behaviour, which in turn can lead to *anxiety*-generating lifestyles.
+1. Overload because of **Openness to Experience**. Formulated as a belief set, the trait *Openness to experience* would read: *What is new is most likely good.* Because we live in an age of information inflation,[^20230529infoinfla] we are inundated with newness. People with a high *Openness to Experience* live in an information land of milk and honey. But people in the [Land of Cockaigne](https://en.wikipedia.org/wiki/The_Land_of_Cockaigne_(Bruegel)) are not happy. They are overstuffed and overwhelmed. They don't know what to do with themselves. And those who don't know what to do feel *anxiety*.[^hirsh2012] You could compare people with a high *Openness to Experience* to people who have a particularly strong susceptibility to fast food and sweets. Both tend to engage in erratic behaviour, which in turn can lead to *anxiety*-generating lifestyles.
 2. Overload because of **Intellect**. Formulated as a belief set, the trait *intellect* would read: *Something is interesting if it is a thing that can be studied.* These people love to analyze and construct. These are the ones who get lost in analyzing and constructing a perfect system. They run the risk of doing more work on their system than using it for its intended purpose. They can become overwhelmed by a self-created information overload as they build an elaborate system of RSS feeds, web clippers, and other techniques of capturing information and information resources. But they also run the risk of conducting purposeless research, neglecting project- and deadline-oriented work.
 
 [^20230529infoinfla]: Credits for this term go to Alex Kahl.
@@ -85,7 +87,7 @@ Let's start with the system.
 
 ## The system - PARA
 
-PARA is the storage system of BASB. The acronym stands for the four containers ***P**rojects*, ***A**reas*, ***R**esources* and ***A**rchive*.
+PARA is the storage system of BASB. The acronym stands for the four containers *__P__rojects*, *__A__reas*, *__R__esources* and *__A__rchive*.
 
 In most programs, you'd create a folder for each container. However, in some programs there are no folders. Therefore, I usually speak of "containers". However, I understand PARA as a manifestation of a general principle of self-organization: the iceberg principle of self-organization. I will describe this in more detail towards the end.
 
@@ -150,10 +152,10 @@ This four-folder system is kept simple for a reason: Complex systems usually req
 
 The BASB workflow is divided into four steps:
 
-1. ***C**apture* includes everything you fill your inboxes with.
-2. ***O**rganise* means filing in the PARA folder system.
-3. ***D**istill* means processing of resources with the method of *progressive summarizing*.
-4. ***E**xpress* means the application or publication of content.
+1. *__C__apture* includes everything you fill your inboxes with.
+2. *__O__rganise* means filing in the PARA folder system.
+3. *__D__istill* means processing of resources with the method of *progressive summarizing*.
+4. *__E__xpress* means the application or publication of content.
 
 Forte does give some tips on **Capture**. However, I do not consider them essential to understanding BASB. Therefore, I will not go into them in detail.
 
@@ -226,7 +228,6 @@ There are two checklists: one at the beginning of the project and the other at t
 #### Checklist: End of project
 
 1. **Mark:** Mark the project as complete in your task management and still process any loose ends.[^forte-29]
-
 2. **Cross out:** Mark the goal associated with the project as achieved and move the goal to a "Achieved" list. You can use this list of achieved goals as motivation.[^forte-95]
 3. **Review:** Review the project folder for content that you can use for other projects.
 4. **Move:** Move the project folder from "Projects" (**P**ARA) to the archive (PAR**A**). [^forte-30]
@@ -415,7 +416,7 @@ The routine at the end of the project, would look like this:
 - *Review and Move* are already partially done, in extreme cases even completely: After all, you have developed all thoughts in the Zettelkasten. They are already in the Zettelkasten and completely integrated into your base network. For every note you write, you can check directly when you create it whether the note is usable for another project. When you finish the project, there's one thing you can check: if something came up while you were writing the manuscript that you want to feed back into the Zettelkasten. That's what I call "processing back."
 - *If project becomes inactive* is superfluous. Everything is in the Zettelkasten anyway.
 
-BASB's **maintenance habit *review*** has nothing to do with processing knowledge, but with project and task management. We use the habits to clean up the PARA system. The Zettelkasten remains unaffected.
+BASB's **maintenance habit _review_** has nothing to do with processing knowledge, but with project and task management. We use the habits to clean up the PARA system. The Zettelkasten remains unaffected.
 
 My personal lessons from reading *Building a Second Brain* are as follows:
 
@@ -463,7 +464,7 @@ My Zettelkasten provides the necessary peace and quiet for knowledge work. It gi
 
 ## Closing words
 
-*[Building a Second Brain][basb-aff]*[^affiliate link] and the Zettelkasten Method concern completely different sections of the knowledge-based value chain, starting with the world's resources and culminating in publications and their practical implementation.
+*[Building a Second Brain][basb-aff]*[^affiliate-link] and the Zettelkasten Method concern completely different sections of the knowledge-based value chain, starting with the world's resources and culminating in publications and their practical implementation.
 
 BASB concerns the management and superficial preparation of resources for later use and then proposes to proceed from prepared resources directly to publication and implementation. This means that the actual knowledge work must take place in the manuscript.
 
@@ -471,10 +472,10 @@ The *Zettelkasten Method*, on the other hand, is primarily concerned with the ac
 
 The two methods are easy to combine because of their little overlap.
 
-For me, the reading *Building a Second Brain* had a similar effect to reading *[Deep Work][dw-aff]*[^affiliate-link] by Cal Newport. Both books prompted me to improve my system. I have been working with BASB as part of my overall workflow for a few months now and am very pleased. I can give a clear recommendation.
+For me, the reading *Building a Second Brain* had a similar effect to reading *[Deep Work][dw-aff]* [^affiliate-link] by Cal Newport. Both books prompted me to improve my system. I have been working with BASB as part of my overall workflow for a few months now and am very pleased. I can give a clear recommendation.
 
-[^affiliate link]: Affiliate link.
+[^affiliate-link]: Affiliate link.
 
-[dq-aff]: https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/0349411905?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ZUAOKBQIBA6X&keywords=Deep+Work&qid=1677838786&sprefix=deep+work%2Caps%2C106&sr=8-1&linkCode=ll1&tag=saschafast-20&linkId=53c2ba428ae4f7023c1a13f9067d085b&language=en_US&ref_=as_li_ss_tl
+[dw-aff]: https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/0349411905?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ZUAOKBQIBA6X&keywords=Deep+Work&qid=1677838786&sprefix=deep+work%2Caps%2C106&sr=8-1&linkCode=ll1&tag=saschafast-20&linkId=53c2ba428ae4f7023c1a13f9067d085b&language=en_US&ref_=as_li_ss_tl
 
 [basb-aff]: https://www.amazon.com/Building-Second-Brain-Organize-Potential/dp/B09MGFGV3J?crid=IA3Z9SDKUV28&keywords=building+a+second+brain&qid=1687596629&sprefix=building+a+second+brai%2Caps%2C168&sr=8-1&linkCode=ll1&tag=saschafast-20&linkId=8b8f5270bcd49bc8c3342dc2799d917d&language=en_US&ref_=as_li_ss_tl
