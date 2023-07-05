@@ -7,11 +7,14 @@ function ready(callbackFunction){
 
 ready(function (event) {
   littlefoot.littlefoot({
-   activateOnHover: true,
-   hoverDelay: 250,
-   scope: 'article',
-   numberResetSelector: 'article',
-   contentTemplate: '\
+    allowMultiple: false,
+    activateOnHover: false,
+    hoverDelay: 250,
+    dismissOnUnhover: false,
+    dismissDelay: 250,
+    scope: 'article',
+    numberResetSelector: 'article',
+    contentTemplate: '\
      <aside alt="Footnote <% number %>"\
          class="littlefoot-footnote is-positioned-bottom"\
          id="fncontent:<% id %>">\

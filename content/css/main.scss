@@ -9,3 +9,6 @@
 @import "_book-ad.scss";
 @import "_the-archive.scss";
 @import "_coaching.scss";
+
+// `.post aside` sets padding; littlefoot v3.x doesn't allow overrides
+.post aside.littlefoot-footnote { padding: 0 !important; }
