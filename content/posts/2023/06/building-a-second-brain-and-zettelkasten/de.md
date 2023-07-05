@@ -5,7 +5,7 @@ kind: article
 author: sascha
 tags: [ basb, gtd ]
 rel_image: walnut.jpg
-vgwort: https://vg04.met.vgwort.de/na/9754b2b4c60c45aab44da93efa1e744f
+vgwort: https://vg01.met.vgwort.de/na/260ed44cdf2941e991c1bdb7bb8fa56f
 description: "Was ist „Building a Second Brain“, wie verhält sich die Zettelkastenmethode dazu, und wie lassen sich die beiden Methoden hervorragend miteinander vereinbaren?"
 excerpt: "Dieser Artikel ist in zwei Hälften aufgebaut. Zunächst fasse ich die Methode <i>Building a Second Brain</i> (BASB) zusammen. Anschließend vergleiche ich sie mit der Zettelkastenmethode (ZKM). Dabei werde ich zuerst auf die Unterschiede eingehen, weil sie dabei helfen können, BASB und die ZKM tiefer zu verstehen. Danach werde ich erläutern, wie man BASB und die ZKM miteinander vereinbaren kann. Kleiner Spoiler: Sie lassen sich hervorragend miteinander kombinieren. Ich habe selbst einige Veränderungen in meiner Arbeitsweise vorgenommen. Diese werde ich als Beispiele am Ende beifügen."
 toc: manual
