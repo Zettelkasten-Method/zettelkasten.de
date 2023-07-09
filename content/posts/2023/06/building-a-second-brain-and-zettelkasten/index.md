@@ -88,11 +88,11 @@ Let's start with the system.
 
 ## The system - PARA
 
+<%= insert_rel_image file: "2023-06-20_iceberg-v2.png" %>
+
 PARA is the storage system of BASB. The acronym stands for the four containers *__P__rojects*, *__A__reas*, *__R__esources* and *__A__rchive*.
 
 In most programs, you'd create a folder for each container. However, in some programs there are no folders. Therefore, I usually speak of "containers". However, I understand PARA as a manifestation of a general principle of self-organization: the iceberg principle of self-organization. I will describe this in more detail towards the end.
-
-<%= insert_rel_image file: "2023-06-20_iceberg-v2.png" %>
 
 **Projects** are short-term efforts in work and personal life. They are what you are *currently* working on.[^forte-3] They have characteristics conducive to work:
 
@@ -132,7 +132,7 @@ The **Archive** is for everything inactive from the above three categories.[^for
 [^forte-13]: Forte 2022, 90
 [^forte-14]: Forte 2022, 95
 
-<%= insert_rel_image file: "2023-06-16_basb-layers.png" %>
+<%= insert_rel_image file: "2023-06-16_basb-layers.png", caption: "Tying it all together: Areas of Responsibility and their projects and tasks, applied to two example areas." %>
 
 The four containers are sorted by action relevance:[^forte-98]
 

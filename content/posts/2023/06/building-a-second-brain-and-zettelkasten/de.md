@@ -89,11 +89,11 @@ Wie jedes Managementsystem besteht BASB aus drei Komponenten:
 
 ## Das System - PARA
 
+<%= insert_rel_image file: "2023-06-20_iceberg-v2.png" %>
+
 PARA ist das Ablagesystem von BASB. Das Akronym steht für die vier Container *__P__rojects* (Projekte), *__A__reas* (Verantwortungsbereiche), *__R__essources* (Ressourcen) und *__A__rchive (Archiv)*.
 
 In den meisten Programmen legst Du für jeden Container je einen Ordner an. Bei manchen Programmen gibt es jedoch keine Ordner. Daher spreche ich meist von "Containern". Ich verstehe PARA jedoch als eine Manifestation eines allgemeinen Prinzips der Selbstorganisation: Das Eisbergprinzip der Selbstorganisation. Ich werde dies gegen Ende noch ausführlicher Beschreiben.
-
-<%= insert_rel_image file: "2023-06-20_iceberg-v2.png" %>
 
 **Projekte** (engl. *__P__rojects*) sind kurzfristige Bemühungen in Arbeit und Privatleben. Sie sind das, woran Du *aktuell* arbeitest.[^forte-3]
  Sie haben einige für die Arbeit förderliche Eigenschaften:
@@ -137,7 +137,7 @@ Es ist ein Lager für Beendetes und Aufgeschobenes.[^forte-14]
 
 *Beispiel:* Ein alter Trainingsplan.
 
-<%= insert_rel_image file: "2023-06-16_basb-ebenen.png" %>
+<%= insert_rel_image file: "2023-06-16_basb-ebenen.png", caption: "Alles miteinander verbunden: Verantwortungsbereiche, ihre Projekte und Aufgaben, angewandt auf zwei Beispielbereiche." %>
 
 Die vier Container sind nach Handlungsrelevanz sortiert:[^forte-82]
 
