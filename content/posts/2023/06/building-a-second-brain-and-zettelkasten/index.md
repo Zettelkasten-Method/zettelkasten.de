@@ -467,7 +467,7 @@ My Zettelkasten provides the necessary peace and quiet for knowledge work. It gi
 
 *[Building a Second Brain][basb-aff]*[^affiliate-link] and the Zettelkasten Method concern completely different sections of the knowledge-based value chain, starting with the world's resources and culminating in publications and their practical implementation.
 
-BASB concerns the management and superficial preparation of resources for later use and then proposes to proceed from prepared resources directly to publication and implementation. This means that the actual knowledge work must take place in the manuscript.
+BASB concerns the management and rough preparation of resources for later use and then proposes to proceed from prepared resources directly to publication and implementation. This means that the actual knowledge work must take place in the manuscript.
 
 The *Zettelkasten Method*, on the other hand, is primarily concerned with the actual knowledge work and suggests that resources be processed thoroughly and deeply so that ideas and their connections to each other are revealed in Zettelkasten. This shifts the knowledge work into the Zettelkasten.
 
