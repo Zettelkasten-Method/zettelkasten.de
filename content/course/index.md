@@ -1,6 +1,6 @@
 ---
 title: Online Video Course
-updated_at: 2020-12-08 16:14:00 +0100
+updated_at: 2023-07-11 18:50:03 +0100
 bodyclass: online-course
 description: "Announcing the Zettelkasten Method Online Video Course for 2020!"
 ---
@@ -15,7 +15,3 @@ Sign up to our newsletter to receive an email notification when the course goes 
 
 <%= render '/_newsletter_signup.*' %>
 
-## Trivia and Teaser
-
-- **Price:** The regular course price will be US$129.
-- **Length:** The script for the course contains 40,000+ words. A conservative estimate leads to a length of roughly 4 hours -- this doesn't even include demonstrations, or dramatic pauses.
