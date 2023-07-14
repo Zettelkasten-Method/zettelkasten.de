@@ -1,10 +1,21 @@
 module EmailHelper
-  def email(email, text: nil, classes: nil)
+  def email(email, subject: nil, message: nil, text: nil, classes: nil)
     # Gets ASCII/Unicode code point and writes it out in hex as eg 'A' -> 65 -> `&x41;`
-    encoded_email = email.gsub(/./) { sprintf("&#x%02X;", $&.unpack("U")[0]) }
-    text ||= encoded_email
+    encoded_recipient = email.gsub(/./) { sprintf("&#x%02X;", $&.unpack("U")[0]) }
+    link = "".tap do |link|
+      link << "mailto:#{encoded_recipient}"
+
+      parameters = []
+      parameters << "subject=#{subject}" if subject
+      parameters << "body=#{message}" if message
+      if !parameters.empty?
+        link << "?"
+        link << parameters.join("&")
+      end
+    end
+    text ||= encoded_recipient
     classes ||= ""
-    return %Q{<a href="mailto:#{encoded_email}" class="#{classes}">#{text}</a>}
+    return %Q{<a href="#{link}" class="#{classes}">#{text}</a>}
   end
 
   def coaching_email_request(text: "Send an Email", classes: "coaching__action")
