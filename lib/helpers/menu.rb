@@ -16,7 +16,7 @@ module Menu
       { title: "Getting Started", link: "/posts/overview/", icon: "compass" },
       { title: "Coaching",        link: "/coaching/",       icon: "easel" },
       { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
-      { title: "Online Course",   link: "/course/",         icon: "monitor" },
+      { title: "Workshop",        link: "/course/",         icon: "monitor" },
       { title: "Forum",           link: FORUM_URL,          icon: "people" },
     ],
     :de => [
@@ -24,7 +24,7 @@ module Menu
       { title: "Erste Schritte",  link: "/posts/overview/", icon: "compass" },
       { title: "Coaching",        link: "/coaching/",       icon: "easel" },
       { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
-      { title: "Onlinekurs",      link: "/course/",         icon: "monitor" },
+      { title: "Workshop",        link: "/course/",         icon: "monitor" },
       { title: "Forum",           link: FORUM_URL,          icon: "people" },
     ]
   }
