@@ -16,7 +16,7 @@ By learning and applying the Zettelkasten Method, you will be equipped with *the
 - Come up with *solutions*, like developing marketing campaigns or business strategies.
 - Get an edge by becoming an early adopter.
 
-<%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Pre-Sale", message: "Hi Sascha!\n\nI am [YOUR NAME] and I want to secure a spot for the ZK 101 live workshop.\n\nPlease send a payment request for the EUR 249 / USD 279!".uri_encoded, classes: "coaching__action", text: "Secure a spot now") %>
+<aside class="note"><p>The October cohort is sold out</p></aside>
 
 ## About the Course Content
 
@@ -74,11 +74,11 @@ There will be three open consulting hours scheduled throughout the course, so th
 
 The course is limited to 8 participants at a time. The next cohort will start in October. The exact dates will be announced in September.
 
-Make sure to subscribe to our newsletter to keep updated.
+Make sure to [subscribe to our newsletter](/newsletter) to keep updated.
 
 The price for the course is €249 (US$279).
 
-<%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Pre-Sale", message: "Hi Sascha!\n\nI am [YOUR NAME] and I want to secure a spot for the ZK 101 live workshop.\n\nPlease send a payment request for the EUR 249 / USD 279!".uri_encoded, classes: "coaching__action", text: "Secure a spot now") %>
+<aside class="note"><p>The October cohort is sold out</p></aside>
 
 ## About Me as a Teacher and My Zettelkasten
 
