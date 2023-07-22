@@ -3,11 +3,12 @@
 
 # TEAM
 
-    Christian Tietze - Author - @ctietze, http://christiantietze.de
-    Sascha Fast - Co-Author - http://saschafast.de
+    Sascha Fast - Author - https://saschafast.de
+    Christian Tietze - Author, Programmer - @ctietze, https://christiantietze.de
 
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3, Modernizr
     Nanoc.ws static site generator
+
