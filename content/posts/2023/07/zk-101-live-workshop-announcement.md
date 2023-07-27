@@ -29,7 +29,7 @@ The course consists of 5 sessions, each lasting 60 minutes, with 30 extra minute
 
 Limited to 8 participants at a time, the next cohort begins in October (exact dates announced in September). Secure your spot:
 
-<%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Pre-Sale", message: "Hi Sascha!\n\nI am [YOUR NAME] and I want to secure a spot for the ZK 101 live workshop.\n\nPlease send a payment request for the EUR 249 / USD 279!".uri_encoded, classes: "coaching__action", text: "Secure a spot now") %>
+<aside class="note"><p>The October cohort is sold out</p></aside>
 
 Investment: €249/$279
 
