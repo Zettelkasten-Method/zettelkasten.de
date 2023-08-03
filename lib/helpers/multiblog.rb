@@ -52,6 +52,19 @@ module My
         item[:preview] && item[:preview] == "fulltext"
       end
 
+      def is_previewable?(item)
+        case item[:preview]
+        when "none",
+             "off",
+             false
+          return false
+        when "fulltext"
+          return true
+        else
+          return true  # previewable by default
+        end
+      end
+
       def comments_allowed_for(item)
         return true if item[:comments].nil?
         return false if item[:comments] == "off" or item[:comments] == false

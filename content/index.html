@@ -11,7 +11,7 @@ canonical: "/"
       <h1>Latest Posts</h1>
   </header>
 
-  <% sorted_posts().take(5).each do |post| %>
+  <% sorted_posts().filter(&My::Blog::Post.method(:is_previewable?)).take(5).each do |post| %>
     <%= render '/_post.*', :post => post, :fulltext => false %>
   <% end %>
 
