@@ -1,6 +1,7 @@
 ---
 title: "The Zettelkasten Method for Fiction Writing"
 created_at: 2022-04-18 20:41:40 +0100
+updated_at: 2023-08-03 08:25:21 +0100
 kind: article
 author: sascha
 tags: [ fiction ]
@@ -30,7 +31,7 @@ This four-part series is designed to get you started. You can learn about specif
 
 **The first part, ["Knowledge is Knowledge"](https://zettelkasten.de/posts/zettelkasten-fiction-writing-part-1-knowledge/), is based on the claim that you can treat fiction as non-fiction if you like.** This approach is one way to get you going and to process fiction you read. It is somewhat controversial since I commit a literary sin: I divorce the quote from the source and process not with any obligation to the text. @dgbecher highlighted this issues with this approach with a very justified critique. So, you might read the text within the context of [this](https://forum.zettelkasten.de/discussion/comment/14011/#Comment_14011) and [this](https://forum.zettelkasten.de/discussion/comment/14635/#Comment_14635) comment.
 
-**The second part, ["What you can look for in a story"](https://zettelkasten.de/posts/zettelkasten-fiction-writing-part-2-elements-of-story/), aims to provide you with a framework on how stories work.** I provide you with a framework of building blocks of stories. I base this frame work on "story practicians" like Coyne[^coyne] or Truby.[^truby2008] The second part makes use of the assumption that [Reading is Searching](https://zettelkasten.de/posts/reading-is-searching/) that I used for non-fiction text already.
+**The second part, ["Collecting and Processing Building Blocks of Story"](https://zettelkasten.de/posts/zettelkasten-fiction-writing-part-2-elements-of-story/), aims to provide you with a framework on how stories work.** I provide you with a framework of building blocks of stories. I base this frame work on "story practicians" like Coyne[^coyne] or Truby.[^truby2008] The second part makes use of the assumption that [Reading is Searching](https://zettelkasten.de/posts/reading-is-searching/) that I used for non-fiction text already.
 
 [^coyne]: Shawn Coyne (2015): The Story Grid. What Good Editors Know, USA: Black Irish Entertainment LLC.
 [^truby2008]: John Truby (2008): The Anatomy of Story, New York: Farrar, Straus and Giroux.

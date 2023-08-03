@@ -1,5 +1,5 @@
 ---
-title: "The Zettelkasten Method for Fiction II – What You Can Look For"
+title: "The Zettelkasten Method for Fiction II – Collecting and Processing Building Blocks of Story"
 created_at: 2022-01-11 18:04:40 +0100
 kind: article
 author: sascha
@@ -9,6 +9,7 @@ vgwort: https://vg07.met.vgwort.de/na/a70a59b2380b4e05a98473682246e897
 description: "Know what you are trying to process when you process fiction, and be skilled in handling these pieces."
 excerpt: "In part 1 we concluded that knowledge is knowledge, independent of its source. Applying the Zettelkasten Method to fiction books does not change anything if we are dealing with knowledge .But if you want to use the Zettelkasten Method to analyse a story as a story? Then you need to know what to look for besides knowledge."
 discussion_id: 2088
+updated_at: 2023-08-03 08:23:43 +0100
 ---
 
 **Recap:** In [part 1](https://zettelkasten.de/posts/zettelkasten-fiction-writing-part-1-knowledge/) we concluded that knowledge is knowledge, independent of its source. Applying the Zettelkasten Method to fiction books does not change anything if we are dealing with knowledge.
