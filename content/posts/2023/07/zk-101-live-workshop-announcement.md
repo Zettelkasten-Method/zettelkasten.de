@@ -4,7 +4,7 @@ created_at: 2023-07-14 10:42:32 +0100
 kind: article
 author: sascha
 tags: [ announcement, onlinecourse, workshop ]
-preview: fulltext
+preview: none
 description: "Launching in October 2023: Zettelkasten Method 101, Mastering the basics to unlock your Integrated Thinking Environment. A live workshop for 8 participants. Secure your spot now!"
 ---
 Dear Zettlers,
