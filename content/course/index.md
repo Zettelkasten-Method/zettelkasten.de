@@ -89,7 +89,7 @@ Expect me to be
 3. Demanding
 4. Very Generous with my Energy and Time (thanks Nir for this compliment!) when you put in your effort.
 
-I am using my Zettelkasten and develop the method for over a decade now. I am a coach for health and fitness for 15 years. Expect a coach that has a lot of experience and is a seasoned Zettelkasten practitioner himself. 
+I am using my Zettelkasten and develop the method for over a decade now. I am a coach for health and fitness for 15 years. Expect a coach who has a lot of experience and is a seasoned Zettelkasten practitioner himself.
 
 If you have further questions, feel free to email me: <%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Question", text: "Send Email") %>
 
