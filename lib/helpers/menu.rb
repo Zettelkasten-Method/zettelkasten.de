@@ -12,20 +12,20 @@ module Menu
 
   MAIN_MENU_PER_LANG = {
     :en => [
-      { title: "Blog",            link: "/posts/",          icon: "folder" },
       { title: "Getting Started", link: "/posts/overview/", icon: "compass" },
-      { title: "Coaching",        link: "/coaching/",       icon: "easel" },
       { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
       { title: "Workshop",        link: "/course/",         icon: "monitor" },
+      { title: "Coaching",        link: "/coaching/",       icon: "easel" },
       { title: "Forum",           link: FORUM_URL,          icon: "people" },
+      { title: "Blog",            link: "/posts/",          icon: "folder" },
     ],
     :de => [
-      { title: "Blog",            link: "/de/posts/",       icon: "folder" },
       { title: "Erste Schritte",  link: "/posts/overview/", icon: "compass" },
-      { title: "Coaching",        link: "/coaching/",       icon: "easel" },
       { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
       { title: "Workshop",        link: "/course/",         icon: "monitor" },
+      { title: "Coaching",        link: "/coaching/",       icon: "easel" },
       { title: "Forum",           link: FORUM_URL,          icon: "people" },
+      { title: "Blog",            link: "/de/posts/",       icon: "folder" },
     ]
   }
 
