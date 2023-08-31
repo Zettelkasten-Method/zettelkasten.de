@@ -26,9 +26,9 @@ What do I mean by cleverness? Cleverness is the wise use of the mind. The follow
 
 In the race to the moon, the U.S. and the Soviets discovered that their ballpoint pens did not write without gravity. The U.S. developed a $10 million ballpoint pen that could do it. The Soviets took pencils.[^20221219pen]
 
-[^20221219pen]: Unfortunately, the anecdote is not accurate. https://www.thespacereview.com/article/613/1
+[^20221219pen]: Unfortunately, the anecdote is not accurate. <https://www.thespacereview.com/article/613/1>
 
-Feynman didn't just have a method of understanding, the now so-called [Feynman Technique](https://fs.blog/feynman-learning-technique/). He had a clever system for increasing the probability of having brilliant ideas: The 12 favorite problems. Nassim Taleb would love this technique: It uses antifragility as a mechanism.
+Feynman didn't just have a method of understanding, the now so-called [Feynman Technique](https://zettelkasten.de/posts/how-to-engage-both-sides-of-the-brain/#feynman-technique). He had a clever system for increasing the probability of having brilliant ideas: The 12 favorite problems. Nassim Taleb would love this technique: It uses antifragility as a mechanism.
 
 ## What is the method of the 12 favorite problems?
 

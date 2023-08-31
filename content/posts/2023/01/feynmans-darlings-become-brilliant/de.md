@@ -29,7 +29,7 @@ Die USA und die Sowjets haben beim Wettlauf zum Mond festgestellt, dass ihre Kug
 
 [^20221219stift]: Die Anekdote ist leider nicht ganz korrekt. https://www.thespacereview.com/article/613/1
 
-Feynman hatte nicht nur eine Methode des Verstehens, die nun sogenannte [Feynmantechnik](https://fs.blog/feynman-learning-technique/). Er hatte ein cleveres System, um die Wahrscheinlichkeit zu erhöhen, geniale Einfälle zu haben: Die 12 Lieblingsprobleme. Nassim Taleb wäre von dieser Technik begeistert. Sie benutzt nämlich Antifragilität als Mechanismus.
+Feynman hatte nicht nur eine Methode des Verstehens, die nun sogenannte [Feynmantechnik](https://zettelkasten.de/de/posts/wie-du-beide-gehiernhaelften-zum-verstehen-benutzt/). Er hatte ein cleveres System, um die Wahrscheinlichkeit zu erhöhen, geniale Einfälle zu haben: Die 12 Lieblingsprobleme. Nassim Taleb wäre von dieser Technik begeistert. Sie benutzt nämlich Antifragilität als Mechanismus.
 
 ## Was ist die Methode der 12 Lieblingsprobleme?
 
