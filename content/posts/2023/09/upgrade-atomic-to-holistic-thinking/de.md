@@ -1,6 +1,6 @@
 ---
-title: "Wie Du beide Gehirnhälften zum Verstehen benutzt"
-created_at: 2023-08-31 19:27:58 +0100
+title: "Verwandle atomares Denken in holistisches Denken"
+created_at: 2023-09-08 08:15:58 +0100
 kind: article
 author: sascha
 tags: [ Atomizität, Lernen, Hirn, Analyse, Synthese ]
@@ -8,8 +8,8 @@ rel_image: 2023-01-06-leini-caption-de.jpg
 vgwort: https://vg02.met.vgwort.de/na/529996e779be409bb22ad33b4bd49213
 description: "Die analytische Weise des Hirns, komplexe Dinge in atomare Teile zu zerlegen, ist wichtig. Aber sie ist bei weitem nicht alles, was man braucht."
 lang: de
-canonical: "/posts/how-to-engage-both-sides-of-the-brain/"
-custom_path: "/de/posts/wie-du-beide-gehiernhaelften-zum-verstehen-benutzt/"
+canonical: "/posts/upgrade-atomic-to-holistic-thinking/"
+custom_path: "/de/posts/verwandle-atomares-in-holistisches-denken/"
 ---
 In seinem Essay [Atomic Thoughts](https://mattgemmell.scot/atomic-thoughts/) schreibt Matt Gemmell über die Idee des atomaren Gedanken. Das [Prinzip der Atomizität](https://zettelkasten.de/posts/create-zettel-from-reading-notes/) sei ein anleitendes Prinzip, um eine größere und komplizierte Idee zu verstehen. Seine Macht liege darin begründet, dass es der Arbeitsweise unseres Verstands entspricht. Die Anwendungsempfehlung könnte man so zusammenfassen:
 

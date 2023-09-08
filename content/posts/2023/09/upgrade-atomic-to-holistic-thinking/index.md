@@ -1,6 +1,6 @@
 ---
-title: "How To Engage Both Sides of the Brain"
-created_at: 2023-08-31 19:18:13 +0100
+title: "Upgrade Atomic Thinking to Holistic Thinking"
+created_at: 2023-09-08 08:16:13 +0100
 kind: article
 author: sascha
 tags: [ atomicity, learning, brain, analysis, synthesis ]
@@ -8,7 +8,7 @@ rel_image: 2023-01-06-leini-caption-en.jpg
 vgwort: https://vg02.met.vgwort.de/na/529996e779be409bb22ad33b4bd49213
 description: "The brain's analytical way of breaking complex things down into atomic parts is important. But it is far from all that is needed."
 lang: en
-canonical: "/posts/how-to-engage-both-sides-of-the-brain/"
+canonical: "/posts/upgrade-atomic-to-holistic-thinking/"
 ---
 
 In his essay [Atomic Thoughts](https://mattgemmell.scot/atomic-thoughts/), Matt Gemmell writes about the atomicity of ideas. The [principle of atomicity](https://zettelkasten.de/posts/create-zettel-from-reading-notes/) is a guiding principle for understanding a larger and complicated idea. Its power lies in the fact that it mimics how our mind works. The recommendation for application could be summarised as follows:
