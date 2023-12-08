@@ -3,7 +3,7 @@ title: Contact and Legal Information
 layout: plain
 toc: true
 bodyclass: contact
-updated_at: 2023-03-28 17:04:47 +0100
+updated_at: 2023-12-08 12:12:20 +0100
 ---
 
 {{toc}}
@@ -83,6 +83,11 @@ From your email address, the forum creates an anonymous string of characters (ak
 The old comment form was powered by Disqus, and your login for them are handled by Disqus, not us. See <a href="https://help.disqus.com/terms-and-policies">Disqus' terms and polcies</a> to which you'll have to agree separately before they start collecting your login information.</p>
 
 
+## Website Metrics and Visitor Statistics
+
+We use TelemetryDeck to collect anonymized usage data. This helps us understand where visitors come from and which articles are popular.
+
+TelemetryDeck does not collect any personally identifiable information. We don't know who you are and if you re-visit, and neither does TelemetryDeck. You can read more about TelemetryDeck’s privacy policy at <https://telemetrydeck.com/privacy>
 
 
 ## Cookies and Tracking Pixel ##
