@@ -2,7 +2,6 @@
 <html lang="<%= item_lang %>">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title><%= full_page_title %></title>
   <%= meta_tag :description %>
   <%= meta_tag :copyright %>
@@ -37,17 +36,12 @@
   <link href='//fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
-  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <link href="/favicon.ico" rel="shortcut icon">
   <link type="text/plain" href="/humans.txt" />
 
   <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body class="<%= @layout_variant %> <%= @item[:bodyclass] if !@item[:bodyclass].nil? %>">
-  <!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-  <![endif]-->
-
   <header class="">
     <div class="header-container clearfix">
       <h1 class="header__title"><%= link_to_homepage %></h1>
