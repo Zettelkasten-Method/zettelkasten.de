@@ -1,5 +1,5 @@
 ---
-title: Subscription Confirmation
+title: Please Confirm Your Subscription 
 hidden: true
 layout: plain
 ---
