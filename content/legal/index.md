@@ -56,13 +56,13 @@ Responsibility for the content of external links (to web pages of third parties)
 
 
 
-## MailChimp Newsletter ##
+## Newsletter ##
 
-We use a 3rd party service to deliver our newsletter emails, because our email provider would kill us if we sent emails through our personal accounts to all our subscribers at once. We picked MailChimp for the job.
+We use a service to deliver our newsletter emails, because our email provider would kill us if we sent emails through our personal accounts to all our subscribers at once.
 
-MailChimp stores your contact information for us. When you sign up to our newsletter, you acknowledge that the information you provide will be transferred to MailChimp for processing in accordance with their [Privacy Policy](https://mailchimp.com/legal/privacy/) and [Terms](https://mailchimp.com/legal/terms/). (We are showing this info next to our signup forms again, so no need to memorize this!)
+We host the newsletter service ourselves so your data isn't shared with data hoarders. The emails are actually sent via Amazon's _Simple Email Service_, using the data center in Frankfurt. During transmit, the recipient email will be known to Amazon. We don't store anythin in the Amazon Cloud, though.
 
-You can unsubscribe anytime from the emails themselves, or [via this web form.](https://christiantietze.us5.list-manage.com/unsubscribe?u=9aad95d757e454078fe42ae23&id=d06cc48a0f)
+You can unsubscribe anytime: each email has a link to unsubscribe. Or do it [via this web form.](https://zettelkasten.de/newsletter/unsubscribe)
 
 
 
