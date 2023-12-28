@@ -8,7 +8,8 @@ index_filenames: [ 'index.html' ]
 # before and after the last site compilation.
 enable_output_diff: false
 
-the_archive_checksum: "8033edd2e244f0fc8c82110d4b77bdb69141bcb73d6d0a7776a6a1c9b6fd7e88"
+# sha256sum
+the_archive_checksum: "d0ef5171e7f94aa74701a932a79357c053bedd5b7a5f1275469615cb3504ab5f"
 
 # For XML Sitemap and OpenGraph canonical links
 base_url: https://zettelkasten.de
