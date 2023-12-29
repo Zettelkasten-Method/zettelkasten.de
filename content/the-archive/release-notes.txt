@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2023-12-28 16:11:45 +0100
+updated_at: 2023-12-29 16:18:30 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -9,7 +9,14 @@ layout: the-archive
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
+## v1.7.14 (2023-12-29)
+
+- **Fixed:** macOS Sonoma display glitches (e.g. invisible sidebar).
+- **Fixed:** Markdown rendering issue that crashed the app.
+
 ## v1.7.13 (2023-12-28)
+
+(This version introduces problems on Sonoma and was retracted.)
 
 - **Fixed:** Crash during startup on High Sierra.
 - **Changed:** Navigate Back/Forward removed from "Note" menu (already in Navigate menu).
