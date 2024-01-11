@@ -2,27 +2,25 @@
 title: "The Zettelkasten Method 101 LIVE Workshop"
 layout: plain
 bodyclass: online-course
-created_at: 2023-07-13 16:06:00 +0200
-description: "Launching in October 2023: Zettelkasten Method 101, Mastering the basics to unlock your Integrated Thinking Environment. A live workshop for 8 participants."
+created_at: 2024-01-10 11:50:00 +0100
+description: "Next cohort in January 2024: Zettelkasten Method 101, Mastering the basics to unlock your Integrated Thinking Environment. A live workshop for 10 participants."
 ---
-
 ## Mastering the Basics to Unlock Your Integrated Thinking Environment
 
-
-By learning and applying the Zettelkasten Method, you will be equipped with *the most powerful tool* to solve modern problems of knowledge: 
+By learning and applying the Zettelkasten Method, you will be equipped with *the most powerful tool* to solve modern problems of knowledge:
 
 - Become a *life-long* learner.
-- Produce *high-quality* content: blog posts, presentations, podcasts. 
+- Produce *high-quality* content: blog posts, presentations, podcasts.
 - Come up with *solutions*, like developing marketing campaigns or business strategies.
 - Get an edge by becoming an early adopter.
 
-<aside class="note"><p>The October cohort is sold out</p></aside>
+<%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Pre-Sale", message: "Hi Sascha!\n\nI am [YOUR NAME] and I want to secure a spot for the ZK 101 live workshop.\n\nPlease send a payment request for the EUR 299 / USD 329!".uri_encoded, classes: "coaching__action", text: "Secure a spot now") %>
 
 ## About the Course Content
 
 This course will give everything you need to start building a Zettelkasten and way more. There will be no filler material about the history of the method or esoteric babble that obscures the practical side.
 
-This course is about **doing** and **accomplishing**. You will start building your Zettelkasten right in the first session.
+This course is about **doing** and **accomplishing**.
 
 ### 1\. Introduction
 
@@ -68,21 +66,29 @@ After this session, you use your Zettelkasten for real-world results.
 
 ## Time, Energy, Price
 
-The course consists of 5 sessions, each lasting 60 minutes. Please allocate 90 minutes in your calendar for each session, as I will take the time to answer questions during and after each session.
+The course consists of 6 sessions, each lasting 120 minutes. The first 5 are structured, the last one will be an open consulting session to close all the open loops and answer open questions.
 
-There will be three open consulting hours scheduled throughout the course, so there's plenty of opportunity to ask question and walk through problems.
-
-The course is limited to 8 participants at a time. The next cohort will start in October. The exact dates will be announced in September.
+The course is limited to 10 participants at a time. The next cohort will start end of January.
 
 Make sure to [subscribe to our newsletter](/newsletter) to keep updated.
 
-The price for the course is €249 (US$279).
+The price for the course is €299 (US$329).
 
-<aside class="note"><p>The October cohort is sold out</p></aside>
+The schedule is:
+
+- 27. Jan 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_27_jan_2024_in_bielefeld))
+- 3. Feb 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_3_feb_2024_in_bielefeld))
+- 10. Feb 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_10_feb_2024_in_bielefeld))
+- 17. Feb 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_17_feb_2024_in_bielefeld))
+- 24. Feb 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_24_feb_2024_in_bielefeld))
+- 2. Mar 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_2_mar_2024_in_bielefeld))
+
+<%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Pre-Sale", message: "Hi Sascha!\n\nI am [YOUR NAME] and I want to secure a spot for the ZK 101 live workshop.\n\nPlease send a payment request for the EUR 299 / USD 329!".uri_encoded, classes: "coaching__action", text: "Secure a spot now") %>
+
 
 ## About Me as a Teacher and My Zettelkasten
 
-Expect me to be 
+Expect me to be
 
 1. Intense
 2. Involved
@@ -91,7 +97,7 @@ Expect me to be
 
 I am using my Zettelkasten and develop the method for over a decade now. I am a coach for health and fitness for 15 years. Expect a coach who has a lot of experience and is a seasoned Zettelkasten practitioner himself.
 
-If you have further questions, feel free to email me: <%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Question", text: "Send Email") %>
+If you have further questions, feel free to email me: <%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Question", text: "Send an Email") %>
 
 
 ## FAQ
@@ -102,7 +108,7 @@ To get notified when the doors open, sign up to the newsletter [here](https://ze
 
 ### I'm poor/a student/a teacher, do I get a discount?
 
-There are no discounts. 
+There are no discounts.
 
 ### Will there be recordings?
 
@@ -110,17 +116,17 @@ If you can't attend to a session, I will make the session recording available to
 
 ### I don't live in your timezone. Can I still attend?
 
-The workshop will be on Saturdays so you more likely be able to attend. The time for the first cohort will be around 5pm CET/CEST.
+The workshop will be on Saturdays so you more likely be able to attend. The time for the first cohort will be around 4pm CET/CEST.
 
 ### Will I need to use The Archive?
 
-No, the workshop is software-independent so you practice the principles, not the tools.
+No, the workshop is software-independent, so you practice the principles, not the tools.
 
 ### Which software will we use?
 
-You can use whatever software you like. I will use *The Archive* for demonstration purposes. 
+You can use whatever software you like. I will use *The Archive* for demonstration purposes.
 
 ----
 
-Do you have more questions? Reach out via email: 
+Do you have more questions? Reach out via email:
 <%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Question", text: "Ask via email") %>
