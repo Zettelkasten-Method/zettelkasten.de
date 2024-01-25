@@ -15,8 +15,17 @@ textarea {
 // Checkboxes in lists in posts are usually meant for visualization
 .post li input[type="checkbox"] {
   display: inline-block;
-  transform: scale(1.5); // translateX(-$list-indentation*0.8) would be hack to move the checkbox over the list item
+  margin-right: 0.5em;
+  transform: scale(1.5);
 }
+.post li:has(input[type="checkbox"]) {
+  list-style: none;
+  margin-left: $list-indentation; // Increase indendation; checkboxes need more room
+  input[type="checkbox"] {
+    margin-left: -($list-indentation + 0.5em);
+  }
+}
+
 
 audio:not([controls]) {
   display: none;
