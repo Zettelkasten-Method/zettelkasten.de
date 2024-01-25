@@ -4,7 +4,7 @@ created_at: 2023-06-26 09:15:35 +0100
 updated_at: 2023-07-07 10:36:41 +0100
 kind: article
 author: sascha
-tags: [ basb, gtd, habit, workflow ]
+tags: [ basb, gtd, habits, workflow ]
 rel_image: walnut.jpg
 vgwort: https://vg01.met.vgwort.de/na/260ed44cdf2941e991c1bdb7bb8fa56f
 description: "Learn what “Building a Second Brain” is, how it relates to the Zettelkasten Method, and how to perfectly combine both methods."

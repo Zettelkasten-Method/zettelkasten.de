@@ -3,7 +3,7 @@ title: Make Writing a Part of Your Identity
 created_at: 2014-07-03 08:47:35 +0200
 kind: article
 author: christian
-tags: [ writing, habit, productivity, personal ]
+tags: [ writing, habits, productivity, personal ]
 image: 201407031831_woodwork.jpg
 vgwort: https://vg08.met.vgwort.de/na/cbdc792f76ce48fd94cc0bc3afcb5d21
 import:
