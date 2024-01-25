@@ -16,8 +16,16 @@ module My
         tag_name.downcase.gsub('ä', 'ae').gsub('ö', 'oe').gsub('ü', 'ue').gsub('ß', 'ss')
       end
 
-      def link_to(tag_name)
-        %Q{<a href="/posts/tags/#{clean_name(tag_name)}/">#{tag_name}</a>}
+      def link_to(tag_name, lang = nil)
+        lang = nil if lang == :en  # No prefix for default language
+        lang = lang ? lang.to_s : nil
+        path = [
+          lang,
+          'posts',
+          'tags',
+          clean_name(tag_name)
+        ].select { !_1.nil? }.join('/')
+        %Q{<a href="/#{path}/">#{tag_name}</a>}
       end
     end
 
@@ -104,11 +112,11 @@ module My
         date.strftime "%b #{ActiveSupport::Inflector.ordinalize(date.day)}, %Y"
       end
 
-      def tags_for(item)
+      def tags_for(item, lang = nil)
         template = <<-Template
         <ul class="tags">
         <% tags.each do |tag| %>
-          <li><%= Tag::link_to(tag) %></li>
+          <li><%= Tag::link_to(tag, lang) %></li>
         <% end %>
         </ul>
         Template
