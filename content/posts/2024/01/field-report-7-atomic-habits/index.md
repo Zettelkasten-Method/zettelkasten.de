@@ -1,6 +1,6 @@
 ---
-title: "Field Report #7: Atomic Habits"
-created_at: 2023-09-08 08:16:13 +0100
+title: "Field Report #7: How I Process “Atomic Habits” by James Clear"
+created_at: 2024-01-25 09:58:00 +0100
 kind: article
 author: sascha
 tags: [ field-report-series, habits ]
@@ -9,6 +9,7 @@ vgwort: https://vg04.met.vgwort.de/na/e975142fc9604e72968380014bd98440
 description: "First, ask yourself what the source requires of you. The individual in “individualising the way of working” is the source you are processing, not you."
 lang: en
 canonical: "/posts/field-report-7-atomic-habits/"
+updated_at: 2024-01-27 08:13:41 +0100
 ---
 
 > Those who do not react flexibly to the demands of the situation make themselves slaves to their stubbornness.
@@ -55,9 +56,9 @@ It took me a total of three mornings (from 7am to 1pm) to complete the whole pro
 
 ## Action Items: Principles, Methods, Best Practices
 
-- <input type="checkbox"> Develop a whole series of workflows so that you can work optimally in each individual case. Without a choice, you have no flexibility and are forced to use tools that are often unsuitable for the task at hand.
-- <input type="checkbox"> Concentrate on the actual task of the first read. The first read has one main purpose: to prepare the book for processing. If this can be done by just skimming, leave it at skimming.
-- <input type="checkbox"> First, ask yourself what the book is asking of you. The individual in individualising the workflow is the to be processed source, not you.
+- <input type="checkbox"> **Develop a whole series of workflows so that you can work optimally in each individual case.** Without a choice, you have no flexibility and are forced to use tools that are often unsuitable for the task at hand.
+- <input type="checkbox"> **Concentrate on the actual task of the first read.** The first read has one main purpose: to prepare the book for processing. If this can be done by just skimming, leave it at skimming.
+- <input type="checkbox"> **First, ask yourself what the book is asking of you.** The individual in individualising the workflow is the to be processed source, not you.
 
 
 **Recommended Reading:** A very related approach is the [Short Knowledge Cycle](https://zettelkasten.de/posts/knowledge-cycle-efficiently-organize-writing-projects/). Highly recommended reading!

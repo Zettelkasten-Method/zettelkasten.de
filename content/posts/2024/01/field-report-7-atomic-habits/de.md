@@ -4,12 +4,13 @@ created_at: 2024-01-25 09:58:58 +0100
 kind: article
 author: sascha
 tags: [ Gewohnheiten, Erfahrungsbericht ]
-rel_image: cover.jpg
+rel_image: cover.jpeg
 vgwort: https://vg04.met.vgwort.de/na/e975142fc9604e72968380014bd98440
 description: "Frage Dich zuallererst, was das Buch von Dir fordert. Das Individuum beim Individualisieren der Arbeitsweise ist die Vorliegende Quelle zur Verarbeitung, nicht du."
 lang: de
 canonical: "/posts/field-report-7-atomic-habits/"
 custom_path: "/de/posts/erfahrungsbericht-7-atomic-habits/"
+updated_at: 2024-01-27 08:13:37 +0100
 ---
 
 > Wer nicht flexibel auf die Anforderung der Situation reagiert, macht sich zum Sklaven seiner Sturheit.
@@ -56,8 +57,8 @@ Insgesamt habe ich drei Vormittage (von 7-13h) für die komplette Verarbeitung g
 
 ## Erkenntnisse für die Praxis
 
-- <input type="checkbox"> Erarbeite Dir eine ganze Reihe von Workflows, damit Du in jedem Einzelfall optimal arbeiten kannst. Ohne Auswahl hast du keine Flexibilität und bist gezwungen, vielfach ungeeignete Werkzeuge für die anstehende Aufgabe zu nutzen.
-- <input type="checkbox"> Konzentriere Dich auf die eigentliche Aufgabe beim ersten Lesen. Der erste Lesevorgang hat einen Hauptzweck: Er soll das Buch zur Verarbeitung vorbereiten. Wenn dies mit bloße Überfliegen möglich ist, belasse es beim Überfliegen.
-- <input type="checkbox"> Frage Dich zuallererst, was das Buch von Dir fordert. Das Individuum beim Individualisieren der Arbeitsweise ist die Vorliegende Quelle zur Verarbeitung, nicht du.
+- <input type="checkbox"> **Erarbeite Dir eine ganze Reihe von Workflows, damit Du in jedem Einzelfall optimal arbeiten kannst.** Ohne Auswahl hast du keine Flexibilität und bist gezwungen, vielfach ungeeignete Werkzeuge für die anstehende Aufgabe zu nutzen.
+- <input type="checkbox"> **Konzentriere Dich auf die eigentliche Aufgabe beim ersten Lesen.** Der erste Lesevorgang hat einen Hauptzweck: Er soll das Buch zur Verarbeitung vorbereiten. Wenn dies mit bloße Überfliegen möglich ist, belasse es beim Überfliegen.
+- <input type="checkbox"> **Frage Dich zuallererst, was das Buch von Dir fordert.** Das Individuum beim Individualisieren der Arbeitsweise ist die Vorliegende Quelle zur Verarbeitung, nicht du.
 
 **Ergänzung:** Eine damit sehr verwandtes Vorgehen ist der [Short Knowledge Cycle](https://zettelkasten.de/posts/knowledge-cycle-efficiently-organize-writing-projects/). Unbedingte Leseempfehlung!
