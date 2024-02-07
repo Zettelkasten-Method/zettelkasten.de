@@ -25,4 +25,4 @@ I've added a little announcement at the top of the page already. Here's the text
 
 So that's the reason we've been so quiet lately. Sascha was busy writing the book, while I was proof-reading and [doing other stuff](http://christiantietze.de/posts/2015/10/word-counter-130/). There's a lot of cool stuff prepared for the blog already, but we just didn't come about finishing it as of late.
 
-For those of you who can't read German, peek through our [article overview](/posts/overview/) to get started with the Zettelkasten method today.
+For those of you who can't read German, peek through [our overview](/overview/) to get started with the Zettelkasten method today.

@@ -351,7 +351,7 @@ The Archive 这款软件的主要理念是坚持软件不可知论(software-agno
 
 你可以试用我们的 [The Archive (macOS)](https://zettelkasten.de/the-archive/)，我们为你提供了[用作演示的笔记](https://github.com/Zettelkasten-Method/The-Archive-Demo-Notes)。
 
-你可以先从[这个页面](https://zettelkasten.de/posts/overview/)了解有关 卡片盒笔记系统Method 的基础知识
+你可以先从[这个页面](https://zettelkasten.de/overview/)了解有关 卡片盒笔记系统Method 的基础知识
 
 如果你要建立自己的 Zettelkasten，你可以在我们的[论坛](https://forum.zettelkasten.de/)中分享你的经验，也可以在这个[页面](https://forum.zettelkasten.de/discussion/1443/introduction-to-the-zettelkasten-method/)参与讨论。
 
@@ -363,8 +363,7 @@ The Archive 这款软件的主要理念是坚持软件不可知论(software-agno
 3.  [Ido Portal](https://www.facebook.com/notes/ido-portal/optimal-teaching-chunking-vs-the-chemistry-model-by-ido-portal/255608244481163)
 4.  [Heterarchy - Wikipedia](https://en.wikipedia.org/wiki/Heterarchy)
 5.  [沙盒 (电脑安全) - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E6%B2%99%E7%9B%92_(%E9%9B%BB%E8%85%A6%E5%AE%89%E5%85%A8))
-6.  [Getting Started • Zettelkasten Method](https://zettelkasten.de/posts/overview/)
+6.  [Getting Started • Zettelkasten Method](https://zettelkasten.de/overview/)
 7.  [GitHub - Zettelkasten-Method/The-Archive-Demo-Notes: A mini Zettelkasten about the Zettelkasten Method and using The Archive](https://github.com/Zettelkasten-Method/The-Archive-Demo-Notes)
 8.  [The Archive (macOS) • Zettelkasten Method](https://zettelkasten.de/the-archive/)
 9.  [Zettelkasten Forum](https://forum.zettelkasten.de/)
-10. [Getting Started • Zettelkasten Method](https://zettelkasten.de/posts/overview/)

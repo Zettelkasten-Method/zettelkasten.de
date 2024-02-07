@@ -14,7 +14,7 @@ canonical: "/posts/"
   </small>
 </nav>
 
-👉 [**Get started** with the curated article overview](/posts/overview/)! 👈
+👉 [**Get started** with the curated article overview](/overview/)! 👈
 
 * **Posts [by our amazing community contributors](/authors/guests/)** -- thanks, folks!
 * Post by [Christian](/authors/christian/) and [Sascha](/authors/sascha/).

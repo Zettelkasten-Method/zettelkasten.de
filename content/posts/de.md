@@ -15,7 +15,7 @@ custom_path: "/de/posts/"
   </small>
 </nav>
 
-👉 [**Erste Schritte** mit der Artikelübersicht](/posts/overview/)! 👈
+👉 [**Erste Schritte** mit der Artikelübersicht](/overview/)! 👈
 
 <!-- TODO: create translated overviews
 * Beiträge für jedes Jahr: <%= (2013..Date.today.year).to_a.reverse.map { |y| %Q{[#{y}](/posts/#{y}/)} }.join(", ") %>

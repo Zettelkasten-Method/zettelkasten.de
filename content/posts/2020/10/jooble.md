@@ -13,4 +13,4 @@ In short, the Zettelkasten Method is all about working with knowledge: you captu
 
 <!--get started with our [introduction to the Method](https://zettelkasten.de/intro), -->
 
-At base, the principles are to create atomic notes and links between them. To find out what this means and how that works, have a look at our [curated article overview](https://zettelkasten.de/posts/overview/), and make sure you [visit the forum](https://forum.zettelkasten.de) and get to know the amazing people there.
+At base, the principles are to create atomic notes and links between them. To find out what this means and how that works, have a look at our [curated overview](https://zettelkasten.de/overview/), and make sure you [visit the forum](https://forum.zettelkasten.de) and get to know the amazing people there.

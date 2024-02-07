@@ -152,7 +152,7 @@ compile '/posts/*' do
   filter :add_toc
 end
 
-compile '/posts/overview/index.md' do
+compile '/overview/index.md' do
   filter :erb
   filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
   filter :add_ids_to_headers

@@ -5,14 +5,14 @@ module Menu
   SUBMENUS = {
 #    blog: [
 #      { title: "Recent Posts", link: "/" },
-#      { title: "Overview",     link: "/posts/overview/" },
+#      { title: "Overview",     link: "/overview/" },
 #      { title: "Blog Archive",      link: "/posts/" }
 #    ]
   }
 
   MAIN_MENU_PER_LANG = {
     :en => [
-      { title: "Getting Started", link: "/posts/overview/", icon: "compass" },
+      { title: "Getting Started", link: "/overview/",       icon: "compass" },
       { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
       { title: "Workshop",        link: "/course/",         icon: "monitor" },
       { title: "Coaching",        link: "/coaching/",       icon: "easel" },
@@ -20,7 +20,7 @@ module Menu
       { title: "Blog",            link: "/posts/",          icon: "folder" },
     ],
     :de => [
-      { title: "Erste Schritte",  link: "/posts/overview/", icon: "compass" },
+      { title: "Erste Schritte",  link: "/overview/",       icon: "compass" },
       { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
       { title: "Workshop",        link: "/course/",         icon: "monitor" },
       { title: "Coaching",        link: "/coaching/",       icon: "easel" },

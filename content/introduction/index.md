@@ -382,7 +382,7 @@ Start to learn the Zettelkasten Method now. Download our [Demo Archive](https://
 
 If you start your own Zettelkasten, share the steps of your journey with our [great community in the forums](https://forum.zettelkasten.de)! You can also [discuss this introduction][intforum] there.
 
-Start reading about the Zettelkasten Method on the [curated overview page](https://zettelkasten.de/posts/overview/)
+Start reading about the Zettelkasten Method on the [curated overview page](https://zettelkasten.de/overview/)
 
 ## Special Thanks
 
