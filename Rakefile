@@ -62,7 +62,7 @@ task :thumb do
     out_large = File.join(dest, file)
     out_thumb = File.join(dest, file).pathmap "%X-thumbnail%x"
 
-    unless File.exists?(out_large) || File.exists?(out_thumb)
+    unless File.exist?(out_large) || File.exist?(out_thumb)
       puts "... #{file}"
 
       to_thumb(path, out_large, 1200)
