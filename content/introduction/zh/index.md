@@ -85,7 +85,7 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 
 如果你想引用某条笔记，那么这条笔记要有一个固定且唯一的地址，你可以通过这个地址找到这条笔记（为了方便理解，你可以将笔记的地址类比为网页的网址)。在数字时代，如果不是软件开发人员，我们很少思考这个问题。我们习惯于在网络上用关键字进行搜索，搜索引擎会在很短地时间内给我们返回大量结果。然而，当你处理一堆纸质笔记时，你需要一种方法来让你阅读其中任意一条笔记，而且还不能花费太多的时间和精力。卢曼设计了一套巧妙的**编号系统**来达到这个目的。
 
-<%= insert_rel_image file: "../2020-08-13_folgezettel-sequence.png", caption: "卢曼的笔记编号系统" %>
+<%= insert_rel_image file: "2020-08-13_folgezettel-sequence.png", caption: "卢曼的笔记编号系统" %>
 
 第一条笔记的地址为数字1。如果你想添加一个与第一条笔记无关的笔记，那么将新笔记的地址设为数字2。如果你想写一条与笔记1有关的新笔记，那么你应该以笔记1为起点产生一条分支，此时新笔记的地址被设为1a。如果还有一条与笔记1相关而与笔记1a关系不大的笔记，那么这条新笔记的地址应该被设为1b。如果你想对笔记1a进行补充或评论，那么你应该创建一个地址为1a1的笔记。所以，简而言之，当你继续一个思路时，新笔记地址的应该在旧笔记的的地址最后一位上递增，比如从1a递增到1b；当你想扩充或评论一条笔记时，那么你应该在该笔记的地址后添加一个新的字符，比如从1a到1a1。要实现这样的编号系统，你需要交替使用数字的字母。
 
@@ -102,7 +102,7 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 
 卢曼的笔记索引表常被误认为是标签系统(tag system)，但卢曼的笔记都没有标签，他也没用标签系统来组织卡片盒笔记系统。
 
-<%= insert_rel_image file: "../20201027164313_schlagwortregister.png", caption: "卢曼 卡片盒笔记系统中的第一个笔记索引表" %>
+<%= insert_rel_image file: "20201027164313_schlagwortregister.png", caption: "卢曼 卡片盒笔记系统中的第一个笔记索引表" %>
 
 他的索引表是一个纯粹的入口列表(list of entry point)，而非标签列表。在索引表中，每一个条目(item）后面的 ID 编号都很少，有时候甚至[只有一个](https://niklas-luhmann-archiv.de/bestand/zettelkasten/zettel/ZK_2_SW1_032_V)。比如“**系统**”这个条目就只有一个入口。但是当你发现卢曼居然以这个条目为入口，发展了一种“系统理论”，你一定会非常吃惊。登记表只是一系列入口的组成的列表，通往那些最大最重要的笔记集合的入口列表。在找到入口后，他就可以依靠前面提到的链接系统，在笔记中冲浪了。
 
@@ -151,7 +151,7 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 
 ## 单个笔记卡片的构成
 
-<%= insert_rel_image file: "../anatomy.png", title: "Anatomy of a Zettel" %>
+<%= insert_rel_image file: "anatomy.png", title: "Anatomy of a Zettel" %>
 
 单个笔记或者说 Zettel 是什么样的呢？每条笔记由三部分组成：
 
@@ -203,7 +203,7 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 
 这种方式的好处是，你能更多的保持写作的状态。我已经记不清在进行某个项目时为另外一个项目写了多少好的想法和文字了。通过保持你的写作状态，从长远看会产生更多有用的想法。
 
-<%= insert_rel_image file: "../path-to-project.png", caption: "完成项目的过程会产生各种各样的副产品" %>
+<%= insert_rel_image file: "path-to-project.png", caption: "完成项目的过程会产生各种各样的副产品" %>
 
 这些副产品不是无用的，它们将成为你未来项目的宝贵知识。同时，它们与你的 卡片盒笔记系统的其他部分建立了联系，并将丰富你的学习经验。
 
@@ -220,13 +220,13 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 
 ### 参考文献
 
-<%= insert_rel_image file: "../anatomy-3-reference.png", caption: "在 笔记卡片的底部是 MultiMarkdown 语法中的 citekeys 的，这条参考文献在主体内容的最后一行被引用了一次" %>
+<%= insert_rel_image file: "anatomy-3-reference.png", caption: "在 笔记卡片的底部是 MultiMarkdown 语法中的 citekeys 的，这条参考文献在主体内容的最后一行被引用了一次" %>
 
 参考文献一般位于在笔记卡片的底部，用来说明信息的来源。一般为 卡片盒笔记系统外部的参考文献，比如书籍、论文或者网络上的文章。
 
 你可以使用文献管理软件来管理这些参考文献，比如 BibDesk。它将包含书目数据，并提供 citekeys。Citekeys 类似于 ID，你可以通过它们指向你引用用的参考文献（（citekey的一种常见格式是[#lastnameYEAR]）
 
-<%= insert_rel_image file: "../20200702155144_zettel-to-refman.png" %>
+<%= insert_rel_image file: "20200702155144_zettel-to-refman.png" %>
 
 有时候，其他的笔记卡片可能是你灵感的来源。在这种情况下，你曾经记的笔记或者处理过的信息成为了你当下思考的基础。你引用笔记卡片时，通过 ID 连接到其他笔记卡片，将新旧笔记联系起来。
 
@@ -236,13 +236,13 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 
 下面这张图标注了前面提到的所有元素。
 
-<%= insert_relative_image file: "../complete-zettel.png", caption: "一个完整的笔记卡片" %>
+<%= insert_rel_image file: "complete-zettel.png", caption: "一个完整的笔记卡片" %>
 
 目前为止，我们只创建了单个的 Zettel。现在，我们来看看 Zettel 之间的联系。
 
 ## 连接笔记卡片
 
-<%= insert_relative_image file: "../2020-08-13-note-link.png", caption: "左侧的 笔记卡片通过 ID 与右侧的 笔记卡片连接" %>
+<%= insert_rel_image file: "2020-08-13-note-link.png", caption: "左侧的 笔记卡片通过 ID 与右侧的 笔记卡片连接" %>
 
 与普通的笔记系统相比，卡片盒笔记系统真正的魔力来自于对连接(connection)的高度重视。每一个新的笔记卡片都需要与其他的笔记卡片建立某种关系。卢曼曾这样强调连接进每一个新 Zettel 的重要性：
 
@@ -256,7 +256,7 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 
 为了能最大限度地发挥连接的作用，你一定要明确说明为什么要建立连接，即建立连接的原因。一般情况下，原因通过链接的上下文来体现，比如：
 
-<%= insert_rel_image file: "../202010271850_link-context.png", title: %Q{Investing for normal people aims towards positiv chashflow #Cashflow #Liquidity Investing starts with liquidity:[[202001121202]] You have to have the liquidity to make investment decisions unless you are using other people's money (e.g. using leverage). But if you have to start with liquidity what is the end of investing? If Cash is the Alpha, Cashflow is the Omega. If you buy real estate, there is no question that positive cashflow is key to a good investment. The same is true for stocks. Why should we expose ourselves to the uncertainty of the market if we want to support our normal lifestyles.As an ordinary person, you don't speculate with real estate, but expect it to generate a steady cashflow: You rent it out. There is no reason we shouldn't apply this principle to stocks. Dividend should be necessary. However, this line of thought should be viewed in the light of the knockout method of investing: [[202001171046]]}, caption: "两个链接的上下文" %>
+<%= insert_rel_image file: "202010271850_link-context.png", title: %Q{Investing for normal people aims towards positiv chashflow #Cashflow #Liquidity Investing starts with liquidity:[[202001121202]] You have to have the liquidity to make investment decisions unless you are using other people's money (e.g. using leverage). But if you have to start with liquidity what is the end of investing? If Cash is the Alpha, Cashflow is the Omega. If you buy real estate, there is no question that positive cashflow is key to a good investment. The same is true for stocks. Why should we expose ourselves to the uncertainty of the market if we want to support our normal lifestyles.As an ordinary person, you don't speculate with real estate, but expect it to generate a steady cashflow: You rent it out. There is no reason we shouldn't apply this principle to stocks. Dividend should be necessary. However, this line of thought should be viewed in the light of the knockout method of investing: [[202001171046]]}, caption: "两个链接的上下文" %>
 
 在第一段文字中，这条笔记卡片连接到了的一个链接地址为 `[[202001121202]]` 的笔记，这条笔记的内容解释了为什么投资应该优先考虑流动性。但是，第一段文字本身也给这个链接添加了一些上下文，用来解释重视流动性的原因。这段上下文是用来告诉以后再看这条笔记的自己：如果你沿着这个链接去浏览笔记，你能得到什么。
 
@@ -277,14 +277,14 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 
 <%= insert_image_group(
   urls: [
-    rel_url_for("../2020-07-30-struktur.png"),
-    rel_url_for("../2020-07-30-struktur_graph.png")
+    rel_url_for("2020-07-30-struktur.png"),
+    rel_url_for("2020-07-30-struktur_graph.png")
   ], caption: "一个结构化的笔记，具有目录结构以及相对应的思维导图形式") %>
 
 
 **结构化笔记是元笔记(Meta-Note)：它是一个关于其他笔记及其联系的笔记**。卢曼的枢纽笔记作为快速通道，可在笔记网络中导航。结构化笔记的作用也是如此。比如，上图是一个关于卡片盒笔记法的结构化笔记。它类似于一个目录(table of contents)，专门列出了所有有关这个主题的笔记。每当我写一个关于卡片盒笔记法的新笔记时，我都会将它的 ID 添加到这个结构化笔记上。
 
-<%= insert_rel_image file: "../20201027155152_models-overview.png", caption: "有关通用模型的结构化笔记" %>
+<%= insert_rel_image file: "20201027155152_models-overview.png", caption: "有关通用模型的结构化笔记" %>
 
 
 上图是我的另一个结构化笔记。这条笔记连接的每条笔记卡片都是心理模型(mental models)中的一种独立模型。举两个例子来说明：
@@ -294,7 +294,7 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 
 记录 Chemistry Mode 的笔记被放置在通用模型的结构化笔记中的同时，也被放置在关于 卡片盒笔记法 方法的结构化笔记中。这种重叠交错的笔记(overlaps in Zettels)最终形成了一个**半格结构**(Semilattice structure):
 
-<%= insert_relative_image file: "../20200703153325_semilattice.png", caption: "与严格的树型结构不同，半格结构可以有从一个分支到另一个分支的交叉连接" %>
+<%= insert_rel_image file: "20200703153325_semilattice.png", caption: "与严格的树型结构不同，半格结构可以有从一个分支到另一个分支的交叉连接" %>
 
 实际上，即使是半格结构也无法完全反映 卡片盒笔记系统的真实情况。准确描绘 卡片盒笔记系统涉及到异构模型([Heterarchy](https://en.wikipedia.org/wiki/Heterarchy))这个概念，但这已经超出本篇文章的范围了。
 
@@ -334,7 +334,7 @@ The Archive 这款软件的主要理念是坚持软件不可知论(software-agno
 
 在 The Archive 中，笔记是这样的：
 
-<%= insert_relative_image file: "../2020-08-07_the-archive-zettel.png", caption: "简短的，具有一定格式的笔记卡片" %>
+<%= insert_relative_image file: "2020-08-07_the-archive-zettel.png", caption: "简短的，具有一定格式的笔记卡片" %>
 
 1. Zettel 的 ID既在文件名中，也在文件内容中。这样做是为了添加一些冗余信息，以便以后在其他软件上访问你的 Zettelkasten。比如，我常在其他电脑上使用 Dropbox 访问我的笔记，而 Dropbox 只允许使用文件名搜索文件。所以，我在文件名中加入 ID，以便能够通过 Dropbox 的搜索功能手动地跟随笔记间的链接；
 2. ID 是基于时间的。它永远不会改变，所以你可以在不破坏任何链接的情况下随意更改标题；
