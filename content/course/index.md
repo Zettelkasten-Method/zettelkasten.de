@@ -3,7 +3,7 @@ title: "The Zettelkasten Method 101 LIVE Workshop"
 layout: plain
 bodyclass: online-course
 created_at: 2024-01-10 11:50:00 +0100
-description: "Next cohort in March 2024: Zettelkasten Method 101, Mastering the basics to unlock your Integrated Thinking Environment. A live workshop for 10 participants."
+description: "Next cohort in April 2024: Zettelkasten Method 101, Mastering the basics to unlock your Integrated Thinking Environment. A live workshop for 10 participants."
 updated_at: 2024-02-08 12:28:16 +0100
 ---
 ## Mastering the Basics to Unlock Your Integrated Thinking Environment
@@ -69,13 +69,13 @@ After this session, you use your Zettelkasten for real-world results.
 
 The course consists of 6 sessions, each lasting 120 minutes. The first 5 are structured, the last one will be an open consulting session to close all the open loops and answer open questions.
 
-The course is limited to 10 participants at a time. The next cohort will start end of March.
+The course is limited to 10 participants at a time. The next cohort will start end of April.
 
 Make sure to [subscribe to our newsletter](/newsletter) to keep updated.
 
 The price for the course is €299 (US$329).
 
-Next cohort starts at the end of March. Exact date will be announced.
+Next cohort starts at the end of April. Exact date will be announced.
 
 <%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Pre-Sale", message: "Hi Sascha!\n\nI am [YOUR NAME] and I want to secure a spot for the ZK 101 live workshop.\n\nPlease send a payment request for the EUR 299 / USD 329!".uri_encoded, classes: "coaching__action", text: "Secure a spot now") %>
 
@@ -96,24 +96,13 @@ If you have further questions, feel free to email me: <%= email("saschafast@gmai
 
 ## FAQ
 
-### What's the upcoming March cohort schedule?
+### What's the April cohort schedule?
 
 To be announced!
 
-### What's the current January cohort schedule?
+### When will I be able to sign up next time?
 
-The schedule of the current cohort (January 2024) is:
-
-- 27. Jan 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_27_jan_2024_in_bielefeld))
-- 3. Feb 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_3_feb_2024_in_bielefeld))
-- 10. Feb 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_10_feb_2024_in_bielefeld))
-- 17. Feb 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_17_feb_2024_in_bielefeld))
-- 24. Feb 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_24_feb_2024_in_bielefeld))
-- 2. Mar 2024 at 16:00 to 18:00, CET ([in your timezone](https://time.is/1600_2_mar_2024_in_bielefeld))
-
-### When will I be able to sign up?
-
-To get notified when the doors open, sign up to the newsletter [here](https://zettelkasten.de/newsletter).
+To get notified when the doors open next time, [sign up to the newsletter](https://zettelkasten.de/newsletter).
 
 ### I'm poor/a student/a teacher, do I get a discount?
 

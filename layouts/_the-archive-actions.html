@@ -16,7 +16,7 @@ end
 
 <ul class="actions grid-whole clearfix">
   <li class="action__item action__item--button <%=buy_grid%>">
-    <a class="action action--buy" href="https://zettelkasten.onfastspring.com/the-archive?source=zettelkasten&campaign=position-<%= @position ? @position : 'unknown' %>" data-fsc-action="Reset,Add,Checkout" data-fsc-item-path-value="the-archive">Buy Now</a>
+    <a class="action action--buy" href="https://zettelkasten.onfastspring.com/the-archive?source=zettelkasten&campaign=position-<%= @position ? @position : 'unknown' %>" data-fsc-action="Reset,Add,Checkout" data-fsc-item-path-value="the-archive"><%= @buy ? @buy : 'Buy Now' %></a>
   </li>
 
   <li class="action__item action__item--button <%=download_grid%>">
