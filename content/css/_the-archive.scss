@@ -38,33 +38,13 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
   }
 
   .action__icon {
-    margin-right: 0.5em;
-    margin-left: -0.5em;
-    margin-top: -1em;
-    margin-bottom: -1em;
+    margin-right: 0.5rem;
+    margin-left: -0.5rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
   }
 
-  .action--download {
-    background-color: #4ecb19;
-    @include background-image(linear-gradient(to bottom, #4ecb19 0%, #2cb01a 100%));
-  }
-  .action--download:hover {
-    background-color: darken(#4ecb19, 5%);
-    @include background-image(linear-gradient(to bottom, darken(#4ecb19, 4%) 0%, darken(#2cb01a, 8%) 100%));
-  }
-
-  .action--buy {
-    width: 100%;
-    font-weight: bold;
-    background: #5B6FDC;
-    text-decoration: underline;
-    @include background-image(linear-gradient(to bottom, #6875EF 0%, #5D66CE 100%));
-  }
-  .action--buy:hover {
-    background: darken(#5B6FDC, 5%);
-    @include background-image(linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%));
-  }
-  .hero .action--buy { font-size: 2em; font-weight: normal; }
+  .hero .action--buy { font-size: 2em; }
 
   .s4d { text-align: left; }//font-size: 1.2em; margin-top: 1.6em; }
   .s4d__save { }//font-size: 1.2em; }
@@ -154,15 +134,17 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
 
 @media only screen and (min-width: $medium-breakpoint) {
   .the-archive {
-    .action__item.action__item--info {
-      // Vertically align with button to its left
-      margin-top: 2em;
-    }
     .action__item.action__item--info.appinfo--hero { margin-top: 0; }// S4D
 
     .appinfo {
       text-align: left;
       padding-left: 1em;
+    }
+
+    .hero .action--buy {
+      font-size: 220%;
+      padding-top: 1em;
+      padding-bottom: 1em;
     }
 
     .features { margin-top: 3em; }
@@ -208,16 +190,7 @@ a.thearchive-launch__link:hover { border-bottom-color: transparent; }
     .hero img { }
     .appname { font-size: 400%; }
 
-    .action__item.action__item--button {}
-    .action__item.action__item--info { margin-top: 2.6em; }
     .action__item.action__item--info.appinfo--hero { margin-top: 0; }// S4D
-
-    .hero .action--buy {
-      font-weight: normal;
-      font-size: 220%;
-      padding-top: 1em;
-      padding-bottom: 1em;
-    }
 
     .feature-img-container { text-align: center; }
     .feature-img--plaintext { margin-top: 1em; width: 80%; }
