@@ -8,8 +8,6 @@ canonical: "/posts/"
 
 <hr>
 
-<%= render '/_language-switch.*' %>
-
 👉 [**Get started** with the curated article overview](/overview/)! 👈
 
 * **Posts [by our amazing community contributors](/authors/guests/)** -- thanks, folks!

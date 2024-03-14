@@ -9,8 +9,6 @@ custom_path: "/de/posts/"
 
 <hr>
 
-<%= render '/_language-switch.*' %>
-
 👉 [**Erste Schritte** mit der Artikelübersicht](/overview/)! 👈
 
 <!-- TODO: create translated overviews

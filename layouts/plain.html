@@ -12,6 +12,10 @@
     </ul>
     <% end %>
 
+    <% if @item[:canonical]&.empty? == false %>
+      <%= render '/_language-switch.*' %>
+    <% end %>
+
     <%= yield %>
   </article>
 
