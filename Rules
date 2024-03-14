@@ -250,10 +250,11 @@ route '/**/*' do
   if item.binary?
     item.identifier.to_s
   else
-    if item.identifier.without_ext =~ %r{/index$}
-      item.identifier.without_ext + '.html'
+    path = item[:custom_path] || item.identifier.without_ext
+    if path =~ %r{/index$}
+      path + '.html'
     else
-      item.identifier.without_ext + '/index.html'
+      path + '/index.html'
     end
   end
 end
