@@ -5,11 +5,7 @@ lang: en
 canonical: "/posts/tags/"
 ---
 
-<nav class="post__languages languages">
-  <small>
-    <%= language_announcement %>: <%= language_links %>
-  </small>
-</nav>
+<%= render '/_language-switch.*' %>
 
 <ul>
 <% @items.select { _1[:kind] == "tag" && _1[:lang] == item_lang }.sort { _1[:tag] <=> _2[:tag] }.each do |tag| %>

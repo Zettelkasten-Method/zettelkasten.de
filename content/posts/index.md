@@ -8,11 +8,7 @@ canonical: "/posts/"
 
 <hr>
 
-<nav class="post__languages languages">
-  <small>
-    <%= language_announcement %>: <%= language_links %>
-  </small>
-</nav>
+<%= render '/_language-switch.*' %>
 
 👉 [**Get started** with the curated article overview](/overview/)! 👈
 

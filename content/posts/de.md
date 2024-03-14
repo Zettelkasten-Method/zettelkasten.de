@@ -9,11 +9,7 @@ custom_path: "/de/posts/"
 
 <hr>
 
-<nav class="post__languages languages">
-  <small>
-    <%= language_announcement %>: <%= language_links %>
-  </small>
-</nav>
+<%= render '/_language-switch.*' %>
 
 👉 [**Erste Schritte** mit der Artikelübersicht](/overview/)! 👈
 
