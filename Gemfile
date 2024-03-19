@@ -21,7 +21,8 @@ gem 'rainpress',  '~>1.0' # CSS Compressor
 gem 'jsmin',      '~>1.0'
 
 # Markdown & Typography
-gem 'redcarpet', ">3.0"
+gem "kramdown", "~> 2.4"
+gem 'kramdown-parser-gfm'
 gem 'rouge' # syntax highlighting
 gem 'typogruby' # Fallback when Redcarpet is not available
 

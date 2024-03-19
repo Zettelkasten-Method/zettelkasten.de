@@ -17,7 +17,7 @@
 require 'compass'
 Compass.add_project_configuration 'compass_config.rb'
 
-REDCARPET_OPTIONS = { fenced_code_blocks: true, footnotes: true, tables: true }
+KRAMDOWN_OPTS = { auto_ids: true, input: 'GFM', syntax_highlighter: 'rouge' }
 BYPASS_FILES = %w(404.html crossdomain.xml humans.txt robots.txt googlebd82924855df6b5d.html) unless defined?(BYPASS_FILES)
 
 # from https://github.com/mgutz/nanoc3_blog/blob/master/Rules
@@ -127,7 +127,7 @@ end
 
 compile '/posts/tags/*.*' do
   filter :erb
-  filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
+  filter :kramdown, KRAMDOWN_OPTS
 
   layout '/plain.*'
 end
@@ -144,8 +144,7 @@ end
 
 compile '/posts/*' do
   filter :erb
-  filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
-  filter :add_ids_to_headers
+  filter :kramdown, KRAMDOWN_OPTS
 
   layout '/plain.*'
 
@@ -154,8 +153,7 @@ end
 
 compile '/overview/index.md' do
   filter :erb
-  filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
-  filter :add_ids_to_headers
+  filter :kramdown, KRAMDOWN_OPTS
 
   layout '/plain.*'
 
@@ -166,8 +164,7 @@ end
 compile '/posts/**/*' do
   unless item.binary? # don’t filter binary items
     filter :erb
-    filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
-    filter :add_ids_to_headers
+    filter :kramdown, KRAMDOWN_OPTS
 
     layout '/blog.*'
 
@@ -188,16 +185,10 @@ compile '/**/*' do
   case item[:extension]
     when 'md', 'markdown', 'txt', 'text'
       filter :erb
-      filter :redcarpet, renderer: ::RedcarpetRougeRenderer, options: REDCARPET_OPTIONS
-    when 'haml'
-      filter :haml
+      filter :kramdown, KRAMDOWN_OPTS
     else
       filter :erb
       filter :typogruby
-  end
-
-  if item[:toc]
-    filter :add_ids_to_headers
   end
 
   if item[:layout]
