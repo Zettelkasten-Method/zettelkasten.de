@@ -218,7 +218,7 @@ route %r{^/(de/)?posts/.*?} do |_, custom_lang|
     "/posts/" + post_id + "/" + id
   elsif item[:kind] == 'article'
     if custom_path = item[:custom_path]
-      path = custom_path[..-2]
+      path = custom_path.chomp('/')
     else
       path = item.identifier.without_ext
                .gsub(/\d{4}\/\d{2}\//, "") # remove date portion
