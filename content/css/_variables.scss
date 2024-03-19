@@ -14,7 +14,7 @@ $color-aside-note: $color-background-header;
 $font-serif: 'PT Serif', serif;
 $font-sans: 'PT Sans', sans-serif;
 $font-base: $font-serif;
-$font-mono: 'Monaco', monospace;
+$font-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
 // Browser default sizes is 16px, so we compute it in fractions:
 $base-size: 18px / 16px * 1em;

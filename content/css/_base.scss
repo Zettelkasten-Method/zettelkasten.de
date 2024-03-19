@@ -216,13 +216,22 @@ figure {
 figure a, figure a:hover {
   border-bottom-color: transparent;
 }
-pre { overflow: auto; }
+pre {
+  overflow: auto;
+  background: white;
+  $whitespace: 0.5rem;
+  padding: $whitespace;
+  margin-inline: -$whitespace;
+}
 code, pre {
   font-family: $font-mono;
-  font-size: 90%; // about the same x-height
+  font-size: 94%; // about the same x-height of normal font
 }
 .language-markdown pre {
   white-space: pre-wrap;
+  .gh { font-weight: bold; } // used for headings but also #hashtag lines
+  .gs { font-weight: 600; }
+  .ge { font-style: italic; }
 }
 
 .feed-icon {
