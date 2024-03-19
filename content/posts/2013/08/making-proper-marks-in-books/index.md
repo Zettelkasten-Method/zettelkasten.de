@@ -17,7 +17,7 @@ To collect, it doesn't help to paint your text in all colors of the rainbow. No 
 
 ## Marks aid understanding -- but don't overdo it
 
-<%= insert_teaser_image title: "Highlighting texts" %>
+<%= insert_teaser_image title: "Highlighting texts", caption: "To clarify, this would be overdoing it :)" %>
 
 When you read a book, do you underline words or sentences or whole paragraphs?  Do you use a colored text highlighter, a ballpoint pen or a pencil?
 
