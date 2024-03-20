@@ -188,7 +188,7 @@ Die Meisten, die sich für den Zettelkasten interessieren, haben bereits eine ga
 
 Die meisten haben Denkwerkzeuge, die sie sich innerhalb ihrer Domäne erarbeitet haben. Diese müssen nur noch in den Zettelkasten übertragen und mit der Zettelkastenmethode in Einklang gebracht werden. 
 
-Dies ist einer der anspruchsvollen Projekte für mich im Rahmen der Zettelkastenmethode: Ich arbeite daran, einen allgemeinen Werkzeugkasten und eine dazugehörige Ausbildung zu erarbeiten. Der erste Schritt wird ein [Kurs die Entfaltung eines Gedankens](https://zettelkasten.de/courses/value-creation/) werden. <!--sf: Link ändern, wenn Seite fertig. -->
+Dies ist einer der anspruchsvollen Projekte für mich im Rahmen der Zettelkastenmethode: Ich arbeite daran, einen allgemeinen Werkzeugkasten und eine dazugehörige Ausbildung zu erarbeiten. Der erste Schritt wird ein [Kurs die Entfaltung eines Gedankens](https://zettelkasten.de/de/kurs/perfekte-notiz/) werden.
 
 ## Nicht zurück zu den Basics, in die Tiefe müssen wir gehen
 

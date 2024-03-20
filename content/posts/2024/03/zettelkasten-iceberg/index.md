@@ -174,7 +174,7 @@ Most of the people who are interested in the Zettelkasten already have a whole r
 
 Most people have thinking tools that they have developed within their domain. These just need to be transferred to the Zettelkasten and harmonised with the Zettelkasten Method.
 
-This is one of the challenging projects for me within the framework of the Zettelkasten Method: I am working on developing a general toolbox for thinking and training to use it. The first step will be a [course on the unfolding of a thought](https://zettelkasten.de/courses/value-creation/). <!--sf: Change link when page is ready. -->
+This is one of the challenging projects for me within the framework of the Zettelkasten Method: I am working on developing a general toolbox for thinking and training to use it. The first step will be a [course on the unfolding of a thought](https://zettelkasten.de/course/perfect-note/).
 
 ## Don't Go Back to Basics, We Need to Go Deeper
 
