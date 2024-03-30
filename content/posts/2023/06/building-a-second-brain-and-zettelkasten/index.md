@@ -1,5 +1,5 @@
 ---
-title: "How to Increase Knowledge Productivity: Combining the Zettelkasten Method and Building a Second Brain"
+title: "How to Increase Knowledge Productivity: Combine the Zettelkasten Method and Building a Second Brain"
 created_at: 2023-06-26 09:15:35 +0100
 updated_at: 2023-07-07 10:36:41 +0100
 kind: article
