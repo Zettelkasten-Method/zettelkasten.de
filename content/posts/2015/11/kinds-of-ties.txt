@@ -1,7 +1,7 @@
 ---
 title: Different Kinds of Ties Between Notes
 created_at: 2015-11-17 09:11:24 +0100
-updated_at: 2020-03-21 13:22:00 +0100
+updated_at: 2024-03-30 10:46:23 +0100
 kind: article
 author: christian
 tags: [ connect, archive, tagging, folgezettel, category, links ]
@@ -28,7 +28,7 @@ So if the position of two notes is an information itself, you'd have 999 extra b
 
 You can utilize this of course.
 
-Dan Sheffler sorts his notes by title. He also adheres to the convention where the more general term is kept at the beginning. Taken [from his post](http://dansheffler.com/blog/2015-08-11-going-from-reading-to-notes/), he has notes called:
+Dan Sheffler sorts his notes by title. He also adheres to the convention where the more general term is kept at the beginning. Taken [from his post](https://www.dtsheffler.com/notebook/2015-08-11-going-from-reading-to-notes/), he has notes called:
 
 * Plato
 * Plato -- Tripartition

@@ -1,13 +1,14 @@
 ---
 title: Keeping a Study Log and Extracting Zettel Notes From It
 created_at: 2015-08-10 10:05:28 +0200
+updated_at: 2024-03-30 10:44:59 +0100
 kind: article
 author: christian
 tags: [ note-taking, archive ]
 image: 201508101005_dansheffler-notebk.jpg
 ---
 
-<%= insert_teaser_image title: "notebook of Dan Sheffler", caption: %{That's what Dan's notebook looks like. This is the stuff he <em>doesn't</em> need to keep around. I wonder what the really important documents look like. (Image from <a href="http://dansheffler.com/blog/2014-07-26-notebook-annotation/">"Notebook Annotation"</a> used with permission; Copyright Dan Sheffler.)} %>
+<%= insert_teaser_image title: "notebook of Dan Sheffler", caption: %{That's what Dan's notebook looks like. This is the stuff he <em>doesn't</em> need to keep around. I wonder what the really important documents look like. (Image from <a href="https://www.dtsheffler.com/notebook/2014-07-26-notebook-annotation/">"Notebook Annotation"</a> used with permission; Copyright Dan Sheffler.)} %>
 
 Dan Sheffler, who you might know for his valuable comments on this site already, has an interesting workflow: first, he captures ideas in a study log while reading; then, he picks the gems and writes Zettel notes later.
 
@@ -21,9 +22,9 @@ Using a notebook as a study log [like Dan does][1] works well when you are worki
 
 Just look at the beautiful image of his notebook now.
 
-**Update 2015-08-12**: Dan uses "engagement notes" as a theoretical term; PDF annotations are engagement notes just as notes on paper or in notebooks. It just [turns out](http://zettelkasten.de/posts/getting-started/#comment-2185484422) he likes using a notebook best.
+**Update 2015-08-12**: Dan uses "engagement notes" as a theoretical term; PDF annotations are engagement notes just as notes on paper or in notebooks. It just [turns out](https://zettelkasten.de/posts/getting-started/#comment-2185484422) he likes using a notebook best.
 
-[1]: http://dansheffler.com/blog/2014-07-26-notebook-annotation/
-[2]: http://dansheffler.com/blog/2014-07-21-two-goals-of-note-taking/
+[1]: https://www.dtsheffler.com/notebook/2014-07-26-notebook-annotation/
+[2]: https://www.dtsheffler.com/notebook/2014-07-21-two-goals-of-note-taking/
 
 [read]: /posts/create-zettel-from-reading-notes/

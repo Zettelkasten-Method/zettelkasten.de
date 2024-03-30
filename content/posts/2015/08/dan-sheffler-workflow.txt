@@ -1,10 +1,11 @@
 ---
 title: "From Reading to Zettel Notes: Dan Sheffler's Workflow for a Doctoral Thesis in Philosophy"
 created_at: 2015-08-12 17:16:31 +0200
+updated_at: 2024-03-30 10:43:31 +0100
 kind: article
 author: christian
 tags: [ reading, archive, collect, process ]
-url: http://dansheffler.com/blog/2015-08-11-going-from-reading-to-notes/
+url: https://www.dtsheffler.com/notebook/2015-08-11-going-from-reading-to-notes/
 ---
 
 Welcome to the bright side of blogging: being part of a discourse!
@@ -28,5 +29,5 @@ Writing a doctoral thesis often requires you go _deep_, and going deep will inev
 
 Make sure to check out [the comment thread][comms] where Dan's post originated.
 
-[comms]: http://zettelkasten.de/posts/getting-started/#comment-2163290095
-[wf]: http://dansheffler.com/blog/2015-08-11-going-from-reading-to-notes/
+[comms]: https://zettelkasten.de/posts/getting-started/#comment-2163290095
+[wf]: https://www.dtsheffler.com/notebook/2015-08-11-going-from-reading-to-notes/
