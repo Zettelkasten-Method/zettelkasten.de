@@ -1,6 +1,6 @@
 ---
 title: The Archive Help
-updated_at: 2023-05-18 11:26:13 +0100
+updated_at: 2024-04-12 07:43:53 +0100
 description: "Resources and information for The Archive, macOS note-taking app for prolific writers and productive researchers."
 layout: the-archive
 toc: true
@@ -162,6 +162,14 @@ Phrase search wins: `"!b"` is a phrase search for "!b", matching the literal exc
 You can parenthesize expressions: `!(foo OR (baz AND !bar)` is equivalent to the expanded version, `!foo OR !baz AND !foo OR !bar`. Be aware that `OR` and `AND` do not have correct operator precedence. If you don't know what that means, you probably do not need to care.
 
 <a href="#frequently-asked-questions">(back to top)</a>
+
+
+### How can I assign custom shortcuts?
+
+You can assign a shortcut to anything that's available in _The Archive_'s main menu. [Follow the excellent instructions by Apple.](https://support.apple.com/guide/mac-help/create-keyboard-shortcuts-for-apps-mchlp2271/mac)
+
+<a href="#frequently-asked-questions">(back to top)</a>
+
 
 ## Sending in Log Files for Errors
 
