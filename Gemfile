@@ -6,11 +6,10 @@ group 'nanoc' do
   gem 'webrick', '~> 1.7'  # Ruby 3.x doesn't ship with WEBrick anymore
   gem 'nanoc-image-compressor'
   gem 'nanoc-javascript-concatenator'
+  gem 'nanoc-dart-sass'
 end
 
 gem 'dotenv', '~> 2'
-gem 'sass', '~> 3'
-gem 'compass', '~> 1'
 gem 'terser', '~> 1.1'
 
 # Blogging

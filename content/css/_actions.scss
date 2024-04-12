@@ -1,5 +1,3 @@
-@import "compass";
-
 .actions {
   font-family: $font-sans;
 
@@ -52,11 +50,11 @@
 
 .action--download {
   background-color: #4ecb19;
-  @include background-image(linear-gradient(to bottom, #4ecb19 0%, #2cb01a 100%));
+  background-image: linear-gradient(to bottom, #4ecb19 0%, #2cb01a 100%);
 }
 .action--download:hover {
   background-color: darken(#4ecb19, 5%);
-  @include background-image(linear-gradient(to bottom, darken(#4ecb19, 4%) 0%, darken(#2cb01a, 8%) 100%));
+  background-image: linear-gradient(to bottom, darken(#4ecb19, 4%) 0%, darken(#2cb01a, 8%) 100%);
 }
 
 .action--buy {
@@ -64,11 +62,11 @@
   font-weight: bold;
   background: #5B6FDC;
   text-decoration: none;
-  @include background-image(linear-gradient(to bottom, #6875EF 0%, #5D66CE 100%));
+  background-image: linear-gradient(to bottom, #6875EF 0%, #5D66CE 100%);
 }
 .action--buy:hover {
   background: darken(#5B6FDC, 5%);
-  @include background-image(linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%));
+  background-image: linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%);
 }
 
 .action__icon {
@@ -82,9 +80,9 @@
   font-weight: bold;
   background: #5B6FDC;
   text-decoration: none;
-  @include background-image(linear-gradient(to bottom, #6875EF 0%, #5D66CE 100%));
+  background-image: linear-gradient(to bottom, #6875EF 0%, #5D66CE 100%);
 }
 .action--gotoblog:hover {
   background: darken(#5B6FDC, 5%);
-  @include background-image(linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%));
+  background-image: linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%);
 }

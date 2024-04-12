@@ -30,12 +30,12 @@ aside.coaching__tldr {
   text-decoration: none;
   color: white;
   background: #5B6FDC;
-  @include background-image(linear-gradient(to bottom, #6875EF 0%, #5D66CE 100%));
+  background-image: linear-gradient(to bottom, #6875EF 0%, #5D66CE 100%);
 
   &:hover {
     color: white;
     background: darken(#5B6FDC, 5%);
-    @include background-image(linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%));
+    background-image: linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%);
   }
 }
 
