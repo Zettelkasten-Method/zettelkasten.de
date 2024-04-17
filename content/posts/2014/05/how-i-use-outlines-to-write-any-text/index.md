@@ -1,7 +1,7 @@
 ---
 title: How I use Outlines to Write Any Text
 created_at: 2014-05-24 17:11:02 +0200
-updated_at: 2022-12-06 17:59:53 +0100
+updated_at: 2024-04-17 07:58:12 +0100
 kind: article
 author: christian
 tags: [ outline, writing, hub ]
@@ -100,4 +100,4 @@ I wonder: **how exactly do you start when you write texts?** What's your workflo
 
 [sascha]: https://zettelkasten.de/authors/sascha/
 
-[tk]: https://frankchimero.com/blog/2014/no-new-tools/
+[tk]: https://web.archive.org/web/20200920161518/https://frankchimero.com/blog/2014/no-new-tools/
