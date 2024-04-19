@@ -9,6 +9,8 @@ vgwort: https://vg02.met.vgwort.de/na/f4202a462ce54077ae77953e77004a63
 import:
     without_comments: true
     from: "http://christiantietze.de/posts/2013/10/bibliography-zettelkasten/"
+updated_at: 2024-04-19 11:18:37 +0100
+description: "How to enter literature references into your notes, and how to configure BibDesk for Mac to do the job in a minimal way."
 ---
 
 Today, we'll talk about tools for a change.  Managing a reference file is part of the **collection** phase of maintaining a _Zettelkasten._  It's of special importance if you're writing a research paper or a book because without proper citation management things are going to be a mess for you, soon.  I'll show you how I do it and tell you about possible alternatives briefly.
@@ -34,7 +36,9 @@ The references are copied over from my bibliography manager of choice, [BibDesk]
 
 1.  A shortcut to the full citation which I put at the end of a note.  For example `,,evans` expands to:
     
-        [#evans2006ddd]: Eric Evans (2006):  _Domain-Driven Design. Tackling complexity in the heart of software_, Upper Saddle River, NJ: Addison-Wesley.
+    ```markdown
+    [#evans2006ddd]: Eric Evans (2006): _Domain-Driven Design. Tackling complexity in the heart of software_, Upper Saddle River, NJ: Addison-Wesley.
+    ```
 2.  Another shortcut is needed for inline citations.  For example, `°evans` expands to `[{^}][#evans2006ddd]`, where `{^}` denotes the cursor position.
 
 If you're doing lots of research, do yourself a favor and get at least a trial version of [TextExpander][tx]<img height="0" width="0" src="http://smile.7eer.net/i/176775/161942/2936" style="position:absolute;visibility:hidden;" border="0" />[^aff], [Typinator][tn], or [KeyboardMaestro][km] and see for yourself how much faster you can be. 
@@ -82,6 +86,16 @@ You can find the other BibDesk templates in `~/Library/Application Support/BibDe
 
 [bibdesk]: http://bibdesk.sourceforge.net/
 [exp]: https://gist.github.com/DivineDominion/6870769
+
+### Automatic citekey generation
+
+<%=insert_image file: "./bibdesk-citekey.png", caption: "Recommended citekey format setting in BibDesk" %>
+
+BibDesk allows you to specify the citekey format that will be used when you e.g. import items or enter all required fields manually.
+
+I like my "author + year + short title" (short being 4 characters), so the format string I use is this: `%a1%Y%t4`
+
+That produces `mccracken2004bibd` from first author being McCracken, year being 2004, and title being "BibDesk, a great application to manage your bibliographies".
 
 ### Software Alternatives
 
