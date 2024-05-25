@@ -90,7 +90,7 @@ Let's start with the system.
 
 <%= insert_rel_image file: "2023-06-20_iceberg-v2.png" %>
 
-PARA is the storage system of BASB. The acronym stands for the four containers *__P__rojects*, *__A__reas*, *__R__esources* and *__A__rchive*.
+PARA is the storage system of BASB. The acronym stands for the four containers ***P**rojects*, ***A**reas*, ***R**esources* and ***A**rchive*.
 
 In most programs, you'd create a folder for each container. However, in some programs there are no folders. Therefore, I usually speak of "containers". However, I understand PARA as a manifestation of a general principle of self-organization: the iceberg principle of self-organization. I will describe this in more detail towards the end.
 
@@ -153,10 +153,10 @@ This four-folder system is kept simple for a reason: Complex systems usually req
 
 The BASB workflow is divided into four steps:
 
-1. *__C__apture* includes everything you fill your inboxes with.
-2. *__O__rganise* means filing in the PARA folder system.
-3. *__D__istill* means processing of resources with the method of *progressive summarizing*.
-4. *__E__xpress* means the application or publication of content.
+1. ***C**apture* includes everything you fill your inboxes with.
+2. ***O**rganise* means filing in the PARA folder system.
+3. ***D**istill* means processing of resources with the method of *progressive summarizing*.
+4. ***E**xpress* means the application or publication of content.
 
 Forte does give some tips on **Capture**. However, I do not consider them essential to understanding BASB. Therefore, I will not go into them in detail.
 

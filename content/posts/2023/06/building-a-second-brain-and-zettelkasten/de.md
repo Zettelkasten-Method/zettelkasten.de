@@ -91,11 +91,11 @@ Wie jedes Managementsystem besteht BASB aus drei Komponenten:
 
 <%= insert_rel_image file: "2023-06-20_iceberg-v2.png" %>
 
-PARA ist das Ablagesystem von BASB. Das Akronym steht für die vier Container *__P__rojects* (Projekte), *__A__reas* (Verantwortungsbereiche), *__R__essources* (Ressourcen) und *__A__rchive (Archiv)*.
+PARA ist das Ablagesystem von BASB. Das Akronym steht für die vier Container ***P**rojects* (Projekte), ***A**reas* (Verantwortungsbereiche), ***R**essources* (Ressourcen) und ***A**rchive (Archiv)*.
 
 In den meisten Programmen legst Du für jeden Container je einen Ordner an. Bei manchen Programmen gibt es jedoch keine Ordner. Daher spreche ich meist von "Containern". Ich verstehe PARA jedoch als eine Manifestation eines allgemeinen Prinzips der Selbstorganisation: Das Eisbergprinzip der Selbstorganisation. Ich werde dies gegen Ende noch ausführlicher Beschreiben.
 
-**Projekte** (engl. *__P__rojects*) sind kurzfristige Bemühungen in Arbeit und Privatleben. Sie sind das, woran Du *aktuell* arbeitest.[^forte-3]
+**Projekte** (engl. ***P**rojects*) sind kurzfristige Bemühungen in Arbeit und Privatleben. Sie sind das, woran Du *aktuell* arbeitest.[^forte-3]
  Sie haben einige für die Arbeit förderliche Eigenschaften:
 
 1. Sie haben einen Anfang und ein Ende (im Gegensatz zu einem Hobby oder einem Verantwortungsbereich).[^forte-4]
@@ -107,13 +107,13 @@ In den meisten Programmen legst Du für jeden Container je einen Ordner an. Bei 
 
 *Beispiel:* 100 Kilo im Bankdrücken schaffen.
 
-**Verantwortungsbereiche** (engl. *__A__reas*) betreffen alles, was man langfristig im Blick behalten will. Sie unterscheidet von Projekten, dass man bei ihnen kein Ziel verfolgt, sondern einem Standard halten will. Sie sind dementsprechend nicht befristet. Man könnte sagen, dass sie einen Anspruch an uns selbst und unsere Lebenswelt darstellen.[^forte-6]
+**Verantwortungsbereiche** (engl. ***A**reas*) betreffen alles, was man langfristig im Blick behalten will. Sie unterscheidet von Projekten, dass man bei ihnen kein Ziel verfolgt, sondern einem Standard halten will. Sie sind dementsprechend nicht befristet. Man könnte sagen, dass sie einen Anspruch an uns selbst und unsere Lebenswelt darstellen.[^forte-6]
 
 [^forte-6]: Forte 2022, 94
 
 *Beispiel:* Gesund und fit bleiben.
 
-**Ressourcen** (engl. *__R__esources*) sind Themen, die allenfalls langfristig relevant oder nützlich werden könnten.[^forte-7] Sie sind eine Sammelkategorie für alles, was weder Projekt noch Verantwortungsbereich ist. Es sind:[^forte-8]
+**Ressourcen** (engl. ***R**esources*) sind Themen, die allenfalls langfristig relevant oder nützlich werden könnten.[^forte-7] Sie sind eine Sammelkategorie für alles, was weder Projekt noch Verantwortungsbereich ist. Es sind:[^forte-8]
 
 [^forte-8]: Forte 2022, 94
 [^forte-7]: Forte 2022, 90
@@ -125,7 +125,7 @@ In den meisten Programmen legst Du für jeden Container je einen Ordner an. Bei 
 
 *Beispiel:* Ein Trainingsplan, den man irgendwann mal ausprobieren will.
 
-Das **Archiv** (engl. *__A__rchive*) ist für alles Inaktive aus den obigen drei Kategorien.[^forte-13]
+Das **Archiv** (engl. ***A**rchive*) ist für alles Inaktive aus den obigen drei Kategorien.[^forte-13]
 Es ist ein Lager für Beendetes und Aufgeschobenes.[^forte-14]
 
 [^forte-12]: Forte 2022, 94
@@ -158,10 +158,10 @@ Dieses Vier-Ordner-System ist aus gutem Grund einfach gehalten: Komplexe Systeme
 
 Der Workflow von BASB gliedert sich in vier Schritte:
 
-1. *__C__apture* (Einfangen) umfasst alles, das Du Deine Inboxen füllst.
-2. *__O__rganise* (Einordnen) meint die Ablage in das Ordnersystem PARA.
-3. *__D__istill* (Konzentrieren) meint die Bearbeitung von Quellen mit der Methode des *progressiven Zusammenfassens*.
-4. *__E__xpress* (Mitteilen) meint die Anwendung oder Veröffentlichung von Inhalten.
+1. ***C**apture* (Einfangen) umfasst alles, das Du Deine Inboxen füllst.
+2. ***O**rganise* (Einordnen) meint die Ablage in das Ordnersystem PARA.
+3. ***D**istill* (Konzentrieren) meint die Bearbeitung von Quellen mit der Methode des *progressiven Zusammenfassens*.
+4. ***E**xpress* (Mitteilen) meint die Anwendung oder Veröffentlichung von Inhalten.
 
 Zu **Capture** gibt Forte zwar einige Tipps. Ich halte sie jedoch nicht für essentiell dafür, BASB zu verstehen. Daher werde ich nicht näher auf diese eingehen.
 
