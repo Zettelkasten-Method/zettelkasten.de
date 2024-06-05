@@ -333,7 +333,7 @@ module My
       months = {}
 
       posts.each do |post|
-        date = DateTime.parse(post[:created_at].to_s)
+        date = date_of(post)
         mtime = attribute_to_time(post[:updated_at] || post[:created_at])
         ym = { year: date.year, month: date.month }
         years[date.year] = [years[date.year] || mtime, mtime].max
@@ -341,6 +341,10 @@ module My
       end
 
       return years, months
+    end
+
+    def date_of(post)
+      DateTime.parse(post[:created_at].to_s)
     end
 
     def sorted_posts(kind = "article", lang = nil)
