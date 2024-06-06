@@ -5,17 +5,66 @@ bodyclass: homepage
 lang: en
 canonical: "/"
 ---
+<link href='//fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Caption' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
 
-<section id="posts" class="grid-whole">
+<section class="landingpage__problem">
+  <p><b>Tame</b> the modern information chaos and create an <b>integrated thinking environment</b> that is better than any&nbsp;AI.</p>
+</section>
+
+<section class="landingpage__guide">
+  <div class="intro">
+    <p>With more than a decade of experience, we know
+      the pain of getting crushed by the modern
+      information inflation.</p>
+    <p>The pain ends here. Join the bliss.</p>
+  </div>
+  <div class="guides">
+    <a href="/authors/sascha" class="guide">
+      <div class="photo">
+        <img alt="Picture of Sascha with his dog Leini" src="/authors/sascha/sascha-leini-profile.jpg"/>
+      </div>
+      <span>Learn more about Sascha</span>
+    </a>
+    <a href="/authors/christian" class="guide">
+      <div class="photo">
+        <img alt="Picture of Christian" src="/authors/christian/profile-christian.jpg"/>
+      </div>
+      <span>Learn more about Christian</span>
+    </a>
+  </div>
+</section>
+
+<section class="landingpage__product">
+  <h2 class="wow">Become a Master of Knowledge Development Now</h2>
+  <nav class="products">
+    <a href="/course">
+      <span>Get to the next level</span>
+      <span class="cta">→ Enroll in the Course</span>
+    </a>
+    <a href="/coaching">
+      <span>Fast track your progress</span>
+      <span class="cta">→ Book a 1-on-1 Coaching Session</span></a>
+    <a href="/the-archive">
+      <span>Get the most focused app</span>
+      <span class="cta">→ Download The Archive</span>
+    </a>
+  </nav>
+</section>
+
+<section id="posts" class="landingpage__blog">
   <header>
-      <h1>Latest Posts</h1>
+    <h1>Read the Blog</h1>
   </header>
 
-  <% sorted_posts().filter(&My::Blog::Post.method(:is_previewable?)).take(5).each do |post| %>
-    <%= render '/_post.*', :post => post, :fulltext => false %>
-  <% end %>
-
-  <hr />
+  <ul class="posts_list">
+    <% sorted_posts().filter(&My::Blog::Post.method(:is_previewable?)).take(5).each do |post| %>
+      <%= render '/_post-landingpage.*', :post => post %>
+    <% end %>
+  </ul>
 
   <footer>
     <ul class="actions grid-whole clearfix">
@@ -25,5 +74,3 @@ canonical: "/"
     </ul>
   </footer>
 </section>
-
-<%= render '/_vanilla_count.*' %>

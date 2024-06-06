@@ -12,3 +12,213 @@
 
 // `.post aside` sets padding; littlefoot v3.x doesn't allow overrides
 .post aside.littlefoot-footnote { padding: 0 !important; }
+
+body.homepage {
+  background-color: $color-background-nav-main;
+
+  font-family: $font-sans;
+
+  #navigation { display: none; }
+
+  .content-wrapper {
+    max-width: 100%; // reset the ~36rem setting from normal pages
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-wrapper .main {
+    max-width: 70rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr auto auto auto;
+    justify-items: stretch;
+    gap: 2rem;
+  }
+
+  section {
+    padding: 2vh;
+    border-radius: 4vh;
+
+    overflow: hidden;
+    background: $color-background;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+  }
+
+  p {
+    margin-block: 0 1lh;
+    --leading-correction: -0.2em;
+    &:first-child { margin-block-start: var(--leading-correction); }
+    &:last-child { margin-block-end: var(--leading-correction); }
+  }
+
+  .landingpage__problem {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  .landingpage__guide {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  .landingpage__product {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+  }
+  .landingpage__blog {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 3;
+  }
+
+  .landingpage__problem {
+    padding: 3vh;
+
+    p {
+      margin-block: -0.2lh;
+
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+
+      font-size: 2.1rem; // fallback
+      //font-size: max(1.5rem, min(3.5vw, 5.4vh));
+
+      letter-spacing: -1px;
+      line-height: 1.3em;
+      font-family: $font-serif;
+      b {
+        font-family: $font-sans;
+        font-style: italic;
+        font-weight: 900;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .landingpage__guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+    .intro {
+    }
+
+    .guides {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      align-content: stretch;
+      justify-content: space-evenly;
+      align-items: flex-end;
+    }
+
+    .guide {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      border: 0; // reset link border
+
+      text-align: center;
+      .photo {
+        img {
+          display: block;
+          max-width: 100%;
+          max-height: 4lh;
+          aspect-ratio: 5 / 3;
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+      span {
+        flex-shrink: 0;
+        display: block;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .landingpage__product {
+    position: relative;
+    overflow: visible; // don't clip the tag
+
+    display: flex;
+    flex-direction: column;
+
+    .wow {
+      position: absolute;
+      font-size: 0.8rem;
+      rotate: -5deg;
+      background: lime; // TODO: fix color
+      border-radius: 2vh;
+      padding: 1vh;
+      width: 30ch;
+      text-align: center;
+      line-height: 1em;
+      top: 0;
+      left: 0;
+      transform: translate(-10%, -50%);
+    }
+    .products {
+      flex-grow: 2;
+    }
+  }
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: stretch;
+    gap: 2vh;
+
+    a {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+
+      border: 0;  // reset link border
+      border-radius: 2vh;
+      background: #d07c84;
+      color: white;
+      font-weight: bold;
+      min-height: 3lh;
+
+      .cta {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .posts_list {
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(22ch, 100%), 1fr));
+    gap: 2vh;
+
+    article {
+      border-radius: 2vh;
+      //border: 1px solid lime;
+      span { font-family: "PT Mono", $font-mono; }
+      h3 {
+        font-size: 1rem;
+      }
+      p, .description {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+      }
+    }
+  }
+  // Cover whole card with sole link
+  .card { position: relative; }
+  .card a:first-of-type { }
+  .card a:first-of-type::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+}
