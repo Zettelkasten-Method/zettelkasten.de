@@ -568,6 +568,11 @@ aside.note {
 }
 
 #footer {
+  .footer-search {
+    margin-bottom: 1lh;
+    overflow: hidden; // create new floating environment; can be removed when we ditch the old grid.css
+  }
+
   .search__action {
     background: transparent;
     border-color: white;
@@ -672,11 +677,6 @@ img.author-profile-picture {
     /* figure used negative margins to display to-the-edge on mobile */
     margin-left: 40px;
     margin-right: 40px;
-  }
-
-  .footer-main {
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 
   .tool ul { padding-left: 0; }
