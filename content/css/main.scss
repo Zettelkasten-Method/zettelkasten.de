@@ -46,6 +46,8 @@ body.homepage {
     grid-row-end: span 1;
   }
 
+  a { border: 0px none; }
+
   p {
     margin-block: 0 1lh;
     --leading-correction: -0.2em;
@@ -123,6 +125,7 @@ body.homepage {
       border: 0; // reset link border
 
       text-align: center;
+
       .photo {
         img {
           display: block;
@@ -134,10 +137,9 @@ body.homepage {
           object-fit: cover;
         }
       }
-      span {
+      .more {
         flex-shrink: 0;
         display: block;
-        text-decoration: underline;
       }
     }
   }
