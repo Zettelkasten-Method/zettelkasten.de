@@ -20,12 +20,19 @@
 body.homepage {
   background-color: $color-background-nav-main;
 
-  font-family: $font-sans;
+  .header-container {
+    box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.2rem 0.5rem;
+  }
+  .header__title {
+    margin-block: 1rem;
+  }
+  .main-navigation { background: transparent; }
 
   .content-wrapper {
     max-width: 100%; // reset the ~36rem setting from normal pages
     display: flex;
     justify-content: center;
+
     font-family: $font-sans;
     line-height: 1.6rem;
   }
@@ -36,7 +43,7 @@ body.homepage {
 
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr auto auto auto;
+    grid-template-rows: 8fr 4fr 16fr;  // for finer tuning
     justify-items: stretch;
     gap: 2rem;
   }
@@ -49,9 +56,16 @@ body.homepage {
     background: $color-background;
     grid-column-end: span 1;
     grid-row-end: span 1;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 0rem 0.1rem 0.5rem;
   }
 
   a { border: 0px none; }
+  a {
+    text-decoration: underline;
+    text-underline-offset: 0.1em;
+    &:hover { text-decoration: none; }
+  }
 
   p {
     margin-block: 0 1lh;
@@ -178,17 +192,20 @@ body.homepage {
 
     .wow {
       position: absolute;
-      font-size: 0.8rem;
+      font-size: 1rem;
       rotate: -5deg;
-      background: lime; // TODO: fix color
+      background: $color-background-header;
       border-radius: 2vh;
       padding: 1vh;
-      width: 30ch;
+      width: 20ch;
       text-align: center;
       line-height: 1em;
       top: 0;
       left: 0;
-      transform: translate(-10%, -50%);
+      transform: translate(-10%, -70%);
+      z-index: 999;
+      box-shadow: rgba(0, 0, 0, 0.2) 0.1rem 0.1rem 0.1rem,
+                  rgba(0, 0, 0, 0.1) 0.3rem 0.2rem 0.5rem;
     }
     .products {
       flex-grow: 2;
@@ -200,7 +217,7 @@ body.homepage {
     justify-items: stretch;
     gap: 2vh;
 
-    a {
+    .product {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -210,11 +227,17 @@ body.homepage {
       border-radius: 2vh;
       background: #d07c84;
       color: white;
-      font-weight: bold;
       min-height: 3lh;
 
-      .cta {
-        text-decoration: underline;
+
+      &:hover {
+        transform: scale(1.02) translate(0, -1%);
+      }
+
+      a {
+        font-weight: bold;
+        color: white;
+        //text-decoration: underline; // inherited from default style now
       }
     }
   }
