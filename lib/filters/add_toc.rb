@@ -5,7 +5,7 @@ class NokogiriTOC
   end
 
   def self.run(html, options = {})
-    options[:content_selector] ||= "body"
+    options[:content_selector] ||= "main"
 
     doc = Nokogiri::HTML(html)
     toc_data = []
