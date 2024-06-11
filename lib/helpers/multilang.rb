@@ -8,7 +8,7 @@ module MultiLang
   end
 
   def item_translations(item, skip_current: true)
-    @items.select { _1[:canonical] == item[:canonical] && !(skip_current && @item == _1) }
+    @items.select { !(_1[:canonical].nil?) && _1[:canonical] == item[:canonical] && !(skip_current && @item == _1) }
   end
 
   # Metadata links
