@@ -119,6 +119,8 @@ body.homepage {
   }
 
   .landingpage__guide {
+    padding: 3vh;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -130,9 +132,9 @@ body.homepage {
     .guides {
       display: flex;
       flex-direction: row;
-      gap: 0.5rem;
-      align-content: stretch;
-      justify-content: space-evenly;
+      gap: 1rem;
+      // align-content: stretch;
+      justify-content: stretch;
       align-items: flex-end;
     }
 
@@ -147,9 +149,10 @@ body.homepage {
 
       .photo {
         img {
+          flex-grow: 1;
           display: block;
           max-width: 100%;
-          max-height: 4lh;
+          max-height: 8lh;
           aspect-ratio: 5 / 3;
           width: 100%;
           height: auto;
