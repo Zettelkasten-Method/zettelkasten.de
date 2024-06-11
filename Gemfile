@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
 
 group 'nanoc' do
-  gem 'nanoc'
-  gem 'nanoc-live'
+  gem 'nanoc', git: 'https://github.com/nanoc/nanoc', glob: 'nanoc/*.gemspec', branch: 'denis/focus'
+  gem 'nanoc-cli', git: 'https://github.com/nanoc/nanoc', glob: 'nanoc-cli/*.gemspec', branch: 'denis/focus'
+  gem 'nanoc-core', git: 'https://github.com/nanoc/nanoc', glob: 'nanoc-core/*.gemspec', branch: 'denis/focus'
+  gem 'nanoc-live', git: 'https://github.com/nanoc/nanoc', glob: 'nanoc-live/*.gemspec', branch: 'denis/focus'
+
   gem 'webrick', '~> 1.7'  # Ruby 3.x doesn't ship with WEBrick anymore
   gem 'nanoc-image-compressor'
   gem 'nanoc-javascript-concatenator'
