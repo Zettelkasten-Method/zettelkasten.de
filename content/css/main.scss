@@ -93,9 +93,13 @@ body.homepage {
     grid-row-start: 3;
   }
 
-  .landingpage__problem {
+  .landingpage__problem,
+  .landingpage__guide,
+  .landingpage__blog {
     padding: 3vh;
+  }
 
+  .landingpage__problem {
     img {
       margin-block: 1rem;
       float: right;
@@ -133,8 +137,6 @@ body.homepage {
   }
 
   .landingpage__guide {
-    padding: 3vh;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
