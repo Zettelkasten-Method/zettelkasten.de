@@ -13,6 +13,10 @@
 // `.post aside` sets padding; littlefoot v3.x doesn't allow overrides
 .post aside.littlefoot-footnote { padding: 0 !important; }
 
+:root {
+  --content-width: 60rem;
+}
+
 body.homepage {
   background-color: $color-background-nav-main;
 
@@ -27,8 +31,9 @@ body.homepage {
   }
 
   .content-wrapper .main {
-    max-width: 70rem;
+    max-width: var(--content-width);
     margin-inline: auto;
+
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr auto auto auto;
@@ -36,7 +41,7 @@ body.homepage {
     gap: 2rem;
   }
 
-  section {
+  main section {
     padding: 2vh;
     border-radius: 4vh;
 
@@ -222,5 +227,38 @@ body.homepage {
     content: "";
     position: absolute;
     inset: 0;
+  }
+}
+
+#footer {
+  padding: 4vh;
+
+  .wrapper {
+    display: grid;
+    //grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: [content-start] repeat(auto-fill, minmax(calc(10% + 7.5rem), 1fr)) [content-end]; // Fallback
+    grid-template-columns: [content-start] repeat(auto-fill, minmax(min(10rem, 100%), 1fr)) [content-end];
+    grid-gap: 2rem;
+    justify-items: stretch;
+    max-width: var(--content-width);
+    margin-inline: auto;
+
+    .search {
+      grid-column: content;
+    }
+
+    .copyright {
+      grid-column: span 2;
+    }
+
+    section {
+      grid-column: span 1;
+      font-size: 0.8rem;
+      h3 {
+        font-size: 1rem;
+        margin-block: 0;
+      }
+      ul, ol { margin-block: 0; }
+    }
   }
 }

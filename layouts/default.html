@@ -53,13 +53,13 @@
     </nav>
   </header>
   <div class="clearfix"><!-- for the menu on mobile --></div>
-  <div class="main-container">
-    <div class="wrapper content-wrapper">
+  <main>
+    <div class="content-wrapper">
       <div class="main clearfix">
         <%= yield %>
-      </div> <!-- #main -->
+      </div>
     </div>
-  </div> <!-- #main-container -->
+  </main>
 
   <div class="footer-container clearfix">
     <%= render '/_footer.*' %>
