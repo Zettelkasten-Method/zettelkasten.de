@@ -63,16 +63,16 @@ canonical: "/"
   </header>
 
   <ul class="posts_list">
-    <% sorted_posts().filter(&My::Blog::Post.method(:is_previewable?)).take(5).each do |post| %>
+    <% sorted_posts().filter(&My::Blog::Post.method(:is_previewable?)).take(8).each do |post| %>
       <%= render '/_post-landingpage.*', :post => post %>
     <% end %>
   </ul>
 
-  <footer>
-    <ul class="actions grid-whole clearfix">
-      <li class="action__item action__item--button">
-        <a class="action action--gotoblog" href="https://zettelkasten.de/posts/">Read more in the Blog Archive</a>
-      </li>
-    </ul>
-  </footer>
+  <!-- <footer>
+       <ul class="actions grid-whole clearfix">
+       <li class="action__item action__item--button">
+       <a class="action action--gotoblog" href="https://zettelkasten.de/posts/">Read more in the Blog Archive</a>
+       </li>
+       </ul>
+       </footer> -->
 </section>
