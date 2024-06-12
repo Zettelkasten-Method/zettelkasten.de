@@ -231,9 +231,12 @@ body.homepage {
       color: white;
       min-height: 3lh;
 
+      transition-property: transform box-shadow;
+      transition-duration: 0.1s;
 
       &:hover {
         transform: scale(1.02) translate(0, -1%);
+        box-shadow: rgba(0,0,0,0.1) 0 0.1rem 0.1rem;
       }
 
       a {
