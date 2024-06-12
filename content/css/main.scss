@@ -43,7 +43,7 @@ body.homepage {
 
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-template-rows: 8fr 4fr 16fr;  // for finer tuning
+    // grid-template-rows: 8fr 4fr 16fr;  // for finer tuning
     justify-items: stretch;
     gap: 2rem;
   }
@@ -189,12 +189,21 @@ body.homepage {
     position: relative;
     overflow: visible; // don't clip the tag
 
-    display: flex;
-    flex-direction: column;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: stretch;
+    gap: 2vh;
 
     .wow {
-      position: absolute;
-      font-size: 1rem;
+      --scale-factor: 1.2;
+      @media only screen and (min-width: 1600px) {
+        --scale-factor: 1.6;
+      }
+      grid-column: 1 / span 1;
+
+      // position: absolute;
+      font-size: 1.2rem;
       rotate: -5deg;
       background: $color-background-header;
       border-radius: 2vh;
@@ -204,20 +213,16 @@ body.homepage {
       line-height: 1em;
       top: 0;
       left: 0;
-      transform: translate(-10%, -70%);
+      transform: translate(-3vw, -5vh) scale(var(--scale-factor));
       z-index: 999;
       box-shadow: rgba(0, 0, 0, 0.2) 0.1rem 0.1rem 0.1rem,
                   rgba(0, 0, 0, 0.1) 0.3rem 0.2rem 0.5rem;
     }
-    .products {
-      flex-grow: 2;
+
+    p {
+      grid-column: 2 / span 2;
+      margin-block: 0;
     }
-  }
-  .products {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: stretch;
-    gap: 2vh;
 
     .product {
       display: flex;
@@ -256,18 +261,22 @@ body.homepage {
     gap: 2vh;
 
     article {
-      border-radius: 2vh;
+      // border-radius: 2vh;
       //border: 1px solid lime;
       span { font-family: "PT Mono", $font-mono; }
       h3 {
         font-size: 1rem;
+        margin-bottom: 0;
       }
       p, .description {
         font-size: 0.8rem;
         line-height: 1.3rem;
       }
+      &:hover {
+      }
     }
   }
+
   // Cover whole card with sole link
   .card { position: relative; }
   .card a { }

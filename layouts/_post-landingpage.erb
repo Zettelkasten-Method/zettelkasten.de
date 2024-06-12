@@ -1,10 +1,6 @@
 <article class="allposts__post minimalpost post--minimal card">
   <header>
   <h3 class="minimalpost__title"><%= link_to(@post[:title], @post.path) %></h3>
-  <p>
-    <span>Author:</span><%= Post::author_tag_for(@post) %><br>
-    <span>Published:</span><%= Date::MONTHNAMES[Post::date_of(@post).month] %>
-  </p>
   </header>
   <p class="description"><%=@post[:description]%></p>
 </article>
