@@ -267,8 +267,8 @@ body.homepage {
   }
   // Cover whole card with sole link
   .card { position: relative; }
-  .card a:first-of-type { }
-  .card a:first-of-type::before {
+  .card a { }
+  .card a::before {
     content: "";
     position: absolute;
     inset: 0;
