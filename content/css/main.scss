@@ -203,6 +203,11 @@ body.homepage {
       grid-column: 1 / span 1;
 
       // position: absolute;
+      font-family: $font-serif;
+      font-style: italic;
+      font-weight: 900;
+      letter-spacing: -1px;
+
       font-size: 1.2rem;
       rotate: -5deg;
       background: $color-background-header;
