@@ -15,6 +15,13 @@
 
 :root {
   --content-width: 60rem;
+  // The large block elements on the landing page
+  --block-radius: min(4vh, 3vw);
+  --block-padding: var(--block-radius);
+  --block-spacing: var(--block-radius);
+  // Their inner elements and cards
+  --block-item-radius: calc(var(--block-radius) - var(--block-padding));
+  --block-item-spacing: calc(var(--block-radius) / 2);
 }
 
 body.homepage {
@@ -34,7 +41,12 @@ body.homepage {
     justify-content: center;
 
     font-family: $font-sans;
-    line-height: 1.6rem;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    @media only screen and (min-width: $large-breakpoint) {
+      font-size: 1rem;
+      line-height: 1.6rem;
+    }
   }
 
   .content-wrapper .main {
@@ -45,12 +57,12 @@ body.homepage {
     grid-template-columns: 2fr 2fr;
     // grid-template-rows: 8fr 4fr 16fr;  // for finer tuning
     justify-items: stretch;
-    gap: 2rem;
+    gap: calc(2 * var(--block-radius)) var(--block-radius);
   }
 
   main section {
-    padding: 2vh;
-    border-radius: 4vh;
+    padding: var(--block-padding);
+    border-radius: var(--block-radius);
 
     overflow: hidden;
     background: $color-background;
@@ -95,30 +107,54 @@ body.homepage {
 
   .landingpage__problem,
   .landingpage__guide,
+  .landingpage__product,
   .landingpage__blog {
-    padding: 3vh;
+    padding: var(--block-padding);
+  }
+  .landingpage__product {
+    // Halve the inner spacing to make the product boxes round
+    --block-padding: calc(var(--block-radius) / 2);
+    --block-item-radius: calc(var(--block-radius) - var(--block-padding));
   }
 
   .landingpage__problem {
-    img {
-      margin-block: 1rem;
-      float: right;
-      mix-blend-mode: multiply;
-      opacity: .4;
-      max-width: 60%;
-      max-height: 60%;
-    }
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: flex-start; // top
+    justify-content: center;
+    gap: 1lh;
 
     h2 {
+      flex: 1 1 100%;
       font-size: 1.5rem;
       // font-weight: normal;
       // margin-top: -0.2lh;
       letter-spacing: -1px;
       line-height: 1.6rem;
-      margin-block: 0 1.6rem;
     }
+
+    h2, p {
+      margin-block: 0;
+    }
+
+    p, img {
+      flex: 1 1 30%;
+    }
+
+    img {
+      mix-blend-mode: multiply;
+      opacity: .4;
+      max-width: 80%;
+      align-self: center;
+      @media only screen and (min-width: $large-breakpoint) {
+        max-width: 60%;
+        max-height: 60%;
+      }
+    }
+
     p {
-      margin-block: 1.6rem 0;
+      // margin-block: 1.6rem 0;
       z-index: 100;
 
       // font-size: 2.1rem; // fallback
@@ -140,7 +176,7 @@ body.homepage {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 0.5rem;
+    gap: 1lh;
 
     .intro {
       margin-top: 0.4rem;
@@ -171,10 +207,14 @@ body.homepage {
           display: block;
           max-width: 100%;
           max-height: 8lh;
-          aspect-ratio: 5 / 3;
           width: 100%;
           height: auto;
           object-fit: cover;
+          aspect-ratio: 1 / 1;
+
+          @media only screen and (min-width: $large-breakpoint) {
+            aspect-ratio: 5 / 3;
+          }
         }
       }
       .more {
@@ -193,20 +233,23 @@ body.homepage {
 
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: stretch;
-    gap: 2vh;
+    gap: var(--block-item-spacing);
 
     .wow {
-      --scale-factor: 1.2;
+      --scale-factor: 0.8;
+      @media only screen and (min-width: $large-breakpoint) {
+        --scale-factor: 1.2;
+      }
       @media only screen and (min-width: 1600px) {
         --scale-factor: 1.6;
       }
       grid-column: 1 / span 1;
 
-      // position: absolute;
       font-family: $font-serif;
       font-style: italic;
       font-weight: 900;
       letter-spacing: -1px;
+      position: absolute;
 
       font-size: 1.2rem;
       rotate: -5deg;
@@ -216,27 +259,29 @@ body.homepage {
       width: 20ch;
       text-align: center;
       line-height: 1em;
-      top: 0;
-      left: 0;
       transform: translate(-3vw, -5vh) scale(var(--scale-factor));
-      z-index: 999;
+      z-index: 1337;
       box-shadow: rgba(0, 0, 0, 0.2) 0.1rem 0.1rem 0.1rem,
                   rgba(0, 0, 0, 0.1) 0.3rem 0.2rem 0.5rem;
     }
 
-    p {
-      grid-column: 2 / span 2;
+    .description {
+      grid-column: 1 / span 3;
       margin-block: 0;
-    }
+      @media only screen and (min-width: $large-breakpoint) {
+        grid-column: 2 / span 2;
+      }
+     }
 
     .product {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
+      padding: 0.5rem;
 
       border: 0;  // reset link border
-      border-radius: 2vh;
+      border-radius: var(--block-item-radius);
       background: #d07c84;
       color: white;
       min-height: 3lh;
@@ -263,7 +308,7 @@ body.homepage {
 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(22ch, 100%), 1fr));
-    gap: 2vh;
+    gap: var(--block-item-spacing);
 
     article {
       // border-radius: 2vh;
