@@ -1,3 +1,4 @@
+@use 'sass:color';
 @import "_variables.scss";
 
 @import "_normalize.scss";
@@ -145,11 +146,12 @@ body.homepage {
       }
 
       .chaos {
+        $dark-background: color.scale($color-background, $saturation: -30%, $lightness: -50%, $alpha: -85%);
         text-shadow:
           $color-background 0 -1px 2px,
-          rgba(0, 0, 0, 0.1) -0.1em -0.1em 0,
-          rgba(0, 0, 0, 0.1) 0px -0.3em 0,
-          rgba(0, 0, 0, 0.1) 0.1em -0.2em 0;
+          $dark-background -0.1em -0.1em 0,
+          $dark-background 0px -0.3em 0,
+          $dark-background 0.1em -0.2em 0;
       }
     }
 
