@@ -26,6 +26,8 @@
 }
 
 body.homepage {
+  $medium-breakpoint: 40em;
+
   background-color: $color-background-nav-main;
 
   .header-container {
@@ -57,13 +59,11 @@ body.homepage {
     display: grid;
     grid-template-columns: [row-start row-mid] 2fr [row-end];
     grid-template-rows: [l1] auto [l2] auto [l3] auto [l4] auto;
+    gap: 4vh 0;
     @media only screen and (min-width: $medium-breakpoint) {
       grid-template-columns: [row-start] 2fr [row-mid] 2fr [row-end];
       grid-template-rows: [l1 l2] auto [l3] auto [l4] auto;
-    }
-    // On mobile, add prominent vertical breathing room. On wider screens, keep spacing proportional to the block radii.
-    gap: 4vh 0;
-    @media only screen and (min-width: $medium-breakpoint) {
+      // On mobile, add prominent vertical breathing room. On wider screens, keep spacing proportional to the block radii.
       gap: calc(2 * var(--block-spacing))
            var(--block-spacing);
     }
@@ -133,12 +133,18 @@ body.homepage {
 
     h2 {
       flex: 1 1 100%;
-      font-size: max(2rem, min(5vw, 3rem));
       letter-spacing: -2px;
       line-height: 1.1em;
       text-align: center;
       margin-block: 3% 6%;
-
+      font-size: max(1.5rem, 10vw);
+      // Medium size: two column grid, but still not a lot of space
+      @media only screen and (min-width: $medium-breakpoint) {
+        font-size: max(1rem, 5vw);
+      }
+      @media only screen and (min-width: $large-breakpoint) {
+        font-size: max(1.5rem, min(5vw, 3rem));
+      }
     }
 
     p, img {
