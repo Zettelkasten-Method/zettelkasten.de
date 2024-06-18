@@ -141,6 +141,11 @@ body {
   background-position: 0 50%;
 }
 
+.header-container,
+.content-wrapper,
+.footer-container {
+  display: flow-root;  // Clearfix effect: expand to cover contents
+}
 .wrapper { /* don't add margin on mobile to all */ }
 $margin-content-wrapper: 3%;
 .content-wrapper { width: 94%; margin: 0 $margin-content-wrapper; }

@@ -1,10 +1,16 @@
-nav { font-family: $font-sans; }
-
 .main-navigation {
-  background: $color-background-nav-main;
   position: relative;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(min(8rem, 100%), 1fr));
+
+  font-family: $font-sans;
+  background: $color-background-nav-main;
+  font-size: 0.8rem;
+  font-size: min(1rem, max(3vmin, 0.6rem));
 }
 .sub-navigation {
+  font-family: $font-sans;
   background: $color-background-nav-sub;
   position: static;
   z-index: 200;
@@ -12,19 +18,10 @@ nav { font-family: $font-sans; }
   width: 100%;
 }
 
-#navigation ul:after {
-  clear: both;
-}
-#navigation ul:before,
-#navigation ul:after {
-  content: " ";
-  display: table;
-}
-
 #navigation ul { margin: 0; padding: 0; }
 #navigation ul li { list-style-type: none; }
 
-.menu-item { display: inline-block; }
+.menu-item { }
 .menu-item--has-submenu {}
 
 // Hide submenus by default; only display for when sibling is the "active" indicator

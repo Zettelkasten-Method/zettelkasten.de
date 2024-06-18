@@ -43,25 +43,24 @@
 </head>
 <body class="<%= @layout_variant %> <%= @item[:bodyclass] if !@item[:bodyclass].nil? %>">
   <header class="">
-    <div class="header-container clearfix">
+    <div class="header-container">
       <h1 class="header__title"><%= link_to_homepage %></h1>
     </div>
-    <nav id="navigation" class="clearfix grid-whole <%= "has-submenu" if item_has_submenu? %>">
-      <ul class="grid-whole main-navigation">
+    <nav id="navigation" class="<%= "has-submenu" if item_has_submenu? %>">
+      <ul class="main-navigation">
         <%= render_menu_items %>
       </ul>
     </nav>
   </header>
-  <div class="clearfix"><!-- for the menu on mobile --></div>
   <main>
     <div class="content-wrapper">
-      <div class="main clearfix">
+      <div class="main">
         <%= yield %>
       </div>
     </div>
   </main>
 
-  <div class="footer-container clearfix">
+  <div class="footer-container">
     <%= render '/_footer.*' %>
   </div>
 
