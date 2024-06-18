@@ -139,20 +139,6 @@ body.homepage {
       text-align: center;
       margin-block: 3% 6%;
 
-      .infochaos {
-        text-shadow:
-          rgba(0, 0, 0, 0.1) 2px 2px 0,
-          rgba(0, 0, 0, 0.1) 4px 4px 0
-      }
-
-      .chaos {
-        $dark-background: color.scale($color-background, $saturation: -30%, $lightness: -50%, $alpha: -85%);
-        text-shadow:
-          $color-background 0 -1px 2px,
-          $dark-background -0.1em -0.1em 0,
-          $dark-background 0px -0.3em 0,
-          $dark-background 0.1em -0.2em 0;
-      }
     }
 
     p, img {
