@@ -1,16 +1,26 @@
-$color-text: #333;
+$color-fg: #333;
+$color-background: #faf7f4;
+$color-accent: #4961DD;
+$color-accent2: #d07c84;
+$color-accent3: #B5CB30;
+
+$color-text: $color-fg;
 $color-med: #888;
 $color-light: #aaa;
+
 $color-link: #4961DD;
-$color-nav: #D3D3D3;
+
 $color-table-border: #D3D3D3;
-$color-separator: darken(#feede6, 5%);
-$color-background: #faf7f4;
-$color-background-header: #B5CB30;
-$color-background-footer: #B5CB30;
+$color-separator: darken($color-background, 10%);
+
+$color-background-header: $color-accent3;
+$color-background-footer: $color-accent3;
+
 $color-background-nav-main: #144659;
 $color-background-nav-sub: lighten(#144659, 5%);
-$color-aside-note: $color-background-header;
+$color-nav: #D3D3D3;
+
+$color-aside-note: $color-accent3;
 
 $font-serif: 'PT Serif', serif;
 $font-sans: 'PT Sans', sans-serif;

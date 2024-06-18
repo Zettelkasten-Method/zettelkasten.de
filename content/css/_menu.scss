@@ -52,7 +52,7 @@ nav { font-family: $font-sans; }
 
 #navigation .main-navigation .active,
 #navigation .sub-navigation .active {
-  border-color: #B5CB30;
+  border-color: $color-background-header;
 }
 // Don't highlight a main menu item itself when a sub navigation is available
 #navigation .main-navigation .menu-item--has-submenu > .active {

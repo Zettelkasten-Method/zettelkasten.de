@@ -301,8 +301,8 @@ body.homepage {
 
       border: 0;  // reset link border
       border-radius: var(--block-item-radius);
-      background: #d07c84;
-      color: white;
+      background: $color-accent2;
+      color: $color-background;
       min-height: 3lh;
 
       transition-property: transform box-shadow;
@@ -315,8 +315,7 @@ body.homepage {
 
       a {
         font-weight: bold;
-        color: white;
-        //text-decoration: underline; // inherited from default style now
+        color: $color-background;
       }
     }
   }
