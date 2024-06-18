@@ -331,10 +331,13 @@ body.homepage {
          var(--block-item-spacing);
 
     article {
-      span { font-family: "PT Mono", $font-mono; }
       h3 {
         font-size: 1rem;
         margin-bottom: 0;
+      }
+      .minimalpost__meta {
+        // font-family: "PT Mono", $font-mono;
+        color: $color-med;
       }
       p, .description {
         font-size: 0.8rem;

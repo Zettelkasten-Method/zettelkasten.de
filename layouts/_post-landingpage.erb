@@ -1,6 +1,7 @@
 <article class="allposts__post minimalpost post--minimal card">
   <header>
-  <h3 class="minimalpost__title"><%= link_to(@post[:title], @post.path) %></h3>
+    <h3 class="minimalpost__title"><%= link_to(@post[:title], @post.path) %></h3>
+    <div class="minimalpost__meta"><%= Date::MONTHNAMES[Post::date_of(@post).month].to_s + " " + Post::date_of(@post).year.to_s %></div>
   </header>
   <p class="description"><%=@post[:description]%></p>
 </article>
