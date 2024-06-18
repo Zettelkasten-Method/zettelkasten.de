@@ -193,11 +193,11 @@ body.homepage {
     }
 
     .guide {
+      flex: 1 1 3vw;  // Make both .guide instances themselves size uniformly, no matter the picture/text.
+
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
-
-      border: 0; // reset link border
 
       text-align: center;
 
