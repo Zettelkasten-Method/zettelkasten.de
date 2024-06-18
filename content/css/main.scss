@@ -138,10 +138,18 @@ body.homepage {
       text-align: center;
       margin-block: 3% 6%;
 
-      span {
+      .infochaos {
         text-shadow:
           rgba(0, 0, 0, 0.1) 2px 2px 0,
-          rgba(0, 0, 0, 0.1) 4px 4px 0;
+          rgba(0, 0, 0, 0.1) 4px 4px 0
+      }
+
+      .chaos {
+        text-shadow:
+          $color-background 0 -1px 2px,
+          rgba(0, 0, 0, 0.1) -0.1em -0.1em 0,
+          rgba(0, 0, 0, 0.1) 0px -0.3em 0,
+          rgba(0, 0, 0, 0.1) 0.1em -0.2em 0;
       }
     }
 
@@ -161,17 +169,14 @@ body.homepage {
     }
 
     p {
-      z-index: 100;
-
       font-size: 1.2rem;
       letter-spacing: -1px;
-
-      b {
-        font-family: $font-serif;
-        font-style: italic;
-        font-weight: 900;
-        letter-spacing: -1px;
-      }
+    }
+    b {
+      font-family: $font-serif;
+      font-style: italic;
+      font-weight: 900;
+      letter-spacing: -1px;
     }
   }
 
