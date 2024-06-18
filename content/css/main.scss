@@ -238,47 +238,30 @@ body.homepage {
     gap: var(--block-item-spacing);
 
     .wow {
-      --scale-factor: 0.8;
-      --translate-x: -3vw;
-      --translate-y: -3vh;
-
-      width: 100%; // effectively 80% with --scale-factor 0.8
-      rotate: -3deg;
-      transform: translate(var(--translate-x), var(--translate-y))
-                 scale(var(--scale-factor));
-
-      @media only screen and (min-width: $medium-breakpoint) {
-        --translate-y: -2vh;
-        rotate: -2deg;
-      }
+      position: absolute;
+      grid-column: row;
+      width: 80%;
+      rotate: -2deg;
+      transform: translate(-3vw, -1.2em);
       @media only screen and (min-width: $large-breakpoint) {
-        --scale-factor: 1.2;
-        --translate-y: -3vh;
         width: 17ch;
         rotate: -5deg;
       }
-      @media only screen and (min-width: 1600px) {
-        --scale-factor: 1.6;
-      }
-
-      grid-column: row;
 
       font-family: $font-serif;
+      font-size: min(2rem, max(0.8rem, 3vw));
       font-style: italic;
       font-weight: 900;
       letter-spacing: -1px;
-      position: absolute;
+      line-height: 1em;
 
-      font-size: 1.2rem;
       background: $color-background-header;
       border-radius: var(--block-item-radius);
       padding: 1vh;
       text-align: center;
-      line-height: 1em;
       box-shadow: rgba(0, 0, 0, 0.2) 0.1rem 0.1rem 0.1rem,
                   rgba(0, 0, 0, 0.1) 0.3rem 0.2rem 0.5rem;
       z-index: 1337;
-
     }
 
     .description {
