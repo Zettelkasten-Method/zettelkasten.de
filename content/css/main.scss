@@ -151,11 +151,11 @@ body.homepage {
 
     img {
       mix-blend-mode: multiply;
-      opacity: .4;
+      opacity: 0.4;
       max-width: 80%;
       align-self: center;
       @media only screen and (min-width: $large-breakpoint) {
-        max-width: 60%;
+        max-width: 45%;
         max-height: 60%;
       }
     }
