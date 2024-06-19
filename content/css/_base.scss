@@ -70,6 +70,30 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+
+button,
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; /* 3 */
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+
 /******************************************************************************/
 
 html {
@@ -408,9 +432,16 @@ h2.post__title { font-size: 1.4rem; margin-bottom: 0; line-height: $vrhythm; }
   font-size: 0.8em;
 }
 
+
+/** Tables */
 // Should look good on e.g.
 // - https://zettelkasten.de/folgezettel/
 // - https://zettelkasten.de/posts/barbell-method-reading/
+
+// Remove most spacing between table cells.
+table { border-collapse: collapse; border-spacing: 0; }
+td, th { padding: 0; }
+
 article table {
   font-family: $font-sans;
   font-size: $small-size;
