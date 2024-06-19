@@ -21,7 +21,13 @@
 #navigation ul { margin: 0; padding: 0; }
 #navigation ul li { list-style-type: none; }
 
-.menu-item { }
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+}
 .menu-item--has-submenu {}
 
 // Hide submenus by default; only display for when sibling is the "active" indicator
@@ -103,9 +109,7 @@
     margin-right: 0;
   }
 
-  #navigation ul li {
-    display: inline;
-  }
+  #navigation ul li { }
 }
 
 @media only screen and (min-width: $large-breakpoint) {
