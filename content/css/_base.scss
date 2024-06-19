@@ -181,34 +181,41 @@ textarea {
   align-items: center;
   justify-content: center;
 
+  font-size: 160%;
+  @media only screen and (min-width: $medium-breakpoint) {
+    font-size: 2.2rem;
+  }
+
   background-color: $color-background-header;
   background-image: url('/img/header.png');
   background-repeat: repeat-x;
   background-position: 0 50%;
+  background-size: auto 0.3em;
   box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.2rem 0.5rem;
 }
 
 .header__title {
+  $letter-spacing: 0.2em;
   $color: white;
   color: $color;
 
-  font-size: 160%;
+  font-size: 1em; // use header-container size (so it can size the background based on font-size)
   font-weight: 700;
   font-family: 'PT Sans Narrow', 'PT Sans', sans-serif;
   text-shadow: 0 2px 0 rgba(0,0,0,0.4);
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: $letter-spacing;
   text-align: center;
   line-height: 1.0;
   background-color: $color-background-header;
   margin: 0;
+  padding-inline: clamp(0.2em, 5vw, 0.5em)
+                  calc(clamp(0.2em, 5vw, 0.5em) - $letter-spacing);  // letter-spacing adds to the right-hand side
+  margin-block: calc($vrhythm / 2);
 
   @media only screen and (min-width: $medium-breakpoint) {
-    font-size: 2.2rem;
     width: 9em; // fallback
     width: fit-content;
-    padding-inline: 0.5em;
-    margin-block: calc($vrhythm / 2);
   }
 
   a.header__link, a.header__link:visited, a.header__link:hover {
