@@ -353,8 +353,6 @@ blockquote {
 h1.post__title, .page__title { margin-bottom: 0; line-height: 2 * $vrhythm; }
 h2.post__title { font-size: 1.4rem; margin-bottom: 0; line-height: $vrhythm; }
 
-article form.search { margin: $vrhythm 0; }
-
 // (Clickable) Post titles
 #posts .post__title {
   font-family: $font-sans;
@@ -619,20 +617,27 @@ aside.note {
 
 /** Search box */
 
+.search__form {
+  display: flex;
+  flex-direction: row;
+  gap: clamp(0.2rem, 5vw, 1rem);
+}
 .search__text, .search__action {
-  // actual width is controlled by grid containers
-  width: 100%;
-  box-sizing: border-box;
   height: 2em;
 }
+.search__text {
+  flex: 2 1 20em;
+}
 .search__action {
+  flex: 1 1 5em;
   background: transparent;
   border-width: 2px;
   border-style: solid;
   border-radius: 2px;
 }
 
-.main {
+main {
+  article .search__form { margin: $vrhythm 0; }
   .search__action {
     background: transparent;
     border-color: $color-link;
@@ -646,11 +651,6 @@ aside.note {
 }
 
 #footer {
-  .footer-search {
-    margin-bottom: 1lh;
-    overflow: hidden; // create new floating environment; can be removed when we ditch the old grid.css
-  }
-
   .search__action {
     background: transparent;
     border-color: white;
