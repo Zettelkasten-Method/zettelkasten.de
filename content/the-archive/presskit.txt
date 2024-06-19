@@ -113,13 +113,13 @@ Programming: Christian Tietze
         <a href="/the-archive/presskit/pretty-functional-mixed-nochrome.png"><img src="/the-archive/presskit/pretty-functional-mixed-nochrome.png" class="pk-screenshot" /></a>
     </div>
     <div class="pk-item">
+        <a href="/the-archive/presskit/no-chrome-prettyfunctional-small.png"><img src="/the-archive/presskit/no-chrome-prettyfunctional-small.png" class="pk-screenshot" /></a>
+    </div>
+    <div class="pk-item">
         <a href="/the-archive/presskit/solarized-dark.png"><img src="/the-archive/presskit/solarized-dark.png" class="pk-screenshot" /></a>
     </div>
     <div class="pk-item">
         <a href="/the-archive/presskit/solarized-light.png"><img src="/the-archive/presskit/solarized-light.png" class="pk-screenshot" /></a>
-    </div>
-    <div class="pk-item">
-        <a href="/the-archive/presskit/no-chrome-prettyfunctional-small.png"><img src="/the-archive/presskit/no-chrome-prettyfunctional-small.png" class="pk-screenshot" /></a>
     </div>
     <div class="pk-item">
         <a href="/the-archive/presskit/fullscreen-prettyfunctional-big.png"><img src="/the-archive/presskit/fullscreen-prettyfunctional-big.png" class="pk-screenshot" /></a>
@@ -130,7 +130,9 @@ Programming: Christian Tietze
     <div class="pk-item">
         <a href="/the-archive/presskit/light-and-dark.png"><img src="/the-archive/presskit/light-and-dark.png" class="pk-screenshot" /></a>
     </div>
-
+    <div class="pk-item">
+        <a href="/the-archive/img/image-embed.png"><img src="/the-archive/img/image-embed.png" class="pk-screenshot" /></a>
+    </div>
 </div>
 
 ### Application Icon

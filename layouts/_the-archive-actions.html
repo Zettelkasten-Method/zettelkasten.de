@@ -1,25 +1,15 @@
-<%
-if @position == 'below-features' || @position == 'below-community'
-  buy_grid      = "buy--below-features"
-  download_grid = "download--below-features"
-  app_info_grid = "hidden"
-elsif @position == 'roadmap'
-  buy_grid      = "buy--roadmap"
-  download_grid = "download--roadmap"
-  app_info_grid = "app-info--roadmap"
-end
-%>
+<% @position ||= 'generic' %>
 
 <ul class="actions">
-  <li class="action__item action__item--button buy <%=buy_grid%>">
-    <a class="action action--buy" href="https://zettelkasten.onfastspring.com/the-archive?source=zettelkasten&campaign=position-<%= @position ? @position : 'unknown' %>" data-fsc-action="Reset,Add,Checkout" data-fsc-item-path-value="the-archive"><%= @buy ? @buy : 'Buy Now' %></a>
+  <li class="action__item action__item--button buy <%=@position%>">
+    <a class="action action--buy" href="https://zettelkasten.onfastspring.com/the-archive?source=zettelkasten&campaign=position-<%=@position%>" data-fsc-action="Reset,Add,Checkout" data-fsc-item-path-value="the-archive"><%= @buy ? @buy : 'Buy Now' %></a>
   </li>
 
-  <li class="action__item action__item--button download <%=download_grid%>">
+  <li class="action__item action__item--button download <%=@position%>">
     <a href="/the-archive/download" class="action action--download">Download</a>
   </li>
 
-  <li class="action__item action__item--info app-info <%=app_info_grid%>">
+  <li class="action__item action__item--info <%=@position%>">
     <p class="appinfo <%= "appinfo--left" unless @bottom == true %>">60 Day Free Trial<br>Requires at least macOS 10.13 High Sierra and is ready for macOS 14 Sonoma. <button class="sha-button">Checksum</button></p>
   </li>
 </ul>
