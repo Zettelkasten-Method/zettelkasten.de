@@ -1,5 +1,4 @@
 <% render '/default.*' do %>
-<div class="grid-whole">
   <article class="plain page <%= Page::page_class_for(@item)%> ">
     <h1 class="title page__title"><%= @item[:title] %></h1>
 
@@ -24,5 +23,4 @@
     <%= render '/_comments.*' %>
   </aside>
   <% end %>
-</div>
 <% end %>
