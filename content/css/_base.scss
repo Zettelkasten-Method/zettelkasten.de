@@ -1,8 +1,89 @@
+/****************************************************************************/
+/*           https://piccalil.li/blog/a-more-modern-css-reset/              */
+/*                                                                          */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  // list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: $vrhythm;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/******************************************************************************/
+
 html {
   color: $color-text;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  font-size: $base-size;
+  @media only screen and (min-width: $medium-breakpoint) {
+    font-size: $large-base-size;
+  }
 }
+
+body {
+  font-family: $font-base;
+}
+
 
 button,
 input,
@@ -91,23 +172,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
-html {
-  font-size: $base-size;
-  @media only screen and (min-width: $medium-breakpoint) {
-    font-size: $large-base-size;
-  }
-}
-
-body {
-  font-family: $font-base;
-  line-height: 1.6rem;
-}
-
 .announcement, label, input {
   font-family: $font-sans;
 }
@@ -123,9 +187,11 @@ body {
   background-position: 0 50%;
   box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.2rem 0.5rem;
 }
+
 .header__title {
   $color: white;
   color: $color;
+
   font-size: 160%;
   font-weight: 700;
   font-family: 'PT Sans Narrow', 'PT Sans', sans-serif;
@@ -147,7 +213,6 @@ body {
 
   a.header__link, a.header__link:visited, a.header__link:hover {
     text-decoration: none;
-    border-bottom-color: transparent;
     color: $color;
   }
 }
@@ -157,6 +222,7 @@ body {
 .footer-container {
   display: flow-root;  // Clearfix effect: expand to cover contents
 }
+
 .wrapper { /* don't add margin on mobile to all */ }
 $margin-content-wrapper: 3%;
 .content-wrapper { width: 94%; margin: 0 $margin-content-wrapper; }
@@ -210,16 +276,17 @@ h1, h3, h5, h6 { font-family: $font-sans; }
 
 a {
   color: $color-link;
-  text-decoration: none;
-  border-bottom: 1px solid $color-link;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+  text-underline-offset: 0.1em;
 }
 figure > a,
 a.image-link {
-  border-bottom-color: transparent;
+  text-decoration: none;
 }
 a:hover {
   color: $color-link;
-  border-bottom-color: transparent;
+  text-decoration: none;
 }
 figure {
   margin-left: -$margin-content-wrapper;
@@ -230,7 +297,7 @@ figure {
   }
 }
 figure a, figure a:hover {
-  border-bottom-color: transparent;
+  text-decoration: none;
 }
 pre {
   overflow: auto;
@@ -291,10 +358,9 @@ article form.search { margin: $vrhythm 0; }
 // (Clickable) Post titles
 #posts .post__title {
   font-family: $font-sans;
-  a {
-    color: $color-text;
-    border-bottom-color: transparent;
-    &:hover { border-bottom-color: $color-text; }
+  a, a:hover, a:visited, a:link {
+    color: currentColor;
+    text-decoration: none;
   }
 }
 
@@ -359,7 +425,7 @@ article table {
 .tool dd, .tool dt { margin-left: 0; }
 .tool h3 { font-size: inherit; margin-bottom: 0; }
 .tool ul { margin-top: 0; }
-.tool-link { color: $color-text; border-bottom-color: transparent; }
+.tool-link { color: currentColor; text-decoration: none; }
 .tool-icon { max-width: 14em; }
 .tool-icon figure { margin: 0; }
 .tool-icon__image { width: 80%; }
@@ -619,10 +685,6 @@ img.author-profile-picture {
     margin-bottom: 0.1em;
   }
 }
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
 
 @media only screen and (min-width: $medium-breakpoint) {
   .tool {

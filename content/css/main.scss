@@ -76,13 +76,6 @@ body.homepage {
     box-shadow: rgba(0, 0, 0, 0.4) 0rem 0.1rem 0.5rem;
   }
 
-  a { border: 0px none; }
-  a {
-    text-decoration: underline;
-    text-underline-offset: 0.1em;
-    &:hover { text-decoration: none; }
-  }
-
   p {
     margin-block: 0 1lh;
     --leading-correction: -0.2em;
