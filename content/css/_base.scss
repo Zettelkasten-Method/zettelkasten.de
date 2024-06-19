@@ -52,12 +52,11 @@ body {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: $color-selection;
     text-shadow: none;
 }
-
 ::selection {
-    background: #b3d4fc;
+    background: $color-selection;
     text-shadow: none;
 }
 
