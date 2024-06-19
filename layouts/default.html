@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= item_lang %>">
+<html class="<%= @layout_variant %> <%= @item[:bodyclass] if !@item[:bodyclass].nil? %>" lang="<%= item_lang %>">
 <head>
   <meta charset="UTF-8" />
   <title><%= full_page_title %></title>
@@ -40,7 +40,7 @@
 
   <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
-<body class="<%= @layout_variant %> <%= @item[:bodyclass] if !@item[:bodyclass].nil? %>">
+<body>
   <header>
     <div class="header-container">
       <h1 class="header__title"><%= link_to_homepage %></h1>

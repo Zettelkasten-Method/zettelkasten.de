@@ -24,7 +24,17 @@
   --block-item-spacing: calc(var(--block-radius) / 2);
 }
 
-body.homepage {
+html.homepage {
+  font-size: $base-size;
+  @media only screen and (min-width: $medium-breakpoint) {
+    font-size: $base-size; // keep smaller font for longer on landing page
+  }
+  @media only screen and (min-width: $modern-breakpoint) {
+    font-size: $large-base-size;
+  }
+}
+
+.homepage body {
   $medium-breakpoint: 40em;
 
   background-color: $color-background-nav-main;
