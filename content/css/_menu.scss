@@ -80,15 +80,6 @@
 }
 
 .main-navigation {
-  .iconic::before {
-    --scale: 0.8;
-    transform: scale(var(--scale));
-
-    @media only screen and (min-width: $large-breakpoint) {
-      --scale: 1.0;
-    }
-
-  }
   .iconic .iconic-property-fill {
     stroke: $color-nav;
     fill: $color-nav;
