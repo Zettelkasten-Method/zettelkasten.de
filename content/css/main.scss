@@ -153,18 +153,24 @@ body.homepage {
 
     img {
       mix-blend-mode: multiply;
+      object-fit: contain;
       opacity: 0.4;
-      max-width: 80%;
       align-self: center;
-      @media only screen and (min-width: $large-breakpoint) {
-        max-width: 45%;
-        max-height: 60%;
-      }
+      max-width: 80%;
+      max-height: 6lh;
     }
 
     p {
-      font-size: 1.2rem;
       letter-spacing: -1px;
+      font-size: 1.2rem;
+      font-size: max(1rem, 5vw);
+      // Medium size: two column grid, but still not a lot of space
+      @media only screen and (min-width: $medium-breakpoint) {
+        font-size: max(1rem, 2.5vw);
+      }
+      @media only screen and (min-width: $large-breakpoint) {
+        font-size: max(1rem, min(2.5vw, 1.4rem));
+      }
     }
     b {
       font-family: $font-serif;
