@@ -62,12 +62,23 @@
   border-color: transparent;
 }
 
-
 #navigation a {
   color: $color-nav;
   font-weight: normal;
   text-decoration: none;
+
+  &:hover {
+    $color: white;
+    color: $color;
+    text-decoration: none;
+    background: rgba(255,255,255,0.2);
+
+    .nav__icon .iconic-property-fill {
+      fill: $color;
+    }
+  }
 }
+
 .main-navigation {
   .iconic::before {
     --scale: 0.8;
@@ -88,31 +99,13 @@
   }
 }
 
-#navigation a:hover {
-  $color: white;
-  color: $color;
-  border-bottom-color: transparent;
-  background: rgba(255,255,255,0.2);
-
-  .nav__icon .iconic-property-fill {
-    fill: $color;
-  }
-}
-
 @media only screen and (min-width: $medium-breakpoint) {
   #navigation a,
   #navigation .active {
-    padding: 0.5em 0;
+    --vpadding: 0.5em;
+    padding: var(--vpadding) 0;
     margin-bottom: 0;
     border-width: 4px; // 4 sided outline
-  }
-
-  #navigation li:first-child a {
-    margin-left: 0;
-  }
-
-  #navigation li:last-child a {
-    margin-right: 0;
   }
 
   #navigation ul li { }
@@ -121,8 +114,10 @@
 @media only screen and (min-width: $large-breakpoint) {
   #navigation a,
   #navigation .active {
-    padding-bottom: 0.3em;
-    border-width: 0 0 8px 0; // Display active border on bottom on larger screens
+    --vpadding: 0.5em;
+    --underline: 8px;
+    padding-bottom: calc(var(--vpadding) - var(--underline));
+    border-width: 0 0 var(--underline) 0; // Display active border on bottom on larger screens
   }
 
   #navigation.has-submenu {
