@@ -7,7 +7,7 @@
   font-family: $font-sans;
   background: $color-background-nav-main;
   font-size: 0.8rem;
-  font-size: min(1rem, max(3vmin, 0.6rem));
+  font-size: clamp(0.6rem, 3vmin, 1rem);
 }
 .sub-navigation {
   font-family: $font-sans;

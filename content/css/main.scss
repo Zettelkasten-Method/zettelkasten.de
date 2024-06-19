@@ -143,7 +143,7 @@ body.homepage {
         font-size: max(1rem, 5vw);
       }
       @media only screen and (min-width: $large-breakpoint) {
-        font-size: max(1.5rem, min(5vw, 3rem));
+        font-size: clamp(1.5rem, 5vw, 3rem);
       }
     }
 
@@ -169,7 +169,7 @@ body.homepage {
         font-size: max(1rem, 2.5vw);
       }
       @media only screen and (min-width: $large-breakpoint) {
-        font-size: max(1rem, min(2.5vw, 1.4rem));
+        font-size: clamp(1rem, 2.5vw, 1.4rem);
       }
     }
     b {
@@ -261,7 +261,8 @@ body.homepage {
       }
 
       font-family: $font-serif;
-      font-size: min(2rem, max(0.8rem, 3vw));
+      font-size: 1.5rem;
+      font-size: clamp(0.8rem, 3vw, 2rem);
       font-style: italic;
       font-weight: 900;
       letter-spacing: -1px;
