@@ -59,13 +59,15 @@ body.homepage {
     display: grid;
     grid-template-columns: [row-start row-mid] 2fr [row-end];
     grid-template-rows: [l1] auto [l2] auto [l3] auto [l4] auto;
-    gap: 4vh 0;
+    gap: 4vh 0; // On mobile, add prominent vertical breathing room. On wider screens, keep spacing proportional to the block radii.
     @media only screen and (min-width: $medium-breakpoint) {
       grid-template-columns: [row-start] 2fr [row-mid] 2fr [row-end];
       grid-template-rows: [l1 l2] auto [l3] auto [l4] auto;
-      // On mobile, add prominent vertical breathing room. On wider screens, keep spacing proportional to the block radii.
       gap: calc(2 * var(--block-spacing))
            var(--block-spacing);
+    }
+    @media only screen and (min-width: $large-breakpoint) {
+      gap: var(--block-spacing);
     }
     justify-items: stretch;
   }
