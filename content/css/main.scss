@@ -341,7 +341,7 @@ body.homepage {
 }
 
 #footer {
-  padding: 4vh;
+  padding: var(--block-padding);
 
   .wrapper {
     display: grid;
