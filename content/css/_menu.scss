@@ -68,18 +68,24 @@
   font-weight: normal;
   text-decoration: none;
 }
-.nav__icon { padding-right: 0.3em; }
-.nav__icon .iconic-property-fill {
-  stroke: $color-nav;
-  fill: $color-nav;
-}
-.nav__icon .iconic-property-accent,
-.nav__icon .iconic-property-stroke {
-  stroke: $color-nav;
-}
-.nav__icon--products {
-  .iconic-property-fill { fill: darken($color-nav, 15%); }
-  .iconic-property-stroke { stroke: $color-nav; }
+.main-navigation {
+  .iconic::before {
+    --scale: 0.8;
+    transform: scale(var(--scale));
+
+    @media only screen and (min-width: $large-breakpoint) {
+      --scale: 1.0;
+    }
+
+  }
+  .iconic .iconic-property-fill {
+    stroke: $color-nav;
+    fill: $color-nav;
+  }
+  .iconic .iconic-property-accent,
+  .iconic .iconic-property-stroke {
+    stroke: $color-nav;
+  }
 }
 
 #navigation a:hover {
