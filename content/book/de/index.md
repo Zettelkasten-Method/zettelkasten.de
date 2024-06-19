@@ -6,6 +6,20 @@ title: Die Zettelkastenmethode, das Buch
 
 ---
 
+<style type="text/css">
+<!--
+.book_cover { max-width: 60%; }
+@media only screen and (min-width: 480px /*$medium-breakpoint*/) {
+  .book_cover {
+    float: left;
+    max-width: 30%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+  }
+}
+-->
+</style>
+
 <a href="http://www.amazon.de/gp/product/1517734312/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=1517734312&linkCode=as2&tag=saschafastde-21">
     <img src="/img/zettelkasten-book-de.jpg" alt="Zettelkastenmethode Cover" class="book_cover" />
 </a>

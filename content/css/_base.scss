@@ -617,10 +617,6 @@ aside.note {
   border: 0.2em solid $color-aside-note;
 }
 
-.book_cover {
-  max-width: 60%;
-}
-
 /** Search box */
 
 .search__text, .search__action {
@@ -718,13 +714,6 @@ img.author-profile-picture {
 
   .textexpander__image {
     max-width: 8em;
-  }
-
-  .book_cover {
-    float: left;
-    max-width: 30%;
-    margin-right: 1em;
-    margin-bottom: 1em;
   }
 
   h2 { clear: both; }
