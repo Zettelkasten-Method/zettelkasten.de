@@ -112,18 +112,38 @@ body {
   font-family: $font-sans;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $color-background-header;
+  background-image: url('/img/header.png');
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.2rem 0.5rem;
+}
 .header__title {
   $color: white;
   color: $color;
   font-size: 160%;
   font-weight: 700;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans Narrow', 'PT Sans', sans-serif;
   text-shadow: 0 2px 0 rgba(0,0,0,0.4);
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  background-color: $color-background-header;
   text-align: center;
-  margin-bottom: 0; // Preserve space in mobile vertical nav
+  line-height: 1.0;
+  background-color: $color-background-header;
+  margin: 0;
+
+  @media only screen and (min-width: $medium-breakpoint) {
+    font-size: 2.2rem;
+    width: 9em; // fallback
+    width: fit-content;
+    padding-inline: 0.5em;
+    margin-block: calc($vrhythm / 2);
+  }
 
   a.header__link, a.header__link:visited, a.header__link:hover {
     text-decoration: none;
@@ -133,14 +153,6 @@ body {
 }
 
 
-.header-container {
-  background-color: $color-background-header;
-  background-image: url('/img/header.png');
-  background-repeat: repeat-x;
-  background-position: 0 50%;
-}
-
-.header-container,
 .content-wrapper,
 .footer-container {
   display: flow-root;  // Clearfix effect: expand to cover contents
@@ -617,26 +629,10 @@ img.author-profile-picture {
     font-size: $small-size;
   }
 
-  .header__title {
-    font-size: 2.2rem;
-    line-height: 1.0;
-    width: 8em;
-    padding-left:  0.4em;
-    padding-right: 0.2em; /* right: 0.4em - letter-spacing */
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: $vrhythm;
-  }
-
   .tool-icon { max-width: 100%; }
 
   .oldie nav a {
       margin: 0 0.7%;
-  }
-
-  .header__title {
-    margin-top: $vrhythm;
-    margin-bottom: $vrhythm;
   }
 
   .post-figure__image {
