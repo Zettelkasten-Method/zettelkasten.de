@@ -204,11 +204,8 @@ body.homepage {
           width: 100%;
           height: auto;
           object-fit: cover;
-          aspect-ratio: 1 / 1;
-
-          @media only screen and (min-width: $large-breakpoint) {
-            aspect-ratio: 5 / 3;
-          }
+          object-position: center;
+          aspect-ratio: 10 / 9;
         }
       }
       .more {
