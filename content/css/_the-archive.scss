@@ -1,11 +1,3 @@
-// Index page
-.thearchive-launch { margin-top: -2em; }
-a.thearchive-launch__link:hover { text-decoration: none; }
-.thearchive-launch__image { width: 106%; margin-left: -3%; margin-right: -3%; }
-@media only screen and (min-width: 900px) {
-  .thearchive-launch__image { width: 130%; margin-left: -15%; margin-right: -15%; }
-}
-
 // Archive Content Pages
 .the-archive {
   .hero img { max-width: 100%; }
