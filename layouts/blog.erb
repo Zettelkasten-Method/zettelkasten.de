@@ -40,6 +40,7 @@
     <% if Post::comments_allowed_for(@item) %>
       <% if item_lang(@item) == :en %>
         <aside id="comments">
+          <h2 id="_comments" class="visuallyhidden">Comments</h2>
           <%= render '/_comments.*' %>
           <%= render '/_comments-disqus.*' %>
         </aside>
