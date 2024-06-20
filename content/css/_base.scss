@@ -257,7 +257,6 @@ textarea {
   display: flow-root;  // Clearfix effect: expand to cover contents
 }
 
-.wrapper { /* don't add margin on mobile to all */ }
 $margin-content-wrapper: 3%;
 .content-wrapper { width: 94%; margin: 0 $margin-content-wrapper; }
 
@@ -761,7 +760,7 @@ img.author-profile-picture {
 }
 
 @media only screen and (min-width: $large-breakpoint) {
-  .wrapper, .content-wrapper { max-width: 36rem; margin: 0 auto; }
+  .content-wrapper { max-width: 36rem; margin: 0 auto; }
 }
 
 @media only screen and (min-width: 1200px) {
