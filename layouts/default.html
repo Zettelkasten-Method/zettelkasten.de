@@ -40,7 +40,7 @@
 
   <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
-<body>
+<body class="<%= "has-toc" if item_has_toc? %>">
   <header>
     <div class="header-container">
       <h1 class="header__title"><%= link_to_homepage %></h1>
@@ -52,6 +52,9 @@
     </nav>
   </header>
   <div class="content-container">
+    <aside id="sidebar">
+      <%= render '/_sidebar.*' %>
+    </aside>
     <main id="content" class="main">
       <%= yield %>
     </main>

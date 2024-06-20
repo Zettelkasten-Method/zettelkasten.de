@@ -2,6 +2,7 @@
 title: Blog Post Archive
 lang: en
 canonical: "/posts/"
+toc: true
 ---
 
 <%= render '/_search_box.*' %>

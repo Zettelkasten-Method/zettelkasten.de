@@ -4,7 +4,7 @@
 
 <% render '/default.*' do %>
 <section id="posts">
-    <article class="post post--single">
+    <article class="post post--single content">
         <header>
             <h1 class="post__title title"><%= @item[:title] %></h1>
 
@@ -21,10 +21,6 @@
               <%= render '/_language-switch.*' %>
             <% end %>
         </header>
-
-        <% if @item[:toc] && @item[:toc] != 'manual' %>
-        {{TOC}}
-        <% end %>
 
         <%= yield %>
 

@@ -2,6 +2,7 @@
 title: Zettelkasten Method Coaching
 updated_at: 2022-04-28 16:51:02 +0100
 bodyclass: coaching
+toc: true
 ---
 
 Do you need help or just want to take the next step in note-taking, creating thinking tools and creative knowledge work in general? I am there for you and happy to equip you with powerful tools for your journey.

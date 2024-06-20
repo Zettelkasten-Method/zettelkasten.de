@@ -5,7 +5,7 @@ class NokogiriTOC
   end
 
   def self.run(html, options = {})
-    options[:content_selector] ||= "main"
+    options[:content_selector] ||= "#content"
 
     doc = Nokogiri::HTML(html)
     toc_data = []
@@ -16,6 +16,8 @@ class NokogiriTOC
     current_heading = nil
 
     doc.xpath(selector).each do |node|
+      next if node['id'].nil?
+
       current_heading = node.name
       next if node['class']&.include? "skip-toc"
       @level[node.name] += 1
@@ -23,7 +25,11 @@ class NokogiriTOC
       @level["h3"] = 0 if node.name == "h2"
       @level["h4"] = 0 if node.name == "h2" || node.name == "h3"
 
-      data = {:title => node.content, :link => '#' + node['id'], :children => []}
+      data = {
+        :title => node.content,
+        :link => '#' + node['id'],
+        :children => []
+      }
 
       parent = case node.name
                  when "h2" then toc_data
@@ -54,7 +60,6 @@ end
 
 module NanocSite
   class AddTOCFilter < Nanoc::Filter
-
     identifier :add_toc
 
     def run(content, params={})
@@ -62,12 +67,7 @@ module NanocSite
         toc = NokogiriTOC.run(content)
 
         "".tap do |html|
-          html << '<div id="toc-wrapper">'
-          html << '<details class="toc" open="open">'
-          html << '<summary>Table of Contents</summary>'
           html << toc
-          html << '</details>'
-          html << '</div>'
         end
       end
     end

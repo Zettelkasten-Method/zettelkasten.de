@@ -3,8 +3,6 @@ title: Getting Started
 updated_at: 2023-04-04 09:34:27 +0100
 toc: true
 ---
-{{toc}}
-
 ## The Introduction to the Zettelkasten Method
 
 Are you new to the Method?

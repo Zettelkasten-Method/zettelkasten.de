@@ -7,7 +7,7 @@ translators:
   website: https://www.zhihu.com/people/cai-zhi-xiang
 tags: [ introduction, beginning ]
 description: "(Chinese Translation) Learn how the Zettelkasten works as a system, what a Zettel is made of, and how to grow an organic web of knowledge."
-toc: manual
+toc: true
 layout: blog
 comments: off
 lang: zh
@@ -31,8 +31,6 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 - **连接**：英文 Link/Connect，动词，指将一条笔记与另一条笔记连接起来的动作/操作
 
 **以下为文章正文**。
-
-{{TOC}}
 
 ---
 

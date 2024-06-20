@@ -578,6 +578,7 @@ article table {
 .teaser__image { }
 
 // ToC (Table of Contents) summaries
+#toc,
 details, summary { font-family: $font-sans; }
 
 .footnote-button {
@@ -728,6 +729,15 @@ img.author-profile-picture {
   }
 }
 
+.post-figure__image {
+  background: #fff;
+}
+.post-figure--borderless .post-figure__image {
+  border-color: transparent;
+  padding: 0;
+  background: transparent;
+}
+
 @media only screen and (min-width: $medium-breakpoint) {
   .tool {
     font-size: $small-size;
@@ -742,12 +752,6 @@ img.author-profile-picture {
   .post-figure__image {
     border: 1px solid #d4d4d4;
     padding: 0.25em;
-    background: #fff;
-  }
-  .post-figure--borderless .post-figure__image {
-    border-color: transparent;
-    padding: 0;
-    background: transparent;
   }
 
   .post-teaser {
@@ -765,8 +769,56 @@ img.author-profile-picture {
   h2 { clear: both; }
 }
 
+#sidebar { margin: 0; }
+#toc { display: none; } // No ToC on mobile
+#toc {
+  font-size: $small-size;
+  ol { list-style: none; padding: 0; }
+  ol > li { margin: 0; }
+  li > ol { margin-left: 1rem; }
+}
+
 @media only screen and (min-width: $large-breakpoint) {
-  .content-container { max-width: 36rem; margin: 0 auto; }
+  .content-container {
+    display: grid;
+    grid-template-columns: [content-start sidebar-start] repeat(4, minmax(min(7rem, 20vw), 1fr)) [sidebar-end content-end];
+    grid-column-gap: clamp(0.5rem, 3vw, 2rem);
+    margin-inline: auto;
+    padding-inline: var(--block-padding, 0.5rem);
+    max-width: 38rem;
+  }
+
+  .has-toc .content-container {
+    grid-template-columns: [content-start] repeat(4, minmax(min(7rem, 15vw), 1fr)) [content-end sidebar-start] repeat(2, minmax(min(5rem, 8vw), 1fr)) [sidebar-end];
+    max-width: var(--content-width);
+  }
+
+  #content {
+    grid-area: content;
+  }
+  #sidebar {
+    grid-area: sidebar;
+    padding-top: calc(2 * $vrhythm);
+    // nav { height: calc(100vh - 3 * $vrhythm); }
+  }
+
+  // Stole sidebar settings from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
+  #toc {
+    --offset: 0;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    height: calc(100vh - var(--offset));
+    top: 0;
+
+    a, a:link, a:hover, a:visited {
+      display: block;
+      color: currentColor;
+    }
+
+    // Extend the sidebar height
+    .toc-buffer { min-height: 25vh; }
+  }
 }
 
 @media only screen and (min-width: 1200px) {

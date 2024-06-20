@@ -257,8 +257,7 @@
   margin-block: $vrhythm;
 
   @media only screen and (min-width: $large-breakpoint) {
-    margin-inline: -8vw;
-    grid-template-columns: repeat(auto-fill, minmax(min(20rem, 45vw), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(20rem, 32vw), 1fr));
   }
 }
 .pk-screenshot {}

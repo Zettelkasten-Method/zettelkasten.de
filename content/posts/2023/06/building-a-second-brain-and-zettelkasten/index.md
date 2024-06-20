@@ -9,12 +9,10 @@ rel_image: walnut.jpg
 vgwort: https://vg01.met.vgwort.de/na/260ed44cdf2941e991c1bdb7bb8fa56f
 description: "Learn what “Building a Second Brain” is, how it relates to the Zettelkasten Method, and how to perfectly combine both methods."
 excerpt: "This article is structured in two parts. First, I summarize the <i>Building a Second Brain</i> (BASB) method by Tiago Forte. Then, I will compare it to the Zettelkasten Method (ZKM). I will first discuss the differences, because they can help to understand BASB and the ZKM more deeply. Then I will explain how to reconcile BASB and the ZKM. Spoiler: they can be combined perfectly. I have made some changes in my own way of working. I will include these as examples at the end."
-toc: manual
+toc: true
 lang: en
 canonical: "/posts/building-a-second-brain-and-zettelkasten/"
 ---
-
-{{TOC}}
 
 <h3 class="skip-toc">How to read this article</h3>
 

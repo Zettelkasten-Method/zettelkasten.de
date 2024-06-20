@@ -2,15 +2,13 @@
 title: The Archive Press Kit and Backstage Details
 description: The Archive is a macOS note-taking app for prolific writers and productive researchers.
 layout: the-archive
-toc: manual
+toc: true
 updated_at: 2024-06-18 15:17:03 +0100
 ---
 
 # The Archive: Press Kit
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
-
-{{TOC}}
 
 ## Description
 
