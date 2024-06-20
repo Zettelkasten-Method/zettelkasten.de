@@ -1,5 +1,11 @@
-<li class="allposts__post minimalpost post--minimal">
-  <span class="minimalpost__title"><%= link_to(@post[:title], @post.path) %></span>
-  <span class="minimalpost__author <%= 'hidden' unless @show_author == true %>"><%= Post::author_tag_for(@post) %></span>
-  <span class="minimalpost__time">(<%= Date::MONTHNAMES[month] %>)</span>
-</li>
+<article class="allposts__post minimalpost post--minimal card">
+  <header>
+    <h3 class="minimalpost__title"><%= Post::post_title_link_for(@post) %></h3>
+    <div class="minimalpost__meta">
+      <%= Date::MONTHNAMES[Post::date_of(@post).month].to_s + " " + Post::date_of(@post).year.to_s %>
+      by <span class="minimalpost__author <%= 'hidden' unless @show_author == true %>"><%= Post::author_name_for(@post) %></span>
+    </div>
+  </header>
+  <%= Post::teaser_for(@post, class: "teaser") %>
+  <p class="description"><%= Post::description_for(@post) %></p>
+</article>

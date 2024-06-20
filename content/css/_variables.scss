@@ -10,7 +10,7 @@ $color-text: $color-fg;
 $color-med: #888;
 $color-light: #aaa;
 
-$color-link: #4961DD;
+$color-link: $color-accent;
 $color-selection: #b3d4fc;
 
 $color-table-border: #D3D3D3;
@@ -23,7 +23,7 @@ $color-background-nav-main: #144659;
 $color-background-nav-sub: lighten(#144659, 5%);
 $color-nav: #D3D3D3;
 
-$color-background-dark: color.scale($color-background, $lightness: -8%, $saturation: -16%);
+$color-background-dark: color.scale($color-background, $lightness: -5%, $saturation: -10%);
 
 $color-aside-note: $color-accent3;
 

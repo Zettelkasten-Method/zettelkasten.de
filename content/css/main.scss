@@ -1,3 +1,4 @@
+@use 'sass:color';
 @import "_variables.scss";
 @import "_base.scss";
 @import "_print.scss";
@@ -23,14 +24,30 @@
   --block-item-spacing: calc(var(--block-radius) / 2);
 }
 
+.landingpage__problem,
+.landingpage__guide,
+.landingpage__product,
+.landingpage__blog, .posts_group {
+  padding: var(--block-padding);
+  border-radius: var(--block-radius);
+
+  overflow: hidden;
+  background: $color-background;
+}
+
+.landingpage__product,
+.landingpage__blog, #posts, .posts_group {
+  // Halve the inner spacing to make the product boxes round
+  --block-padding: calc(var(--block-radius) / 2);
+  --block-item-radius: calc(var(--block-radius) - var(--block-padding));
+}
+
 html.homepage {
   font-size: $base-size;
-  @media only screen and (min-width: $medium-breakpoint) {
-    font-size: $base-size; // keep smaller font for longer on landing page
-  }
-  @media only screen and (min-width: $modern-breakpoint) {
-    font-size: $large-base-size;
-  }
+  // Keep smaller font for longer on landing page
+  @media only screen and (min-width: $medium-breakpoint) { font-size: $base-size; }
+  @media only screen and (min-width: $large-breakpoint)  { font-size: $base-size; }
+  @media only screen and (min-width: $modern-breakpoint) { font-size: $large-base-size; }
 }
 
 .homepage body {
@@ -74,21 +91,18 @@ html.homepage {
     justify-items: stretch;
   }
 
-  main section {
-    padding: var(--block-padding);
-    border-radius: var(--block-radius);
-
-    overflow: hidden;
-    background: $color-background;
-
-    box-shadow: rgba(0, 0, 0, 0.4) 0rem 0.1rem 0.5rem;
-  }
-
   p {
     margin-block: 0 1lh;
     --leading-correction: -0.2em;
     &:first-child { margin-block-start: var(--leading-correction); }
     &:last-child { margin-block-end: var(--leading-correction); }
+  }
+
+  .landingpage__problem,
+  .landingpage__guide,
+  .landingpage__product,
+  .landingpage__blog {
+    box-shadow: rgba(0, 0, 0, 0.4) 0rem 0.1rem 0.5rem;
   }
 
   .landingpage__problem {
@@ -106,13 +120,6 @@ html.homepage {
   .landingpage__blog {
     grid-column: row;
     grid-row-start: l4;
-  }
-
-  .landingpage__problem,
-  .landingpage__guide,
-  .landingpage__product,
-  .landingpage__blog {
-    padding: var(--block-padding);
   }
 
   .landingpage__problem {
@@ -225,13 +232,6 @@ html.homepage {
     }
   }
 
-  .landingpage__product,
-  .landingpage__blog {
-    // Halve the inner spacing to make the product boxes round
-    --block-padding: calc(var(--block-radius) / 2);
-    --block-item-radius: calc(var(--block-radius) - var(--block-padding));
-  }
-
   .landingpage__product {
     position: relative;
     overflow: visible; // don't clip the tag
@@ -312,17 +312,27 @@ html.homepage {
       }
     }
   }
+}
 
-  .landingpage__blog {
-    background: $color-background-dark;
+.posts_group {
+  font-family: $font-sans;
+  background: $color-background-dark;
+  box-shadow: rgba(0,0,0,0.1) 0 0.1rem 0.1rem inset,
+              rgba(255,255,255,0.2) 0px 1px 0px;
+}
 
-    // Double the halved block padding of this block so this paragraph has leading/trailing space like other paragraphs in other blocks. Unlike products, blog post texts aren't centered, so ensure a minimum of 0.5rem to not feel squishy.
-    --halved-margin-offset: max(var(--block-padding), 0.5rem);
+.posts_group:not(:last-child) {
+  margin-bottom: var(--block-spacing);
+}
 
-    h2 {
-      margin-inline: var(--halved-margin-offset);
-      margin-block: 0 calc($vrhythm / 2);
-    }
+.posts_group {
+  // Double the halved block padding of this block so this paragraph has leading/trailing space like other paragraphs in other blocks. Unlike products, blog post texts aren't centered, so ensure a minimum of 0.5rem to not feel squishy.
+  --halved-margin-offset: max(var(--block-padding), 0.5rem);
+
+  h2 {
+    font-family: $font-sans;
+    margin-inline: var(--halved-margin-offset);
+    margin-block: 0 calc($vrhythm / 2);
   }
 
   .posts_list {
@@ -336,8 +346,9 @@ html.homepage {
     article {
       background: $color-background;
       border-radius: var(--block-item-radius);
-      box-shadow: rgba(0,0,0,0.1) 0 0.1rem 0.1rem;
-      overflow: hidden;  // clip image
+      box-shadow: color.scale($color-accent2, $lightness: -10%, $alpha: -70%) 0 0.1rem 0.2rem,
+                  color.scale($color-accent2, $lightness: -10%, $saturation: -20%, $alpha: -70%) 0 0.1rem 1rem;
+      overflow: hidden;
 
       display: grid;
       grid-template:
@@ -355,7 +366,7 @@ html.homepage {
       font-size: 0.8rem;
 
       header, .description {
-        padding-left: var(--halved-margin-offset);
+        padding-left: var(--halved-margin-offset, 0.5rem);
       }
 
       header { padding-top: 0.5lh; }
@@ -373,6 +384,7 @@ html.homepage {
       }
       .description {
         grid-area: desc;
+        margin: 0;
       }
       .teaser {
         grid-area: img;

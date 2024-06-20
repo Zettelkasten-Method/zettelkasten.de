@@ -56,14 +56,14 @@ canonical: "/"
   </article>
 </section>
 
-<section id="posts" class="landingpage__blog">
+<section id="posts" class="landingpage__blog posts_group">
   <header>
     <h2>Read the Blog</h2>
   </header>
 
-  <ul class="posts_list">
+  <div class="posts_list">
     <% sorted_posts().filter(&My::Blog::Post.method(:is_previewable?)).take(6).each do |post| %>
       <%= render '/_post-landingpage.*', :post => post %>
     <% end %>
-  </ul>
+  </div>
 </section>

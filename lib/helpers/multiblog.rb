@@ -177,6 +177,23 @@ module My
         %Q{by <a href="/authors/#{author}/" rel="author">#{author_name}</a>}
       end
 
+      def author_name_for(item)
+        author = item[:author] || 'christian'
+
+        return "DutchPete" if author == "Peter Buyze"
+
+        if author[0] == "@"
+          if author_full_name = item[:author_full_name]
+            return %Q{#{author_full_name} (#{author})}
+          else
+            return author
+          end
+        end
+
+        # Built-in names
+        return author.capitalize
+      end
+
       def contact_tag_for(item)
         author = item[:author] || 'christian'
 
