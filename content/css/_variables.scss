@@ -41,16 +41,14 @@ $modern-breakpoint: 1281px;
 
 $list-indentation: 1em;
 
-/*
-color-font: #222;
-color-selection: #b3d4fc;
+
+/** Helpers */
 
-contrast: #B5CB30;
-contrast-dark: #A3A658;
-
-144659
-B5CB30
-A3A658
-BFA89B
-D9CFCC -- FFF3F0
-*/
+// Covers whole card container with the sole link inside. Doesn't work with 2+ links.
+.card { position: relative; }
+.card a { }
+.card a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}

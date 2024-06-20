@@ -334,15 +334,6 @@ html.homepage {
       &:hover { }
     }
   }
-
-  // Cover whole card with sole link
-  .card { position: relative; }
-  .card a { }
-  .card a::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-  }
 }
 
 #footer {
