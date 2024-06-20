@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 $color-fg: #333;
 $color-background: #faf7f4;
 $color-accent: #4961DD;
@@ -20,6 +22,8 @@ $color-background-footer: $color-accent3;
 $color-background-nav-main: #144659;
 $color-background-nav-sub: lighten(#144659, 5%);
 $color-nav: #D3D3D3;
+
+$color-background-dark: color.scale($color-background, $lightness: -8%, $saturation: -16%);
 
 $color-aside-note: $color-accent3;
 

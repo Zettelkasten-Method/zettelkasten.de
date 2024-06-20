@@ -1,4 +1,3 @@
-@use 'sass:color';
 @import "_variables.scss";
 @import "_base.scss";
 @import "_print.scss";
@@ -226,11 +225,14 @@ html.homepage {
     }
   }
 
-  .landingpage__product {
+  .landingpage__product,
+  .landingpage__blog {
     // Halve the inner spacing to make the product boxes round
     --block-padding: calc(var(--block-radius) / 2);
     --block-item-radius: calc(var(--block-radius) - var(--block-padding));
+  }
 
+  .landingpage__product {
     position: relative;
     overflow: visible; // don't clip the tag
 
@@ -311,18 +313,51 @@ html.homepage {
     }
   }
 
+  .landingpage__blog {
+    background: $color-background-dark;
+
+    // Double the halved block padding of this block so this paragraph has leading/trailing space like other paragraphs in other blocks. Unlike products, blog post texts aren't centered, so ensure a minimum of 0.5rem to not feel squishy.
+    --halved-margin-offset: max(var(--block-padding), 0.5rem);
+
+    h2 {
+      margin-inline: var(--halved-margin-offset);
+      margin-block: 0 calc($vrhythm / 2);
+    }
+  }
+
   .posts_list {
     margin: 0;
     padding: 0;
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(22ch, 100%), 1fr));
-    gap: calc(2 * var(--block-item-spacing))
-         var(--block-item-spacing);
+    grid-template-columns: repeat(auto-fill, minmax(min(25rem, 100%), 1fr));
+    gap: var(--block-item-spacing);
 
     article {
+      background: $color-background;
+      border-radius: var(--block-item-radius);
+      box-shadow: rgba(0,0,0,0.1) 0 0.1rem 0.1rem;
+      overflow: hidden;  // clip image
+
+      display: grid;
+      grid-template:
+        "title title img" auto
+        "desc  desc  img" 1fr
+        / 1fr 1fr 1fr;
+      gap: calc(var(--block-item-spacing) / 2);
+
       font-size: 0.8rem;
 
+      header, .description {
+        padding-left: var(--halved-margin-offset);
+      }
+
+      header { padding-top: 0.5lh; }
+      .description { padding-bottom: 0.5lh; }
+
+      header {
+        grid-area: title;
+      }
       h3 {
         font-size: 1rem;
         margin-bottom: 0;
@@ -330,8 +365,18 @@ html.homepage {
       .minimalpost__meta {
         color: $color-med;
       }
-      p, .description { }
-      &:hover { }
+      .description {
+        grid-area: desc;
+      }
+      .teaser {
+        grid-area: img;
+        margin: 0;
+        img {
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+        }
+      }
     }
   }
 }

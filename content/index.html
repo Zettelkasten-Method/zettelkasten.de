@@ -62,7 +62,7 @@ canonical: "/"
   </header>
 
   <ul class="posts_list">
-    <% sorted_posts().filter(&My::Blog::Post.method(:is_previewable?)).take(8).each do |post| %>
+    <% sorted_posts().filter(&My::Blog::Post.method(:is_previewable?)).take(6).each do |post| %>
       <%= render '/_post-landingpage.*', :post => post %>
     <% end %>
   </ul>
