@@ -382,12 +382,10 @@ html.homepage {
 }
 
 #footer {
-  padding: var(--block-padding);
-
   .wrapper {
     display: grid;
     grid-template-columns: [content-start] repeat(auto-fill, minmax(calc(10% + 7.5rem), 1fr)) [content-end]; // Fallback
-    grid-template-columns: [content-start] repeat(auto-fill, minmax(min(10rem, 100%), 1fr)) [content-end];
+    grid-template-columns: [content-start] repeat(auto-fill, minmax(min(14rem, 100%), 1fr)) [content-end];
     grid-gap: 2rem;
     justify-items: stretch;
     max-width: var(--content-width);
@@ -411,4 +409,8 @@ html.homepage {
       ul, ol { margin-block: 0; }
     }
   }
+}
+
+.homepage body #footer .wrapper {
+  padding: var(--block-padding);
 }
