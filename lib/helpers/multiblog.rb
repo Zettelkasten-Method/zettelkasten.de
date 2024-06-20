@@ -195,15 +195,19 @@ module My
         end
       end
 
-      def teaser_for(item)
+      def teaser_for(item, **opts)
         return unless use_excerpt?(item)
 
         path = teaser_path_for(item)
         return unless path
 
+        opts = {
+          class: "post-teaser"
+        }.merge(opts)
+
         href = item.path
 
-        %Q{<figure class="post-teaser"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image"/></a></figure>}
+        %Q{<figure class="#{opts[:class]}"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image"/></a></figure>}
       end
 
       def teaser_open_graph_for(item, config)
@@ -301,9 +305,9 @@ module My
     class Month
       attr_reader :year, :month
 
-      def initialize(args)
-        @year = args[:year]
-        @month = args[:month]
+      def initialize(opts)
+        @year = opts[:year]
+        @month = opts[:month]
       end
 
       def title
