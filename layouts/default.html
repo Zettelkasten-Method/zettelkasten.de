@@ -51,13 +51,11 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <div class="content-wrapper">
-      <div class="main">
-        <%= yield %>
-      </div>
-    </div>
-  </main>
+  <div class="content-container">
+    <main id="content" class="main">
+      <%= yield %>
+    </main>
+  </div>
 
   <div class="footer-container">
     <%= render '/_footer.*' %>

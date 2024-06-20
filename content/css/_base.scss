@@ -252,14 +252,16 @@ textarea {
 }
 
 
-.content-wrapper,
+.content-container,
 .footer-container {
   display: flow-root;  // Clearfix effect: expand to cover contents
 }
 
 $margin-content-wrapper: 3%;
-.content-wrapper { width: 94%; margin: 0 $margin-content-wrapper; }
-
+.content-container {
+  max-width: 94%;
+  margin-inline: $margin-content-wrapper;
+}
 .footer-container { background: $color-background-footer; }
 
 #footer { font-family: $font-sans; }
@@ -676,7 +678,7 @@ aside.note {
   border-radius: 2px;
 }
 
-main {
+.content-container {
   article .search__form { margin: $vrhythm 0; }
   .search__action {
     background: transparent;
@@ -760,7 +762,7 @@ img.author-profile-picture {
 }
 
 @media only screen and (min-width: $large-breakpoint) {
-  .content-wrapper { max-width: 36rem; margin: 0 auto; }
+  .content-container { max-width: 36rem; margin: 0 auto; }
 }
 
 @media only screen and (min-width: 1200px) {

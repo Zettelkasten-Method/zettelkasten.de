@@ -40,7 +40,7 @@ html.homepage {
 
   .main-navigation { background: transparent; }
 
-  .content-wrapper {
+  .content-container {
     max-width: 100%; // reset the ~36rem setting from normal pages
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@ html.homepage {
     }
   }
 
-  .content-wrapper .main {
+  .content-container .main {
     max-width: var(--content-width);
     margin-inline: auto;
 
