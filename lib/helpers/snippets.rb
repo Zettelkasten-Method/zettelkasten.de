@@ -37,6 +37,9 @@ HTML
     if key == :author && value[0] == "@" && author_full_name = item[:author_full_name]
       value = %Q{#{author_full_name} (#{value})}
     end
+    if key == :description && @item[:kind] == 'article' && value == @config[:meta_data][key]
+      value = Post::description_for(@item)
+    end
     return '<meta name="%s" content="%s">' % [key, value] if value
   end
 

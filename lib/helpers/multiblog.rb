@@ -112,6 +112,23 @@ module My
         date.strftime "%b #{ActiveSupport::Inflector.ordinalize(date.day)}, %Y"
       end
 
+      def description_for(item)
+        description = item[:description] || item[:excerpt]
+        if description.nil?
+          description = ""
+          html = Nokogiri::HTML::DocumentFragment.parse(fulltext_for(item))
+
+          html.css('p, li').each do |p, index|
+            p.css("a").each do |a|
+              a.remove if a['href'].start_with?('#fn:')
+            end
+            description << p.text + " "
+            break if description.length > 150
+          end
+        end
+        description.strip
+      end
+
       def tags_for(item, lang = nil)
         template = <<-Template
         <ul class="tags">

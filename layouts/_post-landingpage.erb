@@ -4,5 +4,5 @@
     <div class="minimalpost__meta"><%= Date::MONTHNAMES[Post::date_of(@post).month].to_s + " " + Post::date_of(@post).year.to_s %></div>
   </header>
   <%= Post::teaser_for(@post, class: "teaser") %>
-  <p class="description"><%=@post[:description]%></p>
+  <p class="description"><%= Post::description_for(@post) %></p>
 </article>
