@@ -389,8 +389,10 @@ html.homepage {
       .teaser {
         grid-area: img;
         margin: 0;
+        display: flex;
+        & > a { flex: 1 1 auto; display: flex; }
         img {
-          height: 100%;
+          flex: 1 1 auto;
           object-fit: cover;
           object-position: center center;
         }
