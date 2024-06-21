@@ -180,7 +180,11 @@ module My
       def author_name_for(item)
         author = item[:author] || 'christian'
 
-        return "DutchPete" if author == "Peter Buyze"
+        case author
+        when "Peter Buyze" then return "DutchPete"
+        when "christian" then return "Christian"
+        when "sascha" then return "Sascha"
+        end
 
         if author[0] == "@"
           if author_full_name = item[:author_full_name]
@@ -190,8 +194,8 @@ module My
           end
         end
 
-        # Built-in names
-        return author.capitalize
+        # Print full names as is
+        return author
       end
 
       def contact_tag_for(item)
