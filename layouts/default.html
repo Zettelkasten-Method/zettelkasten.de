@@ -24,10 +24,10 @@
   <meta name="og:site_name" content="<%= @config[:meta_data][:title] %>">
   <% end %>
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/littlefoot.css"/>
-  <link rel="stylesheet" href="/css/iconic-glyphs.css"/>
-  <link rel="stylesheet" href="/css/thearchive-glyphs.css"/>
+  <link href="<%= @items['/css/main.*'].path %>" media="screen" rel="stylesheet">
+  <link href="<%= @items['/css/littlefoot.*'].path %>" media="screen" rel="stylesheet">
+  <link href="<%= @items['/css/iconic-glyphs.*'].path %>" media="screen" rel="stylesheet">
+  <link href="<%= @items['/css/thearchive-glyphs.*'].path %>" media="screen" rel="stylesheet">
 
   <link rel="alternate" title="Zettelkasten Blog Atom feed" type="application/atom+xml" href="/feed.atom" />
 
@@ -61,10 +61,9 @@
   <div class="footer-container">
     <%= render '/_footer.*' %>
   </div>
-
-  <script src="/js/vendor/iconic.min.js"></script>
-  <script src="/js/vendor/littlefoot-3.4.0.js"></script>
-  <script src="/js/main.js"></script>
+  <script src="<%= @items['/js/vendor/iconic.min.*'].path %>"></script>
+  <script src="<%= @items['/js/vendor/littlefoot-3.4.0.*'].path %>"></script>
+  <script src="<%= @items['/js/main.*'].path %>"></script>
   <script src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js" data-app-id="5657CFD7-B24E-4BF3-A523-40BB8FC87825"></script>
 </body>
 </html>

@@ -94,13 +94,17 @@ end
 compile '/css/**/*' do
   filter :erb          # Use erb to enable timestamps and author information and such.
   filter :dart_sass, syntax: 'scss'
-  write item.identifier.without_ext + ".css"
+  write item.identifier.without_ext + '-' + fingerprint('/css/*') + ".css"
+end
+
+compile '/js/vendor/*' do
+   write item.identifier
 end
 
 compile '/js/**/*' do
    filter :concat_js
    filter :uglify_js if config[:is_deploying]
-   write item.identifier.without_ext + '.js'
+   write item.identifier.without_ext  + '-' + fingerprint('/js/*') + '.js'
 end
 
 compile '/sitemap.*' do
