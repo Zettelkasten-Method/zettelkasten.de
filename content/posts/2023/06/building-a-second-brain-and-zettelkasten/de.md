@@ -9,14 +9,11 @@ rel_image: walnut.jpg
 vgwort: https://vg01.met.vgwort.de/na/260ed44cdf2941e991c1bdb7bb8fa56f
 description: "Was ist „Building a Second Brain“, wie verhält sich die Zettelkastenmethode dazu, und wie lassen sich die beiden Methoden hervorragend miteinander vereinbaren?"
 excerpt: "Dieser Artikel ist in zwei Hälften aufgebaut. Zunächst fasse ich die Methode <i>Building a Second Brain</i> (BASB) zusammen. Anschließend vergleiche ich sie mit der Zettelkastenmethode (ZKM). Dabei werde ich zuerst auf die Unterschiede eingehen, weil sie dabei helfen können, BASB und die ZKM tiefer zu verstehen. Danach werde ich erläutern, wie man BASB und die ZKM miteinander vereinbaren kann. Kleiner Spoiler: Sie lassen sich hervorragend miteinander kombinieren. Ich habe selbst einige Veränderungen in meiner Arbeitsweise vorgenommen. Diese werde ich als Beispiele am Ende beifügen."
-toc: manual
+toc: true
 lang: de
 canonical: "/posts/building-a-second-brain-and-zettelkasten/"
 custom_path: "/de/posts/building-a-second-brain-und-zettelkasten-methode/"
 ---
-
-{{TOC}}
-
 <h3 class="skip-toc">Wie man diesen Artikel liest</h3>
 
 Dieser Artikel ist in zwei Hälften aufgebaut. Zunächst fasse ich die Methode *Building a Second Brain* (BASB) zusammen. Anschließend vergleiche ich sie mit der Zettelkastenmethode (ZKM). Dabei werde ich zuerst auf die Unterschiede eingehen, weil sie dabei helfen können, BASB und die ZKM tiefer zu verstehen. Danach werde ich erläutern, wie man BASB und die ZKM miteinander vereinbaren kann. Kleiner Spoiler: Sie lassen sich hervorragend miteinander kombinieren.

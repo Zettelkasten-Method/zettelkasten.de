@@ -3,8 +3,8 @@
 %>
 
 <% render '/default.*' do %>
-<section id="posts" class="grid-whole">
-    <article class="post post--single">
+<section id="posts">
+    <article class="post post--single content">
         <header>
             <h1 class="post__title title"><%= @item[:title] %></h1>
 
@@ -22,10 +22,6 @@
             <% end %>
         </header>
 
-        <% if @item[:toc] && @item[:toc] != 'manual' %>
-        {{TOC}}
-        <% end %>
-
         <%= yield %>
 
         <footer>
@@ -40,6 +36,7 @@
     <% if Post::comments_allowed_for(@item) %>
       <% if item_lang(@item) == :en %>
         <aside id="comments">
+          <h2 id="_comments" class="visuallyhidden">Comments</h2>
           <%= render '/_comments.*' %>
           <%= render '/_comments-disqus.*' %>
         </aside>

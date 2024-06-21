@@ -30,6 +30,15 @@ unless defined? LOADED_DEFAULT_CONFIG
     remove_html_tags(@item[:title])
   end
 
+  def item_has_toc?
+    if toc = @item[:toc]
+      return toc != false && toc != "off"
+    else
+      # Enable ToC for all articles
+      @item[:kind] == "article"
+    end
+  end
+
   def remove_html_tags(string)
     re = /<("[^"]*"|'[^']*'|[^'">])*>/
     string.gsub(re, '')

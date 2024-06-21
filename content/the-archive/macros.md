@@ -16,8 +16,6 @@ tags: [thearchiveapp, keyboardmaestro]
 
 This page lists all known macros for Keyboard Maestro, Alfred, and other third-party launchers that can enhance your workflows with The Archive.
 
-{{toc}}
-
 <aside class="note">
   <p><b>How to Contribute:</b></p>
   <ol>

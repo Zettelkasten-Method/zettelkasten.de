@@ -1,8 +1,116 @@
+/****************************************************************************/
+/*           https://piccalil.li/blog/a-more-modern-css-reset/              */
+/*                                                                          */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  // list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: $vrhythm;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;  // Default special appearance won't style
+}
+
+button,
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; /* 3 */
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+
+/******************************************************************************/
+
 html {
   color: $color-text;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  font-size: $base-size;
+  @media only screen and (min-width: $medium-breakpoint) {
+    font-size: $large-base-size;
+  }
 }
+
+body {
+  font-family: $font-base;
+}
+
 
 button,
 input,
@@ -52,12 +160,11 @@ body {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: $color-selection;
     text-shadow: none;
 }
-
 ::selection {
-    background: #b3d4fc;
+    background: $color-selection;
     text-shadow: none;
 }
 
@@ -92,59 +199,69 @@ textarea {
     padding: 0.2em 0;
 }
 
-
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
-html {
-  font-size: $base-size;
-  @media only screen and (min-width: $medium-breakpoint) {
-    font-size: $large-base-size;
-  }
-}
-
-body {
-  font-family: $font-base;
-  line-height: 1.6rem;
-}
-
 .announcement, label, input {
   font-family: $font-sans;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 160%;
+  @media only screen and (min-width: $medium-breakpoint) {
+    font-size: 2.2rem;
+  }
+
+  background-color: $color-background-header;
+  background-image: url('/img/header.png');
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+  background-size: auto 0.3em;
+  box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.2rem 0.5rem;
+}
+
 .header__title {
+  $letter-spacing: 0.2em;
   $color: white;
   color: $color;
-  font-size: 160%;
+
+  font-size: 1em; // use header-container size (so it can size the background based on font-size)
   font-weight: 700;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans Narrow', 'PT Sans', sans-serif;
   text-shadow: 0 2px 0 rgba(0,0,0,0.4);
   text-transform: uppercase;
-  letter-spacing: 0.2em;
-  background-color: $color-background-header;
+  letter-spacing: $letter-spacing;
   text-align: center;
-  margin-bottom: 0; // Preserve space in mobile vertical nav
+  line-height: 1.0;
+  background-color: $color-background-header;
+  margin: 0;
+  padding-inline: clamp(0.2em, 5vw, 0.5em)
+                  calc(clamp(0.2em, 5vw, 0.5em) - $letter-spacing);  // letter-spacing adds to the right-hand side
+  margin-block: calc($vrhythm / 2);
+
+  @media only screen and (min-width: $medium-breakpoint) {
+    width: 9em; // fallback
+    width: fit-content;
+  }
 
   a.header__link, a.header__link:visited, a.header__link:hover {
     text-decoration: none;
-    border-bottom-color: transparent;
     color: $color;
   }
 }
 
 
-.header-container {
-  background-color: $color-background-header;
-  background-image: url('/img/header.png');
-  background-repeat: repeat-x;
-  background-position: 0 50%;
+.content-container,
+.footer-container {
+  display: flow-root;  // Clearfix effect: expand to cover contents
 }
 
-.wrapper { /* don't add margin on mobile to all */ }
 $margin-content-wrapper: 3%;
-.content-wrapper { width: 94%; margin: 0 $margin-content-wrapper; }
-
+.content-container {
+  max-width: 94%;
+  margin-inline: $margin-content-wrapper;
+}
 .footer-container { background: $color-background-footer; }
 
 #footer { font-family: $font-sans; }
@@ -154,7 +271,7 @@ $margin-content-wrapper: 3%;
    ============== */
 
 .main {
-  padding: 1.6rem 0;
+  padding: $vrhythm 0;
 }
 
 .youtube iframe { // YouTube videos
@@ -184,26 +301,35 @@ $margin-content-wrapper: 3%;
    Author's custom styles
    ========================================================================== */
 
-h1 { font-size: 2.2rem; line-height: 2 * 1.6rem; margin-top: 0; margin-bottom: 1.6rem; }
-h2 { font-size: 1.6rem; line-height: 1.5 * 1.6rem; margin-top: 0; margin-bottom: 1.6rem; }
-h3 { font-size: 1.4rem; line-height: 1 * 1.6rem; margin-top: 0; margin-bottom: 1.6rem; }
-h4,
-h5,
-h6 { font-size: 1.0rem; line-height: 2 * 1.6rem; margin-top: 0; margin-bottom: 1.6rem; }
+h1 { font-size: 2.2rem; line-height: 2 * $vrhythm;   margin-block: 0 $vrhythm; }
+h2 { font-size: 1.6rem; line-height: 1.5 * $vrhythm; margin-block: 0 $vrhythm; }
+h3 { font-size: 1.4rem; line-height: 1 * $vrhythm;   margin-block: 0 $vrhythm; }
+h4 { font-size: 1.0rem; line-height: 1 * $vrhythm;   margin-block: $vrhythm $vrhythm; }
+h5 { font-size: 1.0rem; line-height: 1 * $vrhythm;   margin-block: $vrhythm $vrhythm; }
+h6 { font-size: 1.0rem; line-height: 1 * $vrhythm;   margin-block: $vrhythm $vrhythm; }
 h1, h3, h5, h6 { font-family: $font-sans; }
+
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child),
+h4:not(:first-child),
+h5:not(:first-child),
+h6:not(:first-child)
+{ margin-block-start: calc(2 * $vrhythm); }
 
 a {
   color: $color-link;
-  text-decoration: none;
-  border-bottom: 1px solid $color-link;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+  text-underline-offset: 0.1em;
 }
 figure > a,
 a.image-link {
-  border-bottom-color: transparent;
+  text-decoration: none;
 }
 a:hover {
   color: $color-link;
-  border-bottom-color: transparent;
+  text-decoration: none;
 }
 figure {
   margin-left: -$margin-content-wrapper;
@@ -214,7 +340,7 @@ figure {
   }
 }
 figure a, figure a:hover {
-  border-bottom-color: transparent;
+  text-decoration: none;
 }
 pre {
   overflow: auto;
@@ -267,18 +393,15 @@ blockquote {
 }
 
 // Remove large heading space between post title and its inevitable metadata; style .page__title in the same way for visual consistency. Limit post title to h1 to only target single post pages.
-h1.post__title, .page__title { margin-bottom: 0; line-height: 2 * 1.6rem; }
-h2.post__title { font-size: 1.4rem; margin-bottom: 0; line-height: 1.6rem; }
-
-article form.search { margin: 1.6rem 0; }
+h1.post__title, .page__title { margin-bottom: 0; line-height: 2 * $vrhythm; }
+h2.post__title { font-size: 1.4rem; margin-bottom: 0; line-height: $vrhythm; }
 
 // (Clickable) Post titles
 #posts .post__title {
   font-family: $font-sans;
-  a {
-    color: $color-text;
-    border-bottom-color: transparent;
-    &:hover { border-bottom-color: $color-text; }
+  a, a:hover, a:visited, a:link {
+    color: currentColor;
+    text-decoration: none;
   }
 }
 
@@ -321,9 +444,16 @@ article form.search { margin: 1.6rem 0; }
   font-size: 0.8em;
 }
 
+
+/** Tables */
 // Should look good on e.g.
 // - https://zettelkasten.de/folgezettel/
 // - https://zettelkasten.de/posts/barbell-method-reading/
+
+// Remove most spacing between table cells.
+table { border-collapse: collapse; border-spacing: 0; }
+td, th { padding: 0; }
+
 article table {
   font-family: $font-sans;
   font-size: $small-size;
@@ -343,7 +473,7 @@ article table {
 .tool dd, .tool dt { margin-left: 0; }
 .tool h3 { font-size: inherit; margin-bottom: 0; }
 .tool ul { margin-top: 0; }
-.tool-link { color: $color-text; border-bottom-color: transparent; }
+.tool-link { color: currentColor; text-decoration: none; }
 .tool-icon { max-width: 14em; }
 .tool-icon figure { margin: 0; }
 .tool-icon__image { width: 80%; }
@@ -356,9 +486,9 @@ article table {
 .tool-author--single *, .tool-review * { display: inline; }
 .tool-author--single h3, .tool-review h3 { margin-right: 0.5em; }
 
-.post { margin-bottom: 2 * 1.6rem; }
+.post { margin-bottom: 2 * $vrhythm; }
 // In a listing like the home page, increase spacing without collapsing margins
-#posts .post + .post { padding-top: 2 * 1.6rem; }
+#posts .post + .post { padding-top: 2 * $vrhythm; }
 
 .post__meta,
 .page__meta {
@@ -379,18 +509,21 @@ article table {
 }
 .post header .post__meta,
 .post header .page__meta {
-  margin-bottom: 1.6rem
+  margin-bottom: $vrhythm
 }
 .post footer .post__meta,
 .post footer .page__meta {
   margin-bottom: 0;
 }
 
-.post__languages { display: block; }
-.post footer .post__languages { margin-bottom: 1.6rem; }
+.post__languages {
+  font-family: $font-sans;
+  display: block;
+}
+.post footer .post__languages { margin-bottom: $vrhythm; }
 .page .post__languages,
 .post header .post__languages {
-  margin-bottom: 1.6rem;
+  margin-bottom: $vrhythm;
   line-height: 1rem;
 
   .active {
@@ -400,6 +533,7 @@ article table {
     border-radius: 1rem;
   }
 
+  a, a:hover, a:link { text-decoration: none; }
   a {
     display: inline-block;
     padding: 0.2rem 0.4rem;
@@ -412,7 +546,7 @@ article table {
   }
 }
 
-.post footer { margin-bottom: 1.6rem; }
+.post footer { margin-bottom: $vrhythm; }
 
 
 .post-figure {
@@ -452,6 +586,7 @@ article table {
 .teaser__image { }
 
 // ToC (Table of Contents) summaries
+#toc,
 details, summary { font-family: $font-sans; }
 
 .footnote-button {
@@ -498,14 +633,14 @@ details, summary { font-family: $font-sans; }
 
 // 1 unit space = 1 line height (1.6x)
 p, blockquote {
-  margin-top: 1.6rem;
-  margin-bottom: 1.6rem
+  margin-top: $vrhythm;
+  margin-bottom: $vrhythm
 }
 
 // 2 unit space
 hr, figure, aside, table, article table {
-  margin-top: 2 * 1.6rem;
-  margin-bottom: 2 * 1.6rem;
+  margin-top: 2 * $vrhythm;
+  margin-bottom: 2 * $vrhythm;
 }
 // Do not add big margin when this is the first actual content of a post
 .post--single > header + * {
@@ -513,11 +648,11 @@ hr, figure, aside, table, article table {
 }
 // Negate the spacing on overviews
 .post--in-list > header {
-  margin-bottom: -1.6rem;
+  margin-bottom: -$vrhythm;
 }
 
 aside#comments {
-  margin-top: 1.6rem;
+  margin-top: $vrhythm;
   // Remove big margin from topmost comment content separator
   & > hr:first-child {
     margin-top: 0
@@ -535,26 +670,29 @@ aside.note {
   border: 0.2em solid $color-aside-note;
 }
 
-.book_cover {
-  max-width: 60%;
-}
-
 /** Search box */
 
+.search__form {
+  display: flex;
+  flex-direction: row;
+  gap: clamp(0.2rem, 5vw, 1rem);
+}
 .search__text, .search__action {
-  // actual width is controlled by grid containers
-  width: 100%;
-  box-sizing: border-box;
   height: 2em;
 }
+.search__text {
+  flex: 2 1 20em;
+}
 .search__action {
+  flex: 1 1 5em;
   background: transparent;
   border-width: 2px;
   border-style: solid;
   border-radius: 2px;
 }
 
-.main {
+.content-container {
+  article .search__form { margin: $vrhythm 0; }
   .search__action {
     background: transparent;
     border-color: $color-link;
@@ -568,11 +706,6 @@ aside.note {
 }
 
 #footer {
-  .footer-search {
-    margin-bottom: 1lh;
-    overflow: hidden; // create new floating environment; can be removed when we ditch the old grid.css
-  }
-
   .search__action {
     background: transparent;
     border-color: white;
@@ -604,24 +737,18 @@ img.author-profile-picture {
   }
 }
 
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
+.post-figure__image {
+  background: #fff;
+}
+.post-figure--borderless .post-figure__image {
+  border-color: transparent;
+  padding: 0;
+  background: transparent;
+}
 
 @media only screen and (min-width: $medium-breakpoint) {
   .tool {
     font-size: $small-size;
-  }
-
-  .header__title {
-    font-size: 2.2rem;
-    line-height: 1.0;
-    width: 8em;
-    padding-left:  0.4em;
-    padding-right: 0.2em; /* right: 0.4em - letter-spacing */
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1.6rem;
   }
 
   .tool-icon { max-width: 100%; }
@@ -630,20 +757,9 @@ img.author-profile-picture {
       margin: 0 0.7%;
   }
 
-  .header__title {
-    margin-top: 1.6rem;
-    margin-bottom: 1.6rem;
-  }
-
   .post-figure__image {
     border: 1px solid #d4d4d4;
     padding: 0.25em;
-    background: #fff;
-  }
-  .post-figure--borderless .post-figure__image {
-    border-color: transparent;
-    padding: 0;
-    background: transparent;
   }
 
   .post-teaser {
@@ -658,18 +774,87 @@ img.author-profile-picture {
     max-width: 8em;
   }
 
-  .book_cover {
-    float: left;
-    max-width: 30%;
-    margin-right: 1em;
-    margin-bottom: 1em;
-  }
-
   h2 { clear: both; }
 }
 
+#sidebar { margin: 0; }
+#toc { display: none; } // No ToC on mobile
+#toc {
+  --border-width: 2px;
+
+  font-size: $small-size;
+  ol { list-style: none; margin: 0; padding: 0; }
+  ol > li { margin: 0; padding: 0; }
+
+  li > a             { --indent: 0rem; }
+  li li > a          { --indent: 1rem; }
+  li li li > a       { --indent: 2rem; }
+  li li li li > a    { --indent: 3rem; }
+  li li li li li > a { --indent: 4rem; }
+  li > a {
+    padding-left: calc(var(--indent) + 1rem);
+    margin-left: calc(1 * var(--border-width));
+  }
+
+  // Limit ToC link colorization to affect the immediate `li > a`, not any `a` (nested) inside.
+  li > a {
+    display: block;
+    color: $color-med;
+    border-left: var(--border-width) solid $color-med;
+    text-decoration: none;
+    &:hover {
+      color: $color-link;
+      border-left-color: $color-link;
+      text-decoration: underline;
+    }
+  }
+  li.active > a {
+    font-weight: bold;
+    color: $color-text;
+    border-left-color: $color-text;
+    text-decoration: none;
+  }
+  .totop {
+    color: currentColor;
+  }
+}
+
 @media only screen and (min-width: $large-breakpoint) {
-  .wrapper, .content-wrapper { max-width: 36rem; margin: 0 auto; }
+  .content-container {
+    display: grid;
+    grid-template-columns: [content-start sidebar-start] repeat(4, minmax(min(7rem, 20vw), 1fr)) [sidebar-end content-end];
+    grid-column-gap: clamp(0.5rem, 3vw, 2rem);
+    margin-inline: auto;
+    padding-inline: var(--block-padding, 0.5rem);
+    max-width: 38rem;
+  }
+
+  .has-toc .content-container {
+    grid-template-columns: [content-start] repeat(4, minmax(min(7rem, 15vw), 1fr)) [content-end sidebar-start] repeat(2, minmax(min(5rem, 8vw), 1fr)) [sidebar-end];
+    max-width: var(--content-width);
+  }
+
+  #content {
+    grid-area: content;
+  }
+  #sidebar {
+    grid-area: sidebar;
+    padding-top: calc(2 * $vrhythm);
+    // nav { height: calc(100vh - 3 * $vrhythm); }
+  }
+
+  // Stole sidebar settings from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
+  #toc {
+    --offset: 0;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    height: calc(100vh - var(--offset));
+    top: 0;
+
+    // Extend the sidebar height
+    .toc-buffer { min-height: 25vh; }
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -685,20 +870,6 @@ img.author-profile-picture {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
-}
 
 .hidden {
     display: none !important;
@@ -724,93 +895,4 @@ img.author-profile-picture {
     overflow: visible;
     position: static;
     width: auto;
-}
-
-.invisible {
-    visibility: hidden;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
 }

@@ -112,6 +112,23 @@ module My
         date.strftime "%b #{ActiveSupport::Inflector.ordinalize(date.day)}, %Y"
       end
 
+      def description_for(item)
+        description = item[:description] || item[:excerpt]
+        if description.nil?
+          description = ""
+          html = Nokogiri::HTML::DocumentFragment.parse(fulltext_for(item))
+
+          html.css('p, li').each do |p, index|
+            p.css("a").each do |a|
+              a.remove if a['href'].start_with?('#fn:')
+            end
+            description << p.text + " "
+            break if description.length > 150
+          end
+        end
+        description.strip
+      end
+
       def tags_for(item, lang = nil)
         template = <<-Template
         <ul class="tags">
@@ -160,6 +177,27 @@ module My
         %Q{by <a href="/authors/#{author}/" rel="author">#{author_name}</a>}
       end
 
+      def author_name_for(item)
+        author = item[:author] || 'christian'
+
+        case author
+        when "Peter Buyze" then return "DutchPete"
+        when "christian" then return "Christian"
+        when "sascha" then return "Sascha"
+        end
+
+        if author[0] == "@"
+          if author_full_name = item[:author_full_name]
+            return %Q{#{author_full_name} (#{author})}
+          else
+            return author
+          end
+        end
+
+        # Print full names as is
+        return author
+      end
+
       def contact_tag_for(item)
         author = item[:author] || 'christian'
 
@@ -195,15 +233,19 @@ module My
         end
       end
 
-      def teaser_for(item)
+      def teaser_for(item, **opts)
         return unless use_excerpt?(item)
 
         path = teaser_path_for(item)
         return unless path
 
+        opts = {
+          class: "post-teaser"
+        }.merge(opts)
+
         href = item.path
 
-        %Q{<figure class="post-teaser"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image"/></a></figure>}
+        %Q{<figure class="#{opts[:class]}"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image"/></a></figure>}
       end
 
       def teaser_open_graph_for(item, config)
@@ -301,9 +343,9 @@ module My
     class Month
       attr_reader :year, :month
 
-      def initialize(args)
-        @year = args[:year]
-        @month = args[:month]
+      def initialize(opts)
+        @year = opts[:year]
+        @month = opts[:month]
       end
 
       def title
@@ -333,7 +375,7 @@ module My
       months = {}
 
       posts.each do |post|
-        date = DateTime.parse(post[:created_at].to_s)
+        date = date_of(post)
         mtime = attribute_to_time(post[:updated_at] || post[:created_at])
         ym = { year: date.year, month: date.month }
         years[date.year] = [years[date.year] || mtime, mtime].max
@@ -341,6 +383,10 @@ module My
       end
 
       return years, months
+    end
+
+    def date_of(post)
+      DateTime.parse(post[:created_at].to_s)
     end
 
     def sorted_posts(kind = "article", lang = nil)

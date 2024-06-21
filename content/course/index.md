@@ -5,7 +5,7 @@ bodyclass: online-course
 created_at: 2024-01-10 11:50:00 +0100
 description: "Next cohort in June/July 2024: Zettelkasten Method 101, Mastering the basics to unlock your Integrated Thinking Environment. A live workshop for 10 participants."
 updated_at: 2024-06-07 17:10:02 +0100
-toc: manual
+toc: true
 ---
 ## Mastering the Basics to Unlock Your Integrated Thinking Environment
 
@@ -17,8 +17,6 @@ By learning and applying the Zettelkasten Method, you will be equipped with *the
 - Get an edge by becoming an early adopter.
 
 <%= email("saschafast@gmail.com", subject: "ZK 101 Workshop", message: "Hi Sascha!\n\nI am [YOUR NAME] and I want to secure a spot for the ZK 101 live workshop.\n\nPlease send a payment request for the EUR 349 / USD 379!".uri_encoded, classes: "coaching__action", text: "Secure a spot now") %>
-
-{{TOC}}
 
 ## About the Course Content
 

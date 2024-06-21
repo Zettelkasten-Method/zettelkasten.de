@@ -92,7 +92,6 @@ module Menu
     def html(renderer:)
       classes = [].tap do |classes|
         classes << "menu_item"
-        classes << "l-grid-2 m-grid-6 s-grid-12"
         classes << "menu-item--has-submenu" if !submenu.nil?
       end.join(" ")
 
@@ -143,7 +142,7 @@ module Menu
                        .map { _1.html(renderer: renderer) }
                        .join()
       return "".tap do |output|
-        output << %Q{<ul class="sub-navigation s-grid-whole m-grid-whole l-grid-whole">}
+        output << %Q{<ul class="sub-navigation">}
         output << submenu_html
         output << %Q{</ul>}
       end
@@ -153,7 +152,7 @@ module Menu
   class SubMenuItem < MenuItem
     def html(renderer:)
       return "".tap do |output|
-        output << %Q{<li class="l-grid-2 m-grid-12 s-grid-12">}
+        output << %Q{<li class="sub-menu_item">}
         output << renderer.link_to_unless_current(title, link)
         output << %Q{</a>}
         output << %Q{</li>}

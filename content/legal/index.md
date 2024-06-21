@@ -5,10 +5,6 @@ toc: true
 bodyclass: contact
 updated_at: 2023-12-08 12:12:20 +0100
 ---
-
-{{toc}}
-
-
 ## Contact ##
 
 If you have any questions about the Zettelkasten Method, please <a href="https://forum.zettelkasten.de/">ask on the forums</a>: We want everyone to learn and benefit from questions!

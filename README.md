@@ -1,53 +1,42 @@
-# What's this
+# Zettelkasten Website
 
-This is my personal boilerplate setup for nanoc websites.
+## Development
 
-*   [nanoc3](http://nanoc.stoneship.org), static website generator
-*   [html5boilerplate](http://html5boilerplate.com/)
+### Prerequisites
 
-# Deployment
+- Ruby 3.2+ <https://www.ruby-lang.org/en/>, e.g. via `brew install ruby` (macOS/Linux via Homebrew)
+- Dart Sass 1.77+ <https://sass-lang.com/install/>, e.g. via `npm` 
 
-I assume you're public html folder is called `htdocs/` and you can create new folders below your domains folder but outside `htdocs/`.
+Install the Ruby dependencies to build the site:
 
-I also assume you use my Rakefile:  upon `rake build` it will checkout the branch 'deploy' and put all files from `output/` in there.  Uploading from 'deploy' to the production server will only copy the HTML output, not the nanoc setup.
+```sh
+# Make sure you have a recent Ruby Bundler
+$ gem update bundler
+# Install dependencies from Gemfile.lock
+$ bundle install 
+```
 
-*   initialize bare production git repository on the server:
+### Preview
 
-        $ git init --bare ~/doms/example.com/git
-*   you'll want automatic updates when you push to the server.  Use git's own
-    `post-receive` hook:
+To get a live preview of your changes, compile and serve via:
 
-        # add to ~/doms/example.com/git/hooks/post-receive
-        echo "Updating website ..."
-        cd /the/full/path/to/doms/example.com/htdocs || exit
-        unset GIT_DIR
-        git pull origin 
-        echo "Update complete."
+```sh
+$ bundle exec nanoc live
+Listening for lib/ changes…
+View the site at http://127.0.0.1:3000/
+[2024-06-19 12:29:36] INFO  WEBrick 1.8.1
+[2024-06-19 12:29:36] INFO  ruby 3.2.0 (2022-12-25) [arm64-darwin22]
+[2024-06-19 12:29:36] INFO  WEBrick::HTTPServer#start: pid=38268 port=3000
+Compiling site…
+```
 
-    Make it executable:
+The locally served site is reachable from `http://127.0.0.1:3000/` then.
 
-        $ chmod +x post-receive
+To speed-up compilation, use nanoc's "focus" feature. The following will only recompile CSS files, images, and the landing page, reducing re-compilation times from 20s to <1s:
 
-*   initialize git repository in `htdocs/`.  This will point to the bare
-    repository on the server and check out the current version:
-    
-        # given you're in ~/doms/example.com/htdocs
-        $ git init
-        $ git remote add origin ../git
-        
-        # setup branch to pull from:
-        $ git config branch.master.remote origin
-        $ git config branch.master.merge refs/heads/deploy
-*   setup production server locally:
+```sh
+$ bundle exec nanoc live --focus "/css/*" --focus "/img/*" --focus "/index.html"
+```
 
-        $ git remote add production ssh://user@example.com/~/doms/example.com/git/
-        $ git remote show production
-*   commit changes locally and put them on the server:
-        
-        $ git commit
-        $ rake build
-        $ git push production deploy
-    
-    You can push all branches via `git push production` to backup your code. 
-    Only the branch 'deploy' will be visible to the public.
+Note that the paths aren't file path, but [nanoc Identifiers and Routes](https://nanoc.app/doc/identifiers-and-patterns/).
 

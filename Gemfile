@@ -2,7 +2,10 @@ source 'https://rubygems.org'
 
 group 'nanoc' do
   gem 'nanoc'
+  gem 'nanoc-cli'
+  gem 'nanoc-core'
   gem 'nanoc-live'
+
   gem 'webrick', '~> 1.7'  # Ruby 3.x doesn't ship with WEBrick anymore
   gem 'nanoc-image-compressor'
   gem 'nanoc-javascript-concatenator'

@@ -1,7 +1,7 @@
+@use 'sass:color';
 @import "_variables.scss";
-
-@import "_normalize.scss";
 @import "_base.scss";
+@import "_print.scss";
 @import "_actions.scss";
 @import "_menu.scss";
 @import "_newsletter.scss";
@@ -12,3 +12,416 @@
 
 // `.post aside` sets padding; littlefoot v3.x doesn't allow overrides
 .post aside.littlefoot-footnote { padding: 0 !important; }
+
+:root {
+  --content-width: 60rem;
+  // The large block elements on the landing page
+  --block-radius: min(4vh, 3vw);
+  --block-padding: var(--block-radius);
+  --block-spacing: var(--block-radius);
+  // Their inner elements and cards
+  --block-item-radius: calc(var(--block-radius) - var(--block-padding));
+  --block-item-spacing: calc(var(--block-radius) / 2);
+}
+
+.landingpage__problem,
+.landingpage__guide,
+.landingpage__product,
+.landingpage__blog, .posts_group {
+  padding: var(--block-padding);
+  border-radius: var(--block-radius);
+
+  overflow: hidden;
+  background: $color-background;
+}
+
+.landingpage__product,
+.landingpage__blog, #posts, .posts_group {
+  // Halve the inner spacing to make the product boxes round
+  --block-padding: calc(var(--block-radius) / 2);
+  --block-item-radius: calc(var(--block-radius) - var(--block-padding));
+}
+
+html.homepage {
+  font-size: $base-size;
+  // Keep smaller font for longer on landing page
+  @media only screen and (min-width: $medium-breakpoint) { font-size: $base-size; }
+  @media only screen and (min-width: $large-breakpoint)  { font-size: $base-size; }
+  @media only screen and (min-width: $modern-breakpoint) { font-size: $large-base-size; }
+}
+
+.homepage body {
+  $medium-breakpoint: 40em;
+
+  background-color: $color-background-nav-main;
+
+  .main-navigation { background: transparent; }
+
+  .content-container {
+    max-width: 100%; // reset the ~36rem setting from normal pages
+    display: flex;
+    justify-content: center;
+
+    font-family: $font-sans;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    @media only screen and (min-width: $large-breakpoint) {
+      font-size: 1rem;
+      line-height: $vrhythm;
+    }
+  }
+
+  .content-container .main {
+    max-width: var(--content-width);
+    margin-inline: auto;
+
+    display: grid;
+    grid-template-columns: [row-start row-mid] 2fr [row-end];
+    grid-template-rows: [l1] auto [l2] auto [l3] auto [l4] auto;
+    gap: 4vh 0; // On mobile, add prominent vertical breathing room. On wider screens, keep spacing proportional to the block radii.
+    @media only screen and (min-width: $medium-breakpoint) {
+      grid-template-columns: [row-start] 2fr [row-mid] 2fr [row-end];
+      grid-template-rows: [l1 l2] auto [l3] auto [l4] auto;
+      gap: calc(2 * var(--block-spacing))
+           var(--block-spacing);
+    }
+    @media only screen and (min-width: $large-breakpoint) {
+      gap: var(--block-spacing);
+    }
+    justify-items: stretch;
+  }
+
+  p {
+    margin-block: 0 1lh;
+    --leading-correction: -0.2em;
+    &:first-child { margin-block-start: var(--leading-correction); }
+    &:last-child { margin-block-end: var(--leading-correction); }
+  }
+
+  .landingpage__problem,
+  .landingpage__guide,
+  .landingpage__product,
+  .landingpage__blog {
+    box-shadow: rgba(0, 0, 0, 0.4) 0rem 0.1rem 0.5rem;
+  }
+
+  .landingpage__problem {
+    grid-column: row-start / span 1;
+    grid-row-start: l1;
+  }
+  .landingpage__guide {
+    grid-column: row-mid / span 1;
+    grid-row-start: l2;
+  }
+  .landingpage__product {
+    grid-column: row;
+    grid-row-start: l3;
+  }
+  .landingpage__blog {
+    grid-column: row;
+    grid-row-start: l4;
+  }
+
+  .landingpage__problem {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: flex-start; // top
+    justify-content: center;
+    gap: 0
+         calc(var(--block-item-spacing) / 2);
+
+    h2, p {
+      margin-block: 0;
+    }
+
+    h2 {
+      flex: 1 1 100%;
+      letter-spacing: -2px;
+      line-height: 1.1em;
+      text-align: center;
+      margin-block: 3% 6%;
+      font-size: max(1.5rem, 10vw);
+      // Medium size: two column grid, but still not a lot of space
+      @media only screen and (min-width: $medium-breakpoint) {
+        font-size: max(1rem, 5vw);
+      }
+      @media only screen and (min-width: $large-breakpoint) {
+        font-size: clamp(1.5rem, 5vw, 3rem);
+      }
+    }
+
+    p, img {
+      flex: 1 1 30%;
+    }
+
+    img {
+      mix-blend-mode: multiply;
+      object-fit: contain;
+      opacity: 0.4;
+      align-self: center;
+      max-width: 80%;
+      max-height: 6lh;
+    }
+
+    p {
+      letter-spacing: -1px;
+      font-size: 1.2rem;
+      font-size: max(1rem, 5vw);
+      // Medium size: two column grid, but still not a lot of space
+      @media only screen and (min-width: $medium-breakpoint) {
+        font-size: max(1rem, 2.5vw);
+      }
+      @media only screen and (min-width: $large-breakpoint) {
+        font-size: clamp(1rem, 2.5vw, 1.4rem);
+      }
+    }
+    b {
+      font-family: $font-serif;
+      font-style: italic;
+      font-weight: 900;
+      letter-spacing: -1px;
+    }
+  }
+
+  .landingpage__guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1lh;
+
+    .intro {
+      margin-top: 0.4rem;
+    }
+
+    .guides {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      justify-content: stretch;
+      align-items: stretch;
+    }
+
+    .guide {
+      flex: 1 1 3vw;  // Make both .guide instances themselves size uniformly, no matter the picture/text.
+
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      text-align: center;
+
+      .photo {
+        flex: 0 1 2lh; // if in doubt, take 2 lines of text for small sizes
+        img {
+          display: block;
+          max-width: 100%;
+          max-height: 8lh;
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          object-position: center;
+          aspect-ratio: 10 / 9;
+        }
+      }
+      .more {
+        flex: 1 0 2px;
+        display: block;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .landingpage__product {
+    position: relative;
+    overflow: visible; // don't clip the tag
+
+    display: grid;
+
+    grid-template-columns: [row-start] 1fr [row-end];
+    @media only screen and (min-width: $medium-breakpoint) {
+      grid-template-columns: [row-start] 1fr 1fr 1fr [row-end];
+    }
+
+    justify-items: stretch;
+    gap: var(--block-item-spacing);
+
+    .wow {
+      position: absolute;
+      grid-column: row;
+      width: 80%;
+      rotate: -2deg;
+      transform: translate(-3vw, -1.2em);
+      @media only screen and (min-width: $large-breakpoint) {
+        width: 17ch;
+        rotate: -5deg;
+      }
+
+      font-family: $font-serif;
+      font-size: 1.5rem;
+      font-size: clamp(0.8rem, 3vw, 2rem);
+      font-style: italic;
+      font-weight: 900;
+      letter-spacing: -1px;
+      line-height: 1em;
+
+      background: $color-background-header;
+      border-radius: var(--block-item-radius);
+      padding: 1vh;
+      text-align: center;
+      box-shadow: rgba(0, 0, 0, 0.2) 0.1rem 0.1rem 0.1rem,
+                  rgba(0, 0, 0, 0.1) 0.3rem 0.2rem 0.5rem;
+      z-index: 1337;
+    }
+
+    .description {
+      grid-column: row;
+      margin-block: 2rem 0;
+      // Double the halved block padding of this block so this paragraph has leading/trailing space like other paragraphs in other blocks
+      margin-inline: var(--block-padding);
+      @media only screen and (min-width: $large-breakpoint) {
+        margin-block: 0;
+        grid-column: 2 / span 2;
+      }
+    }
+
+    .product {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0.5rem;
+
+      border: 0;  // reset link border
+      border-radius: var(--block-item-radius);
+      background: $color-accent2;
+      color: $color-background;
+      min-height: 3lh;
+
+      transition-property: transform box-shadow;
+      transition-duration: 0.1s;
+
+      &:hover {
+        transform: scale(1.02) translate(0, -1%);
+        box-shadow: rgba(0,0,0,0.1) 0 0.1rem 0.1rem;
+      }
+
+      a {
+        font-weight: bold;
+        color: $color-background;
+      }
+    }
+  }
+}
+
+.posts_group {
+  font-family: $font-sans;
+  background: $color-background-dark;
+  box-shadow: rgba(0,0,0,0.1) 0 0.1rem 0.1rem inset,
+              rgba(255,255,255,0.2) 0px 1px 0px;
+}
+
+.posts_group:not(:last-child) {
+  margin-bottom: var(--block-spacing);
+}
+
+.posts_group {
+  // Double the halved block padding of this block so this paragraph has leading/trailing space like other paragraphs in other blocks. Unlike products, blog post texts aren't centered, so ensure a minimum of 0.5rem to not feel squishy.
+  --halved-margin-offset: max(var(--block-padding), 0.5rem);
+
+  h2 {
+    font-family: $font-sans;
+    margin-inline: var(--halved-margin-offset);
+    margin-block: 0 calc($vrhythm / 2);
+  }
+
+  .posts_list {
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(25rem, 100%), 1fr));
+    gap: var(--block-item-spacing);
+
+    article {
+      background: $color-background;
+      border-radius: var(--block-item-radius);
+      box-shadow: color.scale($color-accent2, $lightness: -10%, $alpha: -70%) 0 0.1rem 0.2rem,
+                  color.scale($color-accent2, $lightness: -10%, $saturation: -20%, $alpha: -70%) 0 0.1rem 1rem;
+      overflow: hidden;
+
+      display: grid;
+      grid-template:
+        "title title title img" auto
+        "desc  desc  desc  img" 1fr
+        / 1fr 1fr 1fr 1fr ;
+      @media only screen and (min-width: $large-breakpoint) {
+        grid-template:
+          "title title img" auto
+          "desc  desc  img" 1fr
+          / 1fr 1fr 1fr;
+      }
+      gap: calc(var(--block-item-spacing) / 2);
+
+      font-size: 0.8rem;
+
+      header, .description {
+        padding-left: var(--halved-margin-offset, 0.5rem);
+      }
+
+      header { padding-top: 0.5lh; }
+      .description { padding-bottom: 0.5lh; }
+
+      header {
+        grid-area: title;
+      }
+      h3 {
+        font-size: 1rem;
+        margin-bottom: 0;
+      }
+      .minimalpost__meta {
+        color: $color-med;
+      }
+      .description {
+        grid-area: desc;
+        margin: 0;
+      }
+      .teaser {
+        grid-area: img;
+        margin: 0;
+        img {
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+        }
+      }
+    }
+  }
+}
+
+#footer {
+  display: grid;
+  grid-template-columns: [content-start] repeat(auto-fill, minmax(calc(10% + 7.5rem), 1fr)) [content-end]; // Fallback
+  grid-template-columns: [content-start] repeat(auto-fill, minmax(min(14rem, 100%), 1fr)) [content-end];
+  grid-gap: 2rem;
+  justify-items: stretch;
+  max-width: var(--content-width);
+  margin-inline: auto;
+  padding: var(--block-padding);
+
+  .search {
+    grid-column: content;
+  }
+
+  .copyright { }
+
+  section {
+    grid-column: span 1;
+    font-size: 0.8rem;
+    h3 {
+      font-size: 1rem;
+      margin-block: 0;
+    }
+    ul, ol { margin-block: 0; }
+  }
+}

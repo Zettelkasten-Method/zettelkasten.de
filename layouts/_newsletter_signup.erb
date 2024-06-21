@@ -1,4 +1,4 @@
-<section class="clearfix newsletter">
+<section class="newsletter">
   <h2 class="title newsletter__title">Subscribe to our mailing list</h2>
   <p class="newsletter__info">Receive project news, announcements, and special offers for our Zettelkasten products before anybody else does.</p>
 
@@ -7,27 +7,27 @@
     <input type="hidden" name="subform" value="yes"/>
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="hp" id="hp" tabindex="-1" value=""/></div>
 
-    <div class="grid-whole">
-      <label class="news__label grid-whole" for="email">Email Address <span class="asterisk">*</span></label>
+    <div>
+      <label class="news__label" for="email">Email Address <span class="asterisk">*</span></label>
       <input type="email" value="" name="email" class="news__input news__input--text news__input--email required" id="email" />
     </div>
-    <div class="grid-whole">
-      <label class="news__label grid-whole" for="name">Name</label>
+    <div>
+      <label class="news__label" for="name">Name</label>
       <input type="text" value="" name="name" class="news__input news__input--text news__input--name" id="name" />
     </div>
     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 
-    <div class="grid-whole gdpr">
+    <div class="gdpr">
       <input type="checkbox" name="gdpr" id="gdpr" class="gdpr__checkbox" />
       <label class="news__label news__label--checkbox gdpr__label" for="gdpr"><q>I give my consent to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</q></label>
     </div>
 
-    <div class="grid-whole">
+    <div>
 	  <p class="newsletter__info">We will not share your data with anybody else. We will not send spam, ever. See <a href="/legal/#newsletter">our privacy policy</a> for details. We host the newsletter stuff ourselves, so there's no third party involved.</p>
       <p class="newsletter__info">If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at <code>newsletter@zettelkasten.de</code>.</p>
     </div>
 
-    <div class="grid-whole">
+    <div>
       <script src='https://www.google.com/recaptcha/api.js'></script>
       <p class="g-recaptcha" data-sitekey="6LcoYxMpAAAAAH7tkgSkHGJgnP6X9LZLTUR2cdOa"></p>
       <div style="display:none;">
@@ -36,7 +36,7 @@
 	  </div>
     </div>
 
-    <div class="grid-whole">
+    <div>
       <input type="submit" value="Subscribe to the List" name="submit" id="submit" class="news__input news__input--button" />
     </div>
   </form>

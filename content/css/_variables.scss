@@ -1,15 +1,31 @@
-$color-text: #333;
-$color-light: #aaa;
-$color-link: #4961DD;
-$color-nav: #D3D3D3;
-$color-table-border: #D3D3D3;
-$color-separator: darken(#feede6, 5%);
+@use 'sass:color';
+
+$color-fg: #333;
 $color-background: #faf7f4;
-$color-background-header: #B5CB30;
-$color-background-footer: #B5CB30;
+$color-accent: #4961DD;
+$color-accent2: #d07c84;
+$color-accent3: #B5CB30;
+
+$color-text: $color-fg;
+$color-med: #888;
+$color-light: #aaa;
+
+$color-link: $color-accent;
+$color-selection: #b3d4fc;
+
+$color-table-border: #D3D3D3;
+$color-separator: darken($color-background, 10%);
+
+$color-background-header: $color-accent3;
+$color-background-footer: $color-accent3;
+
 $color-background-nav-main: #144659;
 $color-background-nav-sub: lighten(#144659, 5%);
-$color-aside-note: $color-background-header;
+$color-nav: #D3D3D3;
+
+$color-background-dark: color.scale($color-background, $lightness: -5%, $saturation: -10%);
+
+$color-aside-note: $color-accent3;
 
 $font-serif: 'PT Serif', serif;
 $font-sans: 'PT Sans', sans-serif;
@@ -21,22 +37,22 @@ $base-size: 18px / 16px * 1em;
 $small-size: 0.8em; // 16px
 $large-base-size: 22px / 16px * 1em;
 $largest-preview-size: 26px / 22px * 1em;
+$vrhythm: 1.6rem;  // base line height
 
 $medium-breakpoint: 480px;
 $large-breakpoint: 900px;
+$modern-breakpoint: 1281px;
 
 $list-indentation: 1em;
 
-/*
-color-font: #222;
-color-selection: #b3d4fc;
+
+/** Helpers */
 
-contrast: #B5CB30;
-contrast-dark: #A3A658;
-
-144659
-B5CB30
-A3A658
-BFA89B
-D9CFCC -- FFF3F0
-*/
+// Covers whole card container with the sole link inside. Doesn't work with 2+ links.
+.card { position: relative; }
+.card a { }
+.card a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}

@@ -5,25 +5,59 @@ bodyclass: homepage
 lang: en
 canonical: "/"
 ---
-
-<section id="posts" class="grid-whole">
-  <header>
-      <h1>Latest Posts</h1>
-  </header>
-
-  <% sorted_posts().filter(&My::Blog::Post.method(:is_previewable?)).take(5).each do |post| %>
-    <%= render '/_post.*', :post => post, :fulltext => false %>
-  <% end %>
-
-  <hr />
-
-  <footer>
-    <ul class="actions grid-whole clearfix">
-      <li class="action__item action__item--button">
-        <a class="action action--gotoblog" href="https://zettelkasten.de/posts/">Read more in the Blog Archive</a>
-      </li>
-    </ul>
-  </footer>
+<section class="landingpage__problem">
+  <h2>Tame the modern information&nbsp;chaos!</h2>
+  <img src="/img/2024_zk-value-creation-intro.png"
+    alt="Sketch of the flow of value creation in a Zettelkasten"
+    title="From stuff in the world through the Zettelkasten to better performance and more publications">
+  <p>Create an <b>integrated thinking environment</b> that is better than any&nbsp;AI can ever be.</p>
 </section>
 
-<%= render '/_vanilla_count.*' %>
+<section class="landingpage__guide">
+  <div class="intro">
+    <p>We understand the overwhelming pressure of navigating today's information overload. That's why we've developed a solution that simplifies even the most complex knowledge projects, making them perfectly manageable.</p>
+  </div>
+  <div class="guides">
+    <div class="card guide">
+      <div class="photo">
+        <img alt="Picture of Sascha with his dog Leini" src="/authors/sascha/sascha-leini-profile-small.jpeg"/>
+      </div>
+      <a href="/authors/sascha" class="more">Learn more about Sascha</a>
+    </div>
+    <div class="guide card">
+      <div class="photo">
+        <img alt="Picture of Christian" src="/authors/christian/profile-christian-small.jpeg"/>
+      </div>
+      <a href="/authors/christian" class="more">Learn more about Christian</a>
+    </div>
+  </div>
+</section>
+
+<section class="landingpage__product products">
+  <h2 class="wow">Become a Master of Knowledge Development Now!</h2>
+  <p class="description">Create an integrated thinking environment that acts as a cognitive multiplier. By feeding on your notes and using the proper method, you'll develop a personal thinking and writing companion: your own Zettelkasten.</p>
+  <article class="product card">
+    <span>Get to the next level</span>
+    <a href="/course">→ Enroll in the Course</a>
+  </article>
+  <article class="product card">
+    <span>Fast track your progress</span>
+    <a href="/coaching">→ Book a 1-on-1 Coaching Session</a>
+  </article>
+  <article class="product card">
+    <span>Get the most focused app</span>
+    <a href="/the-archive">→ Download The Archive</a>
+  </article>
+</section>
+
+<section id="posts" class="landingpage__blog posts_group">
+  <header>
+    <h2>Read the Blog</h2>
+  </header>
+
+  <div class="posts_list">
+    <% sorted_posts().filter(&My::Blog::Post.method(:is_previewable?)).take(6).each do |post| %>
+      <%= render '/_post-landingpage.*', :post => post %>
+    <% end %>
+  </div>
+</section>

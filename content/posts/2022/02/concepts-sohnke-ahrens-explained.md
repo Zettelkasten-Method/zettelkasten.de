@@ -9,14 +9,12 @@ tags: [ concept, terminology, note-taking ]
 discussion_id: 2119
 description: "Ahrens discusses five categories of notes: three main descriptive categories of notes:  fleeting notes, permanent notes and project notes; and two subcategories of permanent notes: literature notes and Zettels. These terms are defined and discussed in this article."
 excerpt: "<p>Terminological troubles beset the account of note categories in <em>How To Take Smart Notes</em> by Sönke Ahrens (Ahrens 2017). The book reads as though it emerged unedited from the author&#8217;s Zettelkasten. The most important type of note doesn&#8217;t have a name. This post aims to settle the record.</p><p>Ahrens discusses five categories of notes: three main descriptive categories of notes:  <em>fleeting note</em>, <em>permanent notes</em> and <em>project notes</em>; and two subcategories of permanent notes: <em>literature notes</em> and <em>Zettels</em>, although the term <em>Zettel</em> occurs nowhere in Ahrens (Ahrens,  41). Italicized terms are defined in &#34;Note categories in detail&#34; below, after some remarks on the components of a Zettekasten and on workflow in the Zettelkasten Method according to Ahrens.</p>"
-toc: manual
+toc: true
 ---
 
 _This is a guest post by our dear @ZettelDistraction. You can find his sketches and some (academia-)critical illustrations on Instagram [@flengyel](https://instagram.com/flengyel). And if you're interested in seeing how a text evolves, check out [the revisions of this post](https://forum.zettelkasten.de/discussion/2119/the-fleeting-note-in-how-to-take-smart-notes-by-soenke-ahrens) on the forums._
 
 ----
-
-{{TOC}}
 
 Terminological troubles beset the account of note categories in _How To Take Smart Notes_ by Sönke Ahrens (Ahrens 2017). The book reads as though it emerged unedited from the author's Zettelkasten. The most important type of note doesn't have a name.  This post aims to settle the record.
 

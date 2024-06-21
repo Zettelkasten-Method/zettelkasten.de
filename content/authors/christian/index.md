@@ -55,13 +55,17 @@ Have a peek over my shoulder and look at my setup and current state of things. (
 - Here's a part of the note stats from my Zettelkasten:
 
     | Date       | # notes |
-    | ---------- | ------: |
-    | 2012-01-29 | 1463    |
-    | 2013-01-01 | 2471    |
-    | 2015-02-02 | 3457    |
-    | 2018-01-01 | 4692    |
-    | 2019-01-01 | 5101    |
-    | 2021-01-01 | 5924    |
+    |------------|--------:|
+    | 2012-01-29 |    1463 |
+    | 2013-01-01 |    2471 |
+    | 2015-02-02 |    3457 |
+    | 2018-01-01 |    4692 |
+    | 2019-01-01 |    5101 |
+    | 2021-01-01 |    5924 |
+    | 2022-01-01 |    6562 |
+    | 2023-01-01 |    8372 |
+    | 2024-01-01 |    9043 |
+
 
     <%= insert_rel_image file: "2020-12-27_stats.png" %>
 
@@ -77,15 +81,17 @@ And this is what my Zettelkasten environment in The Archive looks like:
 
 <%=email("hi@christiantietze.de", text: "Email Christian")%>  &bull;  Get his posts as an [RSS Feed](/authors/christian/feed.atom).
 
-<section id="posts">
 <% partitioned_by_year(sorted_posts_by('christian')).each do |year, months| %>
-  <h2><%= year %></h2>
-  <ul class="allposts">
-  <% months.each do |month, posts| %>
-  <% posts.each do |post| %>
-  <%= render '/_post-archive.*', :post => post, :month => month %>
-  <% end %>
-  <% end %>
-  </ul>
-<% end %>
+<section class="posts_group">
+  <header>
+    <h2 id="year-<%= year %>"><%= year %></h2>
+  </header>
+  <div class="allposts posts_list">
+    <% months.each do |month, posts| %>
+      <% posts.each do |post| %>
+        <%= render '/_post-archive.*', :post => post, :month => month, :show_author => true %>
+      <% end %>
+    <% end %>
+  </div>
 </section>
+<% end %>

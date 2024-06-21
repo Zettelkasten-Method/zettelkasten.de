@@ -5,7 +5,7 @@ updated_at: 2023-08-03 08:25:21 +0100
 kind: article
 author: sascha
 tags: [ fiction ]
-toc: manual
+toc: true
 comments: on
 rel_image: "reading-cat.jpg"
 layout: blog
@@ -13,8 +13,6 @@ vgwort: https://vg08.met.vgwort.de/na/864a444d776949ac879789c7c36a66d5
 description: "The Zettelkasten Method will support your goals relating to both consuming and producing fiction texts. It is designed to create a thinking machine out of your notes you are already making that supports all of your thinking."
 excerpt: "The Zettelkasten Method will support your goals relating to both consuming and producing fiction texts. It is designed to create a thinking machine out of your notes you are already making that supports all of your thinking."
 ---
-
-{{TOC}}
 
 <!--R -->
 The Zettelkasten Method will support your goals relating to both consuming and producing fiction texts. The Zettelkasten Method is designed to **create a thinking machine out of your notes you are already making that supports *all of your thinking*.**

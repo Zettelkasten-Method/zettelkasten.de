@@ -1,10 +1,16 @@
-nav { font-family: $font-sans; }
-
 .main-navigation {
-  background: $color-background-nav-main;
   position: relative;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(min(8rem, 100%), 1fr));
+
+  font-family: $font-sans;
+  background: $color-background-nav-main;
+  font-size: 0.8rem;
+  font-size: clamp(12px, 2vmin, 1rem);
 }
 .sub-navigation {
+  font-family: $font-sans;
   background: $color-background-nav-sub;
   position: static;
   z-index: 200;
@@ -12,19 +18,16 @@ nav { font-family: $font-sans; }
   width: 100%;
 }
 
-#navigation ul:after {
-  clear: both;
-}
-#navigation ul:before,
-#navigation ul:after {
-  content: " ";
-  display: table;
-}
-
 #navigation ul { margin: 0; padding: 0; }
 #navigation ul li { list-style-type: none; }
 
-.menu-item { display: inline-block; }
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+}
 .menu-item--has-submenu {}
 
 // Hide submenus by default; only display for when sibling is the "active" indicator
@@ -52,70 +55,60 @@ nav { font-family: $font-sans; }
 
 #navigation .main-navigation .active,
 #navigation .sub-navigation .active {
-  border-color: #B5CB30;
+  border-color: $color-background-header;
 }
 // Don't highlight a main menu item itself when a sub navigation is available
 #navigation .main-navigation .menu-item--has-submenu > .active {
   border-color: transparent;
 }
 
-
 #navigation a {
   color: $color-nav;
   font-weight: normal;
   text-decoration: none;
-}
-.nav__icon { padding-right: 0.3em; }
-.nav__icon .iconic-property-fill {
-  stroke: $color-nav;
-  fill: $color-nav;
-}
-.nav__icon .iconic-property-accent,
-.nav__icon .iconic-property-stroke {
-  stroke: $color-nav;
-}
-.nav__icon--products {
-  .iconic-property-fill { fill: darken($color-nav, 15%); }
-  .iconic-property-stroke { stroke: $color-nav; }
+
+  &:hover {
+    $color: white;
+    color: $color;
+    text-decoration: none;
+    background: rgba(255,255,255,0.2);
+
+    .nav__icon .iconic-property-fill {
+      fill: $color;
+    }
+  }
 }
 
-#navigation a:hover {
-  $color: white;
-  color: $color;
-  border-bottom-color: transparent;
-  background: rgba(255,255,255,0.2);
-
-  .nav__icon .iconic-property-fill {
-    fill: $color;
+.main-navigation {
+  .iconic .iconic-property-fill {
+    stroke: $color-nav;
+    fill: $color-nav;
+  }
+  .iconic .iconic-property-accent,
+  .iconic .iconic-property-stroke {
+    stroke: $color-nav;
   }
 }
 
 @media only screen and (min-width: $medium-breakpoint) {
   #navigation a,
   #navigation .active {
-    padding: 0.5em 0;
+    --vpadding: 0.5em;
+    padding: var(--vpadding) 0;
     margin-bottom: 0;
     border-width: 4px; // 4 sided outline
   }
 
-  #navigation li:first-child a {
-    margin-left: 0;
-  }
-
-  #navigation li:last-child a {
-    margin-right: 0;
-  }
-
-  #navigation ul li {
-    display: inline;
-  }
+  #navigation ul li { }
 }
 
 @media only screen and (min-width: $large-breakpoint) {
   #navigation a,
   #navigation .active {
-    padding-bottom: 0.3em;
-    border-width: 0 0 8px 0; // Display active border on bottom on larger screens
+    --vpadding: 0.5em;
+    --underline: 8px;
+    padding-bottom: calc(var(--vpadding) - var(--underline));
+    border-width: 0 0 var(--underline) 0; // Display active border on bottom on larger screens
   }
 
   #navigation.has-submenu {

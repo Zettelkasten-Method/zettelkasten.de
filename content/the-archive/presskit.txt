@@ -2,14 +2,13 @@
 title: The Archive Press Kit and Backstage Details
 description: The Archive is a macOS note-taking app for prolific writers and productive researchers.
 layout: the-archive
-toc: manual
+toc: true
+updated_at: 2024-06-18 15:17:03 +0100
 ---
 
 # The Archive: Press Kit
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
-
-{{TOC}}
 
 ## Description
 
@@ -101,35 +100,37 @@ Programming: Christian Tietze
 
 [Download collection of screenshots as .zip](/the-archive/presskit/TheArchive-screenshots.zip)
 
-<div class="grid-whole pk-screenshots">
-    <div class="l-grid-half m-grid-half s-grid-whole">
+<div class="pk-screenshots">
+    <div class="pk-item">
         <a href="/the-archive/presskit/pretty-functional-mixed.png"><img src="/the-archive/presskit/pretty-functional-mixed.png" class="pk-screenshot" /></a>
     </div>
-    <div class="l-grid-half m-grid-half s-grid-whole">
+    <div class="pk-item">
         <a href="/the-archive/presskit/dark-mode.jpg"><img src="/the-archive/presskit/dark-mode.jpg" class="pk-screenshot" /></a>
     </div>
-    <div class="l-grid-half m-grid-half s-grid-whole">
+    <div class="pk-item">
         <a href="/the-archive/presskit/pretty-functional-mixed-nochrome.png"><img src="/the-archive/presskit/pretty-functional-mixed-nochrome.png" class="pk-screenshot" /></a>
     </div>
-    <div class="l-grid-half m-grid-half s-grid-whole">
-        <a href="/the-archive/presskit/solarized-dark.png"><img src="/the-archive/presskit/solarized-dark.png" class="pk-screenshot" /></a>
-    </div>
-    <div class="l-grid-half m-grid-half s-grid-whole">
-        <a href="/the-archive/presskit/solarized-light.png"><img src="/the-archive/presskit/solarized-light.png" class="pk-screenshot" /></a>
-    </div>
-    <div class="l-grid-half m-grid-half s-grid-whole">
+    <div class="pk-item">
         <a href="/the-archive/presskit/no-chrome-prettyfunctional-small.png"><img src="/the-archive/presskit/no-chrome-prettyfunctional-small.png" class="pk-screenshot" /></a>
     </div>
-    <div class="l-grid-half m-grid-half s-grid-whole">
+    <div class="pk-item">
+        <a href="/the-archive/presskit/solarized-dark.png"><img src="/the-archive/presskit/solarized-dark.png" class="pk-screenshot" /></a>
+    </div>
+    <div class="pk-item">
+        <a href="/the-archive/presskit/solarized-light.png"><img src="/the-archive/presskit/solarized-light.png" class="pk-screenshot" /></a>
+    </div>
+    <div class="pk-item">
         <a href="/the-archive/presskit/fullscreen-prettyfunctional-big.png"><img src="/the-archive/presskit/fullscreen-prettyfunctional-big.png" class="pk-screenshot" /></a>
     </div>
-    <div class="l-grid-half m-grid-half s-grid-whole">
+    <div class="pk-item">
         <a href="/the-archive/presskit/launched.jpg"><img src="/the-archive/presskit/launched.jpg" class="pk-screenshot" /></a>
     </div>
-    <div class="l-grid-half m-grid-half s-grid-whole">
+    <div class="pk-item">
         <a href="/the-archive/presskit/light-and-dark.png"><img src="/the-archive/presskit/light-and-dark.png" class="pk-screenshot" /></a>
     </div>
-
+    <div class="pk-item">
+        <a href="/the-archive/img/image-embed.png"><img src="/the-archive/img/image-embed.png" class="pk-screenshot" /></a>
+    </div>
 </div>
 
 ### Application Icon

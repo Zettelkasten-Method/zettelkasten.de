@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= item_lang %>">
+<html class="<%= @layout_variant %> <%= @item[:bodyclass] if !@item[:bodyclass].nil? %>" lang="<%= item_lang %>">
 <head>
   <meta charset="UTF-8" />
   <title><%= full_page_title %></title>
@@ -24,7 +24,6 @@
   <meta name="og:site_name" content="<%= @config[:meta_data][:title] %>">
   <% end %>
 
-  <link rel="stylesheet" href="/css/grid.css">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/littlefoot.css"/>
   <link rel="stylesheet" href="/css/iconic-glyphs.css"/>
@@ -32,36 +31,34 @@
 
   <link rel="alternate" title="Zettelkasten Blog Atom feed" type="application/atom+xml" href="/feed.atom" />
 
-  <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
-  <link href='//fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href='//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=PT+Sans' rel='preload' as="style" type='text/css' crossorigin>
+  <link href='//fonts.googleapis.com/css?family=PT+Serif' rel='preload' as="style" type='text/css' crossorigin>
+  <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='preload' as="style" type='text/css' crossorigin>
 
   <link href="/favicon.ico" rel="shortcut icon">
   <link type="text/plain" href="/humans.txt" />
-
-  <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
-<body class="<%= @layout_variant %> <%= @item[:bodyclass] if !@item[:bodyclass].nil? %>">
-  <header class="">
-    <div class="header-container clearfix">
+<body class="<%= "has-toc" if item_has_toc? %>">
+  <header>
+    <div class="header-container">
       <h1 class="header__title"><%= link_to_homepage %></h1>
     </div>
-    <nav id="navigation" class="clearfix grid-whole <%= "has-submenu" if item_has_submenu? %>">
-      <ul class="grid-whole main-navigation">
+    <nav id="navigation" class="<%= "has-submenu" if item_has_submenu? %>">
+      <ul class="main-navigation">
         <%= render_menu_items %>
       </ul>
     </nav>
   </header>
-  <div class="clearfix"><!-- for the menu on mobile --></div>
-  <div class="main-container">
-    <div class="wrapper content-wrapper">
-      <div class="main clearfix">
-        <%= yield %>
-      </div> <!-- #main -->
-    </div>
-  </div> <!-- #main-container -->
+  <div class="content-container">
+    <aside id="sidebar">
+      <%= render '/_sidebar.*' %>
+    </aside>
+    <main id="content" class="main">
+      <%= yield %>
+    </main>
+  </div>
 
-  <div class="footer-container clearfix">
+  <div class="footer-container">
     <%= render '/_footer.*' %>
   </div>
 
