@@ -99,7 +99,7 @@ end
 
 compile '/js/**/*' do
    filter :concat_js
-   filter :uglify_js
+   filter :uglify_js if config[:is_deploying]
    write item.identifier.without_ext + '.js'
 end
 
