@@ -40,7 +40,7 @@ end
 
 def to_thumb(file, output, width)
   system(
-    'convert',
+    'magick',
     '-resize',
     width.to_s,
     file,
