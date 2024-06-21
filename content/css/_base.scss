@@ -777,17 +777,21 @@ img.author-profile-picture {
   ol > li { margin: 0; }
   li > ol { margin-left: 1rem; }
 
-  a, a:link, a:hover, a:visited {
+  // Limit ToC link colorization to affect the immediate `li > a`, not any `a` (nested) inside.
+  li > a {
     display: block;
     color: $color-med;
-    &.totop {
-      color: currentColor;
+    &:hover {
+      color: $color-link;
     }
   }
-  .active {
-    a, a:link, a:hover, a:visited {
+  li.active {
+    & > a {
       color: $color-text;
     }
+  }
+  .totop {
+    color: currentColor;
   }
 }
 
