@@ -776,6 +776,19 @@ img.author-profile-picture {
   ol { list-style: none; padding: 0; }
   ol > li { margin: 0; }
   li > ol { margin-left: 1rem; }
+
+  a, a:link, a:hover, a:visited {
+    display: block;
+    color: $color-med;
+    &.totop {
+      color: currentColor;
+    }
+  }
+  .active {
+    a, a:link, a:hover, a:visited {
+      color: $color-text;
+    }
+  }
 }
 
 @media only screen and (min-width: $large-breakpoint) {
@@ -810,11 +823,6 @@ img.author-profile-picture {
     position: sticky;
     height: calc(100vh - var(--offset));
     top: 0;
-
-    a, a:link, a:hover, a:visited {
-      display: block;
-      color: currentColor;
-    }
 
     // Extend the sidebar height
     .toc-buffer { min-height: 25vh; }
