@@ -772,23 +772,39 @@ img.author-profile-picture {
 #sidebar { margin: 0; }
 #toc { display: none; } // No ToC on mobile
 #toc {
+  --border-width: 2px;
+
   font-size: $small-size;
-  ol { list-style: none; padding: 0; }
-  ol > li { margin: 0; }
-  li > ol { margin-left: 1rem; }
+  ol { list-style: none; margin: 0; padding: 0; }
+  ol > li { margin: 0; padding: 0; }
+
+  li > a             { --indent: 0rem; }
+  li li > a          { --indent: 1rem; }
+  li li li > a       { --indent: 2rem; }
+  li li li li > a    { --indent: 3rem; }
+  li li li li li > a { --indent: 4rem; }
+  li > a {
+    padding-left: calc(var(--indent) + 1rem);
+    margin-left: calc(1 * var(--border-width));
+  }
 
   // Limit ToC link colorization to affect the immediate `li > a`, not any `a` (nested) inside.
   li > a {
     display: block;
     color: $color-med;
+    border-left: var(--border-width) solid $color-med;
+    text-decoration: none;
     &:hover {
       color: $color-link;
+      border-left-color: $color-link;
+      text-decoration: underline;
     }
   }
-  li.active {
-    & > a {
-      color: $color-text;
-    }
+  li.active > a {
+    font-weight: bold;
+    color: $color-text;
+    border-left-color: $color-text;
+    text-decoration: none;
   }
   .totop {
     color: currentColor;
