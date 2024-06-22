@@ -245,7 +245,7 @@ module My
 
         href = item.path
 
-        %Q{<figure class="#{opts[:class]}"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image"/></a></figure>}
+        %Q{<figure class="#{opts[:class]}"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image" loading="lazy"/></a></figure>}
       end
 
       def teaser_open_graph_for(item, config)
