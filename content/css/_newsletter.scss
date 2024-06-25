@@ -1,4 +1,60 @@
 /*
+ * Newsletter sidebar
+ */
+
+#newsletter {}
+.homepage #newsletter { display: none; }
+
+#newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: calc($vrhythm / 2);
+
+  font-size: $small-size;
+  font-family: $font-sans;
+
+  a.signup { text-decoration: none; border: none; }
+
+  p { margin: 0; }
+
+  .box {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+
+    border: 2px solid $color-med;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+  }
+  .envelope {
+    flex: 0 1 16px;
+    color: $color-med;
+    vertical-align: center;
+    &.iconic[data-glyph]:before { top: 0.15em; }
+    * {
+      fill: $color-med;
+      stroke: $color-med;
+    }
+  }
+  .email {
+    flex: 3 2 auto;
+    color: $color-med
+  }
+  .subscribe {
+    flex: 2 2 auto;
+    font-weight: bold;
+    color: $color-accent2;
+    text-align: right;
+  }
+}
+
+
+
+
+/*
  * Newsletter box
  */
 

@@ -777,7 +777,17 @@ img.author-profile-picture {
   h2 { clear: both; }
 }
 
-#sidebar { margin: 0; }
+#sidebar {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(2 * $vrhythm);
+}
+
+#sidebar header {
+  font-weight: bold;
+}
+
 #toc { display: none; } // No ToC on mobile
 #toc {
   --border-width: 2px;
