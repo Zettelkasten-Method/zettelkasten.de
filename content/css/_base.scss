@@ -849,14 +849,15 @@ img.author-profile-picture {
   }
   #sidebar {
     grid-area: sidebar;
-    padding-top: calc(2 * $vrhythm);
-    // nav { height: calc(100vh - 3 * $vrhythm); }
+    padding-top: $vrhythm;
   }
 
   // Stole sidebar settings from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
   #toc {
     --offset: 0;
     display: flex;
+    gap: calc($vrhythm / 2);
+
     flex-direction: column;
     position: sticky;
     height: calc(100vh - var(--offset));
