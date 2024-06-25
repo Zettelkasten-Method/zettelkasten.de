@@ -12,6 +12,8 @@ dialog {
   pointer-events: none;
   transition: opacity 0.5s;
 
+  font-family: $font-sans;
+
   &[open] {
     opacity: 1;
     pointer-events: inherit;
@@ -60,12 +62,15 @@ dialog#newsletter_signup {
 
   padding: var(--padding);
 
-  h1, h2, h3, h4, h5, h6, p, input[type="text"], input[type="email"], .news__label, textarea {
+  .newsletter {
+    margin-block: 0;
+  }
+
+  .news__section {
     margin-inline: var(--padding);
   }
-  .gdpr { margin-inline: var(--padding); }
-  input[type="checkbox"] { }
-  input[type="submit"], button, .news__input--button, .news__label--checkbox {
-    margin-inline: 0;
+
+  button {
+    border-radius: calc(var(--block-radius) / 2);
   }
 }
