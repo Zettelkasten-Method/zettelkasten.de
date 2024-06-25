@@ -1,0 +1,68 @@
+dialog {
+  background: $color-background;
+  border-radius: var(--block-radius);
+  border: 0px;
+  padding: --block-padding;
+
+  // Override display:none (which defeats fade-in)
+  position: fixed;
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s;
+
+  &[open] {
+    opacity: 1;
+    pointer-events: inherit;
+  }
+}
+
+dialog .dialog-container { position: relative; }
+dialog a.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 1em;
+  color: $color-light;
+  &:hover {
+    color: $color-med;
+  }
+}
+
+.modal-is-open {
+  padding-right: var(--scrollbar-width, 0);
+}
+
+.modal.dialog {
+  width: 90vw;
+  max-height: 90vh;
+  overflow-y: scroll;
+  box-shadow: rgba(0,0,0,0.1) 0 0.2rem 0.5rem,
+              rgba(0,0,0,0.2) 0 1rem 2rem;
+
+  &::backdrop {
+    backdrop-filter: blur(3px);
+  }
+
+  @media only screen and (min-width: $medium-breakpoint) {
+    max-width: 50rem;
+    // padding: 2vw 2vh;
+  }
+}
+
+/** Newsletter signup dialog */
+dialog#newsletter_signup {
+  // Half padding to show action buttons with fitting border-radius
+  --padding: calc(var(--block-padding) / 2);
+
+  padding: var(--padding);
+
+  h1, h2, h3, h4, h5, h6, p, input[type="text"], input[type="email"], .news__label, textarea {
+    margin-inline: var(--padding);
+  }
+  .gdpr { margin-inline: var(--padding); }
+  input[type="checkbox"] { }
+  input[type="submit"], button, .news__input--button, .news__label--checkbox {
+    margin-inline: 0;
+  }
+}
