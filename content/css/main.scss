@@ -43,6 +43,8 @@
   --block-item-radius: calc(var(--block-radius) - var(--block-padding));
 }
 
+.homepage #sidebar { display: none; }
+
 html.homepage {
   font-size: $base-size;
   // Keep smaller font for longer on landing page

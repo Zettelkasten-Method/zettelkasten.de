@@ -2,6 +2,7 @@
 title: "Unsubscribe From the Newsletter"
 layout: plain
 hidden: true
+bodyclass: newsletter-form
 ---
 You can unsubscribe from our newsletter via this form:
 
