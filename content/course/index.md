@@ -95,6 +95,15 @@ I am using my Zettelkasten and develop the method for over a decade now. I am a 
 If you have further questions, feel free to email me: <%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Question", text: "Send an Email") %>
 
 
+> You have such a dedication to knowledge that is very inspiring and you manage to communicate this dedication in the course.
+> 
+> In terms of the course content I find the combination of Deep Work and the Atom to be the most transformative notion, usually when I tried to build my zettelkasten before the course I did either: meandering through a topic and finding links to other concepts or just briefly jotting down (until now I tried to build a physical zk with actual paper zettles!) something quickly not working through the concept very deeply.
+> 
+> I also found the analogy of knowledge work as physical exercise very useful. With workout you get results from being careful with what you do and how you do it (e.g. "junk miles" as supposed to deliberately training in zone 2 or zone 5). Same with knowledge: use better methods and get better results. 
+>
+> Again, thank you so much for the course.<br>
+> ---David J.
+
 ## FAQ
 
 ### What's the cohort schedule?
