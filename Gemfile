@@ -4,7 +4,7 @@ group 'nanoc' do
   gem 'nanoc'
   gem 'nanoc-cli'
   gem 'nanoc-core'
-  gem 'nanoc-live'
+  gem 'nanoc-live', git: 'https://github.com/nanoc/nanoc', glob: 'nanoc-live/*.gemspec', branch: 'main'
 
   gem 'webrick', '~> 1.7'  # Ruby 3.x doesn't ship with WEBrick anymore
   gem 'nanoc-image-compressor'
