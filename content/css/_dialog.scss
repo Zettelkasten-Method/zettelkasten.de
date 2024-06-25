@@ -3,6 +3,7 @@ dialog {
   border-radius: var(--block-radius);
   border: 0px;
   padding: --block-padding;
+  overflow-y: scroll;
 
   // Override display:none (which defeats fade-in)
   position: fixed;
@@ -17,7 +18,10 @@ dialog {
   }
 }
 
-dialog .dialog-container { position: relative; }
+dialog .dialog-container {
+  position: relative;
+  height: 100%; // Even though this is implied, setting this explicitly adds dialog padding in scrolling/overflowing environments properly.
+}
 dialog a.close {
   position: absolute;
   top: 0;
@@ -35,8 +39,7 @@ dialog a.close {
 
 .modal.dialog {
   width: 90vw;
-  max-height: 90vh;
-  overflow-y: scroll;
+  max-height: 92vh;
   box-shadow: rgba(0,0,0,0.1) 0 0.2rem 0.5rem,
               rgba(0,0,0,0.2) 0 1rem 2rem;
 
