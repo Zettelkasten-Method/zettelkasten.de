@@ -25,9 +25,13 @@
     align-items: center;
     gap: 0.5rem;
 
-    border: 2px solid $color-med;
+    border: 2px solid $color-light;
     padding: 0.2rem 0.5rem;
     border-radius: 2px;
+
+    &:hover {
+      border-color: $color-med;
+    }
   }
   .envelope {
     flex: 0 1 16px;
@@ -46,8 +50,8 @@
   .subscribe {
     flex: 2 2 auto;
     font-weight: bold;
-    color: $color-accent2;
     text-align: right;
+    color: $color-accent;
   }
 }
 
