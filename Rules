@@ -91,6 +91,12 @@ compile '/css/fonts/*' do
   write item.identifier
 end
 
+compile '/css/vendor/*' do
+  filter :erb          # Use erb to enable timestamps and author information and such.
+  filter :dart_sass, syntax: 'scss'
+  write item.identifier
+end
+
 compile '/css/**/*' do
   filter :erb          # Use erb to enable timestamps and author information and such.
   filter :dart_sass, syntax: 'scss'
