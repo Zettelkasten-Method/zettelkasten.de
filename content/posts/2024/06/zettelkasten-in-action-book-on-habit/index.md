@@ -22,7 +22,7 @@ Currently, [as stated in the log](https://forum.zettelkasten.de/discussion/2804/
 
 ## Another Book on Habit Like No Other
 
-**"Aren't there enough books about habits?", you may ask.** My answer is: there are enough books that present on *a* model of habits and then explain it in many anecdotes and examples. These are books like *Atomic Habits*, *The Power of Habit* or *Tiny Habits*. They are all worth reading if you haven't read one However, they lack the scientific rigor that I expect from a book on that topic. An example for this is wrong understanding on how dopamine works. Dopamine doesn't code for reward, which is the base assumption. It codes reward prediction errors.[^schultz2016] This changes the picture on habits completely.
+**"Aren't there enough books about habits?", you may ask.** My answer is: there are enough books that present on *a* model of habits and then explain it in many anecdotes and examples. These are books like *Atomic Habits*, *The Power of Habit* or *Tiny Habits*. They are all worth reading if you haven't read one. However, they lack the scientific rigor that I expect from a book on that topic. An example for this is wrong understanding on how dopamine works. Dopamine doesn't code for reward, which is the base assumption. It codes reward prediction errors.[^schultz2016] This changes the picture on habits completely.
 
 [^schultz2016]: Wolfram Schultz (2016): Dopamine reward prediction error coding, Dialogues Clin Neurosci 1, 2016, Vol. 18, S. 23-32. [Pubmed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4826767/)
 
