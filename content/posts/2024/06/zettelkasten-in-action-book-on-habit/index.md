@@ -7,7 +7,11 @@ description: "A book to show the power of the Zettelkasten, to change the percep
 tags: [ habit, book, writing ]
 vgwort: https://vg09.met.vgwort.de/na/368325aeac32429d95e10c6ecda50c70
 rel_image: wald.jpg
-alternate: https://me-improved.de/das-n%C3%A4chste-buch-lebenswandel-gewohnheitsarbeit
+lang: en
+canonical: /posts/zettelkasten-in-action-book-on-habit/
+alternate: 
+    - href: https://me-improved.de/das-n%C3%A4chste-buch-lebenswandel-gewohnheitsarbeit
+      lang: de
 ---
 I'd like to address the legitimate criticism of the Zettelkasten Method that there is little real world demonstration of its might and power. For this reason, I'd like you to present you my current project. I decided to attack a book on habit, because this book can hit two birds with one stone:
 

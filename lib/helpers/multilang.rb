@@ -8,7 +8,16 @@ module MultiLang
   end
 
   def item_translations(item, skip_current: true)
-    @items.select { !(_1[:canonical].nil?) && _1[:canonical] == item[:canonical] && !(skip_current && @item == _1) }
+    items_with_same_canonical = @items
+                                  .select { !(_1[:canonical].nil?) && _1[:canonical] == item[:canonical] && !(skip_current && @item == _1) }
+                                  # .map { { lang: item_lang(_1), href: _1.path } }
+    items_with_same_canonical
+  end
+
+  def alternate_item_translations(item)
+    return [] if item[:alternate].nil?
+    return [] if item[:alternate].is_a?(String)
+    item[:alternate]
   end
 
   # Metadata links
@@ -36,10 +45,16 @@ module MultiLang
   # Hyperlinks to click
   def language_links(item = nil)
     item ||= @item
-    language_links = item_translations(item, skip_current: false)
-                       .sort { _1[:lang] <=> _2[:lang] }
-                       .map { |other_item| link_to_lang_unless_current(other_item) }
-    language_links.join(" ")  # .join(" &bull; ")
+    language_links = [].tap do |all|
+      all << item_translations(item, skip_current: false)
+               .map { { link: link_to_lang_unless_current(_1), lang: _1[:lang].to_s } }
+      all << alternate_item_translations(item)
+               .map { { link: link_to(ALL_LANGS[_1[:lang].to_sym] + " " + external_link_text(item), _1[:href], lang: _1[:lang].to_s, hreflang: _1[:lang].to_s, class: "extern"), lang: _1[:lang].to_s } }
+    end.flatten
+    language_links
+      .sort { _1[:lang] <=> _2[:lang] }
+      .map { _1[:link] }
+      .join(" ")  # .join(" &bull; ")
   end
 
   # Text to show in front of alternative language selectors.
@@ -51,7 +66,18 @@ module MultiLang
 
   def language_announcement(item = nil)
     item ||= @item
-    LANGUAGE_ANNOUNCEMENTS[item_lang(item).to_sym]
+    LANGUAGE_ANNOUNCEMENTS[item_lang(item)]
+  end
+
+  EXTERN_TEXT = {
+    :en => "(extern)",
+    :de => "(extern)",
+    :zh => "(extern)"
+  }
+
+  def external_link_text(item = nil)
+    item ||= @item
+    EXTERN_TEXT[item_lang(item)]
   end
 
   NO_COMMENTS_TEXT = {
