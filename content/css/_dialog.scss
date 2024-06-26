@@ -5,9 +5,8 @@ dialog {
   padding: --block-padding;
   overflow-y: scroll;
 
-  // Override display:none (which defeats fade-in)
+  display: flex; // Override display:none (which defeats fade-in)
   position: fixed;
-  display: flex;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.5s;
@@ -22,7 +21,7 @@ dialog {
 
 dialog .dialog-container {
   position: relative;
-  height: 100%; // Even though this is implied, setting this explicitly adds dialog padding in scrolling/overflowing environments properly.
+  height: fit-content; // Even though auto-sizing uses the whole space, setting this respects dialog padding in scrolling/overflowing environments properly. `auto` doesn't, and `100%` breaks in Safari.
 }
 dialog a.close {
   position: absolute;
@@ -46,6 +45,7 @@ dialog a.close {
               rgba(0,0,0,0.2) 0 1rem 2rem;
 
   &::backdrop {
+    -webkit-backdrop-filter: blur(3px); // Safari 17.5 2024-06-26 still needs this.
     backdrop-filter: blur(3px);
   }
 
