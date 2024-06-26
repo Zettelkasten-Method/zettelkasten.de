@@ -37,7 +37,7 @@ PS: [I offer 1-on-1-coaching](https://zettelkasten.de/coaching) if you want to l
 - Get Sascha's posts as an [RSS Feed](/authors/sascha/feed.atom).
 
 <% partitioned_by_year(sorted_posts_by('sascha')).each do |year, months| %>
-<section class="posts_group">
+<section class="posts_group inset-box">
   <header>
     <h2 id="year-<%= year %>"><%= year %></h2>
   </header>

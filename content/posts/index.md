@@ -19,7 +19,7 @@ toc: true
 <hr>
 
 <% partitioned_sorted_posts_by_year().each do |year, months| %>
-<section class="posts_group">
+<section class="posts_group inset-box">
   <header>
     <h2 id="year-<%= year %>"><%= year %></h2>
   </header>

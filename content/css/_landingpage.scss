@@ -3,7 +3,7 @@
 .landingpage__problem,
 .landingpage__guide,
 .landingpage__product,
-.landingpage__blog, .posts_group {
+.landingpage__blog {
   padding: var(--block-padding);
   border-radius: var(--block-radius);
 
@@ -12,7 +12,8 @@
 }
 
 .landingpage__product,
-.landingpage__blog, #posts, .posts_group {
+.landingpage__blog,
+.posts_group {
   // Halve the inner spacing to make the product boxes round
   --block-padding: calc(var(--block-radius) / 2);
   --block-item-radius: calc(var(--block-radius) - var(--block-padding));

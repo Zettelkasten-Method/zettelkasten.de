@@ -82,7 +82,7 @@ And this is what my Zettelkasten environment in The Archive looks like:
 <%=email("hi@christiantietze.de", text: "Email Christian")%>  &bull;  Get his posts as an [RSS Feed](/authors/christian/feed.atom).
 
 <% partitioned_by_year(sorted_posts_by('christian')).each do |year, months| %>
-<section class="posts_group">
+<section class="posts_group inset-box">
   <header>
     <h2 id="year-<%= year %>"><%= year %></h2>
   </header>
