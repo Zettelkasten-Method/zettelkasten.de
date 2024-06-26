@@ -1,4 +1,4 @@
-<section id="newsletter">
+<section id="newsletter" class="sidebar__element">
   <header>Zettelkasten News</header>
   <p>Sign up now to receive course announcements, product news, and community updates first.</p>
   <a href="/newsletter" class="newsletter-signup-widget" data-target="newsletter-signup" onclick="toggleModal(event)">
@@ -8,13 +8,22 @@
   </a>
 </section>
 
-<% if item_has_toc? %>
-  <section id="toc">
-    <header>Table of Contents</header>
-    <nav aria-label="Table of Contents">
-      {{TOC}}
-    </nav>
-    <a href="#top" class="totop">↑ Return to Top</a>
-    <div class="toc-buffer"></div>
-  </section>
-<% end %>
+<div class="sidebar-container">
+    <% if item_has_toc? %>
+    <section id="toc" class="sidebar__element">
+      <header>Table of Contents</header>
+      <nav aria-label="Table of Contents">
+        {{TOC}}
+      </nav>
+      <a href="#top" class="totop">↑ Return to Top</a>
+    </section>
+  <% end %>
+
+  <% if !@item[:sidebar_elements].nil? %>
+    <% @item[:sidebar_elements].each do |element| %>
+      <section class="sidebar__element">
+        <%= element %>
+      </section>
+    <% end %>
+  <% end %>
+</div>

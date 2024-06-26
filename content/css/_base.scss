@@ -377,6 +377,9 @@ hr, figure, aside, table, article table {
   display: flex;
   flex-direction: column;
   gap: calc(2 * $vrhythm);
+
+  font-family: $font-sans;
+  font-size: $small-size;
 }
 
 #sidebar header {
@@ -384,11 +387,13 @@ hr, figure, aside, table, article table {
 }
 
 #sidebar { display: none; } // No sidebar on mobile
+#sidebar a {
+  color: currentColor;
+}
 
 #toc {
   --border-width: 2px;
 
-  font-size: $small-size;
   ol { list-style: none; margin: 0; padding: 0; }
   ol > li { margin: 0; padding: 0; }
 
@@ -439,24 +444,34 @@ hr, figure, aside, table, article table {
     grid-area: content;
   }
   #sidebar {
-    display: block;
     grid-area: sidebar;
     padding-top: $vrhythm;
+
+    display: flex;
+    flex-direction: column;
+    gap: $vrhythm;
+
+    .sidebar__element {
+      margin-bottom: $vrhythm;
+    }
+  }
+
+  .sidebar-container {
+    --offset: 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    height: calc(100vh - var(--offset));
+    max-height: 100vh;
+    overflow-y: scroll;
   }
 
   // Stole sidebar settings from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
   #toc {
-    --offset: 0;
     display: flex;
-    gap: calc($vrhythm / 2);
-
     flex-direction: column;
-    position: sticky;
-    height: calc(100vh - var(--offset));
-    top: 0;
-
-    // Extend the sidebar height
-    .toc-buffer { min-height: 25vh; }
+    gap: calc($vrhythm / 2);
   }
 }
 
