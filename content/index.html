@@ -57,7 +57,7 @@ canonical: "/"
 
   <div class="posts_list">
     <% sorted_posts().filter(&My::Blog::Post.method(:is_previewable?)).take(6).each do |post| %>
-      <%= render '/_post-landingpage.*', :post => post %>
+      <%= render '/_post-archive.*', :post => post, :show_author => true %>
     <% end %>
   </div>
 </section>

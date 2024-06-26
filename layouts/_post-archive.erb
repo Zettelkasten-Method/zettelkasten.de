@@ -3,7 +3,9 @@
     <h3 class="minimalpost__title"><%= Post::post_title_link_for(@post) %></h3>
     <div class="minimalpost__meta">
       <%= Date::MONTHNAMES[Post::date_of(@post).month].to_s + " " + Post::date_of(@post).year.to_s %>
-      by <span class="minimalpost__author <%= 'hidden' unless @show_author == true %>"><%= Post::author_name_for(@post) %></span>
+      <% if @show_author == true %>
+        by <span class="minimalpost__author"><%= Post::author_name_for(@post) %></span>
+      <% end %>
     </div>
   </header>
   <%= Post::teaser_for(@post, class: "teaser") %>
