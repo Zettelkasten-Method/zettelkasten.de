@@ -194,25 +194,30 @@ a {
   text-decoration-skip-ink: auto;
   text-underline-offset: 0.1em;
 }
-figure > a,
-a.image-link {
-  text-decoration: none;
-}
+
 a:hover {
   color: $color-link;
   text-decoration: none;
 }
+
 figure {
-  margin-left: -$margin-content-wrapper;
-  margin-right: -$margin-content-wrapper;
+  margin-inline: -$margin-content-wrapper;
+
   font-style: italic;
+
   em, i {
     font-style: normal;
   }
+
+  a, a:hover {
+    color: currentColor;
+  }
+
+  @media only screen and (min-width: $medium-breakpoint) {
+    margin-inline: 1rem;
+  }
 }
-figure a, figure a:hover {
-  text-decoration: none;
-}
+
 pre {
   overflow: auto;
   background: white;
