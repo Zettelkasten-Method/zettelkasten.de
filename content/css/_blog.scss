@@ -290,13 +290,27 @@ h2.post__title { font-size: 1.4rem; margin-bottom: 0; line-height: $vrhythm; }
   margin-bottom: -$vrhythm;
 }
 
-aside#article_hook,
 aside#comments {
   margin-top: $vrhythm;
   // Remove big margin from topmost comment content separator
   & > hr:first-child {
     margin-top: 0
   }
+}
+
+aside#article_hook {
+  margin-top: $vrhythm;
+
+  display: flex;
+  flex-direction: column;
+  gap: calc($vrhythm / 2);
+
+  font-family: $font-sans;
+  font-size: $small-size;
+
+  // Reset margin
+  & > p { margin-block: 0; }
+  & > * { margin-inline: var(--halved-margin-offset); }
 }
 
 .post aside,
@@ -313,11 +327,6 @@ aside.note {
   border: 0.2em solid $color-aside-note;
 }
 
-aside#article_hook {
-  font-family: $font-sans;
-  // border-radius: var(--block-radius);
-  // border: 0.2em solid $color-accent2;
-}
 // TODO: Same style as coaching picture; unify them
 img.author-profile-picture {
   display: block;
