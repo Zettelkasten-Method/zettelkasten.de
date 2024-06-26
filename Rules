@@ -205,7 +205,7 @@ compile '/**/*' do
     # layout 'default' # use if basic `section > h1` setting doesn't suffice
   end
 
-  if item[:toc]
+  if item_has_toc?(item)
     filter :add_toc
   end
 end

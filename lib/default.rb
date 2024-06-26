@@ -30,12 +30,13 @@ unless defined? LOADED_DEFAULT_CONFIG
     remove_html_tags(@item[:title])
   end
 
-  def item_has_toc?
-    if toc = @item[:toc]
+  def item_has_toc?(item = nil)
+    item ||= @item
+    if toc = item[:toc]
       return toc != false && toc != "off"
     else
       # Enable ToC for all articles
-      @item[:kind] == "article"
+      item[:kind] == "article"
     end
   end
 
