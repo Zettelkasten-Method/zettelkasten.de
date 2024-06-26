@@ -1,0 +1,368 @@
+@use 'sass:color';
+
+// Checkboxes in lists in posts are usually meant for visualization
+.post li input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 0.5em;
+  transform: scale(1.5);
+}
+.post li:has(input[type="checkbox"]) {
+  list-style: none;
+  margin-left: $list-indentation; // Increase indendation; checkboxes need more room
+  input[type="checkbox"] {
+    margin-left: -($list-indentation + 0.5em);
+  }
+}
+
+// Remove large heading space between post title and its inevitable metadata; style .page__title in the same way for visual consistency. Limit post title to h1 to only target single post pages.
+h1.post__title, .page__title { margin-bottom: 0; line-height: 2 * $vrhythm; }
+h2.post__title { font-size: 1.4rem; margin-bottom: 0; line-height: $vrhythm; }
+
+
+// (Clickable) Post titles
+#posts .post__title {
+  font-family: $font-sans;
+  a, a:hover, a:visited, a:link {
+    color: currentColor;
+    text-decoration: none;
+  }
+}
+
+.post--link {
+  .post__title { font-size: $base-size; }
+  .post__title::before { content: '→ ' };
+}
+
+.tags {
+  display: inline;
+  padding-left: 0;
+  margin-left: 0;
+
+  li {
+    display: inline;
+    list-style: none;
+    padding-right: 0;
+  }
+}
+
+
+
+/** Blog archive */
+
+.posts_group {
+  font-family: $font-sans;
+  background: $color-background-dark;
+  box-shadow: rgba(0,0,0,0.1) 0 0.1rem 0.1rem inset,
+              rgba(255,255,255,0.2) 0px 1px 0px;
+}
+
+.posts_group:not(:last-child) {
+  margin-bottom: var(--block-spacing);
+}
+
+.posts_group {
+  // Double the halved block padding of this block so this paragraph has leading/trailing space like other paragraphs in other blocks. Unlike products, blog post texts aren't centered, so ensure a minimum of 0.5rem to not feel squishy.
+  --halved-margin-offset: max(var(--block-padding), 0.5rem);
+
+  h2 {
+    font-family: $font-sans;
+    margin-inline: var(--halved-margin-offset);
+    margin-block: 0 calc($vrhythm / 2);
+  }
+
+  .posts_list {
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(25rem, 100%), 1fr));
+    gap: var(--block-item-spacing);
+
+    article {
+      background: $color-background;
+      border-radius: var(--block-item-radius);
+      box-shadow: color.scale($color-accent2, $lightness: -10%, $alpha: -70%) 0 0.1rem 0.2rem,
+                  color.scale($color-accent2, $lightness: -10%, $saturation: -20%, $alpha: -70%) 0 0.1rem 1rem;
+      overflow: hidden;
+
+      display: grid;
+      grid-template:
+        "title title title img" auto
+        "desc  desc  desc  img" 1fr
+        / 1fr 1fr 1fr 1fr ;
+      @media only screen and (min-width: $large-breakpoint) {
+        grid-template:
+          "title title img" auto
+          "desc  desc  img" 1fr
+          / 1fr 1fr 1fr;
+      }
+      gap: calc(var(--block-item-spacing) / 2);
+
+      font-size: 0.8rem;
+
+      header, .description {
+        padding-left: var(--halved-margin-offset, 0.5rem);
+      }
+
+      header { padding-top: 0.5lh; }
+      .description { padding-bottom: 0.5lh; }
+
+      header {
+        grid-area: title;
+      }
+      h3 {
+        font-size: 1rem;
+        margin-bottom: 0;
+      }
+      .minimalpost__meta {
+        color: $color-med;
+      }
+      .description {
+        grid-area: desc;
+        margin: 0;
+      }
+      .teaser {
+        grid-area: img;
+        margin: 0;
+        display: flex;
+        & > a { flex: 1 1 auto; display: flex; }
+        img {
+          flex: 1 1 auto;
+          object-fit: cover;
+          object-position: center center;
+        }
+      }
+    }
+  }
+}
+
+.posts__browse { font-size: $large-base-size; font-family: $font-sans; }
+.allposts__post {}
+.minimalpost{}
+.post--minimal {}
+.minimalpost__title {}
+.minimalpost__time { font-size: $small-size; font-family: $font-sans; }
+.minimalpost__author {}
+
+
+
+
+.post { margin-bottom: 2 * $vrhythm; }
+// In a listing like the home page, increase spacing without collapsing margins
+#posts .post + .post { padding-top: 2 * $vrhythm; }
+
+.post__meta,
+.page__meta {
+  display: inline-block;
+  padding-left: 0;
+  margin-top: 0;
+  margin-left: 0;
+  list-style-type: none;
+  font-size: $small-size;
+  font-family: $font-sans;
+
+  li { display: inline-block; }
+
+  // Visually tone-down meta links to not distract from other links, esp. "Continue Reading"
+  a, a:link, a:hover, a:visited { color: $color-text; }
+  a, a:link, a:visited { border-color: $color-text; }
+  a:hover { border-color: transparent; }
+}
+.post header .post__meta,
+.post header .page__meta {
+  margin-bottom: $vrhythm
+}
+.post footer .post__meta,
+.post footer .page__meta {
+  margin-bottom: 0;
+}
+
+.post__languages {
+  font-family: $font-sans;
+  display: block;
+}
+.post footer .post__languages { margin-bottom: $vrhythm; }
+.page .post__languages,
+.post header .post__languages {
+  margin-bottom: $vrhythm;
+  line-height: 1rem;
+
+  .active {
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid $color-text;
+    border-radius: 1rem;
+  }
+
+  a, a:hover, a:link { text-decoration: none; }
+  a {
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid $color-link;
+    border-radius: 1rem;
+    &:active, &:hover {
+      background: $color-link;
+      color: $color-background;
+    }
+  }
+}
+
+.post footer { margin-bottom: $vrhythm; }
+
+
+.post-figure {
+  text-align: center;
+}
+.post-figure--grid {
+  display: flex;
+  flex-direction: column;
+  .post-figure__images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .post_figure--grid__item {
+    display: block;
+    box-sizing: border-box;
+    width: 49%;
+  }
+}
+.post-teaser {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.summary { margin-top: 1em; }
+.post-teaser__image { max-width: 100%; }
+.post-figure__image {
+  border-width: 0;
+  padding: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.post-figure__caption {
+  font-size: $small-size;
+  margin-top: 1em;
+}
+.teaser__image { }
+
+.footnote-button {
+  -webkit-font-smoothing: antialiased;
+  backface-visibility: hidden;
+  border: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+  color: $color-link;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  height: 1.6em;
+  line-height: 1;
+  padding: 0 0.4em;
+  min-width: 1.8em;
+  position: relative;
+  text-decoration: none;
+  top: -0.5em;
+  transition-duration: 0.2s;
+  transition-property: background-color color;
+  transition-timing-function: ease;
+  vertical-align: middle;
+  z-index: 5;
+
+  &.is-active {
+    transition-delay: .1s;
+  }
+
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+.footnotes {
+  margin-top: 3em;
+  font-size: $small-size;
+  p { margin-bottom: 0; margin-top: 0; }
+}
+// Do not add big margin when this is the first actual content of a post
+.post--single > header + * {
+  margin-top: 0;
+}
+// Negate the spacing on overviews
+.post--in-list > header {
+  margin-bottom: -$vrhythm;
+}
+
+aside#article_hook,
+aside#comments {
+  margin-top: $vrhythm;
+  // Remove big margin from topmost comment content separator
+  & > hr:first-child {
+    margin-top: 0
+  }
+}
+
+.post aside,
+aside.note {
+  font-family: $font-sans;
+  padding: 0 1em;
+}
+
+// `.post aside` sets padding; littlefoot v3.x doesn't allow overrides
+.post aside.littlefoot-footnote { padding: 0 !important; }
+
+aside.note {
+  border-radius: var(--block-radius);
+  border: 0.2em solid $color-aside-note;
+}
+
+aside#article_hook {
+  font-family: $font-sans;
+  // border-radius: var(--block-radius);
+  // border: 0.2em solid $color-accent2;
+}
+// TODO: Same style as coaching picture; unify them
+img.author-profile-picture {
+  display: block;
+  max-width: 100%;
+  @media only screen and (min-width: $medium-breakpoint) {
+    float: right;
+    max-width: 50%;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  @media only screen and (min-width: $large-breakpoint) {
+    float: right;
+    width: 33%;
+    margin-left: 1em;
+    margin-bottom: 0.1em;
+  }
+}
+
+.post-figure__image {
+  background: #fff;
+}
+.post-figure--borderless .post-figure__image {
+  border-color: transparent;
+  padding: 0;
+  background: transparent;
+}
+
+@media only screen and (min-width: $medium-breakpoint) {
+  .post-figure__image {
+    border: 1px solid #d4d4d4;
+    padding: 0.25em;
+  }
+
+  .post-teaser {
+    max-width: 40%;
+    float: right;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+}

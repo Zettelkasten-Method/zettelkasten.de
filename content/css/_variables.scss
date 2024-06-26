@@ -45,6 +45,17 @@ $modern-breakpoint: 1281px;
 
 $list-indentation: 1em;
 
+:root {
+  --content-width: 60rem;
+  // The large block elements on the landing page
+  --block-radius: min(4vh, 3vw);
+  --block-padding: var(--block-radius);
+  --block-spacing: var(--block-radius);
+  // Their inner elements and cards
+  --block-item-radius: calc(var(--block-radius) - var(--block-padding));
+  --block-item-spacing: calc(var(--block-radius) / 2);
+}
+
 
 /** Helpers */
 
