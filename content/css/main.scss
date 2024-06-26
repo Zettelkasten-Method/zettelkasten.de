@@ -2,6 +2,7 @@
 @import "_variables.scss";
 @import "_base.scss";
 @import "_print.scss";
+@import "_dialog.scss";
 @import "_actions.scss";
 @import "_menu.scss";
 @import "_newsletter.scss";
@@ -41,6 +42,8 @@
   --block-padding: calc(var(--block-radius) / 2);
   --block-item-radius: calc(var(--block-radius) - var(--block-padding));
 }
+
+.homepage #sidebar { display: none; }
 
 html.homepage {
   font-size: $base-size;

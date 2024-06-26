@@ -2,7 +2,7 @@
 
 # https://github.com/nanoc/nanoc.app/blob/master/lib/helpers/fingerprint.rb
 def fingerprint(pattern)
-  if ENV['NANOC_ENV'] == 'dev'
+  if !config[:is_deploying]
     'dev'
   else
     contents = @items.find_all(pattern).map do |i|

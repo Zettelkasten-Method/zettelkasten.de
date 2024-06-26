@@ -14,6 +14,7 @@ html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
+  scroll-behavior: smooth;
 }
 
 /* Remove default margin in favour of better control in authored CSS */
@@ -272,6 +273,7 @@ $margin-content-wrapper: 3%;
 
 .main {
   padding: $vrhythm 0;
+  min-height: 50vh;
 }
 
 .youtube iframe { // YouTube videos
@@ -777,7 +779,17 @@ img.author-profile-picture {
   h2 { clear: both; }
 }
 
-#sidebar { margin: 0; }
+#sidebar {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(2 * $vrhythm);
+}
+
+#sidebar header {
+  font-weight: bold;
+}
+
 #toc { display: none; } // No ToC on mobile
 #toc {
   --border-width: 2px;
@@ -839,14 +851,15 @@ img.author-profile-picture {
   }
   #sidebar {
     grid-area: sidebar;
-    padding-top: calc(2 * $vrhythm);
-    // nav { height: calc(100vh - 3 * $vrhythm); }
+    padding-top: $vrhythm;
   }
 
   // Stole sidebar settings from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
   #toc {
     --offset: 0;
     display: flex;
+    gap: calc($vrhythm / 2);
+
     flex-direction: column;
     position: sticky;
     height: calc(100vh - var(--offset));

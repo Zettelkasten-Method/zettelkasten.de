@@ -33,3 +33,12 @@
     Except where otherwise noted, content on this site is licensed <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. <a href="/legal/">Contact &amp; Legal Notice</a>
   </section>
 </footer>
+
+<dialog id="newsletter_signup" class="modal dialog">
+  <div class="dialog-container">
+    <a href="#close" aria-label="Close" class="close" data-target="newsletter_signup" onclick="toggleModal(event)">
+      <span aria-hidden="true" class="iconic" data-glyph="x"></span> <span aria-hidden="true" class="visuallyhidden">Close</span>
+    </a>
+    <%= render '/_newsletter_signup.*' %>
+  </div>
+</dialog>
