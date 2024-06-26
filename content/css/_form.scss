@@ -1,0 +1,27 @@
+button,
+input,
+select,
+textarea {
+  color: $color-text;
+  font-size: 1rem;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+label, input {
+  font-family: $font-sans;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  background: $color-background-textinput
+}
