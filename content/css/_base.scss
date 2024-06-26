@@ -232,16 +232,19 @@ figure {
   }
 }
 
+code {
+  font-family: $font-mono;
+  font-size: 94%; // about the same x-height of normal font
+}
 pre {
   overflow: auto;
   background: white;
   $whitespace: 0.5rem;
   padding: $whitespace;
   margin-inline: -$whitespace;
-}
-code, pre {
   font-family: $font-mono;
-  font-size: 94%; // about the same x-height of normal font
+  font-size: $small-size;  // 0.8rem suffices to fit ~80ch
+  code { font-family: $font-mono; }
 }
 .language-markdown pre {
   white-space: pre-wrap;
