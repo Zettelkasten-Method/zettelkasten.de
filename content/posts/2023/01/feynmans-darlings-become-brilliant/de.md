@@ -1,5 +1,5 @@
 ---
-title: "Feynmans 12 Lieblinge -- Oder: Wie jeder genial sein kann"
+title: "Feynmans 12 Lieblinge – Oder: Wie jeder genial sein kann"
 created_at: 2023-01-15 19:46:02 +0100
 kind: article
 author: sascha

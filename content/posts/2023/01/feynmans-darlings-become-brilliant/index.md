@@ -1,5 +1,5 @@
 ---
-title: "Feynman's Darlings -- Or: How Anyone Can Become Brilliant"
+title: "Feynman's Darlings – Or: How Anyone Can Become Brilliant"
 created_at: 2023-01-15 19:48:26 +0100
 kind: article
 author: sascha
