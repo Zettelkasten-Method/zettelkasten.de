@@ -469,24 +469,6 @@ article table {
   }
 }
 
-/** Tools Page */
-
-.tool { font-family: $font-sans; }
-.tool dd, .tool dt { margin-left: 0; }
-.tool h3 { font-size: inherit; margin-bottom: 0; }
-.tool ul { margin-top: 0; }
-.tool-link { color: currentColor; text-decoration: none; }
-.tool-icon { max-width: 14em; }
-.tool-icon figure { margin: 0; }
-.tool-icon__image { width: 80%; }
-.tool-specs {}
-.tool-specs__spec { display: inline; list-style-type: none;  color: $color-light; }
-.tool-specs__spec:after { content: ' \00B7';}
-.tool-specs__spec:last-child:after { content: ''; }
-.tool-usage {}
-.tool-usage__submit { list-style-type: none; }
-.tool-author--single *, .tool-review * { display: inline; }
-.tool-author--single h3, .tool-review h3 { margin-right: 0.5em; }
 
 .post { margin-bottom: 2 * $vrhythm; }
 // In a listing like the home page, increase spacing without collapsing margins
@@ -749,12 +731,6 @@ img.author-profile-picture {
 }
 
 @media only screen and (min-width: $medium-breakpoint) {
-  .tool {
-    font-size: $small-size;
-  }
-
-  .tool-icon { max-width: 100%; }
-
   .oldie nav a {
       margin: 0 0.7%;
   }
