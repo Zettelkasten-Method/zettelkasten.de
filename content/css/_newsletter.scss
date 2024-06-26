@@ -13,10 +13,12 @@
   font-size: $small-size;
   font-family: $font-sans;
 
-  a.signup { text-decoration: none; border: none; }
-
   p { margin: 0; }
+}
 
+a.newsletter-signup-widget { text-decoration: none; border: none; }
+
+.newsletter-signup-widget {
   .box {
     display: flex;
 
