@@ -56,7 +56,7 @@ dialog a.close {
 }
 
 /** Newsletter signup dialog */
-dialog#newsletter_signup {
+dialog#newsletter-signup {
   // Half padding to show action buttons with fitting border-radius
   --padding: calc(var(--block-padding) / 2);
 
