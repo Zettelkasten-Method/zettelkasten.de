@@ -32,12 +32,12 @@ sub { bottom: -0.25em; }
 img { border: 0; }
 
 ::-moz-selection {
-    background: $color-selection;
-    text-shadow: none;
+  background: $color-selection;
+  text-shadow: none;
 }
 ::selection {
-    background: $color-selection;
-    text-shadow: none;
+  background: $color-selection;
+  text-shadow: none;
 }
 
 hr {
@@ -51,7 +51,7 @@ hr {
 }
 
 img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .header-container {
@@ -458,12 +458,6 @@ hr, figure, aside, table, article table {
   }
 }
 
-@media only screen and (min-width: 1200px) {
-  figure {
-    /* figure used negative margins to display to-the-edge on mobile */
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-
+@media only screen and (min-width: $modern-breakpoint) {
   .tool ul { padding-left: 0; }
 }
