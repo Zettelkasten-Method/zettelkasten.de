@@ -113,6 +113,20 @@ $margin-content-wrapper: 3%;
   max-width: 94%;
   margin-inline: $margin-content-wrapper;
 }
+
+.content-container {
+  display: grid;
+  grid-template-columns: [content-start sidebar-start] auto [sidebar-end content-end];
+  grid-template-rows: [content-start] auto [content-end sidebar-start] auto [sidebar-end];
+}
+
+#content {
+  grid-area: content;
+}
+#sidebar {
+  grid-area: sidebar;
+}
+
 .footer-container { background: $color-background-footer; }
 
 #footer {
@@ -386,7 +400,6 @@ hr, figure, aside, table, article table {
   font-weight: bold;
 }
 
-#sidebar { display: none; } // No sidebar on mobile
 #sidebar a {
   color: currentColor;
 }
@@ -432,26 +445,22 @@ hr, figure, aside, table, article table {
 
 @media only screen and (min-width: $large-breakpoint) {
   .content-container {
-    display: grid;
     grid-template-columns: [content-start] repeat(4, minmax(min(7rem, 15vw), 1fr)) [content-end sidebar-start] repeat(2, minmax(min(5rem, 8vw), 1fr)) [sidebar-end];
+    grid-template-rows: [content-start sidebar-start] auto [sidebar-end content-end];
     grid-column-gap: clamp(0.5rem, 3vw, 2rem);
     margin-inline: auto;
     padding-inline: var(--block-padding, 0.5rem);
     max-width: var(--content-width);
   }
 
-  #content {
-    grid-area: content;
-  }
   #sidebar {
-    grid-area: sidebar;
     padding-top: $vrhythm;
 
     display: flex;
     flex-direction: column;
     gap: $vrhythm;
 
-    .sidebar__element {
+    .sidebar__element:not(:last-child) {
       margin-bottom: $vrhythm;
     }
   }
