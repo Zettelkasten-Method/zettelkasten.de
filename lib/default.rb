@@ -44,4 +44,13 @@ unless defined? LOADED_DEFAULT_CONFIG
     re = /<("[^"]*"|'[^']*'|[^'">])*>/
     string.gsub(re, '')
   end
+
+  def render_alternate_links
+    case @item[:alternate]
+    when nil    then return ""
+    when String then return %Q{<link rel="alternate" href="#{@item[:alternate]}">}
+    when Array  then return @item[:alternate].map { %Q{<link rel="alternate" href="#{_1[:href]}" lang="#{_1[:lang]}">} }.join("\n")
+    else raise "Unexpected alternate attribute: #{@item[:alternate]}"
+    end
+  end
 end

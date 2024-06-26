@@ -11,7 +11,7 @@
   <meta name="revisit-after" content="1 day">
   <meta name="language" content="<%= item_lang %>">
   <%= render_language_links %>
-  <%= %Q{<link rel="alternate" href="#{@item[:alternate]}">} if item[:alternate] %>
+  <%= render_alternate_links %>
 
   <% if @item[:kind] == 'article' %>
     <meta name="og:title" content="<%= item_title_only %>">
