@@ -273,7 +273,7 @@ pre {
   }
 }
 
-ul { padding-inline-start: $list-indentation; }
+ul { padding-inline-start: var(--list-indentation); }
 
 ul > li > p { margin-top: 0; }
 

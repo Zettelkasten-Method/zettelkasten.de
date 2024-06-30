@@ -8,9 +8,9 @@
 }
 .post li:has(input[type="checkbox"]) {
   list-style: none;
-  margin-left: $list-indentation; // Increase indendation; checkboxes need more room
+  margin-left: var(--list-indentation); // Increase indendation; checkboxes need more room
   input[type="checkbox"] {
-    margin-left: -($list-indentation + 0.5em);
+    margin-left: calc(-1 * (var(--list-indentation) + 0.5em));
   }
 }
 

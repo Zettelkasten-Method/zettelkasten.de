@@ -45,9 +45,9 @@ $medium-breakpoint: 480px;
 $large-breakpoint: 900px;
 $modern-breakpoint: 1281px;
 
-$list-indentation: 1em;
 
 :root {
+  --list-indentation: 1em;
   --content-width: 60rem;
   // The large block elements on the landing page
   --block-radius: min(4vh, 3vw);
