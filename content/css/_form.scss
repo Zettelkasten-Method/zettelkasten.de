@@ -7,19 +7,20 @@ textarea {
 }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 label, input {
   font-family: $font-sans;
 }
 
+input[type="password"],
 input[type="text"],
 input[type="number"],
 input[type="email"] {
