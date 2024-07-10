@@ -126,7 +126,7 @@ It will offer very specific routines to achieve a specific effect. This will bri
 
 *Example from Training:* If you exercise early in the morning, you should consider the circumstances. The fact that you didn't move for a long time beforehand (because you slept), that you may be tired and that it is often not wise to exercise at high intensity early in the morning. However, if you want to shift your strength training to the early morning, you can do this, and you can do it cleverly. For example, you should train minimally to normally:
 
-<%=insert_rel_image file: "training-thresholds.jpg" %>
+<%=insert_rel_image file: "training-thresholds.png" %>
 
 *Example from training:* If you work in a sitting position, you are bringing a pretty big risk factor for your health into your life. A good habit to get into is establishing a "buy in" for sitting. This is a term I borrowed from Crossfitters. It simply means that you do one thing first so that you have permission to do the other. My *current* buy in is 2 minutes of swings with the kettlebell. I always do this before I sit down at my desk in the morning.
 
