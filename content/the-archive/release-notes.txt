@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2023-12-29 16:18:30 +0100
+updated_at: 2024-07-11 11:04:52 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,23 @@ layout: the-archive
 # The Archive: Release Notes
 
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
+"Beta" releases are available to you as soon as you switch to the "Cutting Edge" update channel in _The Archive_'s preferences.
+
+## v1.7.15 Beta (2024-07-11)
+
+- **New:** More Markdown commands now have entries in the "Format" menu so you can [assign custom shortcuts](https://zettelkasten.de/the-archive/help/#how-can-i-assign-custom-shortcuts).
+    - Inline code: <kbd>Cmd+Ctrl+C</kbd>
+    - Code blocks: <kbd>Cmd+Ctrl+Shift+C</kbd>
+    - Link (insert or remove): <kbd>Cmd+K</kbd>
+- **New:** Smart re-emphasis. Existing emphasis in the selection will be removed before wrapping the result in the desired markup.
+- **New:** "Reveal in Finder" added to right-click menu on image paths.
+- **New:** [Hidden preference](https://zettelkasten.de/the-archive/help/#hidden-preferences) to change the pasted image filename pattern via `thearchive://preference/pastedImageFilename/`. Accepts [Unicode Technical Standard #35 format](http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns).
+- **New:** [Hidden preference](https://zettelkasten.de/the-archive/help/#hidden-preferences) ot change the Zettel identifier date format via `thearchive://preference/identifierDateFormat/`. Accepts [Unicode Technical Standard #35 format](http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns).
+- **Changed:** Markup shortcuts operate on selected or adjacent words. This should "do what you mean" more often.
+- **Improved:** Typing performance in long documents (especially when typing auto-pairing characters).
+- **Improved:** Search responsiveness in situations of limited resources (e.g. during a video call on relatively slow Intel MacBook Airs).
+- **Fixed:** Moving lines up/down with a shortcut scrolls the new line location into view if Typrwriter Mode is disabled, so you can actually see where you're moving the line.
 
 ## v1.7.14 (2023-12-29)
 
