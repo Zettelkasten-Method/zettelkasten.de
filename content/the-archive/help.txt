@@ -47,6 +47,10 @@ Currently supported preferences (replace `<PREFNAME>` with these):
   Default value: `true`.<br>
   Turn the image preview on and off.
 
+- `identifierDateFormat` (string).<br>
+  Default Value: `yyyyMMddHHmm`.<br>
+  The [Unicode TR35-formatted](https://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns) file name pattern for new notes and unique ID generation from the main menu or <kbd>⌘</kbd>+<kbd>U</kbd> shortcut. For example, to include seconds in the timestamps, use `yyyyMMddHHmmss`.
+
 - `isHighlightingMarkdown` (boolean).<br>
   Default value: `true`.<br>
   Turn Markdown highlighting on and off.
@@ -58,6 +62,10 @@ Currently supported preferences (replace `<PREFNAME>` with these):
 - `maxInlineImagePreviewHeight` (number).<br>
   Default value: `400` pixels.<br>
   Preview images will always shrink to fit to the text column's width. This value determines tha maximum height, so you don't fill multiple screens worth of scrolling with tall screenshots. We recommend a value no larger than half your screen height.
+
+- `pastedImageFilename` (string).<br>
+  Default value: `yyyy-MM-dd HH-mm 'Pasted Image'`.<br>
+  The [Unicode TR35-formatted](https://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns) file name pattern for images pasted from the system clipboard. To get a shorter name without spaces, try e.g. `yyyyMMdd'_image'`. You can also omit all date and time and just call them `'pasted-image'` (note the single quotes to tell the formatter to not interpret parts of this name as a date/time format piece).
 
 - `resultsCellHeightFactor` (fractional number).<br>
   Default value: `2.2`.<br>
