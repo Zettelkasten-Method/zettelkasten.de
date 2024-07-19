@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2024-07-11 11:04:52 +0100
+updated_at: 2024-07-19 09:42:28 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -10,6 +10,13 @@ layout: the-archive
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
 "Beta" releases are available to you as soon as you switch to the "Cutting Edge" update channel in _The Archive_'s preferences.
+
+## v1.7.16 Beta (2024-07-19)
+
+- **Fixed:** Crash introduced in the previous beta (v1.7.15) when using formatting shortcuts in documents after non-ASCII characters.
+- **Fixed:** Menu items like "Switch Archives" work without an editor window, too. Previously, they were disabled unless you saw an app window.
+- **New:** User-facing option to change the new smart formatting behavior in the "Format" menu and the "Editing" app preference pane.
+- **New:** Clear search highlights in a note from _View ▶ Clear Highlighted Terms_.
 
 ## v1.7.15 Beta (2024-07-11)
 

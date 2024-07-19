@@ -1,6 +1,6 @@
 ---
 title: The Archive Help
-updated_at: 2024-04-12 07:43:53 +0100
+updated_at: 2024-07-19 10:09:00 +0100
 description: "Resources and information for The Archive, macOS note-taking app for prolific writers and productive researchers."
 layout: the-archive
 toc: true
@@ -18,10 +18,21 @@ toc: true
 
 ## Check Out Our Forums
 
-Out community of users is pretty amazing. You should get to know them! We'll answer any app-related questions on the forums, too, so those coming after you can benefit from your question.
+Our community of users is pretty amazing. You should get to know them! We'll answer any app-related questions on the forums, too, so those coming after you can benefit from your question.
 
 Find discussions about _The Archive_ here:
 <https://forum.zettelkasten.de/categories/the-archive>
+
+
+## Text Formatting
+
+### Smart Formatting Shortcuts
+
+When you use the _Format_ menu and/or shortcuts like <kbd>⌘</kbd>+<kbd>B</kbd> to make text bold, you can change how these formatting shortcuts behave. 
+
+The default is a smart "do what I mean" approach that, depending on the context, performs different actions. For example, using the shortcut to make text bold, it will apply this shortcut to the next word to the left or right of the cursor.
+
+Once you turn this off, you get the typical Markdown bold text markers without expanding the selection to the nearest word.
 
 ## Hidden Preferences
 
@@ -78,6 +89,7 @@ Currently supported preferences (replace `<PREFNAME>` with these):
 - `timeZoneOverride` (string).<br>
   Default is unset, effectively using the system's time zone.<br>
   `<VALUE>` can be an abbreviation like `UTC` or `CEST` and is case-sensitve. New note IDs will be generated for the current time in that time zone.
+
 
 ## Frequently Asked Questions
 
