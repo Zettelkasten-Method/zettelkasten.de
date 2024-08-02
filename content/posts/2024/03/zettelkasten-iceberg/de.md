@@ -51,7 +51,7 @@ Das ist genau der richtige Schluss, wenn wir die Probleme der Oberflächenschich
 
 **Distill** (Konzentrieren) ist eine Methode, wie man den Text durch Markierungen für spätere Verarbeitung aufbereitet. Hier lasse ich Forte selbst zu Wort kommen:
 
-> **Machen Sie sich nicht die Mühe, jeden Punkt zu analysieren, zu interpretieren oder zu kategorisieren, um zu entscheiden, ob er hervorgehoben werden soll. Das ist viel zu anstrengend** und unterbricht das Fließen Ihrer Konzentration. Verlassen Sie sich stattdessen auf Ihre Intuition, wann eine Passage interessant, kontraintuitiv oder relevant für Ihre Lieblingsprobleme oder Ihr aktuelles Projekt ist. [^forte2022-14Z0] (Meine Übersetzung und Hervorhebungen)
+> **Machen Sie sich nicht die Mühe, jeden Punkt zu analysieren, zu interpretieren oder zu kategorisieren, um zu entscheiden, ob er hervorgehoben werden soll. Das ist viel zu anstrengend** und unterbricht das Fließen Ihrer Konzentration. Verlassen Sie sich stattdessen auf Ihre Intuition, wann eine Passage interessant, kontraintuitiv oder relevant für Ihre Lieblingsprobleme oder Ihr aktuelles Projekt ist. [^forte2022-140] (Meine Übersetzung und Hervorhebungen)
 
 [^forte2022-140]: Tiago Forte (2022): Building a Second Brain, Great Britain: Profile Books, S. 140.
 
