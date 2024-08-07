@@ -1,9 +1,6 @@
 @use 'sass:color';
 
-.landingpage__problem,
-.landingpage__guide,
-.landingpage__product,
-.landingpage__blog {
+.landingpage-block {
   padding: var(--block-padding);
   border-radius: var(--block-radius);
 
