@@ -8,6 +8,6 @@
       <% end %>
     </div>
   </header>
-  <%= Post::teaser_for(@post, class: "teaser") %>
+  <%= Post::teaser_for(@post, class: "teaser", add_link: false) %>
   <p class="description"><%= Post::description_for(@post) %></p>
 </article>

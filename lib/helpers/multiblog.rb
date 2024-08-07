@@ -240,12 +240,19 @@ module My
         return unless path
 
         opts = {
-          class: "post-teaser"
+          class: "post-teaser",
+          add_link: true
         }.merge(opts)
 
         href = item.path
 
-        %Q{<figure class="#{opts[:class]}"><a href="#{href}"><img src="#{path}" alt="Teaser image" class="post-teaser__image" loading="lazy"/></a></figure>}
+        [
+          %Q{<figure class="#{opts[:class]}">},
+          if opts[:add_link] then %Q{<a href="#{href}">} else "" end,
+          %Q{<img src="#{path}" alt="Teaser image" class="post-teaser__image" loading="lazy"/>},
+          if opts[:add_link] then %Q{</a>} else "" end,
+          %Q{</figure>},
+        ].join
       end
 
       def teaser_open_graph_for(item, config)
