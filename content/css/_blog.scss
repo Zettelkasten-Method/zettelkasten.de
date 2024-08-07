@@ -50,7 +50,7 @@ h2.post__title { font-size: 1.4rem; margin-bottom: 0; line-height: $vrhythm; }
 /** Blog archive */
 
 
-.posts_group:not(:last-child) {
+.posts_group--by-year:not(:last-child) {
   margin-bottom: var(--block-spacing);
 }
 
