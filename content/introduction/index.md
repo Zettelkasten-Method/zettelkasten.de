@@ -4,6 +4,7 @@ created_at: 2020-10-27 21:54:00 +0100
 updated_at: 2021-01-28 18:14:00 +0100
 author: sascha
 kind: article
+rel_image: complete-zettel.png
 tags: [ introduction, beginning ]
 description: "Learn how the Zettelkasten works as a system, what a Zettel is made of, and how to grow an organic web of knowledge."
 excerpt: "Why are you reading this introduction? The chances are that you either have an immediate need to solve the riddle of knowledge work, feel overwhelmed by your master's thesis, try to level up your blog, want to write a book because it's cool, try to get on top as a consultant, excel at research, or something like that. But the Zettelkasten Method is more than just a tool to finish some work or project. It is a holistic method on how to deal with knowledge in your life."
