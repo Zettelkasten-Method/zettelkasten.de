@@ -51,6 +51,10 @@ We can truly improve your knowledge mastery if we conduct multiple sessions. The
 
 I am Sascha, and I have been a coach for a decade now. My mission is to teach people how to overcome challenges and transform themselves to match any challenges. One of the challenges is knowledge work. I used the Zettelkasten Method to teach knowledge work to high performing clients who wanted to take the next step in excellence as well as clients struggling with depression who just wanted to finish their master's thesis.
 
+## What Clients are Saying
+
+<%= insert_youtube "viFVuLrr5G0", caption: "Video testimonial offered by Jake" %>
+
 ## Get in Touch!
 
 So, what are you waiting for? You want to become a better learner and utilise the full power of the Zettelkasten Method. Send me an email and we'll set you up for success. I'll reply soon.
