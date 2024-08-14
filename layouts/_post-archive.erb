@@ -1,4 +1,5 @@
-<article class="allposts__post minimalpost post--minimal card">
+<% thumbnail = Post::teaser_for(@post, class: "teaser", add_link: false) %>
+<article class="allposts__post minimalpost post--minimal card <%= if thumbnail then "thumbnail" else "no-thumbnail" end %>">
   <header>
     <h3 class="minimalpost__title"><%= Post::post_title_link_for(@post) %></h3>
     <div class="minimalpost__meta">
@@ -6,8 +7,11 @@
       <% if @show_author == true %>
         by <span class="minimalpost__author"><%= Post::author_name_for(@post) %></span>
       <% end %>
+      <% if @post[:newsletter] == true %>
+        (via Newsletter)
+      <% end %>
     </div>
   </header>
-  <%= Post::teaser_for(@post, class: "teaser", add_link: false) %>
+  <%= thumbnail %>
   <p class="description"><%= Post::description_for(@post) %></p>
 </article>
