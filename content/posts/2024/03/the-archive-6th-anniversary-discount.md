@@ -5,6 +5,7 @@ kind: article
 author: christian
 tags: [ announcement, thearchiveapp ]
 description: "We celebrate the app anniversary with a three-day discount run."
+image: 20190314193821_confetti.png
 ---
 For this year's anniversary of [our app, _The Archive_,](https://zettelkasten.de/the-archive/) we want to show our gratitude to our amazing community by rolling out exclusive discounts for a limited time. 
 

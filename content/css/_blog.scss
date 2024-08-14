@@ -127,6 +127,21 @@ h2.post__title { font-size: 1.4rem; margin-bottom: 0; line-height: $vrhythm; }
         }
       }
     }
+    article.no-thumbnail {
+      // Image to the right looks less odd if the padding is small, but without an image, ensure there's even spacing on both sides.
+      header, .description {
+        padding-right: var(--halved-margin-offset, 0.5rem);
+      }
+      // Full-width text if a card has no image
+      header {
+        grid-column-start: title;
+        grid-column-end: img;
+      }
+      .description {
+        grid-column-start: desc;
+        grid-column-end: img;
+      }
+    }
   }
 }
 
