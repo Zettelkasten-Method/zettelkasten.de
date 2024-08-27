@@ -34,7 +34,7 @@ module Menu
     when :en
       %{<a class="header__link" href="/">Zettelkasten</a>}
     when :de
-      %{<a class="header__link" href="/de/">Zettelkasten</a>}
+      %{<a class="header__link" href="/">Zettelkasten</a>} # 2024-08-27: new landing page, not yet in German
     else
       %{<a class="header__link" href="/">Zettelkasten</a>}
     end
