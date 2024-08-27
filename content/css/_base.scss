@@ -410,6 +410,8 @@ hr, figure, aside, table, article table {
 #toc {
   --border-width: 2px;
 
+  text-wrap: pretty;
+
   ol { list-style: none; margin: 0; padding: 0; }
   ol > li { margin: 0; padding: 0; }
 
@@ -421,6 +423,7 @@ hr, figure, aside, table, article table {
   li > a {
     padding-left: calc(var(--indent) + 1rem);
     margin-left: calc(1 * var(--border-width));
+    padding-block: 0.25rem;
   }
 
   // Limit ToC link colorization to affect the immediate `li > a`, not any `a` (nested) inside.
