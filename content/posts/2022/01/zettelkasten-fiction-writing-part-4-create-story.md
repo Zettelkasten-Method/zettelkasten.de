@@ -20,7 +20,7 @@ excerpt: "In the first part, we learned not to care about the source of the know
 
 What is left for us to learn? Creation.
 
-<%= insert_teaser_image caption: %Q{Image by <a href="https://pixabay.com/users/rescuewarrior-2251306/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2047469">Beverly Lussier</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2047469">Pixabay</a>} %>
+<%= insert_teaser_image caption: %Q{Image by <a href="https://pixabay.com/users/rescuewarrior-2251306/">Beverly Lussier</a> from <a href="https://pixabay.com/">Pixabay</a>} %>
 
 Writing books with the Zettelkasten is [not that difficult](https://zettelkasten.de/posts/write-book-without-even-trying-so-hard/):
 
