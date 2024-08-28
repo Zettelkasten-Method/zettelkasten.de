@@ -85,7 +85,7 @@ Prepare your reading with the following questions:
 
 - [ ] **Decide if you want to enjoy the book or if it is just a means to an end.** Only if you are clear about your motivation for reading will you get the most out of your time.
 - [ ] **Be clear on your desired outcomes.** The more precise your idea of what you want to produce from the intermediate product of the book you have read and pre-processed with markers, the more purposeful you can make your reading. Sometimes, however, you will need to work out your plans *while* reading.
-- [ ] **Make a short list of possible publications and specific projects that would benefit from reading** If you don't want your notebook to be a hobby project, you should never lose sight of its role as a tool and a way station to your actual goals. You read for the book's ability to be frittered away. You fritter for understanding, publishing and action.
+- [ ] **Make a short list of possible publications and specific projects that would benefit from reading** If you don't want your notebook to be a hobby project, you should never lose sight of its role as a tool and a way station to your actual goals. You read for ways to extract specific information from the book. You process it into notes for understanding, publishing and action.
 - [ ] **Use marginalia to mark *action items*.** The book you read and made markings in serves as a tool to generate *action items*. This is exactly what the marginalia in the book are for. So use action-oriented marginalia.
 
 Implementation using the example of *Primal Branding*:
