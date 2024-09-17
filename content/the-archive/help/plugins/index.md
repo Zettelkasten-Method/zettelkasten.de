@@ -19,6 +19,8 @@ table td, table th {
 
 # So You Want to Write a Plug-in For _The Archive_?
 
+<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
+
 Great! Here's how to get started with the tools provided by _The Archive_ to make plug-in development easy.
 
 ## Start Development Within _The Archive_
