@@ -1,0 +1,51 @@
+.call-to-action {
+  --cta-fg: white;
+  --cta-fg-hover: white;
+  --cta-bg: #5B6FDC linear-gradient(to bottom, #6875EF 0%, #5D66CE 100%);
+  --cta-bg-hover: darken(#5B6FDC, 5%) linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%);
+  color: var(--cta-fg);
+  background: var(--cta-bg);
+
+  &:hover {
+    color: var(--cta-fg-hover);
+    background: var(--cta-bg-hover);
+  }
+}
+
+// Hover and active state
+.call-to-action {
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  position: relative;
+  top: 0px;
+
+  &:hover {
+    box-shadow: 0 3px 4px rgba(0,0,0,0.3);
+  }
+  &:active, &:focus {
+    outline: none;
+    top: 2px;
+    box-shadow: none;
+  }
+}
+
+.call-to-action {
+  display: block;
+  min-width: 50%;
+  max-width: 90%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 2em;
+  padding: 1em 2em;
+
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: $font-sans;
+  font-weight: bold;
+  text-decoration: none;
+}

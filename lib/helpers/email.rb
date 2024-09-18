@@ -18,7 +18,7 @@ module EmailHelper
     return %Q{<a href="#{link}" class="#{classes}">#{text}</a>}
   end
 
-  def coaching_email_request(text: "Send an Email", classes: "coaching__action")
+  def coaching_email_request(text: "Send an Email", classes: "call-to-action coaching__action")
     subject = %Q{Zettelkasten Coaching}.uri_encoded
     message = "".tap do |result|
       result << "Hi Sascha,\n"

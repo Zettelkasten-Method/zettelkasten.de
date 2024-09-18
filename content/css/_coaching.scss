@@ -9,36 +9,6 @@ aside.coaching__tldr {
   }
 }
 
-.coaching__action {
-  display: block;
-  max-width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 2em;
-  padding: 1em 2em;
-
-  box-sizing: border-box;
-  border-bottom-width: 0 !important;
-  border-radius: 2px;
-
-  text-align: center;
-  vertical-align: middle;
-
-  font-family: $font-sans;
-  font-weight: bold;
-  text-decoration: none;
-  color: white;
-  background: #5B6FDC;
-  background-image: linear-gradient(to bottom, #6875EF 0%, #5D66CE 100%);
-
-  &:hover {
-    color: white;
-    background: darken(#5B6FDC, 5%);
-    background-image: linear-gradient(to bottom, darken(#5C6AE9, 8%) 0%, darken(#3440C2, 10%) 100%);
-  }
-}
-
 img.coaching__about-me {
   display: block;
   max-width: 100%;
@@ -55,4 +25,13 @@ img.coaching__about-me {
     margin-left: 1em;
     margin-bottom: 0.1em;
   }
+}
+
+.call-to-action.coaching__action {
+  --cta-fg: #{$color-background};
+  --cta-fg-hover: #{$color-background};
+  --cta-bg: #{$color-accent2};
+  --cta-bg-hover: #{darken($color-accent2, 5%)};
+
+  border-radius: calc(var(--block-radius) / 2);
 }
