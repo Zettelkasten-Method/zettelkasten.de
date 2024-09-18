@@ -1,0 +1,9 @@
+.inset-box {
+  padding: var(--block-padding);
+  border-radius: var(--block-radius);
+  background: $color-background-dark;
+  overflow: hidden;
+  box-shadow: rgba(0,0,0,0.1) 0 0.1rem 0.1rem inset,
+              rgba(255,255,255,0.2) 0px 1px 0px;
+  font-family: $font-sans;
+}

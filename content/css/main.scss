@@ -1,5 +1,7 @@
 @import "_variables.scss";
-@import "_atoms.scss";
+@import "atoms/_hidden.scss";
+@import "atoms/_inset-box.scss";
+@import "atoms/_visuallyhidden.scss";
 @import "_reset.scss";
 @import "_base.scss";
 @import "_print.scss";
