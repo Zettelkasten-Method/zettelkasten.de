@@ -1,0 +1,10 @@
+ul.todos {
+  list-style: none;
+}
+ul.todos li.todo {
+  background: url('/the-archive/img/checkbox.png') no-repeat left center;
+  padding-left: 32px;
+}
+ul.todos li.todo.done {
+  background: url('/the-archive/img/checkbox-ticked.png') no-repeat left center;
+}

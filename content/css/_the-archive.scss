@@ -114,15 +114,6 @@
     .feature-shortlist { font-size: $small-size; }
   }
 
-  .todos { list-style: none; }
-  .todo {
-    background: url('/the-archive/img/checkbox.png') no-repeat left center;
-    padding-left: 32px;
-  }
-  .todo.done {
-    background: url('/the-archive/img/checkbox-ticked.png') no-repeat left center;
-  }
-
   .monomyth {
     padding: 1em 2em;
     transform: rotate(1deg);
