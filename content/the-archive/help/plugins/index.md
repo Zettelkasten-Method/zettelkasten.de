@@ -110,15 +110,22 @@ const result = input.text.selected
 output.insert.setText(result);
 ```
 
-### Abort Execution
+### `cancel(message)`: Abort Execution
 
-To abort your plug-in from finishing, for example when an important pre- or postcondition cannot be met, throw a JavaScript `Error` to exit early before any effects are executed:
+To cancel your plug-in, for example when an important pre- or postcondition cannot be met, use the global `cancel()` function to exit early before any effects are executed:
 
 ```js
 if (title.trim() === "") {
-  throw new Error("User did not provide a title.");
+  cancel("No title provided");
 }
 ```
+
+
+#### Parameters
+
+| Name      | Type     | Description                                              |
+|-----------|----------|----------------------------------------------------------|
+| `message` | [String] | Optional reason that shows up in logs to help you debug. |
 
 ## `.thearchiveplugin` Bundle Structure
 
@@ -249,7 +256,7 @@ If the user hits the `Cancel` button or confirms with an empty text field, but y
 
 ```js
 if (filename === undefined || filename.trim() === "") {
-  throw new Error("User did cancel instead of provide a filename.");
+  cancel("User did cancel instead of provide a filename.");
 }
 ```
 
