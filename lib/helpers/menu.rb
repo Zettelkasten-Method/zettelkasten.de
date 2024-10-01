@@ -16,16 +16,18 @@ module Menu
       { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
       { title: "Workshop",        link: "/course/",         icon: "monitor" },
       { title: "Coaching",        link: "/coaching/",       icon: "easel" },
+      { title: "Members Area",    link: "/members-area/",   icon: "lock-locked" },
       { title: "Forum",           link: FORUM_URL,          icon: "people" },
       { title: "Blog",            link: "/posts/",          icon: "folder" },
     ],
     :de => [
-      { title: "Erste Schritte",  link: "/overview/",       icon: "compass" },
-      { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
-      { title: "Workshop",        link: "/course/",         icon: "monitor" },
-      { title: "Coaching",        link: "/coaching/",       icon: "easel" },
-      { title: "Forum",           link: FORUM_URL,          icon: "people" },
-      { title: "Blog",            link: "/de/posts/",       icon: "folder" },
+      { title: "Erste Schritte",     link: "/overview/",       icon: "compass" },
+      { title: "Software",           link: "/the-archive/",    icon: "thearchive" },
+      { title: "Workshop",           link: "/course/",         icon: "monitor" },
+      { title: "Coaching",           link: "/coaching/",       icon: "easel" },
+      { title: "Mitgliederbereich",  link: "/members-area/",   icon: "lock-locked" },
+      { title: "Forum",              link: FORUM_URL,          icon: "people" },
+      { title: "Blog",               link: "/de/posts/",       icon: "folder" },
     ]
   }
 
