@@ -212,30 +212,111 @@ Here's a Manifest file that requests *all* possible inputs, and declares it want
 
 ### `main.js` Is the Runnable Entry Point
 
-Depending on the capabilities of the plug-in as declared in the Plug-In Manifest, your code has access to different global variables:
+Your Plug-In Manifest declares the capabilities The Archive should grant your code. The `main.js` file _is_ this code that _The Archive_ executes. During execution, your code has access to exactly the functionality you request in the Manifest. This ensures that users can see, understand, and know the power and danger of running your plug-in. 
 
-| Variable                   | Type   | Description                              |
-|----------------------------|--------|------------------------------------------|
-| input                      | Object |                                          |
-| input.notes                |        |                                          |
-| input.notes.all            |        | Either all notes, or all searched notes. |
-| input.notes.selected       |        |                                          |
-| input.text                 |        |                                          |
-| input.text.all             |        |                                          |
-| input.text.selected        |        |                                          |
-| output                     |        |                                          |
-| output.changeFile          |        |                                          |
-| output.changeFile.filename | String |                                          |
-| output.changeFile.content  | String |                                          |
-| output.newFile             |        |                                          |
-| output.newFile.filename    | String |                                          |
-| output.newFile.content     | String |                                          |
-| output.insert              |        |                                          |
-| output.insert.text         |        |                                          |
+Assuming you request at least 1 input type, and produce some output (otherwise your code would effectively just waste energy), your script has access to two global container objects:
 
-## Prompting for User Input
+| Variable                   | Type             | Description                              |
+|----------------------------|------------------|------------------------------------------|
+| input                      | Object           |                                          |
+| output                     | Object           |                                          |
 
-### `app.prompt(args)`
+These objects contain concrete input and output ports that correspond to the capabilities requested in the Manifest file. 
+
+Note that you can't get all at once, since e.g. the file output ports are mutually exclusive. The following table is an overview of all ports that exist -- so you know what you could get if you configure your plug-in accordingly:
+
+| Variable                   | Type             | Description                                                                    |
+|----------------------------|------------------|--------------------------------------------------------------------------------|
+| input                      | Object           | Holds the input ports as requested by the Manifest.                            |
+| input.notes                | Object           | Holds the note input ports as requested by the Manifest.                       |
+| input.notes.all            | Array of Objects | Either all notes, or all searched notes.                                       |
+| input.notes.selected       | Array of Objects | Selected note, or notes.                                                       |
+| input.text                 | Object           | Holds the text input ports as requested by the Manifest.                       |
+| input.text.all             | String           | Full text of the currently edited note.                                        |
+| input.text.selected        | String           | Selected/highlighted text in the editor.                                       |
+| output                     | Object           | Holds the output ports as requested by the Manifest.                           |
+| output.changeFile          | Object           | File output port to change (replace) a file with a known file name.            |
+| output.changeFile.filename | String           | File name of the file that's being replaced. (Mutable for dynamic file names.) |
+| output.changeFile.content  | String           | Content of the file that will be changed (replaced).                           |
+| output.newFile             | Object           | File output port to create a new file like the user would.                     |
+| output.newFile.filename    | String           | File name that will be created. (Read-only.)                                   |
+| output.newFile.content     | String           | Content of the file that will be created.                                      |
+| output.insert              | Object           | Editor text output port to insert content.                                     |
+| output.insert.text         | String           | Text to type on behalf of the user.                                            |
+
+# API Documentation
+
+These are the global variables that The Archive makes available to your scripts:
+
+| Variable | Type   | Description                                                  |
+|----------|--------|--------------------------------------------------------------|
+| app      | Object | Interface to (some) app remote control functionality.        |
+| console  | Object | Logs informational or error messages.                        |
+| input    | Object | Contains all app input ports (as requested by the Manifest)  |
+| output   | Object | Contains all app output ports (as requested by the Manifest) |
+
+And these are the global functions:
+
+| Function | Description                                                       |
+|----------|-------------------------------------------------------------------|
+| cancel() | Immediately abort script execution without performing any effect. |
+
+## `app` Global Object
+
+This global objects groups "remote control" functionality: things you want _The Archive_ to do on the user's behalf, and user interface interactions.
+
+| Variable                | Type     | Description                             |
+|-------------------------|----------|-----------------------------------------|
+| app.extractNoteID(args) | Function | Returns the ID from e.g. a filename.             |
+| app.pasteboardContents  | String   | General pasteboard proxy.               |
+| app.prompt(args)        | Function | Prompt for user input.                  |
+| app.unusedFilename()    | Function | Generates a filename that's still free. |
+
+### `app.extractNoteID(args)`: REturns the ID From a Filename
+
+This is a call to what _The Archive_ uses to detect note ID's according to the user's settings.
+
+As of v1.8.0, this will effectively extract date-time-stamps from filenames. Custom identifier schemes are not yet supported in the app. 
+
+> Note: If you want to support your own identifier schemes (like Folgezettel ID's), you will need create your own extraction function. In future updates, you'll be able to let the user of your plug-in choose your function as a means to obtain ID's from note filenames. See discussion on [sharing data between plug-ins](https://forum.zettelkasten.de/discussion/3030/how-could-we-let-plug-ins-store-data).
+
+```js
+// Imagine you get a filename from a list of all notes:
+const filename = "202410060932 My most amazing discovery";
+const identifier = app.extractNoteID(filename);
+// => "202410060932"
+```
+
+#### Parameters
+
+| Name   | Type   | Description                                           |
+|--------|--------|-------------------------------------------------------|
+| `args` | String | Filename (or other piece of text) to get the ID from. |
+|        |        |                                                       |
+
+#### Returns
+
+Either a string when a match is found or `null` if no match is found.
+
+
+### `app.pasteboardContents`: Access to the General Pasteboard
+
+This `app.pasteboardContents` grants read--write access to the general pasteboard, e.g. the one that the user copies and pastes from with the <kbd>⌘+C</kbd>/<kbd>⌘+X</kbd> and <kbd>⌘+V</kbd> shortcuts, as a string.
+
+```js
+// Read from the pasteboard:
+const text = app.pasteboardContents; 
+
+// Write to the pasteboard:
+app.pasteboardContents = "Hello!";
+```
+
+If there's non-string content on the pasteboard, your script will get back an empty string.
+
+> **Note:** macOS has a couple of named pasteboards, e.g. one for all <kbd>⌘+F</kbd> Find operations that you may have noticed results in a find operation in one text editor to affect the find operation in another. Access to other named pasteboards may come in a future release, including definint your own named pasteboards to share data.
+
+
+### `app.prompt(args)`: Prompting for User Input 
 
 Interactively ask the user to provide text in a dialog:
 
@@ -252,7 +333,7 @@ const filename = app.prompt({
 
 The prompt's buttons are labeled "Submit" to confirm the input and send the result to your plug-ins JavaScript, and "Cancel" to dismiss the dialog and return `undefined` to JavaScript.
 
-If the user hits the `Cancel` button or confirms with an empty text field, but you require non-empty input, you can abort script execution with an error:
+If the user hits the `Cancel` button or confirms with an empty text field, but you require non-empty input, you can abort script execution:
 
 ```js
 if (filename === undefined || filename.trim() === "") {
@@ -269,3 +350,7 @@ if (filename === undefined || filename.trim() === "") {
 | `args.description`  | [String] | Optional alert text explaining what the input will be use for. |
 | `args.placeholder`  | [String] | Optional placeholder value for the text field.                 |
 | `args.defaultValue` | [String] | Optional initial value displayed in the text field.            |
+
+#### Returns
+
+The text entered by the user on successful completion, or `null` if the prompt was canceled.
