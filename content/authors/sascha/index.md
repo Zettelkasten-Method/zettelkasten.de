@@ -23,7 +23,7 @@ I use my Zettelkasten for *all* of my knowledge work:
 
 1. Read the [introduction to the Zettelkasten Method](https://zettelkasten.de/introduction).
 2. Don’t hesitate. Commit yourself to action and learn by doing. The Zettelkasten Method is 10% knowledge and 90% skill. Skills are developed through practice. A lot of practice.
-3. Start thinking about the Zettelkasten Method as a tool to accomplish a task. Learn it by using it for that task. Try to do research on a blogpost, or process a book you are exited about.
+3. Start thinking about the Zettelkasten Method as a tool to accomplish a task. Learn it by using it for that task. Try to do research on a blogpost, or process a book you are excited about.
 4. Try to think on how to connect knowledge and not on connecting notes.
 
 Live long and prosper!<br>
