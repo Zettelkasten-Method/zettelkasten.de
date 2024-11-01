@@ -208,9 +208,11 @@ a {
   text-decoration-skip-ink: auto;
   text-underline-offset: 0.1em;
 }
+a:visited {
+  color: $color-link-visited;
+}
 
 a:hover {
-  color: $color-link;
   text-decoration: none;
 }
 
