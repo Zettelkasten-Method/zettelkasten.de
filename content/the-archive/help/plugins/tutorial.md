@@ -53,22 +53,43 @@ On the top of the window, the toolbar offers:
 >
 > Make sure to take a look at the [`.thearchiveplugin` bundle format overview](/the-archive/help/plugins/bundle-format/) so you know what goes inside the product!
 
-### Discovering Components With the REPL
+### Exploring Plug-In Writing with the REPL
 
-Learning to ask the program for what a value is can be helpful in developing your plug-ins. Then you don't need to run the whole plug-in everytime. You can build up the REPL's context one by one interactively, e.g. by adding one function after another, then running the functions interactively and refine them. The REPL's context persists until you use the _Reset_ button at the top of the window. Use this to get a clean slate in the REPL, e.g. when you declared a `const`, like `const x = 2;`, but then decide you need it to be some other value, that won't work -- because you cannot change constants by definition. You need to reset the context for that to work.
+When building plugins, it's useful to learn how to **ask the program what a value is** before running your entire plugin. This saves time and allows you to work step-by-step. You can use the REPL (Read-Eval-Print Loop) to experiment interactively without needing to run everything all at once.
 
-The settings from the inspector sidebar immediately affect which variables are available in your plug-in's code.
+In the REPL, you can:
 
-By default, all access privileges are turned off, and you need to enable what you need. Once you enabled access to _Selected Notes_, for example, The Archive will make the `input.notes.selected` object available to your code.
+- Add one function or piece of code at a time.
+- Test your code immediately after writing it.
+- Refine or adjust as you go.
 
-To discover what you can actually access from code, use the interactive REPL text field and start by typing "`input`".  That will show your input string and the evaluated output value in the console right above:
+The **REPL's context** stays active until you hit the **Reset** button at the top of the window. For example, if you declared:
 
+```js
+const x = 2;
 ```
+
+and later decide `x` should have a different value, you won't be able to change it directly (because `const` constants are unchangeable). In that case, resetting the REPL will give you a fresh start.
+
+> 💡 **Pro Tip**: Use `let` or `var` in the beginning for variables. These can be reassigned. You can switch to `const` and other best practices later, once your code works.
+
+#### Accessing Variables
+
+The settings in the inspector sidebar control which variables your plugin has access to.
+
+You start with no special access by default, and you'll need to enable what you need. For instance, if you turn on access to _Selected Notes_, the variable `input.notes.selected` will become available.
+
+
+#### Discovering What's Available with REPL
+
+To see what built-in objects you can access, start by typing `input` in the REPL. This will show both your code and the resulting value, directly above the text field:
+
+```js
 > input
 ⇠ [object Object]
 ```
 
-Since the JavaScript engine's built-in reflection isn't very helpful to discover what an object is made of, The Archive offers a helper function to provide more details: a function called `dump`. Let's try that:
+However, JavaScript's built-in reflection isn't very descriptive. So, to get more detail about what's inside `input`, you can use a helper function built into the app, called `dump`. Here's how:
 
 ```
 > dump(input)
@@ -89,12 +110,35 @@ Since the JavaScript engine's built-in reflection isn't very helpful to discover
 }
 ```
 
-That shows the object hierarchy in a much nicer way: you can see that `input` has a property called `notes` which is an object with a property called `selected` -- which is an array with one element at index `0`. To access this in JavaScript, you'd write `input.notes.selected[0]`. This, in turn, is an object that represents the currently visited note in the editor, including the full path, the filename, and full text content.
+Now, you can see much more clearly:
 
-You can even run `dump(this)`, where `this` outside of any function or object refers the so-called **global context**, to list and describe everything that is available as free functions and global variables in your JavaScript code.
+- `input` has a `notes` property.
+- `notes` has a `selected` property.
+- `selected` is an array (or object) with one element (`0`).
+- Element `0` represents a note you're working with, including properties like the file path, title, tags, and full content.
 
-> Tip: During interactive development in the REPL, don't use `const` unless you're very certain you got things right. Prefer `let` or even `var` to make global variables replaceable. Use `function myFunc() { ... }` instead of `const myFunc = () { ... }`, because `function`s are replaceable as well. In your final plug-in, you may want to change things to more idiomatic JavaScript and use `const` more often.
+You can access the selected note's content directly like this:
 
+```js
+input.notes.selected[0].content
+```
+
+#### Dumping the Global Context
+
+You can inspect **everything** available to your script by calling:
+
+```js
+dump(this);
+```
+
+Here, `this` represents the **global context** when you aren’t inside any function or object. This will list all globally available functions and variables you can use -- including the `dump` function itself.
+
+#### Additional Tips
+
+- ✅ When experimenting in the REPL, avoid using `const`, unless you're confident it won’t change later. Instead:
+  - Use `let` or `var` for variables to keep them flexible.
+  - If you need to define a function, prefer `function myFunc() { ... }` over `const myFunc = () => { ... }`, because traditional function declarations are easier to replace during development.
+- 🔄 Once you finish and your code is working, you can refactor it to use `const` and more idiomatic JavaScript.
 
 ## Exporting and Sharing Plug-Ins
 
