@@ -3,7 +3,10 @@ title: So You Want to Write a Plug-in For The Archive? - Plug-In Development –
 created_at: 2024-10-11 18:59:00 +0200
 layout: the-archive
 description: "Tutorial for developers of The Archive plug-ins."
+toc: true
 ---
+# So You Want to Write a Plug-in For _The Archive_?
+
 <style type="text/css"><!--
 table {
   border-collapse: collapse;
@@ -16,15 +19,15 @@ table td, table th {
 }
 --></style>
 
-# So You Want to Write a Plug-in For _The Archive_?
-
 Great! Here's how to get started with the tools provided by _The Archive_ to make plug-in development easy.
 
 ## Start Development Within _The Archive_
 
 _The Archive_ provides a plug-in development tool. Use it to interactively write, test, and export plug-ins.
 
-From the app's main menu, go to <i>Plugin - Show Developer Console</i>.
+From the app's main menu, go to <i>Plugin - Show Developer Console</i> to get started.
+
+### The Plug-In Development Window
 
 <%= insert_rel_image file: "plugin-development-screenshot.png", caption: "The built-in plug-in development tool" %>
 
@@ -49,6 +52,49 @@ On the top of the window, the toolbar offers:
 > To get started developing a plug-in with your favorite editor, [use our plug-in project template on GitHub](https://github.com/Zettelkasten-Method/plug-in-template).
 >
 > Make sure to take a look at the [`.thearchiveplugin` bundle format overview](/the-archive/help/plugins/bundle-format/) so you know what goes inside the product!
+
+### Discovering Components With the REPL
+
+Learning to ask the program for what a value is can be helpful in developing your plug-ins. Then you don't need to run the whole plug-in everytime. You can build up the REPL's context one by one interactively, e.g. by adding one function after another, then running the functions interactively and refine them. The REPL's context persists until you use the _Reset_ button at the top of the window. Use this to get a clean slate in the REPL, e.g. when you declared a `const`, like `const x = 2;`, but then decide you need it to be some other value, that won't work -- because you cannot change constants by definition. You need to reset the context for that to work.
+
+The settings from the inspector sidebar immediately affect which variables are available in your plug-in's code.
+
+By default, all access privileges are turned off, and you need to enable what you need. Once you enabled access to _Selected Notes_, for example, The Archive will make the `input.notes.selected` object available to your code.
+
+To discover what you can actually access from code, use the interactive REPL text field and start by typing "`input`".  That will show your input string and the evaluated output value in the console right above:
+
+```
+> input
+⇠ [object Object]
+```
+
+Since the JavaScript engine's built-in reflection isn't very helpful to discover what an object is made of, The Archive offers a helper function to provide more details: a function called `dump`. Let's try that:
+
+```
+> dump(input)
+⇠ {
+  "notes": {
+    "selected": {
+      "0": {
+        "path": "/path/to/notes/Learning JavaScript.txt",
+        "filename": "Learning JavaScript",
+        "content": "#professional #js is easy! See [[how to learn anything]]",
+        "tags": {
+          "0": "professional",
+          "1": "js"
+        }
+      }
+    }
+  }
+}
+```
+
+That shows the object hierarchy in a much nicer way: you can see that `input` has a property called `notes` which is an object with a property called `selected` -- which is an array with one element at index `0`. To access this in JavaScript, you'd write `input.notes.selected[0]`. This, in turn, is an object that represents the currently visited note in the editor, including the full path, the filename, and full text content.
+
+You can even run `dump(this)`, where `this` outside of any function or object refers the so-called **global context**, to list and describe everything that is available as free functions and global variables in your JavaScript code.
+
+> Tip: During interactive development in the REPL, don't use `const` unless you're very certain you got things right. Prefer `let` or even `var` to make global variables replaceable. Use `function myFunc() { ... }` instead of `const myFunc = () { ... }`, because `function`s are replaceable as well. In your final plug-in, you may want to change things to more idiomatic JavaScript and use `const` more often.
+
 
 ## Exporting and Sharing Plug-Ins
 
