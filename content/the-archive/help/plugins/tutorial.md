@@ -4,6 +4,7 @@ created_at: 2024-10-11 18:59:00 +0200
 layout: the-archive
 description: "Tutorial for developers of The Archive plug-ins."
 toc: true
+updated_at: 2024-11-07 12:11:21 +0100
 ---
 # So You Want to Write a Plug-in For _The Archive_?
 
@@ -186,6 +187,49 @@ if (selectedNotes.length !== 1) {
 const currentNote = selectedNotes[0];
 const currentNoteID = app.extractNoteID(currentNote.filename);
 ```
+
+
+### How to Resolve Links to Other Notes
+
+Sometimes, you may want to process links from a note, and then get access to the content of the linked-to notes. How do you find the link targets?
+
+The Archive operates on a "links as search" basis. That means do link to a note called `202411071128 My best note ever` and effectively get there, you can link to:
+
+- `[[202411071128 My best note ever]]`, the full title;
+- `[[202411071128 My best note]]`, almost the full title;
+- `[[202411071128]]`, just the identifier.
+
+From a search-centric perspective, the more you type of the full title of a note, the more you zoom in to get to 1 result, only. Character for character, you add precision. "My" is worse than "My best" is worse than "My best note" is worse than "My best note ever" to get to this particular note. Identifiers are superior in that regard because they ae unique, and they are stable shortcuts that easily survive a note being renamed. [We wrote about this.](https://zettelkasten.de/posts/add-identity/)
+
+Now The Archive tries to suggest a "best match" for your search query to make accessing a note you know exists as quick as possible from the search bar. That's why ID's work so well as an effect.
+
+You can use the same mechanism from your plug-ins.
+
+- Request access to all notes. Make sure your script can access `input.notes.all` without failure.
+- Use [`app.search(...)`](/the-archive/help/plugins/api/) with the link text, e.g.: `app.search("202411071128")` for an ID-only link like `[[202411071128]]`.
+- The function returns an object with a `results` and `bestMatch` property. `results` is the sorted list of notes that users would see in the search results list; the `bestMatch` property, if it's not empty, is the known best match for the link.
+
+An example in code to resolve this hard-coded identifier:
+
+```js
+let link = "[[202411071128]]";
+let fulltextOfLinkedNote = "";
+
+// The 2nd parameter, set to `false`, speeds up link resolution: 
+// It skipts the `results` array and only returns `bestMatch`.
+let searchResponse = app.search(link, false);
+let linkTarget = searchResponse.bestMatch;
+if (linkTarget) {
+    fulltextOfLinkedNote = linkTarget.content;
+}
+
+// Do something with the matched note, e.g. display it in a window:
+output.display.content = fulltextOfLinkedNote;
+```
+
+This is very useful when you want to loop over all links in a note, use the search to resolve each link, and e.g. show a transcluded version of the result.
+
+
 
 
 ## Your Plug-in's Lifecycle

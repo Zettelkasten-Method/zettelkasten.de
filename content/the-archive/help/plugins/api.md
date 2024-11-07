@@ -4,8 +4,10 @@ created_at: 2024-10-11 18:57:00 +0200
 layout: the-archive
 toc: true
 description: "API overview for JavaScript plug-ins in The Archive."
-updated_at: 2024-10-29 11:43:15 +0100
+updated_at: 2024-11-07 12:11:23 +0100
 ---
+# API Documentation
+
 <style type="text/css"><!--
 table {
   border-collapse: collapse;
@@ -18,7 +20,6 @@ table td, table th {
 }
 --></style>
 
-# API Documentation
 
 These are the global variables that The Archive makes available to your scripts:
 
@@ -44,6 +45,7 @@ This global objects groups "remote control" functionality: things you want _The 
 |-------------------------|----------|-----------------------------------------|
 | app.extractNoteID(args) | Function | Returns the ID from e.g. a filename.    |
 | app.prompt(args)        | Function | Prompt for user input.                  |
+| app.search(args)        | Function | Search for notes like the user would.   |
 | app.unusedFilename()    | Function | Generates a filename that's still free. |
 
 ### `app.extractNoteID(args)`: Returns the ID From a Filename
@@ -110,6 +112,58 @@ if (filename === undefined || filename.trim() === "") {
 #### Returns
 
 The text entered by the user on successful completion, or `null` if the prompt was canceled.
+
+
+### `app.search(query, includeResults)`: Search for Notes
+
+Since The Archive uses a "link as search" approach, you can use this both as a full text search and as a mechanism to resolve links:
+
+```js
+// Return search results for full text search:
+const searchResults = app.search("some search");
+ 
+// Only produce a best match, if any, to speed up link resolution.
+const linkTarget = app.search("202411071201", false).bestMatch;
+```
+
+#### Parameters
+
+| Name             | Type   | Description                                                                        |
+|------------------|--------|------------------------------------------------------------------------------------|
+| `query`          | String | Search string ("needle") to look for.                                              |
+| `includeResults` | Bool   | Whether to produce a list of `results`, or only the `bestMatch`. (Default: `true`) |
+
+#### Returns 
+
+The search function returns an object of this rough form:
+
+```json
+{
+  "results": [
+    {"filename": ..., "content": ...},
+    ...
+  ],
+  "bestMatch": {
+    "filename": ..., 
+    "content": ...
+  }
+}
+```
+
+- `results`: Array of note objects, sorted by the user's preference, or `null` if the `includeResults` parameter is set to `false`.
+- `bestMatch`: Either a note object that is the best match for the search string, or `null` if no best match was found.
+
+So when you set `includeResults` to `false` for efficient link resolution, and a best match is found, you get:
+
+```json
+{
+  "results": null,
+  "bestMatch": {
+    "filename": ..., 
+    "content": ...
+  }
+}
+```
 
 ## `console` Global Object
 
