@@ -4,7 +4,7 @@ created_at: 2024-10-11 18:59:00 +0200
 layout: the-archive
 description: "Tutorial for developers of The Archive plug-ins."
 toc: true
-updated_at: 2024-11-07 12:11:21 +0100
+updated_at: 2024-11-08 13:19:48 +0100
 ---
 # So You Want to Write a Plug-in For _The Archive_?
 
@@ -70,7 +70,7 @@ The **REPL's context** stays active until you hit the **Reset** button at the to
 const x = 2;
 ```
 
-and later decide `x` should have a different value, you won't be able to change it directly (because `const` constants are unchangeable). In that case, resetting the REPL will give you a fresh start.
+... and later decide `x` should have a different value, you won't be able to change it directly (because `const` constants are unchangeable). In that case, resetting the REPL will give you a fresh start.
 
 > 💡 **Pro Tip**: Use `let` or `var` in the beginning for variables. These can be reassigned. You can switch to `const` and other best practices later, once your code works.
 
@@ -207,7 +207,7 @@ You can use the same mechanism from your plug-ins.
 
 - Request access to all notes. Make sure your script can access `input.notes.all` without failure.
 - Use [`app.search(...)`](/the-archive/help/plugins/api/) with the link text, e.g.: `app.search("202411071128")` for an ID-only link like `[[202411071128]]`.
-- The function returns an object with a `results` and `bestMatch` property. `results` is the sorted list of notes that users would see in the search results list; the `bestMatch` property, if it's not empty, is the known best match for the link.
+- The function returns an object with a `results` and `bestMatch` property. `results` is the sorted list of notes that users would see in the search results list; the `bestMatch` property, if it's not empty, is the known "best match" for the link.
 
 An example in code to resolve this hard-coded identifier:
 
@@ -230,7 +230,35 @@ output.display.content = fulltextOfLinkedNote;
 This is very useful when you want to loop over all links in a note, use the search to resolve each link, and e.g. show a transcluded version of the result.
 
 
+### Working with Dates
 
+[JavaScript dates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) are capable but a bit clumsy to use. You can pass an ISO 8601-like string (`YYYY-MM-DDTHH:mm:ss.sssZ`) to the `Date` constructor or `Date.parse` to parse the timestamp into a date object, and then ask the date object for its components:
+
+```js
+const date = new Date("2017-03-15T16:45:30");
+const [month, day, year] = [
+  date.getMonth(),
+  date.getDate(),
+  date.getFullYear(),
+];
+```
+
+Formatting date strings that way requires zero-padding months and days yourself if you want two digits with padded zeroes:
+
+```js
+const date = new Date("2024-11-08");
+const day = date.getDay();
+const formattedDay = `${day}`.padStart(2, "0");  // => "08"
+```
+
+If you want to use the more common `strftime` format rather than assembling date--time strings manually, you can copy and paste [the code from the `strftime` library](https://github.com/samsonjs/strftime) into your plug-in. (Yes, all of it.) It's admittedly a bit much code to paste, just to format a date, so there's definitely a trade-off, but it works just fine:
+
+```js
+// ... code from strftime-min.js ...
+const formattedDay = strftime("%d", new Date("2024-11-08")); // => "08"
+```
+
+> Note: We plan to support plug-in dependencies and plug-ins with multiple files, so you don't need to _paste_ the `strftime.js` code into your plug-in. Instead, you'll be able to import it.
 
 ## Your Plug-in's Lifecycle
 
@@ -268,7 +296,7 @@ Say you want to write a plug-in that transforms each line of the selected text i
 
 If you were taugt the imperative mindset in the past, and think of this task in terms of automating what the user does, you would want to move the cursor to the beginning of the first line and insert `"a) "`, then move to the beginning of the next line and insert `"b)"`, and so on until you reach the end of the selection, similar to how the user would move the cursor with the arrow keys and type to insert text. Imitating what the user would do is a reasonable mental model of an automation. Because you moved the cursor, the selected range of text is gone, though, and you wouldn't know when to stop prepending enumerated list markers. So you have store the selection's end location before you begin moving the cursor around. Say the selected range was from character location `100` to `1000` in the text. Because your automation inserted two enumerations plus a space each by this point, `"a) "` and `"b) "`, you have changed the text's total length by 6 characters. This affects when you need to stop, so you need to add `+3` to the end location `1000`, getting `1000+3+3=1006`. In other wirds, the more text you insert, the more the location of the character that used to be at the end of the user's selection in the text moves away, and you need to keep track of this. Now if you abort the process in the middle for any reason (could be a bug in the computation of the next enumeration character in the alphabet after "z" that produces an error, for example), the users ends up with a half-finished change to their note, but overall it's in an unexpected state. In some cases when your automation fails mid-process, this could mean that the user _loses data_, which is very unpleasant.
 
-Pseudo code for the imperative approach:
+Pseudo code for the imperative approach.
 
 ```
 // Pseudo Code
