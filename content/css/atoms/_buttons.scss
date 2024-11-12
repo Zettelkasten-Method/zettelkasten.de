@@ -6,6 +6,9 @@
   color: var(--cta-fg);
   background: var(--cta-bg);
 
+  &:visited {
+    color: var(--cta-fg);
+  }
   &:hover {
     color: var(--cta-fg-hover);
     background: var(--cta-bg-hover);
