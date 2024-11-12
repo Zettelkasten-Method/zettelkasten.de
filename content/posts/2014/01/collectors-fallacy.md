@@ -3,7 +3,7 @@ title: The Collector’s Fallacy
 created_at: 2014-01-20 22:04:32 +0100
 kind: article
 author: christian
-tags: [ archive, note-taking, reading, collect, knowledge-cycle ]
+tags: [ note-taking, reading, collect, knowledge-cycle ]
 image: 201401202212_messy-desk.jpg
 vgwort: https://vg08.met.vgwort.de/na/55373ef9fa9e410295badb08ea064eea
 import:
