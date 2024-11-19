@@ -441,3 +441,14 @@ $fatbarWidth: 8%;
 }
 .tippy-content { font-family: $font-sans; }
 
+.the-archive {
+  table {
+    border-collapse: collapse;
+    font-size: 80%;
+  }
+  table td, table th {
+    padding: 0.3rem 0.5rem;
+    border: 1px solid darkgray;
+    vertical-align: top;
+  }
+}
