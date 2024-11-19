@@ -248,195 +248,196 @@
 }
 .pk-screenshot {}
 
- /** Window animation */
+/** Window animation */
 
- @mixin animation($animate...) {
-   $max: length($animate);
-   $animations: '';
+@mixin animation($animate...) {
+  $max: length($animate);
+  $animations: '';
 
-   @for $i from 1 through $max {
-     $animations: #{$animations + nth($animate, $i)};
+  @for $i from 1 through $max {
+    $animations: #{$animations + nth($animate, $i)};
 
-     @if $i < $max {
-       $animations: #{$animations + ", "};
-     }
-   }
-   -webkit-animation: $animations;
-   -moz-animation:    $animations;
-   -o-animation:      $animations;
-   animation:         $animations;
- }
+    @if $i < $max {
+      $animations: #{$animations + ", "};
+    }
+  }
+  -webkit-animation: $animations;
+  -moz-animation:    $animations;
+  -o-animation:      $animations;
+  animation:         $animations;
+}
 
- @mixin keyframes($animationName) {
-   @-webkit-keyframes #{$animationName} {
-     @content;
-   }
-   @-moz-keyframes #{$animationName} {
-     @content;
-   }
-   @-o-keyframes #{$animationName} {
-     @content;
-   }
-   @keyframes #{$animationName} {
-     @content;
-   }
- }
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content;
+  }
+}
 
 
- ////////////////////////////////////
+////////////////////////////////////
 
- /** Variables */
- $border-color: #434356;
- $border: 2px solid $border-color;
- $window-radius: 8pt;
- $body-height: 8em;
- $cursor-color: #7fcde3;
- $solarized-editor: false;
+/** Variables */
+$border-color: #434356;
+$border: 2px solid $border-color;
+$window-radius: 8pt;
+$body-height: 8em;
+$cursor-color: #7fcde3;
+$solarized-editor: false;
 
- .c-window {
-   width: 100%;
-   max-width: 2 * $body-height;
-   border: $border;
-   border-radius: $window-radius;
-   text-align: left;
-   margin: 0 auto;
-   line-height: 1;
+.c-window {
+  width: 100%;
+  max-width: 2 * $body-height;
+  border: $border;
+  border-radius: $window-radius;
+  text-align: left;
+  margin: 0 auto;
+  line-height: 1;
 
-   // Easier than subtracting border thickness from element heights
-   * { box-sizing: content-box; }
- }
+  // Easier than subtracting border thickness from element heights
+  * { box-sizing: content-box; }
+}
 
- .c-titlebar {
-   margin-left: 0.2em;
- }
+.c-titlebar {
+  margin-left: 0.2em;
+}
 
- .c-bubble {
-   margin: 0; padding: 0;
-   margin-right: 0.2em;
-   border: $border;
-   height: 0.4em;
-   width: 0.4em;
-   border-radius: 5em;
-   display: inline-block;
- }
+.c-bubble {
+  margin: 0; padding: 0;
+  margin-right: 0.2em;
+  border: $border;
+  height: 0.4em;
+  width: 0.4em;
+  border-radius: 5em;
+  display: inline-block;
+}
 
- .c-omnibar {
-   border: $border;
-   height: 0.7em;
-   margin: 0em 0.2em 0.2em 0.2em;
- }
+.c-omnibar {
+  border: $border;
+  height: 0.7em;
+  margin: 0em 0.2em 0.2em 0.2em;
+}
 
- .c-body {
-   border-top: $border;
-   position: relative;
-   height: $body-height;
-   @if $solarized-editor {
-     background: #fdf6e3;
-   }
-   border-bottom-left-radius: $window-radius;
-   border-bottom-right-radius: $window-radius;
- }
+.c-body {
+  border-top: $border;
+  position: relative;
+  height: $body-height;
+  @if $solarized-editor {
+    background: #fdf6e3;
+  }
+  border-bottom-left-radius: $window-radius;
+  border-bottom-right-radius: $window-radius;
+}
 
- $resultsWidth: 35%;
- $fatbarWidth: 8%;
+$resultsWidth: 35%;
+$fatbarWidth: 8%;
 
- @include keyframes("fatbarAnim") {
-   0%   { opacity: 0; width: 0; }
-   10%  { opacity: 0; width: 0; }
-   20%  { opacity: 1; width: $fatbarWidth; }
-   60%  { opacity: 1; width: $fatbarWidth; }
-   70%  { opacity: 0; width: 0; }
-   100% { opacity: 0; width: 0; }
- }
+@include keyframes("fatbarAnim") {
+  0%   { opacity: 0; width: 0; }
+  10%  { opacity: 0; width: 0; }
+  20%  { opacity: 1; width: $fatbarWidth; }
+  60%  { opacity: 1; width: $fatbarWidth; }
+  70%  { opacity: 0; width: 0; }
+  100% { opacity: 0; width: 0; }
+}
 
- @mixin body-element {
-   border-right: $border;
-   width: 0;
-   height: $body-height;
-   position: absolute;
-   left: 0;
-   top: 0;
-   bottom: 0;
-   border-bottom-left-radius: $window-radius;
- }
+@mixin body-element {
+  border-right: $border;
+  width: 0;
+  height: $body-height;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-bottom-left-radius: $window-radius;
+}
 
- .c-fatbar {
-   @include body-element;
-   @include animation('fatbarAnim ease-in-out 10s infinite');
-   @if $solarized-editor == true {
-     background: #cfc8ab;
-   } @else {
-     background: #d1d8d1;
-   }
- }
+.c-fatbar {
+  @include body-element;
+  @include animation('fatbarAnim ease-in-out 10s infinite');
+  @if $solarized-editor == true {
+    background: #cfc8ab;
+  } @else {
+    background: #d1d8d1;
+  }
+}
 
- @include keyframes("resultsAnim") {
-   0%  { opacity: 0; width: 0; }
-   15%  { opacity: 1; width: $resultsWidth; }
-   40%  { opacity: 1; width: $resultsWidth; }
-   50%  { opacity: 0; width: $fatbarWidth; }
-   70%  { opacity: 0; width: $fatbarWidth; }
-   100% { opacity: 0; width: 0; }
- }
+@include keyframes("resultsAnim") {
+  0%  { opacity: 0; width: 0; }
+  15%  { opacity: 1; width: $resultsWidth; }
+  40%  { opacity: 1; width: $resultsWidth; }
+  50%  { opacity: 0; width: $fatbarWidth; }
+  70%  { opacity: 0; width: $fatbarWidth; }
+  100% { opacity: 0; width: 0; }
+}
 
- .c-results {
-   @include body-element;
-   @include animation('resultsAnim ease-in-out 10s infinite');
-   @if $solarized-editor == true {
-     background: #eee8d5;
-   } @else {
-     background: #e5e5ea;
-   }
- }
+.c-results {
+  @include body-element;
+  @include animation('resultsAnim ease-in-out 10s infinite');
+  @if $solarized-editor == true {
+    background: #eee8d5;
+  } @else {
+    background: #e5e5ea;
+  }
+}
 
- @include keyframes("textAnim") {
-   0%   { width: 100%; margin-left: 0; }
-   15%  { width: 100% - $resultsWidth; margin-left: $resultsWidth; }
-   40%  { width: 100% - $resultsWidth; margin-left: $resultsWidth; }
-   50%  { width: 100% - $fatbarWidth; margin-left: $fatbarWidth; }
-   60%  { width: 100% - $fatbarWidth; margin-left: $fatbarWidth; }
-   70%  { width: 100%; margin-left: 0; }
-   100% { width: 100%; margin-left: 0; }
- }
+@include keyframes("textAnim") {
+  0%   { width: 100%; margin-left: 0; }
+  15%  { width: 100% - $resultsWidth; margin-left: $resultsWidth; }
+  40%  { width: 100% - $resultsWidth; margin-left: $resultsWidth; }
+  50%  { width: 100% - $fatbarWidth; margin-left: $fatbarWidth; }
+  60%  { width: 100% - $fatbarWidth; margin-left: $fatbarWidth; }
+  70%  { width: 100%; margin-left: 0; }
+  100% { width: 100%; margin-left: 0; }
+}
 
- .c-text {
-   position: relative;
-   top: 30%;
-   left: 0;
-   width: 100%;
-   text-align: center;
-   line-height: 1.5;
-   font-family: $font-mono;
-   @if $solarized-editor == true {
-     color: #586e75;
-   } @else {
-     color: #666655;
-   }
-   @include animation('textAnim ease-in-out 10s infinite');
- }
+.c-text {
+  position: relative;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+  font-family: $font-mono;
+  @if $solarized-editor == true {
+    color: #586e75;
+  } @else {
+    color: #666655;
+  }
+  @include animation('textAnim ease-in-out 10s infinite');
+}
 
- @include keyframes("blink") {
-   80% { opacity: 0; }
- }
+@include keyframes("blink") {
+  80% { opacity: 0; }
+}
 
- .c-write { font-size: 80%; }
- .c-cursor {
-   position: absolute;
-   margin-left: 2px;
-   width: 3px;
-   height: 1.4em;
-   top: 0.2em;
-   background: $cursor-color;
-   opacity: 1;
-   @include animation('blink 1.5s ease-in-out infinite');
- }
+.c-write { font-size: 80%; }
+.c-cursor {
+  position: absolute;
+  margin-left: 2px;
+  width: 3px;
+  height: 1.4em;
+  top: 0.2em;
+  background: $cursor-color;
+  opacity: 1;
+  @include animation('blink 1.5s ease-in-out infinite');
+}
 
- .sha-button {
-   border: none;
-   border-radius: 0.5em;
-   color: white;
-   background-color: #a9a9a9;
-   font-size: 80%;
-   text-transform: uppercase;
- }
- .tippy-content { font-family: $font-sans; }
+.sha-button {
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  background-color: #a9a9a9;
+  font-size: 80%;
+  text-transform: uppercase;
+}
+.tippy-content { font-family: $font-sans; }
+
