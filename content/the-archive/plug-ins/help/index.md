@@ -13,9 +13,9 @@ The plug-in ecosystem has been added to The Archive with the free update v1.8.0.
 
 In other words: It's all still pretty new!
 
-- **[API Overview](/the-archive/help/plugins/api/)**: Lists all functions and objects available to you in plug-in code that special to _The Archive_. All other regular JavaScript language features are available, too.
-- **[Bundle Format](/the-archive/help/plugins/bundle-format/)**: Explains the `.thearchiveplugin` bundle format in detail.
-- **[So You Want to Write a Plug-In for _The Archive_?](/the-archive/help/plugins/tutorial/)**: Tutorial to understand the plug-in system.
+- **[API Overview](/the-archive/plug-ins/help/api/)**: Lists all functions and objects available to you in plug-in code that special to _The Archive_. All other regular JavaScript language features are available, too.
+- **[Bundle Format](/the-archive/plug-ins/help/bundle-format/)**: Explains the `.thearchiveplugin` bundle format in detail.
+- **[So You Want to Write a Plug-In for _The Archive_?](/the-archive/plug-ins/help/tutorial/)**: Tutorial to understand the plug-in system.
 
 ## Installing and Sharing Plug-Ins
 

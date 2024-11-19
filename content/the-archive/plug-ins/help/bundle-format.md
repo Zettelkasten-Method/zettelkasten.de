@@ -5,18 +5,6 @@ layout: the-archive
 description: ".thearchiveplugin bundle file format description."
 updated_at: 2024-10-29 11:49:01 +0100
 ---
-<style type="text/css"><!--
-table {
-  border-collapse: collapse;
-  font-size: 80%;
-}
-table td, table th {
-  padding: 0.3rem 0.5rem;
-  border: 1px solid darkgray;
-  vertical-align: top;
-}
---></style>
-
 # `.thearchiveplugin` Bundle Format
 
 Plug-ins are saved and shared file bundles with the extension `.thearchiveplugin` file bundles. A "bundle" on macOS means that it's actually a directory, but macOS treats it as a file.
@@ -140,5 +128,5 @@ During execution, your code has access to exactly the functionality you request 
 
 As a consequence, if you change the capabilities of your plug-in via its Manifest but forget to update your code, your plug-in may produce errors when you run it because the code cannot access the old `input`/`output` ports anymore.
 
-- [See the API docs for details on available `input`/`output` ports](/the-archive/help/plugins/api/).
-- [Read the tutorial](/the-archive/help/plugins/tutorial/) to get started writing your own plug-in.
+- [See the API docs for details on available `input`/`output` ports](/the-archive/plug-ins/help/api/).
+- [Read the tutorial](/the-archive/plug-ins/help/tutorial/) to get started writing your own plug-in.

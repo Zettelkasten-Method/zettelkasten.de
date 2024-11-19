@@ -16,6 +16,7 @@ RewriteRule ^the-archive/theme-repository https://github.com/Zettelkasten-Method
 # Post redirections
 RewriteRule ^about/(.*)$ /legal/$1 [R=303,L]
 RewriteRule ^contact(.*)$ https://zettelkasten.de/legal/#contact [R=303,L]
+RewriteRule ^the-archive/help/plugins(/.*)?$ /the-archive/plug-ins/help$1 [R=301,L]
 RewriteRule ^posts/overview(.*)$ /overview$1 [R=301,L]
 RewriteRule ^posts/..../../(.*)$ /posts/$1 [R=301,L]
 RewriteRule ^products/(.*)$ /tools/ [R=301,L]

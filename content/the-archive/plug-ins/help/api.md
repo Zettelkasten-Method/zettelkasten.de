@@ -8,19 +8,6 @@ updated_at: 2024-11-07 12:11:23 +0100
 ---
 # API Documentation
 
-<style type="text/css"><!--
-table {
-  border-collapse: collapse;
-  font-size: 80%;
-}
-table td, table th {
-  padding: 0.3rem 0.5rem;
-  border: 1px solid darkgray;
-  vertical-align: top;
-}
---></style>
-
-
 These are the global variables that The Archive makes available to your scripts:
 
 | Variable | Type     | Description                                                  |

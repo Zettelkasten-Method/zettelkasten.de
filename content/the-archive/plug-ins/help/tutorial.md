@@ -8,18 +8,6 @@ updated_at: 2024-11-08 13:19:48 +0100
 ---
 # So You Want to Write a Plug-in For _The Archive_?
 
-<style type="text/css"><!--
-table {
-  border-collapse: collapse;
-  font-size: 80%;
-}
-table td, table th {
-  padding: 0.3rem 0.5rem;
-  border: 1px solid darkgray;
-  vertical-align: top;
-}
---></style>
-
 Great! Here's how to get started with the tools provided by _The Archive_ to make plug-in development easy.
 
 ## Start Development Within _The Archive_
@@ -34,11 +22,11 @@ From the app's main menu, go to <i>Plugin - Show Developer Console</i> to get st
 
 On the left, you have these three programming components:
 
-1. The JavaScript editor. It's an auto-saving scratchpad for your code. Upon exporting, this becomes your [`main.js` file](/the-archive/help/plugins/bundle-format/) that'll be executed.
+1. The JavaScript editor. It's an auto-saving scratchpad for your code. Upon exporting, this becomes your [`main.js` file](/the-archive/plug-ins/help/bundle-format/) that'll be executed.
 2. The console log. It shows any output your plug-in generates. It also lists settings changes an other status messages.
 3. The console <abbr title="Read-Eval-Print Loop">REPL</abbr>. You can enter any JavaScript expression there, an it will evaluate once you commit with Enter/Return (<kbd>⏎</kbd>). You can also access previous expressions with <kbd>⌘↑</kbd> and <kbd>⌘↓</kbd>. Use the "Reset" toolbar button if you want to e.g. clear all variable and function declarations that linger from previous executions.
 
-On the right, you have **the Plug-In Settings Inspector** that configure [your plug-in Manifest file's](/the-archive/help/plugins/bundle-format/) access privileges to resources like all notes in the app, or the currently edited note's content. While it can be a bit tedious to configure these things, it's an important safety measure to protect plug-in users -- especially those who are less tech-savvy! Without a proper declaration, it's impossible for plug-ins to get a hold of your notes. Users can be sure when their data is safe.
+On the right, you have **the Plug-In Settings Inspector** that configure [your plug-in Manifest file's](/the-archive/plug-ins/help/bundle-format/) access privileges to resources like all notes in the app, or the currently edited note's content. While it can be a bit tedious to configure these things, it's an important safety measure to protect plug-in users -- especially those who are less tech-savvy! Without a proper declaration, it's impossible for plug-ins to get a hold of your notes. Users can be sure when their data is safe.
 
 The "Copy Settings as JavaScript" button in the sidebar generates boilerplate to work with the global JavaScript objects that correspond to your settings.
 
@@ -52,7 +40,7 @@ On the top of the window, the toolbar offers:
 > 
 > To get started developing a plug-in with your favorite editor, [use our plug-in project template on GitHub](https://github.com/Zettelkasten-Method/plug-in-template).
 >
-> Make sure to take a look at the [`.thearchiveplugin` bundle format overview](/the-archive/help/plugins/bundle-format/) so you know what goes inside the product!
+> Make sure to take a look at the [`.thearchiveplugin` bundle format overview](/the-archive/plug-ins/help/bundle-format/) so you know what goes inside the product!
 
 ### Exploring Plug-In Writing with the REPL
 
@@ -143,7 +131,7 @@ Here, `this` represents the **global context** when you aren’t inside any func
 
 ## Exporting and Sharing Plug-Ins
 
-From the development tool, you can export your plug-in as a `.thearchivebundle` with an interactive wizard. See [the bundle format overview](/the-archive/help/plugins/bundle-format/) for what goes inside.
+From the development tool, you can export your plug-in as a `.thearchivebundle` with an interactive wizard. See [the bundle format overview](/the-archive/plug-ins/help/bundle-format/) for what goes inside.
 
 - **Title**: User-facing title of your plug-in. Will be shown in plug-in listings in the app and online.
 - **Identifier**: The unique plug-in ID. This will be the same as the bundle file name. Prefer to use reverse domain format to group plug-ins by creator and avoid name conflicts for generic plug-in names. Ours will start with `de.zettelkasten.`.
@@ -206,7 +194,7 @@ Now The Archive tries to suggest a "best match" for your search query to make ac
 You can use the same mechanism from your plug-ins.
 
 - Request access to all notes. Make sure your script can access `input.notes.all` without failure.
-- Use [`app.search(...)`](/the-archive/help/plugins/api/) with the link text, e.g.: `app.search("202411071128")` for an ID-only link like `[[202411071128]]`.
+- Use [`app.search(...)`](/the-archive/plug-ins/help/api/) with the link text, e.g.: `app.search("202411071128")` for an ID-only link like `[[202411071128]]`.
 - The function returns an object with a `results` and `bestMatch` property. `results` is the sorted list of notes that users would see in the search results list; the `bestMatch` property, if it's not empty, is the known "best match" for the link.
 
 An example in code to resolve this hard-coded identifier:
