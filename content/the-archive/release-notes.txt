@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2024-07-19 09:42:28 +0100
+updated_at: 2024-11-19 18:54:10 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -11,7 +11,16 @@ layout: the-archive
 
 "Beta" releases are available to you as soon as you switch to the "Cutting Edge" update channel in _The Archive_'s preferences.
 
-## v1.7.16 Beta (2024-07-19)
+## v1.8.0 Beta (2024-11-19)
+
+- **New:** The all new plug-in system has arrived! You can use the Plug-In Developer Console to tinker with script ideas, export `.thearchiveplugin` bundles, and share these with others. This is huge, so [find out more on our plug-in page!](https://zettelkasten.de/the-archive/plug-ins/)
+- **Changed:** Media (or attachment) management treats existing sub-directories properly. Previously, they were ignored, only the files in considered.
+- **Fixed:** Undoing/redoing file operations is bound to each window or tab. Previously, these operations were tied to the first or initial window. This had the unintended side-effect that closing this window would clear undoable operations from other windows or tabs.
+- **Fixed:** Moving lines up/down was broken in the previous update, and its correct behavior is now restored for multi-line paragraphs.
+- **Fixed:** Trying to create notes with relative paths like `../../` in their name now won't try to actually reach that parent folder anymore.
+- **Fixed:** File encoding issue where a `ZERO WIDTH NON-BREAKING SPACE (ZWNBSP)` character nobody would ever actually use in that position with intent was producing a rendering error.
+
+## v1.7.16 (2024-07-19)
 
 - **Fixed:** Crash introduced in the previous beta (v1.7.15) when using formatting shortcuts in documents after non-ASCII characters.
 - **Fixed:** Menu items like "Switch Archives" work without an editor window, too. Previously, they were disabled unless you saw an app window.
