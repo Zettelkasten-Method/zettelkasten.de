@@ -48,9 +48,18 @@ They can be shared, and you can find community plug-ins in our forums:
 
 ### Invoke Plug-Ins from Other Applications with the URL Scheme
 
-> 💡 **Pro Tip:** There is a dedicated plug-in URL scheme to run a plug-in, that you can use from e.g. browser bookmarks, links in your Mind-Maps, or Reminders.
+Ever found yourself in a situation like this?
 
-The link format is like one of these examples:
+> When I go through my daily review routine, I want to obtain a list of notes created this day to add them to my journal and create tasks for the next day to continue some of these notes.
+
+The solution is this:
+
+1. Launch a plug-in directly from another app with the URL scheme! 
+2. Have it put the result directly on the clipboard [(with `output.pasteboard.content = "..."`)](/the-archive/plug-ins/help/api/)
+
+You can launch plug-ins from  e.g. browser bookmarks, links in your Mind-Maps or Reminders, or apps like Alfred and Keyboard Maestro.
+
+The URL scheme's link format is similar to one of these examples:
 
     thearchive://plugin/PLUGIN_ID/run
     thearchive://plugin/PLUGIN_ID/run?param1=value1&param2=value2
