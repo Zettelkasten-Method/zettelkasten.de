@@ -3,7 +3,7 @@ title: "Mindscapes: The Zettelkasten as a Thinking Environment"
 created_at: 2024-10-09 18:03:00 +0200
 kind: article
 author: sascha
-tags: [ focus, toolbox, depth-of-processing, mindscape, ]
+tags: [ integrated-thinking-environment, focus, toolbox, depth-of-processing, mindscape, ]
 rel_image: zettelkasten-environment.jpg
 vgwort: https://vg06.met.vgwort.de/na/6bdeb64b8c45457e86ea92a533443cb1
 description: "Habitats of the mind: Your Zettelkasten is a thinking environment."

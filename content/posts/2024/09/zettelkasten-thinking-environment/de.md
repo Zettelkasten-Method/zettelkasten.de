@@ -3,7 +3,7 @@ title: "Lebensräume des Geistes: Der Zettelkasten als Denkumgebung"
 created_at: 2024-10-09 18:04:00 +0200
 kind: article
 author: sascha
-tags: [ Werkzeugkiste, Fokus, Denkumgebung ]
+tags: [ Integrierte-Denkumgebung, Werkzeugkiste, Fokus, Denkumgebung ]
 rel_image: zettelkasten-environment.jpg
 vgwort: https://vg06.met.vgwort.de/na/6bdeb64b8c45457e86ea92a533443cb1
 description: "Lebensräume des Geistes: Dein Zettelkasten ist eine Denkumgebung."
