@@ -1,33 +1,33 @@
 module Menu
   private
   FORUM_URL = "https://forum.zettelkasten.de"
-  # The :key is a MainMenuItem#key, the lowercased symbol form with underscores instead of spaces
+  # The :key is a MainMenuItem#id, the lowercased symbol form with underscores instead of spaces
   SUBMENUS = {
-#    blog: [
-#      { title: "Recent Posts", link: "/" },
-#      { title: "Overview",     link: "/overview/" },
-#      { title: "Blog Archive",      link: "/posts/" }
-#    ]
+    thearchive: [
+      { id: :help,     title: "Help",      link: "/the-archive/help/" },
+      { id: :plugins,  title: "Plug-Ins",  link: "/the-archive/plug-ins" },
+      { id: :roadmap,  title: "Roadmap",   link: "/the-archive/roadmap" },
+    ]
   }
 
   MAIN_MENU_PER_LANG = {
     :en => [
-      { title: "Getting Started", link: "/overview/",       icon: "compass" },
-      { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
-      { title: "Workshop",        link: "/course/",         icon: "monitor" },
-      { title: "Coaching",        link: "/coaching/",       icon: "easel" },
-      { title: "Members Area",    link: "/members-area/",   icon: "lock-locked" },
-      { title: "Forum",           link: FORUM_URL,          icon: "people" },
-      { title: "Blog",            link: "/posts/",          icon: "folder" },
+      { id: :overview,    title: "Getting Started", link: "/overview/",       icon: "compass" },
+      { id: :thearchive,  title: "Software",        link: "/the-archive/",    icon: "thearchive" },
+      { id: :course,      title: "Workshop",        link: "/course/",         icon: "monitor" },
+      { id: :coaching,    title: "Coaching",        link: "/coaching/",       icon: "easel" },
+      { id: :members,     title: "Members Area",    link: "/members-area/",   icon: "lock-locked" },
+      { id: :forum,       title: "Forum",           link: FORUM_URL,          icon: "people" },
+      { id: :blog,        title: "Blog",            link: "/posts/",          icon: "folder" },
     ],
     :de => [
-      { title: "Erste Schritte",     link: "/overview/",       icon: "compass" },
-      { title: "Software",           link: "/the-archive/",    icon: "thearchive" },
-      { title: "Workshop",           link: "/course/",         icon: "monitor" },
-      { title: "Coaching",           link: "/coaching/",       icon: "easel" },
-      { title: "Mitgliederbereich",  link: "/members-area/",   icon: "lock-locked" },
-      { title: "Forum",              link: FORUM_URL,          icon: "people" },
-      { title: "Blog",               link: "/de/posts/",       icon: "folder" },
+      { id: :overview,    title: "Getting Started", link: "/overview/",       icon: "compass" },
+      { id: :thearchive,  title: "Software",        link: "/the-archive/",    icon: "thearchive" },
+      { id: :course,      title: "Workshop",        link: "/course/",         icon: "monitor" },
+      { id: :coaching,    title: "Coaching",        link: "/coaching/",       icon: "easel" },
+      { id: :members,     title: "Members Area",    link: "/members-area/",   icon: "lock-locked" },
+      { id: :forum,       title: "Forum",           link: FORUM_URL,          icon: "people" },
+      { id: :blog,        title: "Blog",            link: "/de/posts/",       icon: "folder" },
     ]
   }
 
@@ -78,15 +78,10 @@ module Menu
   private
 
   class MenuItem
-    attr_reader :title, :link, :icon
+    attr_reader :title, :link, :icon, :id
 
-    def initialize(title:, link:, icon: nil)
-      @title, @link, @icon = title, link, icon
-    end
-
-    def key
-      # "Foo bar" -> :foo_bar
-      title.downcase.gsub(" ", "_").to_sym
+    def initialize(id:, title:, link:, icon: nil)
+      @id, @title, @link, @icon = id, title, link, icon
     end
   end
 
@@ -124,7 +119,7 @@ module Menu
     end
 
     def submenu
-      SUBMENUS[key]
+      SUBMENUS[@id]
     end
 
     def has_submenu?

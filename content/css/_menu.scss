@@ -12,7 +12,9 @@
 .sub-navigation {
   font-family: $font-sans;
   background: $color-background-nav-sub;
-  position: static;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(8rem, 100%), 1fr));
   z-index: 200;
   left: 0;
   width: 100%;
@@ -32,7 +34,7 @@
 
 // Hide submenus by default; only display for when sibling is the "active" indicator
 .sub-navigation { display: none; }
-.menu-item--has-submenu > .active + .sub-navigation { display: block; }
+.menu-item--has-submenu > .active + .sub-navigation { display: grid; }
 
 .menu-item--has-submenu > .active {
   background: $color-background-nav-sub;
