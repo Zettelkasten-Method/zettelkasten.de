@@ -1,5 +1,4 @@
 .main-navigation {
-  position: relative;
   display: grid;
 
   grid-template-columns: repeat(auto-fit, minmax(min(8rem, 100%), 1fr));
@@ -9,15 +8,25 @@
   font-size: 0.8rem;
   font-size: clamp(12px, 2vmin, 1rem);
 }
+.menu-item--has-submenu {
+  position: relative;
+}
 .sub-navigation {
   font-family: $font-sans;
   background: $color-background-nav-sub;
 
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(8rem, 100%), 1fr));
-  z-index: 200;
-  left: 0;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform-origin: top center;
+  transform: translateX(-50%);
+  min-width: 15ch;
   width: 100%;
+  z-index: 200;
+
+  // visibility: hidden;
 }
 
 #navigation ul { margin: 0; padding: 0; }
@@ -31,10 +40,6 @@
   gap: 0.3em;
 }
 .menu-item--has-submenu {}
-
-// Hide submenus by default; only display for when sibling is the "active" indicator
-.sub-navigation { display: none; }
-.menu-item--has-submenu > .active + .sub-navigation { display: grid; }
 
 .menu-item--has-submenu > .active {
   background: $color-background-nav-sub;
