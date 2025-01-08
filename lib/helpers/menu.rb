@@ -4,9 +4,10 @@ module Menu
   # The :key is a MainMenuItem#id, the lowercased symbol form with underscores instead of spaces
   SUBMENUS = {
     thearchive: [
-      { id: :help,     title: "Help",      link: "/the-archive/help/" },
-      { id: :plugins,  title: "Plug-Ins",  link: "/the-archive/plug-ins" },
-      { id: :roadmap,  title: "Roadmap",   link: "/the-archive/roadmap" },
+      { id: :thearchive_main,  title: "The Archive",  link: "/the-archive/" },
+      { id: :help,             title: "Help",         link: "/the-archive/help/" },
+      { id: :plugins,          title: "Plug-Ins",     link: "/the-archive/plug-ins/" },
+      { id: :roadmap,          title: "Roadmap",      link: "/the-archive/roadmap/" },
     ]
   }
 
@@ -89,7 +90,7 @@ module Menu
     def html(renderer:)
       classes = [].tap do |classes|
         classes << "menu_item"
-        classes << "menu-item--has-submenu" if !submenu.nil?
+        classes << "menu-item--has-submenu" if has_submenu?
       end.join(" ")
 
       icon_html = if !icon.nil?
