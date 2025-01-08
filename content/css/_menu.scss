@@ -11,6 +11,7 @@
 .menu-item--has-submenu {
   position: relative;
 }
+
 .sub-navigation {
   font-family: $font-sans;
   background: $color-background-nav-sub;
@@ -21,12 +22,15 @@
   left: 50%;
   top: 100%;
   transform-origin: top center;
-  transform: translateX(-50%);
+  transform: rotateX(-90deg) translateX(-50%);
   min-width: 15ch;
   width: 100%;
   z-index: 200;
 
-  // visibility: hidden;
+  --submenu-transition: 150ms all 100ms ease-out;
+  transition: var(--submenu-transition);
+  opacity: 0.3; // Start not at 0.0 to transition in just a wee bit faster.
+  visibility: hidden;
 }
 
 #navigation ul { margin: 0; padding: 0; }
@@ -40,9 +44,19 @@
   gap: 0.3em;
 }
 .menu-item--has-submenu {}
-
 .menu-item--has-submenu > .active {
   background: $color-background-nav-sub;
+}
+
+.menu-item--has-submenu {
+  &:hover,
+  &:focus-within {
+    .sub-navigation {
+      opacity: 1;
+      visibility: visible;
+      transform: rotateX(0deg) translateX(-50%);
+    }
+  }
 }
 
 #navigation a,
@@ -120,10 +134,5 @@
 
   #navigation.has-submenu {
     margin-bottom: 3em; // TODO approximate height of menu bar
-  }
-
-  .sub-navigation {
-    // Show 2nd tier nav in a row below main items
-    position: absolute;
   }
 }
