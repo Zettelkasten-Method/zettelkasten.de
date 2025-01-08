@@ -103,8 +103,13 @@ module Menu
                     ""
                   end
 
+      attrs = [].tap do |attrs|
+        attrs << %Q{class="#{classes}"}
+        attrs << %Q{aria-expanded="false"} if has_submenu?
+      end.join(" ")
+
       return "".tap do |output|
-        output << %Q{<li class="#{classes}">}
+        output << %Q{<li #{attrs}>}
         output << renderer.link_to_unless_current(%Q{#{icon_html}#{title}}, link)
         output << rendered_submenu(renderer: renderer)
         output << %Q{</li>}
