@@ -70,8 +70,7 @@
   border-color: transparent;
 }
 #navigation .active {
-  font-weight: bold;
-  color: darken($color-nav, 5%);
+  color: lighten($color-nav, 5%);
 }
 
 #navigation .main-navigation .active,
