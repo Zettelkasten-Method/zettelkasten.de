@@ -57,25 +57,6 @@ module Menu
       .join()
   end
 
-  def item_has_submenu?
-    current_path = @item_rep&.path
-    return false if current_path.nil?
-    main_menu_items
-      .select { _1.has_submenu? }
-      .select { _1.submenu_includes_path?(current_path) }
-      .empty? == false
-  end
-
-  def link_to_unless_root_of_hierarchy(text, menu_item)
-    if menu_item.submenu_includes_path?(@item_rep&.path)
-      %Q{<span class="active">#{text}</span>}
-    # elsif path.to_s.start_with?(menu_item.link)
-    #   %Q{<span class="active">#{link_to_unless_current(text, menu_item.link)}</span>}
-    else
-      link_to_unless_current(text, menu_item.link)
-    end
-  end
-
   private
 
   class MenuItem
@@ -90,6 +71,21 @@ module Menu
       return :path if !@path.nil?
       return :url if !@url.nil?
       return :none
+    end
+
+    def is_active?(renderer:)
+      is_current?(renderer: renderer)
+    end
+
+    def is_current?(renderer:)
+      return false unless link_kind == :path
+
+      current_path = renderer.item_rep&.path
+      return false if current_path.nil?
+
+      target = @path
+      target_path = target.is_a?(String) ? target : target.path
+      return current_path == target_path
     end
 
     def rendered_link(renderer:)
@@ -109,7 +105,11 @@ module Menu
       when :url
         renderer.link_to(label, @url)
       when :path
-        renderer.link_to_unless_current(label, @path)
+        if is_active?(renderer: renderer)
+          %Q{<span class="menu-item-label">#{label}</span>}
+        else
+          renderer.link_to(label, @path)
+        end
       else
         label
       end
@@ -121,6 +121,7 @@ module Menu
       classes = [].tap do |classes|
         classes << "menu_item"
         classes << "menu-item--has-submenu" if has_submenu?
+        classes << "menu-item--active" if is_active?(renderer: renderer)
       end.join(" ")
 
       return "".tap do |output|
@@ -147,10 +148,15 @@ module Menu
       !submenu.nil?
     end
 
-    def submenu_includes_path?(path)
+    def has_active_submenu?(renderer:)
+      current_path = renderer.item_rep&.path
+      return false if current_path.nil?
       return false unless has_submenu?
-      return false unless path
-      return submenu.map { _1[:link] }.include?(path)
+      return submenu.map { _1[:path] }.include?(current_path)
+    end
+
+    def is_active?(renderer:)
+      is_current?(renderer: renderer) || has_active_submenu?(renderer: renderer)
     end
 
     def rendered_submenu(renderer:)
@@ -169,8 +175,13 @@ module Menu
 
   class SubMenuItem < MenuItem
     def html(renderer:)
+      classes = [].tap do |classes|
+        classes << "sub-menu_item"
+        classes << "menu-item--active" if is_active?(renderer: renderer)
+      end.join(" ")
+
       return "".tap do |output|
-        output << %Q{<li class="sub-menu_item">}
+        output << %Q{<li class="#{classes}">}
         output << rendered_link(renderer: renderer)
         output << %Q{</a>}
         output << %Q{</li>}

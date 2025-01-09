@@ -44,7 +44,7 @@
   gap: 0.3em;
 }
 .menu-item--has-submenu {}
-.menu-item--has-submenu > .active {
+.menu-item--has-submenu.menu-item--active .menu-item-label {
   background: $color-background-nav-sub;
 }
 
@@ -60,7 +60,7 @@
 }
 
 #navigation a,
-#navigation .active {
+#navigation .menu-item--active .menu-item-label {
   display: block;
   margin: 0;
   padding: 0.5em 0;
@@ -69,16 +69,13 @@
   border-width: 0 6px 0 6px; // Display active border as surrounding mobile
   border-color: transparent;
 }
-#navigation .active {
+#navigation .menu-item--active .menu-item-label {
   color: lighten($color-nav, 5%);
-}
-
-#navigation .main-navigation .active,
-#navigation .sub-navigation .active {
   border-color: $color-background-header;
 }
+
 // Don't highlight a main menu item itself when a sub navigation is available
-#navigation .main-navigation .menu-item--has-submenu > .active {
+#navigation .main-navigation > .menu-item--has-submenu.menu-item--active > .menu-item-label {
   border-color: transparent;
 }
 
@@ -112,7 +109,7 @@
 
 @media only screen and (min-width: $medium-breakpoint) {
   #navigation a,
-  #navigation .active {
+  #navigation .menu-item--active .menu-item-label {
     --vpadding: 0.5em;
     padding: var(--vpadding) 0;
     margin-bottom: 0;
@@ -124,7 +121,7 @@
 
 @media only screen and (min-width: $large-breakpoint) {
   #navigation a,
-  #navigation .active {
+  #navigation .menu-item--active .menu-item-label {
     --vpadding: 0.5em;
     --underline: 8px;
     padding-bottom: calc(var(--vpadding) - var(--underline));
