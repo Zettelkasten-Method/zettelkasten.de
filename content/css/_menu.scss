@@ -43,7 +43,9 @@
   justify-content: center;
   gap: 0.3em;
 }
-.menu-item--has-submenu {}
+.menu-item--has-submenu .menu-item-label {
+  background: transparent;
+}
 .menu-item--has-submenu.menu-item--active .menu-item-label {
   background: $color-background-nav-sub;
 }
@@ -60,8 +62,9 @@
 }
 
 #navigation a,
-#navigation .menu-item--active .menu-item-label {
+#navigation .menu-item-label {
   display: block;
+  width: 100%;
   margin: 0;
   padding: 0.5em 0;
   text-align: center;
@@ -79,7 +82,8 @@
   border-color: transparent;
 }
 
-#navigation a {
+#navigation a,
+#navigation button {
   color: $color-nav;
   font-weight: normal;
   text-decoration: none;

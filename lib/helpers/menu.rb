@@ -67,6 +67,14 @@ module Menu
       @id, @title, @path, @url, @icon = id, title, path, url, icon
     end
 
+    def submenu
+      SUBMENUS[@id]
+    end
+
+    def has_submenu?
+      !submenu.nil?
+    end
+
     def link_kind
       return :path if !@path.nil?
       return :url if !@url.nil?
@@ -105,10 +113,15 @@ module Menu
       when :url
         renderer.link_to(label, @url)
       when :path
-        if is_active?(renderer: renderer)
-          %Q{<span class="menu-item-label">#{label}</span>}
+        if has_submenu?
+          # TODO: `aria-controls="xxx-dropdown"` via ID, attach ID to submenu
+          %Q{<button type="button" aria-expanded="false" class="menu-item-label sub-menu-toggle">#{label}</button>}
         else
-          renderer.link_to(label, @path)
+          if is_active?(renderer: renderer)
+            %Q{<span class="menu-item-label">#{label}</span>}
+          else
+            renderer.link_to(label, @path)
+          end
         end
       else
         label
@@ -138,14 +151,6 @@ module Menu
 
     def iconic(name)
       %Q{<span aria-hidden="true" class="iconic" data-glyph="#{icon}"></span>} + " " # Trailing space here
-    end
-
-    def submenu
-      SUBMENUS[@id]
-    end
-
-    def has_submenu?
-      !submenu.nil?
     end
 
     def has_active_submenu?(renderer:)
