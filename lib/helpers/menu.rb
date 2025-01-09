@@ -4,31 +4,31 @@ module Menu
   # The :key is a MainMenuItem#id, the lowercased symbol form with underscores instead of spaces
   SUBMENUS = {
     thearchive: [
-      { id: :thearchive_main,  title: "Overview",  link: "/the-archive/" },
-      { id: :help,             title: "Help",      link: "/the-archive/help/" },
-      { id: :plugins,          title: "Plug-Ins",  link: "/the-archive/plug-ins/" },
-      { id: :roadmap,          title: "Roadmap",   link: "/the-archive/roadmap/" },
+      { id: :thearchive_main,  title: "Overview",   path: "/the-archive/" },
+      { id: :help,             title: "Help",       path: "/the-archive/help/" },
+      { id: :plugins,          title: "Plug-Ins",   path: "/the-archive/plug-ins/" },
+      { id: :roadmap,          title: "Roadmap",    path: "/the-archive/roadmap/" },
     ]
   }
 
   MAIN_MENU_PER_LANG = {
     :en => [
-      { id: :overview,    title: "Getting Started", link: "/overview/",       icon: "compass" },
-      { id: :thearchive,  title: "The Archive",     link: "/the-archive/",    icon: "thearchive" },
-      { id: :course,      title: "Workshop",        link: "/course/",         icon: "monitor" },
-      { id: :coaching,    title: "Coaching",        link: "/coaching/",       icon: "easel" },
-      { id: :members,     title: "Members Area",    link: "/members-area/",   icon: "lock-locked" },
-      { id: :forum,       title: "Forum",           link: FORUM_URL,          icon: "people" },
-      { id: :blog,        title: "Blog",            link: "/posts/",          icon: "folder" },
+      { id: :overview,    title: "Getting Started",  path: "/overview/",       icon: "compass" },
+      { id: :thearchive,  title: "The Archive",      path: "/the-archive/",    icon: "thearchive" },
+      { id: :course,      title: "Workshop",         path: "/course/",         icon: "monitor" },
+      { id: :coaching,    title: "Coaching",         path: "/coaching/",       icon: "easel" },
+      { id: :members,     title: "Members Area",     path: "/members-area/",   icon: "lock-locked" },
+      { id: :forum,       title: "Forum",            url: FORUM_URL,           icon: "people" },
+      { id: :blog,        title: "Blog",             path: "/posts/",          icon: "folder" },
     ],
     :de => [
-      { id: :overview,    title: "Getting Started", link: "/overview/",       icon: "compass" },
-      { id: :thearchive,  title: "The Archive",     link: "/the-archive/",    icon: "thearchive" },
-      { id: :course,      title: "Workshop",        link: "/course/",         icon: "monitor" },
-      { id: :coaching,    title: "Coaching",        link: "/coaching/",       icon: "easel" },
-      { id: :members,     title: "Members Area",    link: "/members-area/",   icon: "lock-locked" },
-      { id: :forum,       title: "Forum",           link: FORUM_URL,          icon: "people" },
-      { id: :blog,        title: "Blog",            link: "/de/posts/",       icon: "folder" },
+      { id: :overview,    title: "Getting Started",  path: "/overview/",       icon: "compass" },
+      { id: :thearchive,  title: "The Archive",      path: "/the-archive/",    icon: "thearchive" },
+      { id: :course,      title: "Workshop",         path: "/course/",         icon: "monitor" },
+      { id: :coaching,    title: "Coaching",         path: "/coaching/",       icon: "easel" },
+      { id: :members,     title: "Members Area",     path: "/members-area/",   icon: "lock-locked" },
+      { id: :forum,       title: "Forum",            url: FORUM_URL,           icon: "people" },
+      { id: :blog,        title: "Blog",             path: "/de/posts/",       icon: "folder" },
     ]
   }
 
@@ -79,20 +79,20 @@ module Menu
   private
 
   class MenuItem
-    attr_reader :title, :link, :icon, :id
+    attr_reader :id, :title, :icon
+    attr_reader :path, :url
 
-    def initialize(id:, title:, link:, icon: nil)
-      @id, @title, @link, @icon = id, title, link, icon
+    def initialize(id:, title:, path: nil, url: nil, icon: nil)
+      @id, @title, @path, @url, @icon = id, title, path, url, icon
     end
-  end
 
-  class MainMenuItem < MenuItem
-    def html(renderer:)
-      classes = [].tap do |classes|
-        classes << "menu_item"
-        classes << "menu-item--has-submenu" if has_submenu?
-      end.join(" ")
+    def link_kind
+      return :path if !@path.nil?
+      return :url if !@url.nil?
+      return :none
+    end
 
+    def rendered_link(renderer:)
       icon_html = if !icon.nil?
                     if icon.include?(".")
                       icon_image(icon)
@@ -103,14 +103,29 @@ module Menu
                     ""
                   end
 
-      attrs = [].tap do |attrs|
-        attrs << %Q{class="#{classes}"}
-        attrs << %Q{aria-expanded="false"} if has_submenu?
+      label = %Q{#{icon_html}#{title}}
+
+      case link_kind
+      when :url
+        renderer.link_to(label, @url)
+      when :path
+        renderer.link_to_unless_current(label, @path)
+      else
+        label
+      end
+    end
+  end
+
+  class MainMenuItem < MenuItem
+    def html(renderer:)
+      classes = [].tap do |classes|
+        classes << "menu_item"
+        classes << "menu-item--has-submenu" if has_submenu?
       end.join(" ")
 
       return "".tap do |output|
-        output << %Q{<li #{attrs}>}
-        output << renderer.link_to_unless_current(%Q{#{icon_html}#{title}}, link)
+        output << %Q{<li class="#{classes}">}
+        output << rendered_link(renderer: renderer)
         output << rendered_submenu(renderer: renderer)
         output << %Q{</li>}
       end
@@ -156,7 +171,7 @@ module Menu
     def html(renderer:)
       return "".tap do |output|
         output << %Q{<li class="sub-menu_item">}
-        output << renderer.link_to_unless_current(title, link)
+        output << rendered_link(renderer: renderer)
         output << %Q{</a>}
         output << %Q{</li>}
       end
