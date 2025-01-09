@@ -114,8 +114,12 @@ module Menu
         renderer.link_to(label, @url)
       when :path
         if has_submenu?
-          # TODO: `aria-controls="xxx-dropdown"` via ID, attach ID to submenu
-          %Q{<button type="button" aria-expanded="false" class="menu-item-label sub-menu-toggle">#{label}</button>}
+          if is_active?(renderer: renderer)
+            # TODO: `aria-controls="xxx-dropdown"` via ID, attach ID to submenu
+            %Q{<button type="button" aria-expanded="false" class="menu-item-label sub-menu-toggle">#{label}</button>}
+          else
+            renderer.link_to(label, @path, class: "sub-menu-toggle")
+          end
         else
           if is_active?(renderer: renderer)
             %Q{<span class="menu-item-label">#{label}</span>}
