@@ -4,17 +4,17 @@ module Menu
   # The :key is a MainMenuItem#id, the lowercased symbol form with underscores instead of spaces
   SUBMENUS = {
     thearchive: [
-      { id: :thearchive_main,  title: "The Archive",  link: "/the-archive/" },
-      { id: :help,             title: "Help",         link: "/the-archive/help/" },
-      { id: :plugins,          title: "Plug-Ins",     link: "/the-archive/plug-ins/" },
-      { id: :roadmap,          title: "Roadmap",      link: "/the-archive/roadmap/" },
+      { id: :thearchive_main,  title: "Overview",  link: "/the-archive/" },
+      { id: :help,             title: "Help",      link: "/the-archive/help/" },
+      { id: :plugins,          title: "Plug-Ins",  link: "/the-archive/plug-ins/" },
+      { id: :roadmap,          title: "Roadmap",   link: "/the-archive/roadmap/" },
     ]
   }
 
   MAIN_MENU_PER_LANG = {
     :en => [
       { id: :overview,    title: "Getting Started", link: "/overview/",       icon: "compass" },
-      { id: :thearchive,  title: "Software",        link: "/the-archive/",    icon: "thearchive" },
+      { id: :thearchive,  title: "The Archive",     link: "/the-archive/",    icon: "thearchive" },
       { id: :course,      title: "Workshop",        link: "/course/",         icon: "monitor" },
       { id: :coaching,    title: "Coaching",        link: "/coaching/",       icon: "easel" },
       { id: :members,     title: "Members Area",    link: "/members-area/",   icon: "lock-locked" },
@@ -23,7 +23,7 @@ module Menu
     ],
     :de => [
       { id: :overview,    title: "Getting Started", link: "/overview/",       icon: "compass" },
-      { id: :thearchive,  title: "Software",        link: "/the-archive/",    icon: "thearchive" },
+      { id: :thearchive,  title: "The Archive",     link: "/the-archive/",    icon: "thearchive" },
       { id: :course,      title: "Workshop",        link: "/course/",         icon: "monitor" },
       { id: :coaching,    title: "Coaching",        link: "/coaching/",       icon: "easel" },
       { id: :members,     title: "Members Area",    link: "/members-area/",   icon: "lock-locked" },
