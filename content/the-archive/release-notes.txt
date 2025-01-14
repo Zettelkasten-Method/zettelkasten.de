@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2024-11-19 18:54:10 +0100
+updated_at: 2025-01-14 08:17:17 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -10,6 +10,12 @@ layout: the-archive
 <a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
 
 "Beta" releases are available to you as soon as you switch to the "Cutting Edge" update channel in _The Archive_'s preferences.
+
+## v1.8.1 Beta (2025-01-14)
+
+- **New:** Plug-ins can access the `tags` property of note objects. This property was reserved previously, but now is populated with actual data.
+- **Fixed:** Some [URL Scheme-based preference changes](https://zettelkasten.de/the-archive/help/#hidden-preferences) did not work.
+- **Changed:** Updated the internal MultiMarkdown highlighter.
 
 ## v1.8.0 Beta (2024-11-19)
 
