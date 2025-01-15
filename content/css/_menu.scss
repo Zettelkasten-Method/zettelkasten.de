@@ -1,4 +1,5 @@
 .main-navigation {
+  --font-size: clamp(12px, 2vmin, 1rem);
   display: grid;
 
   grid-template-columns: repeat(auto-fit, minmax(min(8rem, 100%), 1fr));
@@ -6,7 +7,7 @@
   font-family: $font-sans;
   background: $color-background-nav-main;
   font-size: 0.8rem;
-  font-size: clamp(12px, 2vmin, 1rem);
+  font-size: var(--font-size);
 }
 .menu-item--has-submenu {
   position: relative;
@@ -87,6 +88,7 @@
   color: $color-nav;
   font-weight: normal;
   text-decoration: none;
+  font-size: var(--font-size);
 
   &:hover {
     $color: white;
