@@ -75,6 +75,11 @@ module Menu
       !submenu.nil?
     end
 
+    def submenu_id
+      nil unless has_submenu?
+      %Q{#{@id.to_s}_submenu}
+    end
+
     def link_kind
       return :path if !@path.nil?
       return :url if !@url.nil?
@@ -115,8 +120,7 @@ module Menu
       when :path
         if has_submenu?
           if is_active?(renderer: renderer)
-            # TODO: `aria-controls="xxx-dropdown"` via ID, attach ID to submenu
-            %Q{<button type="button" aria-expanded="false" class="menu-item-label sub-menu-toggle">#{label}</button>}
+            %Q{<button type="button" aria-expanded="false" aria-controls="#{submenu_id}" class="menu-item-label sub-menu-toggle">#{label}</button>}
           else
             renderer.link_to(label, @path, class: "sub-menu-toggle")
           end
@@ -175,7 +179,7 @@ module Menu
                        .map { _1.html(renderer: renderer) }
                        .join()
       return "".tap do |output|
-        output << %Q{<ul class="sub-navigation">}
+        output << %Q{<ul id="#{submenu_id}" class="sub-navigation">}
         output << submenu_html
         output << %Q{</ul>}
       end
