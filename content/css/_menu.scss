@@ -10,6 +10,7 @@
 .main-navigation, .sub-navigation { margin: 0; padding: 0; }
 #navigation li { list-style-type: none; }
 
+.header-container { position: relative; z-index: 999; } // Draw header container on top of main menu shadow
 .main-navigation {
   --font-size: 1rem;
   display: grid;
@@ -23,6 +24,7 @@
   font-size: var(--font-size);
   @media only screen and (min-width: $large-breakpoint) {
     --font-size: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0rem 0rem 1rem;
   }
 
   z-index: 200;
