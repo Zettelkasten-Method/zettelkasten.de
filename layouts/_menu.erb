@@ -1,5 +1,10 @@
 <nav id="navigation">
-  <ul class="main-navigation">
+  <input type="checkbox" id="hamburger" aria-label="hamburger" aria-controls="main-navigation" aria-expanded="false"/>
+  <label for="hamburger" id="hamburger-toggle">
+    <i class="hamburger-icon"></i>
+  </label>
+  </button>
+  <ul id="main-navigation" class="main-navigation">
     <%= render_menu_items %>
   </ul>
 </nav>

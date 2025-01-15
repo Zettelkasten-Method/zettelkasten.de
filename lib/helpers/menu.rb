@@ -120,13 +120,13 @@ module Menu
       when :path
         if has_submenu?
           if is_active?(renderer: renderer)
-            %Q{<button type="button" aria-expanded="false" aria-controls="#{submenu_id}" class="menu-item-label sub-menu-toggle">#{label}</button>}
+            %Q{<button type="button" aria-expanded="false" aria-controls="#{submenu_id}" class="menu-item-label sub-menu-toggle"><span class="menu-item-label-inner">#{label}</span></button>}
           else
             renderer.link_to(label, @path, class: "sub-menu-toggle")
           end
         else
           if is_active?(renderer: renderer)
-            %Q{<span class="menu-item-label">#{label}</span>}
+            %Q{<span class="menu-item-label"><span class="menu-item-label-inner">#{label}</span></span>}
           else
             renderer.link_to(label, @path)
           end

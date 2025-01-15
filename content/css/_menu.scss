@@ -1,77 +1,66 @@
+#navigation {
+  line-height: 1.0;  // Reset to close bottom gap below hamburger and menu
+  background: $color-background-nav-main;
+}
 .main-navigation {
-  --font-size: clamp(12px, 2vmin, 1rem);
-  display: grid;
+  line-height: 2.0;
+}
 
-  grid-template-columns: repeat(auto-fit, minmax(min(8rem, 100%), 1fr));
+.main-navigation, .sub-navigation { margin: 0; padding: 0; }
+#navigation li { list-style-type: none; }
+
+.main-navigation {
+  --font-size: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  @media only screen and (min-width: $large-breakpoint) {
+    grid-template-columns: repeat(7, 1fr); // TODO: hard coded to amount of menu items
+  }
 
   font-family: $font-sans;
   background: $color-background-nav-main;
-  font-size: 0.8rem;
   font-size: var(--font-size);
+  @media only screen and (min-width: $large-breakpoint) {
+    --font-size: 0.8rem;
+  }
 }
 .menu-item--has-submenu {
   position: relative;
 }
 
-.sub-navigation {
-  font-family: $font-sans;
-  background: $color-background-nav-sub;
-
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  left: 50%;
-  top: 100%;
-  transform-origin: top center;
-  transform: rotateX(-90deg) translateX(-50%);
-  min-width: 15ch;
-  width: 100%;
-  z-index: 200;
-
-  --submenu-transition: 150ms all 100ms ease-out;
-  transition: var(--submenu-transition);
-  opacity: 0.3; // Start not at 0.0 to transition in just a wee bit faster.
-  visibility: hidden;
-}
-
-#navigation ul { margin: 0; padding: 0; }
-#navigation ul li { list-style-type: none; }
-
 .menu-item {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   gap: 0.3em;
+  align-items: center;
+
+  justify-content: left;
+
+  @media only screen and (min-width: $large-breakpoint) {
+    justify-content: center;
+  }
 }
 .menu-item--has-submenu .menu-item-label {
   background: transparent;
 }
-.menu-item--has-submenu.menu-item--active .menu-item-label {
+.menu-item--has-submenu.menu-item--active .menu-item-label,
+.menu-item--has-submenu:hover .sub-menu-toggle {
   background: $color-background-nav-sub;
-}
-
-.menu-item--has-submenu {
-  &:hover,
-  &:focus-within {
-    .sub-navigation {
-      opacity: 1;
-      visibility: visible;
-      transform: rotateX(0deg) translateX(-50%);
-    }
-  }
 }
 
 #navigation a,
 #navigation .menu-item-label {
   display: block;
   width: 100%;
-  margin: 0;
-  padding: 0.5em 0;
-  text-align: center;
+  padding: 0.5em 1rem;
   border-style: solid;
-  border-width: 0 6px 0 6px; // Display active border as surrounding mobile
+  border-width: 0 0 0 0.4rem;
   border-color: transparent;
+
+  text-align: left;
+  @media only screen and (min-width: $large-breakpoint) {
+    text-align: center;
+  }
 }
 #navigation .menu-item--active .menu-item-label {
   color: lighten($color-nav, 5%);
@@ -113,16 +102,53 @@
   }
 }
 
-@media only screen and (min-width: $medium-breakpoint) {
-  #navigation a,
-  #navigation .menu-item--active .menu-item-label {
-    --vpadding: 0.5em;
-    padding: var(--vpadding) 0;
-    margin-bottom: 0;
-    border-width: 4px; // 4 sided outline
+.sub-navigation {
+  font-family: $font-sans;
+  background: $color-background-nav-main;
+
+  display: flex;
+  flex-direction: column;
+
+  .sub-menu_item a,
+  .sub-menu_item .menu-item-label {
+    text-indent: 10%; // Instead of margin doesn't affect the clickable area or highlighted rect
+    @media only screen and (min-width: $large-breakpoint) {
+      text-indent: 0;
+    }
+  }
+}
+
+.menu-item--active .sub-navigation {
+  background: $color-background-nav-sub;
+}
+
+@media only screen and (min-width: $large-breakpoint) {
+  .sub-navigation {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform-origin: top center;
+    transform: rotateX(-90deg) translateX(-50%);
+    min-width: 15ch;
+    width: 100%;
+    z-index: 200;
+
+    --submenu-transition: 150ms all 100ms ease-out;
+    transition: var(--submenu-transition);
+    opacity: 0.3; // Start not at 0.0 to transition in just a wee bit faster.
+    visibility: hidden;
   }
 
-  #navigation ul li { }
+  .menu-item--has-submenu {
+    &:hover,
+    &:focus-within {
+      .sub-navigation {
+        opacity: 1;
+        visibility: visible;
+        transform: rotateX(0deg) translateX(-50%);
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: $large-breakpoint) {
@@ -137,4 +163,65 @@
   #navigation.has-submenu {
     margin-bottom: 3em; // TODO approximate height of menu bar
   }
+}
+
+/// Hamburger navigation with fly-out/dropdown
+
+#navigation #hamburger {
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+}
+#navigation #hamburger-toggle {
+  display: inline-flex;
+  line-height: 1.0;
+  padding: 0.5rem;
+  background: $color-background-nav-main;
+  border: 0;
+}
+@media only screen and (min-width: $large-breakpoint) {
+  #navigation #hamburger,
+  #navigation #hamburger-toggle {
+    display: none;
+  }
+}
+#navigation {
+  position: relative;
+}
+#navigation .main-navigation {
+  position: absolute;
+  top: 100%; left: 0;
+  width: 100%;
+  visibility: hidden;
+
+  --hamburger-menu-transition: 150ms all 100ms ease-out;
+  transform-origin: top center;
+  transform: rotateX(-90deg);
+  opacity: 0.3;
+  transition: var(--hamburger-menu-transition);
+
+  @media only screen and (min-width: $large-breakpoint) {
+    visibility: visible;
+    position: unset;
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+#navigation #hamburger:checked ~ .main-navigation {
+  visibility: visible;
+  transform: rotateX(0deg);
+  opacity: 1;
+}
+#navigation .hamburger-icon {
+  display: inline-block;
+  background-image: url('/img/hamburger-invert.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: $color-nav;
+  opacity: 80%;
+
+  --size: clamp(16px, 10vmin, 32px);
+  width: var(--size);
+  height: var(--size);
 }
