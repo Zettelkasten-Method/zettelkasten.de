@@ -8,8 +8,6 @@ updated_at: 2024-06-18 15:17:03 +0100
 
 # The Archive: Press Kit
 
-<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
-
 ## Description
 
 *The Archive* is a macOS note-taking application to increase writer productivity.

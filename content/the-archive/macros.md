@@ -12,8 +12,6 @@ tags: [thearchiveapp, keyboardmaestro]
 
 # The Archive 3rd Party Macros
 
-<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
-
 This page lists all known macros for Keyboard Maestro, Alfred, and other third-party launchers that can enhance your workflows with The Archive.
 
 <aside class="note">

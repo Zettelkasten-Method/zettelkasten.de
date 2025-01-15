@@ -7,8 +7,6 @@ layout: the-archive
 
 # The Archive: Release Notes
 
-<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
-
 "Beta" releases are available to you as soon as you switch to the "Cutting Edge" update channel in _The Archive_'s preferences.
 
 ## v1.8.0 Beta (2024-11-19)

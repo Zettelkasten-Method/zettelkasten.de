@@ -7,8 +7,6 @@ updated_at: 2024-10-11 18:57:44 +0100
 ---
 # Plug-Ins for The Archive
 
-<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
-
 Take control of your workflow with customizable plug-ins for The Archive:
 
 - **Automate repetitive tasks:** Plug-ins can perform common actions for you, like assembling a list of links, or extracting a new note from selected text.

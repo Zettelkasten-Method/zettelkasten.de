@@ -209,33 +209,6 @@
   }
 }
 
-// Shared app pages that are not the landing page
-.the-archive {
-  a.back--link {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    background: $color-accent3;
-    color: white;
-    text-decoration: none;
-    &::before {
-      content: "←";
-      display: inline-block;
-      left: -3px;
-      text-decoration: none;
-    }
-    .back--text {
-      font-family: $font-sans;
-      text-decoration: underline;
-      text-shadow: rgba(0,0,0,0.3) 0 1px 0;
-    }
-    &:hover .back--text { text-decoration: none; }
-  }
-}
-
 .pk-screenshots {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));

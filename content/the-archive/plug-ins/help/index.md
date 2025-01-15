@@ -7,8 +7,6 @@ updated_at: 2024-10-11 18:57:44 +0100
 ---
 # Plug-In Development Help
 
-<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
-
 The plug-in ecosystem has been added to The Archive with the free update v1.8.0. 
 
 In other words: It's all still pretty new!
