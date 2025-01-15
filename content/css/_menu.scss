@@ -53,6 +53,8 @@
 
 #navigation a,
 #navigation .menu-item-label {
+  position: relative;
+  z-index: 500;
   display: block;
   width: 100%;
   padding: 0.5em 1rem;
@@ -141,6 +143,9 @@
     transition: var(--submenu-transition);
     opacity: 0.3; // Start not at 0.0 to transition in just a wee bit faster.
     visibility: hidden;
+
+    z-index: 199;
+    box-shadow: rgba(0, 0, 0, 0.4) 0rem 0.1rem 0.5rem;
   }
 
   .menu-item--has-submenu {
