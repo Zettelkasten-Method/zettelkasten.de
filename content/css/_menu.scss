@@ -178,17 +178,22 @@
 
 /// Hamburger navigation with fly-out/dropdown
 
-#navigation #hamburger {
+#navigation #hamburger-toggle {
   opacity: 0;
   cursor: pointer;
   position: absolute;
 }
-#navigation #hamburger-toggle {
-  display: inline-flex;
-  line-height: 1.0;
-  padding: 0.5rem;
+#navigation .hamburger-container {
+  display: block;
   background: $color-background-nav-main;
+  line-height: 1.0;
+}
+#navigation #hamburger {
+  display: block;
+  // height: 100%;
+  padding: 0.5rem;
   border: 0;
+  cursor: pointer;
 }
 @media only screen and (min-width: $large-breakpoint) {
   #navigation #hamburger,
@@ -218,21 +223,39 @@
     opacity: 1;
   }
 }
-#navigation #hamburger:checked ~ .main-navigation {
+#navigation #hamburger-toggle:checked ~ .main-navigation {
   visibility: visible;
   transform: rotateX(0deg);
   opacity: 1;
 }
-#navigation .hamburger-icon {
-  display: inline-block;
-  background-image: url('/img/hamburger-invert.png');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  color: $color-nav;
-  opacity: 80%;
-
+.hamburger-container #hamburger {
   --size: clamp(16px, 10vmin, 32px);
   width: var(--size);
   height: var(--size);
+  box-sizing: content-box;
+
+  transition: transform 0.2s ease;
+}
+.hamburger-container #hamburger .slice {
+  display: block;
+  width: 100%;
+  height: 2px;
+  transition: all 0.2s ease;
+  background-color: $color-nav;
+  opacity: 80%;
+}
+.hamburger-container #hamburger .slice:not(:first-child) {
+  margin-top: 33%;
+}
+
+.hamburger-container #hamburger-toggle:checked ~ #hamburger .slice:nth-child(1) {
+  transform: translateY(12px) rotate(45deg);
+}
+
+.hamburger-container #hamburger-toggle:checked ~ #hamburger .slice:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-container #hamburger-toggle:checked ~ #hamburger .slice:nth-child(3) {
+  transform: translateY(-12px) rotate(-45deg);
 }
