@@ -237,19 +237,25 @@
   transition: transform 0.2s ease;
 }
 .hamburger-container #hamburger .slice {
+  --slice-height: 2px;
   display: block;
+  position: relative;
   width: 100%;
-  height: 2px;
+  height: var(--slice-height, 2px);
+  border-radius: var(--slice-height);
   transition: all 0.2s ease;
   background-color: $color-nav;
-  opacity: 80%;
+  opacity: 90%;
 }
-.hamburger-container #hamburger .slice:not(:first-child) {
-  margin-top: 33%;
+.hamburger-container #hamburger .slice {
+  margin-top: 22%; // Fallback to produce something hamburger-ish if calc is not available
+  margin-top: calc(33% - var(--slice-height));
+  top: calc((33% - var(--slice-height)) / -2);
 }
 
 .hamburger-container #hamburger-toggle:checked ~ #hamburger .slice:nth-child(1) {
-  transform: translateY(12px) rotate(45deg);
+  top: calc(33% - 2 * var(--slice-height));
+  transform: rotate(45deg);
 }
 
 .hamburger-container #hamburger-toggle:checked ~ #hamburger .slice:nth-child(2) {
@@ -257,5 +263,6 @@
 }
 
 .hamburger-container #hamburger-toggle:checked ~ #hamburger .slice:nth-child(3) {
-  transform: translateY(-12px) rotate(-45deg);
+  top: calc(-33% - 2 * var(--slice-height));
+  transform: rotate(-45deg);
 }
