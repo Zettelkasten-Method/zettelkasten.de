@@ -254,7 +254,7 @@
 }
 
 .hamburger-container #hamburger-toggle:checked ~ #hamburger .slice:nth-child(1) {
-  top: calc(33% - 2 * var(--slice-height));
+  top: calc(50% - 33% + var(--slice-height) / 2);
   transform: rotate(45deg);
 }
 
@@ -263,7 +263,7 @@
 }
 
 .hamburger-container #hamburger-toggle:checked ~ #hamburger .slice:nth-child(3) {
-  top: calc(-33% - 2 * var(--slice-height));
+  top: calc(-50% + var(--slice-height) / 2);
   transform: rotate(-45deg);
 }
 
