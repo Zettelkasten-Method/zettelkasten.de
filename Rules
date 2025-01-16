@@ -79,6 +79,15 @@ preprocess do
       month.post_url
     )
   end
+
+  # Treat  /foo.md  and  /foo/index.md  the same on the identifier level by removing the "/index.*" part.
+  # Turns e.g. "/software/blah/index.md" into "/software/blah.md"
+  # <https://github.com/nanoc/nanoc/issues/1683>
+  @items.find_all('/**/index.*').each do |item|
+    next if item.identifier.match?('/index.*')
+
+    item.identifier = '/' + item.identifier.components[0..-2].join('/') + '.' + item.identifier.ext
+  end
 end
 
 BYPASS_FILES.each do |file|

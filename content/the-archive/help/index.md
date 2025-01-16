@@ -8,8 +8,6 @@ toc: true
 
 # The Archive: Help
 
-<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
-
 ## How to Get Help Inside the App
 
 * For a quick overview of _The Archive_'s philosophy, check out *the welcome note*. You can add the note to your current archive directory from the Help menu: **Help ‣ Create Welcome Note…**

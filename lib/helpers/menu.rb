@@ -1,33 +1,34 @@
 module Menu
   private
   FORUM_URL = "https://forum.zettelkasten.de"
-  # The :key is a MainMenuItem#key, the lowercased symbol form with underscores instead of spaces
+  # The :key is a MainMenuItem#id, the lowercased symbol form with underscores instead of spaces
   SUBMENUS = {
-#    blog: [
-#      { title: "Recent Posts", link: "/" },
-#      { title: "Overview",     link: "/overview/" },
-#      { title: "Blog Archive",      link: "/posts/" }
-#    ]
+    thearchive: [
+      { id: :thearchive_main,  title: "Overview",   path: "/the-archive/" },
+      { id: :help,             title: "Help",       path: "/the-archive/help/" },
+      { id: :plugins,          title: "Plug-Ins",   path: "/the-archive/plug-ins/" },
+      { id: :roadmap,          title: "Roadmap",    path: "/the-archive/roadmap/" },
+    ]
   }
 
   MAIN_MENU_PER_LANG = {
     :en => [
-      { title: "Getting Started", link: "/overview/",       icon: "compass" },
-      { title: "Software",        link: "/the-archive/",    icon: "thearchive" },
-      { title: "Workshop",        link: "/course/",         icon: "monitor" },
-      { title: "Coaching",        link: "/coaching/",       icon: "easel" },
-      { title: "Members Area",    link: "/members-area/",   icon: "lock-locked" },
-      { title: "Forum",           link: FORUM_URL,          icon: "people" },
-      { title: "Blog",            link: "/posts/",          icon: "folder" },
+      { id: :overview,    title: "Getting Started",  path: "/overview/",       icon: "compass" },
+      { id: :thearchive,  title: "The Archive",      path: "/the-archive/",    icon: "thearchive" },
+      { id: :course,      title: "Workshop",         path: "/course/",         icon: "monitor" },
+      { id: :coaching,    title: "Coaching",         path: "/coaching/",       icon: "easel" },
+      { id: :members,     title: "Members Area",     path: "/members-area/",   icon: "lock-locked" },
+      { id: :forum,       title: "Forum",            url: FORUM_URL,           icon: "people" },
+      { id: :blog,        title: "Blog",             path: "/posts/",          icon: "folder" },
     ],
     :de => [
-      { title: "Erste Schritte",     link: "/overview/",       icon: "compass" },
-      { title: "Software",           link: "/the-archive/",    icon: "thearchive" },
-      { title: "Workshop",           link: "/course/",         icon: "monitor" },
-      { title: "Coaching",           link: "/coaching/",       icon: "easel" },
-      { title: "Mitgliederbereich",  link: "/members-area/",   icon: "lock-locked" },
-      { title: "Forum",              link: FORUM_URL,          icon: "people" },
-      { title: "Blog",               link: "/de/posts/",       icon: "folder" },
+      { id: :overview,    title: "Getting Started",  path: "/overview/",       icon: "compass" },
+      { id: :thearchive,  title: "The Archive",      path: "/the-archive/",    icon: "thearchive" },
+      { id: :course,      title: "Workshop",         path: "/course/",         icon: "monitor" },
+      { id: :coaching,    title: "Coaching",         path: "/coaching/",       icon: "easel" },
+      { id: :members,     title: "Members Area",     path: "/members-area/",   icon: "lock-locked" },
+      { id: :forum,       title: "Forum",            url: FORUM_URL,           icon: "people" },
+      { id: :blog,        title: "Blog",             path: "/de/posts/",       icon: "folder" },
     ]
   }
 
@@ -56,47 +57,51 @@ module Menu
       .join()
   end
 
-  def item_has_submenu?
-    current_path = @item_rep&.path
-    return false if current_path.nil?
-    main_menu_items
-      .select { _1.has_submenu? }
-      .select { _1.submenu_includes_path?(current_path) }
-      .empty? == false
-  end
-
-  def link_to_unless_root_of_hierarchy(text, menu_item)
-    if menu_item.submenu_includes_path?(@item_rep&.path)
-      %Q{<span class="active">#{text}</span>}
-    # elsif path.to_s.start_with?(menu_item.link)
-    #   %Q{<span class="active">#{link_to_unless_current(text, menu_item.link)}</span>}
-    else
-      link_to_unless_current(text, menu_item.link)
-    end
-  end
-
   private
 
   class MenuItem
-    attr_reader :title, :link, :icon
+    attr_reader :id, :title, :icon
+    attr_reader :path, :url
 
-    def initialize(title:, link:, icon: nil)
-      @title, @link, @icon = title, link, icon
+    def initialize(id:, title:, path: nil, url: nil, icon: nil)
+      @id, @title, @path, @url, @icon = id, title, path, url, icon
     end
 
-    def key
-      # "Foo bar" -> :foo_bar
-      title.downcase.gsub(" ", "_").to_sym
+    def submenu
+      SUBMENUS[@id]
     end
-  end
 
-  class MainMenuItem < MenuItem
-    def html(renderer:)
-      classes = [].tap do |classes|
-        classes << "menu_item"
-        classes << "menu-item--has-submenu" if !submenu.nil?
-      end.join(" ")
+    def has_submenu?
+      !submenu.nil?
+    end
 
+    def submenu_id
+      nil unless has_submenu?
+      %Q{#{@id.to_s}_submenu}
+    end
+
+    def link_kind
+      return :path if !@path.nil?
+      return :url if !@url.nil?
+      return :none
+    end
+
+    def is_active?(renderer:)
+      is_current?(renderer: renderer)
+    end
+
+    def is_current?(renderer:)
+      return false unless link_kind == :path
+
+      current_path = renderer.item_rep&.path
+      return false if current_path.nil?
+
+      target = @path
+      target_path = target.is_a?(String) ? target : target.path
+      return current_path == target_path
+    end
+
+    def rendered_link(renderer:)
       icon_html = if !icon.nil?
                     if icon.include?(".")
                       icon_image(icon)
@@ -107,9 +112,42 @@ module Menu
                     ""
                   end
 
+      label = %Q{#{icon_html}#{title}}
+
+      case link_kind
+      when :url
+        renderer.link_to(label, @url)
+      when :path
+        if has_submenu?
+          if is_active?(renderer: renderer)
+            %Q{<button type="button" aria-expanded="false" aria-controls="#{submenu_id}" class="menu-item-label sub-menu-toggle"><span class="menu-item-label-inner">#{label}</span></button>}
+          else
+            renderer.link_to(label, @path, class: "sub-menu-toggle")
+          end
+        else
+          if is_active?(renderer: renderer)
+            %Q{<span class="menu-item-label"><span class="menu-item-label-inner">#{label}</span></span>}
+          else
+            renderer.link_to(label, @path)
+          end
+        end
+      else
+        label
+      end
+    end
+  end
+
+  class MainMenuItem < MenuItem
+    def html(renderer:)
+      classes = [].tap do |classes|
+        classes << "menu_item"
+        classes << "menu-item--has-submenu" if has_submenu?
+        classes << "menu-item--active" if is_active?(renderer: renderer)
+      end.join(" ")
+
       return "".tap do |output|
         output << %Q{<li class="#{classes}">}
-        output << renderer.link_to_unless_current(%Q{#{icon_html}#{title}}, link)
+        output << rendered_link(renderer: renderer)
         output << rendered_submenu(renderer: renderer)
         output << %Q{</li>}
       end
@@ -123,18 +161,15 @@ module Menu
       %Q{<span aria-hidden="true" class="iconic" data-glyph="#{icon}"></span>} + " " # Trailing space here
     end
 
-    def submenu
-      SUBMENUS[key]
-    end
-
-    def has_submenu?
-      !submenu.nil?
-    end
-
-    def submenu_includes_path?(path)
+    def has_active_submenu?(renderer:)
+      current_path = renderer.item_rep&.path
+      return false if current_path.nil?
       return false unless has_submenu?
-      return false unless path
-      return submenu.map { _1[:link] }.include?(path)
+      return submenu.map { _1[:path] }.include?(current_path)
+    end
+
+    def is_active?(renderer:)
+      is_current?(renderer: renderer) || has_active_submenu?(renderer: renderer)
     end
 
     def rendered_submenu(renderer:)
@@ -144,7 +179,7 @@ module Menu
                        .map { _1.html(renderer: renderer) }
                        .join()
       return "".tap do |output|
-        output << %Q{<ul class="sub-navigation">}
+        output << %Q{<ul id="#{submenu_id}" class="sub-navigation">}
         output << submenu_html
         output << %Q{</ul>}
       end
@@ -153,9 +188,14 @@ module Menu
 
   class SubMenuItem < MenuItem
     def html(renderer:)
+      classes = [].tap do |classes|
+        classes << "sub-menu_item"
+        classes << "menu-item--active" if is_active?(renderer: renderer)
+      end.join(" ")
+
       return "".tap do |output|
-        output << %Q{<li class="sub-menu_item">}
-        output << renderer.link_to_unless_current(title, link)
+        output << %Q{<li class="#{classes}">}
+        output << rendered_link(renderer: renderer)
         output << %Q{</a>}
         output << %Q{</li>}
       end

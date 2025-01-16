@@ -7,8 +7,6 @@ toc: manual
 ---
 # The Archive: Version Roadmap
 
-<a href="/the-archive/" class="back--link"><img src="/the-archive/img/appicon-sm.png" class="back--image" /><span class="back--text">Back to the Project Page</span></a>
-
 We decided to be radically transparent what you can expect. You don't only invest in current utility of the app. You invest in future improvements, too. Transparency is part of our business ethics.
 
 ## Version 1: The Core

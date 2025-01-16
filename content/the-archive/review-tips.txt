@@ -2,8 +2,6 @@
 title: Review Tips
 ---
 
-[Back to the Project Page](/the-archive/)
-
 Not sure what to look out for? Here's an ever growing list of things that can go wrong and which you might want to try on your Mac.
 
 # Quality Assurance: Actions to Test During Beta
