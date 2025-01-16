@@ -112,3 +112,13 @@ ready((event) => {
       observer.observe(heading);
     });
 });
+
+ready((event) => {
+  const menuLinks = document.querySelectorAll('#navigation .main-navigation a');
+  menuLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      const navigation = document.querySelector('#navigation .main-navigation');
+      navigation.classList.add('no-transition');
+    });
+  });
+});
