@@ -122,3 +122,15 @@ ready((event) => {
     });
   });
 });
+
+ready((event) => {
+  const nav = document.getElementById("navigation");
+  const hamburger = document.getElementById("hamburger-toggle");
+  window.addEventListener("click", (event) => {
+    const eventPath = event.composedPath();
+    const isTargeted = eventPath.includes(nav);
+    if (!isTargeted) {
+      hamburger.checked = false;
+    }
+  });
+});
