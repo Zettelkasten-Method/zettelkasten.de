@@ -12,7 +12,7 @@
 
 .header-container { position: relative; z-index: 999; } // Draw header container on top of main menu shadow
 .main-navigation {
-  --font-size: clamp(0.5rem, max(1.2vw, 1.5vh), 1rem);  // Experimental vw/vh values to avoid 2 line menu items in many cases
+  --font-size: clamp(0.6rem, 2.5vmax, 0.8rem);
 
   display: grid;
   grid-template-columns: 1fr;
