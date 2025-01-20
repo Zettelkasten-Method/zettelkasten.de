@@ -18,14 +18,6 @@
 
 .homepage #sidebar { display: none; }
 
-html.homepage {
-  font-size: $base-size;
-  // Keep smaller font for longer on landing page
-  @media only screen and (min-width: $medium-breakpoint) { font-size: $base-size; }
-  @media only screen and (min-width: $large-breakpoint)  { font-size: $base-size; }
-  @media only screen and (min-width: $modern-breakpoint) { font-size: $large-base-size; }
-}
-
 .homepage body {
   $medium-breakpoint: 40em;
 
@@ -47,7 +39,6 @@ html.homepage {
 
   .content-container .main {
     max-width: var(--content-width);
-    margin-inline: auto;
 
     display: grid;
     grid-template-columns: [row-start row-mid] 2fr [row-end];
