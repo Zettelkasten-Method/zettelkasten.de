@@ -12,7 +12,8 @@
 
 .header-container { position: relative; z-index: 999; } // Draw header container on top of main menu shadow
 .main-navigation {
-  --font-size: 1rem;
+  --font-size: clamp(0.5rem, max(1.2vw, 1.5vh), 1rem);  // Experimental vw/vh values to avoid 2 line menu items in many cases
+
   display: grid;
   grid-template-columns: 1fr;
   @media only screen and (min-width: $large-breakpoint) {
@@ -23,7 +24,6 @@
   background: $color-background-nav-main;
   font-size: var(--font-size);
   @media only screen and (min-width: $large-breakpoint) {
-    --font-size: 0.8rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0rem 0rem 1rem;
   }
 
