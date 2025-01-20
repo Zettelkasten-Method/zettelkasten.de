@@ -29,7 +29,7 @@ html.homepage {
 .homepage body {
   $medium-breakpoint: 40em;
 
-  background-color: $color-background-nav-main;
+  background-color: darken($color-background-nav-main, 5%);
 
   .content-container {
     max-width: 100%; // reset the ~36rem setting from normal pages
