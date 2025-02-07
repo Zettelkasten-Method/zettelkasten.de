@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2025-01-20 06:10:22 +0100
+updated_at: 2025-02-07 10:20:15 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,11 @@ layout: the-archive
 # The Archive: Release Notes
 
 "Beta" releases are available to you as soon as you switch to the "Cutting Edge" update channel in _The Archive_'s preferences.
+
+## v1.8.2 (Beta: 2025-02-07)
+
+- **Fixed:** Scroll position and selection restoration when viewing notes now works correctly again.
+- **Changed:** Marked preview and word count (in the status bar) update more snappily.
 
 ## v1.8.1 (Beta: 2025-01-14; Final: 2025-01-20)
 
