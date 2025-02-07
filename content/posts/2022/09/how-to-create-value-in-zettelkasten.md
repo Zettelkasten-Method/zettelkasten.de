@@ -3,7 +3,7 @@ title: "How Value is Created in a Zettelkasten (and Any System of Knowledge Work
 created_at: 2022-08-27 09:57:20 +0100
 kind: article
 author: sascha
-tags: [ processing, connect, structure, excerpt, toolbox, tool ]
+tags: [ value-creation, processing, connect, structure, excerpt, toolbox, tool ]
 vgwort: https://vg04.met.vgwort.de/na/febfef283bd34aa38fc1d946bf308cd0
 image: 20220827100832_dog-catch.jpg
 ---

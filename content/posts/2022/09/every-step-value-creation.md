@@ -3,11 +3,11 @@ title: "Every Step in the Process Must be Knowledge-Based Value Creation"
 created_at: 2022-09-19 09:14:47 +0100
 kind: article
 author: sascha
-tags: [ processing, process, layers ]
+tags: [ value-creation, processing, process, layers ]
 rel_image: 20220917091911_monkey.jpg
 vgwort: https://vg09.met.vgwort.de/na/e0f37f83bdaf4cc191faa1683cc9cfc3
 description: "Does the Zettelkasten feel like extra work? This doesn't have to be so."
-excerpt: "\"The Zettelkasten Method is so labor-intensive. I don't have time to <i>also</i> maintain a Zettelkasten.\" -- This, or something like it, is a regular concern when people engage with the Zettelkasten Method. And with good reason, because on the forums and Reddit you can see that care and maintenance seems to be a big part of the Zettelkasten Method. That's a problem of the implementation."
+excerpt: "“The Zettelkasten Method is so labor-intensive. I don't have time to <i>also</i> maintain a Zettelkasten.” -- This, or something like it, is a regular concern when people engage with the Zettelkasten Method. And with good reason, because on the forums and Reddit you can see that care and maintenance seems to be a big part of the Zettelkasten Method. That's a problem of the implementation."
 ---
 
 > The Zettelkasten Method is so labor-intensive. I don't have time to *also* maintain a Zettelkasten.
