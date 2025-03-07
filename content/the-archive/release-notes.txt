@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2025-02-23 14:24:31 +0100
+updated_at: 2025-03-07 11:21:28 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,12 @@ layout: the-archive
 # The Archive: Release Notes
 
 "Beta" releases are available to you as soon as you switch to the "Cutting Edge" update channel in _The Archive_'s preferences.
+
+## v1.8.4 (Beta: 2025-03-07)
+
+- **Fixed:** Composing accented characters and entering e.g. Pinyin. Last release broke the system default behavior and inserted both the accent and the accented character.
+- **Fixed:** Cmd+Backspace with the completion popover visible doesn't delete the current note anymore, but deletes text in the editor to the beginning of the line.
+- **Changed:** Deleting the last remaining hash (`#`) during hashtag auto-completion closes the completion popover automatically.
 
 ## v1.8.3 (Beta: 2025-02-23)
 
