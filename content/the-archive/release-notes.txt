@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2025-03-07 11:21:28 +0100
+updated_at: 2025-03-19 11:40:43 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,14 @@ layout: the-archive
 # The Archive: Release Notes
 
 "Beta" releases are available to you as soon as you switch to the "Cutting Edge" update channel in _The Archive_'s preferences.
+
+## v1.8.5 (Beta: 2025-03-19)
+
+- **New:** Enable/disable hashtag auto-completion from the "Editing" preference pane.
+- **Changed:** Suggest tags in case-insensitive way, so that you get suggestions no matter if your partial input matches the original's case or not.
+- **Changed:** With the auto-completion popover visible, pressing return automatically selects the first element if it's the only one left (instead to doing nothing).
+- **Fixed:** Performance issue when displaying the tag auto-completion window in notes with many links.
+- **Fixed:** Deleting the whole line backward with Cmd+Backspace didn't auto-dismiss the completion popover.
 
 ## v1.8.4 (Beta: 2025-03-07)
 
