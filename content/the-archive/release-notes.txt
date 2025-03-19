@@ -21,12 +21,12 @@ layout: the-archive
 - **Changed:** Auto-completion of dictionary words uses the new UI that does not auto-dismiss when you continue to type.
 - **Fixed:** Crash of the editor (after which no note would display) in very specifially nested lists with blockquotes.
 
-## v1.8.2 (Beta: 2025-02-07; Public: 2025-02-16)
+## v1.8.2 (Beta: 2025-02-07; Stable: 2025-02-16)
 
 - **Fixed:** Scroll position and selection restoration when viewing notes now works correctly again.
 - **Changed:** Marked preview and word count (in the status bar) update more snappily.
 
-## v1.8.1 (Beta: 2025-01-14; Final: 2025-01-20)
+## v1.8.1 (Beta: 2025-01-14; Stable: 2025-01-20)
 
 - **New:** Plug-ins can access the `tags` property of note objects. This property was reserved previously, but now is populated with actual data.
 - **Fixed:** Some [URL Scheme-based preference changes](https://zettelkasten.de/the-archive/help/#hidden-preferences) did not work.
