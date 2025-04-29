@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2025-03-19 11:40:43 +0100
+updated_at: 2025-04-29 06:44:46 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -8,6 +8,10 @@ layout: the-archive
 # The Archive: Release Notes
 
 "Beta" releases are available to you as soon as you switch to the "Cutting Edge" update channel in _The Archive_'s preferences.
+
+## v1.9.0 (Beta: 2025-04-29)
+
+- **Changed:** Hashtag auto-completion doesn't pop up inside elements like code blocks.
 
 ## v1.8.5 (Beta: 2025-03-19)
 
