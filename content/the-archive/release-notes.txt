@@ -1,6 +1,6 @@
 ---
 title: The Archive Release Notes
-updated_at: 2025-04-29 06:44:46 +0100
+updated_at: 2025-05-06 06:58:58 +0100
 description: History of all updates and changes to The Archive, the macOS note-taking app, since 2017.
 layout: the-archive
 ---
@@ -9,7 +9,15 @@ layout: the-archive
 
 "Beta" releases are available to you as soon as you switch to the "Cutting Edge" update channel in _The Archive_'s preferences.
 
-## v1.9.0 (Beta: 2025-04-29)
+## v1.9.0 (2025-05-06)
+
+Includes these changes since v1.8.2:
+
+- **New:** Auto-completion of Hashtags. It shows automatically shows when typing a `#` by default. (Disable hashtag auto-completion from the "Editing" preference pane.)
+- **Changed:** Auto-completion of dictionary words uses the new UI that does not auto-dismiss when you continue to type.
+- **Fixed:** Crash of the editor (after which no note would display) in very specifially nested lists with blockquotes.
+
+## v1.9.0 Beta (Beta: 2025-04-29)
 
 - **Changed:** Hashtag auto-completion doesn't pop up inside elements like code blocks.
 
