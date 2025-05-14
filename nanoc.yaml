@@ -9,7 +9,8 @@ index_filenames: [ 'index.html' ]
 enable_output_diff: false
 
 # sha256sum
-the_archive_checksum: "24daaced40fdc756d75c900e729e3cc38aefad1ab4a44e8886e3de85a863e688"
+the_archive_checksum: "ff9149e3c68b017829fb95ee9f4cac816184464c4afa7826be0eca0107ae9c45"
+the_archive_download: "https://dlyfuw95744jo.cloudfront.net/TheArchive-v1.9.1.dmg"
 
 # For XML Sitemap and OpenGraph canonical links
 base_url: https://zettelkasten.de
