@@ -2,7 +2,7 @@
 title: "Nori’s Zettelkasten Journey and Why She Let It Go - An Interview"
 created_at: 2025-05-14 17:31:28 +0200
 kind: article
-author: christian
+author: sascha
 tags: [ writing, depth-of-processing, interview, video, ]
 description: "Interview with Nori about her Zettelkasten experience and why she ultimately abandoned it."
 ---
