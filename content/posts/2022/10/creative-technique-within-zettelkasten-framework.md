@@ -3,7 +3,7 @@ title: "How To Use Creative Techniques Within the Zettelkasten Framework"
 created_at: 2022-10-15 11:55:11 +0100
 kind: article
 author: sascha
-tags: [ processing, creativity, truth, relevance, usefulness, beauty, simplicity ]
+tags: [ knowledge-flower, processing, creativity, truth, relevance, usefulness, beauty, simplicity ]
 rel_image: 2022-09-29-knowledge-flower.png
 vgwort: https://vg09.met.vgwort.de/na/65dcab417b1947ac98758a69b29f7f47
 description: "Truth, relevance, usefulness, beauty, simplicity: the 5 aspects of an idea."
