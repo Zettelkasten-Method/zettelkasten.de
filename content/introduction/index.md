@@ -1,7 +1,7 @@
 ---
 title: Introduction to the Zettelkasten Method
 created_at: 2020-10-27 21:54:00 +0100
-updated_at: 2021-01-28 18:14:00 +0100
+updated_at: 2025-05-29 12:54:42 +0100
 author: sascha
 kind: article
 rel_image: complete-zettel.png
@@ -28,7 +28,7 @@ This introduction is meant to guide your first steps towards excellence. Follow 
 
 If I had to explain to someone unfamiliar with the concept of Zettelkasten, I'd describe it like this:
 
-> A Zettelkasten is a personal tool for thinking and writing. It has hypertextual features to make a web of thought possible. The difference to other systems is that you create a web of thoughts instead of notes of arbitrary size and form, and emphasize connection, not a collection.
+> A Zettelkasten is a personal tool for thinking and writing. It has hypertextual features to make a web of thoughts possible. The difference to other systems is that you create a web of thoughts instead of notes of arbitrary size and form, and emphasize connection, not a collection.
 
 The Zettelkasten, as we know it today, really took off with Niklas Luhmann, the godfather of the Zettelkasten Method, the most powerful tool for thinking and note taking out there.
 
