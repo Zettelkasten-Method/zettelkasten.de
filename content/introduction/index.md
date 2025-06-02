@@ -122,7 +122,7 @@ Each Zettel needs a unique address by which we can refer to it, to make connecti
 
 **Second,** a Zettelkasten needs to adhere to the [Principle of Atomicity](https://zettelkasten.de/posts/create-zettel-from-reading-notes/). That means that each Zettel only contains one unit of knowledge and one only. These units are the atoms to which the principle of atomicity refers. To figure out what the atoms are, it helps when we ask ourselves what we want the molecules that we create from our note atoms to look like. What are the units that have their own address? The answer is: One thought. Let us explore some examples that do not use thought as their atoms.
 
-Books, for example, have addresses and cross-references. They have chapters, sections and pages. All have unique numbers that can be referred to. However, you cannot refer to a thought, an idea or any content. Chapters, Sections and Pages are more like coordinates. A thought might spread over the whole book! You cannot refer to it directly with just one reference. A book is *not* a web of thought.
+Books, for example, have addresses and cross-references. They have chapters, sections and pages. All have unique numbers that can be referred to. However, you cannot refer to a thought, an idea or any content. Chapters, Sections and Pages are more like coordinates. A thought might spread over the whole book! You cannot refer to it directly with just one reference. A book is *not* a web of thoughts.
 
 Wikipedia, also, is not a web of thoughts, because you can only link to articles and sections within them, but not to individual thoughts inside the text. None of the addresses matches with any thought. Wikipedia is not meant to be such a thing. Rather, Wikipedia is an encyclopedia with each article containing information on a topic. Wikipedia is not a thinking tool but a tool for information retrieval.
 
@@ -136,7 +136,7 @@ That does not mean that it is never useful to create a shared, project-specific 
 
 That brings us back to our short definition:
 
-> A Zettelkasten is a personal tool for thinking and writing. It has hypertextual features to make a web of thought possible. The difference to other systems is that you create a web of thoughts instead of notes of arbitrary size and form, and emphasize connection, not a collection.
+> A Zettelkasten is a personal tool for thinking and writing. It has hypertextual features to make a web of thoughts possible. The difference to other systems is that you create a web of thoughts instead of notes of arbitrary size and form, and emphasize connection, not a collection.
 
 With that, we have a working definition. How do you Zettelkasten-ify your thinking and writing?
 
