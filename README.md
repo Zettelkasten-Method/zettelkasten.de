@@ -16,13 +16,20 @@ $ gem update bundler
 $ bundle install 
 ```
 
+Using `mise`:
+
+```sh
+$ mise exec -- bundle install
+```
+
 ### Preview
 
 To get a live preview of your changes, compile and serve via:
 
 ```sh
-$ bundle exec nanoc live
-Listening for lib/ changes…
+$ mise task run server
+# Alternatively, call directly:
+# $ bundle exec nanoc live
 View the site at http://127.0.0.1:3000/
 [2024-06-19 12:29:36] INFO  WEBrick 1.8.1
 [2024-06-19 12:29:36] INFO  ruby 3.2.0 (2022-12-25) [arm64-darwin22]

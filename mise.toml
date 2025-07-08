@@ -1,0 +1,67 @@
+[tools] 
+ruby = "latest"  # Uses the version from .tool-versions
+dart = "latest"  # For dart-sass compilation
+
+# Core Rake task wrappers
+[tasks.preview]
+description = "Generate and show the website in development mode"
+alias = "p"
+run = "bundle exec rake preview"
+
+[tasks.build]
+description = "Generate deployable website"
+alias = "b"
+run = "bundle exec rake generate"
+
+[tasks.stage]
+description = "Deploy website to staging server (includes generate)"
+alias = "s"
+run = "bundle exec rake staging"
+
+[tasks.deploy]
+description = "Deploy website to server (includes generate)"
+alias = "d"
+run = "bundle exec rake deploy"
+
+[tasks.proof]
+description = "HTML proof the output"
+run = "bundle exec rake proof"
+
+[tasks.clean]
+description = "Remove files in output directory"
+run = "bundle exec rake clean"
+
+# Bundle and development tasks
+[tasks."bundle:install"]
+description = "Install gem dependencies"
+alias = "bi"
+run = "bundle install"
+
+[tasks."bundle:update"]
+description = "Update gem dependencies"
+alias = "bu"
+run = "bundle update"
+
+[tasks.server]
+description = "Start nanoc live server"
+alias = "s"
+run = "bundle exec nanoc live"
+
+[tasks.console]
+description = "Start nanoc console"
+alias = "c"
+run = "bundle exec nanoc shell"
+
+# Composite tasks
+[tasks.fresh]
+description = "Clean and generate fresh build"
+depends = ["clean"]
+run = "bundle exec rake generate"
+
+[tasks."deploy:full"]
+description = "Full deployment workflow (clean, generate, deploy)"
+depends = ["clean"]
+run = "bundle exec rake deploy"
+
+[env]
+RUBY_YJIT_ENABLE = "1"
