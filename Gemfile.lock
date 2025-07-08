@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/nanoc/nanoc
-  revision: 9b3ac410963a38c026126f9d4ccd9509bc441286
+  revision: 279d5e992b0b845e66b1402003a9845575d0d98b
   branch: main
   glob: nanoc-live/*.gemspec
   specs:
@@ -90,7 +90,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2025.0603)
+    mime-types-data (3.2025.0701)
     mini_portile2 (2.8.9)
     minitest (5.25.5)
     multi_json (1.15.0)
@@ -160,7 +160,7 @@ GEM
     rexml (3.4.1)
     rouge (4.5.2)
     rubypants (0.7.1)
-    sass-embedded (1.89.1)
+    sass-embedded (1.89.2)
       google-protobuf (~> 4.31)
       rake (>= 13)
     securerandom (0.4.1)
@@ -171,7 +171,7 @@ GEM
       set (~> 1.0)
     systemu (2.6.5)
     terminal-notifier (2.0.0)
-    terser (1.2.5)
+    terser (1.2.6)
       execjs (>= 0.3.0, < 3)
     tty-color (0.6.0)
     tty-command (0.10.1)
@@ -227,4 +227,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.4.1
+   2.6.7
