@@ -7,9 +7,9 @@ tags: [ fiction, reading, note-taking, process ]
 image: 20220111180002_dogs-in-line.jpg
 vgwort: https://vg07.met.vgwort.de/na/a70a59b2380b4e05a98473682246e897
 description: "Know what you are trying to process when you process fiction, and be skilled in handling these pieces."
-excerpt: "In part 1 we concluded that knowledge is knowledge, independent of its source. Applying the Zettelkasten Method to fiction books does not change anything if we are dealing with knowledge .But if you want to use the Zettelkasten Method to analyse a story as a story? Then you need to know what to look for besides knowledge."
+excerpt: "In part 1 we concluded that knowledge is knowledge, independent of its source. Applying the Zettelkasten Method to fiction books does not change anything if we are dealing with knowledge. But if you want to use the Zettelkasten Method to analyse a story as a story? Then you need to know what to look for besides knowledge."
 discussion_id: 2088
-updated_at: 2023-08-03 08:23:43 +0100
+updated_at: 2025-07-24 17:46:42 +0100
 ---
 
 **Recap:** In [part 1](https://zettelkasten.de/posts/zettelkasten-fiction-writing-part-1-knowledge/) we concluded that knowledge is knowledge, independent of its source. Applying the Zettelkasten Method to fiction books does not change anything if we are dealing with knowledge.
@@ -23,7 +23,7 @@ But if you want to use the Zettelkasten Method to analyse a story as a story? Th
 
 **Disclaimer:** Style is excluded for didactic reasons. Style is not part of the story, but part of the language used to present the story. Whether the author chooses to use just the verb "say" to signify direct speech, uses lots of different synonyms for "saying", or if he is an alliteration addict is not important to the story itself.
 
-There are [six types of knowledge](https://zettelkasten.de/posts/reading-is-searching/). In story, we find the following elements:
+There are [six types of knowledge building blocks](https://zettelkasten.de/posts/reading-is-searching/). In story, we find the following elements:
 
 1. **Structural elements** are acts, scene sequences, scenes, beats.[^coyne195] The units of story.
 2. **Elements of plot** are things like changes in value charge,[^coyne120] plot elements of frameworks like the [hero's journey](https://en.wikipedia.org/wiki/Hero%27s_journey) (example: Meeting with the Goddess),[^campbell91] the resolution or the introduction of the protagonist's weakness.[^truby40] Elements of plot are the various events and actions that are part of the *cause and effect network* named plot.[^tobias40]
