@@ -1,7 +1,7 @@
 ---
 title: "Create Zettel from Reading Notes According to the Principle of Atomicity"
 created_at: 2013-09-03 09:46:00 +0200
-updated_at: 2019-11-20 11:33:00 +0100
+updated_at: 2025-08-12 15:54:27 +0100
 kind: article
 author: christian
 tags: [ reading, collect, process, zettel, atomicity ]
@@ -17,6 +17,10 @@ As I said in my last post, my reading workflow consists of GTD-like phases: **co
 While [I wrote about collecting before][collect], this post is about the three phases of processing notes.  In the last section you'll find a few example _Zettels_ I wrote.
 
   [collect]: /posts/making-proper-marks-in-books/
+
+**Update 2025-08-12**: [Sascha elaborated and refined what the _Principle_ of Atomicity means][princip], which has become a very popular yet loaded term since I proposed its use back in 2013. Trying to keep "atomic notes" proved to be more of a hindrance to many note-takers than an enabler. [Read the post to find out why.][princip]
+
+[princip]: https://zettelkasten.de/posts/principle-of-atomicity-difference-between-principle-and-implementation/
 
 ## Why I need to process notes at all
 
