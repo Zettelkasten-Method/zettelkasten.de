@@ -109,7 +109,7 @@ I won't go into full detail with Luhmann's Zettelkasten. But if you take a look 
 
 Sounds familiar? If yes, you got it!
 
-**Atomity as the input quality of notes creates a prompt machine.** 
+**Atomicity as the input quality of notes creates a prompt machine.** 
 
 That doesn't exclude that the Zettelkasten can prompt you to write more notes within the Zettelkasten. But as long as you stick to this relatively narrow and inflexible implementation of atomicity as a principle, you tend to get interconnected prompts. Claims and opinions to which you sometimes attach a reference if you took it from another person. 
 
@@ -235,7 +235,7 @@ Is this level of processing and interacting with knowledge necessary for the Zet
 
 **Work your way down from the top of the iceberg to the depths.** 
 
-Let's finish with me giving you the scope of this project. To integrate the made points. Without seeing the whole, you might wonder why I put so much work and effort into getting this one part right.
+Let's finish with me giving you the scope of this project. To integrate the points made. Without seeing the whole, you might wonder why I put so much work and effort into getting this one part right.
 
 ## Our Vision for Zettelkasten.de as a Platform: Atomic Notes are just the beginning
 
@@ -253,7 +253,7 @@ This is Zettelkasten 101, available as [coaching](https://zettelkasten.de/coachi
 
 The next phase will focus on techniques and methods for working with existing knowledge. Tools for working with concepts, arguments, models, and empirical work will be explored. I aim to push the boundaries of knowledge and learning in the field of personal knowledge management and thinking tools as far as possible, contributing my small part to the vast ocean of knowledge.
 
-Ihave to use thinking tools and work on my skills to use them constantly. Everything that you read on this blog is based on my need to engage with a wide variety of knowledge. [You may read a bit on the scope of my work](https://forum.zettelkasten.de/discussion/2804/journal-q-a-ama-writing-a-book-with-my-zettelkasten/). My personal vision is that I will work on both projects in synergy: Knowledge and [Arete](https://en.wikipedia.org/wiki/Arete).
+I have to use thinking tools and work on my skills to use them constantly. Everything that you read on this blog is based on my need to engage with a wide variety of knowledge. [You may read a bit on the scope of my work](https://forum.zettelkasten.de/discussion/2804/journal-q-a-ama-writing-a-book-with-my-zettelkasten/). My personal vision is that I will work on both projects in synergy: Knowledge and [Arete](https://en.wikipedia.org/wiki/Arete).
 
 Equipped with that background knowledge, let's review this article. 
 
