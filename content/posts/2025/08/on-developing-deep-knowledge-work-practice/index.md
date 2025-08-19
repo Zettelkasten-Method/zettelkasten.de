@@ -7,6 +7,7 @@ tags: [ deliberate-practice, depth-of-processing,  ]
 vgwort: https://vg02.met.vgwort.de/na/88f57f64f2f84500a378e483c516e6dc
 description: "A reply to Nori Parelius’ follow-up post after our recent video call where we talked about her quitting the Zettelkasten Method."
 rel_image: 2025-08-06_nori-sketch.jpg
+updated_at: 2025-08-19 12:04:20 +0100
 ---
 **Context:** Nori wrote an article about quitting the Zettelkasten Method. She clearly tried hard and wrote a thoughtful reflection on her journey. So, I decided to reach out to her and offer some help. We recorded the first session here: [Nori's Zettelkasten Journey and Why She Let It Go](https://zettelkasten.de/posts/noris-zettelkasten-journey-why-she-let-it-go-interview/). My goal was not to bring her back to the only true way, but to apply general coaching methods. 
 
@@ -90,3 +91,5 @@ Many people complain that they barely remember anything that they read. This is 
 So, if you want to develop more depth, you should consider letting go of the hope to out-maneuver a meaning problem with a technical solution.
 
 And don't forget to read [Nori's article](https://www.noriparelius.com/post/thiniking-in-an-overstimulating-world/)!
+
+**Update 2025-08-19:** We are wrapping up three coaching sessions [with Nori's return to the Zettelkasten.](https://zettelkasten.de/posts/nori-you-do-have-a-zettelkasten/)
