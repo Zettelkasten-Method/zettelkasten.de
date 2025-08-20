@@ -7,6 +7,7 @@ tags: [ principle, atomicity,  ]
 rel_image: atomicity-slop.jpg
 vgwort: https://vg02.met.vgwort.de/na/8044b174a899411fbb64557143c11609
 description: "The deepest dive into the principle of atomicity on the whole internet."
+updated_at: 2025-08-20 15:03:01 +0100
 ---
 There was a bit of [backlash on Reddit](https://www.reddit.com/r/Zettelkasten/comments/1ll382l/studying_hindu_philosophy_with_your_zettelkasten/) regarding the video on using the Zettelkasten Method for Hindu Philosophy. 
 
@@ -106,6 +107,8 @@ While both quotes are compatible and I, too, would go to great lengths to save m
 I won't go into full detail with Luhmann's Zettelkasten. But if you take a look at his notes, you will find a striking similarity to the style of Cal Newport's quote dumps, Bob Doto's notes on spiritual practices, and Ryan Holiday's quote collection. Luhmann, too, built a prompt machine to help him write. The complexity of his system was appropriate to the complexity of his work. But take this statement by Johannes Schmidt:
 
 > Luhmann described the process of drawing on his file to compose texts as **a kind of collaging technique** in which he combined the various sections on issues that are relevant to a topic.[][#schmidt2016]
+
+[#schmidt2016]: Johannes Schmidt (2016): Niklas Luhmann´s Card Index: Thinking Tool, Communication Partner, Publication Machine, in: Forgetting Machines. Knowledge Management Evolution in Early Modern Europe, Leiden: Brill.
 
 Sounds familiar? If yes, you got it!
 
