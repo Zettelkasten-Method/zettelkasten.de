@@ -1,6 +1,7 @@
 [tools] 
 ruby = "latest"  # Uses the version from .tool-versions
 dart = "latest"  # For dart-sass compilation
+node = "latest"
 
 # Core Rake task wrappers
 [tasks.preview]
