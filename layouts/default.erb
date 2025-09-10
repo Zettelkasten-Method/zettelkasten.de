@@ -40,10 +40,12 @@
     </div>
     <%= render '/_menu.*' %>
   </header>
-  <div class="content-container">
-    <aside id="sidebar">
-      <%= render '/_sidebar.*' %>
-    </aside>
+  <div class="content-container <% "sidebar-container" unless @item[:sidebar] == false %>">
+    <% unless @item[:sidebar] == false %>
+      <aside id="sidebar">
+        <%= render '/_sidebar.*' %>
+      </aside>
+    <% end %>
     <main id="content" class="main">
       <%= yield %>
     </main>

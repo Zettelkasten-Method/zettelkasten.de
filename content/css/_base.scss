@@ -460,6 +460,14 @@ hr, figure, aside, table, article table {
     padding-inline: var(--block-padding, 0.5rem);
     max-width: var(--content-width);
   }
+  .content-container:not(:has(#sidebar)) {
+    // When we hide the sidebar, center align the content column by moving the 2x1fr to the left and right, and tweaking content columns
+    grid-template-columns:
+      minmax(min(3rem, 6vw), 1fr)
+      [content-start] repeat(4, minmax(min(8rem, 17vw), 1fr)) [content-end]
+      minmax(min(3rem, 6vw), 1fr);
+  }
+
 
   #sidebar {
     padding-top: $vrhythm;
