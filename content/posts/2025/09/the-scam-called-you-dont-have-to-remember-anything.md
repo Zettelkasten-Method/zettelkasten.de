@@ -16,20 +16,20 @@ The search engines, old note-taking apps (you know, those with an elephant icon 
 
 The following is, by the way, from my Zettelkasten (2016):
 
-> To find what you need online, you require a solid general education and, above all, prior knowledge in the area related to your search. (Spitzer, 2012, 211)
+> To find what you need online, you require a solid general education and, above all, prior knowledge in the area related to your search.[^spitzer2012]
 
 Original in German:
 
-> Was man braucht, um im Netz fündig zu werden, ist eine solide Grundbildung und vor allem Vorwissen in dem Bereich, in dem sich die Suche bewegt.
-> ---Manfred Spitzer, Digitale Demenz[211][#spitzer2012]
+> Was man braucht, um im Netz fündig zu werden, ist eine solide Grundbildung und vor allem Vorwissen in dem Bereich, in dem sich die Suche bewegt.  
+> ---Manfred Spitzer, Digitale Demenz[^spitzer2012]
 
-[#spitzer2012]: Manfred Spitzer (2012):  Digitale Demenz. Wie wir uns und unsere Kinder um den Verstand bringen, Munich: Droemer.
+[^spitzer2012]: Manfred Spitzer (2012):  Digitale Demenz. Wie wir uns und unsere Kinder um den Verstand bringen, Munich: Droemer, S. 211.
 
 Culturally, it is increasingly the case that the first step is to go online, search for the a desired end result of a thinking process instead of engaging in learning. This means that we are using the internet less and less to our advantage, because we have less and less prior knowledge: We detrain ourselves out of the ability to access the quality of the information and turn it into actual knowledge.
 
-Rowlands et al. wrote about the so called "digital natives" that they lack the critical and analytical thinking skills to evaluate the information they find on the internet.[#rowlands2008][] We need a fully developed mental map of the subject in order to derive value from the results of an internet search. 
+Rowlands et al. wrote about the so called "digital natives" that they lack the critical and analytical thinking skills to evaluate the information they find on the internet.[^rowlands2008] We need a fully developed mental map of the subject in order to derive value from the results of an internet search. 
 
-[#rowlands2008]: Ian Rowlands, David Nicholas, Peter Williams, Paul Huntington, Maggie Fieldhouse, Barrie Gunter, Richard Withey, Hamid R. Jamali, Tom Dobrowolski, and Carol Tenopir (2008):  The Google generation: the information behavior of the researcher of the future, Aslib Proceedings 4, 2008, Vol. 60, pp. 290-310.
+[^rowlands2008]: Ian Rowlands, David Nicholas, Peter Williams, Paul Huntington, Maggie Fieldhouse, Barrie Gunter, Richard Withey, Hamid R. Jamali, Tom Dobrowolski, and Carol Tenopir (2008):  The Google generation: the information behavior of the researcher of the future, Aslib Proceedings 4, 2008, Vol. 60, pp. 290-310.
 
 
 In short: You need a trained brain to actually benefit from the internet.
