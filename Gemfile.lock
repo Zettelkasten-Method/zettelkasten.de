@@ -157,7 +157,7 @@ GEM
     rb-inotify (0.11.1)
       ffi (~> 1.0)
     rbtree (0.4.6)
-    rexml (3.4.1)
+    rexml (3.4.2)
     rouge (4.5.2)
     rubypants (0.7.1)
     sass-embedded (1.89.2)
