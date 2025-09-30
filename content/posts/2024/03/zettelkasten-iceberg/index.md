@@ -3,7 +3,7 @@ title: "The Iceberg Theory of the Zettelkasten Method — Exploring the Depths"
 created_at: 2024-03-19 08:39:19 +0100
 kind: article
 author: sascha
-tags: [ basb, toolbox, scale, depth-of-processing, processing ]
+tags: [ iceberg, basb, toolbox, scale, depth-of-processing, processing ]
 rel_image: ./iceberg0.jpeg
 vgwort: https://vg01.met.vgwort.de/na/a2838431ee5941e0bc39a18c752d1faf
 description: "The realisation that linked notes are more useful than unlinked notes should be the start of your journey into the depths."

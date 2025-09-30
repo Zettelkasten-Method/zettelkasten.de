@@ -21,7 +21,6 @@ RewriteRule ^posts/overview(.*)$ /overview$1 [R=301,L]
 RewriteRule ^posts/..../../(.*)$ /posts/$1 [R=301,L]
 RewriteRule ^products/(.*)$ /tools/ [R=301,L]
 RewriteRule ^zettelkasten-method-for-fiction/(.*)$ /fiction/$1 [R=301,L]
-RewriteRule ^atomicity(/.*)?$ /posts/create-zettel-from-reading-notes/ [R=307,L]
 
 <% if @config[:is_deploying] %>
 # Disable HTTPS redirects in local preview

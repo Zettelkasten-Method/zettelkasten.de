@@ -256,7 +256,11 @@ module My
       end
 
       def teaser_open_graph_for(item, config)
-        path = Post::teaser_path_for(item)
+        path = if path = item[:rel_og_teaser]
+                 rel_url_for(path, item)
+               else
+                 teaser_path_for(item)
+               end
         return unless path
 
         %Q{<meta name="og:image" content="#{config[:base_url] + path}">}

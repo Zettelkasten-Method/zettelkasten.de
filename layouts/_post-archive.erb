@@ -13,5 +13,5 @@
     </div>
   </header>
   <%= thumbnail %>
-  <p class="description"><%= Post::description_for(@post) %></p>
+  <p class="description"><%= @description || Post::description_for(@post) %></p>
 </article>
