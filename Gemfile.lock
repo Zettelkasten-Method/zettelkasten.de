@@ -148,7 +148,7 @@ GEM
       method_source (~> 1.0)
     public_suffix (6.0.2)
     racc (1.8.1)
-    rack (3.2.1)
+    rack (3.2.2)
     rackup (2.2.1)
       rack (>= 3)
     rainpress (1.0.1)
