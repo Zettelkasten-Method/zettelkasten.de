@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/nanoc/nanoc
-  revision: ca78ca6ea82f2b9be390fa645d7e0af5cb894ac1
+  revision: 2b338bdf71c16b6ecf9e047a51ef1b4752316408
   branch: main
   glob: nanoc-live/*.gemspec
   specs:
@@ -13,14 +13,14 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (8.0.3)
+    activesupport (8.1.0)
       base64
-      benchmark (>= 0.3)
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.3.1)
       connection_pool (>= 2.2.5)
       drb
       i18n (>= 1.6, < 2)
+      json
       logger (>= 1.4.2)
       minitest (>= 5.1)
       securerandom (>= 0.3)
@@ -37,8 +37,7 @@ GEM
       eventmachine (~> 1.2)
       listen (~> 3.0)
     base64 (0.3.0)
-    benchmark (0.4.1)
-    bigdecimal (3.2.3)
+    bigdecimal (3.3.1)
     builder (3.3.0)
     coderay (1.1.3)
     concurrent-ruby (1.3.5)
@@ -57,7 +56,7 @@ GEM
     exifr (1.4.1)
     ffi (1.17.2)
     fspath (3.1.2)
-    google-protobuf (4.32.1)
+    google-protobuf (4.33.0)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
@@ -75,7 +74,7 @@ GEM
       sorted_set (~> 1.0)
     in_threads (1.6.0)
     jsmin (1.0.1)
-    json (2.15.0)
+    json (2.15.2)
     json_schema (0.21.0)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
@@ -90,15 +89,15 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2025.0916)
+    mime-types-data (3.2025.0924)
     mini_portile2 (2.8.9)
-    minitest (5.25.5)
+    minitest (5.26.0)
     multi_json (1.17.0)
-    nanoc (4.13.5)
+    nanoc (4.14.0)
       addressable (~> 2.5)
       nanoc-checking (~> 1.0, >= 1.0.2)
-      nanoc-cli (= 4.13.5)
-      nanoc-core (= 4.13.5)
+      nanoc-cli (= 4.14.0)
+      nanoc-core (= 4.14.0)
       nanoc-deploying (~> 1.0)
       parallel (~> 1.12)
       tty-command (~> 0.8)
@@ -106,14 +105,14 @@ GEM
     nanoc-checking (1.0.6)
       nanoc-cli (~> 4.12, >= 4.12.5)
       nanoc-core (~> 4.12, >= 4.12.5)
-    nanoc-cli (4.13.5)
+    nanoc-cli (4.14.0)
       cri (~> 2.15)
       diff-lcs (~> 1.3)
       logger (~> 1.6)
-      nanoc-core (= 4.13.5)
+      nanoc-core (= 4.14.0)
       pry
       zeitwerk (~> 2.1)
-    nanoc-core (4.13.5)
+    nanoc-core (4.14.0)
       base64 (~> 0.2)
       concurrent-ruby (~> 1.1)
       ddmetrics (~> 1.0)
@@ -148,7 +147,7 @@ GEM
       method_source (~> 1.0)
     public_suffix (6.0.2)
     racc (1.8.1)
-    rack (3.2.1)
+    rack (3.2.3)
     rackup (2.2.1)
       rack (>= 3)
     rainpress (1.0.1)
@@ -158,7 +157,7 @@ GEM
       ffi (~> 1.0)
     rbtree (0.4.6)
     rexml (3.4.4)
-    rouge (4.6.0)
+    rouge (4.6.1)
     rubypants (0.7.1)
     sass-embedded (1.93.2)
       google-protobuf (~> 4.31)
@@ -184,7 +183,7 @@ GEM
       concurrent-ruby (~> 1.0)
     uglifier (4.2.1)
       execjs (>= 0.3.0, < 3)
-    uri (1.0.3)
+    uri (1.0.4)
     w3c_validators (1.3.7)
       json (>= 1.8)
       nokogiri (~> 1.6)
