@@ -3,7 +3,7 @@ title: "Practical Integration of the Zettelkasten Method: My Deep Work Days"
 created_at: 2017-07-11 08:17:43 +0200
 kind: article
 author: sascha
-tags: [ deepwork, habits, health, focus ]
+tags: [ deep-work, habits, health, focus ]
 image: "20170703171846_dog-on-floor.jpg"
 vgwort: https://vg04.met.vgwort.de/na/4b9c8459201c48bdb3ddad286e6a2284
 ---
