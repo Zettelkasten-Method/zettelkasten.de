@@ -7,6 +7,7 @@ tags: [ productivity, progress,  ]
 image: 20210415075920_measure-tape.jpg
 vgwort: https://vg06.met.vgwort.de/na/3547ed527c204d7fa6cb58b454a46dbf
 description: "Don't just work blindly. Figure out how you can measure your definition of success and then track your progress, and if there is any at all."
+updated_at: 2025-11-27 21:59:21 +0100
 ---
 
 The user *@wanderley* opened a [thread in the forum](https://forum.zettelkasten.de/discussion/900/when-is-it-time-to-write-a-note). He basically wrote that whenever he creates a Zettel, he goes into a research frenzy to make the Zettel "worthy" of his Zettelkasten. In his example, he transformed a report based on experience into a claim supported by quite some evidence.
@@ -29,7 +30,7 @@ This process of transforming unclear yearnings into tangible goals is one of the
 
 Do avoid this problem we need to make our efforts and their results measurable. I for example have tested:
 
-1. General productivity vs time I had invested. (Zettel per day or session.) Refinement of Structure Zettel in 2017 resulted in an increase of 10.04% of overall Zettel production. The initial introduction of Structure Zettel increased my production manifold -- no previous throughput was measured, but I doubled my productivity at least according to my total Zettel count within one year, from 3000 to 6000.
+1. General productivity vs time I had invested. (Zettel per day or session.) Refinement of Structure Zettel in 2015 resulted in an increase of 10.04% of overall Zettel production. The initial introduction of Structure Zettel increased my production manifold -- no previous throughput was measured, but I doubled my productivity at least according to my total Zettel count within one year, from 3000 to 6000.
 1. My Zettelkasten is too young to produce large amounts of books. The articles of my German blog are not taken into account. But the amount of research possible per time window has increased, demonstrated by the amount of carefully researched evidence (superficial commentary work does not count).
 1. The amount of written words per [deep work session](https://zettelkasten.de/posts/practical-integration-deep-work/) increased from 2000--3000 words to 4000--10000 per day by some refinement in 2017.
 1. Subjective increase in break-through moments in that time period -- confirmed by Christian.
