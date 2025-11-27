@@ -57,10 +57,10 @@ If you are serious about your knowledge work practice, you'll have to take a dee
 
 Before you can put together a complete system, try to develop an inventory of knowledge work practices. Examples are:
 
-- Deep thinking (frequency, duration)
+- [Deep thinking (frequency, duration)](https://zettelkasten.de/posts/optimal-concentration-success-recipe/)
 - Reading (frequency, time of the day, duration)
 - Writing
-- Atomising ideas
+- [Atomising ideas](https://zettelkasten.de/atomicity/)
 - Application of creative techniques
 - Idea connecting
 - etc.
