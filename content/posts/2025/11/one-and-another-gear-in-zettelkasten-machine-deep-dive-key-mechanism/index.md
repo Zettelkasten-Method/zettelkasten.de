@@ -60,7 +60,7 @@ Before you can put together a complete system, try to develop an inventory of kn
 - [Deep thinking (frequency, duration)](https://zettelkasten.de/posts/optimal-concentration-success-recipe/)
 - Reading (frequency, time of the day, duration)
 - Writing
-- [Atomising ideas](https://zettelkasten.de/atomicity/)
+- Atomising ideas
 - Application of creative techniques
 - Idea connecting
 - etc.
