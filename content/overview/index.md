@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-updated_at: 2023-04-04 09:34:27 +0100
+updated_at: 2025-12-10 16:04:31 +0100
 toc: true
 ---
 ## The Introduction to the Zettelkasten Method
@@ -19,6 +19,7 @@ Using a Zettelkasten is about optimizing your workflow of learning and producing
 
 <%# <!--ct: keep in sync with content/posts/2015/07/getting-started.txt --> %>
 
+* [How to Start a Zettelkasten When You Are Stuck in Theory](/posts/how-to-start-zettelkasten-when-stuck-in-theory/) -- a few simple steps to get you going, and a call to take this serious.
 * [How many Zettelkästen should I have?](/posts/how-many-zettelkasten/) The answer is, most likely, only one for the duration of your life. But there are exceptions to this rule.
 * [Don't use categories.](/posts/no-categories/) Use tags instead.
 * "What should my first note be?" -- [it doesn't matter.](/posts/your-first-note/) Just get started.
