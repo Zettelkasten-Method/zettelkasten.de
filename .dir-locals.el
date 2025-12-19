@@ -1,1 +1,1 @@
-((nil . ((compile-command . "asdf exec bundle exec rake deploy"))))
+((nil . ((compile-command . "mise r deploy"))))
