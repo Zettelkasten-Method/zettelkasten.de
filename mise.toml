@@ -1,5 +1,5 @@
 [tools] 
-ruby = "latest"  # Uses the version from .tool-versions
+ruby = "latest"
 dart = "latest"  # For dart-sass compilation
 node = "latest"
 
