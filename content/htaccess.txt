@@ -6,6 +6,7 @@ ErrorDocument 404 /404.html
 RewriteEngine On
 
 # The Archive Shortlinks
+RewriteRule ^the-archive/winterfest(.*)$ https://zettelkasten.onfastspring.com/the-archive?source=winterfest&coupon=WinterFest2025 [R=303,L]
 RewriteRule ^the-archive/buy(.*)$ https://zettelkasten.onfastspring.com/the-archive?source=shortlink [R=303,L]
 RewriteRule ^the-archive/download(.*)$ <%= @config[:the_archive_download]  %> [R=303,L]
 RewriteRule ^forum(.*)$ https://forum.zettelkasten.de/ [R=303,L]
