@@ -6,7 +6,7 @@ author: "sascha"
 tags: [ structure, antifragile, scale, friction ]
 rel_image: "friction-scale.png"
 vgwort: "https://vg01.met.vgwort.de/na/c84cc12537654dd29070f3bcb1aae310"
-description: "Friction in note-taking isn't beneficial. It's a cost. Any system with rising friction is doomed to fail eventually — regardless of how beneficial it feels early on. Learn how the Zettelkasten can be used to build a system that lasts a lifetime."
+description: "Friction is not a friend. Friction is either an enemy or a beneficial evil. Don’t commit the Friction Fallacy! Set up your Zettelkasten so that it runs smoothly for the rest of your life."
 ---
 
 TL;DR:
