@@ -12,13 +12,13 @@ description: "Friction is not a friend. Friction is either an enemy or a benefic
 TL;DR:
 
 * **Friction that increases with system size is an existential threat.** Any note-taking or knowledge system whose marginal cost per note rises as the system grows will eventually become unusable, regardless of how beneficial it feels early on.
-* **A Zettelkasten must be scale-indifferent.** It should remain usable even if flooded with massive amounts of low-quality notes. The “one-million bad notes” thought experiment is a stress test for this requirement.
+* **A Zettelkasten must be scale-indifferent.** It should remain usable even if flooded with massive amounts of low-quality notes. The "one-million bad notes" thought experiment is a stress test for this requirement.
 * **A system meant to last decades must be robust against change, error, and growth.** You will be wrong, your standards will change, your interests will shift, and some notes will become obsolete or bad. The system must tolerate this without demanding global cleanup.
 * **Friction is not the benefit.** Writing in your own words, titling notes, and finding good connections produce benefits like understanding, recall, and idea mastery, but the effort itself is a cost paid to obtain these outcomes.
-* **Calling effort “beneficial friction” confuses means and ends.** Difficulty can be a mechanism or a deterrent, but it is never the value itself. Rebranding effort as virtue commits the friction fallacy.
+* **Calling effort "beneficial friction" confuses means and ends.** Difficulty can be a mechanism or a deterrent, but it is never the value itself. Rebranding effort as virtue commits the friction fallacy.
 * **There are multiple kinds of friction, and conflating them causes confusion.** Friction can be: a bad system characteristic, a costly deterrent, or a mechanism that enables an outcome. None of these makes friction inherently good.
 * **Most good practices are not enforced by the system.** Even analog Zettelkasten setups have very few true forcing functions. Quality depends largely on user engagement, not on structural constraints.
-* **All decisions about friction must be comparative.** The relevant question is never “Does this practice have benefits?” but “Is this the best use of my limited time and attention compared to alternatives?”
+* **All decisions about friction must be comparative.** The relevant question is never "Does this practice have benefits?" but "Is this the best use of my limited time and attention compared to alternatives?"
 * **Folgezettel and structure-note-first workflows trade simplicity for long-term cost.** Folgezettel provides a clear integration path but becomes rigid and costly as complexity grows. Structure notes are more flexible, refactorable, and resilient over time.
 * **Rigid structures discourage refactoring, which raises long-term costs.** Systems that resist editing force users to accumulate compensatory complexity (links, extra notes, overlays), increasing friction as problems become harder.
 
