@@ -87,7 +87,7 @@ At this point, we have categories:
 
 This inventory will provide us with a framework to think about friction.
 
-Let's review the various instances of beneficial friction that u/TheSinologist mentions. I'll paste the quote, so you don't have to scroll up to review the quote:
+u/TheSinologist on Reddit pushed back on me claiming that friction is a problem for the system:
 
 > I was with you until the last sentence, as I find many kinds of friction to be benefits of the system, especially in analog form. Maybe we're talking about two different notions of friction, but I'm talking about system characteristics that slow you down and keep your brain engaged from one step to the next: writing source notes in your own words and in complete sentences, the spatial limitation of the card, giving main notes titles, finding the right card to follow with your new main card (for me this often involves going through keywords and following them to various cards that could be candidates for the "parent" card, thus reviewing trains of thought and connections). I have pitched Zettelkasten to my composition students, emphasizing the efficiencies of such "beneficial friction."
 
