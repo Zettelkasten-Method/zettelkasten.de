@@ -4,7 +4,7 @@ created_at: 2025-07-01 08:01:30 +0100
 kind: article
 newsletter: true
 author: "sascha"
-tags: [ informationdiet, depth-of-processing,  ]
+tags: [ information-diet, depth-of-processing,  ]
 vgwort: https://vg06.met.vgwort.de/na/03741b817c0647c78c569ee113b41938
 description: "The Zettelkasten Method can't heal a toxic relationship to knowledge. No system can. We have to regain depth."
 ---
