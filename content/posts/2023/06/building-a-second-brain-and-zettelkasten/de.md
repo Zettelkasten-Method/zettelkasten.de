@@ -4,7 +4,7 @@ created_at: 2023-06-26 09:15:35 +0100
 updated_at: 2023-07-07 10:48:50 +0100
 kind: article
 author: sascha
-tags: [ Gewohnheiten, BASB, GTD, Workflow ]
+tags: [ PARA, Gewohnheiten, BASB, GTD, Workflow ]
 rel_image: walnut.jpg
 vgwort: https://vg01.met.vgwort.de/na/260ed44cdf2941e991c1bdb7bb8fa56f
 description: "Was ist „Building a Second Brain“, wie verhält sich die Zettelkastenmethode dazu, und wie lassen sich die beiden Methoden hervorragend miteinander vereinbaren?"
