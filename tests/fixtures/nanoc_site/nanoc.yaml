@@ -1,0 +1,3 @@
+data_sources:
+  - type: filesystem
+    encoding: utf-8

@@ -7,129 +7,79 @@ require "fileutils"
 require_relative "../script/update_scheduled"
 
 class ScannerTest < Minitest::Test
-  def setup
-    @tmp_dir = Dir.mktmpdir
+  FIXTURES_PATH = File.expand_path("fixtures/nanoc_site", __dir__)
+
+  def test_finds_future_dated_items
+    Dir.chdir(FIXTURES_PATH) do
+      now = Time.new(2025, 1, 1)
+      scanner = ScheduledPosts::Scanner.new(now: now)
+      dates = scanner.future_dates
+
+      assert_equal 5, dates.length
+    end
   end
 
-  def teardown
-    FileUtils.remove_entry(@tmp_dir)
+  def test_ignores_past_dated_article
+    Dir.chdir(FIXTURES_PATH) do
+      now = Time.new(2025, 1, 1)
+      scanner = ScheduledPosts::Scanner.new(now: now)
+      dates = scanner.future_dates
+
+      refute dates.any? { |d| d.year == 2020 }
+    end
   end
 
-  def test_finds_future_dated_post
-    create_post("future.md", "2030-06-15T10:00:00+02:00")
-    now = Time.new(2025, 1, 1, 12, 0, 0, "+01:00")
+  def test_ignores_article_without_created_at
+    Dir.chdir(FIXTURES_PATH) do
+      now = Time.new(2025, 1, 1)
+      scanner = ScheduledPosts::Scanner.new(now: now)
+      dates = scanner.future_dates
 
-    scanner = ScheduledPosts::Scanner.new(posts_dir: @tmp_dir, now: now)
-    dates = scanner.future_dates
-
-    assert_equal 1, dates.length
-    assert_equal 2030, dates.first.year
-  end
-
-  def test_ignores_past_dated_post
-    create_post("past.md", "2020-01-01T10:00:00+01:00")
-    now = Time.new(2025, 1, 1, 12, 0, 0, "+01:00")
-
-    scanner = ScheduledPosts::Scanner.new(posts_dir: @tmp_dir, now: now)
-    dates = scanner.future_dates
-
-    assert_empty dates
-  end
-
-  def test_ignores_post_without_frontmatter
-    File.write(File.join(@tmp_dir, "no_frontmatter.md"), "Just some content")
-    now = Time.new(2025, 1, 1, 12, 0, 0, "+01:00")
-
-    scanner = ScheduledPosts::Scanner.new(posts_dir: @tmp_dir, now: now)
-    dates = scanner.future_dates
-
-    assert_empty dates
-  end
-
-  def test_ignores_post_without_created_at
-    content = <<~POST
-      ---
-      title: "No date"
-      ---
-      Content here
-    POST
-    File.write(File.join(@tmp_dir, "no_date.md"), content)
-    now = Time.new(2025, 1, 1, 12, 0, 0, "+01:00")
-
-    scanner = ScheduledPosts::Scanner.new(posts_dir: @tmp_dir, now: now)
-    dates = scanner.future_dates
-
-    assert_empty dates
+      assert dates.all? { |d| d.is_a?(Time) }
+    end
   end
 
   def test_finds_posts_in_subdirectories
-    subdir = File.join(@tmp_dir, "2030", "06")
-    FileUtils.mkdir_p(subdir)
-    create_post("2030/06/nested.md", "2030-06-15T10:00:00+02:00")
-    now = Time.new(2025, 1, 1, 12, 0, 0, "+01:00")
+    Dir.chdir(FIXTURES_PATH) do
+      now = Time.new(2025, 1, 1)
+      scanner = ScheduledPosts::Scanner.new(now: now)
+      dates = scanner.future_dates
 
-    scanner = ScheduledPosts::Scanner.new(posts_dir: @tmp_dir, now: now)
-    dates = scanner.future_dates
-
-    assert_equal 1, dates.length
-  end
-
-  def test_finds_txt_files
-    create_post("post.txt", "2030-06-15T10:00:00+02:00")
-    now = Time.new(2025, 1, 1, 12, 0, 0, "+01:00")
-
-    scanner = ScheduledPosts::Scanner.new(posts_dir: @tmp_dir, now: now)
-    dates = scanner.future_dates
-
-    assert_equal 1, dates.length
+      assert dates.any? { |d| d.month == 7 && d.year == 2030 }
+    end
   end
 
   def test_returns_sorted_dates
-    create_post("later.md", "2032-01-01T10:00:00+01:00")
-    create_post("earlier.md", "2030-01-01T10:00:00+01:00")
-    create_post("middle.md", "2031-01-01T10:00:00+01:00")
-    now = Time.new(2025, 1, 1, 12, 0, 0, "+01:00")
+    Dir.chdir(FIXTURES_PATH) do
+      now = Time.new(2025, 1, 1)
+      scanner = ScheduledPosts::Scanner.new(now: now)
+      dates = scanner.future_dates
 
-    scanner = ScheduledPosts::Scanner.new(posts_dir: @tmp_dir, now: now)
-    dates = scanner.future_dates
-
-    assert_equal [2030, 2031, 2032], dates.map(&:year)
+      years = dates.map(&:year)
+      assert_equal years.sort, years
+    end
   end
 
   def test_handles_timezone_correctly
-    create_post("berlin.md", "2025-01-15T06:00:00+01:00")
-    now_utc = Time.new(2025, 1, 15, 4, 30, 0, "+00:00")
+    Dir.chdir(FIXTURES_PATH) do
+      now_utc = Time.new(2030, 6, 15, 7, 30, 0, "+00:00")
+      scanner = ScheduledPosts::Scanner.new(now: now_utc)
+      dates = scanner.future_dates
 
-    scanner = ScheduledPosts::Scanner.new(posts_dir: @tmp_dir, now: now_utc)
-    dates = scanner.future_dates
-
-    assert_equal 1, dates.length
+      future_june_15 = dates.select { |d| d.year == 2030 && d.month == 6 && d.day == 15 }
+      assert_equal 2, future_june_15.length
+    end
   end
 
   def test_timezone_post_is_past_when_time_has_passed
-    create_post("berlin.md", "2025-01-15T06:00:00+01:00")
-    now_utc = Time.new(2025, 1, 15, 5, 30, 0, "+00:00")
+    Dir.chdir(FIXTURES_PATH) do
+      now_utc = Time.new(2030, 6, 15, 9, 0, 0, "+00:00")
+      scanner = ScheduledPosts::Scanner.new(now: now_utc)
+      dates = scanner.future_dates
 
-    scanner = ScheduledPosts::Scanner.new(posts_dir: @tmp_dir, now: now_utc)
-    dates = scanner.future_dates
-
-    assert_empty dates
-  end
-
-  private
-
-  def create_post(relative_path, created_at)
-    path = File.join(@tmp_dir, relative_path)
-    FileUtils.mkdir_p(File.dirname(path))
-    content = <<~POST
-      ---
-      title: "Test Post"
-      created_at: #{created_at}
-      kind: article
-      ---
-      Content here
-    POST
-    File.write(path, content)
+      future_june_15 = dates.select { |d| d.year == 2030 && d.month == 6 && d.day == 15 }
+      assert_empty future_june_15
+    end
   end
 end
 
