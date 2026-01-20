@@ -1,7 +1,7 @@
 [tools] 
-ruby = "latest"
-dart = "latest"  # For dart-sass compilation
-node = "latest"
+ruby = "4"
+dart = "3"
+node = "22"
 
 # Core Rake task wrappers
 [tasks.preview]
