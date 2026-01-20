@@ -1,0 +1,71 @@
+name: Update Scheduled Posts
+
+# RACE CONDITION SAFEGUARD:
+# When this workflow runs, posts in .scheduled might have become due since
+# the last cron run. If we just regenerate .scheduled, those due posts would
+# be lost (since update_scheduled.rb only outputs future dates).
+#
+# Solution: Before regenerating .scheduled, check if any existing entries
+# are due (in the past). If so, publish the site first, then regenerate.
+#
+# Example timeline:
+#   - Post scheduled for 1:00 PM
+#   - 1:15 PM: Someone pushes a change, triggering this workflow
+#   - Workflow sees 1:00 PM is due -> publishes site
+#   - Then regenerates .scheduled (now excluding the 1:00 PM post)
+#   - 1:30 PM: Cron runs but nothing to do (already published)
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  update-scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for due posts in existing .scheduled
+        id: check
+        run: |
+          if [ ! -f .scheduled ]; then
+            echo "has_due=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          now=$(date -u +%s)
+          has_due=false
+          while IFS= read -r line; do
+            [ -z "$line" ] && continue
+            post_time=$(date -d "$line" +%s 2>/dev/null || echo 0)
+            if [ "$post_time" -le "$now" ] && [ "$post_time" -gt 0 ]; then
+              has_due=true
+              break
+            fi
+          done < .scheduled
+          echo "has_due=$has_due" >> $GITHUB_OUTPUT
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Setup SSH
+        if: steps.check.outputs.has_due == 'true'
+        uses: kielabokkie/ssh-key-and-known-hosts-action@v1.2.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-host: zettelkasten.de
+
+      - name: Publish due posts
+        if: steps.check.outputs.has_due == 'true'
+        run: bundle exec rake deploy
+
+      - name: Regenerate .scheduled
+        run: ruby script/update_scheduled.rb
+
+      - name: Commit .scheduled if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .scheduled
+          git diff --staged --quiet || git commit -m "Update scheduled posts"
+          git push

@@ -1,0 +1,65 @@
+name: Scheduled Publish
+
+# SCHEDULED PUBLISHING:
+# Runs hourly to check if any posts in .scheduled are due.
+# If so, publishes the site and regenerates .scheduled.
+#
+# Note: The update-scheduled.yml workflow also publishes due posts
+# on every push, so this cron job serves as a fallback for the case
+# where no pushes occur between a post becoming due and now.
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for due posts
+        id: check
+        run: |
+          if [ ! -f .scheduled ]; then
+            echo "has_due=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          now=$(date -u +%s)
+          has_due=false
+          while IFS= read -r line; do
+            [ -z "$line" ] && continue
+            post_time=$(date -d "$line" +%s 2>/dev/null || echo 0)
+            if [ "$post_time" -le "$now" ] && [ "$post_time" -gt 0 ]; then
+              has_due=true
+              break
+            fi
+          done < .scheduled
+          echo "has_due=$has_due" >> $GITHUB_OUTPUT
+
+      - uses: ruby/setup-ruby@v1
+        if: steps.check.outputs.has_due == 'true'
+        with:
+          bundler-cache: true
+
+      - name: Setup SSH
+        if: steps.check.outputs.has_due == 'true'
+        uses: kielabokkie/ssh-key-and-known-hosts-action@v1.2.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-host: zettelkasten.de
+
+      - name: Deploy site
+        if: steps.check.outputs.has_due == 'true'
+        run: bundle exec rake deploy
+
+      - name: Update .scheduled
+        if: steps.check.outputs.has_due == 'true'
+        run: |
+          ruby script/update_scheduled.rb
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .scheduled
+          git diff --staged --quiet || git commit -m "Update scheduled posts after publish"
+          git push
