@@ -57,7 +57,7 @@ jobs:
       - name: Update .scheduled
         if: steps.check.outputs.has_due == 'true'
         run: |
-          ruby script/update_scheduled.rb
+          bundle exec ruby script/update_scheduled.rb
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .scheduled

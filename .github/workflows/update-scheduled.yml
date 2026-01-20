@@ -60,7 +60,7 @@ jobs:
         run: bundle exec rake deploy
 
       - name: Regenerate .scheduled
-        run: ruby script/update_scheduled.rb
+        run: bundle exec ruby script/update_scheduled.rb
 
       - name: Commit .scheduled if changed
         run: |
