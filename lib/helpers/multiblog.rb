@@ -12,8 +12,7 @@ module My
       end
 
       def clean_name(tag_name)
-        # TODO: find faster way for 3 gsubs
-        tag_name.downcase.gsub('ä', 'ae').gsub('ö', 'oe').gsub('ü', 'ue').gsub('ß', 'ss')
+        tag_name.downcase.gsub(/[äöüß]/, 'ä' => 'ae', 'ö' => 'oe', 'ü' => 'ue', 'ß' => 'ss')
       end
 
       def link_to(tag_name, lang = nil)
