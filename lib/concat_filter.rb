@@ -35,11 +35,11 @@ private
   def load_file(filename)
     path = File.join(File.dirname(item[:content_filename]), filename)
 
-    unless File.exists? path
+    unless File.exist? path
       path = File.join(File.dirname(__FILE__), '..', 'vendor', filename)
     end
 
-    return unless File.exists? path
+    return unless File.exist? path
 
     File.read(path)
   end
