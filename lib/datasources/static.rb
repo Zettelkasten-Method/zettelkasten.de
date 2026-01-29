@@ -36,7 +36,7 @@ module Nanoc::DataSources
     def checksum_for(*filenames)
       filenames.flatten.map do |filename|
         digest = Digest::SHA1.new
-        File.open(filename, 'r') do |io|
+        File.open(filename, 'rb') do |io|
           until io.eof
             data = io.readpartial(2**10)
             digest.update(data)
