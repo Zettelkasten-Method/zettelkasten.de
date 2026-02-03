@@ -1,36 +1,30 @@
+require 'yaml'
+
 module Menu
   private
-  FORUM_URL = "https://forum.zettelkasten.de"
-  # The :key is a MainMenuItem#id, the lowercased symbol form with underscores instead of spaces
-  SUBMENUS = {
-    thearchive: [
-      { id: :thearchive_main,  title: "Overview",   path: "/the-archive/" },
-      { id: :help,             title: "Help",       path: "/the-archive/help/" },
-      { id: :plugins,          title: "Plug-Ins",   path: "/the-archive/plug-ins/" },
-      { id: :roadmap,          title: "Roadmap",    path: "/the-archive/roadmap/" },
-    ]
-  }
 
-  MAIN_MENU_PER_LANG = {
-    :en => [
-      { id: :overview,    title: "Getting Started",  path: "/overview/",       icon: "compass" },
-      { id: :thearchive,  title: "The Archive",      path: "/the-archive/",    icon: "thearchive" },
-      { id: :course,      title: "Workshop",         path: "/course/",         icon: "monitor" },
-      { id: :coaching,    title: "Coaching",         path: "/coaching/",       icon: "easel" },
-      { id: :members,     title: "Members Area",     path: "/members-area/",   icon: "lock-locked" },
-      { id: :forum,       title: "Forum",            url: FORUM_URL,           icon: "people" },
-      { id: :blog,        title: "Blog",             path: "/posts/",          icon: "folder" },
-    ],
-    :de => [
-      { id: :overview,    title: "Getting Started",  path: "/overview/",       icon: "compass" },
-      { id: :thearchive,  title: "The Archive",      path: "/the-archive/",    icon: "thearchive" },
-      { id: :course,      title: "Workshop",         path: "/course/",         icon: "monitor" },
-      { id: :coaching,    title: "Coaching",         path: "/coaching/",       icon: "easel" },
-      { id: :members,     title: "Members Area",     path: "/members-area/",   icon: "lock-locked" },
-      { id: :forum,       title: "Forum",            url: FORUM_URL,           icon: "people" },
-      { id: :blog,        title: "Blog",             path: "/de/posts/",       icon: "folder" },
-    ]
-  }
+  def self.menu_config
+    @@menu_config ||= YAML.safe_load_file(
+      File.expand_path('../../menu.yaml', __dir__),
+      symbolize_names: true
+    )
+  end
+
+  def self.forum_url
+    menu_config[:forum_url]
+  end
+
+  def self.submenus
+    @@submenus ||= menu_config[:submenus]
+  end
+
+  def self.main_menu_per_lang
+    @@main_menu_per_lang_config ||= menu_config[:main_menu].transform_values do |items|
+      items.map do |item|
+        item[:url] == "forum" ? item.merge(url: forum_url) : item
+      end
+    end
+  end
 
   def link_to_homepage
     case item_lang
@@ -46,7 +40,7 @@ module Menu
   def main_menu_items
     @@main_menu_items ||= {}
     # Try to generate the menu per language; fall back to English (default).
-    @@main_menu_items[item_lang] ||= (MAIN_MENU_PER_LANG[item_lang] || MAIN_MENU_PER_LANG[:en]).map { MainMenuItem.new(**_1) }
+    @@main_menu_items[item_lang] ||= (Menu.main_menu_per_lang[item_lang] || Menu.main_menu_per_lang[:en]).map { MainMenuItem.new(**_1) }
   end
 
   public
@@ -68,7 +62,7 @@ module Menu
     end
 
     def submenu
-      SUBMENUS[@id]
+      Menu.submenus[@id.to_sym]
     end
 
     def has_submenu?

@@ -1,0 +1,76 @@
+forum_url: "https://forum.zettelkasten.de"
+
+submenus:
+  thearchive:
+    - id: thearchive_main
+      title: "Overview"
+      path: "/the-archive/"
+    - id: help
+      title: "Help"
+      path: "/the-archive/help/"
+    - id: plugins
+      title: "Plug-Ins"
+      path: "/the-archive/plug-ins/"
+    - id: roadmap
+      title: "Roadmap"
+      path: "/the-archive/roadmap/"
+
+main_menu:
+  en:
+    - id: overview
+      title: "Getting Started"
+      path: "/overview/"
+      icon: "compass"
+    - id: thearchive
+      title: "The Archive"
+      path: "/the-archive/"
+      icon: "thearchive"
+    - id: course
+      title: "Workshop"
+      path: "/course/"
+      icon: "monitor"
+    - id: coaching
+      title: "Coaching"
+      path: "/coaching/"
+      icon: "easel"
+    - id: members
+      title: "Members Area"
+      path: "/members-area/"
+      icon: "lock-locked"
+    - id: forum
+      title: "Forum"
+      url: forum
+      icon: "people"
+    - id: blog
+      title: "Blog"
+      path: "/posts/"
+      icon: "folder"
+  de:
+    - id: overview
+      title: "Getting Started"
+      path: "/overview/"
+      icon: "compass"
+    - id: thearchive
+      title: "The Archive"
+      path: "/the-archive/"
+      icon: "thearchive"
+    - id: course
+      title: "Workshop"
+      path: "/course/"
+      icon: "monitor"
+    - id: coaching
+      title: "Coaching"
+      path: "/coaching/"
+      icon: "easel"
+    - id: members
+      title: "Members Area"
+      path: "/members-area/"
+      icon: "lock-locked"
+    - id: forum
+      title: "Forum"
+      url: forum
+      icon: "people"
+    - id: blog
+      title: "Blog"
+      path: "/de/posts/"
+      icon: "folder"
