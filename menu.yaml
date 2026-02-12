@@ -22,7 +22,7 @@ main_menu:
       path: "/overview/"
       icon: "compass"
     - id: thearchive
-      title: "The Archive"
+      title: "The Archive App"
       path: "/the-archive/"
       icon: "thearchive"
     - id: course
