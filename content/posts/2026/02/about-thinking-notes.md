@@ -1,5 +1,5 @@
 ---
-title: "About Thinking Notes"
+title: "Understand Thinking Notes to Clear Up Your Workflow"
 created_at: 2026-02-10 17:09:30 +0100
 kind: article
 author: "sascha"
@@ -7,6 +7,7 @@ tags: [ atomicity, maths, engagement-notes, thinking,  ]
 vgwort: https://vg02.met.vgwort.de/na/19830837fbe04f6fba523ad2f89493a8
 description: "You can call many things a note, but only some are worth keeping. Others are engagement notes, or thinking notes, which you need to understand something, but not more."
 newsletter: true
+updated_at: 2026-02-12 12:02:34 +0100
 ---
 Dear Zettlers,
 
