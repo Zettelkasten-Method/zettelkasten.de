@@ -25,6 +25,8 @@ The big problem is how to empty the inbox. The natural assumption is to approach
 
 First, the act of emptying the inbox is organisational. It is about filing away the items from the inbox into the correct context. The task "buy book X" would be moved to the area "errands". It would be assigned to a specific date so we can make sure we actually accomplish this task, and so on. The desired mode, while emptying the inbox, is not to take action but to remain in the meta-cognitive layer of the action's context: The task we are focusing on is to empty the inbox, not the individual task we evaluate for its proper context.
 
+<%= insert_teaser caption: %Q{We don’t thing about inboxes} %>
+
 This is not how we should engage with ideas in our inbox. There is no consistency about what we need to do to move an item out of our inbox:
 
 * Some ideas don't need any further process, but might be just helpful background information for tasks and projects to be accomplished. Example: You want to buy a new car, and you heard about an uncommon Romanian brand that is both cheap and reliable because its vehicles have few extra features.
