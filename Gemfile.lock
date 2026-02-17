@@ -152,7 +152,7 @@ GEM
       reline (>= 0.6.0)
     public_suffix (7.0.2)
     racc (1.8.1)
-    rack (3.2.4)
+    rack (3.2.5)
     rackup (2.3.1)
       rack (>= 3)
     rainpress (1.0.1)
