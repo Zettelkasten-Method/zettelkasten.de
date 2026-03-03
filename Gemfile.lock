@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/nanoc/nanoc
-  revision: c1513083813836682655cfa000baad1c892b3e48
+  revision: fa88267250b6e6eb258dfb66eb0949bf4b0eb84c
   branch: main
   glob: nanoc-live/*.gemspec
   specs:
@@ -26,7 +26,7 @@ GEM
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
       uri (>= 0.13.1)
-    addressable (2.8.8)
+    addressable (2.8.9)
       public_suffix (>= 2.0.2, < 8.0)
     adsf (1.5.3)
       rack (>= 1.0.0, < 4.0.0)
@@ -56,9 +56,9 @@ GEM
     exifr (1.5.1)
     ffi (1.17.3)
     fspath (3.1.2)
-    google-protobuf (4.33.4)
+    google-protobuf (4.34.0)
       bigdecimal
-      rake (>= 13)
+      rake (~> 13.3)
     http_parser.rb (0.8.1)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
@@ -75,7 +75,7 @@ GEM
     in_threads (1.6.0)
     io-console (0.8.2)
     jsmin (1.0.1)
-    json (2.18.0)
+    json (2.18.1)
     json_schema (0.21.0)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
@@ -91,9 +91,10 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2026.0113)
+    mime-types-data (3.2026.0224)
     mini_portile2 (2.8.9)
-    minitest (6.0.1)
+    minitest (6.0.2)
+      drb (~> 2.0)
       prism (~> 1.5)
     multi_json (1.19.1)
     nanoc (4.14.6)
@@ -138,21 +139,21 @@ GEM
       nanoc (>= 3.3.1)
     nanoc-javascript-concatenator (0.0.2)
       nanoc (>= 3.3.0)
-    nokogiri (1.19.0)
+    nokogiri (1.19.1)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     parallel (1.27.0)
     pastel (0.8.0)
       tty-color (~> 0.5)
-    prism (1.8.0)
+    prism (1.9.0)
     progress (3.6.0)
     pry (0.16.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
       reline (>= 0.6.0)
-    public_suffix (7.0.2)
+    public_suffix (7.0.5)
     racc (1.8.1)
-    rack (3.2.4)
+    rack (3.2.5)
     rackup (2.3.1)
       rack (>= 3)
     rainpress (1.0.1)
@@ -166,7 +167,7 @@ GEM
     rexml (3.4.4)
     rouge (4.7.0)
     rubypants (0.7.1)
-    sass-embedded (1.97.2)
+    sass-embedded (1.97.3)
       google-protobuf (~> 4.31)
       rake (>= 13)
     securerandom (0.4.1)
@@ -196,7 +197,7 @@ GEM
       nokogiri (~> 1.6)
       rexml (~> 3.2)
     webrick (1.9.2)
-    zeitwerk (2.7.4)
+    zeitwerk (2.7.5)
 
 PLATFORMS
   ruby
