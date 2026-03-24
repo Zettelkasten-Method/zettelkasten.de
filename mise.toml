@@ -1,7 +1,7 @@
 [tools] 
 ruby = "4"
 dart = "3"
-node = "22"
+node = "25"
 
 # Core Rake task wrappers
 [tasks.preview]
