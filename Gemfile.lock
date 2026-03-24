@@ -75,7 +75,7 @@ GEM
     in_threads (1.6.0)
     io-console (0.8.2)
     jsmin (1.0.1)
-    json (2.19.1)
+    json (2.19.2)
     json_schema (0.21.0)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
