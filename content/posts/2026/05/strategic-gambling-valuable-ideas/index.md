@@ -1,5 +1,5 @@
 ---
-title: "Learning From Strategic Gambling: How to Have More Valuable Ideas"
+title: "Let’s Roll the Dice to Have Awesome Ideas"
 created_at: 2026-05-19 21:11:00 +0200
 kind: article
 author: "sascha"
@@ -7,6 +7,7 @@ tags: [ atomicity, knowledge-work, creativity ]
 rel_image: ./dice.webp
 vgwort: https://vg04.met.vgwort.de/na/b678bf92e26e4e7b9323082ac69371b3
 description: "Taking notes is a skill that can be developed to a high level. It is the ability to take note of the essence of ideas. To train that skill, you need to get serious with your note-taking practice."
+updated_at: 2026-05-27 11:57:26 +0100
 ---
 You never know the value of the idea unless you execute it. If you never roll the dice, you never know if you hit the jackpot or come up empty. But even in a game of luck, there are skills and strategies that skew the game in your favor.
 
