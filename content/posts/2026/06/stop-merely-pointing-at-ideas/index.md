@@ -20,7 +20,7 @@ However, the notion stuck with me, and I came to the conclusion that Nori has a 
 
 Each text type offers different opportunities when writing. Each text type allows you to process an idea with a particular result and gives you a corresponding learning experience. For this article, I will focus on the first two texts, since we are discussing note-taking here. But the third one, the essay, is of special interest to us.
 
-<%= insert_teaser caption: %Q{Image by <a href="https://unsplash.com/de/fotos/kleinkind-zeigt-baum-ct9-ohXBz6I">Unsplash</a>} %>
+<%= insert_teaser caption: %Q{Foto von <a href="https://unsplash.com/de/@mutzii">Mutzii</a> auf <a href="https://unsplash.com/de/fotos/kleinkind-zeigt-baum-ct9-ohXBz6I">Unsplash</a>} %>
 
 ## Why Most Note-Writing Is Ineffective
 
