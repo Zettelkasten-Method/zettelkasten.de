@@ -4,6 +4,7 @@ created_at: 2026-06-16 20:20:00 +0200
 kind: article
 author: "sascha"
 tags: [ atomicity, note-taking, depth-of-processing, writing ]
+vgwort: https://vg02.met.vgwort.de/na/2d1ec4d500e2422b8cad9ec01a55f2b8
 rel_image: ./child-pointing.jpg
 description: "Most people take notes by merely pointing at ideas rather than engaging with them, which produces storage instead of knowledge. The cure is a genuine struggle to capture the complete essence of a single idea, written the way an essayist tries to find their way from A to B. The struggle is not a flaw in the process; it is the process."
 ---
