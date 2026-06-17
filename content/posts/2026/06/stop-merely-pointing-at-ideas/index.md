@@ -20,13 +20,13 @@ However, the notion stuck with me, and I came to the conclusion that Nori has a 
 
 Each text type offers different opportunities when writing. Each text type allows you to process an idea with a particular result and gives you a corresponding learning experience. For this article, I will focus on the first two texts, since we are discussing note-taking here. But the third one, the essay, is of special interest to us.
 
-<%= insert_teaser caption: %Q{Foto von <a href="https://unsplash.com/de/@mutzii">Mutzii</a> auf <a href="https://unsplash.com/de/fotos/kleinkind-zeigt-baum-ct9-ohXBz6I">Unsplash</a>} %>
+<%= insert_teaser caption: %Q{Photo by <a href="https://unsplash.com/de/@mutzii">Mutzii</a> on <a href="https://unsplash.com/de/fotos/kleinkind-zeigt-baum-ct9-ohXBz6I">Unsplash</a>} %>
 
 ## Why Most Note-Writing Is Ineffective
 
 The **idea pointer** allows you to point to an idea (duh!). It allows you to capture a vision of an idea. There is a mild learning experience, which is mostly guided by writing down the idea pointer. This helps direct attention to the idea. The idea processing is similar to giving a note a title, which is not surprising. A title is, after all, an idea pointer as well. The difference from a title is that you typically are not restricted by conventions or space, and therefore are free to write multiple sentences.
 
-In a previous article, I labeled notes that contain idea pointers as prompts and the corresponding system as a "prompt machine". As you point to an idea, it remains unexplored, ununderstood, and unprocessed. You didn't make the idea your own because you didn't explore it, didn't master it, and therefore can't yet communicate it.
+[In a previous article,](https://zettelkasten.de/posts/principle-of-atomicity-difference-between-principle-and-implementation/#when-do-we-achieve-atomicity-two-implementations) I labeled notes that contain idea pointers as prompts and the corresponding system as a "prompt machine". As you point to an idea, it remains unexplored, ununderstood, and unprocessed. You didn't make the idea your own because you didn't explore it, didn't master it, and therefore can't yet communicate it.
 
 If your notes are idea pointers, they become tasks. This is nice if you want to make your Zettelkasten a prompt machine to help you kick-start your writing process. How well it works depends on your mastery of the topic and your writing ability. In other words, it depends on your preexisting skills and knowledge. But a practice of collecting and connecting idea pointers will not significantly expand your skills and knowledge. If this is the only write-to-think practice, it is better than nothing.
 
