@@ -11,6 +11,18 @@ title, created_at, kind: article, author, tags, rel_image, description
 - `rel_image` points at a teaser image in the post folder; render it in-body with `<%= insert_teaser caption: %Q{...} %>`.
 - Embed videos with `<%= insert_youtube "<id>" %>`.
 
+## Images
+
+IMPORTANT: `rel_image` teasers ship as-is. Only `blog_img/*` (the old `image:` frontmatter) goes through `rake thumb`; post-folder assets are copied verbatim by nanoc with no resize or compression. So optimize the teaser yourself before committing.
+
+- Convert teasers to **WebP** and downscale to ~1200px wide:
+  ```
+  magick <source> -resize '1200>' -quality 82 gym-for-the-mind.webp
+  ```
+  A multi-MB PNG (e.g. a ChatGPT/AI image) becomes ~50 KB. Set `rel_image: ./<name>.webp`.
+- Keep **PNG** only for screenshots / line art / text-heavy images where WebP or JPEG artifacts hurt.
+- AI-generated teasers need no attribution caption; call `<%= insert_teaser %>` bare.
+
 ## Tags
 
 IMPORTANT: Do NOT invent new tags. Reuse tags that already exist on the site.
