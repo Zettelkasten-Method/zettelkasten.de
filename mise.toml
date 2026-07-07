@@ -7,7 +7,7 @@ node = "25"
 [tasks.preview]
 description = "Generate and show the website in development mode"
 alias = "p"
-run = "bundle exec rake preview"
+run = "bundle exec nanoc live"
 
 [tasks.build]
 description = "Generate deployable website"
