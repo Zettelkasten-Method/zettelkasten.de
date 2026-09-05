@@ -4,10 +4,10 @@ created_at: 2015-07-16 14:20:40 +0200
 kind: article
 author: christian
 tags: [ paper, archive, note-taking ]
-url: http://www.dominiquerenauld.net/journal-1/25/6/2015/paper-or-electronic-
+url: http://web.archive.org/web/20150909210946/http://www.dominiquerenauld.net/journal-1/25/6/2015/paper-or-electronic-
 ---
 
-Dominique Renauld [remembers][dr] when he was a student and worked exclusively with paper notes. He was fond of [Roland Barthes](http://takingnotenow.blogspot.de/2008/07/roland-barthes-on-his-almost-obsessive.html)[^bar] and grew even fonder of [Arno Schmidt](https://weareilluminated.wordpress.com/2014/01/10/the-beauty-of-thinking/) -- both avid Zettelkasten users.
+Dominique Renauld [remembers][dr] when he was a student and worked exclusively with paper notes. He was fond of [Roland Barthes](http://web.archive.org/web/20200922185452/http://takingnotenow.blogspot.com/2008/07/roland-barthes-on-his-almost-obsessive.html)[^bar] and grew even fonder of [Arno Schmidt](https://weareilluminated.wordpress.com/2014/01/10/the-beauty-of-thinking/) -- both avid Zettelkasten users.
 
 Nowadays, Dominique uses [Tinderbox](http://www.eastgate.com/Tinderbox/) for anything. Check out the slides and video of [his post][dr] to see what working with Tinderbox can look like.
 
@@ -16,6 +16,6 @@ We can learn to be playful with our items of knowledge. We only have to think ab
 It doesn't suffice to feed new stuff your Zettelkasten. You have to attend to its needs, too. The result will be stronger cross-connections.
 
 
-[dr]: http://www.dominiquerenauld.net/journal-1/25/6/2015/paper-or-electronic-
+[dr]: http://web.archive.org/web/20150909210946/http://www.dominiquerenauld.net/journal-1/25/6/2015/paper-or-electronic-
 
-[^bar]: When Barthes lost his mother, he took notes about the process of his grief. The collected fragments were published as a book. I always rejoice when an author uses "Zettelkasten" colloquially, which isn't too uncommon in German; and then I wonder why no one at university takes this method seriously. (The [German source](http://www.zintzen.org/2011/08/01/wespennest-160-roland-barthes-tagebuch-der-trauer-hanser/) says: "Tatsächlich könnte man das Buch viel eher als einen geordneten Zettelkasten oder eine pedantisch geführte Materialsammlung bezeichnen. Tag für Tag wurde dieses Archiv der Trauer um neue Notizen erweitert, deren Kürze und Komposition oftmals an die von Barthes geliebten japanischen Haikus erinnert.")
+[^bar]: When Barthes lost his mother, he took notes about the process of his grief. The collected fragments were published as a book. I always rejoice when an author uses "Zettelkasten" colloquially, which isn't too uncommon in German; and then I wonder why no one at university takes this method seriously. (The [German source](http://web.archive.org/web/20140912135740/http://www.zintzen.org/2011/08/01/wespennest-160-roland-barthes-tagebuch-der-trauer-hanser/) says: "Tatsächlich könnte man das Buch viel eher als einen geordneten Zettelkasten oder eine pedantisch geführte Materialsammlung bezeichnen. Tag für Tag wurde dieses Archiv der Trauer um neue Notizen erweitert, deren Kürze und Komposition oftmals an die von Barthes geliebten japanischen Haikus erinnert.")
