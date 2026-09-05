@@ -56,4 +56,4 @@ So do it: Count your words.
 
 **Christian's Comment:** Did you ever wonder how some people finish non-fiction manuscripts in no time? When we do knowledge work, our craft is to write.  To be good at it, we need to be efficient at it.  We don't need to win a Pulitzer (right now), so let's think a little about methods to increase our output, to get better and faster at writing. 
 
-[sungr]: http://www.youtube.com/watch?v=VXTpTRuPiPQ
+[sungr]: https://web.archive.org/web/20140203195818/http://www.youtube.com/watch?v=VXTpTRuPiPQ

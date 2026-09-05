@@ -29,7 +29,7 @@ When I plow through my inboxes, I try to do so as fast as possible instead of as
 
 Because I use the [pomodoro technique][pm] I have a count down timer in my menue bar. I am conditioned to work against the clock since some of my training is [Crossfit-esque][cf]. That means trying to accomplish a fixed workload in the shortest amount of time. (Crossfit is more, but this is the racing part.)
 
-<%= insert_teaser_image title: "Racing Dog", caption: %Q{Photo Credit: <a href="https://www.flickr.com/photos/14580956@N08/3300814996/">RobBixbyPhotography</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>} %>
+<%= insert_teaser_image title: "Racing Dog", caption: %Q{Photo Credit: <a href="https://www.flickr.com/photos/14580956@N08/3300814996/">RobBixbyPhotography</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>} %>
 
 [pm]: http://pomodorotechnique.com/
 [cf]: http://www.crossfit.com

@@ -32,7 +32,7 @@ We're writing this overview in the open. If you come across any relevant resourc
 - @iamaustinha's ["Using Cartography as a Metaphor for Investigating the Great Folgezettel Debate"](https://zettelkasten.de/posts/catographing-folgezettel-debate/)
 - [Backwards Compatible Folgezettel ID format for Zettlr](https://github.com/flengyel/Zettel/wiki/Backward-compatible-Folgezettel-IDs-and-user-friendly-timestamps-in-Zettlr)
 - ["The Folgezettel Conundrum"](https://medium.com/@ethomasv/the-folgezettel-conundrum-20b14dc986ec)
-- ["Folgezettel is More than Mechanism"](https://bobdoto.computer/folgezettel-mechanics)
+- ["Folgezettel is More than Mechanism"](https://web.archive.org/web/20220301133752/https://bobdoto.computer/folgezettel-mechanics)
 - [All our posts and videos tagged #folgezettel](https://zettelkasten.de/posts/tags/folgezettel/)
 
 [contact]: https://zettelkasten.de/legal/#contact

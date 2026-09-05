@@ -12,7 +12,7 @@ import:
     from: "http://christiantietze.de/posts/2014/04/nvalt-zettelkasten-implementation/"
 ---
 
-I want to start this series of reviews with a software I'm fairly familiar with.  While most things apply to the [Notational Velocity][nv] base application, I will talk about [nvALT][] exclusively in this review.  nvALT is a fork by [Brett Terpstra](http://brettterpstra.com/) and [David Halter](http://elasticthreads.tumblr.com/) of the original Notational Velocity, which was created by Zachary Schneirov, and a few [modifications by yours truly](http://christiantietze.de/posts/2010/10/markdown-hud-nv/).  It's Open Source, free, and very popular.
+I want to start this series of reviews with a software I'm fairly familiar with.  While most things apply to the [Notational Velocity][nv] base application, I will talk about [nvALT][] exclusively in this review.  nvALT is a fork by [Brett Terpstra](http://brettterpstra.com/) and [David Halter](https://web.archive.org/web/20140325080058/http://elasticthreads.tumblr.com/) of the original Notational Velocity, which was created by Zachary Schneirov, and a few [modifications by yours truly](http://christiantietze.de/posts/2010/10/markdown-hud-nv/).  It's Open Source, free, and very popular.
 
 I use nvALT since 2010, and I think it's the best product available to create and find notes quickly and to manage a lot of them.  I mean, really, a **LOT**, as in 3000 and counting.  This app is Mac only, sadly, but there are alternative implementations popping up which promise to work on every platform.
 
@@ -195,7 +195,7 @@ From there, you can save the preview as HTML or generate a formatted print PDF. 
 Again, I don't use the tagging feature because I don't trust custom file meta data.  Instead, I rely on `#hastags` in the note content itself.  Eddie Smith [explains this][201404041727] in more detail.
 
 [tags]: https://code.google.com/p/openmeta/
-[201404041727]: http://www.practicallyefficient.com/2010/11/05/notational-velocity-tagging-without-the-tag-field/
+[201404041727]: https://web.archive.org/web/20151015202311/http://www.practicallyefficient.com/2010/11/05/notational-velocity-tagging-without-the-tag-field/
 
 ## Alternative Applications
 

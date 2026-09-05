@@ -17,7 +17,7 @@ More interestingly, Paul mentioned the other Windows apps he tried in the past. 
 
 Neither Sascha nor I have hands-on experience with any of the three apps. Share what you think with us in the comments!
 
-[ct]: http://www.connectedtext.com/
+[ct]: https://web.archive.org/web/20150205231013/http://www.connectedtext.com/
 [ctr]: https://pauljmiller.wordpress.com/2015/01/25/long-term-usage-review-of-connectedtext/
 [myinfor]: https://pauljmiller.wordpress.com/2013/11/16/review-of-myinfo/
 [urr]: https://pauljmiller.wordpress.com/2014/02/22/review-of-ultra-recall/

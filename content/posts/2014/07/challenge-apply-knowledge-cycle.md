@@ -16,7 +16,7 @@ To put my methods to the test and to answer the question how to deal with such a
 
 ## How to Deal With a Single Book
 
-<%= insert_teaser_image title: "hedgehog", caption: %Q{Photo Credit: <a href="https://www.flickr.com/photos/29436793@N00/379504908/">Chickpea.</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">cc</a>}, link: "https://www.flickr.com/photos/29436793@N00/379504908/" %>
+<%= insert_teaser_image title: "hedgehog", caption: %Q{Photo Credit: <a href="https://www.flickr.com/photos/29436793@N00/379504908/">Chickpea.</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">cc</a>}, link: "https://www.flickr.com/photos/29436793@N00/379504908/" %>
 
 The other day, I explained the concept of the [Knowledge Cycle][kcyc]. As I have sketched the concept, a full cycle is composed of four action steps: research, read, take note, write.
 

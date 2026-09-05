@@ -6,7 +6,7 @@ author: christian
 tags: [ mac, software ]
 ---
 
-I spent a few minutes importing a copy of my archive into [Bear, a note-taking app for macOS](http://www.bear-writer.com). Bear seems to be popular at least because of its clean look. This is by no means a review, just a first glance at the app. 
+I spent a few minutes importing a copy of my archive into [Bear, a note-taking app for macOS](https://web.archive.org/web/20180904215513/http://www.bear-writer.com/). Bear seems to be popular at least because of its clean look. This is by no means a review, just a first glance at the app. 
 
 Importing 3941 files took 37:50 seconds and produced 2448 notes (I have no clue why 1500 files went missing or which ones that were). Search is pretty fast afterwards. So the speed of finding and entering notes is not a show-stopper, quite the contrary. 
 

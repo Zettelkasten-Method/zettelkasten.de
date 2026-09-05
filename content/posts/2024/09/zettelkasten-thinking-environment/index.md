@@ -14,7 +14,7 @@ In the past article [Mindscapes: Thinking Environments in Your Way of Living](/p
 
 Cal Newport sees the Zettelkasten Method as one of the many ways of managing knowledge.[^24050110calzk] In doing so, he overlooks a very special characteristic of the Zettelkasten: the Zettelkasten is a very special thinking environment: it is integrated.
 
-[^24050110calzk]: For example: *The Deep Life*, Episode 61 (01:08:12), [link](https://www.buzzsprout.com/1121972/7196650-ep-61-how-should-i-tackle-big-projects)
+[^24050110calzk]: For example: *The Deep Life*, Episode 61 (01:08:12), [link](https://web.archive.org/web/20240721134857/https://www.buzzsprout.com/1121972/7196650-ep-61-how-should-i-tackle-big-projects)
 
 <%= insert_teaser_image %> 
 

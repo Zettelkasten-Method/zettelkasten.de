@@ -288,7 +288,7 @@ Another Structure Note of mine is about general models. Each Zettel notes a sepa
 
 1. The obstacle model. It is a general view of the need to increase energy output to transition from one state to another. One application is the phenomenon of hunger. In nature, you need to increase your energy output (hunt or gather) to move from the state of being hungry to being sated. Concentration is another use case. It could be modelled as the ability to increase and focus your mental energy output on moving from an incomplete to a complete task.
 
-2. The chemistry model. Its gestalt is a molecule that has atoms as parts. Atoms are the parts which are assumed not to be divisible into smaller chunks. A molecule is the composition of the elements. The Zettelkasten Method is a model of this application. Another application is Ido Portal's [teaching methods of skills](https://www.facebook.com/notes/ido-portal/optimal-teaching-chunking-vs-the-chemistry-model-by-ido-portal/255608244481163).
+2. The chemistry model. Its gestalt is a molecule that has atoms as parts. Atoms are the parts which are assumed not to be divisible into smaller chunks. A molecule is the composition of the elements. The Zettelkasten Method is a model of this application. Another application is Ido Portal's [teaching methods of skills](https://web.archive.org/web/20201028215817/https://www.facebook.com/notes/ido-portal/optimal-teaching-chunking-vs-the-chemistry-model-by-ido-portal/255608244481163).
 
 The chemistry model is both a part of the Structure Note on general models and in the Structure Note on the Zettelkasten Method itself. Those overlaps in zettels create a semilattice structure:
 

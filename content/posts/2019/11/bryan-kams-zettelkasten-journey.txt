@@ -23,7 +23,7 @@ A month later, he [wrote a follow-up to his post][zk2] with reflections on the p
 So go ahead and read Bryan's [first][zk1] and [second][zk2] post to immerse yourself further in the Zettelkasten experience!
 
 
-[zk1]: https://clerestory.netlify.com/zk
-[zk2]: https://clerestory.netlify.com/zk1/
+[zk1]: https://web.archive.org/web/20191120205013/https://clerestory.netlify.com/zk
+[zk2]: https://web.archive.org/web/20191110071333/https://clerestory.netlify.com/zk1/
 [brain]: https://zettelkasten.de/posts/extend-your-mind-and-memory-with-a-zettelkasten/
 [atom]: https://zettelkasten.de/posts/create-zettel-from-reading-notes/

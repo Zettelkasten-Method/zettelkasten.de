@@ -21,7 +21,7 @@ Every item in the outline is going to be a full sentence. This way, I can rearra
 
 Remember, English is my second language only. Usually, I don't come up with sentences, paragraphs, or sections which work out-of-the-box. I have to re-write my texts a lot to create flow. Outlines help to separate composing a text from creating flow.
 
-<%= insert_teaser_image caption: %Q{Photo Credit: <a href="https://www.flickr.com/photos/33252379@N00/5337737384/">llamnudds</a> via <a href="https://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>} %>
+<%= insert_teaser_image caption: %Q{Photo Credit: <a href="https://www.flickr.com/photos/33252379@N00/5337737384/">llamnudds</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>} %>
 
 So, what's in for you?
 

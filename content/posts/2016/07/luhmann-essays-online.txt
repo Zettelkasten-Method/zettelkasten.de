@@ -7,7 +7,7 @@ tags: [ luhmann ]
 url: http://luhmann.surge.sh
 ---
 
-After the _scriptogr.am_ shutdown a while ago, [Manfred Kuehn](http://takingnotenow.blogspot.com/)'s translations of Luhmann's essays on note-taking and reading were gone.
+After the _scriptogr.am_ shutdown a while ago, [Manfred Kuehn](https://web.archive.org/web/20160912221732/http://takingnotenow.blogspot.com/)'s translations of Luhmann's essays on note-taking and reading were gone.
 
 Today I found out that "[Communicating with Slip Boxes](http://luhmann.surge.sh/communicating-with-slip-boxes)" (which is about a Zettelkasten) and "[Learning how to Read](http://luhmann.surge.sh/learning-how-to-read)" can be found online again at <http://luhmann.surge.sh>.
 

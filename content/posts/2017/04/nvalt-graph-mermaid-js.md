@@ -9,9 +9,9 @@ vgwort: https://vg01.met.vgwort.de/na/0a8500f216cb4cd39997bdf71654d5b8
 ---
 
 
-nvALT's Markdown preview uses a browser to display HTML output of your note. That enables you to include a lot of modern web technology in your note previews.  [Mermaid](http://knsv.github.io/mermaid/) is such a thing: it's a JavaScript library that renders flow charts from plain text graph definitions.
+nvALT's Markdown preview uses a browser to display HTML output of your note. That enables you to include a lot of modern web technology in your note previews.  [Mermaid](https://web.archive.org/web/20170503010619/http://knsv.github.io/mermaid/) is such a thing: it's a JavaScript library that renders flow charts from plain text graph definitions.
 
-[Look at the demos](http://knsv.github.io/mermaid/#demo1) to get a feel for it.
+[Look at the demos](https://web.archive.org/web/20170503010619/http://knsv.github.io/mermaid/#demo1) to get a feel for it.
 
 nvALT and I both assume you write your notes in Markdown to make the following work. If you don't, nvALT will still render HTML in the browser window; skip to the end for a Markdown-less mini tutorial.
 
@@ -68,7 +68,7 @@ I'm a coder. I can live with that extra line. But it kinda ruins the purity of t
 
 ### Alternative Approach
 
-Maybe another approach is to try to interpret _all_ code blocks with Mermaid and only keep the result for those that don't fail. The [Mermaid JavaScript API](http://knsv.github.io/mermaid/#api-usage) seems to support that approach. 
+Maybe another approach is to try to interpret _all_ code blocks with Mermaid and only keep the result for those that don't fail. The [Mermaid JavaScript API](https://web.archive.org/web/20170503010619/http://knsv.github.io/mermaid/#api-usage) seems to support that approach. 
 
 If you want to spend more time with this than I: suggestions are very welcome!
 

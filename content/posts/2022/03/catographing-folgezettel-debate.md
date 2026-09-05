@@ -101,7 +101,7 @@ Please, please let me know your thoughts and let me know if there's anything I c
 
 ----
 
-If you want to experiment with the data yourself, [Austin released the benchmark notes on GitHub](https://github.com/austinha/zettelkasten-cartography/). -- Each variant lives in another branch, so you need to know a bit about git or download each branch from GitHub manually. For intermediate git users, I suggest to put each branch into its own directory [using `git worktree`](https://isscroberto.com/2019/12/09/git-worktree-work-on-two-git-branches-at-the-same-time/).
+If you want to experiment with the data yourself, [Austin released the benchmark notes on GitHub](https://github.com/austinha/zettelkasten-cartography/). -- Each variant lives in another branch, so you need to know a bit about git or download each branch from GitHub manually. For intermediate git users, I suggest to put each branch into its own directory [using `git worktree`](https://web.archive.org/web/20211026221747/https://isscroberto.com/2019/12/09/git-worktree-work-on-two-git-branches-at-the-same-time/).
 
 ----
 

@@ -18,7 +18,7 @@ Nowadays, we have reference manager software, note-taking software, PDF annotati
 
 If you care for non-fiction scholarly writing, if you're a student, or if you're just trying to figure out what kinds of Zettel notes there are and where they come from -- [pick up the book!][eco] It's an educational read, but keep in mind most of the tips are outdated since personal computers exist.
 
-(via Manfred of [Taking Note](http://takingnotenow.blogspot.de/2015/01/umberto-eco-on-how-to-write-thesis.html); cover image &copy; 2015 The MIT Press)
+(via Manfred of [Taking Note](https://web.archive.org/web/20150416215007/http://takingnotenow.blogspot.de/2015/01/umberto-eco-on-how-to-write-thesis.html); cover image &copy; 2015 The MIT Press)
 
 [eco]: http://www.amazon.com/gp/product/0262527138/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0262527138&linkCode=as2&tag=ctzettelkasten-20&linkId=D3OKZLHH4N7G44QK
 

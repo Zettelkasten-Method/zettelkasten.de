@@ -50,7 +50,7 @@ This is totally a work-in-progress.  I'd love to hear your opinion.
 ---
 
 <small>
-Photo Credit: <a href="http://www.flickr.com/photos/10976418@N04/1235777767/">Amy Loves Yah</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>
+Photo Credit: <a href="https://web.archive.org/web/20220628153343/http://www.flickr.com/photos/10976418@N04/1235777767/">Amy Loves Yah</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>
 </small>
 
 [tools]: http://www.zettelkasten.de/tools/

@@ -36,7 +36,7 @@ The Zettel's identifier is not only responsible to separate it from others. It i
 
 If you address a Zettel from another one via linking by ID, you have a connection. Thus, the identifier is responsible both for separateness and the possibility of connection in your Zettelkasten.
 
-<%= insert_teaser_image title: "neuron", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/31477768@N00/3101400087/">MikeBlogs</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>} %>
+<%= insert_teaser_image title: "neuron", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/31477768@N00/3101400087/">MikeBlogs</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>} %>
 
 Now, we unfolded two different aspects of the outer form of a Zettel. The identifier gives its separateness and possibility of connection. It is the nature of a Zettel to include both. But notice the asymmetry: 
 

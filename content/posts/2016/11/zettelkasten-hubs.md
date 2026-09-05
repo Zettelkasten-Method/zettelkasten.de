@@ -80,7 +80,7 @@ Fin.
 
 Christian and I attended an event in which we had a chance to listen to an up-to-date talk from Johannes Schmidt. 
 
-If you don't know who Johannes is: He is *the* man who does the research on the original Zettelkasten of Luhmann here in Bielefeld, Germany; he's the _Guardian of the Godfather's Zettelkasten_. I had the opportunity to pester him with a bunch of questions. There is more to come. Check out [his research on Luhmann and the Zettelkasten](https://uni-bielefeld.de/soz/luhmann-archiv/publikationen.html).
+If you don't know who Johannes is: He is *the* man who does the research on the original Zettelkasten of Luhmann here in Bielefeld, Germany; he's the _Guardian of the Godfather's Zettelkasten_. I had the opportunity to pester him with a bunch of questions. There is more to come. Check out [his research on Luhmann and the Zettelkasten](https://web.archive.org/web/20161102004848/https://uni-bielefeld.de/soz/luhmann-archiv/publikationen.html).
 
 I have to recommend the following to you: Start your Zettelkasten. Use a plain text approach. It takes a while but it is definitely worth it. 
 

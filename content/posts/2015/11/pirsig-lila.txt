@@ -4,7 +4,7 @@ created_at: 2015-11-16 11:04:09 +0100
 kind: article
 author: christian
 tags: [ inspiration, paper ]
-url: http://members.optusnet.com.au/charles57/Creative/Idea_Recording/lila.htm
+url: https://web.archive.org/web/20150806200549/http://members.optusnet.com.au/charles57/Creative/Idea_Recording/lila.htm
 ---
 
 Ever wanted to get a feeling for a paper-based Zettelkasten? Here's a quote or two of [Robert Pirsig's novel _Lila_](http://amzn.to/1PK6RHW), discovered thanks to [Eurobubba](/posts/luedeckes-follow-up/#comment-2346262822):
@@ -25,4 +25,4 @@ The novel's main character does not use IDs, neither does he keep the notes into
 
 But we won't repear these mistaked ourselved, will we? Links are essential to form a web of notes. And keeping notes around for a lifetime will only make your future projects better.
 
-[Doug Toft claims](http://dougtoft.net/2015/04/25/organizing-11000-ideas-how-robert-pirsig-did-it/) it's Pirsig's own method, by the way.
+[Doug Toft claims](https://web.archive.org/web/20151208104431/http://dougtoft.net/2015/04/25/organizing-11000-ideas-how-robert-pirsig-did-it/) it's Pirsig's own method, by the way.

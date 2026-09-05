@@ -17,7 +17,7 @@ Now let's welcome Marko and see what DEVONthink can do for us Zettelkasten afici
 ---
 
 
-[DEVONthink](http://www.devontechnologies.com/products/devonthink/overview.html) is a knowledge management software by [DEVONtechnologies](http://www.devontechnologies.com) exclusively available on Mac. It is called a "knowledge management software" because it's not only meant for note-taking,[^1] but rather collecting all kinds of data in all kinds of forms, for example PDFs, word-documents, or websites. All files are stored in a single database.
+[DEVONthink](https://web.archive.org/web/20141203233607/http://www.devontechnologies.com/products/devonthink/overview.html) is a knowledge management software by [DEVONtechnologies](http://www.devontechnologies.com) exclusively available on Mac. It is called a "knowledge management software" because it's not only meant for note-taking,[^1] but rather collecting all kinds of data in all kinds of forms, for example PDFs, word-documents, or websites. All files are stored in a single database.
 
 I use DEVONthink since 2011 and it filled some needs that nvALT and other apps could not: storing and linking PDFs with my text notes. At first I used Rich Text Files for my notes, but by now I use plain text files (or rather [MultiMarkdown][mmd]-files) exclusively.
 

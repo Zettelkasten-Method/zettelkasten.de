@@ -29,7 +29,7 @@ Now I was not only hoping, but rather knew that I was walking on a path similar 
 
 ## Hesitations
 
-<%= insert_teaser_image title: "scared baby", caption: %{Photo credit: <a href="https://www.flickr.com/photos/maddfamily/317422024/">Maddfamily</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">cc</a>} %>
+<%= insert_teaser_image title: "scared baby", caption: %{Photo credit: <a href="https://www.flickr.com/photos/maddfamily/317422024/">Maddfamily</a> via <a href="https://web.archive.org/web/20141006154238/https://photopin.com/">photopin</a> <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">cc</a>} %>
 
 But soon, I started to hesitate. Why would anyone take a book on writing serious, written from someone who never wrote a book before?
 

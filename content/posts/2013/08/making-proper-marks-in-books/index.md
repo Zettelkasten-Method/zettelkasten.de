@@ -51,7 +51,7 @@ These glyphs I only use for texts in philosophy and sociology which tend to be m
 
 _Please [tell me more](http://twitter.com/ctietze) about your own reading habits!_  
 
-[und]: http://takingnotenow.blogspot.com/2013/08/underlining-in-library-books.html
+[und]: https://web.archive.org/web/20150724180630/http://takingnotenow.blogspot.com/2013/08/underlining-in-library-books.html
 [imp]: https://zettelkasten.de/posts/zettelkasten-improves-thinking-writing/#impthink
 [^aff]: Affiliate link; we get a small kickback from Amazon to support this site from if you buy from our link, but it won't cost you anything.
 [htwat]: https://www.amazon.com/How-Write-Thesis-MIT-Press/dp/0262527138/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=ctzettelkasten-20&linkId=74f6517a8c4df9f357cf9781972b7fb1&language=en_US

@@ -121,5 +121,5 @@ Chances are you write a lot.  Since I'm covering Mac applications a great deal, 
 I picked my tools so they can be easily exchanged.  A BibTeX database can be edited with any text editor.  The popular MultiMarkdown syntax won't go anywhere soon.  What are your principles?
 
 [scrivener]: http://www.literatureandlatte.com/scrivener.php
-[scr]: http://timbrandes.com/blog/2012/02/28/howto-write-your-thesis-in-latex-using-scrivener-2-multimarkdown-3-and-bibdesk/
+[scr]: https://web.archive.org/web/20130817071037/http://timbrandes.com/blog/2012/02/28/howto-write-your-thesis-in-latex-using-scrivener-2-multimarkdown-3-and-bibdesk/
 

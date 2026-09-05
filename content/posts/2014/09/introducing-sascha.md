@@ -14,7 +14,7 @@ Call me Ishmael.[^mobydick]
 
 This is my first post on Zettelkasten.de, and which quote would be more appropriate to introduce myself? My real name is Sascha Fast by the way.
 
-<%= insert_teaser_image title: "whale", caption: %Q{Photo Credit: <a href="https://www.flickr.com/photos/46888841@N00/4382241341/">t3rmin4t0r</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>} %>
+<%= insert_teaser_image title: "whale", caption: %Q{Photo Credit: <a href="https://www.flickr.com/photos/46888841@N00/4382241341/">t3rmin4t0r</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>} %>
 
 
 ## About me

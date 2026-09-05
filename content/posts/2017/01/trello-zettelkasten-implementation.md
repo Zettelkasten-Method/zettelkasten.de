@@ -262,7 +262,7 @@ Trello does not currently have a generic import feature. [Creating cards by emai
 You can import multiple cards from a spreadsheet using external services and the Trello API:
 
 * [Use Zapier to import data from a spreadsheet](https://zapier.com/help/import-export/#using-google-sheets-for-import) and then send the data from Zapier to Trello
-* [Use a Google Spreadsheet and a Google Apps Script](http://www.littlebluemonkey.com/blog/online-scrum-tools-part-3-upload-existing-product-backlog-into-trello) to import the data directly into Trello.
+* [Use a Google Spreadsheet and a Google Apps Script](https://web.archive.org/web/20170519191356/http://www.littlebluemonkey.com/blog/online-scrum-tools-part-3-upload-existing-product-backlog-into-trello) to import the data directly into Trello.
 
 See [Importing data into Trello](http://help.trello.com/article/751-importing-data-into-trello) for further details.
 

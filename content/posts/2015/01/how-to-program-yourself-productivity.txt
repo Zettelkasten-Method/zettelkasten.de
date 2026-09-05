@@ -45,7 +45,7 @@ I separated the concerns and found one great app for every task instead of settl
 
 ## You and Your Conventions Become the Missing Link
 
-<%= insert_teaser_image title: "Dog and Computer", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/konszvi/4218539270">"On the internet nobody know you're a dog"</a> by Anat Reisner via <a href="https://www.flickr.com/photos/konszvi/">Zvi Kons</a> on flickr, <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA</a>} %>
+<%= insert_teaser_image title: "Dog and Computer", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/konszvi/4218539270">"On the internet nobody know you're a dog"</a> by Anat Reisner via <a href="https://web.archive.org/web/20160101013609/https://www.flickr.com/photos/konszvi/">Zvi Kons</a> on flickr, <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA</a>} %>
 
 Picking an application for each task with no built-in data exchange between all of them requires connections to make them work together. The relation between the elements of your system has to be you.
 
@@ -88,7 +88,7 @@ Replace TextMate with [any other text editor](http://alternativeto.net/software/
 [bibdesk]: http://bibdesk.sourceforge.net/
 [jabref]: http://jabref.sourceforge.net/
 
-[^nvos]: There's [Notation](http://getnotation.com) (my recommendation) and [ResophNotes](http://resoph.com/ResophNotes/Welcome.html) for Windows, [NVim](http://cwoac.github.io/nvim/about.html) or [nvPY](https://github.com/cpbotha/nvpy) for cross-platform use.
+[^nvos]: There's [Notation](http://getnotation.com) (my recommendation) and [ResophNotes](http://resoph.com/ResophNotes/Welcome.html) for Windows, [NVim](https://web.archive.org/web/20150509011706/http://cwoac.github.io/nvim/about.html) or [nvPY](https://github.com/cpbotha/nvpy) for cross-platform use.
 
 ## Conclusion
 

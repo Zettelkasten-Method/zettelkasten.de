@@ -34,7 +34,7 @@ I based the captions of the flow chart above on _[Getting Things Done&reg;][gtd]
 Now the web puts _stuff_ in our lives in different ways.  There's social networks on the one hand, and website articles or blog posts on the other. The key question is:  how do you deal with various input streams of information efficiently so you don't waste time juggling them?
 
 [gtd]: https://en.wikipedia.org/wiki/Getting_Things_Done
-[flowchart]: http://lifedev.net/2007/02/gtd-cheatsheet-the-workflow/
+[flowchart]: https://web.archive.org/web/20140227115217/http://lifedev.net/2007/02/gtd-cheatsheet-the-workflow/
 
 ### Action steps to get from stuff to reference material
 
@@ -101,9 +101,9 @@ In contrast to managing subscriptions in an application on your computer, this e
 
 Popular apps are [Mr. Reader][mrreader] or [Reeder][] for iOS, and [Pocket][] for iOS and Mac.  [Feedly][] runs on both iOS and Android, and it has a web interface suitable for your computer.  Check out [Gabe's comparison][servicecompare] of RSS feed reader services to find out which web service fits your needs if you haven't decided, yet.
 
-[nnw]: http://netnewswireapp.com/
+[nnw]: https://web.archive.org/web/20130413204718/http://netnewswireapp.com/
 [feedwrangler]: https://feedwrangler.net
-[mnmlrdr]: https://mnmlrdr.com/
+[mnmlrdr]: https://web.archive.org/web/20140208000155/https://mnmlrdr.com/
 [mrreader]: http://www.curioustimes.de/mrreader/
 [reeder]: http://reederapp.com/ios/
 [pocket]: http://www.getpocket.com

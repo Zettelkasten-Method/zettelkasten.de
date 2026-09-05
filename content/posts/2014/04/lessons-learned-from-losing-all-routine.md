@@ -16,7 +16,7 @@ There was a daily workout routine, where I hit the gym twice a day on four days 
 
 With the dawn of the last weekend of March, nearly all of these routines collapsed.
 
-<%= insert_teaser_image title: "wrecked workplace", caption: %Q{Photo Credit: <a href="http://www.flickr.com/photos/58253301@N07/">soho42</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>}, link: "https://www.flickr.com/photos/soho42/12729679684/" %>
+<%= insert_teaser_image title: "wrecked workplace", caption: %Q{Photo Credit: <a href="http://www.flickr.com/photos/58253301@N07/">soho42</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>}, link: "https://www.flickr.com/photos/soho42/12729679684/" %>
 
 I'm moving in with a good friend.  We share a small apartment in the city.  There were only the two of us, and we had just one medium-sized car at our disposal.  Unfortunately, none of us cared to ask a sufficient amount of acquaintances for help or additional vehicles.
 

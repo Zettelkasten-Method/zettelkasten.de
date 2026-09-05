@@ -13,7 +13,7 @@ In my last post [A Life-Long Writing Project on Writing – and My Anxiety][last
 
   [lastpost]: http://www.zettelkasten.de/posts/project-on-writing-my-anxiety/
 
-  [onwritingmore]: https://leanpub.com/on-writing-more
+  [onwritingmore]: https://web.archive.org/web/20150511013219/https://leanpub.com/on-writing-more
 
 In this post I'll present the method which led to this book.
 
@@ -37,7 +37,7 @@ I need to do research for most of my writing. During this research the notes are
 
 **Update 2020-01-14:** I now store my outlines as Structure Zettel. For more information what a Structure Zettel is see [this post](/posts/three-layers-structure-zettelkasten/).
 
-<%= insert_teaser_image title: "silhouette of a cat", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/24515968@N05/13413225314/">Watt_Dabney</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>} %>
+<%= insert_teaser_image title: "silhouette of a cat", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/24515968@N05/13413225314/">Watt_Dabney</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>} %>
 
 As I progress through the research I can see the outline growing and changing. Sometimes I just begin with an empty file and just make a list of Zettels related to that topic. After a while clusters will form to topics and subtopics, which I mark up as headings and subheadings.
 

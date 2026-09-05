@@ -5,7 +5,7 @@ updated_at: 2020-07-08 17:34:00 +0100
 kind: article
 author: christian
 tags: [ devonthink ]
-url: http://www.christopher-mayo.com/?p=2237
+url: https://web.archive.org/web/20150113122340/http://www.christopher-mayo.com/?p=2237
 via:
     url: "http://www.macdrifter.com/2014/12/devonthink-use-cases-in-academics-link.html"
     name: Macdrifter
@@ -15,5 +15,5 @@ Just now, a few days after publishing Marko's article on [DEVONthink as a Zettel
 
 Apart from his own introductory words on using DEVONthink, Christopher provides a *huge* collection of links to get you started. And he showcases 22 different use cases so you may learn from pro users how to facilitate DEVONthink's potential. I checked out a few of them and I think they alone are worth visiting Christopher's post if you want to find out more about DEVONthink.
 
-[dt]: http://www.christopher-mayo.com/?p=2237
+[dt]: https://web.archive.org/web/20150113122340/http://www.christopher-mayo.com/?p=2237
 

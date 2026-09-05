@@ -25,7 +25,7 @@ It's worth noting that Alex includes an identifier of an entry in his reference 
 
 Look at the [diagram of Alex' workflow](/img/blog/201505281425_acuriousmix.com-flow.jpg). He's struggling with creating Zettel notes, only he doesn't know it, yet. (Image used with permission.)
 
-Although nobody seems to adhere to the following distinction, I argue that Alex is looking for a personal information management (PIM) application, not a personal knowledge management (PKM) solution. Now he's [designing](http://www.acuriousmix.com/2014/09/05/trying-to-scratch-a-collective-itch-a-personal-knowledgbase-part-2/) a hybrid of both.
+Although nobody seems to adhere to the following distinction, I argue that Alex is looking for a personal information management (PIM) application, not a personal knowledge management (PKM) solution. Now he's [designing](https://web.archive.org/web/20150530202123/http://www.acuriousmix.com/2014/09/05/trying-to-scratch-a-collective-itch-a-personal-knowledgbase-part-2/) a hybrid of both.
 
 I think you should decide what you want: do you want to archive information, that is PDFs, videos, web site snapshots? Or do you want to archive knowledge, that is ... well, whatever you happen to have learned, put in your own words? It makes a great deal of difference. As long as you insist on mixing both things, no software may cut it in the end. 
 
@@ -48,9 +48,9 @@ In the meantime, take a look at the 67 comments at [his website][alex] and [the 
 What do you think of Alex' case and the problem he describes? Any ideas?
 
 
-[alex]: http://www.acuriousmix.com/2014/09/03/designing-a-personal-knowledgebase/
+[alex]: https://web.archive.org/web/20150530201537/http://www.acuriousmix.com/2014/09/03/designing-a-personal-knowledgebase/
 [hn]: https://news.ycombinator.com/item?id=8270759
 [conv]: /posts/you-dont-need-wiki/
 [dt]: /posts/tags/devonthink/
 [ident]: /posts/add-identity/
-[dtlink]: http://takingnotenow.blogspot.de/2014/12/note-connections.html?showComment=1419643227390#c468705254393459520
+[dtlink]: https://web.archive.org/web/20150601011451/http://takingnotenow.blogspot.de/2014/12/note-connections.html?showComment=1419643227390#c468705254393459520

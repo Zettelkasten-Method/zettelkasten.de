@@ -12,7 +12,7 @@ In this episode, we respond to [Peter's question](http://disq.us/p/1eepei9): Wha
 
 Here are a few links for stuff we discussed in the video.
 
-* Christian's [inspiration for note meta-categories](http://dougist.com/2009/08/file-system-infobase-manager/) back in the day made him include diary entries. Now they're _out._
+* Christian's [inspiration for note meta-categories](https://web.archive.org/web/20161022132522/http://dougist.com/2009/08/file-system-infobase-manager/) back in the day made him include diary entries. Now they're _out._
 * [The first post about the method itself.](/posts/zettelkasten-improves-thinking-writing/)
 * Sascha showed a branching model of note identifiers in his demo; read more about [Zettel note identifiers](/posts/add-identity/).
 * Luhmann's article about [communication with a Zettelkasten](/posts/luhmann-essays-online/) and Luhmann's own Zettelkasten inspired Sascha to start his archive with the first note being about the Zettelkasten itself.

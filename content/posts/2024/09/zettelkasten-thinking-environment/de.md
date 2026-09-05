@@ -15,7 +15,7 @@ Im Artikel [Lebensräume des Geistes: Denkumgebungen im Lebenswandel](https://ze
 
 Cal Newport sieht in der Zettelkastenmethode eine der vielen Möglichkeiten der Wissenverwaltung.[^24050110calzk] Dabei übersieht er eine ganz besondere Eigenschaft des Zettelkastens: Der Zettelkasten ist eine ganz besondere Denkumgebung: Sie ist integriert.
 
-[^24050110calzk]: Zum Beispiel: _The Deep Life_, Episode 61 (01:08:12), [Link](https://www.buzzsprout.com/1121972/7196650-ep-61-how-should-i-tackle-big-projects)
+[^24050110calzk]: Zum Beispiel: _The Deep Life_, Episode 61 (01:08:12), [Link](https://web.archive.org/web/20240721134857/https://www.buzzsprout.com/1121972/7196650-ep-61-how-should-i-tackle-big-projects)
 
 <%= insert_teaser_image %> 
 

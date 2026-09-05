@@ -29,7 +29,7 @@ First, let's get as accurate an outline of your duties for this month as possibl
 
 ## The NaNoWriMo Undertaking: Your Intent Shall be to Write Until Finished
 
-<%= insert_teaser_image title: "hamster in a wheel", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/46384561@N00/4665402492/">Zebra Pares</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>} %>
+<%= insert_teaser_image title: "hamster in a wheel", caption: %{Photo Credit: <a href="https://www.flickr.com/photos/46384561@N00/4665402492/">Zebra Pares</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>} %>
 
 Your commitment for the rest of November is clear: write, write, write. Write as much as you can. If you only start by tomorrow, you still have 25 full days left to write. That makes 2000 words a day. You should be able to do this in about two hours.[^wc]
 

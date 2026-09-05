@@ -6,7 +6,7 @@ author: sascha
 tags: [ principles, note-taking ]
 ---
 
-I’d like to highlight this article by Joe Pairman: [Take notes as online help for your creative future self](https://blog.joepairman.com/2020/08/03/take-notes-as-online-help-for-your-creative-future-self/). 
+I’d like to highlight this article by Joe Pairman: [Take notes as online help for your creative future self](https://web.archive.org/web/20200812104328/https://blog.joepairman.com/2020/08/03/take-notes-as-online-help-for-your-creative-future-self/). 
 
 The rare feature of this article is that Joe is extracting universal principles by comparing one of my articles with ideas of Mark Baker from [Every Page is Page One](https://amzn.to/2XU8IVs). (Affiliate link.)
 

@@ -26,7 +26,7 @@ Of course no one really wants to use the full-text search to de-reference links.
 
 Manfred says that a Wiki-like feeling is just as bad a replacement for a real Wiki as a love-like feeling is for love. That's right, it's not the real thing. I think we all agree that we can use some love. But do we actually need a Wiki? (Spoiler: I think we don't.)
 
-[conn]: http://takingnotenow.blogspot.de/2014/12/note-connections.html
+[conn]: https://web.archive.org/web/20150503075922/http://takingnotenow.blogspot.de/2014/12/note-connections.html
 [review]: /posts/baseline-zettelkasten-software-reviews/#criteria-i-will-consider
 [ident]: /posts/add-identity/
 [perf]: /posts/how-to-program-yourself-productivity/

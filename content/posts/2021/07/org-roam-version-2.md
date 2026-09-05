@@ -20,7 +20,7 @@ The format used to store and display notes used the popular Emacs package `org-m
 
 Want an introduction to `org-roam` and its Zettelkasten features by a veteran Emacs screencaster? Check out this video:
 
-<%= insert_youtube("AyhPmypHDEw", caption: %Q{Building a Second Brain with org-roam, by System Crafters; <a href="https://systemcrafters.cc/build-a-second-brain-in-emacs/getting-started-with-org-roam/">see show notes for text version</a>}) %>
+<%= insert_youtube("AyhPmypHDEw", caption: %Q{Building a Second Brain with org-roam, by System Crafters; <a href="https://web.archive.org/web/20210726134610/https://systemcrafters.cc/build-a-second-brain-in-emacs/getting-started-with-org-roam/">see show notes for text version</a>}) %>
 
 What's new in v2? The most breaking change from v1 to v2 is that they now use org-mode links IDs instead of individual files. This is supposedly making it much more snappy when you work with a lot of notes. Migrating from the old v1 file format is a bit of work, but they offer a migration wizard for this purpose. If you're just getting started, the new version 2 is good to go, though!
 

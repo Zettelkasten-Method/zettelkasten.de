@@ -16,7 +16,7 @@ Back in school, I found out I didn't complete work because I didn't know what wa
 
 Your working capacity increases once you stop wasting mental resources on task management. I wanted to learn more, but I couldn't remember all the things I read, so I started to look for another tool to help me deal with that. The Zettelkasten became my answer to the question _How can we preserve personal knowledge?_
 
-<%= insert_teaser_image title: "treasure chest", caption: %Q{Photo Credit: <a href="https://www.flickr.com/photos/46325182@N00/3277993825/">rattyfied</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>} %>
+<%= insert_teaser_image title: "treasure chest", caption: %Q{Photo Credit: <a href="https://www.flickr.com/photos/46325182@N00/3277993825/">rattyfied</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>} %>
 
 I believe that thought-out systems stabilize your life. They limit your options so your actions become predictable. It's good to know that there's a solid foundation of habits and tools to rely on. A solid foundation provides creative freedom to do what you love to do. That's why I think everybody needs some kind of task management to cover their back, and that's why I think everyone should have an efficient system of knowledge management in place. Both systems have to be trusted to work, and thus both systems will need to be highly personalized. With a trusted system to expand our personal knowledge, we can feel more confident that we're going to finish our work.
 

@@ -41,7 +41,7 @@ I did a lot of programming recently. In the past, I found articles and books abo
 
 ## Why use multiple Zettelkasten instances?
 
-<%= insert_teaser_image title: "7 sucklings", caption: %{It's taking a lot of energy to manage multiple projects at the same time. Photo Credit: <a href="http://www.flickr.com/photos/10976418@N04/1235777767/">Amy Loves Yah</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a>} %>
+<%= insert_teaser_image title: "7 sucklings", caption: %{It's taking a lot of energy to manage multiple projects at the same time. Photo Credit: <a href="https://web.archive.org/web/20220628153343/http://www.flickr.com/photos/10976418@N04/1235777767/">Amy Loves Yah</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a>} %>
 
 
 (The correct plural form of the German word would be "Zettelkästen". I didn't want to use throughout the text because you might find it confusing, but there you go, I couldn't resist.)

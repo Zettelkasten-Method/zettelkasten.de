@@ -288,7 +288,7 @@ This is a Chinese translation to Sascha's [Introduction to the Zettelkasten Meth
 上图是我的另一个结构化笔记。这条笔记连接的每条笔记卡片都是心理模型(mental models)中的一种独立模型。举两个例子来说明：
 
 1. Obstacle Model：从一种状态转变为另一种状态需要增加能量输出的观点。比如饥饿时，你需要增加能量输出(狩猎或采集)，才能从饥饿状态变为饱食状态。又比如，你需要保持专注，增加精神能量的的输出才能完成一些之前未完成的任务。
-2. Chemistry Mode：认为分子由原子组成，并假设原子不可被分隔的观点。卡片盒笔记法应用了该模型，认为每条笔记应该是原子化的。另外，[Portal](https://www.facebook.com/notes/ido-portal/optimal-teaching-chunking-vs-the-chemistry-model-by-ido-portal/255608244481163)关于掌握技能的教学方法也应用了该模型。
+2. Chemistry Mode：认为分子由原子组成，并假设原子不可被分隔的观点。卡片盒笔记法应用了该模型，认为每条笔记应该是原子化的。另外，[Portal](https://web.archive.org/web/20201028215817/https://www.facebook.com/notes/ido-portal/optimal-teaching-chunking-vs-the-chemistry-model-by-ido-portal/255608244481163)关于掌握技能的教学方法也应用了该模型。
 
 记录 Chemistry Mode 的笔记被放置在通用模型的结构化笔记中的同时，也被放置在关于 卡片盒笔记法 方法的结构化笔记中。这种重叠交错的笔记(overlaps in Zettels)最终形成了一个**半格结构**(Semilattice structure):
 
@@ -358,7 +358,7 @@ The Archive 这款软件的主要理念是坚持软件不可知论(software-agno
 
 1.  [Communicating with Zettelkastens by Niklas Luhmann](https://zettelkasten.de/communications-with-zettelkastens/)
 2.  [Understanding Hierarchy by Translating Folgezettel and Structure Zettel](https://zettelkasten.de/posts/understanding-hierarchy-translating-folgezettel/)
-3.  [Ido Portal](https://www.facebook.com/notes/ido-portal/optimal-teaching-chunking-vs-the-chemistry-model-by-ido-portal/255608244481163)
+3.  [Ido Portal](https://web.archive.org/web/20201028215817/https://www.facebook.com/notes/ido-portal/optimal-teaching-chunking-vs-the-chemistry-model-by-ido-portal/255608244481163)
 4.  [Heterarchy - Wikipedia](https://en.wikipedia.org/wiki/Heterarchy)
 5.  [沙盒 (电脑安全) - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E6%B2%99%E7%9B%92_(%E9%9B%BB%E8%85%A6%E5%AE%89%E5%85%A8))
 6.  [Getting Started • Zettelkasten Method](https://zettelkasten.de/overview/)

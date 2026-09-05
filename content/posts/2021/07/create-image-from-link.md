@@ -7,7 +7,7 @@ tags: [ image ]
 image: https://forum.zettelkasten.de/uploads/editor/gn/f44j7a3d3nk3.png
 discussion_id: 1895
 ---
-Stephan Bogner ([@st_phan](https://forum.zettelkasten.de/profile/st_phan) in the forums) shared a neat and free web tool with the community the other day, a [**link preview generator**](https://link-previews.stephanbogner.de/).
+Stephan Bogner ([@st_phan](https://forum.zettelkasten.de/profile/st_phan) in the forums) shared a neat and free web tool with the community the other day, a [**link preview generator**](https://web.archive.org/web/20210708163519/https://link-previews.stephanbogner.de/).
 
 It creates image previews of a website from a link. The result is optimized to be embedded into your notes without taking up too much space.
 
@@ -23,4 +23,4 @@ Finally, here's a close-up of Sascha's blog post, "[Don't Dehorsify the Horse](h
 
 <%= insert_rel_image file: "20210709205135_horsify-image.png", caption: "Blog post link preview" %>
 
-Check out his free online tool at <https://link-previews.stephanbogner.de/> and leave feedback for Stephan in the comments!
+Check out his free online tool at <https://web.archive.org/web/20210708163519/https://link-previews.stephanbogner.de/> and leave feedback for Stephan in the comments!

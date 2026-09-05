@@ -140,8 +140,8 @@ When you use a plain text markup language like Markdown (or the MultiMarkdown fl
 
 I discovered MultiMarkdown because it is built into [Scrivener][].  It supports metadata in the front matter or header which doesn't show in [HTML previews][nvprev] and exports to LaTeX nicely.  Nowadays, there's other means to get this feature, enabled by the popular Pandoc document converter.
 
-[plaintext]: http://www.christopher-mayo.com/?p=14
-[word]: http://davidhewson.com/2013/12/28/does-markdown-mean-your-work-will-live-forever/
+[plaintext]: https://web.archive.org/web/20140404093641/http://www.christopher-mayo.com/?p=14
+[word]: https://web.archive.org/web/20140403102545/http://davidhewson.com/2013/12/28/does-markdown-mean-your-work-will-live-forever/
 [scrivener]: https://literatureandlatte.com/scrivener.php
 [nvprev]: https://christiantietze.de/posts/2010/10/multi-markup-notational-velocity/
 
@@ -194,7 +194,7 @@ I think notes should be self-contained.  If you don't add the verbose reference 
 
 ## Software I (Want to) Look at
 
-<%= insert_teaser_image title: "gears", caption: %Q{Photo Credit: <a href="http://www.flickr.com/photos/37256969@N08/8649462824/">nic_r</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>
+<%= insert_teaser_image title: "gears", caption: %Q{Photo Credit: <a href="http://www.flickr.com/photos/37256969@N08/8649462824/">nic_r</a> via <a href="https://web.archive.org/web/20120919020643/https://compfight.com/">Compfight</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/">cc</a>
 }, link: "https://www.flickr.com/photos/37256969@N08/8649462824/" %>
 
 This is a running list of applications I want to look at.  I'm going to update this list over time and as your suggestions come in.  Also, I'm going to link to reviews from here as soon as they're done.

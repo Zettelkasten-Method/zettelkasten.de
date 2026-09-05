@@ -26,7 +26,7 @@ It's impossible to collect information by collecting original sources. Everythin
 
 ## Your own Voice Counts
 
-<%= insert_teaser_image title: "skeptical puppy!", caption: %{Photo credit: <a href="https://www.flickr.com/photos/gareth1953/5499994653/">gareth1953</a> on flickr <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>} %>
+<%= insert_teaser_image title: "skeptical puppy!", caption: %{Photo credit: <a href="https://web.archive.org/web/20151121031324/https://www.flickr.com/photos/gareth1953/5499994653/">gareth1953</a> on flickr <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>} %>
 
 I had believed that texts contain information, and that it was my job to make the information accessible. Collecting books, storing quotes, and saving PDFs of articles seemed to be the best solution. Only I still had to read the texts again and again to re-claim the information I did already discover the first time.
 
