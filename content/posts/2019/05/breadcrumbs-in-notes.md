@@ -10,7 +10,7 @@ Here's today's fun story.
 
 ---
 
-Sascha asks me if I remember the connection between an author (Heinrich von Kleist) and a concept ([Maieutics](https://en.wikipedia.org/w/Maieutics)). I hesitate a bit but then agree: yes, it's his concept. The association feels just so familiar. 
+Sascha asks me if I remember the connection between an author (Heinrich von Kleist) and a concept ([Maieutics](https://en.wikipedia.org/wiki/Maieutics)). I hesitate a bit but then agree: yes, it's his concept. The association feels just so familiar. 
 
 I look up the concept in my archive, searching for "midwifery" ("Hebammenkunst" is the German term Sascha suggested). I indeed stumble upon a note about a text by Heinrich von Kleist about the spontaneous and sequential creation of thoughts during conversation. 
 

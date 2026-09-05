@@ -8,7 +8,7 @@ tags: [ thearchiveapp ]
 
 <%= insert_youtube("R2AC6i9OdAU?list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC") %>
 
-Sascha created [a short video](https://www.youtube.com/watch?v=R2AC6i9OdAU?list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC) (sub 4min) about the usefulness of a little feature: clicking on stuff to change the search. Once you design your workflow to center around search terms, search shortcuts become super powerful. 
+Sascha created [a short video](https://www.youtube.com/watch?v=R2AC6i9OdAU&list=PLHwtkAtdkx1KeyPHN5CdfVJcZi1uNZ6tC) (sub 4min) about the usefulness of a little feature: clicking on stuff to change the search. Once you design your workflow to center around search terms, search shortcuts become super powerful. 
 
 In this example, he used the reference manager's citation key to quickly filter for notes about a book. The result is an overview of book notes, as you will see. 
 
