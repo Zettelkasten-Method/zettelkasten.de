@@ -2,6 +2,7 @@
 title: "How to Turn Note-Writing into Deliberate Mind Training"
 created_at: 2026-09-17 16:00:00 +0200
 kind: article
+publish: false
 author: "sascha"
 tags: [ note-taking, atomicity, thinking, learning ]
 vgwort: https://vg08.met.vgwort.de/na/ad3cfc72a7e44ce6892662a63f66d3d2
