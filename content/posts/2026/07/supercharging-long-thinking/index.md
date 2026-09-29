@@ -3,7 +3,7 @@ title: "Supercharging Long Thinking: What Cal Newport's Notebook Method Leaves O
 created_at: 2026-07-28 16:00:00 +0200
 kind: article
 author: "sascha"
-tags: [ thinking, note-taking, atomicity, deep-work ]
+tags: [ thinking, note-taking, atomicity, deep-work, long-thinking-series ]
 vgwort: https://vg09.met.vgwort.de/na/9244584cdcba4cae82f768a82cee9075
 rel_image: ./long-thinking-snowfall.webp
 description: "Long thinking means sustained, deliberate thought aimed at real new insight. Cal Newport’s Notebook Method assumes that externalizing that thinking is trivial. It isn’t. Here is how the Zettelkasten Method closes the gap."
@@ -58,4 +58,4 @@ I prefer the second option because I have never experienced the value of version
 
 > If you have to long think anyway, it is pragmatic to exploit this activity to create a system of notes that can act as an integrated thinking environment.
 
-In the next articles, I will present you with a few tools for developing molecules based on my own work. Each article will contain a ready-to-use technique to support long thinking challenges.
+In the next articles, I will present you with a few tools for developing molecules based on my own work. Each article will contain a ready-to-use technique to support long thinking challenges. The first one is [anchored model layering](https://zettelkasten.de/posts/anchored-model-layering/).
