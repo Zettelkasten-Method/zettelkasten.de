@@ -14,7 +14,7 @@ end
 SITE = "output"
 
 def notify(msg)
-  system %Q{terminal-notifier -group 'Nanoc' -title "Nanoc" -message "#{msg}"}
+  Process.detach(spawn("terminal-notifier", "-group", "Nanoc", "-title", "Nanoc", "-message", msg))
 end
 
 desc "remove files in output directory"
