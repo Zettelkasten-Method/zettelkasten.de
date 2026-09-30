@@ -1,4 +1,8 @@
-#### Einrichtung des Zettelkastens auf Mac
+---
+title: "Einrichtung des Zettelkastens auf Mac"
+lang: de
+author: christian
+---
 
 **Kommentar von Sascha:** Die Anleitung für den Mac wurde von Christian erstellt. Vielen Dank an dieser Stelle. Ab jetzt übernimmt er:
 
