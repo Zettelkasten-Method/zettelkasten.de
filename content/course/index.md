@@ -3,8 +3,8 @@ title: "The Zettelkasten Method 101 LIVE Workshop"
 layout: plain
 bodyclass: online-course
 created_at: 2024-01-10 11:50:00 +0100
-description: "Next cohort in March 2025: Zettelkasten Method 101, Mastering the basics to unlock your Integrated Thinking Environment. A live workshop for 15 participants."
-updated_at: 2025-02-21 16:46:30 +0100
+description: "Next cohort to be announced: Zettelkasten Method 101, Mastering the basics to unlock your Integrated Thinking Environment. A live workshop for 15 participants."
+updated_at: 2026-09-30 16:00:00 +0200
 toc: true
 ---
 ## Mastering the Basics to Unlock Your Integrated Thinking Environment
@@ -16,7 +16,9 @@ By learning and applying the Zettelkasten Method, you will be equipped with *the
 - Come up with *solutions*, like developing marketing campaigns or business strategies.
 - Get an edge by becoming an early adopter.
 
-<%= email("saschafast@gmail.com", subject: "ZK 101 Workshop", message: "Hi Sascha!\n\nI am [YOUR NAME] and I want to secure a spot for the ZK 101 live workshop.\n\nPlease send a payment request for the EUR 399 / ca. USD 411!".uri_encoded, classes: "call-to-action coaching__action", text: "Secure a spot now") %>
+**Next cohort: to be announced.** Join the waitlist and you'll be the first to know when the doors open.
+
+<%= email("saschafast@gmail.com", subject: "ZK 101 Workshop Waitlist", message: "Hi Sascha!\n\nI am [YOUR NAME] and I want to join the waitlist for the next ZK 101 live workshop.".uri_encoded, classes: "call-to-action coaching__action", text: "Join the waitlist") %>
 
 ## About the Course Content
 
