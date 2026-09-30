@@ -14,6 +14,19 @@ submenus:
     - id: roadmap
       title: "Roadmap"
       path: "/the-archive/roadmap/"
+  education:
+    - id: education_main
+      title: "Overview"
+      path: "/education/"
+    - id: workshop
+      title: "Live Workshop"
+      path: "/course/"
+    - id: perfect_note
+      title: "The Perfect Zettel"
+      path: "/course/perfect-note/"
+    - id: members
+      title: "Members Area"
+      path: "/members-area/"
 
 main_menu:
   en:
@@ -21,22 +34,22 @@ main_menu:
       title: "Getting Started"
       path: "/overview/"
       icon: "compass"
+    - id: book
+      title: "The Book"
+      path: "/book/"
+      icon: "book"
     - id: thearchive
       title: "The Archive App"
       path: "/the-archive/"
       icon: "thearchive"
-    - id: course
-      title: "Workshop"
-      path: "/course/"
+    - id: education
+      title: "Education"
+      path: "/education/"
       icon: "monitor"
     - id: coaching
       title: "Coaching"
       path: "/coaching/"
       icon: "easel"
-    - id: members
-      title: "Members Area"
-      path: "/members-area/"
-      icon: "lock-locked"
     - id: forum
       title: "Forum"
       url: forum
@@ -50,22 +63,22 @@ main_menu:
       title: "Getting Started"
       path: "/overview/"
       icon: "compass"
+    - id: book
+      title: "Das Buch"
+      path: "/de/buch/"
+      icon: "book"
     - id: thearchive
       title: "The Archive"
       path: "/the-archive/"
       icon: "thearchive"
-    - id: course
-      title: "Workshop"
-      path: "/course/"
+    - id: education
+      title: "Education"
+      path: "/education/"
       icon: "monitor"
     - id: coaching
       title: "Coaching"
       path: "/coaching/"
       icon: "easel"
-    - id: members
-      title: "Members Area"
-      path: "/members-area/"
-      icon: "lock-locked"
     - id: forum
       title: "Forum"
       url: forum
