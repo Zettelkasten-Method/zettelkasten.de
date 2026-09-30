@@ -2,6 +2,7 @@
 title: "The Zettelkasten Method: Turn Note-Taking Into Mind Training"
 lang: en
 canonical: "/book/"
+toc: true
 description: "The in-depth manual for the Zettelkasten Method: turn simple note-taking into a deep-thinking practice that makes you smarter."
 ---
 
