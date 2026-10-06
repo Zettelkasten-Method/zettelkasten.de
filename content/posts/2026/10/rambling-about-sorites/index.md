@@ -1,6 +1,6 @@
 ---
 title: "Rambling about Sorites"
-created_at: 2026-10-06 09:00:00 +0200
+created_at: 2026-10-06 15:00:00 +0200
 kind: article
 author: "sascha"
 tags: [ thinking, structure, knowledge, integrated-thinking-environment, long-thinking-series ]
