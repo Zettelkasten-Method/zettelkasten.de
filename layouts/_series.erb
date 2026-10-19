@@ -1,0 +1,7 @@
+<% members = series_posts %>
+<% current = members.index(@item) %>
+<ol class="series__posts">
+  <% members.each_with_index do |post, i| %>
+    <li><a <%= series_link_attributes(post, i - current) %>><span><%= series_title(post) %></span></a></li>
+  <% end %>
+</ol>

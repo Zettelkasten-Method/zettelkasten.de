@@ -19,6 +19,15 @@
     </section>
   <% end %>
 
+  <% if series_posts.any? %>
+    <section id="series" class="sidebar__element series">
+      <header><%= series_label(:heading) %></header>
+      <nav aria-label="<%= series_label(:nav) %>">
+        <%= render '/_series.*' %>
+      </nav>
+    </section>
+  <% end %>
+
   <% if !@item[:sidebar_elements].nil? %>
     <% @item[:sidebar_elements].each do |element| %>
       <section class="sidebar__element">

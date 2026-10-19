@@ -15,6 +15,15 @@
                 <li class="translation"><%= Post::translator_tag_for(@item) %>
             </ul>
 
+            <% if series_posts.any? %>
+              <details class="series series--inline">
+                <summary><%= series_label(:part, series_posts.index(@item) + 1, series_posts.size) %></summary>
+                <nav aria-label="<%= series_label(:nav) %>">
+                  <%= render '/_series.*' %>
+                </nav>
+              </details>
+            <% end %>
+
             <%= Post::tom_pixel_for(@item) %>
 
             <% if @item[:canonical]&.empty? == false %>

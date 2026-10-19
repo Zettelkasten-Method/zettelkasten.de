@@ -322,6 +322,62 @@ module My
       @items.select { _1[:kind] == kind && item_lang(_1) == lang }
     end
 
+    # The `series` frontmatter value is the same in every language; these are its localized names.
+    SERIES_NAMES = {
+      "Field Report" => { de: "Erfahrungsbericht" },
+    }.freeze
+
+    SERIES_LABELS = {
+      en: {
+        heading: ->(name) { "#{name} Series" },
+        part: ->(n, total, name) { "Part #{n} of #{total} in the #{name} series" },
+        nav: ->(name) { "#{name} series" },
+      },
+      de: {
+        heading: ->(name) { "Serie: #{name}" },
+        part: ->(n, total, name) { "Teil #{n} von #{total} der Serie „#{name}“" },
+        nav: ->(name) { "Serie #{name}" },
+      },
+    }.freeze
+
+    # One post per series member, oldest first, in the item's language where translated,
+    # otherwise the original. Empty outside a series.
+    def series_posts(item = @item)
+      return [] unless item[:series]
+      lang = item_lang(item)
+      @items
+        .select { _1[:kind] == "article" && _1[:series] == item[:series] }
+        .group_by { (_1[:canonical] || _1.path).chomp("/") }
+        .values
+        .sort_by { |versions| versions.map { attribute_to_time(_1[:created_at]) }.min }
+        .map { |versions| versions.find { item_lang(_1) == lang } || versions.min_by { attribute_to_time(_1[:created_at]) } }
+    end
+
+    def series_name(item = @item)
+      SERIES_NAMES.dig(item[:series], item_lang(item)) || item[:series]
+    end
+
+    def series_label(key, *args, item: @item)
+      labels = SERIES_LABELS.fetch(item_lang(item), SERIES_LABELS[:en])
+      labels.fetch(key).call(*args, series_name(item))
+    end
+
+    # Title without a leading "<series name> #N:", which the numbered series list already shows.
+    def series_title(post)
+      post[:title].sub(/\A#{Regexp.escape(series_name(post))}(?: #\d+)?:\s*/, "")
+    end
+
+    # Attributes for a series list link, `offset` positions away from the current post.
+    def series_link_attributes(post, offset)
+      attributes = { "href" => post.path }
+      attributes["aria-current"] = "page" if offset.zero?
+      if item_lang(post) != item_lang(@item)
+        attributes["lang"] = attributes["hreflang"] = item_lang(post).to_s
+      end
+      attributes.map { |name, value| %(#{name}="#{value}") }.join(" ")
+    end
+
+
     def tags(kind = "article", lang = nil)
       tags_mtimes = {}
       posts(kind, lang).each do |post|

@@ -452,6 +452,75 @@ hr, figure, aside, table, article table {
   }
 }
 
+// Series navigation: in the sidebar on wide screens, folded under the post meta otherwise.
+// Same rail as the ToC; the number hangs so wrapped titles align.
+:is(#series, .series--inline) .series__posts {
+  --border-width: 2px;
+
+  counter-reset: series;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-wrap: pretty;
+
+  li {
+    margin: 0;
+    padding: 0;
+    counter-increment: series;
+  }
+
+  a {
+    display: grid;
+    grid-template-columns: 1.4em 1fr;
+    padding: 0.3rem 0 0.3rem 1rem;
+    line-height: 1.35;
+    color: $color-nav-muted;
+    border-left: var(--border-width) solid $color-nav-muted;
+    text-decoration: none;
+
+    &::before {
+      content: counter(series);
+      font-variant-numeric: tabular-nums;
+    }
+    &:hover {
+      color: $color-link;
+      border-left-color: $color-link;
+      text-decoration: underline;
+    }
+  }
+
+  a[aria-current="page"] {
+    font-weight: bold;
+    color: $color-text;
+    border-left-color: $color-text;
+    text-decoration: none;
+  }
+}
+
+#series { display: none; }
+
+.series--inline {
+  margin-bottom: $vrhythm;
+  font-family: $font-sans;
+  font-size: $small-size;
+
+  summary {
+    width: fit-content;
+    padding-block: 0.5rem;
+    cursor: pointer;
+  }
+  nav { margin-top: calc($vrhythm / 4); }
+}
+
+@media only screen and (min-width: $large-breakpoint) {
+  #series {
+    display: flex;
+    flex-direction: column;
+    gap: calc($vrhythm / 2);
+  }
+  .series--inline { display: none; }
+}
+
 @media only screen and (min-width: $large-breakpoint) {
   .content-container {
     grid-template-columns: [content-start] repeat(4, minmax(min(7rem, 15vw), 1fr)) [content-end sidebar-start] repeat(2, minmax(min(5rem, 8vw), 1fr)) [sidebar-end];
