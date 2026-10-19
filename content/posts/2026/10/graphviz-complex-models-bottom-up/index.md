@@ -4,6 +4,7 @@ created_at: 2026-10-20 16:00:00 +0200
 kind: article
 author: "sascha"
 tags: [ thinking, structure, research, knowledge, tool, long-thinking-series ]
+series: "Long Thinking"
 vgwort: http://vg04.met.vgwort.de/na/839a5195bfd84635a0d68c1ab5bac665
 rel_image: ./english-bulldog.webp
 description: "When you can't see the whole of a complex issue yet, model it bottom-up: keep a GraphViz note of reinforcing and balancing relationships, research each link in its own note, and let the model of the whole assemble as a byproduct."

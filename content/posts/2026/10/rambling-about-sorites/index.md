@@ -4,6 +4,7 @@ created_at: 2026-10-06 15:00:00 +0200
 kind: article
 author: "sascha"
 tags: [ thinking, structure, knowledge, integrated-thinking-environment, long-thinking-series ]
+series: "Long Thinking"
 rel_image: ./kid-playing-in-sand.webp
 description: "Another example of anchored model layering: a meta-model anchored on the freedom scale and on consciousness. Why interdisciplinary frameworks belong in your Zettelkasten, and what the Sorites paradox teaches about drawing conceptual boundaries."
 ---

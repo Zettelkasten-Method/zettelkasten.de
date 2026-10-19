@@ -4,6 +4,7 @@ created_at: 2026-09-29 13:12:00 +0200
 kind: article
 author: "sascha"
 tags: [ thinking, deep-work, structure, integrated-thinking-environment, long-thinking-series ]
+series: "Long Thinking"
 vgwort: https://vg05.met.vgwort.de/na/011617a418a748e5877072dab1b16d35
 rel_image: ./boy-playing-with-toys.webp
 description: "Having an idea is not the actual eureka moment. It is the long work that follows. Anchored model layering is a tool for that work: relate many overlapping models to each other through a shared anchor, and you get one meta-model you can keep extending across long thinking sessions."
