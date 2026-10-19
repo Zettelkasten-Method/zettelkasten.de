@@ -371,12 +371,22 @@ module My
     def series_link_attributes(post, offset)
       attributes = { "href" => post.path }
       attributes["aria-current"] = "page" if offset.zero?
+      attributes["rel"] = "prev" if offset == -1
+      attributes["rel"] = "next" if offset == 1
       if item_lang(post) != item_lang(@item)
         attributes["lang"] = attributes["hreflang"] = item_lang(post).to_s
       end
       attributes.map { |name, value| %(#{name}="#{value}") }.join(" ")
     end
 
+    def series_head_links(item = @item)
+      members = series_posts(item)
+      index = members.index(item) or return ""
+      { "prev" => index - 1, "next" => index + 1 }
+        .select { |_, i| i >= 0 && i < members.size }
+        .map { |rel, i| %(<link rel="#{rel}" href="#{members[i].path}">) }
+        .join
+    end
 
     def tags(kind = "article", lang = nil)
       tags_mtimes = {}
