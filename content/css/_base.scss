@@ -431,8 +431,8 @@ hr, figure, aside, table, article table {
   // Limit ToC link colorization to affect the immediate `li > a`, not any `a` (nested) inside.
   li > a {
     display: block;
-    color: $color-med;
-    border-left: var(--border-width) solid $color-med;
+    color: $color-nav-muted;
+    border-left: var(--border-width) solid $color-nav-muted;
     text-decoration: none;
     &:hover {
       color: $color-link;
