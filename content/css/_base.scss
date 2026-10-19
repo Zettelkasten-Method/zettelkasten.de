@@ -425,7 +425,8 @@ hr, figure, aside, table, article table {
   li > a {
     padding-left: calc(var(--indent) + 1rem);
     margin-left: calc(1 * var(--border-width));
-    padding-block: 0.25rem;
+    padding-block: 0.3rem;
+    line-height: 1.35;
   }
 
   // Limit ToC link colorization to affect the immediate `li > a`, not any `a` (nested) inside.
