@@ -4,6 +4,7 @@ created_at: 2022-01-11 18:04:40 +0100
 kind: article
 author: sascha
 tags: [ fiction, reading, note-taking, process ]
+series: "Zettelkasten Method for Fiction"
 image: 20220111180002_dogs-in-line.jpg
 vgwort: https://vg07.met.vgwort.de/na/a70a59b2380b4e05a98473682246e897
 description: "Know what you are trying to process when you process fiction, and be skilled in handling these pieces."

@@ -5,6 +5,7 @@ updated_at: 2022-01-06 09:12:58 +0100
 kind: article
 author: sascha
 tags: [ fiction, reading, note-taking, process ]
+series: "Zettelkasten Method for Fiction"
 image: 20220104182109_fiction-meet-fiction.jpg
 vgwort: https://vg07.met.vgwort.de/na/0bfdee9a9d2048689bd0cf81bc91ac36
 description: "The source does not have an influence on the nature of the knowledge you process. I demonstrate this by processing quotes from 'The Godfather'."

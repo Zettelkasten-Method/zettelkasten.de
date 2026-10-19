@@ -4,6 +4,7 @@ created_at: 2022-01-25 18:10:01 +0100
 kind: article
 author: sascha
 tags: [ fiction, writing, story ]
+series: "Zettelkasten Method for Fiction"
 image: 20220125181653_pit-bull-kisses.jpg
 vgwort: https://vg07.met.vgwort.de/na/5819a14c29aa418c822fa38bac54da6f
 description: "Creating Fiction is the same as creating non-fiction. It is about creating a linearly readable text with *some* cross-referencing."

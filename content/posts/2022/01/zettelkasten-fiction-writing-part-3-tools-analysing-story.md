@@ -5,6 +5,7 @@ updated_at: 2022-04-18 18:12:18 +0100
 kind: article
 author: sascha
 tags: [ fiction, process, toolbox, analysis ]
+series: "Zettelkasten Method for Fiction"
 image: 20220118171228_puppy.jpg
 vgwort: https://vg07.met.vgwort.de/na/c6e391064e4b43cc969f507eb10e914c
 description: "Creating examples for writing tools to write fiction, especially character sheets. These tools live in your Zettelkasten, too."
