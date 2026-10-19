@@ -116,7 +116,7 @@ $margin-content-wrapper: 3%;
 
 .content-container {
   display: grid;
-  grid-template-columns: [content-start sidebar-start] auto [sidebar-end content-end];
+  grid-template-columns: [content-start sidebar-start] minmax(0, 1fr) [sidebar-end content-end];
   grid-template-rows: [content-start] auto [content-end sidebar-start] auto [sidebar-end];
 }
 
