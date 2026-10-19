@@ -30,7 +30,7 @@ I can't guess at the whole because I don't know enough about it or its complexit
 
 So, I created a process that builds a model of the whole as a byproduct of my hyperfocusing on specific parts and their relationship. The goal of the process is to bridge the gap from narrow research to an integrated perspective on the complexity of the issue.
 
-GraphViz is a tool for creating graphs from text input. You write this:
+GraphViz is a tool for creating graphs from text input. You write this to get the graph below it:
 
 ```dot
 digraph G {
@@ -59,11 +59,7 @@ digraph G {
 }
 ```
 
-to get this:
-
-<%= insert_image file: "example.svg", title: "GraphViz rendering of the example: two clustered processes, a0 to a3 and b0 to b3, running from a start diamond to an end square with cross-links between them" %>
-
-So, I created a note that focuses on the ever-growing model. The note contains the graph code:
+So, I created a note that focuses on the ever-growing model. The note contains the graph code, which results in the graph below it:
 
 ```dot
 digraph G {
@@ -87,10 +83,6 @@ Will -> Action [label = "+"]
 }
 ```
 
-This results in that graph:
-
-<%= insert_image file: "habit-model.svg", title: "Stock-and-flow model of habits and willpower: Will, Incentives, Deterrents, Action, Energy, Reward, Conditioning, HabitAccount and related entities, linked by reinforcing (+) and balancing (−) relationships" %>
-
 In the code, you see that I link to individual notes. In these notes, I focus on establishing the connection or on precisely defining the entity that is part of the graph. I introduce the link with `//` to remove it from the graph output.
 
 For now, I am focusing on building a simple stock-and-flow model (read the book *Thinking in Systems* for a deeper inquiry) that collapses the relationship between entities into either a reinforcing ("+") or a balancing relationship ("-"). A positive relationship holds if "More X means more Y" is true; a negative relationship holds if "More X means less Y" is true.
@@ -111,7 +103,7 @@ You start with a bottom-up approach to building the model. Then you move over to
 
 This simple technique is readily integrated into your Zettelkasten and allows you to perform research on complex issues over a long period of time.
 
-For brevity, I kept it short and presented one version of this technique. This technique is part of a larger tool family for long thinking needed to deal with complex issues. But you can also use it for any complex issue. Based on this technique, I am building a structure that enables the integration of AI-automated research on investment issues. I know it is not a Zettelkasten-friendly example. My point is that this is a generalizable technique for learning and research for complex issues.
+For brevity, I kept it short and presented one version of this technique. This technique is part of a larger [tool family](https://zettelkasten.de/posts/anchored-model-layering/) for [long thinking](https://zettelkasten.de/posts/supercharging-long-thinking/) needed to deal with complex issues. But you can also use it for any complex issue. Based on this technique, I am building a structure that enables the integration of AI-automated research on investment issues. I know it is not a Zettelkasten-friendly example. My point is that this is a generalizable technique for learning and research for complex issues.
 
 **What's the verdict then?** Dealing with complex research problems is a craft. And like any craft, it can be learned, practiced, and sharpened over time.
 

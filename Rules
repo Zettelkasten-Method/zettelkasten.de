@@ -33,6 +33,8 @@ preprocess do
     end
   end
 
+  GraphvizFigure.prepare(items, deploying: config[:is_deploying])
+
   tags("article", :en).each do |tag, mtime|
     @items.create(
       "",
@@ -186,6 +188,7 @@ end
 
 compile '/posts/**/*' do
   unless item.binary? # don’t filter binary items
+    filter :graphviz_figures
     filter :erb
     filter :kramdown, KRAMDOWN_OPTS
 
