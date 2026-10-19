@@ -4,6 +4,7 @@ created_at: 2024-01-25 09:58:58 +0100
 kind: article
 author: sascha
 tags: [ Gewohnheiten, Erfahrungsbericht ]
+series: "Field Report"
 rel_image: cover.jpeg
 vgwort: https://vg04.met.vgwort.de/na/e975142fc9604e72968380014bd98440
 description: "Frage Dich zuallererst, was das Buch von Dir fordert. Das Individuum beim Individualisieren der Arbeitsweise ist die Vorliegende Quelle zur Verarbeitung, nicht du."

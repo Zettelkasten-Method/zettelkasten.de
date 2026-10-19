@@ -4,6 +4,7 @@ created_at: 2024-01-25 09:58:00 +0100
 kind: article
 author: sascha
 tags: [ field-report-series, habits ]
+series: "Field Report"
 rel_image: cover.jpeg
 vgwort: https://vg04.met.vgwort.de/na/e975142fc9604e72968380014bd98440
 description: "First, ask yourself what the source requires of you. The individual in “individualising the way of working” is the source you are processing, not you."

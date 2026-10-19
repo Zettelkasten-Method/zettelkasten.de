@@ -4,6 +4,7 @@ created_at: 2021-09-10 15:07:44 +0100
 kind: article
 author: sascha
 tags: [ workflow, field-report-series ]
+series: "Field Report"
 vgwort: https://vg09.met.vgwort.de/na/a4998569f59749c6b4831596f6b57ea2
 description: "How I use my spare time when am forced to create YouTube videos and notes"
 ---

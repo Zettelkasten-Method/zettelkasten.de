@@ -4,6 +4,7 @@ created_at: 2024-12-31 21:00:00 +0100
 kind: article
 author: "sascha"
 tags: [ field-report-series, process, reading,   ]
+series: "Field Report"
 rel_image: passive.jpeg
 vgwort: https://vg09.met.vgwort.de/na/46169377fc6d4361b3f6bbca33050b28
 description: "Don't demote yourself to a passive processing machine. Start with an intent when you process a chapter. Ask yourself: What do I want to build?"

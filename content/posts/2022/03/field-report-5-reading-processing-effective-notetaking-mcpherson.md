@@ -4,6 +4,7 @@ created_at: 2022-03-29 12:11:09 +0100
 kind: article
 author: sascha
 tags: [ field-report-series, reading, processing ]
+series: "Field Report"
 rel_image: extensive-book-biting.jpg
 vgwort: "https://vg01.met.vgwort.de/na/25c807565a6c413aa232be28a0a827db"
 description: "When you process a book into your Zettelkasten you should prepare both the book and your Zettelkasten. I set clear expectations and why I am reading a book; I review the table of content to generate a mental map; I review the table of content to generate a mental map; I plan what I will use the book for within my Zettelkasten."

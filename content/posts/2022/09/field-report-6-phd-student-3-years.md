@@ -5,6 +5,7 @@ kind: article
 author: "@jeannelking"
 author_full_name: "Jeannel King"
 tags: [ field-report-series, paper ]
+series: "Field Report"
 discussion_id: 1348
 ---
 

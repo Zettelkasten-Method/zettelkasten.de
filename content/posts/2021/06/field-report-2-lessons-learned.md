@@ -4,6 +4,7 @@ created_at: 2021-06-09 19:57:36 +0100
 kind: article
 author: "@boxcariii"
 tags: [ assemble, writing, field-report-series ]
+series: "Field Report"
 discussion_id: 1858
 ---
 ## Background

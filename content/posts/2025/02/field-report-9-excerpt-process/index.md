@@ -4,6 +4,7 @@ created_at: 2025-02-19 09:25:01 +0100
 kind: article
 author: "sascha"
 tags: [ excerpt, field-report-series, process, reading, ]
+series: "Field Report"
 rel_image: 2023-07-03-flexibel-arbeitsweise.jpg
 vgwort: https://vg07.met.vgwort.de/na/37f00ed2625f4d83949d62b8e33b899e
 description: "The conviction that you have a way of working that is best for you turns the challenge of modern knowledge work on its head: the problems do not cater to us. We have to adapt to the problem."

@@ -5,6 +5,7 @@ kind: article
 author: "@Sociopoetic"
 author_full_name: "Caleb Winebrenner"
 tags: [ field-report-series, writing, thesis ]
+series: "Field Report"
 discussion_id: 2112
 excerpt: "We users of a Zettelkasten strive for a set of ideals: that we don't only collect knowledge but integrate it and use it in the service of our own knowledge work; that use of a Zettelkasten generates new connections and insights for us in that work (as Luhmann said, as a conversation partner); that our organization of notes allows for clear thinking and organized ideas."
 ---

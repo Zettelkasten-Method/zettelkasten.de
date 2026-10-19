@@ -4,6 +4,7 @@ created_at: 2025-02-19 09:25:00 +0100
 kind: article
 author: "sascha"
 tags: [ Lesen, Verzetteln, Erfahrungsbericht, Exzerpt ]
+series: "Field Report"
 rel_image: 2023-07-03-flexibel-arbeitsweise.jpg
 vgwort: https://vg07.met.vgwort.de/na/37f00ed2625f4d83949d62b8e33b899e
 description: "Die Überzeugung, man selbst habe eine Arbeitsweise, die am besten für einen selbst ist, stellt die Herausforderung der modernen Wissensarbeit auf den Kopf: Die Probleme richten sich nicht nach uns. Wir haben uns nach dem Problem zu richten."

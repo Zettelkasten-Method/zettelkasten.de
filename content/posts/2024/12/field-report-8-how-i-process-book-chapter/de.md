@@ -4,6 +4,7 @@ created_at: 2024-12-31 21:01:00 +0100
 kind: article
 author: "sascha"
 tags: [ Lesen, Verzetteln, Erfahrungsbericht,  ]
+series: "Field Report"
 rel_image: passiv.jpeg
 vgwort: https://vg09.met.vgwort.de/na/46169377fc6d4361b3f6bbca33050b28
 description: "Degradiere Dich nicht zu einer passiven Verarbeitungsmaschine. Beginne das Verarbeiten von Kapiteln mit einer festen Absicht und frag Dich selbst: Was will ich schaffen?"

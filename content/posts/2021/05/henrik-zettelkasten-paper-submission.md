@@ -4,6 +4,7 @@ created_at: 2021-05-27 18:49:14 +0100
 kind: article
 author: "@henrikenggaard"
 tags: [ assemble, writing, publishing, field-report-series ]
+series: "Field Report"
 discussion_id: 1831
 relative_image: 2_detail.png
 ---
