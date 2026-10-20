@@ -362,9 +362,10 @@ module My
       labels.fetch(key).call(*args, series_name(item))
     end
 
-    # Title without a leading "<series name> #N:", which the numbered series list already shows.
+    # Title without a leading "<series name> #N:" or "The <series name> IV –",
+    # which the numbered series list already shows.
     def series_title(post)
-      post[:title].sub(/\A#{Regexp.escape(series_name(post))}(?: #\d+)?:\s*/, "")
+      post[:title].sub(/\A(?:The )?#{Regexp.escape(series_name(post))}(?: #\d+| [IVXLC]+)?\s*[:–-]\s*/, "")
     end
 
     # Attributes for a series list link, `offset` positions away from the current post.
