@@ -59,4 +59,4 @@ I prefer the second option because I have never experienced the value of version
 
 > If you have to long think anyway, it is pragmatic to exploit this activity to create a system of notes that can act as an integrated thinking environment.
 
-In the next articles, I will present you with a few tools for developing molecules based on my own work. Each article will contain a ready-to-use technique to support long thinking challenges. The first one is [anchored model layering](https://zettelkasten.de/posts/anchored-model-layering/).
+In the next articles, I will present you with a few tools for developing molecules based on my own work. Each article will contain a ready-to-use technique to support long thinking challenges. The first one is [anchored model layering](https://zettelkasten.de/posts/anchored-model-layering/); the second is [building complex models bottom-up with GraphViz](https://zettelkasten.de/posts/graphviz-complex-models-bottom-up/).
