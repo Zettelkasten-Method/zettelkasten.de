@@ -1,8 +1,7 @@
 ---
 title: "How to Get What You Want From Highlighting"
-created_at: 2026-10-20 16:00:00 +0200
+created_at: 2026-11-03 15:00:00 +0100
 kind: article
-publish: false
 author: "sascha"
 tags: [ reading, depth-of-processing, processing, note-taking, thinking ]
 vgwort: https://vg02.met.vgwort.de/na/47eff0268fcc4a7ba0ee94d632be5994
@@ -38,7 +37,7 @@ I give you a couple of conditions that I met:
 * I processed the traffic-light framework thoroughly. Clarity, authority, relationship, bonding --- I worked through a lot of different perspectives on that idea. The clarity-authority connection particularly interested me. This set the stage in my mind to think about the issue as a clarity problem and later connect it to independence.
 * I treat my [Zettelkasten as a mindscape for thinking](https://zettelkasten.de/posts/zettelkasten-thinking-environment/). That means that I am used to looking for connections and working with an open mind (which means allowing for [divergent thinking](https://en.wikipedia.org/wiki/Divergent_thinking)). Entering my Zettelkasten puts my mind into the right mode for having ideas.
 
-As you see, ideas don't fall from the sky. You put yourself in a position so you can actually capture them. It is a game of luck, and it is not legal to [fix the dice in your favor](https://zettelkasten.de/posts/strategic-gambling-valuable-ideas/). The whole game is about fixing dice.
+As you see, ideas don't fall from the sky. You put yourself in a position so you can actually capture them. It is a game of luck, and it is legal to [fix the dice in your favor](https://zettelkasten.de/posts/strategic-gambling-valuable-ideas/). In fact, the whole game is about fixing dice.
 
 If you highlight without writing, you never stop to think about it. This results in bad recall. The problem with the commonly held concept of recall is its close association with being tested: whether we can recall an idea when prompted *in a test situation*. But when you need to solve a problem, you might fail to apply what you already know because the problem doesn't prompt you to recall the idea. So, to make a new connection and create new knowledge, you have to recall the ideas you learned in the first place. By processing the idea, you create multiple prompts to recall the idea. It is spaced repetition but with self-created and diverse prompts instead of the same prompt over and over again.
 
